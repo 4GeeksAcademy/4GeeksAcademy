@@ -156,7 +156,7 @@ const validateProfiles = (profiles) =>
     });
 
 async function status(workingDir) {
-    const git = require("simple-git/promise");
+    const git = require("simple-git");
 
     let statusSummary = null;
     console.log("Checking git status for non-YML files.".yellow);

@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "colors": "^1.4.0",
+    "http-server": "^14.1.1",
     "js-yaml": "^4.1.0",
     "pre-commit": "^1.2.2",
     "simple-git": "^3.19.1"
   },
   "scripts": {
-    "deploy": "node generate-json.js",
+    "build": "node generate-json.js && http-server ./site/src",
     "test": "node site/test-yaml.js"
   },
   "precommit.silent": true,
