@@ -67,3 +67,21 @@ Every location has a full hands on team with -almost- full independence:
 - We have graduates that have been hired by Microsoft, Github, Ebay, Facebook and many other Forbes 500 companies.
 - You can read more about our graduates in our [outcomes](https://4geeksacademy.com/us/outcomes) and [testimonials](https://4geeksacademy.com/us/testimonials).
 - You can [see the projects they have built during the program here](https://4geeksacademy.com/us/students-and-projects).
+
+## Running this project
+
+There are two ways you can run the website, pick one:
+
+A) If you have python:
+
+```py
+$ cd site/src
+$ pip install flask && python server.py
+```
+
+B) If you have node and npm:
+
+```bash
+$ cd site/src
+$ npx -y http-server
+```
