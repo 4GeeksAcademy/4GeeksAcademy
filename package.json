@@ -1,9 +1,16 @@
 {
   "dependencies": {
+    "colors": "^1.4.0",
     "js-yaml": "^4.1.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "simple-git": "^3.19.1"
   },
   "scripts": {
-    "deploy": "node generate-json.js"
-  }
+    "deploy": "node generate-json.js",
+    "test": "node site/test-yaml.js"
+  },
+  "precommit.silent": true,
+  "pre-commit": [
+    "test"
+  ]
 }
