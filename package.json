@@ -7,7 +7,8 @@
     "simple-git": "^3.19.1"
   },
   "scripts": {
-    "build": "node generate-json.js && http-server ./site/src",
+    "build": "node generate-json.js",
+    "start": "node generate-json.js && http-server ./site/src",
     "test": "node site/test-yaml.js"
   },
   "precommit.silent": true,
