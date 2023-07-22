@@ -24,7 +24,7 @@ body {
     background-color: rgb(228, 224, 224) !important;
 }
 
-#studentProfContainer {
+.studentProfContainer {
     margin: 0 65px 0 65px !important
 }
 
@@ -33,19 +33,19 @@ body {
     border-radius: .7rem !important;
 }
 
-#studentName {
+.studentName {
     font-family: ''M PLUS Rounded 1c', sans-serif';
     font-weight: 400;
     font-size: 1.4rem;
     margin: 0 !important;
 }
 
-#motto {
-    margin: -.5rem 0 .5rem 0 !important;
+.motto {
+    margin: -.3rem 0 .5rem 0 !important;
     
 }
 
-#linkBtnIcon {
+.linkBtnIcon {
     margin: .25rem 0;
 }
 
@@ -67,11 +67,6 @@ body {
 .addProfInstructions {
     margin: 0 145px 0 145px !important;
     background-color: white;
-}
-
-#addProfHeading{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 400;
 }
 
 .modalBackdrop{

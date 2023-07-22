@@ -10,11 +10,11 @@ function Body() {
   React.useEffect(() => {
 
     const getResumes = async () => {
-      const resp = await fetch('/static/resumes.json');
+      const resp = await fetch('./static/resumes.json');
       if(resp.status == 200){
         //fill this here
         const resumeList = await resp.json();
-        console.log(resumeList)
+        console.log(resumeList[0])
         setResumes(resumeList)
       }
     }
@@ -89,9 +89,13 @@ function Body() {
             <div className='row px-5 mt-2 marginFix'>
               <input type='text' className='w-100 form-control mb-3' placeholder='Type student name to search'></input>
             </div>
-              <div className='row justify-content-center px-5' id='studentProfContainer'>
+              <div className='row justify-content-center px-5 studentProfContainer'>
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
+                {resumes.map((resume)=>{
+return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn='steve' gitHub='yancemcfinn'/>)
+                }
+                )}
               </div>
           </div>
       </main>
@@ -113,16 +117,14 @@ function Body() {
     return (
         <div className='studentRow row p-1 '>
             <div className='col-md-6 float-md-start text-secondary d-inline-block'>
-                <p id='studentName'>{props.name}</p>
-                <p id='motto'>{props.motto}</p>
+                <p className='studentName'>{props.name}</p>
+                <p className='motto'>{props.motto}</p>
             </div>
             <div className='col-md-6 float-md-end d-flex align-items-start justify-content-end py-2'>
-                {props.portfolioUrl && props.portfolioUrl != undefined ? <a href={props.portfolioUrl} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-solid fa-palette'></i> Portfolio</button></a> : null}
-                {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter' id='linkBtnIcon'></i></button></a> : null}
-                {props.linkedIn && props.linkedIn != undefined ? <a href={`https://linkedin.com/in/${props.linkedIn}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin' id='linkBtnIcon'></i></button></a> : null}
-                <button className='btn whiteBtn mx-1'><i className='fa-solid fa-file'></i> HTML</button>
-                <button className='btn whiteBtn mx-1'><i className='fa-solid fa-file-pdf'></i> PDF</button>
-                {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github' id='linkBtnIcon'></i></button></a> : null}
+                {props.portfolioUrl && props.portfolioUrl != undefined ? <a href={`https://${props.portfolioUrl}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-solid fa-palette'></i> Portfolio</button></a> : null}
+                {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter linkBtnIcon'></i></button></a> : null}
+                {props.linkedIn && props.linkedIn != undefined ? <a href={`https://linkedin.com/in/${props.linkedIn}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
+                {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github linkBtnIcon'></i></button></a> : null}
             </div>
         </div>
     )
