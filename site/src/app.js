@@ -14,7 +14,7 @@ function Body() {
       if(resp.status == 200){
         //fill this here
         const resumeList = await resp.json();
-        console.log(resumeList[0])
+        console.log(resumeList[6])
         setResumes(resumeList)
       }
     }
@@ -93,7 +93,7 @@ function Body() {
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
                 {resumes.map((resume)=>{
-return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn='steve' gitHub='yancemcfinn'/>)
+return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github}/>)
                 }
                 )}
               </div>
@@ -123,7 +123,7 @@ return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_in
             <div className='col-md-6 float-md-end d-flex align-items-start justify-content-end py-2'>
                 {props.portfolioUrl && props.portfolioUrl != undefined ? <a href={`https://${props.portfolioUrl}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-solid fa-palette'></i> Portfolio</button></a> : null}
                 {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter linkBtnIcon'></i></button></a> : null}
-                {props.linkedIn && props.linkedIn != undefined ? <a href={`https://linkedin.com/in/${props.linkedIn}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
+                {props.linkedIn && props.linkedIn != undefined ? <a href={props.linkedIn} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
                 {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github linkBtnIcon'></i></button></a> : null}
             </div>
         </div>
