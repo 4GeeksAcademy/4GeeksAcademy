@@ -1,0 +1,117 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Stefano
+    last_name: Boschetti
+    
+    # Define yourself in 4-5 words
+    motto: Searching for inspiration
+    
+    # focus
+    focus: Learning code :)
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Im an coding student looking forward to learn even more! An amateur in Html5, CSS3 and Javascript, and experienced in all sorts of graphic design.
+      I can design everything you want and soon I will develop it
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pravatar.cc
+
+    # Contact Information
+    email: tefanoboschetti@gmail.com #optional
+    phone: +58 4149202732 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Zeckrox
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Working out
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/1/1e/Unimet_logo.png
+      time: 2023 - Present
+      details: |
+        Here in 4Geeks im learning everything I need to become an Full Stack developer what means I can work in the FrontEnd and Backend of various projects. Im currently learning HTML5, CSS3, Javascript and I will learning python soon.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales consultant
+      time: 2023-2023
+      company: iCenter, Caracas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I worked in iCenter an tech store specialized in Apple devices. There I answer calls and messages from the costumers, and help costumers decide what to buy, and fix problems.
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are all of my projects, im currently learning so they're simple but they work and look nice :)
+
+    assignments:
+      - title: HTML5 Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/zeckrox-html5-form"
+        tagline: "A responsive website with an functional html5 form"
+
+      - title: Excuse generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Zeckrox/zeckrox-excuse-generator"
+        tagline: "A random excuse generator, so you can get out of every situation"
+
+      - title: Photo feed in Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/zeckrox-bootstrap-photo-feed"
+        tagline: "A responsive website of a photo feed with the style of instagram all made with bootstrap and little css"
+
+      - title: Instagram post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/zeckrox-instagram-post"
+        tagline: "My take on a Instagram post design"
+
+skills:
+    toolset:
+
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Photoshop & Illustrator
+        level: 90%
