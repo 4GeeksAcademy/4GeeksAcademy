@@ -1,0 +1,193 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Guillen
+    
+    # Define yourself in 4-5 words
+    motto: I like technology and soccer, I love wacth movies and spend time brosiwn the web looking for technology magazines.
+    
+    # focus
+    focus: Learn Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Knowledgeable IT support bringing over 6 years' experience in helpdesk support, network administration and device support.
+      Competent in using technical skills and root cause analysis techniques to resolve failures and maintain user productivity.
+      Desire for long-term position with room for career advancement.
+      IT Server, Storage & Backup designs, installs, configures, tests, manages, monitors, supports, and troubleshoots all server,
+      storage & backup components of a Data Center, disaster recovery site and other remote locations.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/a/AAcHTtdcvotuUMxFjj2thd-KOS2UyLNVETfAmAmKshI3IU6OPZpj=s288-c-no
+
+    # Contact Information
+    email: diegoguillen70@gmail.com #optional
+    phone: 239 2761477 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/diego-alejandro-guillen-hernandez-7b9a68a2
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: diegoguillen
+    
+    #twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Profesional
+
+      
+
+    # Interests or hobies
+    interests:
+      - item: soccer
+
+      - item: coding
+
+      - item: Cooking
+
+# Your previous education
+education:
+
+    - degree: BSc in Electronic and Computer
+      university: Yacambu University
+      # optional
+      university_logo: https://media.licdn.com/dms/image/D4E05AQEqourGFsiTAg/feedshare-thumbnail_720_1280/0/1667224673851?e=2147483647&v=beta&t=kK12demNx6WMZu2noSSIRqgAKu48pbI38BI4XSHQKso
+      time: 2001 - 2006
+      details: |
+        As skilled and highly trained technicians and problem solvers with an understanding of advanced engineering principles and
+        technical skills in support of engineers and other professionals engaged in developing, installing, calibrating, modifying
+        and maintaining electrical, mechanical, aerospace, agricultural, transportation, and biomedical systems. This includes
+        instruction in Field Programmable Gate Arrays (FPGA); computer systems; electronics and instrumentation; programmable
+        logic controllers (PLCs); electric, hydraulic and pneumatic control systems; actuator and sensor systems; process control;
+        robotics; applications to specific industrial tasks; and report preparation.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
