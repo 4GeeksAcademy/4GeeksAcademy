@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Corona Pestana
+    
+    # Define yourself in 4-5 words
+    motto: I'm looking for a simply satisfying life
+    
+    # focus
+    focus: Learn Fullstack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     I have been working in graphic design for three years,
+     specializing in design for social media. I'm a results-oriented
+     professional and a friend of feedback. At the moment
+     I'm turning my career towards web development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://postimg.cc/2125jwKm
+
+    # Contact Information
+    #email: a@a.com #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    linkedin: carloscopes #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carloscopes
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+      #- idiom: Spanish
+      #  level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Cooking & coffee
+
+      - item: UX Design
+
+      #- item: 
+
+# Your previous education
+education:
+    - degree: Bachelor of Communication
+      university: Universidad Católica Andrés Bello
+      # optional
+      university_logo: https://www.ucab.edu.ve/wp-content/uploads/2019/04/Logo_UCAB_3.png
+      time: 2015 - 2020
+      details: |
+        I focused my studies on the mentions of advertising
+        communications and corporate communications.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Senior Graphic Designer
+      time: January 2023 - Present
+      company: Work & Talent, Santo Domingo
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I am the graphic designer of this human
+        resources agency and I am in charge of design for social
+        networks, events and internal use.
+
+    - role: Senior Software Engineer
+      time: 2022 - 2023
+      company: Vivesmart, Miami
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       I designed for digital and print media.
+       I was the designer of the graphic line for
+       social media of this company.
+
+
+    - role: Graphic Designer
+      time: 2020 - 2022
+      company: Estudio Açaí, Venezuela
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I was the graphic designer in charge of working
+        with the clients of my social media agency.
+
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: Basic
+
+      - name: Figma
+        level: Medium
+
+      - name: Photoshop & Illustrator
+        level: Advanced
