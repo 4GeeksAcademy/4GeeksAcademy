@@ -5,21 +5,33 @@ function Body() {
   const [addProfileInst, setAddProfileInst] = React.useState('addProfInvis')
   const [modalShow, setModalShow] = React.useState('hideModal')
   const [resumes, setResumes]= React.useState([])
-  const wrench = 5
+  const [searchFilter, setSearchFilter] = React.useState("")
+  
+React.useEffect(() => {
 
-  React.useEffect(() => {
-
-    const getResumes = async () => {
-      const resp = await fetch('./static/resumes.json');
-      if(resp.status == 200){
-        //fill this here
-        const resumeList = await resp.json();
-        console.log(resumeList[6])
-        setResumes(resumeList)
+  const getResumes = async () => {
+    const resp = await fetch('./static/resumes.json');
+    if(resp.status == 200){
+      const resumeList = await resp.json();
+      console.log(resumeList)
+      setResumes(resumeList);
       }
-    }
+    };
     getResumes();
   }, [])
+
+// React.useEffect(() => {
+  // setResumes(resumes.filter(resume => resume.basic_info.first_name.includes(searchFilter)))//<--- Cannot read properties of undefined (reading 'includes')
+// }, [searchFilter])
+
+
+const handleChange = (e) => {
+
+    e.preventDefault();
+    setSearchFilter(e.target.value);
+    console.log("The search filter is: " + searchFilter)
+  
+};
 
   return (
       <main>
@@ -87,8 +99,10 @@ function Body() {
             </div>
 
             <div className='row px-5 mt-2 marginFix'>
-              <input type='text' className='w-100 form-control mb-3' placeholder='Type student name to search'></input>
+              <input type='text' value={searchFilter} onChange={handleChange} className='w-100 form-control mb-3' placeholder='Type student name to search'></input>
             </div>
+
+
               <div className='row justify-content-center px-5 studentProfContainer'>
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
