@@ -42,9 +42,6 @@ const handleChange = (e) => {
     setResumes(fullResumeList)
     let filteredResumes = fullResumeList.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))
     setResumes(filteredResumes)
-    if (e.target.value == ""){
-      setResumes(fullResumeList);
-    }
     console.log(resumes)
 };
 

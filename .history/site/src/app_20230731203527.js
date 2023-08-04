@@ -5,48 +5,25 @@ function Body() {
   const [addProfileInst, setAddProfileInst] = React.useState('addProfInvis')
   const [modalShow, setModalShow] = React.useState('hideModal')
   const [resumes, setResumes]= React.useState([])
-  const [searchFilter, setSearchFilter] = React.useState("")
-  const [fullResumeList, setFullResumeList]= React.useState([])
+  const [filter, setFilter] = React.useState('')
 
-React.useEffect(() => {
+  React.useEffect(() => {
 
-  const getResumes = async () => {
-    const resp = await fetch('./static/resumes.json');
-    if(resp.status == 200){
-      const resumeList = await resp.json();
-      console.log(resumeList)
-      setResumes(resumeList);
-      setFullResumeList(resumeList);
+    const getResumes = async () => {
+      const resp = await fetch('./static/resumes.json');
+      if(resp.status == 200){
+        //fill this here
+        const resumeList = await resp.json();
+        console.log(resumeList[6])
+        setResumes(resumeList)
       }
-    };
+    }
     getResumes();
   }, [])
-
-  // function filterResumes (filter){
-  //   let filteredResumes = resumes.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(filter))
-  //   setResumes(filteredResumes);
-  //   console.log(resumes)
-  // }
-
-  // React.useEffect(() => {
-  //  filterResumes(searchFilter)
-  // }, [searchFilter])
-
-
-
-const handleChange = (e) => {
-
-    e.preventDefault();
-    setSearchFilter(e.target.value);
-    console.log("The search filter is: " + searchFilter)
-    setResumes(fullResumeList)
-    let filteredResumes = fullResumeList.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))
-    setResumes(filteredResumes)
-    if (e.target.value == ""){
-      setResumes(fullResumeList);
-    }
-    console.log(resumes)
-};
+}
+React.useEffect(()=>{
+  setResumes(resumeList?.filter((resume=>resume.basic_info.first_name.includes(filter))))
+},[filter])
 
   return (
       <main>
@@ -114,10 +91,8 @@ const handleChange = (e) => {
             </div>
 
             <div className='row px-5 mt-2 marginFix'>
-              <input type='text' value={searchFilter} onChange={handleChange} className='w-100 form-control mb-3' placeholder='Type student name to search'></input>
+              <input type='text' value={filter} onChange={setFilter(e.target.value)} className='w-100 form-control mb-3' placeholder='Type student name to search'></input>
             </div>
-
-
               <div className='row justify-content-center px-5 studentProfContainer'>
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>

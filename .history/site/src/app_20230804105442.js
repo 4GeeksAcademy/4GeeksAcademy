@@ -6,8 +6,7 @@ function Body() {
   const [modalShow, setModalShow] = React.useState('hideModal')
   const [resumes, setResumes]= React.useState([])
   const [searchFilter, setSearchFilter] = React.useState("")
-  const [fullResumeList, setFullResumeList]= React.useState([])
-
+  
 React.useEffect(() => {
 
   const getResumes = async () => {
@@ -16,7 +15,6 @@ React.useEffect(() => {
       const resumeList = await resp.json();
       console.log(resumeList)
       setResumes(resumeList);
-      setFullResumeList(resumeList);
       }
     };
     getResumes();
@@ -39,12 +37,9 @@ const handleChange = (e) => {
     e.preventDefault();
     setSearchFilter(e.target.value);
     console.log("The search filter is: " + searchFilter)
-    setResumes(fullResumeList)
-    let filteredResumes = fullResumeList.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))
+    let filteredResumes = resumes.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))
+    console.log(resumes)
     setResumes(filteredResumes)
-    if (e.target.value == ""){
-      setResumes(fullResumeList);
-    }
     console.log(resumes)
 };
 
