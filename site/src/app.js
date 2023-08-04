@@ -20,9 +20,16 @@ React.useEffect(() => {
     getResumes();
   }, [])
 
-// React.useEffect(() => {
-  // setResumes(resumes.filter(resume => resume.basic_info.first_name.includes(searchFilter)))//<--- Cannot read properties of undefined (reading 'includes')
-// }, [searchFilter])
+  function filterResumes (filter){
+    let filteredResumes = resumes.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(filter))
+    setResumes(filteredResumes);
+    console.log(resumes)
+  }
+
+  React.useEffect(() => {
+   filterResumes(searchFilter)
+  }, [searchFilter])
+
 
 
 const handleChange = (e) => {
