@@ -22,15 +22,12 @@ React.useEffect(() => {
     getResumes();
   }, [])
 
-  // function filterResumes (filter){
-  //   let filteredResumes = resumes.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(filter))
-  //   setResumes(filteredResumes);
-  //   console.log(resumes)
-  // }
-
-  // React.useEffect(() => {
-  //  filterResumes(searchFilter)
-  // }, [searchFilter])
+  React.useEffect(() => {
+    setResumes(fullResumeList)
+    let filteredResumes = fullResumeList.filter(resume => (resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))||(resume.basic_info.last_name && resume.basic_info.last_name.toLowerCase().includes(searchFilter)))
+    setResumes(filteredResumes);
+    console.log("The search filter is: " + searchFilter);
+  }, [searchFilter])
 
 
 
@@ -38,14 +35,7 @@ const handleChange = (e) => {
 
     e.preventDefault();
     setSearchFilter(e.target.value);
-    console.log("The search filter is: " + searchFilter)
-    setResumes(fullResumeList)
-    let filteredResumes = fullResumeList.filter(resume => resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))
-    setResumes(filteredResumes)
-    if (e.target.value == ""){
-      setResumes(fullResumeList);
-    }
-    console.log(resumes)
+
 };
 
   return (
