@@ -178,7 +178,7 @@ function Body() {
                 {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter linkBtnIcon'></i></button></a> : null}
                 {props.linkedIn && props.linkedIn != undefined ? <a href={props.linkedIn} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
                 {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github linkBtnIcon'></i></button></a> : null}
-                {<button className='btn whiteBtn mx-1' /*onClick={props.onClickHTML}*/><i className='fa-solid fa-file linkBtnIcon'></i></button>}
+                {<button className='btn whiteBtn mx-1' onClick={props.onClickHTML}><i className='fa-solid fa-file linkBtnIcon'></i></button>}
             </div>
         </div>
     )

@@ -4,56 +4,38 @@
 function Body() {
   const [addProfileInst, setAddProfileInst] = React.useState('addProfInvis')
   const [modalShow, setModalShow] = React.useState('hideModal')
-  const [resumeModal, setResumeModal] = React.useState('hideModal')
   const [resumes, setResumes]= React.useState([])
   const [searchFilter, setSearchFilter] = React.useState("")
   const [fullResumeList, setFullResumeList]= React.useState([])
 
-  //useState hooks for HTML resumes
-  const [resume, setResume] = React.useState({})
-  const [firstName, setFirstName] = React.useState("Joe")
-  const [lastName, setLastName] = React.useState("Shmoe")
-
-
-  React.useEffect(() => {
-  
-    const getResumes = async () => {
-      const resp = await fetch('./static/resumes.json');
-      if(resp.status == 200){
-        const resumeList = await resp.json();
-        console.log(resumeList)
-        setResumes(resumeList);
-        setFullResumeList(resumeList);
+React.useEffect(() => {
+  const getResumes = async () => {
+    const resp = await fetch('./static/resumes.json');
+    if(resp.status == 200){
+      const resumeList = await resp.json();
+      console.log(resumeList)
+      setResumes(resumeList);
+      setFullResumeList(resumeList);
       }
     };
     getResumes();
-
 }, [])
 
-  React.useEffect(() => {
-  
-    setResumes(fullResumeList)
-      let filteredResumes = fullResumeList.filter(resume => (resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))||(resume.basic_info.last_name && resume.basic_info.last_name.toLowerCase().includes(searchFilter)))
-      setResumes(filteredResumes);
-      console.log("The search filter is: " + searchFilter);
-
+React.useEffect(() => {
+  setResumes(fullResumeList)
+    let filteredResumes = fullResumeList.filter(resume => (resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))||(resume.basic_info.last_name && resume.basic_info.last_name.toLowerCase().includes(searchFilter)))
+    setResumes(filteredResumes);
+    console.log("The search filter is: " + searchFilter);
 }, [searchFilter]);
 
 
 
-  const handleChange = (e) => {
+const handleChange = (e) => {
 
     e.preventDefault();
     setSearchFilter(e.target.value);
 
-  };
-
-  //Setting resume info for HTML resume
-  // const handleResume = (resume) => {
-  //   setFirstName(resume.basic_info.first_name)
-  //   setLastName(resume.basic_info.last_name)
-  //   setResumeModal('showModal')
-  // }
+};
 
   return (
       <main>
@@ -79,24 +61,6 @@ function Body() {
               </div>
             </div>
           </div>
-
-          {/*Resume Modal*/}
-          {/* <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
-           <div className='row justify-content-center'>
-            <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
-              <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
-                <i className='fa-solid fa-xmark'></i>
-              </div>
-            </div>
-            </div>
-            <div className = 'resumeModal'>
-              <div className = 'row'>
-                <div className = 'studentName col-md-6'>
-                  <h1>`${firstName} ${lastName}`</h1>
-                </div>
-              </div>
-            </div>
-          </div> */}
           
           {/* Main Code */}
           <div className='container'>
@@ -147,8 +111,9 @@ function Body() {
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
                 {resumes.map((resume)=>{
-                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} />)
-                })}
+return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github}/>)
+                }
+                )}
               </div>
           </div>
       </main>
@@ -178,7 +143,6 @@ function Body() {
                 {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter linkBtnIcon'></i></button></a> : null}
                 {props.linkedIn && props.linkedIn != undefined ? <a href={props.linkedIn} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
                 {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github linkBtnIcon'></i></button></a> : null}
-                {<button className='btn whiteBtn mx-1' /*onClick={props.onClickHTML}*/><i className='fa-solid fa-file linkBtnIcon'></i></button>}
             </div>
         </div>
     )

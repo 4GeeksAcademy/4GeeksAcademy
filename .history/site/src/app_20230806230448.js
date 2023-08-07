@@ -49,11 +49,11 @@ function Body() {
   };
 
   //Setting resume info for HTML resume
-  // const handleResume = (resume) => {
-  //   setFirstName(resume.basic_info.first_name)
-  //   setLastName(resume.basic_info.last_name)
-  //   setResumeModal('showModal')
-  // }
+  const handleResume = () => {
+    setFirstName(resume.basic_info.first_name)
+    setLastName(resume.basic_info.last_name)
+    setResumeModal('showModal')
+  }
 
   return (
       <main>
@@ -147,7 +147,7 @@ function Body() {
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
                 {resumes.map((resume)=>{
-                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} />)
+                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} resume = {resume}/>)
                 })}
               </div>
           </div>
@@ -178,7 +178,7 @@ function Body() {
                 {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter linkBtnIcon'></i></button></a> : null}
                 {props.linkedIn && props.linkedIn != undefined ? <a href={props.linkedIn} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
                 {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github linkBtnIcon'></i></button></a> : null}
-                {<button className='btn whiteBtn mx-1' /*onClick={props.onClickHTML}*/><i className='fa-solid fa-file linkBtnIcon'></i></button>}
+                {<button className='btn whiteBtn mx-1' onClick={setResume(props.resume)}><i className='fa-solid fa-file linkBtnIcon'></i></button>}
             </div>
         </div>
     )
