@@ -102,12 +102,12 @@ function Body() {
                 <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
-                <div className='row mt-3 text-center'>
+                <div className='row text-center'>
                   <div>
                     <img className='resumeProfImg' src={profImg}></img>
                   </div>
                 </div>
-                <div className='row text-center mt-3 mb-0'>
+                <div className='row text-center mt-5 mb-0'>
                   <h3>{`${firstName} ${lastName}`}</h3>
                   <p>{motto}</p>
                 </div>

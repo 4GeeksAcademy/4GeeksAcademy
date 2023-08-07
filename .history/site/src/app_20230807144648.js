@@ -45,29 +45,18 @@ function Body() {
 
   };
 
-  
-  //useState hooks for HTML resumes
-  const [HTMLresume, setHTMLResume] = React.useState({})
-  const [firstName, setFirstName] = React.useState('Joe');
-  const [lastName, setLastName] = React.useState('Schmoe');
-  const [motto, setMotto] = React.useState('Coding is fun!');
-  const [email, setEmail] = React.useState('email@gmail.com');
-  const [phone, setPhone] = React.useState('954-123-4567')
-  const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
-  
-  //Sets info for resume modal
+  //Setting resume info for HTML resume
   const handleResume = (resume) => {
     setResumeModal('showModal');
     setFirstName(resume.basic_info.first_name);
     setLastName(resume.basic_info.last_name);
-    setMotto(resume.basic_info.motto);
-    setEmail(resume.basic_info.email);
-    setPhone(resume.basic_info.phone);
-    setProfImg(resume.basic_info.avatar);
 
   }
 
-  
+  //useState hooks for HTML resumes
+  const [HTMLresume, setHTMLResume] = React.useState({})
+  const [firstName, setFirstName] = React.useState("Joe");
+  const [lastName, setLastName] = React.useState("Schmoe");
 
   console.log(firstName)
   return (
@@ -76,7 +65,7 @@ function Body() {
         {/* Modal Backdrop/Modal */}
           <div className = {`w-100 h-100 modalBackdrop ${modalShow}`}>
             <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-5 rounded bg-light mt-5'>
+              <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
                 <div className ='exitModal text-secondary' onClick={()=>setModalShow('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
@@ -98,21 +87,12 @@ function Body() {
           {/*Resume Modal*/}
           <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
           <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-6 rounded bg-light mt-5'>
+              <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
                 <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
-                <div className='row mt-3 text-center'>
-                  <div>
-                    <img className='resumeProfImg' src={profImg}></img>
-                  </div>
-                </div>
-                <div className='row text-center mt-3 mb-0'>
-                  <h3>{`${firstName} ${lastName}`}</h3>
-                  <p>{motto}</p>
-                </div>
-                <div className= 'row text-center'>
-                  <p><b>Email: </b>{email} &nbsp; &nbsp;<b>Phone: </b>{phone}</p>
+                <div className='row text-center mt-5 mb-2'>
+                  <h3 className='heading text-secondary'>{firstName}{lastName}</h3>
                 </div>
               </div>
             </div>

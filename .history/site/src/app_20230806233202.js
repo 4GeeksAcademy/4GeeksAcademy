@@ -8,7 +8,12 @@ function Body() {
   const [resumes, setResumes]= React.useState([])
   const [searchFilter, setSearchFilter] = React.useState("")
   const [fullResumeList, setFullResumeList]= React.useState([])
-  
+
+  //useState hooks for HTML resumes
+  const [resume, setResume] = React.useState({})
+  const [firstName, setFirstName] = React.useState("Joe")
+  const [lastName, setLastName] = React.useState("Shmoe")
+
 
   React.useEffect(() => {
   
@@ -19,8 +24,6 @@ function Body() {
         console.log(resumeList)
         setResumes(resumeList);
         setFullResumeList(resumeList);
-        setHTMLResume(resumeList[0])
-        
       }
     };
     getResumes();
@@ -45,38 +48,20 @@ function Body() {
 
   };
 
-  
-  //useState hooks for HTML resumes
-  const [HTMLresume, setHTMLResume] = React.useState({})
-  const [firstName, setFirstName] = React.useState('Joe');
-  const [lastName, setLastName] = React.useState('Schmoe');
-  const [motto, setMotto] = React.useState('Coding is fun!');
-  const [email, setEmail] = React.useState('email@gmail.com');
-  const [phone, setPhone] = React.useState('954-123-4567')
-  const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
-  
-  //Sets info for resume modal
-  const handleResume = (resume) => {
-    setResumeModal('showModal');
-    setFirstName(resume.basic_info.first_name);
-    setLastName(resume.basic_info.last_name);
-    setMotto(resume.basic_info.motto);
-    setEmail(resume.basic_info.email);
-    setPhone(resume.basic_info.phone);
-    setProfImg(resume.basic_info.avatar);
-
+  //Setting resume info for HTML resume
+  const handleResume = () => {
+    setFirstName(resume.basic_info.first_name)
+    setLastName(resume.basic_info.last_name)
+    setResumeModal('showModal')
   }
 
-  
-
-  console.log(firstName)
   return (
       <main>
 
         {/* Modal Backdrop/Modal */}
           <div className = {`w-100 h-100 modalBackdrop ${modalShow}`}>
             <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-5 rounded bg-light mt-5'>
+              <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
                 <div className ='exitModal text-secondary' onClick={()=>setModalShow('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
@@ -97,22 +82,17 @@ function Body() {
 
           {/*Resume Modal*/}
           <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
-          <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-6 rounded bg-light mt-5'>
-                <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
-                 <i className='fa-solid fa-xmark'></i>
-                </div>
-                <div className='row mt-3 text-center'>
-                  <div>
-                    <img className='resumeProfImg' src={profImg}></img>
-                  </div>
-                </div>
-                <div className='row text-center mt-3 mb-0'>
-                  <h3>{`${firstName} ${lastName}`}</h3>
-                  <p>{motto}</p>
-                </div>
-                <div className= 'row text-center'>
-                  <p><b>Email: </b>{email} &nbsp; &nbsp;<b>Phone: </b>{phone}</p>
+           <div className='row justify-content-center'>
+            <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
+              <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
+                <i className='fa-solid fa-xmark'></i>
+              </div>
+            </div>
+            </div>
+            <div className = 'resumeModal'>
+              <div className = 'row'>
+                <div className = 'studentName col-md-6'>
+                  <h1>`${resume.basic_info.first_name} ${resume.basic_info.last_name}`</h1>
                 </div>
               </div>
             </div>
@@ -153,7 +133,7 @@ function Body() {
                 </div>
                 <div>
                 <h4 className='mb-0 text-secondary'><i className='fa-solid fa-4'></i> Wait for it!</h4>
-                  <p className='pl-4'>It takes a few minutes to complete, you can follow the status on your pull request conversation, you can also check if your commit is showing already on the main repository <a target='_blank' rel='noopener noreferrer' href='https://github.com/4GeeksAcademy/student-external-profile/commits/master'>commits history</a> and your pull request should have a ✅ green check on the <a target='_blank' rel='noopener noreferrer' href='https://github.com/4GeeksAcademy/About-4Geeks-Academy/actions?query=workflow%3A%22Testing+for+Errors%22'> repository list of completed actions</a>.</p>                
+                  <p className='pl-4'>It takes a few minutes to complete, you can follow the status on your pull request conversation, you can also check if your commit is showing alreading on the main repository <a target='_blank' rel='noopener noreferrer' href='https://github.com/4GeeksAcademy/student-external-profile/commits/master'>commits history</a> and your pull request should have a ✅ green check on the <a target='_blank' rel='noopener noreferrer' href='https://github.com/4GeeksAcademy/About-4Geeks-Academy/actions?query=workflow%3A%22Testing+for+Errors%22'> repository list of completed actions</a>.</p>                
                 </div>
               <button className='btn btn-primary mb-4' onClick={()=>setAddProfileInst('addProfInvis')}>Close these instructions</button>
             </div>
@@ -167,7 +147,7 @@ function Body() {
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
                 {resumes.map((resume)=>{
-                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} HTMLonClick={()=>{ setHTMLResume(resume); handleResume(resume);}} />)
+                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} onClick={setResume(resume)} />)
                 })}
               </div>
           </div>
@@ -198,7 +178,7 @@ function Body() {
                 {props.twitter && props.twitter != undefined ? <a href={`https://twitter.com/${props.twitter}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-twitter linkBtnIcon'></i></button></a> : null}
                 {props.linkedIn && props.linkedIn != undefined ? <a href={props.linkedIn} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-linkedin linkBtnIcon'></i></button></a> : null}
                 {props.gitHub && props.gitHub != undefined ? <a href={`https://github.com/${props.gitHub}`} target='_blank'><button className='btn whiteBtn mx-1'><i className='fa-brands fa-github linkBtnIcon'></i></button></a> : null}
-                {<button className='btn whiteBtn mx-1' onClick={props.HTMLonClick}><i className='fa-solid fa-file linkBtnIcon'></i></button>}
+                {<button className='btn whiteBtn mx-1' onClick={handleResume()}><i className='fa-solid fa-file linkBtnIcon'></i></button>}
             </div>
         </div>
     )

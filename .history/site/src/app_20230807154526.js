@@ -53,7 +53,7 @@ function Body() {
   const [motto, setMotto] = React.useState('Coding is fun!');
   const [email, setEmail] = React.useState('email@gmail.com');
   const [phone, setPhone] = React.useState('954-123-4567')
-  const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
+  const [resumeProfImg, setResumeProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
   
   //Sets info for resume modal
   const handleResume = (resume) => {
@@ -63,7 +63,7 @@ function Body() {
     setMotto(resume.basic_info.motto);
     setEmail(resume.basic_info.email);
     setPhone(resume.basic_info.phone);
-    setProfImg(resume.basic_info.avatar);
+    setResumeProfImg(resume.basic_info.avatar);
 
   }
 
@@ -102,12 +102,10 @@ function Body() {
                 <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
-                <div className='row mt-3 text-center'>
-                  <div>
-                    <img className='resumeProfImg' src={profImg}></img>
-                  </div>
+                <div className='row tex-center'>
+                  <img className='resumeProfImg' src={profileImg}></img>
                 </div>
-                <div className='row text-center mt-3 mb-0'>
+                <div className='row text-center mt-5 mb-0'>
                   <h3>{`${firstName} ${lastName}`}</h3>
                   <p>{motto}</p>
                 </div>

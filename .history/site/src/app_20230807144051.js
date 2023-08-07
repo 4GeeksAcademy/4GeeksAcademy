@@ -45,29 +45,15 @@ function Body() {
 
   };
 
-  
-  //useState hooks for HTML resumes
-  const [HTMLresume, setHTMLResume] = React.useState({})
-  const [firstName, setFirstName] = React.useState('Joe');
-  const [lastName, setLastName] = React.useState('Schmoe');
-  const [motto, setMotto] = React.useState('Coding is fun!');
-  const [email, setEmail] = React.useState('email@gmail.com');
-  const [phone, setPhone] = React.useState('954-123-4567')
-  const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
-  
-  //Sets info for resume modal
-  const handleResume = (resume) => {
-    setResumeModal('showModal');
-    setFirstName(resume.basic_info.first_name);
-    setLastName(resume.basic_info.last_name);
-    setMotto(resume.basic_info.motto);
-    setEmail(resume.basic_info.email);
-    setPhone(resume.basic_info.phone);
-    setProfImg(resume.basic_info.avatar);
-
+  //Setting resume info for HTML resume
+  const handleResume = () => {
+    setResumeModal('showModal')
   }
 
-  
+  //useState hooks for HTML resumes
+  const [HTMLresume, setHTMLResume] = React.useState({})
+  const firstName = HTMLresume?.basic_info.first_name;
+  const lastName = HTMLresume.basic_info.last_name;
 
   console.log(firstName)
   return (
@@ -76,7 +62,7 @@ function Body() {
         {/* Modal Backdrop/Modal */}
           <div className = {`w-100 h-100 modalBackdrop ${modalShow}`}>
             <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-5 rounded bg-light mt-5'>
+              <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
                 <div className ='exitModal text-secondary' onClick={()=>setModalShow('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
@@ -98,21 +84,20 @@ function Body() {
           {/*Resume Modal*/}
           <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
           <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-6 rounded bg-light mt-5'>
+              <div className = 'position-relative col-md-3 rounded bg-light mt-5'>
                 <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
-                <div className='row mt-3 text-center'>
-                  <div>
-                    <img className='resumeProfImg' src={profImg}></img>
+                <div className='row text-center mt-5 mb-2'>
+                  <h3 className='heading text-secondary'>Share your commitment to code<br></br>every day for 100 days:</h3>
+                </div>
+                <div className = 'row mx-1 mb-3 text-center'>
+                  <div className='col-md-12 justify-content-center'>
+                    <a href='https://twitter.com/intent/tweet/?text=I%20am%20publicly%20committing%20to%20the%20%23100DaysOfCode%20with%20%404GeeksAcademy!&url=https%3A%2F%2Fsep.4geeksacademy.co%2F' target='_blank'><button className='btn mx-1 twitterBtn'><i className='fa-brands fa-twitter fa-xs'></i> Twitter</button></a>
+                    <a href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsep.4geeksacademy.co%2F' target='_blank'><button className='btn mx-1 facebookBtn'><i className='fa-brands fa-facebook fa-xs'></i> Facebook</button></a>
+                    <a href='https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fsep.4geeksacademy.co%2F' target='_blank'><button className='btn mx-1 linkedinBtn'><i className='fa-brands fa-linkedin fa-xs'></i> LinkedIn</button></a>
+                    <a href='https://www.reddit.com/submit/?url=https%3A%2F%2Fsep.4geeksacademy.co%2F&title=I%20am%20publicly%20committing%20to%20the%20%23100DaysOfCode%20with%20%404GeeksAcademy!' target='_blank'><button className='btn mx-1 redditBtn'><i className='fa-brands fa-reddit fa-xs'></i> Reddit</button></a>
                   </div>
-                </div>
-                <div className='row text-center mt-3 mb-0'>
-                  <h3>{`${firstName} ${lastName}`}</h3>
-                  <p>{motto}</p>
-                </div>
-                <div className= 'row text-center'>
-                  <p><b>Email: </b>{email} &nbsp; &nbsp;<b>Phone: </b>{phone}</p>
                 </div>
               </div>
             </div>
@@ -167,7 +152,7 @@ function Body() {
                 <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
                 <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
                 {resumes.map((resume)=>{
-                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} HTMLonClick={()=>{ setHTMLResume(resume); handleResume(resume);}} />)
+                  return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} HTMLonClick={()=>{ setHTMLResume(resume); handleResume();}} />)
                 })}
               </div>
           </div>
