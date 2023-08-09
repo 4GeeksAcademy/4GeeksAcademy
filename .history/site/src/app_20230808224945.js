@@ -32,8 +32,7 @@ function Body() {
     setResumes(fullResumeList)
       let filteredResumes = fullResumeList.filter(resume => (resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))||(resume.basic_info.last_name && resume.basic_info.last_name.toLowerCase().includes(searchFilter)))
       setResumes(filteredResumes);
-      console.log(resumes)
-      // console.log("The search filter is: " + searchFilter);
+      console.log("The search filter is: " + searchFilter);
 
 }, [searchFilter]);
 
@@ -56,12 +55,10 @@ function Body() {
   const [phone, setPhone] = React.useState('954-123-4567')
   const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
   const [summary, setSummary] = React.useState('I want to be a web developer')
-  const [experience, setExperience] = React.useState([]);
 
   //Sets info for resume modal
   const handleResume = (resume) => {
     setResumeModal('showModal');
-    console.log(resume)
     setFirstName(resume.basic_info.first_name);
     setLastName(resume.basic_info.last_name);
     setMotto(resume.basic_info.motto);
@@ -69,9 +66,11 @@ function Body() {
     setPhone(resume.basic_info.phone);
     setProfImg(resume.basic_info.avatar)
     setSummary(resume.basic_info.summary);
-    setExperience(resume.experiences);
   }
 
+  
+
+  console.log(firstName)
   return (
       <main>
 
@@ -100,13 +99,13 @@ function Body() {
           {/*Resume Modal*/}
           <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
           <div className='row justify-content-center'>
-              <div className = 'position-relative col-md-7 rounded bg-light my-5 resume-modal'>
+              <div className = 'position-relative col-md-6 rounded bg-light mt-5'>
                 <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
                  <i className='fa-solid fa-xmark'></i>
                 </div>
                 <div className='row mt-3 text-center'>
                   <div>
-                    {profImg != '' ?<img className='resumeProfImg' src={profImg}></img> : <img className='resumeProfImg' src='https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg'></img>}
+                    <img className='resumeProfImg' src={profImg}></img>
                   </div>
                 </div>
                 <div className='row text-center mt-3 mb-0'>
@@ -116,19 +115,8 @@ function Body() {
                 <div className= 'row text-center'>
                   <p><b>Email: </b>{email} &nbsp; &nbsp;<b>Phone: </b>{phone}</p>
                 </div>
-                <div className='row mx-3'>
+                <div className='row'>
                   <p>{summary}</p>
-                </div>
-                <div className='row mx-0'>
-                  <h3>Experience</h3>
-                  {experience.map((role)=>{
-                    return (
-                      <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{role.role}<span className='text-secondary light-text'>{`/${role.company}`}</span></h5>
-                        <p>{role.time}</p>
-                      </div>
-                    )
-                  })}
                 </div>
               </div>
             </div>
@@ -180,9 +168,11 @@ function Body() {
 
 
               <div className='row justify-content-center px-5 studentProfContainer'>
-                {resumes != [] ? resumes.map((resume)=>{
+                <StudentListing name='Smitty Werbenjaegermanjansen' motto='he was #1' portfolioUrl='http://github.com' linkedIn='steve' gitHub='yancemcfinn'/>
+                <StudentListing name='Elongated Muskrat' motto='sdibdsgdsgub' linkedIn='seanmcole' twitter='elonmusk'/>
+                {resumes.map((resume)=>{
                   return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} HTMLonClick={()=>{ setHTMLResume(resume); handleResume(resume);}} />)
-                }) : <div><p><i>Theres is nothing to show</i></p></div>}
+                })}
               </div>
           </div>
       </main>

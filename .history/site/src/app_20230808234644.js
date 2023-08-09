@@ -32,8 +32,7 @@ function Body() {
     setResumes(fullResumeList)
       let filteredResumes = fullResumeList.filter(resume => (resume.basic_info.first_name && resume.basic_info.first_name.toLowerCase().includes(searchFilter))||(resume.basic_info.last_name && resume.basic_info.last_name.toLowerCase().includes(searchFilter)))
       setResumes(filteredResumes);
-      console.log(resumes)
-      // console.log("The search filter is: " + searchFilter);
+      console.log("The search filter is: " + searchFilter);
 
 }, [searchFilter]);
 
@@ -72,6 +71,9 @@ function Body() {
     setExperience(resume.experiences);
   }
 
+  
+
+  console.log(firstName)
   return (
       <main>
 
@@ -180,9 +182,9 @@ function Body() {
 
 
               <div className='row justify-content-center px-5 studentProfContainer'>
-                {resumes != [] ? resumes.map((resume)=>{
+                {resumes != null ? resumes.map((resume)=>{
                   return (<StudentListing name={`${resume.basic_info.first_name} ${resume.basic_info.last_name}`} motto={resume.basic_info.motto} portfolioUrl={resume.basic_info.website} twitter={resume.basic_info.twitter} linkedIn={resume.basic_info.linkedin} gitHub={resume.basic_info.github} HTMLonClick={()=>{ setHTMLResume(resume); handleResume(resume);}} />)
-                }) : <div><p><i>Theres is nothing to show</i></p></div>}
+                }) : <p><i>Theres is nothing to show</i></p>}
               </div>
           </div>
       </main>

@@ -121,7 +121,7 @@ body {
 }
 
 .resume-Modal {
-    height: 80vh;
+    height: 100vh;
     background-color: white;
     overflow-y: scroll;
 }
@@ -131,9 +131,5 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 100%;
-}
-
-.light-text {
-    font-weight: 200;
 }
 
