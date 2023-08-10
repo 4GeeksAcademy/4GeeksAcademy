@@ -62,7 +62,7 @@ function Body() {
   //Sets info for resume modal
   const handleResume = (resume) => {
     setResumeModal('showModal');
-    console.log(resume)
+    console.log(resume.id)
     setFirstName(resume.basic_info.first_name);
     setLastName(resume.basic_info.last_name);
     setMotto(resume.basic_info.motto);
@@ -73,20 +73,7 @@ function Body() {
     setExperience(resume.experiences);
     setProjects(resume.projects.assignments);
   }
-//checks profile image url and returns True if http request status is 200, False if other (likely means error)
-function checkImage(url) {
-  var request = new XMLHttpRequest();
-  request.open("GET", url, true);
-  request.send();
-  request.onload = function() {
-    if (request.status == 200) //if(statusText == OK)
-    {
-      return true;
-    } else {
-      return false;
-    }
-  }
-}
+
   return (
       <main>
 

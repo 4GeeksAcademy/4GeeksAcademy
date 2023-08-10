@@ -121,7 +121,7 @@ function checkImage(url) {
                 </div>
                 <div className='row mt-3 text-center'>
                   <div>
-                    {profImg != '' ?<img className='resumeProfImg' src={profImg}></img> : <img className='resumeProfImg' src='https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg'></img>}
+                    {checkImage(profImg) == true ?<img className='resumeProfImg' src={profImg}></img> : <img className='resumeProfImg' src='https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg'></img>}
                   </div>
                 </div>
                 <div className='row text-center mt-3 mb-0'>

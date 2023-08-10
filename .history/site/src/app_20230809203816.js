@@ -57,12 +57,11 @@ function Body() {
   const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
   const [summary, setSummary] = React.useState('I want to be a web developer')
   const [experience, setExperience] = React.useState([]);
-  const [projects, setProjects] = React.useState([]);
 
   //Sets info for resume modal
   const handleResume = (resume) => {
     setResumeModal('showModal');
-    console.log(resume)
+    console.log(resume.id)
     setFirstName(resume.basic_info.first_name);
     setLastName(resume.basic_info.last_name);
     setMotto(resume.basic_info.motto);
@@ -71,22 +70,8 @@ function Body() {
     setProfImg(resume.basic_info.avatar)
     setSummary(resume.basic_info.summary);
     setExperience(resume.experiences);
-    setProjects(resume.projects.assignments);
   }
-//checks profile image url and returns True if http request status is 200, False if other (likely means error)
-function checkImage(url) {
-  var request = new XMLHttpRequest();
-  request.open("GET", url, true);
-  request.send();
-  request.onload = function() {
-    if (request.status == 200) //if(statusText == OK)
-    {
-      return true;
-    } else {
-      return false;
-    }
-  }
-}
+
   return (
       <main>
 
@@ -141,17 +126,6 @@ function checkImage(url) {
                       <div className='row my-2 mx-2 px-2 border-start border-3'>
                         <h5 className='mb-0'>{role.role}<span className='text-secondary light-text'>{`/${role.company}`}</span></h5>
                         <p>{role.time}</p>
-                      </div>
-                    )
-                  })}
-                </div>
-                <div className='row mx-0'>
-                  <h3>Projects</h3>
-                  {projects.map(project=>{
-                    return (
-                      <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{project.title}</h5>
-                        <p>{project.tagline}</p>
                       </div>
                     )
                   })}
