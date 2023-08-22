@@ -132,11 +132,12 @@ function setDefaultProfImg(img){
                   {summary != '' && <p>{summary}</p>}
                 </div>
                 <div className='row mx-0'>
-                  {education.length != 0 && education != null && <h3>Education</h3>}
-                  {education.length != 0 && education != null && education.map((school)=>{
+                  {education.length != 0 && <h3>Education</h3>}
+                  {education.length != 0 && education.map((school)=>{
                     return (
                       <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{school.degree}<span className='text-secondary light-text'>{`/${school.university}`}</span></h5>
+                        <h3 className='mb-0'>{school.degree}</h3>
+                        <h5>{school.university}</h5>
                         <p>{school.time}</p>
                       </div>
                     )

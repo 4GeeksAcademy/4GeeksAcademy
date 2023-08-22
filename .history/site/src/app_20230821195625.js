@@ -66,9 +66,8 @@ function Body() {
     resume.basic_info.motto && setMotto(resume.basic_info.motto);
     resume.basic_info.email && setEmail(resume.basic_info.email);
     resume.basic_info.phone && setPhone(resume.basic_info.phone);
-    {resume.basic_info.avatar? setProfImg(resume.basic_info.avatar) : setProfImg('https://asset.brandfetch.io/idd_jh_3Hq/idhhtu8T9K.jpeg?updated=1687724356779')}
+    resume.basic_info.avatar && setProfImg(resume.basic_info.avatar)
     resume.basic_info.summary && setSummary(resume.basic_info.summary);
-    resume.education && setEducation(resume.education);
     resume.experiences && setExperience(resume.experiences);
     resume.projects.assignments && setProjects(resume.projects.assignments);
   }
@@ -112,35 +111,24 @@ function setDefaultProfImg(img){
                     <img className='resumeProfImg' onError={setDefaultProfImg} src={profImg} />
                   </div>
                 </div>
-                <div className='row text-center mt-3'>
-                  <h3 className='p-0 m-0'>{`${firstName} ${lastName}`}</h3>
-                  <i>{motto}</i>
+                <div className='row text-center mt-3 mb-0'>
+                  <h3>{`${firstName} ${lastName}`}</h3>
+                  <p><i>{motto}</i></p>
                 </div>
-                <div className= 'flex-row w-100 text-center d-inline-flex justify-content-center my-2'>
+                <div className= 'row text-center d-flex justify-content-center'>
                   {email != '' && 
-                    <div className='px-1'>
-                      <b>Email: </b>{email}
+                    <div className='p-0'>
+                      <p><b>Email: </b>{email}</p>
                     </div>
                   }
                   {phone !='' &&
-                    <div className='px-1'>
-                      <b>Phone: </b>{phone}
+                    <div className='p-0'>
+                      <p><b>Phone: </b>{phone}</p>
                     </div>
                   }
                 </div>
                 <div className='row mx-3'>
                   {summary != '' && <p>{summary}</p>}
-                </div>
-                <div className='row mx-0'>
-                  {education.length != 0 && education != null && <h3>Education</h3>}
-                  {education.length != 0 && education != null && education.map((school)=>{
-                    return (
-                      <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{school.degree}<span className='text-secondary light-text'>{`/${school.university}`}</span></h5>
-                        <p>{school.time}</p>
-                      </div>
-                    )
-                  })}
                 </div>
                 <div className='row mx-0'>
                   {experience.length != 0 && <h3>Experience</h3>}

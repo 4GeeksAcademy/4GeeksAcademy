@@ -48,12 +48,11 @@ function Body() {
   const [HTMLresume, setHTMLResume] = React.useState({})
   const [firstName, setFirstName] = React.useState('Joe');
   const [lastName, setLastName] = React.useState('Schmoe');
-  const [motto, setMotto] = React.useState('');
-  const [email, setEmail] = React.useState('');
-  const [phone, setPhone] = React.useState('');
-  const [profImg, setProfImg] = React.useState('')
-  const [summary, setSummary] = React.useState('');
-  const [education, setEducation] = React.useState([])
+  const [motto, setMotto] = React.useState('Coding is fun!');
+  const [email, setEmail] = React.useState('email@gmail.com');
+  const [phone, setPhone] = React.useState('954-123-4567')
+  const [profImg, setProfImg] = React.useState('https://www.physiorehabgroup.co.nz/wp-content/uploads/generic-profile-square-580x580.jpg')
+  const [summary, setSummary] = React.useState('I want to be a web developer')
   const [experience, setExperience] = React.useState([]);
   const [projects, setProjects] = React.useState([]);
 
@@ -66,9 +65,8 @@ function Body() {
     resume.basic_info.motto && setMotto(resume.basic_info.motto);
     resume.basic_info.email && setEmail(resume.basic_info.email);
     resume.basic_info.phone && setPhone(resume.basic_info.phone);
-    {resume.basic_info.avatar? setProfImg(resume.basic_info.avatar) : setProfImg('https://asset.brandfetch.io/idd_jh_3Hq/idhhtu8T9K.jpeg?updated=1687724356779')}
+    resume.basic_info.avatar && setProfImg(resume.basic_info.avatar)
     resume.basic_info.summary && setSummary(resume.basic_info.summary);
-    resume.education && setEducation(resume.education);
     resume.experiences && setExperience(resume.experiences);
     resume.projects.assignments && setProjects(resume.projects.assignments);
   }
@@ -112,35 +110,15 @@ function setDefaultProfImg(img){
                     <img className='resumeProfImg' onError={setDefaultProfImg} src={profImg} />
                   </div>
                 </div>
-                <div className='row text-center mt-3'>
-                  <h3 className='p-0 m-0'>{`${firstName} ${lastName}`}</h3>
-                  <i>{motto}</i>
+                <div className='row text-center mt-3 mb-0'>
+                  <h3>{`${firstName} ${lastName}`}</h3>
+                  <p><i>{motto}</i></p>
                 </div>
-                <div className= 'flex-row w-100 text-center d-inline-flex justify-content-center my-2'>
-                  {email != '' && 
-                    <div className='px-1'>
-                      <b>Email: </b>{email}
-                    </div>
-                  }
-                  {phone !='' &&
-                    <div className='px-1'>
-                      <b>Phone: </b>{phone}
-                    </div>
-                  }
+                <div className= 'row text-center'>
+                  <p><b>Email: </b>{email} &nbsp; &nbsp;<b>Phone: </b>{phone}</p>
                 </div>
                 <div className='row mx-3'>
-                  {summary != '' && <p>{summary}</p>}
-                </div>
-                <div className='row mx-0'>
-                  {education.length != 0 && education != null && <h3>Education</h3>}
-                  {education.length != 0 && education != null && education.map((school)=>{
-                    return (
-                      <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{school.degree}<span className='text-secondary light-text'>{`/${school.university}`}</span></h5>
-                        <p>{school.time}</p>
-                      </div>
-                    )
-                  })}
+                  <p>{summary}</p>
                 </div>
                 <div className='row mx-0'>
                   {experience.length != 0 && <h3>Experience</h3>}
@@ -158,7 +136,7 @@ function setDefaultProfImg(img){
                   {projects.length != 0 && projects.map(project=>{
                     return (
                       <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{project.title} <a href={project.link}><i class="fa-solid fa-up-right-from-square fa-xs"></i></a></h5>
+                        <h5 className='mb-0'>{project.title}</h5>
                         <p>{project.tagline}</p>
                       </div>
                     )
