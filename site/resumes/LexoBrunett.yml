@@ -20,29 +20,28 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      My name is Lex Brunett, I’m a Mechatronics Engineer. 
+      I´m passionate about, research, automation, and problem-solving with high impact and innovative solutions. 
+      Worked as an intern in four biotechnological and industrial companies, 
+      I'm fluent in three languages and I'm deeply prepared in robotics, electronics, and automation. 
+      My constant practice led me to win various national and international competitions and to volunteer as a teacher and technician in different charity foundations. 
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://avatars.githubusercontent.com/u/56777101?s=400&u=8b21770511de908385e2049fb4d17be44a0d2c7f&v=4
     # Contact Information
     email: lexmiguelbrunet11@hotmail.com #optional
-    phone: +1 224 #optional
+    phone: +1 224 428 4738 #optional
     website: https://beacons.ai/lexobrunett #optional
   
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: juancarloshernandez
+    github: LexoBrunett
 
-    linkedin: https://www.linkedin.com/in/lexbrunettchavez/
+    linkedin: lexbrunettchavez
     
-    twitter: ideografiko.com
-    stack-overflow: 
+    twitter: Lexobrunett
+    stack-overflow: https://stackoverflow.com/users/16256686/lexobrunett
 
 
     # languages you speak, levels inculde: Native, Professional
@@ -51,18 +50,18 @@ basic_info:
         level: Native
 
       - idiom: English
-        level: Basic
+        level: Professional
 
-      - idiom: Italian
-        level: Basic
+      - idiom: French
+        level: Medium
 
     # Interests or hobies
     interests:
       - item: Dataviz
 
-      - item: Marketing
+      - item: Gaming
 
-      - item: Visual comunication
+      - item: Robotics
 
 # Your previous education
 education:
