@@ -106,8 +106,8 @@ function setDefaultProfImg(img){
           <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
           <div className='row justify-content-center'>
               <div className = 'position-relative col-md-7 rounded bg-light my-5 resume-modal'>
-                <div className ='exitModal text-secondary d-flex flex-row-reverse px-2' onClick={()=>setResumeModal('hideModal')}>
-                 <i className='fa-solid fa-xmark float-right'></i>
+                <div className ='exitModal text-secondary float-right' onClick={()=>setResumeModal('hideModal')}>
+                 <i className='fa-solid fa-xmark'></i>
                 </div>
                 <div className='row mt-3 text-center'>
                   <div>

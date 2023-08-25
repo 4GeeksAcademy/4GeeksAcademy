@@ -106,8 +106,8 @@ function setDefaultProfImg(img){
           <div className = {`w-100 h-100 modalBackdrop ${resumeModal}`}>
           <div className='row justify-content-center'>
               <div className = 'position-relative col-md-7 rounded bg-light my-5 resume-modal'>
-                <div className ='exitModal text-secondary d-flex flex-row-reverse px-2' onClick={()=>setResumeModal('hideModal')}>
-                 <i className='fa-solid fa-xmark float-right'></i>
+                <div className ='exitModal text-secondary' onClick={()=>setResumeModal('hideModal')}>
+                 <i className='fa-solid fa-xmark'></i>
                 </div>
                 <div className='row mt-3 text-center'>
                   <div>
@@ -160,7 +160,7 @@ function setDefaultProfImg(img){
                   {projects.length != 0 && projects.map(project=>{
                     return (
                       <div className='row my-2 mx-2 px-2 border-start border-3'>
-                        <h5 className='mb-0'>{project.title} {project.link && project.link[0] != '#' && <a href = {project.link}><i class="fa-solid fa-up-right-from-square fa-xs"></i></a>}</h5>
+                        <h5 className='mb-0'>{project.title} <a href={project.link}><i class="fa-solid fa-up-right-from-square fa-xs"></i></a></h5>
                         <p>{project.tagline}</p>
                       </div>
                     )
@@ -169,13 +169,12 @@ function setDefaultProfImg(img){
                 <div className='row mx-0'>
                   {skills.length != 0 && <h3>Skills</h3>}
                   {skills.length != 0 && skills.map((skill)=>{
-                    let level = parseInt(skill.level)
                     return (
                       <div className='row my-2'>
-                        <h6 className='mb-1'>{skill.name}<span className='text-secondary light-text'>{`/ ${skill.level}`}</span></h6>
+                        <h5 className='mb-0'>{skill.name}</h5>
                         <div className='col-4'>
-                          <div className='progress'>
-                            <div className='progress-bar' role='progressbar' style={{width: level + '%'}}  aria-valuenow={level} aria-valuemin='0' aria-valuemax='100'></div>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style={`width: ${skill.level}`} aria-valuenow={skill.level.pop()} aria-valuemin="0" aria-valuemax="100"></div>
                           </div>
                         </div>
                       </div>
