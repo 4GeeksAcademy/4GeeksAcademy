@@ -175,13 +175,13 @@ projects:
 skills:
     toolset:
       - name: Python & Flask
-        level: 70%
+        level: 10%
 
       - name: Javascript
-        level: 70%
+        level: 10%
 
       - name: React
-        level: 50%
+        level: 0%
 
       - name: HTML5 & CSS
         level: 95%
@@ -193,4 +193,4 @@ skills:
         level: 70%
 
       - name: PostgreSQL
-        level: 70%
+        level: 10%
