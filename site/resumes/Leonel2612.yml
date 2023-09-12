@@ -47,7 +47,7 @@ basic_info:
       - idiom: Spanish
         level: Native
 
-education:
+education Degree:
     - degree: Full Stack Web Developer
       university: 4Geeks Academy
       time: 2023 - present
