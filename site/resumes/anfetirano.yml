@@ -1,0 +1,51 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+
+    first_name: Andres Felipe 
+    last_name: Tirano
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: Aspiring Junior Full-Stack Developer eager to kickstart a career in web development. Proficient in front-end technologies, including HTML, CSS, and JavaScript, and actively developing skills in back-end programming. Enthusiastic about building user-friendly interfaces and excited to delve deeper into server-side development. Committed to continuous learning, open-source contributions, and staying up-to-date with industry best practices. Seeking opportunities to collaborate, grow, and make a positive impact in the world of web development. |
+      
+
+    
+    
+    email: andres@tirano.co
+    # phone: +57 3505058584
+    # website: tirano.co 
+    linkedin: https://www.linkedin.com/in/andres-felipe-tirano-vasquez-b9b966a6/
+    
+    
+    github: anfetirano
+    
+    twitter: 'anfetirano' 
+    
+
+    
+    languages:
+      - idiom: English
+        level: intermediate
+      - idiom: Spanish
+        level: native
+
+    
+    interests:
+      - item: fishing
+
+      - item: Health & wellness
+
+      - item: learn
+
+
+
+
+
