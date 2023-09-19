@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yeniffer
+    last_name: Tejeda
+    
+    # Define yourself in 4-5 words
+    motto: I like camping and walking my dog
+    
+    # Focus
+    focus: Learning new skills 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I started working at the age of 18, have done jobs from direct sales, customer service, to my latest accounting role. I have a very dynamic 
+      experience in both call-center and direct sales setting. Highly professional--dependable, reliable and able to perform duties with minimal supervision.
+      For the past 3 years, I have accrued new accounting skills and have professional experience in Accounts Payable setting: paid and handled over 50 vendor accounts,
+      kept files up-to-date and accurately. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRTdh3_qWnOdH9xd7FRGg7QOInUHFsEDw9Xq2OeO6iBF2mP-NiIK4P7zymBOD6pC6OTX9SIILeyUhO9-CY
+
+    # Contact Information
+    email: yeniffer.tejeda001@gmail.com #optional
+    phone: 612 280 9955 #optional
+    linkedin: Yeniffer Tejeda #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yenytm
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Camping & hiking
+
+      - item: Traveling
+
+      - item: Eating
+
+# Your previous education
+education:
+    - degree: AS International Relations
+      university: Miami Dade College
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2020
+      details: |
+        Learnt beginner German and French & current political affairs and economics.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Accounting Clerk
+      time: 2020 - Present
+      company: Miami, FL
+      # optional
+      details: |
+        In charge of keeping vendors info up to date, paying on time, posting on a timely manner.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Some projects I've done since starting my programming carreer on AUgust 2023.
+
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://yenytm.github.io/exercise-postcard/"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: IG Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://4geeksacademy.github.io/yenytm-instagram-post/"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: IG Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://4geeksacademy.github.io/yenytm-ig-feed/"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 70%
+
