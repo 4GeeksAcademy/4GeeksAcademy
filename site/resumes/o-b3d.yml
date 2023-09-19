@@ -1,0 +1,69 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Obed
+    last_name: Gonzalez
+    summary: |
+        This is my first attempt at writing a bio, so there might not be much I can write at this exact moment, but I will definitely be back to write something more inspirational
+
+    # Sidebar links
+    phone: 012 345 6789
+    website: #do not add http://
+    github: o-b3d
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Bilingual
+
+    interests:
+      - item: Self-Hosting Applications
+      - item: Networking
+      - item: Docker
+
+education:
+    - certifications: CompTia A+
+
+experiences:
+    - role: System Administrator
+      time: 2016 - Present
+      details: |
+        Maintain day-to-day operations any and all information technology at a local small business
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Mail in a Box
+        link: "#"
+        tagline: "Created a self-hosted instance of email using a VPS for my domain, ogtesting.com"
+
+      - title: Vaultwarden
+        link: "#"
+        tagline: "A self-hosted application that can be used as a password manager for personal and enterprise use"
+
+skills:
+    toolset:
+      - name: Active Directory
+        level: Pretty good
+
+      - name: Ubuntu
+        level: Learned a bit
+
+      - name: Docker
+        level: Definitely understand
+
+      - name: HTML & CSS
+        level: Work in progress!
