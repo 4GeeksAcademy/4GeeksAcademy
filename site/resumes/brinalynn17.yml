@@ -1,0 +1,178 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sabrina
+    last_name: Hill
+    
+    # Define yourself in 4-5 words
+    motto: I love to travel!
+    
+    # Focus
+    focus: Being better than yesterday!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Dynamic, results-oriented IT Project Analyst with demonstrated strengths in Application Development, Network Administration, Business/Systems Analysis, Complex Problem Management, Risk Identification/Management, Testing, Reporting, Change Management, Quality Initiatives, Project Management, Technical Writing/Documentation, Training, and Business Process Improvement. Experienced in all phases of business-critical project development, from requirements definition to post implementation support with remarkable deadline sensitivity. 
+      
+      Proven track record of effectively providing senior leadership with insight and strategic support to establish goals and measure performance to ensure optimal decision making. Strong interpersonal and communication skills, able to translate between business-focused and technical-focused stakeholders at all levels to ensure advancement of projects. Extremely organized, team player with proven ability to meet and/or exceed internal and client demands, expectations and deadlines. Consistently deliver high visibility projects on-time within budget. Recognized for consistent ability to exceed performance expectations. 
+      
+      Technical Skills: Microsoft Office (Word, Excel, PowerPoint, Outlook), SharePoint, and ACSR/CSG
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: brinalynn@hotmail.com #optional
+    phone: 754 201 0344 #optional
+    website: u4rictravels.com #optional
+    linkedin: https://www.linkedin.com/in/sabrinahill #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: brinalynn17
+    
+    twitter: 'n/a' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Travel
+
+      - item: Live Music
+
+      - item: Sporting Events
+
+# Your previous education
+education:
+    - degree: Bachelor of Science Degree in Information Technology, Gamma Beta Phi Honor Society
+      university: American InterContinental University # optional
+      university_logo: https://www.aiuniv.edu/campus-locations
+      time: 2004 - 2005
+      details: |
+         Through the use of the Visual Basic programming language, I learned the basics of computer programming including methodologies, structures, and user interfaces, as well as more advanced programming concepts like searching, sorting, and object-oriented programming.  Other programming languages, such as JavaScript, HTML, CSS, and SQl was included for individual or group projects.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Associate of Science Degree in Computer Programming
+      university: Florida Career College
+      # optional
+      university_logo: https://www.floridacareercollege.edu/
+      time: 2002 - 2004
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Associate of Science Degree in Information Systems 
+      university: Florida Career College # optional
+      university_logo: https://www.floridacareercollege.edu/
+      time: 2005 - 2005
+      details: |
+        The associate program taught me to define, analyze, and discover technology solutions in preparation for entry-level roles in technical settings. Designed to allow specialization in Computer Networking, Computer Science, Information Technology Management.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Manager, Customer Services
+      time: 2006 - December 2022
+      company: Comcast, Miramar, Florida
+      # optional
+      company_logo: https://images.unsplash.com/photo-1649037094955-5e623c4e04f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbWNhc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60
+      details: |
+        Promoted to manage customer experience operations in a call center receiving more than 30,000 calls per month regarding billing issues. Provided leadership to a staff of 8 supervisors and 120 staff members with emphasis on achieving a range of sales, service and operational business goals, while ensuring the Comcast Quality Experience to retain business. Administered and directed customer service, quality, performance objectives, productivity, strategic planning, and call management performance improvement.  
+
+          - Effectively provided management with financial insight and strategic support to establish goals and measure performance of the organization’s projects and objectives to ensure optimal decision making. 
+          - Worked with end-users in implementing business solutions to produce high quality processes that met/exceeded expectations. 
+          - Conducted workflow analyses and made recommendations for implementing improvements related to business processes. 
+          - Ran reports to monitor trends in KPIs, attendance and customer feedback to identify breaks in processes or procedures and utilized data to drive continuous improvement in customer experience. 
+
+    - role: Software Programmer
+      time: 2004 - 2005
+      company: InteleTech Corporation of America
+      # optional
+      company_logo: 
+      details: |
+        Member of the IT team contributing to programming, technical support and network administration functions for internal users in a Windows environment. Areas of accountability encompassed application systems support, hardware services support, enterprise solutions, project management, vendor management, change management, information security, disaster recovery, documentation, business continuity planning, and user education.
+
+          - Worked with Microsoft Access and SQL in writing queries to retrieve, manipulate, and manage data within Access databases. 
+          - Designed and optimized database schemas, created tables, defined relationships, and implemented data validation rules. 
+          - Conducted data modeling relational and worked with multi-dimensional databases. 
+          - Assisted in the implementation of an inventory tracking system for 150,000 SKUs using Visual Basic 6.0, Access and SQL.
+
+
+    - role: Supply Chain and  Logistics
+      time: 1987 - 1993
+      company: United States Air Force
+      # optional
+      company_logo: https://images.unsplash.com/photo-1643392873687-783ecb05dd1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+      details: |
+        Directs the movement of personnel and equipment to support wartime activities across the globe. Manages support agreements and war reserve assets to support wartime deployments and readiness exercises. Kept track of advanced aircraft to the nuts and bolts that hold them together, Organized and delivered virtually everything that's was needed to maintain Air Force superiority.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
