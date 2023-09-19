@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Martín
+    last_name: Nusspaumer
+    motto: Coding and Opera
+    avatar: https://avatars.githubusercontent.com/klassicstudio
+    summary: |
+        I have three passions in life, family (always first), music and technology.
+
+    # Sidebar links
+    email: dev@klassicstudio.com
+    phone: 012 345 6789
+    website: klassicstudio.com #do not add http://
+    github: KlassicStudio
+    twitter: '@TenorNusspaumer'
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Spend time with my wife and daughter
+      - item: Macroeconomics
+      - item: Bitcoin Maxi
+      - item: Music in general
+      - item: Traveling and singing around the world
+      - item: New Technologies
+
+
+education:
+    - degree: Electronic Engineer
+      university: UTU (Uruguay)
+      time: 1994 - 2002
+
+    - degree: Artist Certificate Program
+      university: College of Charleston, SC
+      time: 2006 - 2008
+
+experiences:
+    - role: CTO
+      time: 2019 - Present
+      company: HeartOut
+      details: |
+        Overseeing and collaborating with developers while working on different projects for the company.
+
+        The HeartOut app is native in iOS and Android with a backend in Ruby on Rails.
+
+          - Ruby on Rails
+          - iOS
+          - Android
+
+    - role: Website Developer
+      time: 2008 - Present
+      company: Freelance
+      details: |
+        Building websites since 2008.
+
+          - Bullet point
+          - Bullet point
+
+
+skills:
+    toolset:
+      - name: Premiere & After Effects
+
+      - name: Photoshop & XD
+  
+      - name: HTML5 & CSS
+
+      - name: Ruby on Rails
+
+      - name: Flutter
