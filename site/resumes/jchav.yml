@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jenn
+    last_name: Chavarria
+    
+    # Define yourself in 4-5 words
+    motto: I like the view from the front end
+    
+    # Focus
+    focus: Becoming better in Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I went from being an administrative assitant to becoming a full time stay at home mom.
+      While being at home I knew I wanted a job that could be done remotely without interfering
+      with my family time especially time with my kids. I came across a coding course and I took it 
+      as a sign. I quickly registered and here I am, beginning to fulfill my dream.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pyxis.nymag.com/v1/imgs/e23/394/dea8a6f0b6fe464969f038e2d1427423d1-selena-gomez.1x.rsquare.w1400.jpg
+
+    # Contact Information
+    email: jchav1996@jennco.com #optional
+    phone: 925 010 1031 #optional
+    website: https://github.com/Jchav1996 #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jchav1996
+    
+    twitter: 'jchav1996' #optional
+    stack-overflow: 10233101/jchav # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Medium
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Creating Codes
+
+      - item: Playing Soccer
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2013 - Present
+      company: JSC Software, Miami
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your project portfolio
+    assignments:
+      - title: postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jchav1996/postcard"
+        tagline: "Developing a postcard"
+
+      - title: InstaGram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jchav1996/IG-Post"
+        tagline: "Creating an IG Post"
+
+      - title: Photo Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Jchav1996/Photo-feed"
+        tagline: "Creating a Website with just Photo Feed"
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: JavaScript & jQuery
+        level: 70%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Ruby on Rails
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 60%
