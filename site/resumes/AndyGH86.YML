@@ -1,0 +1,147 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Anderson
+    last_name: Gonzalez Hernandez
+    
+    # Define yourself in 4-5 words
+    motto: cambiando mi mente a diario.
+    
+    # Focus
+    focus: Estudiando
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: estuve trabajando con atención al cliente por muchas años, ahora estoy preparandome para ser un devloper.
+     
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: andersongh1986@gmail.com
+    phone: 641886697
+    linkedin: Anderson Gonzalez
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ANDYGH86
+    
+    twitter:Ande_586
+   
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Esañoñ
+        level: Nativo
+
+      - idiom: Ingles
+        level: Profesional
+
+
+    # Interests or hobbies
+    interests:
+      - item: jugar padel
+
+      - item: la palya
+
+      - item: ver anime
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4 Geeks Academy
+      time: 2023 - 2024
+      details:   
+          Programa de 18 semanas de preparación como un FullStack Developer aprendiendo lenguajes como Html, Css, JavaScript y Python.
+
+
+          - Bullet point
+          - Bullet point
+   
+    - degree: Tecnico Superior en Administración de Empresas
+      university:  IUTA
+      time: 2012 - 2015
+      details: 
+        Carrera enfocada en el correcto proceder para la administración general de cualquier tipo de empresa
+        
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Vendedor Polivalente
+      time: 2022- Presente
+      company: Maisons Du Monde Barelona
+      
+      details: |
+        vendedor encargado de la atención personalizada para la venta de mueble y decoración del hogar.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Gerente de Tienda 
+      time: 2018-2021
+      company: Calvin Klein, Chile
+      
+      details: |
+        Encargado de toda funcionalidad de la tienda, cubriendo gestiones de manejo de personal, contabilidad,
+        inventario,atención al publico y gestión comercial.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name:  HTML5 & CSS
+        level: 60%
+
+      - name: BOOSTRAP
+        level: 50%
+
+      - name: JavaScipt
+        level: 40%
