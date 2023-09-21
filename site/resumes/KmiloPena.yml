@@ -1,0 +1,97 @@
+---
+template: online-cv
+skin: "blue"
+basic_info:
+  first_name: Camilo
+  last_name: Pena
+  motto: I love my pet
+  focus: Codding
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+  avatar: https://wallpapercave.com/wp/wp2018290.jpg
+  email: kmilopenas@yahoo.com
+  phone: 7863747516
+  website: asd.com
+  linkedin: linkedin.com/in/camilo-pena-95828a234
+  github: KmiloPena
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Crossfit
+    - item: Coding
+    - item: Cooking
+education:
+  - degree: Associate in Computer Science and application development
+    university: Miami Dade College
+    university_logo: https://logodix.com/logo/1928362.jpg
+    time: 2021 - 2023
+    details: >
+      The Computer science and application development Associate at Miami
+      Dade College encompasses the basic knowledge of the most popular languages
+      on the market, like:
+            - JavaScript
+            - C ++
+            - Python
+            - HTML
+experiences:
+  - role: IT
+    time: 2020- 2023
+    company: Low Voltage System Inc.
+    company_logo: http://static1.squarespace.com/static/54da416ee4b0f5ed4a178edf/t/54da9144e4b019602853d97d/1517953574391/low+voltage+greyFINAL.png?format=1500w
+    details: >
+      Working as an Information technology in the field is a challenge every
+      day. You have to improve your creativity because you need to work in so
+      many different environments. I specialized in working with fiber optic: 
+
+        - Fiber Optic finishes
+        - Fiber Optic test
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one-page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python
+      level: 20%
+    - name: JavaScript
+      level: 27%
+    - name: HTML5 & CSS
+      level: 30%
