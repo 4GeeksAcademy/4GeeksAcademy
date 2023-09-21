@@ -1,0 +1,96 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Cortney Carmela
+  last_name: Quinn
+  motto: High-Energy, Professional, Dependable and Optimistic
+  focus: Seeking to obtain a challenging and responsible position as a Software
+    Engineer within a organization where I can apply knowledge and experience,
+    while being offered an oppurtunity for professional growth and development.
+  summary: >
+    My current responsiblities require me to aid in the physical portion of
+    applicants joining the Military. Those duties consist 
+
+    of performing hearing, vision, blood collection and drug screen urinalysis. I stay abreast on the most up to date regulations and guidance
+
+    passed down. I have served 4 years with the Military, which I believe allows me a particulaer level of compassion and understanding
+
+    with assisting the current brave individuals, who pursue the opportunity to join the Armed Forces and devote time to serve their country.  
+  avatar: https://www.facebook.com/photo/?fbid=10165428491480066&set=a.10150246406320066
+  email: carcorhemi@gmail.com
+  phone: 234 2342 342
+  website: asd.com
+  linkedin: https://www.linkedin.com/in/cortney-quinn-71a0101b1/
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Ceramics
+    - item: Research
+    - item: Cooking
+education:
+  - degree: AS of Science in Medical Laboratory Technology
+    university: University of Keiser
+    university_logo: https://happierliving.com/wp-content/uploads/2020/09/Keiser-University.png
+    time: 2019-2020
+    details: >
+      	Organizes work by matching computer orders with specimen labeling; sorting specimens; checking labeling; logging specimens; arranging reports for delivery; keeping work surfaces clean and orderly.
+        Maintains quality results by running standards and controls, verifying equipment function through routine equipment maintenance and advanced trouble shooting; calibrating equipment utilizing approved testing procedures; monitoring quality control measures and protocols.
+        Serves as technical resource by participating in staff training; answering questions of other professionals; participating in educational opportunities; reading professional publications; maintaining personal networks; participating in professional organizations.
+        Hematology provides test results for patient diagnosis and treatment by operating hematology, urinalysis, and coagulation equipment; performing manual methods of differentials.
+        Immunology provides test results for patient diagnosis and treatment by operating equipment such as the gamma counter, spectrophotometer, densitometer, and through methods such as radioimmunoassay, enzyme immunossay, and serological testing.
+        Microbiology provides physician with information for treatment of patient infection by performing technical procedures for the identification or susceptibility of bacteria, parasites, fungi, and mycobacteria.
+        I donated time in exchange for experience at Miami Jackson Medical Center, as a Clinical Phyebotomist. My time there I had the opportunity to: Skillful and precise in performing venipunctures and capillary punctures; collecting, preparing and storing blood samples; and verifying medical records. High level of accuracy and attention to detail. Demonstrated knowledge of medical terminology, infection control procedures, quality assurance support and data entry and retrieval. Obtain blood samples for medical testing and transfusion through venipuncture or capillary puncture. Follow infection-control and safety procedures in carrying out daily phlebotomy functions.Build trust and minimize patient discomfort during phlebotomy procedures while efficiently collecting blood specimens. Work collaboratively with patients, healthcare providers and patient support departments to ensure a high quality of service.
+experiences:
+  - role: Medical Technician
+    time: 2022-Present
+    company: Department of Defense, United States Army
+    company_logo: null
+    details: Demonstrates the ability to follow oral and written instructions by
+      accurately performing procedures and assigned task. Observe and adhere to
+      all isolation precautions, thereby, reducing the spread of infections
+      within the healthcare facility. Prepare blood-collecting equipment, draw
+      blood, and safely store and transport samples. Follow HIPPA guidelines and
+      strict rules regarding the confidentiality of patient information
+      Demonstrate competency in the use of various tubes, additives and order of
+      draw Apply the principles of good interpersonal skills in the daily
+      interactions with patients, colleagues, and others in the hospital
+      setting. Prevent injury of patients during veinpuncture by practicing
+      proper veinpuncture procedures. Possess excellent patient-relations skills
+      – known for having a gentle touch and the ability to alleviate patient
+      anxieties Improve quality of patient care by increasing the accuracy and
+      integrity associated with the laboratory results.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+skills:
+  toolset:
+    - name: Python & Django
+      level: 18%
+    - name: JavaScript & jQuery
+      level: 8%
+    - name: HTML5 & CSS
+      level: 35%
