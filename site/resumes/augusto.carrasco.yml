@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Augusto
+    last_name: Carrasco Toro
+    
+    # Define yourself in 4-5 words
+    motto: Quality time
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've been working since seventeen. I started as a bartender and warehouse assistant.
+      Learnt the value of time and tried different work environments.
+      Right now I'm sure my main goal is to grow personaly alongside the position I hold. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQETK0VjKvc0rw/profile-displayphoto-shrink_800_800/0/1695029528124?e=1700697600&v=beta&t=Byfn_Bkrlvfb4HyubBdZ9qz6xG7WF1-TqJh2G996kwc
+
+    # Contact Information
+    email: augustocarrascotoro@gmail.com #optional
+    phone: +34 643 94 10 14 #optional
+    linkedin: www.linkedin.com/in/augusto-santiago-carrasco-toro-057179281 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AugustoCarrasco
+    
+    twitter: 'Augusct' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Reading
+
+      - item: Skating
+
+# Your previous education
+education:
+    - degree: BCs in Architecture
+      university: Universidad Politécnica de Madrid 
+    
+      time: 2011 - 2012
+      details: |
+        Grado en Arquitectura. Diseño, cálculo, historia de la arquitectura, historia del urbanismo, urbanismo, paisajismo. 
+
+# Your skills
+skills:
+    toolset:
+      - name: Python & Flask
+        level: 50%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: Angular
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Tailwind CSS
+        level: 85%
