@@ -113,7 +113,7 @@ projects:
         # optional
         project_logo: https://hostinsane.es/clientes/templates/lagom2/assets/img/logo/logo_big_inverse.1318213550.png
         link: "https://hostinsane.es"
-        tagline: "CEO & Founder."
+        tagline: "CEO & Founder"
 
 skills:
     toolset:
