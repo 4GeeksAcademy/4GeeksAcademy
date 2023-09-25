@@ -1,6 +1,11 @@
----
-Template: "online-cv"
-skin: orange
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
 basic_info:
   first_name: Daniel
   last_name: Martinez Fernandez
