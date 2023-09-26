@@ -1,0 +1,81 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Winston Jesus
+    last_name: Lamus Tortolero
+    
+    motto: Be brave and do the best
+    
+    focus: learning and improving
+    
+    summary: 
+      I consider myself a young person with aptitude for learning and teamwork skills. 
+      Also I'm capable to adapt to the different challenges or activities that should face.
+      Electronic engineer with knowledge on routing, networking and IT who always try to learn something
+      new everyday.
+    
+    avatar: https://scontent-ord5-1.cdninstagram.com/v/t51.2885-19/345826214_559335399655026_5713018453439529717_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-ord5-1.cdninstagram.com&_nc_cat=106&_nc_ohc=H3Xk8GPU9IwAX_9Wdjm&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfC4YvB5H1nzhbrUHtvF_V0i8q6ZXu-Mc1IXMSxTtEQvJg&oe=650D5A74&_nc_sid=ee9879
+
+    email: lamuswj@gmail.com
+    phone: (260)234-7600
+    website: 
+    linkedin: 
+    
+    github: WinstonLesuT
+    
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Sports (soccer, basketball)
+
+      - item: Movies & Series
+
+      - item: VideoGames
+
+education:
+    - degree: Bachelor in Electronic Engineering
+      university: Arturo Michelena University
+      university_logo: https://uam.edu.ve/assets/logo.svg
+      time: 2015 - 2020
+      
+experiences:
+    - role: Machine Operator
+      time: 2023 - Present
+      company: Lippert Components, Inc., Indiana, United States of America
+      company_logo: https://res.cloudinary.com/lci-cloudinary/image/upload/c_pad,h_200,w_200/v1616013478/lci1-www/logos/brands/Lippert-Logo.png
+      details: Operator who use a machine to fill cover pillows of forniture for RV industry. Also capable of check quality of the products and put label on the finish ones that are ready to ship
+         
+    
+    - role: Engineer Assistant
+      time: 2020 - 2022
+      company: ARM InverTec. Carabobo, Venezuela
+      company_logo: https://arminvertec.com/wp-content/uploads/2021/02/Logo.png
+      details: |
+      Hybrid worker who mostly had the following tasks:
+       - Install and setup radiofrequency antennas, mainly Ubiquity brand.
+       - Install and setup routers Mikrotik.
+       - Setup, manage and monitor services of customers, and attend their problems in case of appear.
+       - Report all type of network issues.
+
+projects:
+    
+skills:
+    toolset:
+      - name: JavaScript
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Microtik RouterOS
+        level: 90%
