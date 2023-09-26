@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel
+    last_name: Martinez
+    
+    # Define yourself in 4-5 words
+    motto: I would prefer not to
+    
+    # Focus
+    focus: Doubt
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Not many things are as interesting to me, as it is, to know that the mind of the other person is as different from mine as I could ever imagine. And then try to experience the other's point of view considering that knowledge. I live having that as my main point of view.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/drive-viewer/AK7aPaB54xxaKyigpXAdrYDVUN92VkDn5Jfr81-XpQUqyzruG1xPd2Goww_znwkAc7WIXLKji15mQxFT9_bukJfHNnvY0U0h=s2560
+
+    # Contact Information
+    email: toliguemi94@gmail.com #optional
+    phone:  #optional
+    website: https://linktr.ee/t0liguemi #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: t0liguemi
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Cooking
+
+      - item: Tenis
+
+# Your previous education
+education:
+    - degree: Ing. & Ciencias, plan común.
+      university: Universidad de Chile
+      # optional
+      time: 2013 - 2014
+      details: |
+
+    - degree: Composición Popular & Jazz
+      university: Instituto Projazz
+      # optional
+      time: 2015-2016
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Entertainer - Musician on Board
+      time: 2020-2021
+      company: SeaChefs - TuiCruises
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+
+      - name: JavaScript
+        level: 10%
+
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Reaper
+        level: 90%
+
+      - name: Photoshop
+        level: 60%
