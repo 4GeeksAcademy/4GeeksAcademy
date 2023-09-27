@@ -1,0 +1,181 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Facundo
+    last_name: Herrera Cabo
+    
+    # Define yourself in 4-5 words
+    motto: I like to solve problems
+    
+    # Focus
+    focus: Be a real data scientist
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Graduate in Business Administration with an avid analyst instinct. 
+      I have extensive experience in different areas such as Administration, Sales, Logistics and Accountability.
+      In the future I hope to develop my research and analysis skills to become an excellent Data Analyst.
+
+          
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: facundonh10@gmail.com 
+    phone: 697862311 
+    
+    linkedin: Facundo Nicolas Herrera Cabo
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Facundo1984
+    
+    twitter: -
+    stack-overflow: -
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+      
+        
+
+    # Interests or hobbies
+    interests:
+      - item: Surfing
+
+      - item: Soccer
+
+      - item: Running
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Business Administration
+      university: Argentine Business University
+      # optional
+      university_logo: 
+      time: 2003 - 2007
+      details: 
+
+          
+       
+
+    - degree: Master in Logistics Management
+      university: IMF SMART EDUCATION
+      # optional
+      university_logo: 
+      time: 2018 - 2020
+      details: |
+        
+
+          
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operations Management
+      time: 2018 - 2022
+      company: Espressa Coffe&More, Madrid
+      # optional
+      company_logo: 
+      details: |
+        
+
+          
+          
+
+    - role: Logistics Assistant
+      time: 2017 - 2018
+      company: Amazon, Madrid
+      # optional
+      company_logo: 
+      details: |
+        
+
+    - role: Supply Manager
+      time: 2014 - 2016
+      company: CIFSA, Buenos Aires
+      # optional
+      company_logo: 
+      details: 
+
+
+      - role: Supply Manager
+      time: 2011 - 2014
+      company: MC Cain, Buenos Aires
+      # optional
+      company_logo: 
+      details: 
+
+      - role: Accounting Auditor
+      time: 2008 - 2011
+      company: Pricewaterhousecoopers, Buenos Aires
+      # optional
+      company_logo: 
+      details: 
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        tagline: 
+
+      - title: DevStudio
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 0%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
