@@ -71,9 +71,9 @@ basic_info:
 # Your previous education
 education:
     - degree: Clinical Analysis and Biomedicine
-      Vocational Training Center: LaSalle
+      university: LaSalle
       # optional
-      Vocational Training Brand: https://drive.google.com/file/d/1xG52SiRtkctObjC_lIHrSuDBmeBur9Zq/view?usp=sharing
+      university_logo: https://drive.google.com/file/d/1xG52SiRtkctObjC_lIHrSuDBmeBur9Zq/view?usp=sharing
       time: 2016 - 2018
       details: |
         The biomedical sciences curriculum provides students with a strong foundation in molecular
