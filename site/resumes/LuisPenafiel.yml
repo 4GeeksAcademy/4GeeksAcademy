@@ -1,0 +1,201 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Alberto
+    last_name: Penafiel Palmer
+    
+    # Define yourself in 4-5 words
+    motto: One day more, one day less.
+    
+    # Focus
+    focus: Nature
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As a medical and biological technician with a background in immunology, have honed  
+      my research skills at the prestigious University Ludwig Maximilian and contributed to
+      the multinacional corporation Medicover.Recognizing the growing importance of data 
+      science and machine learning in Health Care, I am currently expanding my expertise  
+      by participating in the highly-regarded 4GeeksAcademy data boot camp.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1_qgTo4ReHXZLtr4yHu_icHX0lu_dC-UA/view?usp=sharing
+
+    # Contact Information
+    email: penafielpalmerluis@gmail.com #optional
+    phone: +0034 636 643 150 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/luis-pe%C3%B1afiel-palmer-029a1a229/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luispenafiel
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional Working Proficiency
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Fishing
+
+      - item: Mushrooms 
+
+      - item: Cooking
+
+      - item: Geek culture, anime, videogames, lore...
+
+# Your previous education
+education:
+    - degree: Clinical Analysis and Biomedicine
+      university: LaSalle
+      # optional
+      university_logo: https://drive.google.com/file/d/1xG52SiRtkctObjC_lIHrSuDBmeBur9Zq/view?usp=sharing
+      time: 2016 - 2018
+      details: |
+        The biomedical sciences curriculum provides students with a strong foundation in molecular
+        biology, microbiology, and cytogenetics, focusing on DNA and RNA structure, molecular
+        diagnostics, and nucleotide base-pairing rules. Additionally, students study pathophysiology,
+        learning about human pathological processes, homeostasis, and biological sample
+        management. The curriculum also covers biochemical analysis and immunodiagnostic
+        techniques for disease diagnosis, as well as hematological analysis for blood disorder
+        monitoring and diagnosis.
+
+            -Ranked top of the promotion, received an honors diploma for outstanding academic performance 
+            -Link: https://drive.google.com/file/d/11MX3x1JfpIVRyDKDYHOm4F2TJEAjVM0j/view?usp=sharing
+
+          *Molecular biology, microbiology and cytogenetics
+          *Pathophysiology, management of biological samples
+          *Biochemical analysis, immunodiagnostic techniques 
+          *Hematological analysis
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Deputy Medical Technician in Flow Cytometry   
+      time: 2020 - Present
+      company: Medicover Gruppe; MVZ Martinsried GmbH
+      # optional
+      company_logo: https://drive.google.com/file/d/19DLYCZpGjek-vPUX8S7VgYt1jP0ph-xN/view?usp=sharing
+      details: |
+        I specialize in Flow Cytometry, assessing immune status for chronic diseases, and optimizing fertility treatments 
+        with a focus on tracing Natural Killer cells (NK). Additionally, I excel in conducting compatibility assessments 
+        for stem cell, organ, and bone marrow transplants, ensuring successful matches. My expertise extends to the diagnosis 
+        and management of Leukemia and Lymphoma, contributing to effective patient care and treatment outcomes.
+
+          - Flow Cytometry;
+          - Immune status for chronic diseases
+          - Fertility treatments for maternity with a focus on tracing Natural Killer cells (NK)
+          - Compatibility check for transplants of stem cells, organs, bone marrow
+          - Leukemia and Lymphoma
+
+    - role: Biological Technician in Immunology
+      time: 2019 - 2020
+      company: Institut für Tierphysiologie der Tierärztlichen Fakultät der Ludwig-Maximilians-Universität(LMU)
+      # optional
+      company_logo: https://drive.google.com/file/d/1T-DZ5LD_WGOquc8gEujO6alVHhD5WrCe/view?usp=sharing
+      details: |
+        
+        Proficient in molecular biological techniques, such as PCR, cloning, and gel electrophoresis, I bring expertise 
+        in precise genetic analysis. My skill set extends to flow cytometry, encompassing sample preparation and measurement, 
+        facilitating in-depth cellular analysis. My experience in cell biology spans primary cell cultivation, cell line work, 
+        and gene expression studies, coupled with proficiency in cell proliferation assays. Additionally, I excel in the preparation 
+        of primary cells through density gradient centrifugation, ensuring high-quality samples for research purposes. 
+
+          - Molecular biological techniques:
+            - PCR
+            - Cloning
+            - Gel electrophoresis
+          - Flow cytometry:
+            - Sample preparation
+            - Measurement
+          - Cell biological work:
+            - Cultivation of primary cells
+            - Cell lines
+            - Expression in cells
+            - Cell proliferation
+            - Preparation of primary cells by density gradient centrifugation
+
+         
+
+# Your project portfolio
+#projects:
+    #intro: >
+      #You can list your side projects or open source libraries in this
+      #section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      #Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    #assignments:
+      #- title: Velocity
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#hook"
+        #tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      #- title: DevStudio
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      #- title: Tempo
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      #- title: Atom
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      #- title: Delta
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+#skills:
+    #toolset:
+      #- name: Python 
+        #level: 98%
+
+      #- name: JavaScript & jQuery
+       #level: 98%
+
+      #- name: Angular
+        #level: 98%
+
+      #- name: HTML5 & CSS
+        #level: 95%
+
+      #- name: Ruby on Rails
+        #level: 85%
+
+      #- name: Sketch & Photoshop
+        #level: 60%
