@@ -1,0 +1,110 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Fernando   
+    last_name: Roldan Ortiz
+    
+    # Define yourself in 4-5 words
+    motto: Passionate, Adaptable, Adventurous and Sincere
+    
+    # Focus
+    focus: learning something new everyday and improving myself
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am passionate about new technologies and I am always willing to learn something new every day.
+      Currently I am studying a Full Stack Web Developer bootcamp with 4 Geeks Academy during which I am learning to improve my logical thinking and develop several programming projects.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/hmFFGVl.jpg
+
+    # Contact Information
+    email: roldanluis022@gmail.com
+    phone: +51 993861504
+    linkedin: www.linkedin.com/in/luis-fernando-roldan-ortiz-278952109
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LuisRoldan
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: German 
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Trail running
+
+      - item: Swimming
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: bachelor's degree in translation and interpreting
+      university: Universidad Ricardo Palma
+      time: 2011 - 2016
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: Customer service
+      time: 04 oct, 2017 - 01 feb, 2020
+      company: Konecta
+      details: |
+        Assist and help passagers from Latam airlines in the languages English and spanish.
+
+    - role: service agent
+      time: 10 nov, 2022 - 1 sep, 2023 
+      company: Teleperformance
+      details: |
+        Provide information and assist the providers from an insurance company in US by phone in English and sometimes in spanish.
+
+# Your project portfolio
+projects:
+    intro: >
+      Independent projects
+
+    assignments:
+      - title: Instagram Photo feed 
+        link: https://github.com/Luis-Roldan/Instagram-photo-feed-Luis-Roldan.git
+        tagline: "A responsive website template designed to see photo feeds"
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: JavaScript 
+        level: 20%
+
+      - name: Photoshop
+        level: 50%
+
+      - name: Ilustrator
+        level: 50%
+
+      - name: Premiere Pro
+        level: 50%
+
+      - name: After Effects
+        level: 50%
+
+      - name: Figma
+        level: 60%
+
