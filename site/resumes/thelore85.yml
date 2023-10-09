@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lorenzo
+    last_name: Garofalo
+    
+    # Define yourself in 4-5 words
+    motto: Coding a better new world
+    
+    # Focus
+    focus: Became a React.js guru
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a seasoned Full Stack Developer, well-versed in web development with a decade of experience. 
+      My background includes a Bachelor's in Design, a Master's in Web Marketing, and training from the Web Dev Academy.
+
+      I've excelled in agencies, multinationals, and startups. 
+      I craft elegant code in React and Python while focusing on UX, performance, and SEO optimization.
+
+      I love analyzing customer behavior to enhance all aspects of a web projects.
+      Let's collaborate to transform your digital aspirations into reality.
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.piqus.it/img/lorenzo-garofalo-marketing-digital.jpg
+
+    # Contact Information
+    email: developerintown@gmail.com #optional
+    website: developerintown.com #optional
+    linkedin: https://www.linkedin.com/in/lorenzo-garofalo-digital/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: thelore85
+  
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: professional
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: Italian
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Kite Surfing
+
+      - item: Guitar
+
+      - item: Man Fashion
+
+# Your previous education
+education:
+    - degree: Bachelor - Design 
+      university: University - Milano Politecnico
+      # optional
+      university_logo: https://www.developerintown.com/fd58cb246f80c28ac534.png
+      time: 2004 - 2009
+
+
+    - degree: Master - Marketing and Communication Management
+      university: Sole 24 - Milano 
+      # optional
+      university_logo: https://www.developerintown.com/9a96a3bce0d799f7229f.png
+      time: 2017 - 2018
+
+
+    - degree: Academy - Full stack developer
+      university: 4Geeks - Madrid 
+      # optional
+      university_logo: https://www.developerintown.com/b95bf5754477198dc8de.png
+      time: 2023-2024
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: Freelance
+      time: 2023 - present
+      company: Web Consultancy - Milano, London, Madrid
+
+    - role: Marketing Manager
+      time: 2021 - 2023
+      company: Medicilio -  Start Up - healthcare - Milano
+
+    - role: Marketing Manager
+      time: 2021 - 2023
+      company: Medicilio -  Health - Milano
+
+    - role: Marketing Manager
+      time: 2018 - 2021
+      company: Saxo Bank -  Finance - Copenhagen
+
+    - role: Digital marketing specialist
+      time: 2015 - 2018
+      company: Banco BPM - Finance - Milano
+
+    - role: Ux - Web Designer
+      time: 2014 - 2015
+      company: Hakura Ltd. - Web Agency - London
+
+
+# Your project portfolio
+projects:
+    intro: Welcome to my portfolio of web projects. Here, you'll find a showcase of my side projects and open-source libraries. Explore these digital endeavors, each a testament to my passion and expertise in web development and design. From conceptualization to execution, these projects reflect my commitment to creating innovative and impactful online experiences.
+
+
+assignments:
+  - title: Wedding - Interactive Web Invitation
+    # optional
+    link: "https://component-landing-next.vercel.app/"
+    tagline: "The Interactive Wedding Invitation project is a single page web application designed to transform a couple's wedding invitation into a memorable and engaging experience."
+
+  - title: Image Search Engine
+    # optional
+    link: "https://project-search-engine-six.vercel.app/"
+    tagline: "A React project for a royalty free images search engine. The project sources images through APIs and uses JavaScript to achieve an infinite scrolling effect."
+ 
+  - title: Face recognition AI
+    # optional
+    link: "https://component-login.vercel.app/"
+    tagline: "A super handy program that makes css gradient background css easy and funny. Just pick the color from the input and copy the css code generated!"
+
+skills:
+    toolset:
+      - name: Rect.js
+        level: 90%
+
+      - name: Next.js
+        level: 90%
+
+      - name: JavaScript
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: PostgreSQL
+        level: 90%
+
+      - name: Python
+        level: 85%
+    
+      - name: worsdpress
+        level: 90%
+
+      - name: Hubspot - CRM
+        level: 95%
+
+      - name: Google Suite - GA4, Tag Manager, Ads, Data Studio
+        level: 95%
+
+      - name: GitHub
+        level: 90%
