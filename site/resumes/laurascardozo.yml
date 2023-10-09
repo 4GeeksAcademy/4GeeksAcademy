@@ -1,0 +1,73 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Laura
+    last_name: Cardozo
+    
+    # Define yourself in 4-5 words
+    motto: I like to work to achive my goals
+    
+    # Focus
+    focus: Finding a solution to life
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      when I graduated high school, I belived that I knew what I wanted to study in college and work for the rest of my life, but
+      that didn't go out as planned, I ended up quiting and discovering the amazing world of programming, wich now I love and enjoy
+      learning every day. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lauras.cardozom@gmail.com #optional
+    phone: 3135099084 #optional
+   
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Laurascardozo
+    
+  
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Proffessional
+
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: exercising
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: sep 2023 
+      details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp.
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Javascript
+        level: 10%
+
+      - name: Boostrap
+        level: 30%      
