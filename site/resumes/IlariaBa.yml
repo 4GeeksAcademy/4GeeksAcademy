@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ilaria
+    last_name: Barbierato
+    
+    # Define yourself in 4-5 words
+    motto: First learn, and then do your best.
+    
+    # focus
+    focus: development and growth
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      •	Experienced with analyzing, organizing and streamlining practices to help increase overall efficiency and productivity
+      •	Proficient with various operating systems such as Windows and Mac OS as well as with software such as Microsoft Office (Outlook, Word, Excel, PowerPoint, Skype and OneNote), Google Suite (Docs, Sheets and Slides) QuickBooks and Oracle  
+      •	Very computer savvy  
+      •	Types 60 WPM
+      •	Fluent in English and Spanish
+      •	Problem solver; highly organized and detail oriented 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/drive/u/0/folders/1zOtttbMZb2-vA_LljROiHG4SGVN0KYDy
+
+    # Contact Information
+    email: #optional
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/ilaria-barbierato-etcheverry-107220214/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: IlariaBa
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Proficiency
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Italian
+        level: Advanced
+
+    # Interests or hobies
+    interests:
+      - item: Pilates
+
+      - item: Sewing
+
+# Your previous education
+education:
+    - degree: Electrical Engeering
+      university: Facultad de Ingeniería UdelaR
+      # optional
+      time: 2018 - present
+
+    - degree: Renewable Energy Engeering
+      university: UTEC
+      # optional
+      time: 2022 - present
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Trabajo interino
+      time: August 2020 - December 2020
+      company: Cancilleria consular de la Embajada Italiana
+      # optional
+      details: |
+      
+  
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Instagram Photo Feed with Bootstrap.
+        link: "https://github.com/4GeeksAcademy/IlariaBarbierato-InstagramPhotoFeed"
+        tagline: "Instagram Photo Feed"
+
+skills:
+    toolset:
+
+      - name: Javascript & jQuery
+        level: 93%
+
+      - name: Angular
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 95%
