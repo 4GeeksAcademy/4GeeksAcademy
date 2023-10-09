@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marta
+    last_name: Fagundez
+    
+    # Define yourself in 4-5 words
+    motto: Dream Big Work Hard
+    
+    # Focus
+    focus: Create intuitive and engaging web experiences
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      With a background as a graphic designer, my passion is to captivate users through intuitive and engaging web applications.
+
+      I am a curious person, not afraid to explore new technologies, always aware of good practices and informed of market trends.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1UQ0l3_7Qto0zxdO-pptL8DVtUdEJAwD0/view?usp=sharing
+
+    # Contact Information
+    website: www.martafagundez.com #optional
+    linkedin: https://www.linkedin.com/in/martafagundezrodriguez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MartaFagundez
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: 3d Modeling
+
+      - item: Trekking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Bachelor of Information Technology
+      university: UTEC
+      # optional
+      time: 2022 - Present
+
+    - degree: Full Stack Web Development Bootcamp
+      university: Soy Henry
+      # optional
+      time: 2023 - 2023
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Personal Advisor and Virtual Assistant
+      time: 2020 - Present
+      company: Independent professional
+
+    - role: Freelance Graphic Designer
+      time: 2015 - 2023
+      company: Independent professional
+
+    - role: Entrepreneur
+      time: 2010 - 2023
+      company: Independent professional
+
+# Your project portfolio
+projects:
+    intro: >
+      ..
+
+    assignments:
+      - title: Hand 2 Hand Marketplace
+        # optional
+        link: "https://www.youtube.com/watch?v=FbbYPTxSGnM"
+        tagline: "This is the project that we developed together with my team, as the Final Group Project of the SoyHenry Full Stack Development bootcamp."
+
+      - title: Pokédex APP
+        # optional
+        link: "https://pokedex-app-pi.up.railway.app"
+        tagline: "SPA that allows you to consult the list of all the Pokémon, filter them, view their data, etc."
+
+      - title: CODEvolution Blog
+        # optional
+        link: "https://martafagundez.com/codevolution"
+        tagline: "Blog where I record and share some of my learnings about programming and web development."
+
+      - title: Portfolio Project
+        # optional
+        link: "https://codepen.io/martafagundez/full/rNaMjOY"
+        tagline: "Personal portfolio page for the FCC Responsive Web Design Developer certification."
+
+      - title: Product Landing Page
+        # optional
+        link: "https://codepen.io/martafagundez/full/RwweEaP"
+        tagline: "Product landing page with HTML5 and pure CSS3."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: React
+        level: 60%
+
+      - name: Git
+        level: 70%
+
+      - name: Jira
+        level: 80%
+
+      - name: Illustrator & Photoshop
+        level: 90%
