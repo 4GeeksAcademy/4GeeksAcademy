@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diogo 
+    last_name: Alves
+    
+    # Define yourself in 4-5 words
+    motto: You miss 100% of the shots you don't take. 
+    
+    # Focus
+    focus: Learn everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Budget designer technician on major eletrical company for 5 years
+      I'm versatile and eager to learn. Currently training to be a Full Stack web developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/736x/72/f2/e9/72f2e90e44fdb0ac3278820b962c20e0.jpg
+
+    # Contact Information
+    email: diogo.c.alves7@gmail.com #optional
+    phone: 912098301 #optional
+    website:  #optional
+    linkedin: Diogo Alves #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: selta
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Working out
+
+      - item: PC Gaming
+
+      - item: PLaying guitar
+
+# Your previous education
+education:
+    - degree: Proteção Civil
+      university: ISCIA - Instituto Superior de Ciências da Informação e da Administração
+      # optional
+      university_logo: Instituto Superior de Ciências da Informação e da Administração
+      time: 2015-2017
+      
+    - degree: Full Stack Depelover
+      university: UTEC 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Budget designer technician
+      time: 2018 - Present
+      company: Bragalux
+      # optional (logo is not in svg)
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg 
+        
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      Some exercises during 4geeks pre-work and currently working on several projects on a week basis.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      
+
+      
