@@ -1,0 +1,78 @@
+---
+template: online-cv
+skin: red
+basic_info:
+  first_name: Elisa
+  last_name: González
+  motto: I like to dance and going to the gym
+  focus: Growing professionally and personally
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+
+    Second paragraph if required.
+  avatar: null
+  email:
+    - null
+  phone:
+    - null
+  website:
+    - null
+  linkedin:
+    - null
+  github: Elisag28
+  twitter: -'
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Cooking
+    - item: Playing videogames
+    - item: Dance
+education:
+  - degree: Public Accounting
+    university: University Yacambú
+    university_logo: null
+    time: 2015 - 2018
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Customer Support
+    time: 2022 - Present
+    company: Openbank, Spain
+    company_logo: null
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+skills:
+  toolset:
+    - name: Python
+      level: 80%
+    - name: Sketch & Photoshop
+      level: 60%
