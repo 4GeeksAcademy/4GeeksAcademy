@@ -1,0 +1,117 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  first_name: Haisa
+  last_name: Reyes
+  motto: Be the change you wish to see in the world.
+  focus: Grow
+  avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+  summary: |
+    Soy estudiante de Ingeniería de Computación y 4Geeks Academy  
+  email: haisareyes21@outlook.com
+  phone: +58 412 478 04 21
+  website:   #optional
+  linkedin: haisareyes
+  github: HaisaeReyes
+  twitter: '' #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Coding
+
+    - item: Crocheting
+
+    - item: Reading
+
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: ""
+      time: ""
+      company: ""
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
+    assignments:
+      - title: Postal Digital con html/css
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/HaisaeReyes/haisa-exercise-postcard
+        tagline: Carta postal creada con html y css.
+
+      - title: Photo Feed Instagram
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/HaisaeReyes/haisareyes-instagram-photo-feed
+        tagline: Modelo móvil de feed vertical de Instagram hecho con html y css.
+
+      - title: Generador de excusas con JavaScript
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/HaisaeReyes/haisa-js-project
+        tagline: Página que genera una excusa diferente cada vez que la recargas con
+          JavaScript.
+
+      - title: Post de Insragram
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/instagram-post-haisa
+        tagline: Modelo de post de Instagram hecho con html y css.
+
+      - title: Instagram Feed
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/bootstrap-haisa
+        tagline: Página hecha con Bootstrap con feed cuadrado de 9 imagenes y feed vertical.
+
+      - title: HTML Forms
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/forms-haisa
+        tagline: Formulario de pago hecho con Bootstrap.
+
+skills:
+    toolset:
+      - name: Python
+        level: 15%
+      - name: JavaScript
+        level: 08%
+      - name: Bootstrap
+        level: 50%
+      - name: HTML5 & CSS
+        level: 70%g
