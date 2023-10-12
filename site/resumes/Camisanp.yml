@@ -1,0 +1,177 @@
+template: "online-cv"
+skin: "blue"
+
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camila
+    last_name: Sánchez
+    
+    # Define yourself in 4-5 words
+    motto: Me gustan los animales.
+    
+    # Focus
+    focus: Full Stack Web Dev 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: camila.sanchez.p@utec.edu.uy #optional
+    phone: 445 2563 112 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Camisanp
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Portugues
+        level: Professional
+
+      - idiom: Inglés
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Deporte
+
+      - item: Programar
+
+      - item: Estudiar
+
+# Your previous education
+education:
+    - degree: Ingeniería en Energías Renovables
+      university: UTEC
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2024
+      details: |
+        se orienta a la formación de profesionales que promuevan, diseñen, implementen y administren el uso de energía limpia a
+        partir de fuentes primarias de energía, como son la energía solar, eólica, hidráulica, entre otros,
+        desde la perspectiva de un desarrollo humano y productivo sustentable en todo el territorio.
+
+    - degree: Full Stack Development Bootcamp
+      university: 4 Geeks Academyy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      details: |
+        Full Stack Software Developer.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Becaria en Innovación y Emprendimiento
+      time: 2022 - 2022
+      company: UTEC
+      # optional
+      company_logo: https://www.oitcinterfor.org/sites/default/files/styles/medium/public/utec%20%281%29_1.jpg?itok=TEHXhM9J
+      details: |
+        Trabajar en iniciativas creativas que impacten en el desarrollo de una cultura de innovación universitaria y el bienestar estudiantil de UTEC.
+
+    - role: 
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+     Team Website
+    assignments:
+      - title: Website
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template"
+
+      - title: Instagram Photofeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Simulation of an Instagram Photo Feed"
+
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "copy of a postcard"
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Simulation of an Instagram Post"
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
