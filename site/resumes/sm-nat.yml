@@ -1,0 +1,170 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Natalia
+    last_name: Silva Medina
+    
+    # Define yourself in 4-5 words
+    motto: I'm a world traveler
+    
+    # Focus
+    focus: Live and let Live
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      For the past decade, I've passionately embraced the art of travel, immersing myself in diverse cultures and relishing the unique dynamics of people and places worldwide. This ongoing journey has fueled my curiosity and spiritual growth, shaping me into a light-hearted individual who believes in cherishing and enjoying the precious beauty of our planet while respecting others and living sustainably.
+      In addition to my love for exploration, Im eager to delve into the realm of artificial intelligence, inspired by the transformative potential it holds for humanity. Living in an era where AI fields are rapidly evolving is not just professionally enticing but personally motivating, as it offers the opportunity to actively contribute to shaping a future where technology enhances and elevates our collective human experience.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: fu.pro.nat@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sm-nat
+    
+    twitter: Natpro333 #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Travel
+
+      - item: Gardening
+
+      - item: Read
+
+# Your previous education
+education:
+    - degree: Event Producer
+      university: Professional Institute Arcos, Viña del Mar. Chile
+      # optional
+      university_logo: 
+      time: 2012-2014
+      details: |
+        
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        
+
+# Your previous job experiences or volunteer
+experiences: 
+    - role: Living in New Zealand
+      time: 2015 - 2017
+      company: a little of all
+      # optional
+      company_logo: 
+      details: |  
+        It was my first trip abroad and the getaway to the nomadic world.
+        
+    - role: Living in a Cruise
+      time: 2018
+      company: Princess Cruise
+      # optional
+      company_logo: 
+      details: |
+        It was a great experience living over the sea (and sleeping below sea level °.°); it was like living in a reality show.
+        
+    - role: living in Sweden
+      time: 2019
+      company: a little of all
+      # optional
+      company_logo: 
+      details: |
+        It was an unforgettable experience; I had to live through the entire time of the pandemic in this wonderful country, surrounded by forests and wildlife.
+        
+    - role: Living in Germany
+      time: 2022 - 2023
+      company: a little of all
+      # optional
+      company_logo: 
+      details: |
+       
+
+# Your project portfolio
+projects:
+    intro: >
+      I have been immersed in the world of programming since 2022, a time when I had no prior knowledge of the realm of computing and didn't even own a computer. However, my fascination with the internet has always been present. I delved into this entirely unknown world, and it captivated me completely. This interest drove me to seek ways to transform this fascination into more than just information.
+      I embarked on a journey to learn Python and enrolled in courses on logical thinking through **Platzy** Over the course of a year, I built a foundation that allowed me to enter a bootcamp, providing me with a more comprehensive knowledge base and paving the way for a professional career in the field.
+      My projects, born from the **4Geeks bootcamp**, have been instrumental in my learning journey. They serve as tangible evidence of my growth and the wealth of knowledge I've acquired. Every project is a stepping stone, propelling me closer to my goal of establishing a successful career in the realm of programming. Each line of code written represents a commitment to continuous learning and a testament to the transformative power of dedication and passion. As I move forward, I am not just building applications; I am sculpting a future where technology meets innovation, and my journey is a testament to the belief that with determination and curiosity, one can navigate uncharted territories and emerge victorious.
+
+
+    assignments:
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/sm-nat/natalia-instagram
+        tagline: 
+
+      - title: Random Card Generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/sm-nat/Random-Card-Generator
+        tagline: 
+
+      - title: Generador de Nombres para Dominios
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/sm-nat/domain-generator
+        tagline: 
+
+      - title: Using Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/sm-nat/exercise-instagram-feed-bootstrap
+        tagline: 
+
+      - title: HTML Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/HTML5-form.nat
+        tagline: 
+skills:
+    toolset:
+      - name: Python 
+        level: 45%
+
+      - name: JavaScript 
+        level: 56%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: 
+        level: 
+
+      - name: 
+        level:
+
+      - name: 
+        level: 
