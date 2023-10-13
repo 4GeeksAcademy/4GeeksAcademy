@@ -1,0 +1,189 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Antonio
+    last_name: Tovar Polanco
+    
+    # Define yourself in 4-5 words
+    motto: I am a Geek Developer
+    
+    # focus
+    focus: Learn and Specialize
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      As a Future Engineer, I have an innate passion for solving complex 
+      problems and finding innovative solutions. My main focus is in the 
+      field of software, robotics and mechanics. During my career, 
+      I have strong skills in the design, development and maintenance 
+      of technological projects.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1sc-t8qUgna3c25SakkW2xmBiepCvW4ui/view?usp=drive_link
+
+    # Contact Information
+    email: josea.tovarp.blue7@gmail.com #optional
+    phone: +58 412 951 0634 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/feed/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Joseblue11
+    
+    twitter: Joseblue7 #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Chess
+
+      - item: Martial Art
+
+      - item: Barbershop
+
+# Your previous education
+education:
+    - degree: Systems Engineer
+      university: National Experimental University of the Armed Force
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1419064488897171459/Ea9jpfAi_400x400.jpg
+      time: In Process
+      details: |
+        Design, program, apply and maintain computer systems. 
+        Manage networks and information systems. 
+        Optimize the data managed by a company. 
+        Research to create software and hardware in a company or 
+        organization. Design and maintain websites.
+          - Bullet point
+          - Bullet point
+
+    - degree:  Mechatronics Engineer
+      university: National Polytechnic Experimental University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/2/2b/Unexpo.jpg
+      time: In Process
+      details: |
+        Is a professional with comprehensive, moral and ethical training, 
+        capable of designing, innovating, researching, building, managing, 
+        operating, providing maintenance and consulting in processes that 
+        require precision mechanics, sophisticated automation systems, 
+        computer control and technology. information and communication 
+        for the design of processes and products.
+          - Bullet point
+          - Bullet point
+
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Store manager
+      time: 2022 - Present
+      company: iStore Venezuela
+      # optional
+      company_logo: https://cdn.hyprop.co.za/image/2021/7/20/f4c0699b-6386-42cc-ad3c-3c8d4dedc0dd/0a4a3b50-a97d-4d5b-a57a-02f223c9d92e.jpg?w=1164.3524289131165&h=655.6800270080566&webp |
+      details: |
+       leads the team that works in the store. He is the one who guides 
+       and accompanies all the clerks, as well as personnel who work 
+       inside the store, to guarantee that everything works correctly.
+       Organize work shifts. Responsible for controlling hours and 
+       distributing employee shifts.
+       Supervises the optimal handling of products. Monitor how employees 
+       handle products to ensure customers find them in excellent condition.
+       Responds to customer complaints. He is the one who receives complaints 
+       and claims and seeks solutions to reach an agreement with dissatisfied 
+       customersPrepare sales reports to send to the headquarters. She supervises 
+       cash closings and periodically prepares sales reports that she sends to 
+       headquarters. In addition, she prepares reports on her team's performance
+          - Bullet point
+          - Bullet point
+
+    - role: Technological Advisor
+      time: 2021 - 2022
+      company: Icenter Caracas
+      # optional
+      company_logo: https://i.pinimg.com/564x/48/81/79/4881794b9a247c3016388774edba3363.jpg
+      details: |
+          My main responsibility is the sale of the company's products 
+          or services, for which I know in depth their characteristics 
+          and the needs of clients. In addition, I am able to establish 
+          relationships of trust and empathy with clients, in order to 
+          be able to adequately advise them in the purchasing process.     
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Feed con Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Joseblue11/Instagram-Feed-con-Bootstrap"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: form with HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Crea-un-formulario-con-HTML5"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Excuse Generator with Javascript
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Joseblue11/Code-an-Excuse-Generator-in-Javascript"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Post de Instagram with HTML and CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Joseblue11/Simple-Instagram-Photo-Feed-with-HTML-CSS"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Post Card 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Joseblue11-Post-de-Instagram"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: Angular
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 10%
