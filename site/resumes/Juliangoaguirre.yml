@@ -1,0 +1,70 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Julian
+    last_name: Aguirre Wolman
+    motto: Coder
+    avatar: https://avatars2.githubusercontent.com/u/426452?s=96&v=4
+    summary: |
+        Enthusiastic and motivated Junior Developer with a strong foundation in programming, web development, and software engineering. Committed to continuously expanding my technical skill set and collaborating with cross-functional teams to deliver high-quality solutions. Proficient in languages such as JavaScript, Python, and HTML/CSS, with experience in front-end and back-end development. Strong problem-solving skills, a keen eye for detail, and a passion for learning and innovation. Eager to contribute to projects, leverage my coding abilities, and grow within a dynamic development environment.
+
+    # Sidebar links
+    email: julianaguirrew@gmail.com
+    phone: 786 922 3511
+    website: #do not add http://
+    linkedin: JulianAguirre
+    github: JuliangoAguirre
+    twitter: #'@alesanchezr'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Space exploration
+      - item: Everyday Physics
+      - item: Web Development
+
+education:
+    - degree: #MS in Computer Science
+      university: #UCAB
+      time: #2003 - 2009
+
+experiences:
+    - role: Valet attendant
+      time: 2020 - Present
+      company: US Parking
+      details: A dedicated and adaptable professional with a proven track record of achieving results in diverse roles. Possesses strong communication, problem-solving, and organizational skills, with a keen ability to collaborate effectively in team settings. Demonstrates a commitment to continuous learning and growth, with a passion for tackling challenges and driving positive outcomes. Enthusiastic, detail-oriented, and driven to contribute to the success of any project or organization.
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: #Velocity
+        link: #"#hook"
+        tagline: #"A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Javascript & React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
