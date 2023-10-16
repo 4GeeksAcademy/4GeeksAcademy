@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Richard
+    last_name: García
+    
+    # Define yourself in 4-5 words
+    motto: Diseñador UX/UI con 3 años de experiencia
+    
+    # Focus
+    focus: Diseño centrado en el usuario
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: "¡Hola! Soy un Diseñador UX/UI con 3 años de experiencia. Mi enfoque se centra en el diseño centrado en el usuario y la creación de interfaces intuitivas y atractivas que mejoran la experiencia del usuario."
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: richard@example.com
+    phone: 234 2342 342
+    website: www.richardgarcia.com
+    linkedin: richardgarciaordaz
+    twitter: richardgarcia
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/richardgarciaordaz
+    github: richardgarciaordaz
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Diseño de Interfaz
+
+      - item: Experiencia del Usuario
+
+      - item: Investigación de Diseño
+
+# Your previous education
+education:
+    - degree: Licenciatura en Diseño Gráfico
+      university: Universidad Creativa
+      # optional
+      university_logo: https://example.com/university-logo.png
+      time: 2019 - 2023
+      details: |
+        "Durante mi licenciatura, me enfoqué en el diseño gráfico y adquirí una sólida comprensión de los principios del diseño. También participé en proyectos de diseño centrados en el usuario que me ayudaron a desarrollar mis habilidades en UX/UI."
+
+    - degree: Diplomado en Diseño de Interfaz
+      university: Universidad de California
+      # optional
+      university_logo: https://example.com/university-logo.png
+      time: 2022
+      details: |
+        "El diplomado en Diseño de Interfaz me proporcionó una formación especializada en el diseño de interfaces centradas en el usuario. Aprendí a crear soluciones de diseño efectivas y atractivas."
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñador UX/UI Jr
+      time: 2022 - Presente
+      company: Empresa XYZ, Ciudad de Ejemplo
+      # optional
+      company_logo: https://example.com/company-logo.png
+      details: |
+        "Como Diseñador UX/UI Jr, trabajo en colaboración con un equipo de diseño para crear interfaces de usuario intuitivas y atractivas. Participo en investigaciones de diseño, desarrollo de wireframes y prototipos, y mejora continua de la experiencia del usuario."
+
+    - role: Diseñador de Interfaces
+      time: 2020 - 2022
+      company: Empresa ABC, Ciudad de Muestra
+      # optional
+      company_logo: https://example.com/company-logo.png
+      details: |
+        "En mi rol de Diseñador de Interfaces, tuve la oportunidad de liderar proyectos de diseño centrados en el usuario. Desarrollé wireframes, prototipos interactivos y colaboré estrechamente con el equipo de desarrollo para implementar soluciones de diseño efectivas."
+
+# Your project portfolio
+projects:
+    intro: >
+      "A continuación, presento algunos de los proyectos en los que he trabajado. Estos proyectos reflejan mi enfoque en el diseño centrado en el usuario y la creación de interfaces intuitivas."
+
+    assignments:
+      - title: Proyecto A
+        # optional
+        project_logo: https://example.com/project-logo.png
+        link: "#proyecto-a"
+        tagline: "Diseño de una aplicación móvil para mejorar la experiencia del usuario."
+
+      - title: Proyecto B
+        # optional
+        project_logo: https://example.com/project-logo.png
+        link: "#proyecto-b"
+        tagline: "Diseño de un sitio web de comercio electrónico centrado en la usabilidad"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
