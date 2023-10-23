@@ -8,6 +8,12 @@ skin: "blue"
 # Personal Information
 basic_info:
 
+    #
+    # ******** IMPORTANT *******
+    # Github username has to match file
+    github: example
+
+
     # Your full name
     first_name: Wonder
     last_name: Woman
@@ -36,11 +42,6 @@ basic_info:
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
