@@ -1,0 +1,100 @@
+---
+template: online-cv
+skin: berry
+basic_info:
+  first_name: Jose
+  last_name: Alvarez
+  motto: Enthusiastic and initiative
+  focus: Family & code
+  summary: >
+    "Occupational Health and Safety Specialist since 2017, with several
+    leadership and teamwork diplomas, and an active debater during my university
+    years." 
+  avatar: https://res.cloudinary.com/dxaialbs0/image/upload/v1696885980/user_image/rhtwqqx60o1rokgnqecd.jpg
+  email: joseignacio.alvarez.n@gmail.com
+  phone: nophoneadded
+  website: nowebadded
+  linkedin: null
+  github: Jose1gnacio
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Music
+    - item: Cooking
+    - item: Movies
+    - item: technologies
+education:
+  - degree: Occupational Health and Safety Specialist (engineer)
+    university: University of Santo Tomas
+    university_logo: null
+    time: 2013 - 2017
+    details: |
+      leadership diploma including teamwork.
+experiences:
+  - role: Occupational Health and Safety Specialist
+    time: 2021 - Present
+    company: Warner, Atacama Kozan mine.
+    company_logo: null
+    details: ""
+  - role: Occupational Health and Safety Specialist
+    time: 2018 - 2021
+    company: Bastronic
+    company_logo: null
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 80%
+    - name: Javascript & jQuery
+      level: 80%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 85%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 50%
