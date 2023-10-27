@@ -1,0 +1,157 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jackeline
+    last_name: Vargas
+    
+    # Define yourself in 4-5 words
+    motto: Searching for compassión inside and out.
+    
+    # Focus
+    focus: Adquiring the great skills of coding.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I studied 3 years of Computer Science in School, because I was planning to become a Graphic Designer. I created a game for my final proyect for graduation and I got the maximum grade. Now, years later, I'm doing the Full Stack Developer bootcamp at 4geeks Academy and I'm on my way to become it. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmad16-1.fna.fbcdn.net/v/t1.6435-9/44334700_2033395596724066_691263991174922240_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c2f564&_nc_ohc=H5-c9T9OY7YAX8BJ-G8&_nc_ht=scontent.fmad16-1.fna&oh=00_AfAAkRucmu-seHEn0Jki5huqOicuFoCrh7B62m2hYVQuZQ&oe=65635FAC
+
+    # Contact Information
+    email: jacky.vivian.vargas@gmail.com #optional
+    phone: 600218896 #optional
+    website: https://jackyvivianvargas.wixsite.com/website-1 #optional
+    linkedin: Jackeline Vargas Cabanilla #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jackievivianv
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: B2
+
+      - idiom: French
+        level: A2
+
+    # Interests or hobbies
+    interests:
+      - item: Running
+
+      - item: Aerial Acrobatics
+
+      - item: Writing
+
+# Your previous education
+education:
+    - degree: MSc in Training and Sports Nutrition
+      university: Universidad Europea de Madrid
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015-2016
+      details: |
+        I learn all about planning a wise training for endurance and strenght sports.
+        It's adaptations, the correct way to create a plannification and all what it involves.
+        Also, I learn about how to do a correct nutrition plan for athletes according to their own sport and body.
+
+          - Training
+          - Sports Nutrition
+
+
+    - degree: Degree in Journalism
+      university: Universidad Casa Grande
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2006 - 2010
+      details: |
+        I learned and practice different types of journalism. How to write for a newspaper, a magazine or a press release.
+        Also, how to create good and interesting articles, chronics and news reports. I practice writing news about politics, 
+        economics, sports, etc. We also learned how to develop ourselves as journalist in radio and TV.
+
+          - News articles
+          - Radio & Television
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Jivamukti Yoga Teacher
+      time: 2019 - Present
+      company: Zentro Urban Yoga, Templo Satya and Asana Groove
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Teach Jivamukti Yoga to students from all levels.
+
+          - Spiritual Talks
+          - Chanting and breath work too.
+
+    - role: Aerial Acrobatics Instructor and Performer
+      time: 2014 - Present
+      company: VVDV, Central de Pole, Vuela Danza Aérea & Acro Aerial Studio
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Plan and teach Aerial Silks and Aerial Hoop classes to adults and kids from all levels.
+
+          - Training
+          - Shows
+
+    - role: Sports Journalist
+      time: 2008 - 2011
+      company: El Telégrafo Newspaper, El Comercio and Comité Olímpico Ecuatoriano
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Sport Journalist. 
+
+          - Cover up and write sports news, reports, chronics, etc.
+          - Assist to national and international championships.
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are some of the few projects I have created until now. 
+
+    assignments:
+      - title: Instagram Bootstrap Project.
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/jackievivianv/IGbootstrap-jackievargas
+        tagline: "A bootstrap HTML design like Instagram"
+
+     
+
+skills:
+    toolset:
+      - name: Sketch & Photoshop
+        level: 80%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: InDesign & Premier
+        level: 60%
+
