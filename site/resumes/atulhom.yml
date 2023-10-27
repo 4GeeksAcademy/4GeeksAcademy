@@ -1,0 +1,62 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joan
+    last_name: Guasch 
+    
+    # Define yourself in 4-5 words
+    motto: FullStack
+    
+    # Focus
+    focus: Trying to learn everyday smthing new.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Full Stack Junior Web Developer with knowledge of Html, CSS, Bootstrap
+
+    avatar: https://cdn-icons-png.flaticon.com/512/4600/4600312.png
+
+    # Contact Information
+    email: joanguaschduran@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: www.nosite.com #optional
+    linkedin: JGD #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Atulhom
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Bike
+
+      - item: Moto
+
+      - item: Computer
+
+skills:
+    toolset:
+
+      - name: JavaScript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
