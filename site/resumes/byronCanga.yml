@@ -18,7 +18,7 @@ basic_info:
   focus: Explorando la Evolución del Diseño y Desarrollo Frontend
 
   # You have 1 paragraph to make a great impression, summarize your career
-  summary: |
+  summary: 
     Soy un apasionado del diseño y el desarrollo frontend, 
     y cada día espero con entusiasmo la llegada de nuevas 
     tecnologías. La creatividad que implica transformar 
@@ -75,12 +75,12 @@ experiences:
     company: byga
     # optional
     company_logo: https://byga.company/wp-content/uploads/2022/03/logo-byga.svg
-    details: |
+    details: 
       Empresa dedicada a brindar servicios para mepresas de juegos
       de bingo y broadcast     
 # Your project portfolio
 projects:
-  intro: >
+  intro: 
     You can list your side projects or open source libraries in this
     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
