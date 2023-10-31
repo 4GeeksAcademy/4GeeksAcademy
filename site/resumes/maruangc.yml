@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maruan
+    last_name: Yarbouh
+    
+    # Define yourself in 4-5 words
+    motto: Persistente
+    
+    # Focus
+    focus: Aprender programacion web
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona acostumbrada a resolver las situaciones y complicaciones de trabajo,
+      realizo varias tareas al dia.
+
+      No me niego a los retos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/male/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: maruangc
+    
+    twitter: 'yarbouh' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Arabic
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree:  TSU Informatica
+      university: IUTIRLA
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 1993 - 1996
+      details: |
+        Adquiri conocimientos en programación y diseño de sistemas de información.
+        Utilice y domine lenguajes como Pascal, Cobol, Clipper, Visual Fox Pro, etc
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Representante técnico
+      time: 1991 - 1998
+      company: IBM Venezuela
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Trabaje como representante tecnico, atendiendo clientes corporativos, asistiendo 
+        tecnicamente a equipos de diversos tipos como AS/400, S/36, ATM, Servidores, PS/2,etc
+
+
+    - role: Senior Software Engineer
+      time: 1998 - Present
+      company: Gallery Computer CA
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Dirijo esta empresa de tecnología.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      En construccion.
+
+skills:
+    toolset:
+      - name: Visual Fox Pro
+        level: 98%
