@@ -1,0 +1,92 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fabián
+    last_name: Lasso
+    
+    # Define yourself in 4-5 words
+    motto: Hard-worker, constant learning, always improving.
+    
+    # Focus
+    focus: Learning full stack development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Tourism and hotel business manager with 10+ years’ experience in restaurants, cruise lines and hotels. Exceptional customer service and conflict resolution abilities. I am a multi-task worker and have the ability to work under pressure. I am a natural leader that develops team work, good relationships and a continuous improvement.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1gCQgpsHs1eJTdqjeDJHNkg6ZpDpvCNlY/view?usp=sharing
+
+    # Contact Information
+    email: fabolasso90@gmail.com #optional
+       
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Fabo90
+    
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Video gaming
+
+      - item: Drumming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Hotel and tourism business Manager 
+      university: Corporación Universitaria Unitec
+      time: 2017 - 2021
+      
+
+    - degree: Professional cook
+      university: Gato Dumas Escuela de Gastronomía
+      time: 2010 - 2012
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Front desk supervisor
+      time: 2021 -2023
+      company: Bogota Marriott Hotel
+      
+    - role: First cook
+      time: 2015 - 2017
+      company: Aramark
+
+    - role: 4th cook fishman
+      time: 2012 - 2014
+      company: Celebrity Cruises
+            
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
