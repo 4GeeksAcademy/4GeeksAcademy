@@ -64,8 +64,7 @@ education:
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2008 - 2015
-      details: |
-        Grado en arquitectura
+      details: Grado en arquitectura
 
 
     - degree: Bachiller en Ciencias
@@ -73,8 +72,7 @@ education:
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2008
-      details: |
-      Bachiller en ciencias
+      details: Bachiller en ciencias
 
 # Your previous job experiences or volunteer
 experiences:
@@ -83,8 +81,7 @@ experiences:
       company: Testic, Barcelona
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-          Diseñador de interfases
+      details:  Diseñador de interfases
 
 
     - role: Freelance
@@ -92,9 +89,7 @@ experiences:
       company: Autonomo, Canarias
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-
-            Autonomo como diseñador de interfases.
+      details:  Autonomo como diseñador de interfases.
 
 
 # Your project portfolio
