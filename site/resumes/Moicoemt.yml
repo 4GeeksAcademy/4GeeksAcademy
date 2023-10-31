@@ -1,0 +1,108 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Moises
+  last_name: Correa
+  motto: Siempre puedes Mejorar
+  focus: Programador full Stack Asistente HHRR Project manager.
+  summary: >
+    Soy una persona responsables, muy productiva y eficiente. Mi mayor
+    cualidad
+
+    es que no me rindo ante la dificultad y tengo un hambre constante por aprender
+
+    Y mejorar cada dia. 
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: moisescorrea.2607@gmail.com
+  phone: +58 414-6593306
+  website: asd.com
+  linkedin: alandoe
+  github: Moicoemt
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: conversational
+    - idiom: French
+      level: basic
+    - idiom: Spanish
+      level: native
+  interests:
+    - item: Social service
+    - item: Reading
+    - item: Cooking
+education:
+  - degree: ingeniero en petroleo
+    university: Universidad politecnica santiago mariño
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2017-2019
+    details: |
+      No terminado
+  - degree: Full Stack Developer
+    university: 4geeks Academy
+    Academy_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2023-Now
+    details: |
+      En proceso.       
+  - degree: RRHH
+    university: Wagner consulting international
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2020-2021
+    details: |
+      Titulo del curso completo de la empresa donde trabajo.
+experiences:
+  - role: RRHH, Project manager.
+    time: 2020-2023
+    company: New york.
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Desempeño el papel de asistente de recursos humanos, y a la vez
+      gerencia de proyectos(pm)
+
+      engloba tambien revisión de facturas y contratos.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
