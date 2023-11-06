@@ -75,8 +75,8 @@ education:
           - React
           - Python
 
-    - degree: BC in Natural Science
-      High School: D.A.D
+    - degree: BC Natural Science
+      university: D.A.D
       # optional
       time: 2014 - 2018
       details: |
