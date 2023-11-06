@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ekaterina
+    last_name: Chavan
+    
+    # Define yourself in 4-5 words
+    motto: Effective organization and perfectionism
+    
+    # Focus
+    focus: Programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Currently studying in 4GeeksAcademy Bootcamp. Soon to be expanded.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/144109471?v=4
+
+    # Contact Information
+    email: tchavan.k@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/ekaterina-chavan/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: t0kyolover
+    
+    
+    stack-overflow: 22503856/katya
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Russian
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: German
+        level: Elementary
+
+      - idiom: Japanese
+        level: Elementary
+
+    # Interests or hobbies
+    interests:
+      - item: Video Games
+
+      - item: Travelling
+
+      - item: Business
+
+# Your previous education
+education:
+    - degree: Full-Stack Development
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+
+
+    - degree: Exchange Program (Japanese Studies)
+      university: Tokyo University of Foreign Studies
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2013
+      
+
+    - degree: BSc in Japanese Studies
+      university: Moscow State University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2009 - 2014
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Account Executive
+      time: 2023 - 2023
+      company: Revolut, Madrid
+      # optional
+      company_logo: https://cdn.icon-icons.com/icons2/3914/PNG/512/revolut_logo_icon_248648.png
+
+    - role: BDR, LegalOps Specialist
+      time: 2021 - 2023
+      company: Bigle Legal, Madrid
+      # optional
+      company_logo: https://www.derechopractico.es/wp-content/uploads/2019/03/Logo-Bigle-Legal-150x150-2.jpg?x83593
+     
+    - role: BDR, AppSec Specialist
+      time: 2021 - 2021
+      company: Hdiv Security, Madrid
+      # optional
+      company_logo: https://www.redseguridad.com/wp-content/uploads/sites/2/2021/06/logo-hdiv-security.png
+      
+    - role: Americas & APAC Reservation Agent
+      time: 2018 - 2021
+      company: Meliá Hotels International, Madrid
+      # optional
+      company_logo: https://s3-symbol-logo.tradingview.com/melia-hotels-international--600.png
+
+# Your project portfolio
+projects:
+    assignments:
+      - title: JavaScript Excuse Generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/t0kyolover/js-excuse-generator
+        tagline: "JavaScript Excuse Generator"
+
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/instagramphotofeed-bootstrap
+        tagline: "Instagram Photo Feed with Bootstrap"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
