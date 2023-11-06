@@ -41,7 +41,7 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: English 
         level: Native
 
       - idiom: Nepali
