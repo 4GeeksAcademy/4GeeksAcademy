@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Seth 
+    last_name: Kulow
+    
+    # Define yourself in 4-5 words
+    motto: It always seems impossible until its done.
+    
+    # Focus
+    focus: Machine learning and AI/Robotics
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Graduated from Devry unviversity with A programming essentails certificate.
+      This Built on the importance of perservance and patience in the workforce.
+      I'm also Eager to keep learning and follwing the the ever-changing world of technology.
+      Along with expanding my experience in the AI and machine learning aspects of technology. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg
+
+    # Contact Information
+    email: sethpk2003@gmail.com #optional
+    phone: 
+    website: https://sethpk2003.wixsite.com/my-site
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Skcodingacademy
+    
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Programming
+
+      - item: Sports
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Programming Essentials
+      university: Devry Unviersity 
+      time: 2021-2022
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+         
+# Your project portfolio
+projects:
+    intro: >
+      I have done a few side projects.
+
+    assignments:
+      - title: Building A Automated Smart Home Security System 
+        # optional
+        project_logo: https://static.wixstatic.com/media/4ff692_2577f8ef44f0477a9df1a2c289f56071~mv2.jpg/v1/fill/w_499,h_328,al_c,lg_1,q_80,enc_auto/wix_jfif.jpg
+        link: https://sethpk2003.wixsite.com/my-site/projects
+        tagline: "The steps of bulding a security system."
+
+      - title: Programming With Data
+        # optional
+        project_logo: https://static.wixstatic.com/media/nsplsh_97f0fc33d1a24c008d2c3b47f4c682fd~mv2.jpg/v1/fill/w_613,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Markus%20Spiske.jpg
+        link: https://sethpk2003.wixsite.com/my-site/projects
+        tagline: "Data analysis using Python."
+
+      - title: Linux Final Presentation
+        # optional
+        project_logo: https://static.wixstatic.com/media/4ff692_8eb913953371494e96efc3b8df38cf5a~mv2.jpg/v1/crop/x_21,y_0,w_278,h_168/fill/w_387,h_235,al_c,lg_1,q_80,enc_auto/Linux.jpg
+        link: https://sethpk2003.wixsite.com/my-site/projects
+        tagline: "The fundamentals of the Linux operating system in a virtualized environment."
+
+      - title: OOP Python Presentation 
+        # optional
+        project_logo: https://static.wixstatic.com/media/nsplsh_1152cfbf26f24be880d9686af40ba47f~mv2.jpg/v1/crop/x_0,y_178,w_6000,h_3643/fill/w_624,h_379,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Image%20by%20Fotis%20Fotopoulos.jpg
+        link: https://sethpk2003.wixsite.com/my-site/projects
+        tagline: "Through the use of object-oriented techniques to create a stock tracking application."
+
+     
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 15%
+
+      - name: Sketch & Photoshop
+        level: 60%
