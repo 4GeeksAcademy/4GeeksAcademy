@@ -1,0 +1,64 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Anthony
+  last_name: Pon
+  motto: Introvert Tech-Curious Helpful Quiet Geek
+  focus: Learning the foundation of everything.
+  summary: >
+    My professional path has covered many areas of the IT world. I started
+    implementing point-to-point link configurations in mining companies like
+    Escondida,
+
+    where later, looking for a new challenge, I went to the capital of Chile to work as a Network Engineer for the Anglo American project. After that my professional 
+
+    direction took a turn and I left the configurations and consoles to dedicate myself more to the administration part as a client of several providers.
+
+
+    You might think I've done it all, but no. Now I return to the fields implementing professional services, and also as a Microsoft Azure instructor for courses like
+
+    az900 and az104.
+  avatar: https://media.licdn.com/dms/image/D4E03AQHQ7VyO0rFdMg/profile-displayphoto-shrink_200_200/0/1694849720667?e=1706140800&v=beta&t=zTHsWXk130CL7ZrW1zwtTkFXA9PnrQ277ztk0jIQqAc
+  email: anthonypn@gmail.com
+  phone: 9-95301271
+  linkedin: anthonyponn
+  github: anthonypon
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Leather working
+    - item: Gaming
+    - item: Playing guitar
+education:
+  - degree: Engineering in Telecommunications, Connectivity and Networking.
+    university: Universidad Tecnica Inacap.
+    time: 2011 - 2015
+experiences:
+  - role: Services and Account Engineer.
+    time: 2020 - Present
+    company: TD-Synnex
+  - role: Services Delivery Coordinator
+    time: 2018 - 2020
+    company: Fluor Chile
+  - role: Network Engineer
+    time: 2016 - 2018
+    company: SSI, Anglo American
+  - role: Solution Architech
+    time: 2013 - 2016
+    company: Adexus S.A
+skills:
+  toolset:
+    - name: Python
+      level: 45%
+    - name: HTML5 & CSS
+      level: 50%
+    - name: Vmware
+      level: 80%
+    - name: Veeam Backup & Replication
+      level: 80%
+    - name: Azure
+      level: 90%
