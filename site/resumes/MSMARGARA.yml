@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marina Soledad
+    last_name: Margara
+    
+    # Define yourself in 4-5 words
+    motto: Nada se pierde, todo se transforma
+    
+    # Focus
+    focus: Diseño y desarrollo web creativo
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante de Analista en Sistemas a punto de obtener mi graduación, y actualmente, complementando mi formación académica con el bootcamp de programación web Full Stack de 4Geeks. Me defino como una persona resolutiva y flexible, con habilidades para trabajar de manera colaborativa y comunicarme de forma efectiva en equipos diversos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/142249109?v=4
+
+    # Contact Information
+    email: marmargara.mm@gmail.com #optional
+    phone: +543516804572 #optional
+    website: proximamente... #optional
+    linkedin: https://www.linkedin.com/in/marinasoledadmargara/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MSMARGARA
+    
+    twitter: ' ' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar
+
+      - item: Tecnologia
+
+      - item: Sustentabilidad
+
+# Your previous education
+education:
+    - degree: Tecnicatura de Analista de Sistemas de Computación 
+      university: Institución Cervantes
+      # optional
+      university_logo: https://encrypted tbn0.gstatic.com/images?q=tbn:ANd9GcRmlRrT8n5WY9Vxh6VIIsewrq0-aNmioa-4j9A0uBwH8pJlY6vNSx-8twp6F94tXJwXNV0&usqp=CAU
+      time: 2021 - 2023
+      details: |
+        El Analista de Sistemas es un profesional especializado en el desarrollo, diseño e implementación de proyectos de sistemas informáticos, a partir del diagnóstico de los problemas y necesidades de información de las organizaciones. 
+        Como técnica analista de sistemas, estoy capacitada para interpretar requerimientos empresariales y crear proyectos de software en diferentes áreas, aplicando mis conocimientos en tecnologías de la información.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Desarrolladora Front End
+      time: Actualmente
+      company: Fundacion Granja del Sr. Brito
+      # optional
+      company_logo: 
+      details: |
+        La Fundación “Granja del Señor Brito” es una organización sin fines de lucro destinada a promover el bienestar de aquellas personas más vulnerables a través del contacto con los animales. En el marco de este proyecto, el objetivo principal es el desarrollo de una aplicación Web completa, con una extensión Mobile reservada para el uso interno, que posibilite una gestión integral optimizada de la fundación
+        Como Desarrolladora Front End en este proyecto, asumo un papel crucial que abarca todo el ciclo de diseño y desarrollo. Mi enfoque se centra en aplicar mis habilidades técnicas para crear una experiencia de usuario atractiva y funcional. Trabajando en estrecha colaboración con un equipo de analistas, contribuyo activamente a transformar la visión de la fundación en una realidad digital, garantizando que la plataforma cumpla con sus objetivos altruistas.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
