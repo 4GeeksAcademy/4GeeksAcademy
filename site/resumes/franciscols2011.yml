@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Lopez.
+    
+    # Define yourself in 4-5 words
+    motto: La confianza en uno mismo es el primer secreto del éxito.
+    
+    # focus
+    focus: 
+    
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Estudiante Full Stack Developer en 4Geeks Academy.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pbs.twimg.com/profile_images/1703384810851377152/mkVKW1Sc_400x400.jpg
+
+    # Contact Information
+    email: franciscols2011@gmail.com #optional
+    phone: +598 91 326 342 #optional
+    linkedin: franciscolopez05 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: franciscols2011
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Basico
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobies
+    interests:
+      - item: Programacion Web
+
+      - item: Cocinar
+
+      - item: Ciberseguridad
+
+# Your previous education
+education:
+    - degree: E.M.T Informatica
+      university: Universidad del Trabajo del Uruguay
+      # optional
+      university_logo: https://scontent.fmvd4-1.fna.fbcdn.net/v/t39.30808-6/304689480_572085711314007_8126727811908590966_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=74_oPGUGlTMAX8fHprs&_nc_oc=AQm0DMazef4sc9apVwt41ZDddB2dBcdiNTvLj-pz58aig9ab1Ytkw33t8CtF-mXGY_CsFKBiVxHYSCYm1L-7B2_y&_nc_ht=scontent.fmvd4-1.fna&oh=00_AfDHCV5CerLO4gWxipkG9ocLkYL665xZNZxxG9Ycuw03oA&oe=6563B0DC
+      time: 2015 - 2018
+      details: |
+        Etapa donde descubri la pasion por la programacion y la informatica en general.
+        
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: C#
+        level: 70%
+
+      - name: Javascript
+        level: 60%
+
+      - name: Python
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 80%
+
