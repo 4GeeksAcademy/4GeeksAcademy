@@ -1,0 +1,89 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+
+    first_name: Andrés
+    last_name: Miranda
+    motto: I like learning new things
+    focus: Programming
+    summary: I have 2 careers in progress, one of them is Graphic Design 
+      and the other is this Full Stack Programming Bootcamp. The two 
+      complement each other because programming also needs design and 
+      that's why I chose both.  
+    avatar: https://avatars.githubusercontent.com/u/31228376?v=4
+
+    # Contact Information
+    email: amiranda20132013@gmail.com
+    phone: 0961934406
+    linkedin: Andrés Miranda 
+    
+    #
+    # ******** IMPORTANT *******
+    github: andresmiranda2000
+    
+    twitter: 'iamandres2000'
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: 75%
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Programming
+
+      - item: Soccer
+
+# Your previous education
+education:
+    - degree: Graphic Designer
+      university: Universidad de las Américas
+      time: 2019 - 2023
+      details: I studied Graphic Design for 4 years at the Universidad de las Américas, I never had the opportunity to put this career into practice professionally.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Support
+      time: 2018 - 2022
+      company: CFA // 9z Team
+      details: Support in the creation of online events for video games for the 
+        eSports company 9z Team, through the agency CFA. 
+
+    - role: Support / Junior Graphic Designer / Production
+      time: 2023 - Present
+      company: CFA // KRÜ Esports
+      details: Support, Graphic Design and Production in the creation of online 
+        events for video games for the company KRÜ Esports, through the 
+        agency CFA. 
+
+# Your project portfolio
+projects:
+    intro: Here you will find some of the work I did for CFA and some of the 
+      work I did as an internship for Graphic Design.
+
+    assignments:
+      - title: Github
+        link: "#https://github.com/andresmiranda2000"
+        tagline: "Projects of Full Stack."
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 78%
+
+      - name: HTML % CSS
+        level: 58%
+
+      - name: Ilustrator
+        level: 68%
+
+      - name: Adobe Premiere
+        level: 55%
