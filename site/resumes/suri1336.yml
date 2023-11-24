@@ -32,6 +32,15 @@ basic_info:
 
       - item: Trying new foods
 
+education:
+  - degree: FullStack Web Developer
+    university: 4Geeks Academy
+    time: 2023 - 2024
+    details: |
+      Learned to create responsive websites using HTML, CSS, Javascript,
+      Python, Django. Learned how to use coding social websites such as
+      Github, Stack Overflow & Stack.
+
 projects:
     intro:
      https://github.com/Suri1336/postcard2
