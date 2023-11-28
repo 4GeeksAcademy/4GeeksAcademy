@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "yellow"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Dana
+    last_name: Matos
+    
+    # Define yourself in 4-5 words
+    motto: Code, coffee, and a splash of creativity, recipe for a perfect day.
+    
+    # Focus
+    focus: Consistency and authenticity
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+       I've spent several years in customer service and worked as a quality analyst for two years. 
+       In the last year, I've shifted gears into the digital world, creating content on social media about tech and working as a content creator and photographer for small businesses.
+       Along the way, I started building websites and doing some basic coding, and I've fallen in love with it.
+       Now, I'm excited to bring my mix of customer-focused experience and newfound coding skills to the table as I continue to grow as a content creator and developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/341515702_233031352605905_8821250661914017825_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=P7SB8UVzzksAX-lGN_z&_nc_ht=scontent-hou1-1.xx&oh=00_AfDXdIsigN1RveQqgSAZ46krI9z9nPQWMBOxnZ4uSw0E2Q&oe=65664885
+
+    # Contact Information
+    email: dana@dkfmedia.com #optional
+    phone: 832 647 5826 #optional
+    website: dkfmedia.com #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dkfmedia
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: C1, Professional
+
+      - idiom: Spanish
+        level: Navtive
+
+    # Interests or hobbies
+    interests:
+      - item: Recreational beverages; coffee, wine, beer
+
+      - item: Content creation and street photography
+
+      - item: Technology and Tech Lifestyle
+
+      - item: Yoga
+
+# Your previous education
+education:
+    - degree: C1 certification, English as a second language.
+      university: CEI 
+      # optional
+      time: 2013 - 2016
+      details: |
+        Investing in my professional growth, I dedicated time to pursue and successfully attain a C1 certification in English-speaking.
+        Achieving C1 proficiency involves mastering complex ideas, expressing opinions clearly, and understanding nuanced language in both professional and social contexts. 
+        The process demanded advanced language skills, critical thinking, and an ability to navigate diverse communication scenarios. 
+        This achievement not only showcases my linguistic capabilities but also reflects my determination to excel in environments requiring advanced English proficiency, a skill set invaluable in the globalized landscape of today's tech and coding fields.
+
+    - degree: Fullstack developer Bootcamp
+      university: 4Geeks 
+      # optional
+      time: Current
+      details: |
+          Learning the most used coding languages in today's industry, such as: HTML, CSS, JavaScript and more! 
+          Aditionally learning the following...
+            - Working with a website from start to final launch
+            - Prototyping, creating, and building websites along with user interface teams
+            - Designing user interactions through robust front end architecture
+            - Managing database and server administration duties
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Quality Analyst
+      time: 2022 - Present
+      company: Empyrean Benefits Solution, Houston TX
+      # optional
+      details: |
+        Conduct evaluations for customer service representatives, both English and Spanish speakers, to ensure they meet the company's quality standards and guarantee client and member satisfaction. 
+        My role involves providing constructive feedback, highlighting areas for improvement, and recognizing their strengths. 
+        Additionally, I handle diverse tasks upon request, including conducting bilingual interviews and tests to certify Spanish-speaking representatives. 
+        This comprehensive approach ensures the team is well-equipped to deliver exceptional service and fosters continuous improvement in their skills.
+
+          
+    - role: Volunteer work
+      time: May 2023 - October 2023
+      company: Business Startup
+      # optional
+      details: |
+          Assisted a business startup with the creation of their comercial website using Shopify. 
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: HTML5 Payment Form
+        # optional
+        link: "#hook"
+        tagline: "A responsive HTML5 form template made excusively with HTML and Bootstrap."
+
+      - title: Interactive Instagram Layout
+        # optional
+        link: "#"
+        tagline: "A responsive Instagram layout using HTML and Bootstrap"
+
+      - title: Excuse Generator
+        # optional
+        link: "#"
+        tagline: "Excuse generator made with JavaScript"
+
+      - title: Basic site
+        # optional
+        link: "#"
+        tagline: "Basic website design using HTML5 and CSS"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 98%
+
+      - name: JavaScript  
+        level: 60%
+
+      - name: Bootstrap
+        level: 95%
