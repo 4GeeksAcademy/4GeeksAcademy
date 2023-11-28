@@ -3,149 +3,104 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "yellow"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Dana
+    last_name: Matos
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Code, coffee, and a splash of creativity, recipe for a perfect day.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Consistency and authenticity
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+       I've spent several years in customer service and worked as a quality analyst for two years. 
+       In the last year, I've shifted gears into the digital world, creating content on social media about tech and working as a content creator and photographer for small businesses.
+       Along the way, I started building websites and doing some basic coding, and I've fallen in love with it.
+       Now, I'm excited to bring my mix of customer-focused experience and newfound coding skills to the table as I continue to grow as a content creator and developer.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-6/341515702_233031352605905_8821250661914017825_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=P7SB8UVzzksAX-lGN_z&_nc_ht=scontent-hou1-1.xx&oh=00_AfDXdIsigN1RveQqgSAZ46krI9z9nPQWMBOxnZ4uSw0E2Q&oe=65664885
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: dana@dkfmedia.com #optional
+    phone: 832 647 5826 #optional
+    website: dkfmedia.com #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: dkfmedia
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
+        level: C1, Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Navtive
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Recreational beverages; coffee, wine, beer
 
-      - item: Snowboarding
+      - item: Content creation and street photography
 
-      - item: Cooking
+      - item: Technology and Tech Lifestyle
+
+      - item: Yoga
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: C1 certification, English as a second language.
+      university: CEI 
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2013 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Investing in my professional growth, I dedicated time to pursue and successfully attain a C1 certification in English-speaking.
+        Achieving C1 proficiency involves mastering complex ideas, expressing opinions clearly, and understanding nuanced language in both professional and social contexts. 
+        The process demanded advanced language skills, critical thinking, and an ability to navigate diverse communication scenarios. 
+        This achievement not only showcases my linguistic capabilities but also reflects my determination to excel in environments requiring advanced English proficiency, a skill set invaluable in the globalized landscape of today's tech and coding fields.
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Fullstack developer Bootcamp
+      university: 4Geeks 
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: Current
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
+          Learning the most used coding languages in today's industry, such as: HTML, CSS, JavaScript and more! 
+          Aditionally learning the following...
+            - Working with a website from start to final launch
+            - Prototyping, creating, and building websites along with user interface teams
+            - Designing user interactions through robust front end architecture
+            - Managing database and server administration duties
+    
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Quality Analyst
+      time: 2022 - Present
+      company: Empyrean Benefits Solution, Houston TX
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Conduct evaluations for customer service representatives, both English and Spanish speakers, to ensure they meet the company's quality standards and guarantee client and member satisfaction. 
+        My role involves providing constructive feedback, highlighting areas for improvement, and recognizing their strengths. 
+        Additionally, I handle diverse tasks upon request, including conducting bilingual interviews and tests to certify Spanish-speaking representatives. 
+        This comprehensive approach ensures the team is well-equipped to deliver exceptional service and fosters continuous improvement in their skills.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          
+    - role: Volunteer work
+      time: May 2023 - October 2023
+      company: Business Startup
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          Assisted a business startup with the creation of their comercial website using Shopify. 
 
 # Your project portfolio
 projects:
@@ -155,52 +110,33 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
+      - title: HTML5 Payment Form
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A responsive HTML5 form template made excusively with HTML and Bootstrap."
 
-      - title: DevStudio
+      - title: Interactive Instagram Layout
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A responsive Instagram layout using HTML and Bootstrap"
 
-      - title: Tempo
+      - title: Excuse Generator
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Excuse generator made with JavaScript"
 
-      - title: Atom
+      - title: Basic site
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Basic website design using HTML5 and CSS"
 
 skills:
     toolset:
-      - name: Python & Django
+      - name: HTML5 & CSS3
         level: 98%
 
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: JavaScript  
         level: 60%
+
+      - name: Bootstrap
+        level: 95%
