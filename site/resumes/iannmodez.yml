@@ -10,7 +10,7 @@ basic_info:
 
     # Your full name
     first_name: Iann
-    last_name: Morales
+    last_name:  Morales
     
     # Define yourself in 4-5 words
     motto: I like learning everyday
@@ -92,7 +92,7 @@ experiences:
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        I was in charge of customer service for both individuals and companies, providing the best possible service with the 
+        I was in charge of the customer service for both individuals and companies, providing the best possible service with the 
         highest priority given to the customer and speed
 
     - role: 
