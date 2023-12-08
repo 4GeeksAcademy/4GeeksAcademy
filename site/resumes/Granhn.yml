@@ -1,0 +1,80 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Fuenzalida
+    
+    # Define yourself in 4-5 words
+    motto: I like learning new stuff
+    
+    # Focus
+    focus: Programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero informatico de la PUCV estudiando para volverse un full stack
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fscl16-1.fna.fbcdn.net/v/t1.6435-9/97723451_248023829846627_4569745422263779328_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=be3454&_nc_ohc=rTLPOVqAH0gAX-WHBNS&_nc_ht=scontent.fscl16-1.fna&oh=00_AfDO-TVxv7o-n5L23m4y_NOOD-PNVae_z5opkOsodM7eVw&oe=659AEF05
+
+    # Contact Information
+    email: fuenzaladiego@gmail.com
+  
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Granhn
+    
+  
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Beginer
+
+    # Interests or hobbies
+    interests:
+      - item: Skate
+
+      - item: Cooking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Ingeniero en ejecucion informatica
+      university: Pontificia Universidad Catolica de Valparaiso
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/PUCV_Escudo2016.svg/1200px-PUCV_Escudo2016.svg.png
+      time: 2018 - 2022
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: JavaScript & Vue
+        level: 75%
+
+      - name: React
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
