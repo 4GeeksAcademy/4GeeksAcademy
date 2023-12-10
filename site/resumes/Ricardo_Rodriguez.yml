@@ -53,6 +53,9 @@ basic_info:
       - idiom: Ingles
         level: Professional
 
+      - idiom: french
+        level: Professional  
+
     # Interests or hobbies
     interests:
       - item: Diseño
@@ -64,7 +67,7 @@ basic_info:
 # Your previous education
 education:
     - degree: Educacion sevundaria
-      university:  universidad concluida
+      university:  universidad
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
