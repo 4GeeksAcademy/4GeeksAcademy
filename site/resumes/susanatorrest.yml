@@ -1,0 +1,111 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Susana
+  last_name: Torres
+  motto: I love to travel the world.
+  focus: Be brave
+  summary: >
+    I am a creative, independent and organized person with a strong passion
+    for content creation and design. 
+
+    My creativity and dedication are reflected in every task I undertake. Ready to contribute to dynamic teams and innovative projects.
+  avatar: file:///Users/susanatorrest/Downloads/17F88E35-D658-4C71-975D-45F9AB61B4C9.JPG
+  email: susanatt99@gmail.com
+  phone: +34 665948637
+  website: https://www.behance.net/susanatorres12
+  linkedin: https://www.linkedin.com/in/susana-torres-trujillo/
+  github: susanatorrest
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Fluent
+    - idiom: German
+      level: Basic
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Surfing
+    - item: Travelling
+    - item: Editing videos
+education:
+  - degree: Full Stack Web Development
+    university: 4 Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2023 - 2024
+    details: |
+      Bootcamp Remote
+  - degree: Graphic Design
+    university: University Oberta of Catalunya
+    university_logo: null
+    time: 2020 - 2023
+    details: |
+      Graphic design specialized in branding and content creation.
+  - degree: Higher Technician Lighting, Image, Capture and Processing
+    university: CISLAN
+    university_logo: null
+    time: 2017 - 2019
+    details: |
+      Photography and video production and post-production
+      Lighting for shows
+experiences:
+  - role: Freelancer
+    time: 2021 - Present
+    company: Remote
+    company_logo: null
+    details: >
+      Graphic designer and community manager. Specialized in branding, web
+      design and content creation.
+  - role: Video editor
+    time: 2019 - 2019
+    company: MediaKraft Cologne
+    company_logo: null
+    details: |
+      Video editing for influencers.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
