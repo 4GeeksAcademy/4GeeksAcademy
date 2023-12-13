@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Matias
+    last_name: Lewin
+    motto: Full Stack Developer
+    avatar: 
+    summary: |
+      Músico autodidacta argentino/alemán, tallerista de artes sonoras, compositor, guitarrista, bajista, pianista, cantante 
+      y percusionista. Home studio recording and production.
+      Agricultor de viña temporal desde 2017 en Canadá y Suiza.
+      Profesor ELE "Español para extranjeros".
+      Estudios en medicina herbolaria, ayurveda y medicinas naturales en general.
+      Meditador Vipassana.
+      Actualmente estudiando desarrollo web.
+
+      
+
+    # Sidebar links
+    email: matiasexequiellewin@gmail.com
+    phone: +52 1 999 4362304
+    website: #do not add http://
+    linkedin: https://www.linkedin.com/in/mat%C3%ADas-lewin-7a1638124/
+    github: matiaslewin
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Avanzado
+
+      - idiom: Alemán
+        level: intermedio
+      
+      - idiom: Italiano
+        level: intermedio
+      
+      - idiom: Portugués
+        level: intermedio
+
+      - idiom: Francés
+        level: principiante
+
+    interests:
+      - item: Deportes. tenis, fútbol, yoga, bicicleta, hiking, trekking, swimming, dancing.
+
+
+experiences:
+    - role: Profesor de Inglés para niños
+      time: 2022
+      company: Ibarlucea English Centre
+      details: |
+        Profesor de Inglés para niños en escuela privada en el pueblo de Ibarlucea,
+        a pocos kilometros de Rosario, Argentina.
+
+    - role: Trabajador agricola
+      time: 2017 - 2023
+      company: Weingut Festiguet
+      details: |
+          - Trabajador agricola en viñedo, en el pueblo de Ligerz, Suiza.
+          
+    - role: Músico vivo
+      time: 2011- 2023
+      company: Sonidos del más acá
+      details: |
+          Proyecto musical independiente, canciones de autoria propia, conciertos, 
+          grabaciones, ejecución de instrumentos musicales varios, Spotify: Sonidos del más acá.
+
+education:
+    - degree: Profesor ELE "español para extranjeros"
+      university: International House Montevideo
+      time: 2020-2021
+      details: |
+        Profesor de español para extranjeros en clases presenciales u online, todas las edades,
+        metodologías de enseñanza didacticas y dinamicas.
+         
+    - degree: Full stack developer
+      university: 4geeks Academy
+      time: 2023-2024
+      details: |
+        back-end y front-end
+                  
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: randomCardDealer
+        link: "https://github.com/matiaslewin/randomCardDealer.git"
+        tagline: "A responsive website template designed to practice DOM & Events."
+        
+      - title: domainNameGenerator
+        link: "https://github.com/matiaslewin/domainNameGenerator.git"
+        tagline: "A responsive website template designed to practice Javascript."
+
+      - title: excuseGenerator
+        link: "https://github.com/matiaslewin/excuseGenerator.git"
+        tagline: "A responsive website template designed to practice Javascript."
+
+      - title: photoFeed
+        link: "https://github.com/matiaslewin/photoFeed.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+
+      - title: instagramPostcardBT
+        link: "https://github.com/matiaslewin/instagramPostcardBT.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+      
+      - title: instagramPhotoFeedWithBootstrap
+        link: "https://github.com/matiaslewin/instagramPhotoFeedWithBootstrap.git"
+        tagline: "A responsive website template designed to practice HTML5, CSS & Bootstrap."
+
+      - title: testDigitalPostcard
+        link: "#https://github.com/matiaslewin/testDigitalPostcard.git"
+        tagline: "A responsive website template designed to practice HTML5 & CSS."
+skills:
+    toolset:
+      - name: DOM & Events
+        level: 60%
+
+      - name: GIT
+        level: 95%
+
+      - name: Javascript & jQuery
+        level: 20%
+
+      - name: Bootstrap
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
