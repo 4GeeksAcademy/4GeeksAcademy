@@ -1,0 +1,81 @@
+---
+template: online-cv
+skin: red
+basic_info:
+  first_name: Eleazer
+  last_name: Claudio
+  motto: Leveling up never stops.
+  focus: building an empire.
+  summary: |
+    I am currently a student at 4 geeks academy.
+  avatar: https://avatars.githubusercontent.com/u/148395938?v=4
+  email: 3liclaudio@gmail.com
+  phone: 216 319 5885
+  website: asd.com
+  linkedin: https://www.linkedin.com/in/eliclaudio/e
+  github: 3lic
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Professional
+  interests: null
+education:
+  - degree: MSc in Computer Science
+    university: University of London
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011 - 2012
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Associate, Inside Sales
+    time: 2022-2023
+    company: First Help Financial
+    details: |
+      
+
+      - Bullet point
+      - Bullet point
+  - null
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
