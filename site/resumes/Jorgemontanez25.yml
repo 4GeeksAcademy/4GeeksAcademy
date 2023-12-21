@@ -1,0 +1,201 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Montañez Aguilar
+    
+    # Define yourself in 4-5 words
+    motto: Sports and engineering 
+    
+    # Focus
+    focus: Robotics, automotion and optimization
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I am a MEng. in Mechanical engineering from Texas A&M University, with bachelors in Mechatronic enginering. I have experience
+     as a manufacturing engineer and as a mechanical engineer in the automotive industry.I also have experiece working in research
+     for the biomechanical enviroment laboratory at the Texas A&M University.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: jorgemontanez93@gmail.com #optional
+    phone: 9993228868 #optional
+    website:  #optional
+    linkedin: linkedin.com/in/jorgemontanezaguilar #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jorgemontanez25
+    
+    twitter: 'jorgeemontanez' #optional
+    stack-overflow: Jorgemontanez25 # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      # idiom: Spanish
+      #  level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Enginering
+
+      - item: Travel
+
+# Your previous education
+education:
+    - degree: MEng in Mechanical Engineering
+      university: Texas A&M University
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2019
+      details: |
+         Specialized in product design, advanced CAE (Computer-Aided Engineering), custom manufacturing, and multidisciplinary 
+         system analysis and design optimization.
+          ● Conducted research and development at Biomechanical Environments Laboratories.
+          ● Presented posters on topics including the design and evaluation of a climbing robot and the evaluation of shoulder 
+          abduction-adduction motion in quarterbacks.
+
+    - degree: BSc in Mechatronic Engineering
+      university: Universidad Modelo
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2015
+      details: |
+         Developed multiple projects integrating mechanical design, electronic design, and computer science.
+         Participated in the Research Experiences Undergraduate Program, focusing on mechatronics, robotics, and automated 
+         system design at Texas A&M University
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: Manager of Operations 
+      time: 2020 - Current
+      company: Jose Barroso, Merida, Yuc.
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+         Demonstrated expertise in effectively managing daily operations, optimizing processes, and improving overall efficiency. 
+         Streamlined workflows, resulting in increased productivity and cost savings.
+         Perform hydraulic system design and calculations, layout design for installation, and hydraulic system automation.
+         Implemented strategic initiatives to enhance supply chain efficiency, including inventory management, vendor relations, and 
+         logistics optimization. Reduced lead times and improved delivery performance.
+         Ensured adherence to quality standards, implementing robust quality control measures. Developed and monitored key 
+         performance indicators (KPIs) to drive quality improvements and customer satisfaction.
+         Built strong relationships with internal and external stakeholders, including suppliers, vendors, and clients. Collaborated 
+         effectively to address challenges, resolve conflicts, and achieve mutual objectives.
+         Utilized analytical tools to collect and analyze operational data, generating actionable insights and reports. Made data-driven 
+         decisions to optimize operations and improve overall performance.
+
+    - role: Mechanical Engineer
+      time: 2019 - 2020
+      company: Airtemp of America, Florida, US
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+      Led projects for Volkswagen OEM products, managing costs, conducting simulations and analysis, and overseeing prototype 
+      development.
+      Executed IQ (Installation Qualification), OQ (Operational Qualification), and PQ (Performance Qualification) for core building, 
+      crimping, and leak inspection processes.
+      Conducted a 2-day production audit (2DP), monitoring production rates, part performance, and GD&T (Geometric 
+      Dimensioning and Tolerancing).
+      Implemented 5S methodology and lean manufacturing principles.
+      Key Accomplishments:
+      Reduced project logistics costs by USD 900,000, increasing project value by 35%, through the design of a new packaging 
+      configuration.
+      Successfully started up a new facility in Panama City.
+
+      
+    - role: Manufacturing Engineer
+      time: 2016-2017
+      company: Ormex sa de cv, Merida, Yuc.
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Achieved a significant reduction in scrap from 40% to 5% in stainless steel files through the use of analysis and problem-solving 
+        tools.
+        Semi-automated and redesigned the grinding process, resulting in a 20% decrease in production time.
+        Implemented the laser welding process for braces, including code automation, fixture creation, and documentation development.
+        Conducted IQ, OQ, and PQ for the new manufacturing process, reducing production time by 30%.
+        Implemented 6 Sigma methodology, kaizen, and lean manufacturing principles.
+
+
+        
+
+
+# Your project portfolio
+#projects:
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#    assignments:
+#      - title: Velocity
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#      - title: DevStudio
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#      - title: Tempo
+#        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#      - title: Atom
+        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#      - title: Delta
+        # optional
+#        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Manufacturing
+        level: 98%
+
+      - name: Solidworks
+        level: 95%
+
+      - name: Rapid Prototyping
+        level: 95%
+
+      - name: FEA
+        level: 90%
+
+      - name: Python
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
