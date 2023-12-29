@@ -29,10 +29,10 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: 
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
     # Contact Information
-    email:damian.ramirez.rosales6@gmail.com #optional
-    phone:978622574 #optional
+    email: damian.ramirez.rosales6@gmail.com #optional
+    phone: 978622574 #optional
     website: N/A #optional
     linkedin: N/A #optional
     
@@ -42,7 +42,7 @@ basic_info:
     github: damianconpan
     
     twitter: 'N/A' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 1/damianconpan # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
