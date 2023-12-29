@@ -30,8 +30,8 @@ basic_info:
 
     # Contact Information
     email: nicolasj.o098@gmail.com #optional
-    phone: N/A #optional
-    website: N/A #optional
+    phone:  #optional
+    website:  #optional
     linkedin: https://www.linkedin.com/in/nick-jaramillo-9152302a7/ #optional
     
     #
