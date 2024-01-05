@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrew
+    last_name: Leonard
+    
+    # Define yourself in 4-5 words
+    motto: Work hard, earn hard
+    
+    # Focus
+    focus: Being the best version of me every new day
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've had a successful career as a full stack web developer, proficient in both front-end and back-end technologies. My skills include HTML, CSS, JavaScript, and experience with server-side technologies like Node.js or Django. I've designed and implemented efficient database systems and collaborated with cross-functional teams to deliver scalable and user-friendly web applications. Keeping up with emerging technologies and frameworks has been a priority, reflecting my commitment to delivering cutting-edge solutions.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/BnpedBF.png
+
+    # Contact Information
+    email: andrewleonard.dev@gmail.com
+    phone: 401 600 1118
+    website: https://vercel.com/drekkys-projects
+    linkedin: https://www.linkedin.com/in/andrew-leonard-dev/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: drekky
+    
+    stack-overflow: # https://superuser.com/users/1825421/drek
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Semi-Proficient
+
+      - idiom: Brazilian-Portuguese
+        level: Semi-Proficient
+
+    # Interests or hobbies
+    interests:
+      - item: Family Time
+
+      - item: Nerding out on the computer
+
+      - item: Automotive Mechanics
+
+# Your previous education
+education:
+    - degree: N/A 
+      university: New England Institute of Technology
+      time: 2021
+      details: |
+        I studied here to become a CNC Machinist
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: CNC Machinist
+      time: 2023
+      company: William Collins & Co.
+
+    - role: Machine Operator
+      time: 2021-2022
+      company: Rustoleum
+ 
+# Your project portfolio
+projects:
+    intro: >
+      Some projects I had fun with in React, Vanilla JS, CSS, and HTML
+
+    assignments:
+      - title: Responsive 3D Personal Portfolio built in React
+        link: "https://vercel.com/drekkys-projects/react-3d-portfolio"
+        tagline: "A responsive 3d personal portfolio built in react to demonstrate my developer abilities"
+
+      - title: React Travel App
+        link: "https://travel-ui-ux-app.vercel.app/"
+        tagline: "A responsive travel app website template built using Next.js for a mock travel destination agency."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
