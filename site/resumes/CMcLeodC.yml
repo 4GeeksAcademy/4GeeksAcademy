@@ -98,9 +98,9 @@ education:
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
+    - role: English Teacher
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: The British House, Bayer & more
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -117,9 +117,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Sales 
+      time: 2022 - 2023
+      company: Sales Company
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
