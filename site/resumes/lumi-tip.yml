@@ -9,59 +9,84 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Nicolas
-    last_name: Jaramillo
+    first_name: Luis MIguel
+    last_name: Del Valle
     
     # Define yourself in 4-5 words
-    motto: “I don't stop when I'm tired, I stop when I'm done.”
+    motto: Experience is as valuable as gold
     
     # Focus
-    focus: Learning
+    focus: Improve my skills as a programmer
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      23 year old coder from Chile, Native Spanish and English speaker. Lived in New Zealand, looking to move back thanks to coding.
-
-      
+      I am a 23 year old programmer with high knowledge in social networks
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://i.ibb.co/RyQtPY9/fotoperfil.png
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: nicolasj.o098@gmail.com #optional
-    phone: N/A #optional
-    website: N/A #optional
-    linkedin: https://www.linkedin.com/in/nick-jaramillo-9152302a7/ #optional
+    email: informacionlmdv@gmail.com #optional
+    phone: +58 4123260032 #optional
+    website: none #optional
+    linkedin: Luis Miguel Del Valle #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: nicolasjaramillo
+    github: lumi-tip
     
-    twitter: N/A #optional
+    twitter: none #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Español
         level: Native
 
-      - idiom: Spanish
-        level: Native
+      - idiom: English
+        level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Coding
+      - item: Reading
 
-      - item: Gaming
+      - item: Cooking
 
-      - item: Basketball
+      - item: Social Media
 
 # Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
-    
+          - Bullet point
+          - Bullet point
 
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
@@ -155,19 +180,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 0%
+        level: 98%
 
       - name: JavaScript & jQuery
-        level: 50%
+        level: 98%
 
       - name: Angular
-        level: 0%
+        level: 98%
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Adobe Premier
-        level: 90%
+      - name: Ruby on Rails
+        level: 85%
 
-      - name: Photoshop
+      - name: Sketch & Photoshop
         level: 60%
