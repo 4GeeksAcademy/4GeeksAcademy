@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sebastian
+    last_name: Centurion
+    
+    # Define yourself in 4-5 words
+    motto: I love geting better everyday 
+    
+    # Focus
+    focus: Reach my best version
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+       I started my career as a Software Developer using a high level programming language and then I started to get more in depth knowledge about the programming world (databases, services, virtualization, low level programming languajes, a little of design tools, etc.)
+       Now I am learning about Data Science and Machine Learning. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQEs1NPeek8d-w/profile-displayphoto-shrink_800_800/0/1585099349671?e=1710374400&v=beta&t=-Vp9qea1y86t1XoYmkGRPumM9A8Dxv13hzAJFDVFDHo
+
+    # Contact Information
+    email: sebastiancenturion27@gmail.com #optional
+    phone: +598651223 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/sebastiancenturion #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sebacent
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Basketball
+
+      - item: Gaming
+
+      - item: Cycling
+
+# Your previous education
+education:
+    - degree: Tecnologo en Informatica
+      university: UTEC (Universidad Tecnológica de Uruguay)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - Present
+      details: |
+        Bring me all of the tools needed to understand the IT world, gaining an acceptable amount of experience in all levels software, hardware, networks, OS, programming, design, databases and more.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Software Developer
+      time: 2019 - Present
+      company: Bantotal, Montevideo Uruguay
+      # optional
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: C++
+        level: 70%
+
+      - name: JavaScript
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: SQL
+        level: 85%
