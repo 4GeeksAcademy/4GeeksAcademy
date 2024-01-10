@@ -19,7 +19,7 @@ basic_info:
   phone: 123-456-7890
   website: www.johndoe.dev
   linkedin: https://www.linkedin.com/in/johndoe/
-  github: johndoe123
+  github: Diaz1010
   stack-overflow: #123456/username
 
   languages:
@@ -45,13 +45,14 @@ experiences:
   - role: Software Developer Intern
     time: 06/2021 - 09/2021
     company: InnovateTech Solutions
-    details: 
+    details: |
       Worked on developing web applications using modern technologies.
 
 projects:
-  intro: 
+  intro: >
     As a passionate developer, I have worked on various projects to enhance my skills. 
     Here are some noteworthy projects:
+
   assignments:
     - title: Online Portfolio
       tagline: "Developed a personal website to showcase skills and projects."
