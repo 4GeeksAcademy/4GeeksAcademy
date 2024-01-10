@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: John
+  last_name: Doe
+  motto: "Strive for progress, not perfection."
+  avatar: https://example.com/avatar.jpg
+  summary: 
+    Passionate and dedicated professional with a background in software development. 
+    Seeking challenging opportunities to contribute skills and expertise.
+
+  # Sidebar links
+  email: johndoe@example.com
+  phone: 123-456-7890
+  website: www.johndoe.dev
+  linkedin: https://www.linkedin.com/in/johndoe/
+  github: Diaz1010
+  stack-overflow: #123456/username
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: French
+      level: Intermediate
+
+  interests:
+    - item: Coding
+    - item: Hiking
+    - item: Photography
+
+education:
+  - degree: Computer Science
+    university: Tech University
+    time: 2018 - 2022
+    details: |
+      Specialized in software development and algorithms.
+
+experiences:
+  - role: Software Developer Intern
+    time: 06/2021 - 09/2021
+    company: InnovateTech Solutions hola
+    details: |
+      Worked on developing web applications using modern technologies.
+
+projects:
+  intro: >
+    As a passionate developer, I have worked on various projects to enhance my skills. 
+    Here are some noteworthy projects:
+
+  assignments:
+    - title: Online Portfolio
+      tagline: "Developed a personal website to showcase skills and projects."
+      link: "https://www.johndoe.dev/portfolio"
+
+    - title: Task Manager App
+      tagline: "Created a task management application with user-friendly features."
+
+skills:
+  toolset:
+    - name: JavaScript
+      level: 90%
+
+    - name: React.js
+      level: 85%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Python
+      level: 80%
+
+    - name: Node.js
+      level: 75%
