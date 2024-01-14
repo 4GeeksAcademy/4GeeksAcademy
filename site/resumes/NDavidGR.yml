@@ -1,0 +1,65 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nestor David
+    last_name: Garzon Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: “The cosmos is within us, We are made of star-stuff. We are a way for the universe to know itself.”
+    
+    # Focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Highly experienced and versatile Social Communicator with over 15 years of successful track record in government entities in Colombia. 
+      Possessing expertise in graphic design software, web page design, strategic communication plans, and institutional internal communication. 
+      Adept in utilizing various tools such as Photoshop, Illustrator, InDesign, WordPress, and more. Passionate about photography, film, and visual world in general. 
+      Currently studying English and coding.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/profile.jpg
+    
+    # Contact Information
+    email: davidknx@gmail.com #optional
+    phone: 305 462 9809 #optional
+    website: www.davidknx.com #optional
+    linkedin: davidknx #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NDavidGR
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English  
+        level: Intermediate
+
+
+    # Interests or hobbies
+    interests:
+      - item: Hikking
+
+      - item: Photography
+
+      - item: Movies
+
+# Your previous education
