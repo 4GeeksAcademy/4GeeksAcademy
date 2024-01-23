@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Munoz
+    
+    # Define yourself in 4-5 words
+    motto: Debugging the World, One Line at a Time
+
+    
+    # Focus
+    focus: front end programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Hi, I’m @joshemcr2 I’m interested in ... Web development , frontend and backend I’m currently learning ... HTML5, CSS3, JS, PYTHON, PHP, MYSQL in 4geeks academy , 
+   
+  
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jamc221996@gmail.com
+    phone: +58 412 400 67 40 
+    linkedin: https://www.linkedin.com/in/jose-angel-munoz-014b73215/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: joshemcr2
+    
+    twitter: joseangel02
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Surf
+
+      - item: Playing Guitar
+
+      - item: Watch colector
+
+# Your previous education
+education:
+    - degree: Bachelor's degree in science
+      university: Instituto educacional Aragua
+      
+      
+      time: 2007 - 2012
+   
+    - degree: Degree in Journalism
+      university: Universidad Bicentenaria de Aragua
+      
+      
+      time: 2014 - 2019
+  
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer in the computer science area
+      time: 2015 - Present
+      company: Ing JOG
+    
+
+# Your project portfolio
+projects:
+    intro: >
+     These are the only two projects I have worked on alone.
+
+    assignments:
+      - title: Blog de cafe
+      
+        link: "https://github.com/joshemcr2/blogdecafe_JAMC"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Front End Store 
+     
+        link: "https://github.com/joshemcr2/FrontEndStore_jamc"
+        tagline: "Example of a clothing store"
+
+      - title: Freelancer site
+     
+        link: "freelancer_JAMC"
+        tagline: "Example of a personal website"
+
+skills:
+    toolset:
+      - name: Boostrap
+        level: 98%
+
+      - name: JavaScript 
+        level: 98%
+
+
+      - name: HTML5 & CSS
+        level: 95%
+
+   
