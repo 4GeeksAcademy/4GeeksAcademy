@@ -121,6 +121,14 @@ projects:
         link: https://github.com/4GeeksAcademy/terrylh22-instagram-feed-bootstrap
         tagline: 
 
+      - title: Instagram Post (HTML and CSS)
+        link: https://github.com/4GeeksAcademy/terrylh22-instagram-post
+        tagline: 
+
+      - title: HTML and CSS Postcard
+        link: https://github.com/terrylh22/exercise-postcard
+        tagline:
+
 skills:
     toolset:
       - name: HTML
@@ -130,11 +138,17 @@ skills:
         level: 80%
 
       - name: Bootstrap
-        level: 80%
+        level: 60%
         
-      - name: Javascript Vanilla
-        level: 50%
+      - name: Javascript
+        level: 75%
         
-      - name: Javascript React
-        level: 30%
+      - name: NodeJS
+        level: 40%
+
+      - name: Office365
+        level: 70%
+
+      - name: Active Directory
+        level: 60%
         
