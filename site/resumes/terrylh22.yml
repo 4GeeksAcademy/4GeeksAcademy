@@ -74,16 +74,40 @@ education:
         
 # Your previous job experiences or voluntier
 experiences:
-    - role: Customer Service Representative
-      time: September 2014 - Present
-      company: Social Security Administration
-      details: Research info. on Medicare, Retirement, and Disability; Explain legal info. to the public 
+    - role: System Administrator
+      time: 2022 - Present
+      company: Autobell Car Wash
+      # optional
+      details: |
+        -	API design and development using NodeJS and MongoDB to integrate HR business applications.
+        -	Production support of mission critical business applications using SolarWinds Service Desk (Ticketing System), Dameware, and more.
+        -	Software implementation of ticketing and emergency systems.
+        -	User and Desktop support using Microsoft Intune, Azure Active Directory, Exchange and more.
+        -	POS implementation support and testing for multiple store locations.
 
+    - role: Associate Technical Recruiter
+      time: 2021 - 2022
+      company: Park Hudson International (Phaxis Staffing)
+      # optional
+      details: |
+        -	Studied and implemented optimized search strategies for LinkedIn Recruiter
+        -	Sourced, screened, and placed candidates for a wide variety of technical roles including Data Analytics, Data Engineering, Software Engineering, Technical Product Managers and others, including Director and VP level positions.
+        -	Attended client meetings to gather technical requirements.
+        -	Collaborated with Account Executives and hiring managers to produce realistic requirements.
+        -	Pioneered and suggested new recruiting strategies to management and team.
+        -	Tested potential recruiting resources and provided in depth feedback to upper management.
 
-    - role: Vault Teller
-      time: April 2013 - September 2014
-      company: American Bank of Commerce
-      details: Responsible for balancing the bank vault 
+    - role: Account Administrator (Contract)
+      time: 2021-2021
+      company: Atrium Health
+      # optional
+      details: |
+        -	Establish new user accounts and permissions for the medical team as requested within ServiceNow.
+        -	Communicated with many teams and groups across Atrium Health to ensure proper completion of service requests.
+        -	Establish Atrium Health Medical Student user accounts and track access privileges using various tools such as Excel.
+        -	Collaborated with team to create metric/data reports within ServiceNow.
+        -	Conduct weekly team metrics and statistics status meeting on a rotational basis.
+        -	Adheres to defined daily process quotas and deadlines as established by management.
      
   
 
