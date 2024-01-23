@@ -16,25 +16,20 @@ basic_info:
     motto: Achieving Growth through Dedication and Continuous Learning.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Coding Learner. 
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+    summary: With a proven track record in employer branding and talent attraction, I specialize in creating magnetic narratives that draw top-tier talent to organizations. I excel in showcasing corporate culture and opportunities to engage prospective candidates. Eager to embrace new challenges, I am currently gearing up for a transition into coding, fueled by a passion for technology. 
+      
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
+    email: #optional
+    phone: #optional
+    website: #optional
     linkedin: flavia-ballabene #optional
     
     #
@@ -42,7 +37,7 @@ basic_info:
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: flaviaballabene
     
-    twitter: 'webjeda' #optional
+    twitter: #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -60,17 +55,17 @@ basic_info:
     interests:
       - item: Fitness
 
-      - item: Hicking
-
       - item: Coding
+
+      - item: Hicking
 
 # Your previous education
 education:
     - degree: MBA
       university: University of Rome "Tor Vergata"
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://www.eduopinions.com/wp-content/uploads/2018/11/UniversitadiRomaTorVergata-logo-350x350.png
+      time: 2014 - 2016
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -84,8 +79,8 @@ education:
     - degree: BSc in Economics and Management
       university: University of Rome "Tor Vergata"
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://www.eduopinions.com/wp-content/uploads/2018/11/UniversitadiRomaTorVergata-logo-350x350.png
+      time: 2010 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -107,9 +102,9 @@ experiences:
         Responsible of strategising, managing and executing Recruiting marketing campaigns.
 
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Manager, Global Employer Branding & Social Media
+      time: 2020 - 2022
+      company: Allianz, Munich, Germany
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -122,9 +117,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Head of Employer Branding, D&I and Campaigns
+      time: 2019 - 2020
+      company: Randstad, London, UK
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
