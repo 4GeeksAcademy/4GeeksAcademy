@@ -9,29 +9,31 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Melanie
-    last_name: Young
+    first_name: Terry
+    last_name: Howell
     
     # Define yourself in 4-5 words
-    motto: Live in every moment
+    motto: Trust the timing of you life.
     
     # focus
-    focus: Self-improvement
+    focus: Self-improvement, financial freedom, and self fulfillment.
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     I am someone that looks for new challenges. My adaptability has allowed me to do things like teach English in Egypt and Japan to both children and adults alike.
-     I currently educate people about Social Security and what their options are depending upon what stage they are in their lives. I am looking for my next opportunity to progress.
-    
+      I completed my Bachelor's at UNC Charlotte in Management Information Systems. 
+      I've self studied some development, mainly Javascript. Currently, I am working in IT Support
+      but my company may be interested in moving me to the software development team. I am here to learn as much
+      as possible so I can move further in my career!
+
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars1.githubusercontent.com/u/45376194?s=460&v=4
+    avatar: https://media.licdn.com/dms/image/C4D03AQFHJsInkoNvPA/profile-displayphoto-shrink_400_400/0/1646766187317?e=1711584000&v=beta&t=F9EoG8wQjWgwPpsO-mpxMgOEOANZfvofNLDd5OHHXto
 
     # Contact Information
-    email: ms.melanieyoung@gmail.com #optional
-    phone: 214-355-6692
+    email: terryhowell3@gmail.com #optional
+    phone: 321-402-9975
     website:  
-    linkedin: 
+    linkedin: https://www.linkedin.com/in/terryhowell3/
     
     #
     # ******** IMPORTANT *******
@@ -45,9 +47,6 @@ basic_info:
     languages:
       - idiom: English
         level: Native
-
-      - idiom: Spanish
-        level: Intermediate
 
     # Interests or hobies
     interests:
