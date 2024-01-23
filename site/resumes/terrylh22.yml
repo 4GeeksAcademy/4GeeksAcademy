@@ -50,26 +50,26 @@ basic_info:
 
     # Interests or hobies
     interests:
-      - item: Traveling
+      - item: Video Games
 
-      - item: Making Art
+      - item: Anime
+
+      - item: Music Production
+
+      - item: Cooking
 
 # Your previous education
 education: 
-    - degree: Full Stack Developer training
-      university: 4GeeksAcademy
-      time: December 2018 - March 2019
-      
-
-    - degree: MS Recreation Management
-      university: Texas State
-      time: 2011 - 2013
-        
-
-    - degree: BA Government
-      university: University of Texas at Austin
-      time: 2003 - 2005
-      details: Minor in Middle Eastern Studies
+    - degree: BS in Management Information Systems
+      university: University of North Carolina at Charlotte
+      # optional
+      time: 2017 - 2021
+      details: |
+        -	GPA: 3.26/4.0
+        -	Developed a Microsoft Access application complete with Forms, Reports, ERDs, and custom SQL statements to simulate a car dealership.
+        -	Created detailed data flow diagrams to simulate hospital operations using Microsoft Visio and implemented the design using Microsoft Access.
+        -	Developed .NET C# based Windows Forms applications.
+        -	Developed Java console application for jpeg image manipulation.
     
         
 # Your previous job experiences or voluntier
