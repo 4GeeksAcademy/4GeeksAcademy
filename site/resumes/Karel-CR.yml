@@ -21,17 +21,23 @@ basic_info:
       Second paragraph if required.
 
     # Sidebar links
-    email: dawson.kacey@gmail.com
-    phone: (770) 540 - 6228
-    website: kaceydawson.com #do not add http://
-    linkedin: kaceydawson
-    github: kaceydawson
-    twitter: 'kaceydawson'
-    stack-overflow: kaceydawson
+    email: karelcr1999@gmail.com
+    phone: +34 64369240
+    website: karelrivera.com #do not add http://
+    linkedin: Karel-CR
+    github: Karel-CR
+    twitter: 'Karel-CR'
+    stack-overflow: Karel-CR
 
     languages:
       - idiom: English
+        level: Proficiency
+
+      - idiom: Spanish
         level: Native
+
+      - idiom: Portuguese
+        level:  Intermediate
 
 
     interests:
