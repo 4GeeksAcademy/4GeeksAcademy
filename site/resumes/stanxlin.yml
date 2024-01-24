@@ -1,0 +1,120 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Stanley
+    last_name: Lin
+    
+    # Define yourself in 4-5 words
+    motto: Growing is learning more about who you are as a person.
+    
+    # Focus
+    focus: Getting that fullstack job! 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      With the understanding of web development, I want to be able to make an interactive
+      website that shows who I am. Essentially, this will be an interactive resume
+      and it will be extremely exciting to be able to do this just to see 
+      how far I've made it on my fullstack journey.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://fastly.picsum.photos/id/439/400/400.jpg?hmac=khqoffDwMP1CLov-AFYcj5tsc5kKWWOkU5Z3k8JGZN4
+
+    # Contact Information
+    email: stanxlin@gmail.com #optional
+    phone: n/a #optional
+    website: n/a #optional
+    linkedin: https://www.linkedin.com/in/daoxiang-stanley-lin/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: stanxlin
+    
+    twitter: n/a #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Chinese
+        level: Conversational
+
+    # Interests or hobbies
+    interests:
+      - item: Movies
+
+      - item: Working out
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Bachelor of Science in Technological Systems Management
+      university: Stony Brook University
+      # optional
+      university_logo: 
+      time: 2019-2023
+      details: |
+        Learned a lot of things regarding tech, but not immersive enough to 
+        have a deep understanding of the topics. I have learned topics such as 
+        project management, java coding, information systems, and technology ethics.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Team Lead 
+      time: 2023-PRESENT
+      company: Yaya Tea
+      # optional
+      company_logo: 
+      details: |
+        Took weekly inventory count for the kitchen. 
+        Took monthly master inventory count for the kitchen, bar, and storage. 
+        Created and published weekly schedules for employees.
+        Relay any issues or feedback to management regarding the store location.
+
+    - role: Monitor
+      time: 2021-2023
+      company: SBU Residential Fitness Centers
+      # optional
+      company_logo: 
+      details: |
+       Made sure each person scanning in is a resident of an SBU dorm.
+       Sanitize every machine before and after opening.
+       Respond to any emergencies that arise during the operation hours at the location.
+       Answer any questions or concerns from students.
+
+assignments:
+      - title: Instagram Picture
+        # optional
+        
+        link: "#hook"
+        tagline: "A simple instagram picture layout using only HTML and CSS."
+
+      - title: Instagram Photo Feed
+        # optional
+        link: "#"
+        tagline: "Instagram that changes format view after clicking the icons at the top using bootstrap and jquery."
+
+skills:
+    toolset:
+      - name: SQL
+        level: 50%
+
+      - name: JavaScript & jQuery
+        level: 25%%
+
+      - name: Capcut
+        level: 60%%
+
+      - name: HTML5 & CSS
+        level: 50%%
