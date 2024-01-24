@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos 
+    last_name: LLamosas
+    
+    # Define yourself in 4-5 words
+    motto: There´s always something to learn
+    
+    # Focus
+    focus: Developer developing
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Passionate about technology looking for a career change
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
+    # Contact Information
+    email: lacros1@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Grokhen
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    # Interests or hobbies
+    interests:
+      - item: Travel
+
+      - item: Trekking
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: january-2024 / may-2024
+      details:
+          
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: maintenance technician
+      time: 2023 - present
+      company: KONE
+      # optional
+      company_logo: 
+      details: |
+
+    - role: maintenance technician
+      time: 2006 - 2023
+      company: TKE  
+      # optional
+      company_logo: 
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some projects that have been proposed to me by the academy,
+      which have facilitated me where to start learning and adapting languages
+      ​​of progamation from the simplest to the most complex,
+      with "practice and error"
+
+    assignments:
+      - title: Bootstrap Html Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Grokhen-HtmlForm"
+        tagline: "My first HTML Form using Bootstrap"
+
+      - title: Instagram single post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/instagram-singlePost"
+        tagline: "An instgram post to practice html and CSS"
+
+      - title: Instagram feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Grokhen-IGFeedBootstrap"
+        tagline: "A look like instagram feed to practice Bootstrap"
+
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 10%
+
+      - name: Bootstrap
+        level: 8%
+
+      - name: JavaScript
+        level: 1%
+
