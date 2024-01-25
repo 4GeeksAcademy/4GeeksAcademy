@@ -2,8 +2,8 @@
 template: online-cv
 skin: blue
 basic_info:
-  first_name: Wonder
-  last_name: Woman
+  first_name: Boris
+  last_name: Palacios
   motto: I like saving the world
   focus: Killing Bad Boys
   summary: >
@@ -22,7 +22,7 @@ basic_info:
   phone: 234 2342 342
   website: asd.com
   linkedin: alandoe
-  github: example
+  github: cyb3rv
   twitter: webjeda
   stack-overflow: null
   languages:
