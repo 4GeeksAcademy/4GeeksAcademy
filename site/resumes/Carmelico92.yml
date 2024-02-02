@@ -13,7 +13,7 @@ basic_info:
     last_name: Garcia
     
     # Define yourself in 4-5 words
-    motto: music lover
+    motto: code lover
     
     # Focus
     focus: Study for the complete starck developer
@@ -46,18 +46,17 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: A1
 
-      - idiom: Spanish
-        level: Professional
+      
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Music 
 
       - item: Snowboarding
 
