@@ -58,18 +58,18 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Videogames
 
-      - item: Snowboarding
+      - item: TV Series
 
-      - item: Cooking
+      - item: Sleep
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Modern Languages
+      university: Arturo Michelena University
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://media.licdn.com/dms/image/C4E0BAQGAvCL5385Pvg/company-logo_200_200/0/1631325353404?e=2147483647&v=beta&t=uJjiziXBxN2bjEe4FDSjLPIKlUbMireg_IobDdSR6No
       time: 2011 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
