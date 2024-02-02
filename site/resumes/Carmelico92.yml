@@ -13,17 +13,16 @@ basic_info:
     last_name: Garcia
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: music lover
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Study for the complete starck developer
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Father of two children looking for a better quality of life. 
+      Newly in love with programming, sacrificing hours of sleep to reach my goal,
+      to become a Full Stack Developer.
 
       Second paragraph if required.
     
@@ -32,15 +31,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: HolaAmiguis.com #optional
+    phone: 666 666 666 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: carmelico92
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
