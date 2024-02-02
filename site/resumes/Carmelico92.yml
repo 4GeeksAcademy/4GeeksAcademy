@@ -64,17 +64,13 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Educación Secundaria Obligatoria
+      university: IES La Flota
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      https://mejoratuempleabilidadenlaflota.files.wordpress.com/2020/08/programas-europeos-2.png?w=714
+      time: 2004 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Hice los estudios obligatorios que requieren mi país.
 
           - Bullet point
           - Bullet point
