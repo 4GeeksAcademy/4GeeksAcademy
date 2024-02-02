@@ -9,60 +9,54 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Inés
+    last_name: Togni
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Me gusta conocer nuevas culturas.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Hacer deportes
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Me considero una persona responsable y organizada con habilidades para desarrollar multitareas.
+      Me encuentro en constante busqueda de nuevos desafios y aprendizaje.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: ines5388@hotmail.com #optional
+    phone: +34695636328 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: ines5388
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: 'ines5388' #optional
+    stack-overflow: 5388/ines
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Inglish
+        level: B2
+        
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Jugar al tenis
 
-      - item: Snowboarding
+      - item: Viajar
 
-      - item: Cooking
+      - item: Cocinar
 
 # Your previous education
 education:
