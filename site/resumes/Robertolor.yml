@@ -55,11 +55,11 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Gaming
 
-      - item: Snowboarding
+      - item: Coding
 
-      - item: Cooking
+      - item: Excercising
 
 # Your previous education
 education:
