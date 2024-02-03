@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Admir
+  last_name: Skomorac
+
+  # Define yourself in 4-5 words
+  motto: Learn something new every and each day!
+
+  # Focus
+  focus: Identify problem, analyze, try to solve. If fail, repeat.
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Admir Skomorac is a versatile professional with diverse experience in management, IT support, and maritime operations. He has transitioned his career towards becoming a Full Stack Developer, backed by certifications in CCNA Routing & Switching and various IT-related skills. 
+
+    Admir is a committed, multilingual individual with a Seamen's Book and a focus on continuous learning. His next goal is to master HTML, CSS, Bootstrap, JavaScript, React, Python, and related techniques.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/56019597?v=4
+
+  # Contact Information
+  email: admir.skomorac@outlook.com #optional
+  phone: 00387 60 3181 367 #optional
+  website: https://github.com/Skomorac #optional
+  linkedin: https://www.linkedin.com/in/admir-skomorac-35b63147/ #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Skomorac
+
+  twitter: #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Professional
+
+    - idiom: Bosnian
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Hiking
+
+    - item: Gaming
+
+    - item: Traveling
+
+# Your previous education
+education:
+  - degree: Economic Technician
+    high-school: Mjesovita srednja ekonomska skola
+    # optional
+    high-school_logo: https://ekonomskaskola.edu.ba/wp-content/uploads/2021/04/Logo-Ekonomska-bijeli-1-300x75.png
+    time: 1992 - 1996
+    details: |
+      The "Economic Technician" is an educational profile studied for four years in high school. Upon completion, students possess a high level of knowledge enabling employment in the field and admission to universities. Economic technicians can work in cashier operations, fill out accounting documents, post business transactions, compile business reports, calculate loan and interest payments, maintain company ledgers, calculate salaries and taxes, create business success plans, and plan advertising and product sales.
+
+        - Accounting
+        - Product sales
+
+  - degree: Bachelor of Economics
+    university: International University Travnik
+    # optional
+    university_logo: https://iu-travnik.com/wp-content/uploads/2018/03/logo2.png
+    time: 1996 - 2008
+    details: |
+      A Bachelor of Economics (B.Econ. or B.Ec.) is an undergraduate academic degree program that focuses on the study of economics, which encompasses the analysis of production, distribution, and consumption of goods and services. The program usually covers a broad range of economic theories, quantitative methods, and policy analysis. Students explore topics such as microeconomics, macroeconomics, econometrics, economic policy, and financial markets. A Bachelor of Economics degree provides a foundation for understanding economic principles and their application in various fields, including business, finance, government, and international relations.
+
+        - Study of economic principles, theories, and quantitative methods
+        - Potential careers in economic analysis, financial planning
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Computer tehnician
+    time: 2001 - 2001
+    company: KAMEL BANKA dd Tešanj
+    # optional
+    details: |
+      • Maintained computers.
+      • Update and instalation of operating systems and other software.
+      • Provided first-line support for users within the company.
+
+  - role: Marketing researcher
+    time: 2001 - 2002
+    company: PULS MEMRB Sarajevo
+    # optional
+    details: |
+
+      • Conducted marketing research.
+
+  - role: Assistant to CEO
+    time: 2002 - 2012
+    company: Agroekonomik doo Zenica
+    # optional
+
+    details: |
+      • Managed CEO's calendar and meetings.
+      • Traveled with CEO on business trips.
+      • Handled internet banking and finances.
+      • Managed relations with suppliers and customers.
+      • Maintained the local network and    provided IT support to the
+      company.
+
+  - role: Poultry producer
+    time: 2012 - 2013
+    company: MADI doo Tešanj
+    # optional
+
+    details: |
+      • Involved in poultry production.
+      • Setting up and maintaining video surveillance of the facilities.
+
+  - role: Coordinator for technical teams
+    time: 2013 - 2022
+    company: TELEMACH doo Sarajevo
+    # optional
+
+    details: |
+      • Oversaw networks for multiple cities with over 60,000 devices.
+      • Detected network issues proactively.
+      • Managed customer complaints and provided solutions.
+      • Organized daily tasks for technical teams up to 20 people
+      • Ensured timely completion of working orders and updated them in SAP.
+      • Handled 3rd line customer support.
+
+  - role: IT Support Officer
+    time: 2022 - 2023
+    company: Hurtigruten Expeditions AS Norway
+    # optional
+    company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQCcy2J8_YU_W6Jvpe8UIUthiZnlKjLE5DW8qEfSjF659e77yx
+    details: |
+      • Managed onboard media and entertainment systems.
+      • Maintained media equipment on board.
+      • Conducted basic cabling maintenance.
+      • Managed specialized equipment such as Bazeport, Pronto TV etc
+      • Provided IT support to crew and guests.
+      • Recorded incidents/requests in the JIRA ticketing system.
+      • Conducted hands-on fixes at the desktop level.
+      • Coordinated with the Chief Electrician onboard.
+
+# Your project portfolio
+
+skills:
+  toolset:
+    - name: HTML5
+      level: 90%
+
+    - name: CSS
+      level: 80%
+
+    - name: Bootstrap5
+      level: 80%
+
+    - name: JavaScript
+      level: 50%
