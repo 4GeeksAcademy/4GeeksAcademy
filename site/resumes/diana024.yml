@@ -1,0 +1,189 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diana
+    last_name: Suarez
+
+    # Define yourself in 4-5 words
+    motto: Responsable - Leal - Polivalente - Dianamica.
+    
+    # Focus
+    focus: Desarrollarme profesionalmente como full stack developer
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona organizada, comprometida con mi trabajo, dispuesta a asumir nuevos retos en los que pueda
+      desarrollarme profesional y personalmente, aportando lo mejor de mi desde el primer momento con disposición y ganas.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/154326533?s=48&v=4 
+
+    # Contact Information
+    email: dianasuareza@gmail.com
+    phone: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Diana024
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar
+
+      - item: Senderismo
+
+      - item: Cocina - Reposteria
+
+# Your previous education
+education:
+    - degree: FULL STACK DEVELOPER
+      university: 4geeks academy.
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - Actualidad
+      details: |
+
+    - degree: Técnico superior en gestión comercial y marketing.
+      university: Center  IES Juan de la Cierva.
+      time: 2012 - 2014.
+      details: |
+
+    - degree: Comercialización y Administración de Productos y Servicios Financieros.
+      university: Vipper Sistemas.
+      time: 2020 Madrid, España.
+      details: |
+
+    - degree: Técnico superior en gestión comercial y marketing.
+      university: Center  IES Juan de la Cierva
+      time: 2012 - 2014 Madrid, España.
+      details: |
+
+    - degree: Bachillerato, educación secundaria obligatoria.
+      university: Colegio Reina de la Paz. 
+      time: 2000 – 2006 Bucaramanga, Colombia.
+      details: |
+        
+      # Your previous job experiences or volunteer
+experiences:
+    - role: Administrativa Soporte Técnico.
+      time: Abril 2021 – Abril 2022 (Teletrabajo)
+      company: TELEFÓNICA SOLUCIONES DE OUTSOURCING.
+      # optional
+      details:
+        Atención del buzón, envío de
+        reportes para análisis, reclamación de diferentes errores en herramienta de ticketing (ITSM) y escalados. Gestión de base de datos y
+        software propios para el desarrollo de áreas técnicas. Importación y
+        extracción de los datos, verificación en los
+        sistemas y adecuación de ficheros en las diferentes fases de los proyectos.
+        Recopilación y dispatching de resultados hacia otras áreas internas, así como
+        el mantenimiento de los reports de control y seguimiento. Uso diario del servidor,Outlook, Drive, PWBI, Excel. Apoyo a gestores de proyectos e
+        Ingenieros de redes. 
+
+    - role: Administrativo.
+      time: Julio 2019 – Septiembre 2019
+      company: HIPOGES IBERIA SL.
+      details:
+        Realizar recepción y envíos de llaves a los brokers (agentes inmobiliarios) Colaborar con el equipo de support
+        para obtener datos de IBIS y comunidades de los activos bajo gestión. Realizar inventario de llaves. 
+        Alimentación y actualización del sistema interno con los datos.
+
+    - role: Departamento de cuentas.
+      time: Mayo 2019 – Julio 2019
+      company: IMPACTO SERVICIOS DE MARKETING DIRECTO SL.
+      # optional
+      details: 
+        Gestión de campañas diarias con clientes y proveedores. Contacto por centralita y correo electrónico.
+        Manejo de herramienta propia de la empresa, alta y seguimiento de  campañas para control de la distribución y del cliente. 
+        Manejo del office, diariamente ficheros Excel. Realización de presupuestos y costes de cierre de campaña para el departamento
+        de administración acompañada del responsable de cuentas.
+
+    - role:  Administrativo.
+      time:  Enero 2011-Mayo 2018
+      company: CONENTO DECISION SCIENCE SL.
+      # optional
+      details: 
+        Recepción (Atención centralita, clientes, impresora, fax, encuadernación, control de vacaciones empleados, equipos informáticos, 
+        copias de seguridad, control de salas, manejo de correo electrónico, archivo)
+        Administrativo (Cotejo de facturas con extractos, actualización de macros para generar fichero de cobro, elaboración/envío de facturas, 
+        elaboración de justificantes de gastos, gestión y control de presupuestos/proyectos cliente.
+        Analítico (Inserción de datos en ficheros Excel/Acces, actualización de bases de datos y carga en diferentes herramientas informáticas
+        propias de la empresa, redacción y entrega de informes PPT/Word, clasificación de encuestas. 
+        Otros departamentos de apoyo Informático,  legal y finanzas.
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos FULL STACK DEVELOPER.
+
+    assignments:
+      - title: github
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Diana024/github"
+        tagline: ""
+
+      - title: Linea de Comando
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Diana024/Ejercicio-Linea-de-Comandos"
+        tagline: ""
+        
+      - title: Generador-excusas_js
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Diana024/generador-excusas_js"
+        tagline: ""
+
+      - title: Formulario-HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Diana-Formulario-HTM5"
+        tagline: ""
+      
+      - title: Post-de-Instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Diana024/Post-de-Instagram"
+        tagline: ""
+       
+      - title: Instagram-Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Diana024/Instagram-Bootstrap"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: JavaScript
+      level: 30%
+
+    - name: HTML5 & CSS
+      level: 60%
+
+    - name: Bootstrap
+      level: 60%
+
+
+
+
+    
