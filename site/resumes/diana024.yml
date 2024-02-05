@@ -2,7 +2,7 @@
 # Be aware that even a small syntax error here can lead to failures in output
 #
 
-template: "curriculum init"
+template: "online-cv"
 skin: "blue"
 
 # Personal Information
@@ -11,21 +11,21 @@ basic_info:
     # Your full name
     first_name: Diana
     last_name: Suarez
-    
+
     # Define yourself in 4-5 words
     motto: Responsable - Leal - Polivalente - Dianamica.
     
     # Focus
     focus: Desarrollarme profesionalmente como full stack developer
-    
+
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-    Soy una persona organizada, comprometida con mi trabajo, dispuesta a asumir nuevos retos en los que pueda
-    desarrollarme profesional y personalmente, aportando lo mejor de mi desde el primer momento con disposición y ganas.
+      Soy una persona organizada, comprometida con mi trabajo, dispuesta a asumir nuevos retos en los que pueda
+      desarrollarme profesional y personalmente, aportando lo mejor de mi desde el primer momento con disposición y ganas.
     
- # Your profile picture URL
+    # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2020/06/Como-Hacer-Avatar-Facebook.jpg?resize=1200%2C720&quality=80&ssl=1 
+    avatar: https://avatars.githubusercontent.com/u/154326533?s=48&v=4 
 
     # Contact Information
     email: dianasuareza@gmail.com
@@ -63,25 +63,25 @@ education:
       time: 2024 - Actualidad
       details: |
 
-         - degree: Técnico superior en gestión comercial y marketing.
-     Center: Center  IES Juan de la Cierva.
-       time: 2012 - 2014.
-       details: |
+    - degree: Técnico superior en gestión comercial y marketing.
+      university: Center  IES Juan de la Cierva.
+      time: 2012 - 2014.
+      details: |
 
-   - degree: Comercialización y Administración de Productos y Servicios Financieros.
-     Center: Vipper Sistemas.
-       time: 2020 Madrid, España.
-       details: |
+    - degree: Comercialización y Administración de Productos y Servicios Financieros.
+      university: Vipper Sistemas.
+      time: 2020 Madrid, España.
+      details: |
 
     - degree: Técnico superior en gestión comercial y marketing.
-       study: Center  IES Juan de la Cierva
-        time: 2012 - 2014 Madrid, España.
-        details: |
+      university: Center  IES Juan de la Cierva
+      time: 2012 - 2014 Madrid, España.
+      details: |
 
-      degree: Bachillerato, educación secundaria obligatoria.
-       study: Colegio Reina de la Paz. 
-        time: 2000 – 2006 Bucaramanga, Colombia.
-        details: |
+    - degree: Bachillerato, educación secundaria obligatoria.
+      university: Colegio Reina de la Paz. 
+      time: 2000 – 2006 Bucaramanga, Colombia.
+      details: |
         
       # Your previous job experiences or volunteer
 experiences:
@@ -89,7 +89,7 @@ experiences:
       time: Abril 2021 – Abril 2022 (Teletrabajo)
       company: TELEFÓNICA SOLUCIONES DE OUTSOURCING.
       # optional
-     details:
+      details:
         Atención del buzón, envío de
         reportes para análisis, reclamación de diferentes errores en herramienta de ticketing (ITSM) y escalados. Gestión de base de datos y
         software propios para el desarrollo de áreas técnicas. Importación y
@@ -128,7 +128,7 @@ experiences:
         elaboración de justificantes de gastos, gestión y control de presupuestos/proyectos cliente.
         Analítico (Inserción de datos en ficheros Excel/Acces, actualización de bases de datos y carga en diferentes herramientas informáticas
         propias de la empresa, redacción y entrega de informes PPT/Word, clasificación de encuestas. 
-        Otros departamentos de apoyo: Informático,  legal y finanzas.
+        Otros departamentos de apoyo Informático,  legal y finanzas.
 
 # Your project portfolio
 projects:
@@ -136,30 +136,35 @@ projects:
       Proyectos FULL STACK DEVELOPER.
 
     assignments:
-      - title: GITHUB
+      - title: github
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/Diana024/Diana-GITHUB"
+        link: "https://github.com/Diana024/github"
+        tagline: ""
 
       - title: Linea de Comando
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/4GeeksAcademy/Diana-Linea-de-comando"
+        link: "https://github.com/Diana024/Ejercicio-Linea-de-Comandos"
+        tagline: ""
         
       - title: Generador-excusas_js
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/Diana024/generador-excusas_js"
+        tagline: ""
 
-      - title: Formulario-HTM5
+      - title: Formulario-HTML5
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/4GeeksAcademy/Diana-Formulario-HTM5"
+        tagline: ""
       
       - title: Post-de-Instagram
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/Diana024/Post-de-Instagram"
+        tagline: ""
        
       - title: Instagram-Bootstrap
         # optional
@@ -167,25 +172,16 @@ projects:
         link: "https://github.com/Diana024/Instagram-Bootstrap"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-  skills:
-    toolset:
-      - name: Python & Django
-        level: 98%
+skills:
+  toolset:
+    - name: JavaScript
+      level: 30%
 
-      - name: JavaScript & jQuery
-        level: 98%
+    - name: HTML5 & CSS
+      level: 50%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Bootstrap
+      level: 60%
 
 
 
