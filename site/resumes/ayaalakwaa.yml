@@ -31,7 +31,7 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: ayaalakwaa04@gmail.com #optional
+    email: #optional
     phone:  #optional
     website: #optional
     linkedin:  #optional
