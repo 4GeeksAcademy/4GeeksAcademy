@@ -1,0 +1,134 @@
+
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Montoro
+    
+    # Define yourself in 4-5 words
+    motto: A caminar se aprende caminando
+    
+    # Focus
+    focus: Aún aprendo
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Algo más que código. 
+
+      Siempre me preguntan cómo es que empecé a estudiar arte y acabé programando. Aunque en apariencia sean dos mundos distintos para mí la transición de uno a otro fue natural, y hasta lógica. 
+      Del mismo modo que no existe una obra de arte sin espectador no existe software sin usuario. La capacidad que tiene el desarrollo de involucrar y facilitar la vida y la experiencia de las personas 
+      es lo que me motiva y ayuda a seguir aprendiendo.
+
+      Después de dos años de estudio de Desarrollo Web sigo formándome. Actualmente estoy cursando un bootcamp en 4GeeksAcademy y estoy deseando poder lanzar mi carrera de desarrollador y 
+      trasmitir en mi trabajo la misma ilusión con la que vivo la programación.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/33.jpg
+
+    # Contact Information
+    email: s.montoro.hernandez@gmail.com #optional
+    phone: 685 465 406 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/sergio-montoro-13788b239/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: SergioMontoro
+    
+    twitter: #optional
+    stack-overflow: 19263112/Sergio Montoro
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Profesional
+
+    # Interests or hobbies
+    interests:
+      - item: Música
+
+      - item: Arte
+
+      - item: Leer
+
+# Your previous education
+education:
+    - degree: Técnico de Automotización y Robótica Industrial
+      university: I.E.S. Julio Verne
+      # optional
+      university_logo:
+      time: 2017 - 2019
+      details: |
+        Formación Profesional de 2 años en robótica y automatización industrial.
+
+    - degree: Técnico de Diseño de Aplicaciones Web (DAW)
+      university: I.E.S. Matemático Puig Adam
+      # optional
+      university_logo:
+      time: 2020 - 2022
+      details: |
+        Formación Profesional de 2 años sobre el desarrollo de aplicaciones web.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Desarrollador Web WordPress
+      time: 2022 - 2023
+      company: Yampit, Madrid.
+      # optional
+      company_logo: 
+      details: |
+        Creación y diseño de páginas webs en entorno WordPress para instituciones educativas de la Comunidad de Madrid.
+
+    - role: Prácticas Desarrollador Web
+      time: 2022 - 2022
+      company: Universidad Complutense de Madrid, Madrid
+      # optional
+      company_logo: 
+      details: |
+        Creación de una web para un grupo de investigación usando los lenguajes HTML, CSS, JavaScript y PHP.
+
+    - role: Ayudante de Lutería
+      time: 2015 - 2019
+      company: Anjuda Guitars, Alcobendas (Madrid)
+      # optional
+      company_logo: 
+      details: |
+        Reparación y mantenimiento de instrumentos musicales.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí una lista de mis proyectos.
+
+    assignments:
+      - title: Instagram Feed with Bootstrap
+        # optional
+        project_logo:
+        link: "https://github.com/SergioMontoro/bootstrap-sergio"
+        tagline: "Ejercicio para trabajar bootstrap diseñando una plantilla al estilo de Instagram."
+
+skills:
+    toolset:
+      - name: Java
+        level: 20%
+
+      - name: PHP
+        level: 20%
+
+      - name: JavaScript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 50%
