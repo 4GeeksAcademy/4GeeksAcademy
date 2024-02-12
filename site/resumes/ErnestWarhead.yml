@@ -1,0 +1,63 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Ernesto
+    last_name: Martinez
+
+    motto: Let's have productive fun!
+    
+    focus: Chronic perfectionism
+
+    summary: |
+      I am dedicated and meticulous, with a profound respect for professionalism, teamwork, and the pursuit of excellence. Although my formal programming knowledge is in its nascent stages, my proficiency with technology runs deep. From a young age, I was the go-to resource for computer-related inquiries within my social circle. In Cuba, I leveraged loopholes to enhance internet accessibility and become one of the pioneers in adopting email and mobile data services in times when these were vastly restricted. I also excelled in various entrepreneurial ventures. This innate technological savvy, combined with my diverse skill set in customer service, workflow optimization, and innovation, forms the foundation upon which I seek to build my programming expertise.
+
+    avatar: https://lh3.googleusercontent.com/a/ACg8ocIefQuxpN_seHlJV9q3qj9O6Hu_k8RHNcAjf7mpUzcBkg7pWpTADrbVAom2Xd77UWSHST2p_8tkbgaflRzbDZYh1xPh=s288-c-no
+
+    email: ernest.98.2015@gmail.com
+    phone: (352) 348 - 4591
+    
+    github: ErnestWarhead
+    
+    stack-overflow: user23385963
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Memes
+
+education:
+  - degree: High School Diploma in Science
+    university: IPVCE Mártires de Humboldt 7 - Artemisa
+    time: "2013 - 2016"
+    details: |
+      A focused curriculum on science subjects, providing a strong foundation in logical thinking and problem-solving skills essential for a career in programming and technology.
+
+
+certifications:
+  - title: Commercial Driver's License (CDL) Class A
+    authority: Department of Transportation
+    obtained_year: 2020
+    expires: January 2030
+    endorsements:
+      - N (Tank vehicles)
+      - T (Double/triple trailers)
+
+work_experience:
+  - title: Over-The-Road (OTR) Truck Driving Experience
+    summary: "Cumulative experience working as an OTR truck driver, demonstrating strong commitment, reliability, and the ability to work independently under challenging conditions. Roles included ensuring timely delivery across various states, maintaining safety standards, and excellent customer service."
+    companies: 
+      - Poly Trucking, Grand Prairie, TX
+      - K&B Transportation, Council Bluffs, IA
+      - CRST The Transportation Solution Inc., Cedar Rapids, IA
+    date_range: May 2021 - January 2024
