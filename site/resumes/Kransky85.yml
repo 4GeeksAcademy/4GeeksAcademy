@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Logan
+    last_name: Kranstover
+    
+    # Define yourself in 4-5 words
+    motto: Everything you've ever wanted is on the other side of fear
+    
+    # Focus
+    focus: Psychologically advancing society
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Data Science/Machine Learning student at 4Geeks.  World-traveled vagabond.  Passionate about the Shareconomy, access over ownership.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://tcdn.couchsurfing.com/eQz0UYcajgphjN1zWSzthjM9WpI=/smart/https://s3.amazonaws.com/ht-images.couchsurfing.com/u/920103/17E0698F-4367-4936-B4D4-CB3830F09A41
+
+
+    # Contact Information
+    email: ldavidk1@gmail.com #optional
+    phone: +57 3224199157 #optional
+    website: https://www.couchsurfing.com/people/shareconomist #optional
+    linkedin: logan-kranstover-1ab8b0260 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Kransky85
+    
+    twitter: Kransky85 #optional
+    stack-overflow: Soon # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Golf
+
+      - item: Backpacking
+
+      - item: Snowboarding
+
+# Your previous education
+education:
+    - degree: AS in Psychology
+      university: San Diego Mesa College
+      # optional
+      university_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2012
+      details: |
+        Applied Psychology with emphasis on Female, Sexual and Child Psychology
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Bartender
+      time: 2017 - 2023
+      company: Hotel Shoreham
+      # optional
+      company_logo:
+      details: |
+       Managing the customer experience from first glance to the car leaving the parking lot.
+
+
+# Your project portfolio
+projects:
+    intro: 
+      Within my Github profile lie my first projects submitted in the 4Geeks Data Science/Machine Learning course.
+
+    assignments:
+      - title: Real Estate Data Cleanup
+        # optional
+        project_logo:
+        link: https://github.com/4GeeksAcademy/Kransky85-realestate-datacleanup-exercise
+        tagline: "Analysis and data manipulation from a dataset of properties in/around Madrid, Spain"
+
+      - title: Calculus & Linear Algebra Problems in Python
+        # optional
+        project_logo:
+        link: https://github.com/4GeeksAcademy/Kransky85-calculus-and-algebra-problems-with-python
+        tagline: "An introspective look at matrices, vectors, and corresponding graphs using libraries in Python"
+
+      - title: Learn in Public
+        # optional
+        project_logo:
+        link: Soon
+        tagline: "A lesson in the navigation and execution of Github"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 30%
