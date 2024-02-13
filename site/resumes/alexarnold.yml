@@ -42,7 +42,7 @@ basic_info:
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: alexarnold
     
-    twitter: 'webjeda' #optional
+    twitter: 'optional' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -58,11 +58,11 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Climbing Rocks
 
-      - item: Snowboarding
+      - item: Snowboarding Slopes
 
-      - item: Cooking
+      - item: Cooking Spicy Food
 
 # Your previous education
 education:
