@@ -1,0 +1,89 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Alissa
+  last_name: Landra
+  motto: I like Taylor Swift
+  focus: Making Money
+  summary: |
+    Strategic leader and process optimizer!
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: alissa@4geeksacademy.com
+  phone: 954-532-8439
+  website: none
+  linkedin: linkedin.com/in/alissalandra
+  github: alissalandra
+  twitter: alissalandra
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Intermediate
+    - idiom: Portuguese
+      level: Intermediate
+  interests:
+    - item: Taylor Swift
+    - item: Fitness
+    - item: Entrepreneurship
+education:
+  - degree: Bachelors in Business and Marketing
+    university: State University of New York at Plattsburgh
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2014-2018
+    details: |
+      Cumulative GPA: 3.91
+      Highest Score: Business Exit Exam
+      Summa Cum Laude
+      Presidents List
+experiences:
+  - role: Campus and Growth Manager
+    time: 2021 - Present
+    company: 4Geeks Academy
+  - role: Director of Admissions
+    time: 2018 - 2021
+    company: Florida Academy of Medical Aesthetics
+projects:
+  intro: |
+    I'm taking the Data Science and Machine Learning class at 4Geeks!
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
