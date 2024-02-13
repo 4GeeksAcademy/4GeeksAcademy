@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "cyan"
+
+basic_info:
+
+    first_name: Eder Yovany
+    last_name: Vázquez Flores
+    age: 25 years old
+    
+    motto: Math solver & everything's lover.
+    
+    focus: Reaching high new levels on all kind of skills and self-improvement to help me & others.
+    
+    summary:
+      I love challenges which involves solving problems, I don't like to give up easily, always searching for new ways
+      to see life and what offers me and I can offer to. Since I was a child I discover that when pressure comes to me
+      , the resilence comes out of me to achieve whatever I want to achieve.
+
+      I am an atypical man that wants to understand how the world works through solving problems which implies learning 
+      new things.
+    
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/78.jpg
+
+    email: rcuantum98@gmail.com, bacterya@protonmail.ch, evazquezf1701@alumno.ipn.mx
+    phone: 777 439 4013
+    linkedin: eder vázquez flores
+    github: @S4qk
+
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Russian
+        level: Basic
+
+      - idiom: French
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Reading.
+      - item: Programming.
+      - item: Playing video - games.
+      - item: Cooking.
+      - item: DYE.
+      - item: Languages.
+      - item: Hiking.
+      - item: Travelling.
+      - item: Chess.
+      - item: Math problems.
+
+education:
+    - degree: Bachelor's degree in Mathematics and Physics.
+      university: National Politecnic Institute (IPN - Mexico).
+      university_logo: https://www.ipn.mx/assets/files/main/img/template/logo_ipn_guinda.svg
+      time: 2018 - 2024
+      details:
+        Theorical and applied mathematics shuffle with physics, programming and a little bit more rough.
+
+    - degree: Bootcamp in Data Science and Machine Learning
+      university: 4ggeks.com
+      university_logo: https://4geeks.com/_next/image?url=%2Fstatic%2Fimages%2F4geeks.png&w=128&q=75
+      time: 2023 - 2024
+      details: 
+        Intensive course of Data Science and Machine Learning.
+
+experiences:
+    - role: Staff 
+      time: 2023
+      company: LEDI
+      company_logo: https://ledi.com.mx/images/logo.png
+      details:
+        Leading groups of people to organize a people in wich we can offer a great visibility of different products.
+
+    - role: Cook
+      time: 2023
+      company: Restaurant Fusion & Baguette
+      company_logo: https://scontent.fmex31-1.fna.fbcdn.net/v/t39.30808-6/346311712_1329715280919179_4664401408841797464_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=cmVKxYgqKpIAX9ufj8m&_nc_ht=scontent.fmex31-1.fna&oh=00_AfDkUpfhAmKjVy-6MjzZQgiJMVtS5QySC1DMwPHdqU0mxA&oe=65CEFA02
+      details:
+        Elaboration of different kinds of meals, having a great place and serving meals at the right moment.
+
+    - role: Carpenter
+      time: 2022
+      company: Chapoy the Furniture
+      # optional
+      company_logo: https://chapoy.us/wp-content/uploads/2020/04/logo-chapoycolor-e1587683347454.png
+      details: 
+        Assembling furniture, cutting, polishing, waxing and curing pieces of wood and having a inventory.
+
+    - role: Professor
+      time: 2020 - 2024
+      company: Freelancer
+      details: 
+        Teaching English and Mathematics to different levels of education.
+
+projects:
+    intro:
+      Proyectos de academia 4geeks.com en Github.
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: C, C++ and C#
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: R
+        level: 60%
+
+      - name: Visual Basic
+        level: 75%
