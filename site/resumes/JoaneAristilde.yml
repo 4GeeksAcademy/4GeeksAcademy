@@ -74,71 +74,30 @@ education:
       details: |
        
 
-    - degree: MBA in Management
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Technical Program Manager
+      time: 2022 - Present
+      company: New York, NY
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        At McGraw-Hill, in my role as Senior Technical Program Manager & Scrum Master since 2022, 
+        I've collaborated with multiple cross-functional teams, both onshore and offshore, to build applications and platforms,
+        including working closely with Site Reliability Engineering (SRE) teams. 
+        I've leveraged tools like Jira, Confluence, and Rally to efficiently manage and track project progress.
+        My understanding of the software development life cycle, combined with strong problem-solving and analytical skills,
+        has been instrumental in my work. I've taken the lead on AI-based initiatives, 
+        focusing on developing and enhancing autonomous learning platforms. In this dual role,
+        I've managed 3 to 5 concurrent projects, steering cross-functional Agile teams through various stages,
+        from story grooming and sprint planning to demos and retrospectives. 
+        My efforts have been key in integrating work from different subsystems into cohesive, high-quality software solutions,
+        making a significant impact on the global learning experience.
 
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
