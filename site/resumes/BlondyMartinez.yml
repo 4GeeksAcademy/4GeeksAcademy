@@ -1,0 +1,165 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Blondy
+    last_name: Martínez Montero
+    
+    # Define yourself in 4-5 words
+    motto: Embrace, Learn, Grow, Thrive.
+    
+    # Focus
+    focus: Improving my coding skills.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Currently enrolled in the Computer Games Programming degree program at the University of Gloucestershire, 
+      where I've honed my skills in coding, design, and testing. I've actively participated in numerous game 
+      jams as a programmer, showcasing my creativity and problem-solving abilities under tight deadlines. 
+      Excited to complement my academic background, I'm embarking on a full-stack bootcamp journey at 4Geeks Academy. 
+      With a passion for technology and gaming, I'm eager to leverage my experiences and learn from both industry experts 
+      and fellow enthusiasts in this immersive learning environment.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1VrwyeSQUkfLQjC-pfEewyXA148jIgK3M/view?usp=sharing
+
+    # Contact Information
+    email: blondymm97@gmail.com #optional
+    phone: +34 660 32 72 34 #optional
+    linkedin: blondy-martinez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BlondyMartinez
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Full Professional Proficiency
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Metal
+
+      - item: Anime
+
+# Your previous education
+education:
+    - degree: BSc in Computer Games Programming
+      university: University of London
+      time: 2018 - 2020 / 2023 - 2024
+      details: |
+        My journey at the University of Gloucestershire immersed me in the dynamic realm of computer games programming. 
+        Through rigorous coursework and hands-on projects, I cultivated expertise in various programming languages and 
+        gained proficiency in game development tools. Collaborating with peers and faculty, I tackled complex challenges 
+        and refined my problem-solving abilities. This transformative experience ignited my passion for innovation and 
+        equipped me with the skills to thrive in the ever-evolving field of game development.
+
+          - Mastered diverse programming languages
+          - Applied problem-solving skills effectively
+          - Collaborated in team-based projects
+
+    - degree: Advanced Vocational Training in 3D Animation, games and interactive environments
+      university: Florida Universitària
+      time: 2016 - 2018
+      details: |
+        During my time at Florida Universitària, I engaged in an immersive program focused on 3D animation, games, and 
+        interactive environments. Through hands-on projects and theoretical coursework, I developed a comprehensive 
+        understanding of industry-standard software and techniques. Collaborating with peers, I honed my skills in storytelling, 
+        character animation, and game design. This experience equipped me with the necessary tools to excel in the dynamic 
+        and competitive field of digital media.
+
+          - Acquired proficiency in industry-standard software
+          - Developed skills in storytelling and character animation
+          - Gained experience in game design and development
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Programmer
+      time: 2020
+      company: Global Game Jam
+
+    - role: Programmer
+      time: 2019
+      company: Global Game Jam
+       
+    - role: Programmer
+      time: 2018
+      company: Global Game Jam
+      
+    - role: Programmer
+      time: 2018
+      company: Novas Valles Game Jam
+      
+    - role: Programmer
+      time: 2017
+      company: Global Game Jam
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: C# & Unity
+        level: 70%
+
+      - name: C++ & Unreal Engine 5
+        level: 60%
+
+      - name: HTML5 & CSS3
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 25%
+
+      - name: Photoshop
+        level: 60%
