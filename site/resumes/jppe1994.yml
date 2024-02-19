@@ -2,7 +2,7 @@
 # Be aware that even a small syntax error here can lead to failures in output
 #
 
-template: "PortFolio"
+template: "online-cv"
 skin: "blue"
 
 # Personal Information
@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: jppe1994
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
