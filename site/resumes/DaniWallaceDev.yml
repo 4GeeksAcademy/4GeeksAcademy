@@ -59,7 +59,7 @@ basic_info:
       - item: Cooking
 
 # Your previous education
-education:
+education degree:
     - vocational_training: Equipos electrónicos de Consumo
       time: 2014-2016
       details: |
