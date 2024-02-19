@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: del Castillo
+    
+    # Define yourself in 4-5 words
+    motto: I'm really intense
+    
+    # Focus
+    focus: Learning how to code better
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Aspiring programmer with a strong eagerness to learn and enhance coding skills. 
+      Demonstrated ability to thrive in high-pressure work environments through past experience. 
+      Seeking opportunities to contribute to innovative projects and further develop expertise in programming
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/155478862?v=4
+
+    # Contact Information
+    email: danieldcr1996@gmail.com
+    phone: 234 2342 342 #optional
+    website: https://www.linkedin.com/in/daniwallacedev/
+    linkedin: https://www.linkedin.com/in/daniwallacedev/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DaniWallaceDev
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Boxing
+
+      - item: MMA
+
+      - item: Cooking
+
+# Your previous education
+education degree:
+    - vocational_training: Equipos electrónicos de Consumo
+      time: 2014-2016
+      details: |
+        Studies about electronic things and microinformatic hardware.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: first officer in industrial maintenance
+      time: 2018 - Present
+      company: Mejias y Romero S.L
+      details: |
+        Experienced Maintenance Officer adept at working under pressure, leading teams, and assuming responsibility for a wide range of tasks. 
+        Proficient in various trades, including basic plumbing, electrical work, and advanced industrial refrigeration. 
+        Proven ability to effectively manage and troubleshoot maintenance challenges while fostering a collaborative team environment.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+skills:
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Photoshop
+        level: 50%
