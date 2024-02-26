@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nelson
+    last_name: Lombo Paez
+    
+    # Define yourself in 4-5 words
+    motto: Learning as a superpower
+    
+    # Focus
+    focus: Currently focus on everything related to Artificial Intelligence and Cibersecurity
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Currently I'm working as a Software Maintenance Engineer at Red Hat giving support and advice to customers based on EMEA mainly but including other regions. I'm mainly focused on managed services that include OpenShift on AWS(ROSA) and Azure(ARO) in which we are in charge of their infrastructure. Since my new role, I'm driving technicall conversation across different regions that has global impact in multiple teams and more important, in the customer success. 
+
+      In parallel I'm starting my Cibersecurity career by learning on my own resources on the subject, any recommendation on the topic or opportunity will be highly appreciated.
+
+      Helping other teammates to growth and contribute as much as possible to the community and to the team. Thanks to my previous jobs as a DevOps I'm currently learning and contributing on GitOps, Service Mesh, Tekton, Pipelines where I'm helping customers with their issues/implementations.
+
+      As always, I'm still learning everyday since it's one of the things that make me happy in my professional live, if I don't put and achieve goals, the life start being boring and nobody wants that! 
+
+      Previous knowledge in Python. 
+
+      Passion for languages thanks to my family's multiculturalism, great knowledge of the Portuguese language and studying French (A2-B1) and English (B2-C1) so I love the new places where I can develop this part of me and the new national or international challenges, preferably in environments with great cultural and linguistic variety. I'm working on an international environment so I'm enjoying the option to improve my English skills and meet people from different cultures to learn from them. I am very dedicated in my non-working hours to continue increasing my technical and cultural knowledge.
+
+      I would like to be able to connect with people from the same or different sector with whom we can help each other with knowledge exchange and possible projects.
+
+      If you are really interested on my profile so you have read my description, feel free to start the conversation with your favorite Pokemon !
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: nelson.lombo@gmail.com #optional
+    phone: +34 650 318 407 #optional
+    linkedin: https://www.linkedin.com/in/nelson-lombo-paez-a91146155/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: npaez
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Crossfit
+
+      - item: Personal growth 
+
+# Your previous education
+education:
+    - degree: No degree, just learning !
+      university: University of Life ? 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: since 1993
+      details: |
+        I have just been learning on my own on different online platforms such LinuxAcademy and doing a couple of bootcamps in different technologies(Cloud Computing, Python and now Artificial Intelligence)
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Software/Cloud Maintenance Engineer
+      time: 2023 - Present
+      company: Red Hat
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+
+        - High level technical support involved in escalations and critical situations for major accounts mainly in EMEA and NA. 
+        - Be one of the main points of contact with other internal teams such as SRE, Black Belts, TAM's, Consulting, etc.
+        - Interviewing and mentoring new team members.
+        - Improving the current workflow and creating new frameworks with global impact.
+        - Contribution to the internal tools(basic coding in GO)
+        - Driving conversation about changes that affect multiple teams globally
+        - Leading the tecnhical support of components related to DevOps(GitOps, Tekton, Helm, Terraform)
+        - Technologies(Migration to Kafka, OpenShift IA and Data Science, Storage(Ceph) Logging and Monitoring stack(Grafana, ELK, Prometheus and PromQL)
+
+    - role: Senior OpenShift Technical Support Engineer
+      time: 2022 - 2023
+      company: Red Hat
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Technical Support Engineer providing support to the OpenShift product more focused on the managed services such ARO and ROSA
+        - Creation of troubleshooting guides, RCA and solutions to support other teammates or customers.
+        - Working on EMEA mainly but giving support to other regions as Pune or NA.
+        - Improving workflows and tools across the globe by doing hackathons, internal documentation, templates for different use cases.
+        - Mentoring new hires on the team.
+        -Interview the candidates in a technical and non technical way to find the best fit for the team.
+        - Improving the communication across teams to give the best support as possible and create more trust by doing shadowing sessions, live sessions, coffee breaks.
+        - Learning about components such Service Mesh, GitOps, Tekton, Networking.
+        - CKA, CKD and CKS preparation.
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 75%
+
+      - name: Cloud Infrastructure
+        level: 90%
+
+      - name: DevOps
+        level: 98%
+
+      - name: Kubernetes/OpenShift
+        level: 95%
+
+      - name: Artificial Intelligence
+        level: 10%
+
+      - name: Cibersecurity
+        level: 20%
