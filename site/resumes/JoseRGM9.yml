@@ -30,7 +30,7 @@ basic_info:
     email: josergm89@gmail.com
     phone: 623103293
     website: 
-    linkedin: https://www.linkedin.com/feed/?trk=sem-ga_campid.18146679037_asid.140850334975_crid.619061882347_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9181160
+    linkedin: https://www.linkedin.com/in/jose-rafael-guerrero-masip-29041991/
     
     #
     # ******** IMPORTANT *******
@@ -46,11 +46,11 @@ basic_info:
         level: Nativo
 
       - idiom: ingles
-        level: Profesional
+        level: B1 intermedio/basico
 
     # Interests or hobbies
     interests:
-      -Gimnasio
+      -Gimnasio/levantar pesas
 
 
 # Your previous education
@@ -58,8 +58,8 @@ education:
     - degree: full stack developer
       university: 4geeks academy
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: 
+      time: 
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
