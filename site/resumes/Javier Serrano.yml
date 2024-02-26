@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Serrano
+    
+    # Define yourself in 4-5 words
+    motto: I am a working boy
+    
+    # Focus
+    focus: Better society for all
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My career began a long time ago studying everything related to administration and accounting, later I wanted to focus on what I like, which is helping people and that is why I took the first aid and first aid course. Now I am on a new journey where I will fulfill my dream, which is to become a programmer, to relate to the future, optimize, and be able to do something that contributes to companies.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: seerraanoo017@gmail.com #optional
+    phone: 643703711 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Javier Serrano
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medio
+
+    # Interests or hobbies
+    interests:
+      - item: Cars
+
+      - item: Future
+
+      - item: Family
+
+# Your previous education
+education:
+    - degree: administration and finance
+      university: IES Sierra del Valle
+      # optional
+      university_logo: 
+      time: 
+      details: |
+       My studies lasted four years and it was a difficult path, since it was not the field that I liked the most.
+      # optional
+# Your previous job experiences or volunteer
+experiences:
+    - role: Life Guard
+      time: 3 years
+      company: several companies
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link:
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: JavaScript
+        level: 98%
+
+      - name: HTML5 
+        level: 95%
