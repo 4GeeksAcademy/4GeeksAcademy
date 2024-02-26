@@ -26,20 +26,20 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/
+    avatar: http://sep.breatheco.de/static/profile-images/dgasensi.jpg
 
     # Contact Information
     email: dgasensi@gmail.com
     phone: +34622286796
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    website: #optional
+    linkedin: dgasensi #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: dgasensi
     
-    twitter: 'webjeda' #optional
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     
