@@ -58,38 +58,38 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: Degree in Physics
-      university: University of Granada/UNED
-      # optional
-      university_logo: 
-      time: Present
-      details: |
-        lectives in applied physics (Astrophysics, Geophysics, Biophysics, Complex Systems Physics, Physics of the Environment
-        and Physics of the Atmosphere) and theoretical physics (General Relativity). 80% of credits passed.
+      - degree: Degree in Physics
+        university: University of Granada/UNED
+        # optional
+        university_logo: 
+        time: Present
+        details: |
+          lectives in applied physics (Astrophysics, Geophysics, Biophysics, Complex Systems Physics, Physics of the Environment
+          and Physics of the Atmosphere) and theoretical physics (General Relativity). 80% of credits passed.
 
-    - degree: Complete Machine Learning course: Data science in Python
-      university: UDEMY
-      # optional
-      university_logo:
-      time: June 2020
-      details: |
-        48,5h
+      - degree: Complete Machine Learning course, Data science in Python
+        university: UDEMY
+        # optional
+        university_logo:
+        time: June 2020
+        details: |
+          48,5h
 
-    - degree: Learning Python for Data Analysis and Visualization
-      university: UDEMY
-      # optional
-      university_logo:
-      time: June 2020
-      details: |
-        21h
+      - degree: Learning Python for Data Analysis and Visualization
+        university: UDEMY
+        # optional
+        university_logo:
+        time: June 2020
+        details: |
+          21h
 
-    - degree: Python for scientific and technical calculation
-      university: Centro Mediterráneo (University of Granada)
-      # optional
-      university_logo:
-      time: November 2019
-      details: |
-        120h
+      - degree: Python for scientific and technical calculation
+        university: Centro Mediterráneo (University of Granada)
+        # optional
+        university_logo:
+        time: November 2019
+        details: |
+          120h
 
 # Your previous job experiences or volunteer
 experiences:
