@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nilson
+    last_name: Marenco
+
+    # Define yourself in 4-5 words
+    motto: Al pié del cañón
+
+    # Focus
+    focus: Learning as much as possible, motivated, eager to advance and being diligent to become a great developer.
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Software developer, professional musician,and interested in the world of audio and sound.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png
+
+    # Contact Information
+    email: nilsonmarenco@gmail.com #optional
+    phone: 631 607 242 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/nilson-marenco-285bba290/ #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NilsonMarenco
+
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Portuguese
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sports/Basseball
+
+      - item: Movies
+
+      - item: Dance 
+
+# Your previous education
+education:
+    - degree: Electronic Engineer
+      university: Univeridad del Atlántico
+      # optional
+      university_logo: 
+      time: 1999 - 2001
+      details: |
+        Music and Arts
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+       
+      time: 2023-2024
+      details: |
+        Software Developer Course.
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Music Teacher and Accompanying pianist
+      time: 2013 - 2016
+      company: Universidad del norte (Colombia)
+      # optional
+      company_logo: 
+      details: |
+        
+    - role: Freelance pianist
+      time: 2000-Present
+      company: Various artists
+      # optional
+      company_logo: 
+      details: |
+        Accompanying pianist and soloist in different musical groups and piano solo.
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: HomeFix
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Los del sur
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "website for a musical group."
+
+      
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: JavaScript 
+        level: 50%
+
+      - name: React
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Git / GitHub
+        level: 30%
+
+      - name: Bootstrap/Tailwind/
+        level: 30%
+
+      - name: SQL
+        level: 30%
