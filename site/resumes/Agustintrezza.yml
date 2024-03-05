@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Agustin
+    last_name: Trezza
+    
+    # Define yourself in 4-5 words
+    motto: Coding - Yoga, family. 
+    
+    # focus
+    focus: Improve, be a good person.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy desarrollador Frontend React con más de 4 años de experiencia. Tengo un sólido manejo en la creación de interfaces de usuario, autenticación de usuarios, validaciones de formularios, RESTful, SOLID, diseño responsive y React Native. También tengo mucha solidez en las bases: HTML5, CSS3 y JavaScript.
+      He realizado variados y numerosos proyectos utilizando React con diferentes herramientas (Tailwind CSS, Bootstrap, Flowbite, Material UI). He implementado diversas librerías utilizando React, como Twilio, Yup, Mailgun, EmailJs, PayPal, Stripe, JWToken, date-fns, etc.
+      Me especializo en frontend, pero tengo un buen conocimiento de backend. El lenguaje que utilizo es NodeJs. He trabajado con bases de datos como MongoDB, Firebase y MySQL.
+      Como en muchas cosas de la vida -en la programación- la práctica es muy importante, por eso, siempre creí y creo que ver los proyectos de un desarrollador puede aportar y mostrar mucho de su identidad, su perfil y complementar las palabras.
+      Te invito y recomiendo que visites mi canal de Youtube (+30videos), la sección “Publicaciones” en mi perfil de LinkedIn y también mi repositorio de Github con más de 45 repositorios.
+      Disfruto mucho programando, el hecho de concretar ideas pudiendo ser creativo al hacerlo. Eso hace que siempre esté buscando perfeccionarme, probar nuevas ideas y herramientas para mejorar constantemente, aportar valor y lograr metas. Soy muy responsable, productivo y prolijo en las tareas que me toca realizar, también resolutivo y práctico. Todos los desafíos profesionales que se me han presentado los he desarrollado muy positivamente.
+      Mi foco siempre está puesto en ser una buena persona y buen compañero, comunicarme efectivamente, aportar valor y ayudar. Siento que me adapto y aprendo rápidamente nuevos conceptos y herramientas, una habilidad muy valiosa en un ambiente con muchas y variadas herramientas en constante cambio.
+      Actualmente realizo el programa “FullStack Software Development” en 4Geeks Academy. 380 horas con certificación avalada por el Departamento de Educación de Florida, EE. UU.
+      Realicé cursos de ReactJS en la academia CoderHouse (30 horas, mi trabajo final obtuvo un 10 de calificación y una muy buena devolución de los profesores). También, realicé una formación FullStack en la academia Plataforma 5 de Argentina, realizando un excelente trabajo final.
+      Cuento además con varios certificados de la plataforma Udemy, cursos de JavaScript (ES6), ReactJs, Desarrollo Web completo, Flexbox (CSS Grid, Sass), Figma y Wordpress.
+      Espero que disfrutes de mis proyectos e ideas
+      Saludos, Agustín.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: agustin.trezza@gmail.com #optional
+    phone: +54 11 3236 8312 #optional
+    website: https://www.youtube.com/@agustintrezza8490/videos #optional
+    linkedin: https://www.linkedin.com/in/agustin-trezza-920a5358/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Agustintrezza
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate.
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Drums
+
+      - item: Coding
+
+skills:
+    toolset:
+      - name: ReactJS, ReactNative
+        
+      - name: Node Js Express
+
+      - name: Bootstrap, TailwindCss, Flowbite, Material UI
+
+      - name: MongoDb, Firebase, MySql
+
+      - name: Git, GitHub
+
+      - name: JavaScript
+
+      - name: Wordpress, Elementor, WooCommerce
