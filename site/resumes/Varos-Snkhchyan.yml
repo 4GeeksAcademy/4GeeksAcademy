@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Brian
-    last_name: Murillo
+    first_name: Varos
+    last_name: Snkhchyan
     
     # Define yourself in 4-5 words
-    motto: Hacer chistes bobos
+    motto: Only God can judge me:
     
     # focus
-    focus: Comer pan con salchichon
+    focus: play football
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -30,10 +30,10 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7t6Kxayk-rka3aziXAkiSHaUG4K7QLcjC0VLv8F1E-N9ZRNgz9fiaCplIxai4IoUA_DY&usqp=CAU
 
     # Contact Information
-    email: a@a.com #optional
+    email: varos1009@gmail.com
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
@@ -41,7 +41,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Brian-Murillo
+    github: Varos1009
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
