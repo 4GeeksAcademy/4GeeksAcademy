@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Charlie
+    last_name: Willoughby
+    
+    # Define yourself in 4-5 words
+    motto: "Sorry, too busy ignoring you"
+    
+    # Focus
+    focus: Idk, eating nice things
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Been a waiter for 5 years now, worked at small bars, paella restaurants and Michelin star restaurants also 
+      (there's no real difference in wages between any of these). And ummm, I'm pretty sick of it! :D
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCHC6CXFLEmlx_BFT35HxFPbZKgyDBoRmblw&s
+
+    # Contact Information
+    email: carloswl98@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/charlie-willoughby-lopez-1b7a35252/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CWilloughby98
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Meh
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Aquascaping
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Fullstack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+      details: |
+        Intensive online course to learn most skills I will need in the future as a fully fledged programmer.
+
+    - degree: BSc in Applied Catering
+      university: Valencia
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 20019 - 2022
+      details: |
+        I'm a helluva good waiter, I do tricks with the tray and bottles.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Waiter
+      time: 2019 - X
+      company: Horchatería Alboraya
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
+    - role: Warehouse Assistant
+      time: 2020 - 2020
+      company: El Corte Inglés
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+
+    - role: Waiter
+      time: 2021 - 2022
+      company: Blayet, Valencia
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Paellas
+
+# Your project portfolio
+projects:
+    intro: >
+      Not really anything for the time being, but we'll get there!
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 13%
+
+      - name: React
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Competitive Gaming
+        level: 99%
+
+      - name: Eating
+        level: 100%
