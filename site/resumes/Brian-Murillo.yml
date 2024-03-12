@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Brian
-    last_name: Murillo
+    first_name: Varos
+    last_name: Snkhchyan
     
     # Define yourself in 4-5 words
-    motto: Hacer chistes bobos
+    motto: Only God can judge me
     
     # focus
-    focus: Comer pan con salchichon
+    focus: play football
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
@@ -33,9 +33,9 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
+    email: varos@mail.com #optional
+    phone: 123 456 789 #optional
+    website: svf.com #optional
     linkedin: alandoe #optional
     
     #
