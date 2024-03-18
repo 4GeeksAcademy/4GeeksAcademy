@@ -1,0 +1,79 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Laura
+    last_name: Cardozo
+    
+    # Define yourself in 4-5 words
+    motto: I like to take care of animals
+    
+    # Focus
+    focus: Conquer the world
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     After realize that law carrer was not my thing, I tried different things that I thought I would like,
+     one of those things was programming and that is  how i ended up here, starting in the world of programming and loving it. 
+
+   
+
+    # Contact Information
+    email: sofcardozo@gmail.com #optional
+    phone: 314 509 8095 #optional
+  
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: laurascardozo
+    
+    twitter: 'laucardozo' #optional
+   
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Crochet
+
+      - item: travels 
+
+      - item: Movies
+
+
+# Your project portfolio
+projects:
+    intro: >
+     Most of my project can be found in my repositories, here is an exmaple of some of them.
+
+    assignments:
+      - title: Form
+        # optional
+        link: "https://github.com/4GeeksAcademy/laurascardozo-formHTML5"
+        tagline: "A responsive form example"
+
+     
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: JavaScript & jQuery
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+  
