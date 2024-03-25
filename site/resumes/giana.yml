@@ -1,0 +1,178 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: 
+
+    # Your full name
+    first_name: Giancarlo
+    last_name: Alcantara
+    
+    # Define yourself in 4-5 words
+    motto: Improvise everyday
+    
+    # Focus
+    focus: Becoming a programmer and helping my family/friends
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My career is to be assist in making websites be functional to the company of those websites and helpful to the user interacting with those websites.
+      It's something that goes hand in hand with wanting to build a website that is quick and easy for the user to navigate easily with no hassle.
+      I find it similar to how I enjoy helping those around me and my family since I'd want to give back to those who helped me along the way of my journey to coding.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: TBD
+
+    # Contact Information
+    email: alcantarag20@gmail.com 
+    phone: N/A 
+    website: N/A 
+    linkedin: N/A 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: xgian20
+    
+    twitter: N/A
+    stack-overflow: N/A
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Average
+
+    # Interests or hobbies
+    interests:
+      - item: Travelling/walking
+
+      - item: Swimming
+
+      - item: Biking/outdoor sports
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - present
+      details: |
+        I am becoming a full stack developer that helps companies have functional websites that take care of the front-end page to make the design
+        represent their company while at the same time dealing with the back-end page to help with users being able to take action of the website
+        to their own liking/desire. It is a fun career path to choose in the world of coding and technology rising.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Post Layout
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A practice project on how a posted image on Instagram looks like."
+
+      - title: Letter/Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A practice project on making a postcard that you can interact with by filling out your name, messages, etc."
+
+      - title: Instagram Photo Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive photo feed of Instagram where you can switch to grid or column of images posted on instagram, along with other interactable things."
+
+      - title: Payment method form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap form that you can fill out your personal information and card information to pay for a product."
+
+      - title: Instagram Photo Feed Layout
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A practice project on a vertical column of cards/images posted shown on mobile/desktop view."
+
+skills:
+    toolset:
+      - name: Python 
+        level: 80%
+
+      - name: JavaScript 
+        level: 80%
+
+      - name: C++
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: React
+        level: 80%
+
+      - name: Java
+        level: 40%
