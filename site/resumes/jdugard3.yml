@@ -25,8 +25,7 @@ basic_info:
       Some fun facts about me is that I am a husband and father, I love to play music (specially the guitar), and I love playing video games! 
     
     # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: http://sep.breatheco.de/static/profile-images/IMG-5756.jpg
 
     # Contact Information
     email: jdugard3@gmail.com #optional
