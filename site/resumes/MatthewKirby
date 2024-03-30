@@ -1,0 +1,118 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Matthew
+  last_name: Kirby
+  motto: Disc Golfing Geek
+  focus: Learning to code
+  summary: 
+    I have years of experience working alongside and leading teams of sizes
+    as small as 3 and as big as 150 people. I have a proven track record for
+    problem soliving. 
+
+
+    Second paragraph if required.
+  avatar: https://media.licdn.com/dms/image/D5603AQH2nzWev3ukhA/profile-displayphoto-shrink_200_200/0/1711393412225?e=1717027200&v=beta&t=gabzK7KxsZVjkMALsXtqKwve9-Tj1OGgILbGVIs72jo
+  email: thekirbs22@gmail.com
+  phone: 940 536 8691
+  website: Coming Soon
+  linkedin: https://www.linkedin.com/in/matt-kirby-6525922b9/
+  github: MatthewKirby
+  twitter: TBD
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+  interests:
+    - item: Disc Golf
+    - item: Hiking
+    - item: Anything with my Doggo
+education:
+  - degree: High School Diploma
+    university: Sanger High School
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2018 - 2012
+    details: |
+      High School Dimploma
+
+         - Diploma
+experiences:
+  - role: Outbound Lead
+    time: 2022 2024
+    company: Boxout Health
+    company_logo: https://mma.prnewswire.com/media/1089586/Boxout_Logo.jpg?p=facebook
+    details: >
+      Oversee productivity and quality for the entire outbound department
+      providing medical equipment and supplies to companies all around the
+      globe. 
+
+        - Lead the Outbound Team on a large skincare 3PL
+        - Extremely proficient with Oracle systems
+  - role: Inventory and Inbound Supervisor
+    time: 2021-2022
+    company: Redstone Foods
+    company_logo: https://th.bing.com/th/id/OIP.zzqpV6tzMvOzcKcNE2V8pAAAAA?rs=1&pid=ImgDetMain
+    details: >
+      Supervised multiple teams across multiple shifts and departments to
+      ensure quality was upkept to the highest standards possible. From the
+      moment the inventory came in through the moment it went back out my teams
+      ensured quality was held to very high standards.
+
+         - Lead multiple teams to high success
+         - B
+  - role: Warehouse Manager
+    time: 2015 --2019
+    company: Amazon
+    company_logo: https://www.bing.com/images/search?view=detailV2&ccid=RbDmmt0F&id=E67D5EB40E13AC58FEADCBCFDAB000746AAFC213&thid=OIP.RbDmmt0F982-5AzJmXvXtAHaHa&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.45b0e69add05f7cdbee40cc9997bd7b4%3frik%3dE8KvanQAsNrPyw%26riu%3dhttp%253a%252f%252fwww.freelargeimages.com%252fwp-content%252fuploads%252f2014%252f11%252fAmazon_logo-8.png%26ehk%3d578R4l2IzXn434WG%252f%252b%252b3eGkkkI7ypbimar%252f7aDAYCkk%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=2133&expw=2133&q=amazon+logo&simid=608035587328316101&FORM=IRPRST&ck=59D2865447B87E56B7583E77CA72A26B&selectedIndex=1&itb=1
+    details: >
+      Oversaw entire operations and robotics, with a focus mainly on
+      outbound, staffing, labor hours, and CPT's.
+
+        - Traveled as a part of the "Away Team" helping open 6 warehouses 
+        - Deep Dove into and corrected problem with an update that resulted in a loss in productivity. 
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 00%
+    - name: JavaScript & jQuery
+      level: 10%
+    - name: Angular
+      level: 00%
+    - name: HTML5 & CSS
+      level: 75%
+    - name: Ruby on Rails
+      level: 00%
+    - name: Sketch & Photoshop
+      level: 50%
