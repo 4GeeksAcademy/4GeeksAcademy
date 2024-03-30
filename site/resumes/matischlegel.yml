@@ -29,7 +29,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: 
+    avatar: blob:https://web.whatsapp.com/0776813a-fa34-404a-b56d-8baf4f078751
 
     # Contact Information
     email: matischlegel05@gmail.com
@@ -68,7 +68,7 @@ education:
     - degree:  Graduado del bachiller de economía
       university: Colegio Nrta. Sra. del Huerto
       # optional
-      university_logo: 
+      university_logo: https://www.colegiosenbuenosaires.com/wp-content/uploads/2023/02/Colegio-Nuestra-Senora-del-Huerto_en-temperley_GBA_escudo-logo.jpg
       time: 2008 - 2023
       details: |
         Empecé el colegio en el año 2008 y dandolo por finalizado en el año 2023.
