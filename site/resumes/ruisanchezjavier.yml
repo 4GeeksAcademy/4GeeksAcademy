@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Javier
+    last_name: Ruisanchez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I enjoy solving problems
     
     # Focus
-    focus: Killing Bad Boys
+    focus: coding 
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,35 +32,32 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: javierruisanchez2@gmail.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: Javier Ruisanchez #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: ruisanchezjavier
     
-    twitter: 'webjeda' #optional
+    twitter: 'RUISANCHEZ_' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
+        level: Profesional
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Music production 
 
-      - item: Snowboarding
+      - item: Soccer
 
       - item: Cooking
 
