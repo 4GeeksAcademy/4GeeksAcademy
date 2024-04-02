@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adriana
+    last_name: Cabrera Escobar
+    
+    # Define yourself in 4-5 words
+    motto: Empatica, justa, me gusta aprender.
+    
+    # Focus
+    focus:  Aprender una nueva habilidad, entrar en el mercado laboral.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Licenciada en administracion de empresas, y formacion como tripulante de cabina con
+      experiencia de 8 años.
+      Habilidades solidas en seguridad aerea, atencion al cliente y gestion de emergencias. Tambien colaborar 
+      con otros miembros de la tripulacion, manteer una comunicacion efectiva, coordinacion y apoyo mutuo constante.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/160674673?v=4
+
+    # Contact Information
+    email: adricanita_c@hotmail.com #optional
+    phone: +591 70733299 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AdriCabrera
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: English
+        level: Intermedio-Alto
+
+    # Interests or hobbies
+    interests:
+      - item: Bailar
+
+      - item: Manejar bicileta
+
+      - item: Camping
+
+# Your previous education
+education:
+    - degree: Licenciatura en Administracion de Empresas
+      university: Universidad del Valle - Bolivia
+      # optional
+      university_logo: 
+      time: 2006 - 2010
+      details: |
+        Enfoque en como dirigir, administrar y organizar los recursos de una empresa. Adquiri conocimientos
+        en areas como contabilidad, finanzas, marketing, gestion de recursos humanos, operaciones y estrategia
+        empresarial.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Tripulante de Cabina
+      time: 2014 - 2022
+      company: Boliviana de Aviacion
+      # optional
+      company_logo:
+      details: |
+        Garantizar la seguridad y comodidad de los pasajeros durante el vuelo.
+        Realizar demostraciones de seguridad y proporcionar instrucciones en caso de emergencia.
+        Atender las necesidades y solicitudes de los pasajeros.
+        Realizar inspecciones previas al vuelo para garantizar el correcto funcionamiento de los
+        equipos de emergenciay de cabina.
+        Colaborar con la tripulacion de vuelo para coordinar las actividades a bordo y responder eficazmente a situaciones
+        de emergencia.
+        seguir protocolos de seguridad y los procedimientos operativos establecidos por la aerolinea y las
+        autoridades de aviacion.
+
+
+# Your project portfolio
+projects:
+    
+
+skills:
+    toolset:
+      
+      - name: HTML5 & CSS
+        level: Inicial
+
+    
