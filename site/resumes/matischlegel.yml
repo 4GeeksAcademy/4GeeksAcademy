@@ -83,8 +83,7 @@ education:
     
 # Your previous job experiences or voluntier
 experiences:
-      courses: Curso de microemprendimiento (2022)
-Taller de educación Financiera y Emprendedurismo (2023)
+      courses: Curso de microemprendimiento (2022) / Taller de educación Financiera y Emprendedurismo (2023)
       
     
 # Your project portfolio
@@ -108,14 +107,11 @@ assignments:
 
 skills:
     toolset:
-       - name: HTML 
-        level: 20%
-
-      - name: CSS
-        level: 20%
-
-      - name: Bootstrap
-        level: 20%
-
-      - name: Git
-        level: 20%
+    - name: HTML
+    - level: 20%
+    - name: CSS
+    - level: 20%
+    - name: Bootstrap
+    - level: 20%
+    - name: Git
+    - level: 20%
