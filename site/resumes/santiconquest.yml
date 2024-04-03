@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago 
+    last_name: Barreiro
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Work and travell at the same time
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Enthusiastic about technology and self-taught. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: barreirosantiagoa@gmail.com #optional
+    phone: 11 2243 1637 #optional
+    website: - #optional
+    linkedin: - #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: santiconquest
+    
+    twitter: - #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+    # Interests or hobbies
+    interests:
+      - item: Rugby
+
+      - item: Snowboarding
+
+      - item: Sing
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Full-Stack software developer 
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: Several modules are seen in a progressive way where first we see the structure of the pages and deepen in front end programs, database, useful tools such as git and finally back end.
+
+# Your previous job experiences or volunteer
+
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects I did at 4geeks academy
+
+    assignments:
+      - title: Post de instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "4GeeksAcademy / Santiconquest-post-de-instagram"
+        tagline: "An image created with html and css that simulates an instagram post."
+
+      - title: Instagram feed with bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "4GeeksAcademy / Santiconquest-instagram-feed-bootstrap"
+        tagline: "An image created with html and bootstrap that simulates an interactive instagram post."
+
+      - title: Html Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "4GeeksAcademy / Santiconquest-html-form"
+        tagline: "A form is created with html and bootstrap where the user is asked for different types of data."
+
+      - title: Excuse generator 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "4GeeksAcademy / Santiconquest-excuse-generator"
+        tagline: "A random excuse generator is developed from javascript."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: JavaScript & jQuery
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 70%
