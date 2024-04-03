@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel Angel
+    last_name: Gonzales Melgar
+    
+    # Define yourself in 4-5 words
+    motto: One life, Live it! fullfill, accomplish with passion and be kind to others.
+    
+    # Focus
+    focus: Learning to code and coding to learn.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Committed guest services specialist with more than 9 years of experience working for an airline.
+      Practice serving, attending, and analyzing the passenger’s requests; with a record of success in
+      team leadership, organization, problem solving, multitasking, and management of changing
+      priorities. Able to adapt to a fast-paced environment, and work a flexible schedule, including
+      weekends and holidays. Personal competences in customer service, responsibility, effective
+      communication, teamwork, and a high sense of ethics and respectful of diversity.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/160284274?s=400&u=1ee40b141694a0123bc58dbc286ed97a58ea3ab2&v=4
+
+    # Contact Information
+    email: mitronios@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/miguel-angel-gonzales-melgar-9388a3100/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Mitronios
+    
+    twitter: 'Mitronios' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: High-intermidiate
+
+
+    # Interests or hobbies
+    interests:
+      - item: Specialty Coffee
+
+      - item: Travelling
+
+      - item: Veganism
+
+# Your previous education
+education:
+    - degree: Physical teraphy
+      university: Universidad Central
+      # optional
+      time: 2 - 2012
+
+    - degree: Technical-Flight Attendant
+      university: Boliviana de Aviacion CEAC
+      # optional
+      time: 2014 - 2015
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Purser - Cabin Crew instructor
+      time: 2022 - Present
+      company: Boliviana de Aviacion
+      # optional
+      
+      details: |
+        Welcome customers, creating a comfortable and friendly flight environment.
+        Ensure the safety and security of all passengers. Communicate cabin safety standards.
+        Service to Flight Attendants to ensure the safety of the crew members and travellers.
+        Model, guide and motivate Flight Attendants to achieve priorities.
+        Deliver friendly and attentive service to maintain passenger comfort.
+        Adhere to trained Standard Operating Procedures consistent with policies.
+        Tactfully manage unforeseen operational and passenger situations.
+        Actively monitor the general condition of the aircraft cabin and adjust accordingly to maintain
+        passenger safety and/or improve the passenger experience.
+        Follow all procedures CRM (Crew resource management).
+        Instruct team in basic meteorology and Boeing 737 and CRJ-200 and Airbus 330 equipment.
+          - Crew resource Management
+          - Customer services
+          -Fundamentals of instruction
+          -In flight team leadership
+
+    - role: Flight Attendant
+      time: 2014 - 2021
+      company: Boliviana de Aviacion
+
+        Welcome customers, creating a comfortable and friendly flight environment.
+        Ensure the safety and security of all passengers. Communicate cabin safety standards.
+        Service to Flight Attendants to ensure the safety of the crew members and travellers.
+        Model, guide and motivate Flight Attendants to achieve priorities.
+        Deliver friendly and attentive service to maintain passenger comfort.
+        Adhere to trained Standard Operating Procedures consistent with policies.
+
+
+# Your project portfolio
+projects:
+    intro: >
+     Student at 4Geeks Academy
+
+skills:
+    Still Learning
