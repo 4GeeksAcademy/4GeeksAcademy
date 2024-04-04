@@ -1,0 +1,196 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco 
+    last_name: Morales
+    
+    # Define yourself in 4-5 words
+    motto: I like stylizing everything
+    
+    # Focus
+    focus: Minimalizing everything
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Over the last decade, I've honed sales skills, assisting in marketing, 
+web design, product sales on the side. Achieving vibrant designs in wordpress,  
+I hold a Business Administration degree from Universidad de Guadalajara.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: pfrancomho@gmail.com #optional
+    phone: 332 558 9007 #optional
+    website: https://www.instagram.com/lossocialdys?igsh=MXM2MXlxZ2g3MjZ0bw%3D%3D&utm_source=qr #optionalt
+    linkedin: https://www.linkedin.com/in/mfrancisco-morales #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: https://github.com/Francmho
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Conversational
+
+    # Interests or hobbies
+    interests:
+      - item: Boxing
+
+      - item: Weightlifting
+
+      - item: Music & Arts
+
+# Your previous education
+education:
+    - degree: BSc in Business Administration
+      university: Universidad de Guadalajara
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      academy: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        
+Studying Business Administration with a specialization in Video Editing, Illustration, 
+and Marketing has been a dynamic journey marked by a blend of creativity and strategic thinking. 
+Delving into the intricacies of business management, I've explored various facets of 
+marketing strategies, consumer behavior, and market analysis. Alongside, my focus on video 
+editing and illustration has allowed me to develop a keen eye for visual storytelling and branding. 
+These skills synergize with my understanding of marketing principles, enabling me to craft 
+compelling visual narratives that resonate with target audiences. This interdisciplinary approach 
+not only enhances my proficiency in multimedia content creation but also equips me with the 
+strategic acumen necessary to navigate the competitive landscape of modern business environments. 
+Through this educational path, I am prepared to leverage my creative talents and business acumen 
+to drive innovation and success in diverse professional settings.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Design manager
+      time: 2015 - Present
+      company: The Socialdys, México
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Design, Sales, and Marketing Assistant at [Company Name], I collaborated 
+across departments to drive growth. Utilizing Adobe Creative Suite, I crafted engaging 
+visuals and materials. Additionally, I supported sales strategies, conducted market research, 
+and managed marketing content. Achievements include boosting customer engagement by 70% 
+and optimizing sales efficiency by 80%. Skilled in Adobe Creative Suite and AI design interfaces, sales, 
+and marketing tactics, I bring a track record of success to any team.
+
+          - Design proficiency
+          - Sales expertise
+
+    - role: Customer Service III
+      time: 2021 - 2024
+      company: Avnet, México
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Proficiency in Customer Service 
+          - Productivity project
+          - SPIM Project
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Illustrator & Photoshop
+        level: 85%
