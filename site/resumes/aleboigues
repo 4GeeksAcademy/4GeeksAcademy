@@ -13,13 +13,13 @@ basic_info:
     last_name: boigues
     
     # Define yourself in 4-5 words
-    motto: infinite curiosity
+    motto: curious
     
     # Focus
     focus: learning
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
+    summary:  I would like to focus my IT carrer in security information area
       
 
       Second paragraph if required.
@@ -37,7 +37,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: https://github.com/Alejandrabalv
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -63,8 +63,8 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Grado Medio Sistemas Microinformáticos
+      university: Cesur
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
