@@ -90,7 +90,7 @@ projects:
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "https://github.com/victorconceicao88/instagram-bootstrap"
-        tagline "An example of Instagram Feed Using Bootstrap"
+        tagline: "An example of Instagram Feed Using Bootstrap"
 
       - title: Payment Form Designed with Bootstrap,HTML and CSS
         # optional
