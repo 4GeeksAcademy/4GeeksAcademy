@@ -1,0 +1,94 @@
+#
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Melina
+    last_name: Iocco
+    
+    # Define yourself in 4-5 words
+    motto: Es solo una cuestión de actitud
+    
+    # Focus
+    focus: Sambando, que la vida es corta.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+  
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+   
+
+    # Contact Information
+    email: 
+    phone: 
+    website: 
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelors in Economy and Culture
+      university: El Salvador
+      # optional
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: People Ops Head
+      time: 2021 - Present
+      company: Truelogic
+      # optional
+     
+      details: As a dedicated People Ops Lead, I specialize in fostering a culture of collaboration and innovation to drive the success of our People Team initiatives. My approach is rooted in aligning processes and programs with company's values and culture.
+      
+
+    - role: Resource Manager
+      time: 2016 - 2021
+      company: Cognizant Technology Solutions
+      # optional
+      
+      details: As a Resource Manager, I work closely with the business & support functions to provide a proactive and professional staffing solution, ensuring requirement fulfillment and redeployment to enable business growth. I am focused on workforce planning through managing demand, supply and workforce analytics. As a Resource Manager, I cover all aspects of the resourcing cycle: from building relationships with hiring managers, preparing reports for the senior leadership, managing talent end-to-end. This role is in a constantly changing and fast-paced environment and requires to work in ambiguity, juggle multiple priorities and collaborate across functions and levels. 2018 --- Transfer to our Sao Paulo, Brazil office, as the demand grew exponentially and the focus of the company is to grow this particular market. In this part of my journey, I am able to hire and train a bigger team in order to be able to provide our services to our internal and external clients, not only in Brazil but accross Latin America.  
+     
+
+          
+# Your project portfolio
+projects:
+    intro: >
+      
+
+   
+
+    
