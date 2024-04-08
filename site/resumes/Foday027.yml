@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Foday
+    last_name: Kallon
+    
+    # Define yourself in 4-5 words
+    motto: If everything is going smooth, then you are the slowest one.
+    
+    # Focus
+    focus: Professional Full Stack Web Developer & More
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I was suddenly saw myself drowning into coding after i discover the love i have for it, then i started coding on my own a year with different apps and sites trying to understand this new lust of mine. At the same time i was looking for a bootcamp, until i came across 4GeeksAcademy on january 2024. Learning a lot & fast.
+
+      Second paragraph if required.
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FBones.Da.baddest%2F&psig=AOvVaw0xzMJE9q7xOdfstGHBYKLJ&ust=1712485432001000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDG2tWvrYUDFQAAAAAdAAAAABAE
+
+    # Contact Information
+    email: kallon027@outlook.com
+    phone: +49 15738021294
+    website: 
+    linkedin: Saeed Kallon
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: foday027
+    
+    twitter: 
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Krio
+        level: Native
+
+      - idiom: German
+        level: Professional
+        
+      - idiom: Arabic
+        level: not-fluent
+        
+
+    # Interests or hobbies
+    interests:
+      - item: Movies
+
+      - item: Video Games
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: vocational school (retail)
+      university: 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - now
+      details: |
+        So am proudly a  new student of this bootcamp, started at march 25th, so am still in the learning phase. Recently we have done alot of projects like ints post, html forms, collaborators project, git und github, version control & bootstrap e.t.c. I hope to learn more and use them daily.
+
+          - HTML & CSS
+          - JS
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Assitant Manager
+      time: 2016 - now
+      company: Lidl GmbH
+      # optional
+      company_logo: 
+      details: |
+        
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 5%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
