@@ -61,35 +61,21 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Junior High School
+      university: (school) Institut Can Vilumara
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      School_logo: https://agora.xtec.cat/inscanvilumara/wp-content/uploads/usu1655/2017/09/CAN-VILUMARA-logo.jpg
+      time: 2017 - 2021
 
-          - Bullet point
-          - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Senior High School
+      university: (school) Institut Bellvitge
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      School_logo: https://educaciodigital.cat/iesbellvitge/moodle/pluginfile.php/1/theme_xtecboost/logo/0/logo_ibellvitge_nou.png
+      time: 2021 - 2023
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        It was a really nice experience. I had the opportunity to met new amazing and talented people. 
+        Here I was able to explore and learn a lot of things. Also It was a great place to improve my creativity skills
 
 # Your previous job experiences or volunteer
 experiences:
