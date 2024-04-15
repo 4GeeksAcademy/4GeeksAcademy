@@ -77,10 +77,7 @@ education:
       time: 2008 - 2014
       details: |
         fundamentos de la computacion, programacion, sistemas operativos, redes de computadoras, bases de datos, ingenieria de software, arquitectura de computadoras, seguridad informatica.
-
-          - Bullet point
-          - Bullet point
-
+         
 # Your previous job experiences or volunteer
 experiences:
     - role: Lead Developer
