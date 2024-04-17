@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Robles
+    
+    # Define yourself in 4-5 words
+    motto: Al final todo estara bien, y si no esta bien es que todavia no llegamos al final.
+    
+    # focus
+    focus: 1% mejor que ayer
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Trabajo con disciplina y aprendiendo siempre un poco mas, ordenado y meticuloso a nivel personal
+      he trabajado con diferentes equipos principalmente desde el liderazgo.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: "C:\Users\ajrob\Downloads\Imagen de WhatsApp 2024-04-05 a las 12.09.09_ae3487ae.jpg"
+
+    # Contact Information
+    email: ajrobles@hotmail.es
+    phone: #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/pabloarobles #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: PabloRoblesA
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Not this time
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Sports
+
+      - item: Finance
+
+      - item: Urban garden
+
+# Your previous education
+education:
+    - degree: Geografo
+      university: Universidad de Chile
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2014
+      details: |
+        Terminados cinco años de plan comun de carrera, sin titulacion ni ceremonias.
+
+    - degree: Data Science & Machine Learning
+      Academy: 4 Geeks Academy Chile      
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+        Capacitacion en curso para Data Science & Machine Learning.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Store Manager
+      time: 2019 - Present
+      company: Starbucks Coffee Chile S.A.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Administrador de sucursales, a cargo del manejo de personal, logro de resultados y 
+        control de negocio.
+
+# Your project portfolio
+projects:
+    intro: >
+      En proceso... 
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: 
+
+     
+skills:
+    toolset:
+#En proceso de adquisicion de competencias
+      - name: Python
+        level: 
+
+      - name: SQL
+        level: 
+
+      - name: HTTP & Web Scrapping
+        level:
+
+      - name: Git & Github
+        level: 
+
+      - name: JSON
+        level: 
+
+      - name: Excel
+        level:
