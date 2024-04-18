@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Iain
+    last_name: Twigg
+    
+    # Define yourself in 4-5 words
+    motto: Creation is a form of chaos.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: foxstein1911@gmail.com #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AsuariFoxstein
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobbies
+    interests:
+      - item: Sabre Fencing.
+
+      - item: Being an Avali.
+
+      - item: Causing absolute Chaos.
+
+# Your previous education
+education:
+    - degree: Full Stack Developer Training
+      university: 4Geeks Acadmey
+      time: 2024-present
+
+# Your project portfolio
+projects:
+    intro:
+    
+     - item: Created "Cerinian Race" Mod for Starbound.
+     - item: Created "Starfox Weapons Mod" for Starbound.
+     - item: Created "Fox & Krystal Armor Mod" for Starbound.
+     - item: Created VRChat Avatars and worlds using unity.
+     - item: Created "Krystal TFAVOX pack" Gmod.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 2%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Substance Painter
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 63%
+
+      - name: Unity
+        level: 70%
+
+      - name: Sketch & Photoshop
+        level: 60%
