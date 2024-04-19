@@ -1,0 +1,62 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nelson
+    last_name: Velasquez
+    
+    # Define yourself in 4-5 words
+    motto: I like to do good
+    
+    # Focus
+    focus: Learning new things, my goal is being able to speak english fluently and coding anything.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Esta parte es mucho texto ya que mi ingles "It's a work in progress" en español puedo decir que estudie 8 semestre de ingeneria
+      en petroleo, por motivos de fuerza mayor no me pude terminar mi carrera y actualmente estoy tratando de enconetrar un norte en 
+      un rubro que me guste, la programacion ha llamado mucho mi atencion desde hace bastante tiempo y aqui estoy espero aprender mucho
+      y poder ejercer en un futuro.
+      Actualmente trabajo en una Empresa conocida como TAAG GENETICS, estoy ejerciendo el puesto de purchase analyst una experiencia nueva
+      para mi luego de haber trabajado durante dos años en la bodega y es un puesto en el que me desenvuelto muy bien, como si estuviese
+      desde hace tiempo ejerciendolo, me gusta es algo nuevo y espero poder seguir sumando actividades y experiencias a mi vida laboral.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: Nelsonalejandrovn@gmail.com.com #optional
+    phone: +56 961473503 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/nelson-alejandro-velasquez-naravez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NelsonAVN
+    
+    twitter: 'NelsonAVN' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic-Intermediate
+
+      - idiom: French
+        level: none
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Traveling to visit a new city
+
+      - item: Working out
+
+      - item: Reading
