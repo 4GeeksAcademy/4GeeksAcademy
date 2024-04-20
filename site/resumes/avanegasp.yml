@@ -1,0 +1,113 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+
+    first_name: Angie
+    last_name: Vanegas
+
+    motto: it's better ask forgive than ask permission
+    
+    focus: FullStack Developer
+    
+    summary: |
+      Specializing in Customer Service, I understand the importance of providing quick and 
+      concise responses to address user concerns. With a background in fast-paced environments, 
+      particularly in startups, I bring technical expertise in programming languages such as 
+      Javascript and React, along with proficiency in databases. I've expanded my skills into Data 
+      Science, SQL, Python, and Excel.
+
+      Having executed projects catering to hundreds of users, I've successfully managed and 
+      coordinated project implementations across various departments. My organizational skills and 
+      thorough documentation aim to create scalable processes that reduce dependency on individual 
+      contributors. I thrive on automating processes and am dedicated to supporting both my team 
+      and users.
+    
+    
+    avatar:
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    github: avanegasp
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Running
+
+      - item: Reading
+
+      - item: Cooking
+
+education:
+    - degree: Statistical Sciences
+      university: Central University of Venezuela
+      time: graduated in 2010
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with JavaScript
+      
+projects:
+    intro: 
+      
+    assignments:
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+        
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+             
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+      - title: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python
+        level: 30%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: SQL
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Ruby on Rails
+        level: 30%
