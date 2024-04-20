@@ -5,14 +5,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Nestor
+    first_name: Nestor 
     last_name: Frones
     
     # Define yourself in 4-5 words
     motto: I like saving the world
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Programing
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -25,38 +25,38 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/men/20.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: email@email.com #optional
+    phone: 465 45465 6546 #optional
+    website: nestorfron.com #optional
+    linkedin: NestorFrones #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: nestorfrones
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
       - idiom: French
         level: Professional
 
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     # Interests or hobbies
     interests:
       - item: Climbing
 
-      - item: Snowboarding
+      - item: Running
 
       - item: Cooking
 
@@ -184,19 +184,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 90%
 
       - name: JavaScript & jQuery
-        level: 98%
+        level: 90%
 
       - name: Angular
-        level: 98%
+        level: 90%
 
       - name: HTML5 & CSS
         level: 95%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 80%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 80%
