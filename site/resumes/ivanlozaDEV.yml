@@ -1,0 +1,117 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Iván
+  last_name: Loza
+  motto: I like building bridges between front-end elegance and back-end power.
+  focus: Web Stack Development, Front-End/Back-End/Database-Access
+  summary: Driven business administration graduate turned air traffic controller
+    with a knack for directing and collaborating effectively in teams.
+    Passionate about technology, I embarked on a coding journey two years ago,
+    finding in it not just a skill, but a means to continually challenge and
+    enhance my mind.
+  avatar: null
+  email: ivanloza88@gmail.com
+  phone: 593991452461
+  website: null
+  linkedin: https://www.linkedin.com/in/ivan-loza-8906032bb/
+  github: ivanlozaDEV
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Advanced
+  interests:
+    - item: homebrewing
+    - item: technology
+    - item: coding
+    - item: DIY
+education:
+  - degree: Bachelor in Business Administration
+    university: Universidad Tecnica Particular de Loja
+    time: 2010 - 2015
+    details: >
+      As Business Administration graduate, I've honed a diverse skill set
+      vital for modern business. 
+
+      With expertise in finance, marketing, management, and economics, I bring a strategic mindset and analytical acumen to the table. 
+
+      Practical experience from projects and internships has deepened my understanding of real-world business dynamics. 
+
+      I excel in communication, leadership, and teamwork, ready to contribute effectively to any professional challenge..
+
+        - Leadership
+        - Strategic mindset
+  - degree: Air Traffic Control Management Technical Degree
+    university: Direccion General de Aviacion Civil del Ecuador
+    time: 2008 - 2010
+    details: >
+      I bring specialized expertise in ensuring safe and efficient air
+      traffic operations. 
+
+      With in-depth knowledge of airspace management and navigation systems, 
+
+      I excel in handling high-pressure situations with precision. 
+
+      My strong decision-making and teamwork skills make me well-equipped to contribute effectively to aviation safety.
+
+        - High pressure decision making
+        - Teamwork
+experiences:
+  - role: Air Traffic Controller
+    time: 2011 - present
+    company: Direccion General de Aviacion Civil del Ecuador
+    details: >
+      As an air traffic controller, I am responsible for ensuring the safe
+      and efficient movement of aircraft within my assigned airspace. 
+
+      This entails monitoring flights, providing clearances and instructions to pilots, and swiftly resolving any emergencies or conflicts. 
+
+      I maintain constant communication with relevant parties and stay vigilant to changes in weather and air traffic flow. 
+
+      My primary focus is on upholding safety standards and facilitating seamless air travel operations.
+projects:
+  intro: |
+    Just a few simple projects in my public repository.
+  assignments:
+    - title: Credit Card Form
+      link: https://github.com/ivanlozaDEV/ivanlozaDEV-cardForm/
+      tagline: A simple credit card form using Bootstrap
+    - title: Instagram Feed
+      link: https://github.com/ivanlozaDEV/ivanlozaDEV-instagramFeed/
+      tagline: Instagram feed uisng HTML and Bootstrap
+skills:
+  toolset:
+    - name: HTML5, CSS, Javascript
+      level: 95%
+    - name: JQuery, Popper, Bootstrap
+      level: 90%
+    - name: ReactJS
+      level: 85%
+    - name: Git, BitBuket, Jira
+      level: 90%
+    - name: Windows OS
+      level: 95%
+    - name: Linux OS
+      level: 85%
+    - name: MS SQL Server
+      level: 95%
+    - name: Oracle
+      level: 95%
+    - name: Postgres
+      level: 95%
+    - name: Delphi, OOP
+      level: 98%
+    - name: C++, C#
+      level: 95%
+    - name: Java
+      level: 90%
+    - name: MS Office Tools
+      level: 98%
+    - name: Project Manager
+      level: 98%
+    - name: Business Manager
+      level: 90%
