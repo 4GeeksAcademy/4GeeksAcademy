@@ -99,8 +99,19 @@ experiences:
       details: |
         Pues me encargaba de la distribución de la red, el subneteo, etc
 
-          - Bullet point
-          - Bullet point
+          - hola
+          - bala
+
+    - role: Vendedor
+      time: 2023 - 2024
+      company: UGEL
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Pues me encargaba de la distribución de la red, el subneteo, etc
+
+          - hola
+          - bala
 
     
 # Your project portfolio
