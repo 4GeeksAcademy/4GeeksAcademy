@@ -64,14 +64,16 @@ basic_info:
       - item: Gaming
 
 # Your previous education
-# education:
-#     - degree: Batxillerato Cientifico
-#       university: Institut Montserrat Roig
-#       # optional 
+education:
+    - degree: Batxillerato Cientifico
+      university: Institut Montserrat Roig
+      time: 2014-2016
+      # optional 
 
-#     - degree: Ciclo superior en Juegos y Entornos Intercativos
-#       university: Jessuïtes Sarrià
-#       # optional
+    - degree: Ciclo superior en Juegos y Entornos Intercativos
+      university: Jessuïtes Sarrià
+      time: 2016-2018
+      # optional
 # Your previous job experiences or volunteer
 experiences:
     - role: Technical and Animator
