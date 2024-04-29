@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Leandro
+    last_name: Siniestro
+    
+    # Define yourself in 4-5 words
+    motto: I like plants
+    
+    # Focus
+    focus: On improving
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I like learning new things and working on new projects to increase my skills .  
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lsiniestro
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+    
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Playing guitar
+
+      - item: Motorbike riding
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: INGENIERO TECNOLÓGICO EN ELECTROTECNIA
+      university: UTU
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2022
+      details: |
+        Electrical engineering, learned to program on Assembler, Arduino and Visual Studio.
+    - degree: Beyond IoT, Inteligencia Sensorial y Tecnología Inteligente
+      university: MIT
+      # optional
+      university_logo: https://logowik.com/content/uploads/images/mit9241.jpg
+      time: 2007 - 2011
+      details: |
+        Learned about IoT, sensors and Machine learning, 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Electromechanical officer
+      time: 2014 - 2021
+      company: OSE, Uruguay
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Worked installing water pumps... 
+
+    - role: Electromechanical officer
+      time: 2021 - Present
+      company: UTE, Uruguay
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Automatic watering
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A watering system for the garden"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 30%
+
+      - name: Visual Basic
+        level: 30%
+
+      - name: Arduino
+        level: 60%
+
+     
