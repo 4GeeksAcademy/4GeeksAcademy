@@ -1,0 +1,80 @@
+template: "online-cv"
+skin: "gray"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felix
+    last_name: Rodríguez
+    
+    # Define yourself in 4-5 words
+    motto: Smart, Curious, Anxious, Prepared
+    
+    # focus
+    focus: Become better in python and data
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a healthcare proffesional interested to work and learn in the area of Data
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:  
+    
+    # Contact Information
+    email: dentalfelix224@gmail.com #optional
+    phone:  #optional
+    website: #optional
+    linkedin:  #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fexeduard224
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+      -levvel: Professional
+
+      - idiom: French
+      -levvel: Professional
+    
+    
+    # Interests or hobies
+    interests:
+      - item: Video Games
+
+      - item: Internet
+
+      - item: Gym
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Dentistry
+      university: UGMA
+      time: 2011-2018
+      details:
+    
+experiences:
+    - role: Dentist
+      time: 2018 - Present
+      company: 
+      details: 
+         
+          
+skills:
+    toolset:
+      - name: Python
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 10%
+
+        -name: Javascript
+        level: 5%
