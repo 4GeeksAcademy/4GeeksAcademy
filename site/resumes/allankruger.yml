@@ -1,0 +1,143 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Allan
+    last_name: Krüger
+    
+    # Define yourself in 4-5 words
+    motto: A curious and hyperactive guy
+    
+    # Focus
+    focus: Learn Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      A curious and self-taught guy who has been interested in technology since I was a child.
+      I started with computer maitenance, passed through full-stack development and got to front-end in
+      the past years.
+      Now my main focus is in Data Science, because I think we'll need more and more professionals of the field in the future.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQEvBOmejJOawg/profile-displayphoto-shrink_800_800/0/1649680332272?e=1720051200&v=beta&t=ZONIkZ2TBzB8IbuVYdHK07rhHWshuHsELjfrMqBmw8g
+
+    # Contact Information
+    email: allanfloreskruger@gmail.com #optional
+    phone: +34 744 70 20 31 #optional
+    website: https://github.com/allankruger #optional
+    linkedin: https://www.linkedin.com/in/allan-kr%C3%BCger-4a8b03b5/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: allankruger
+    
+    twitter: 'allanfkruger' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Running
+
+      - item: Camping
+
+# Your previous education
+education:
+    - degree: System Development and Analysis
+      university: IFRS - (Federal Institute of Rio Grande do Sul - Brazil)
+      # optional
+      university_logo: https://ifrs.edu.br/bento/wp-content/uploads/sites/13/2020/07/logo_capa_site.png
+      time: 2018 - 2021
+      details: |
+        The Higher Technology Course in Systems Analysis and Development at the IFRS Bento Gonçalves Campus has the general objective of providing its students with technological training in the area of ​​Computing, with a focus on integrating knowledge and permanent updating, so that they can design and develop new computing technologies, with innovative and entrepreneurial action.
+
+          - analyze, design, develop, test, implement and maintain computer information systems;
+          - evaluate, select, specify and use Software Engineering methodologies, technologies and tools, programming languages ​​and databases;
+          - coordinate software production teams;
+          - inspect, carry out expertise, evaluate, issue a report and technical opinion in the area of ​​training.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Front-end Developer
+      time: 2020 - 2023
+      company: Compass.UOL, Brazil
+      # optional
+      company_logo: https://compass.uol/etc.clientlibs/compass/clientlibs/clientlib-react/resources/static/media/logo-light.21615d7f.svg
+      details: |
+          - Frontend development using OSF (Oracle's Open Storefront Framework);
+          - OSF mainly works with React, Redux, and Node.js;
+          - Code review;
+          - Customer presentation;
+          - UI design in Figma following WCAG standards
+          - Working in an Agile environment.
+
+    - role: Full-stack Developer
+      time: 2019 - 2020
+      company: Eccosys, Brazil
+      # optional
+      company_logo: https://d3gl9i7k06qt57.cloudfront.net/_next/static/media/eccosys-sem-slogan-azul.97ff521b.svg
+      details: |
+         - REST API development and maintenance using PHP;
+         - Implementation of new features using PHP, MySQL, AngularJs, JavaScript, JQuery and Bootstrap;
+         - Bug fixing;
+         - Tests.
+
+    - role: Technical Support
+      time: 2018 - 2019
+      company: Eccosys, Brazil
+      # optional
+      company_logo: https://d3gl9i7k06qt57.cloudfront.net/_next/static/media/eccosys-sem-slogan-azul.97ff521b.svg
+      details: |
+          - Customer support through phone and helpdesk;
+          - Writing articles for the system knowledge base;
+          - Fixing bugs that did not needed a deep code analysis.
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are some projects I made.
+
+    assignments:
+      - title: Ignite Feed
+        # optional
+        project_logo: https://ignite-feed-sable.vercel.app/assets/ignite-logo.a7b6d80d.svg
+        link: "https://ignite-feed-sable.vercel.app/"
+        tagline: "A React application made using Vite with Typescript and CSS Modules."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: JavaScript
+        level: 90%
+
+      - name: ReactJS
+        level: 80%
+
+      - name: NodeJS
+        level: 65%
+
+      - name: Figma
+        level: 90%
+
+      - name: Photoshop
+        level: 90%
+        
