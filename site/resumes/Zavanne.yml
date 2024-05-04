@@ -21,9 +21,10 @@ basic_info:
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
         With a solid background in the tech industry, I am honing my skills in developing innovative solutions.
-        Now, my passion lies in leveraging artificial intelligence and machine learning to create smart systems that
-        are both cutting-edge and accessible to a wider audience. I am committed to contributing my expertise as a
-        developer to drive positive change and make a meaningful impact in the tech world.
+        Now, my passion lies in leveraging artificial intelligence, machine learning and full stack development
+        to create smart systems that are both cutting-edge and accessible to a wider audience. I am committed to
+        contributing my expertise as a developer to drive positive change and make a meaningful impact in the
+        tech world.
 
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
