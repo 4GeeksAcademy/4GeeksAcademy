@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Sebastian
+    last_name: Sarria
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: El mundo me apasiona
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Learn Code
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -29,32 +29,25 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://avatars.githubusercontent.com/u/161655160?v=4
 
     # Contact Information
-    email: a@a.com #optional
+    email: jsebassn@gmail.com #optional
     phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    website: jsebastiansarria.com #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: https://github.com/JSebasSN
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Medium
 
     # Interests or hobbies
     interests:
@@ -187,20 +180,11 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: JavaScript
+        level: 20%
 
       - name: HTML5 & CSS
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
 
       - name: Sketch & Photoshop
         level: 60%
