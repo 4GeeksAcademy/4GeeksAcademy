@@ -1,0 +1,157 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Diez
+    
+    # Define yourself in 4-5 words
+    motto: Go big or go home
+    
+    # Focus
+    focus: Aprender programación
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy Analista de Sistemas y actualmente estoy estudiando para desarrollarme como Fullstack Developer, para continuar mi carrera como programador.
+
+      Siempre estoy interesado en escuchar a compañeros, gerentes, o simplemente gente interesante y creativa, así que no dude en ponerse en contacto conmigo si desea conectar.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4E03AQHLO54DdH3cpQ/profile-displayphoto-shrink_800_800/0/1568739717500?e=1720656000&v=beta&t=a11aOjWww5mOlO9w_YfAVR97qkvfmKx38nCFdAU0Mfg
+
+    # Contact Information
+    email: javierdiez92@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/javier-diezz/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: javidiez
+    
+    twitter: 'javierdiez92' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: Intermidiate
+
+    # Interests or hobbies
+    interests:
+      - item: Fútbol
+
+      - item: Pádel
+
+      - item: Programación
+
+# Your previous education
+education:
+    - degree: Analista de Sistemas de la Computación
+      university: Instituo J.J Urquiza - Rosario, Santa Fe, Argentina
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2015
+      details: |
+        Graduado con doble titulación:
+
+          - Analista de Sistemas
+          - Analista Programador
+
+    - degree: Comunicación social
+      university: UNR
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2012
+      details: |
+        No finalizada.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Project Manager
+      time: 2022 - 2024
+      company: Factor Libre, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Gestión de proyectos mediante el ERP Odoo. Resolución de incidencias y
+        formación a las empresas en el uso del sistema.
+
+
+    - role: Consultant Team Leader
+      time: 2019 - 2021
+      company: Adhoc, Rosario, Argentina
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Liderazgo del equipo de consultores, revisión de estado de proyectos y
+        toma de decisiones para mejora continua con el directorio de la empresa.
+
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de los sitios web creados por mi cuenta para practicar lo aprendido.
+
+    assignments:
+      - title: Queseriesmirar
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/javidiez/queseriesmirar
+        tagline: "Sitio web para buscar reseñas y recomendaciones de películas y series"
+
+      - title: Antenah
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/javidiez/antenah
+        tagline: "Sitio web sobre una empresa de desarrollo de software"
+
+      - title: Quien me cuida
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/javidiez/quienmecuida
+        tagline: "Sitio web de una empresa que ofrece el servicio de cuidado de gente adulta"
+
+skills:
+    toolset:
+      - name: HTML5 / CSS3
+        level: 70%
+
+      - name: JavaScript 
+        level: 30%
+
+      - name: Boostrap
+        level: 80%
+
+      - name: Paquete Office
+        level: 50%
+
+      - name: Git
+        level: 30%
+
+      - name: Wordpress
+        level: 60%
+
+      - name: Odoo
+        level: 90%
+
+      - name: Blogger
+        level: 100%
+
+      - name: SEO
+        level: 60%
+
