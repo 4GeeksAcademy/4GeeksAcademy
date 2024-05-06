@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lois
+    last_name: Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: Creativo, Proactivo, Inquieto, Resiliente .
+    
+    # focus
+    focus: Deporte, mejorar dia a dia y ser proactivo.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy una persona que le gusta estar actualizandose cada cierto tiempo. Me gusta adentrarme en el mundo de la tecnología siempre que puedo. 
+      Soy profesor de Educación, concretamente en la rama de Educación Infantil, pero desde que salí de mi carrera, me he dedicado al mundo de la tecnología.
+      Durante mis ultimos 8 años he sido profesor de programación, impresión 3D y robótica en una academía para niñ@s y adolescentes.
+      Al estar en contacto con la tecnología, me surgió el interés por saber como era el diseño de páginas web y apps.
+      Puedo trabajar en equipo e individualmente, sin problemas, pero me siento mucho más cómodo indidualmente, ya que cada persona tiene su método de trabajo y sus tiempos de trabajo.
+      He experimemntado situaciones de alto estrés y las he sabido sobrellevar. Me encanta conocer
+      tópicos nuevos de estudio y progresar a nivel personal y profesional.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/79327534?s=400&u=bb9f6b73e90e91c35f0d0b25a8d24b0831ce18bd&v=4
+
+    # Contact Information
+    email: loisinho1987@gmail.com #optional
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/lois-rodriguez-rodilla-10b502278
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: loisinho87
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Básico
+
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Gallego
+        level: Nativo
+
+      - idiom: Portugués
+        level: Básico
+
+    # Interests or hobies
+    interests:
+      - item: Deportes
+
+      - item: Viajar
+
+      - item: Familia
+
+# Your previous education
+education:
+    - degree: Graduado en Magisterio Infantil
+      university: Universidad de Santiago de Compostela
+      # optional
+      university_logo: https://assets.usc.gal/sites/default/files/styles/banner_m/public/paragraphs/links/2023-03/usc.png?h=bde28bee&itok=qaI23wfI
+      time: 2010 - 2014
+      details:
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Coordinador, Profesor y Monitor de tiempo libre
+      time: 2015 - Enero 2024
+      company: Espacio Vivo.
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvc_6vlnbAMle_aYsz-Xn7lNnfY8uy04jD9jfPienrA&s
+      details: |
+        Responsable de un grupo de monitor@s oprofesor@s de actividades extraescolares. 
+        Encargado del correcto funcionamiento de los monitor@s en los colegios.
+        Creación y enseñanza de actividades lúdicas-educativas para toda la etapa educativa obligatoria en ROBÓTICA, IMPRESIÓN 3D, PROGRAMACIÓN, INFORMÁTICA; con Lego, Scratch, Makecodearcade, PrusaSlicer, Tinkercad..
+          
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title:
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link:
+        tagline: 
+
+      - title:
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: Python
+        level: 0%
+
+      - name: Javascript 
+        level: 3%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+    
+
+      
