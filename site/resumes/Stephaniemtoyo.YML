@@ -1,0 +1,74 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Virecny Stephanie
+    last_name: Mata Toyo
+    motto: Full Stack Developer
+    avatar:
+    summary: |
+      I am passionate about new technologies and I am always willing to learn something new every single day.
+      Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
+    # Sidebar links
+    email: matavirecny1990@gmail.com
+    phone: +34 674 83 23 97
+    linkedin: 
+    github: Stephaniemtoyo
+    twitter: 
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Swim
+
+      - item: watch soccer
+
+      - item: travel
+
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2024 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+          - Bullet point
+          - Bullet point
+    - degree: Gas Engineer
+      university: Universidad Nacional Experimental "Rafael Maria Baralt" 
+      time: 2008 - 2014
+      details: |
+        During these six years I am able to learn a wide range of concepts to manage a company in the principles areas (Distribution, extraction, Manipulation, Production) abouth natural gas and petroleum.
+experiences:
+    - role: Interships || Production.
+      time: 2013 - 2013
+      company: Petroleos de Venezuela (PDVSA).
+      details: |
+        My main responsabilities are supervise the different oil and gas wells.
+          - Increase the production.
+    - role: Manager
+      time: 2017 - 2023
+      company: Futu Sushi Argentina
+      details: |
+        Supervise the proper functioning of the restaurant.
+    - role: Manager
+      time: 2024-Present.
+      company: Vivari
+      details: |
+        -Make coofe
+          - Prepare food.
+
+Skills:
+    -Javascrip: 30%
+    -HTML: 40%
+    -CCS: 50%
