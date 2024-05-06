@@ -10,7 +10,7 @@ basic_info:
 
     # Your full name
     first_name: Lois
-    last_name: Rodriguez
+    last_name: Rodriguez Rodilla
     
     # Define yourself in 4-5 words
     motto: Creativo, Proactivo, Inquieto, Resiliente .
@@ -81,7 +81,7 @@ education:
 experiences:
     - role: Coordinador, Profesor y Monitor de tiempo libre
       time: 2015 - Enero 2024
-      company: Espacio Vivo.
+      company: Espacio Vivo
       # optional
       company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvc_6vlnbAMle_aYsz-Xn7lNnfY8uy04jD9jfPienrA&s
       details: |
@@ -132,7 +132,7 @@ skills:
         level: 0%
 
       - name: Javascript 
-        level: 3%
+        level: 1%
 
       - name: HTML5 & CSS
         level: 30%
