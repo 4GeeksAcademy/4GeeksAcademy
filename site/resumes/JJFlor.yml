@@ -1,0 +1,204 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Júlia
+    last_name: Jaile Flores
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta el orden..
+    
+    # Focus
+    focus: Aprender a programar.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi carrera professional se resume
+      en haber estudiado trabajo social y haberme dedicado a ello 5 años, hasta que finalmente
+      decidí dejarlo para cuidar de mi salud mental y buscar una carrera profesional que me 
+      permitiera ganarme mejor la vida para poder vivir mejor. Así fue como entré en contacto 
+      con el mundo del coding, a través de los cursos de la plataforma SheCodes. Actualmente,
+      trabajo de administrativa en una escuela de inglés por las tardes y estudio para ser 
+      programadora full tack con 4Geeks por las mañanas. 
+
+      Realmente e estoy dedicando toda la energía que puedo a hacer este cambio profesional, ya
+      que me parece un sector profesional muy interesante y poderoso y creo que puedo hacer grandes
+      cosas dentro de él. 
+    
+    # Your profile picture URL 
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQHxvCSjBHSd_A/profile-displayphoto-shrink_800_800/0/1693492401317?e=1720656000&v=beta&t=0d1APv_M4Vv0U3206AnxZydnb15yQeS8nuszMLbudGA
+
+    # Contact Information
+    email: jjailefl@gmail.com 
+    phone: +34 661055891 
+    website: ---
+    linkedin: /juliajaile 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JJFlor
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Crossfit & hiking
+
+      - item: Cinema
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Social Work
+      university: University of Barcelona
+      # optional
+      university_logo: https://estatics.web.ub.edu/image/company_logo?img_id=2946262&t=1714986103349
+      time: 2014 - 2018
+      details: |
+        El grado en Trabajo Social es una formación basada en una perspectiva teórica y práctica 
+        en la que el estudiante desarrolla un conjunto de herramientas analíticas, relacionales y de 
+        intervención sobre los problemas sociales para mejorar el bienestar de las personas, los grupos 
+        y las comunidades.
+
+          - Perspectiva teórica y práctica
+          - Problemas sociales
+
+    - degree: Erasmus en Berlin 
+      university: Alice Salomon University
+      # optional
+      university_logo: https://www.ash-berlin.eu/typo3conf/ext/ash/Resources/Public/Images/ash-logo.svg
+      time: 2018
+      details: |
+        La Licenciatura en Trabajo Social te capacita para actuar de forma independiente como profesional 
+        en las diversas áreas laborales en trabajo social. El programa de estudio proporciona a los estudiantes 
+        conocimientos y métodos relacionados con la práctica, junto con las habilidades necesarias para los procesos 
+        de pensamiento y acción crítico-reflexivo.
+
+          - Erasmus en Trabajo Social
+          - Acción crítico-reflexivo
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Auxiliar administrativa
+      time: 2022 - Present
+      company: Today School, Barcelona
+      # optional
+      company_logo: https://todayschool.es/blog/wp-content/uploads/2016/09/logo-animat-550x300.gif
+      details: |
+        Me encargo de atender la secretaria de la escuela: atender llamadas, contestar e-mails, así como 
+        recibir alumnos y profesores. También informo de nuestros cursos y precios a los nuevos clientes 
+        que se interesan. Realizo fotocopias, gestiono documentación y facturo/cobro los recibos de las clases
+        a los alumnos. Además, me encargo de mantener al dia el Wordpress del Blog de deberes que colgamos en nuestra web. 
+
+          - Gestión de documentación
+          - Atención al cliente
+
+    - role: Referente tutelar en ACIDH
+      time: 2022 - 2023
+      company: ACIDH, Barcelona
+      # optional
+      company_logo: https://www.acidh.org/wp-content/themes/acidh/images/logos/logovertical.png
+      details: |
+        Acompañamiento de la persona tutelada (visitas médicas, servicios ocupacionales, gestión de documentación…)
+        Trabajo en equipo: referente tutelar-auxiliar tutelar, con el resto de equipos de la entidad.
+        Trabajo en red y coordinación con profesionales de los ámbitos sanitario, laboral, residencial, entre otros.
+        Atención directa a las familias de las personas tuteladas.
+        Gestión de conflictos y emergencias.
+
+          - Acompañamiento
+          - Gestión de conflictos
+
+    - role: Trabajadora social en centro RESPIR
+      time: 2019 - 2020
+      company: Diputació de Barcelona, Barcelona
+      # optional
+      company_logo: https://media.diba.cat/diba/maqueta/logos/logodiba_header.svg
+      details: |
+        Estudio de casos y contacto con las familias interesadas.
+        Gestión y organización del servicio.
+        Entrevistas iniciales informativas.
+        Acogida de los usuarios/as individualizada y seguimiento familiar.
+        Reuniones interdisciplinares.
+        Coordinación con Servicios Sociales y Centros de atención Primaria
+
+          - Estudio de casos
+          - Coordinaciones
+
+# Your project portfolio
+projects:
+    intro: >
+      https://github.com/4GeeksAcademy/julia-jaile-InstagramFeedconBootstrap
+      https://github.com/4GeeksAcademy/julia-jaile-instagrampost
+
+    assignments:
+      - title: Instagram Feed con Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A website that looks like the Instagram Photo Feed using Bootstrap."
+
+      - title: Instagram post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A website that looks like an Instagram post using HTML5 and CSS."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 
+
+      - name: JavaScript & jQuery
+        level: 
+
+      - name: Angular
+        level: 
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 
+
+      - name: Sketch & Photoshop
+        level: 
