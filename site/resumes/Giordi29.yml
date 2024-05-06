@@ -1,0 +1,104 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Giordano
+    last_name: Lara
+    
+    # Define yourself in 4-5 words
+    motto: Hopeful, postive and cheerful
+    
+    # focus
+    focus: Digital Health, Marketing and Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: glarabrillo@gmail.com #optional
+    phone: 643524704 #optional
+    website:  #optional
+    linkedin:  #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Giordi29
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Skiing
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      time: 
+      # optional
+      details:
+    - degree: 
+      university: 
+      # optional
+      university_logo:
+      time: 
+      details:
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: N
+      # optional
+      company_logo:
+      details: |
+          
+    - role:
+      time: 
+      company: C
+      # optional
+      company_logo:
+      details: |
+          
+    - role: 
+      time:
+      company: 
+      # optional
+      company_logo:
+      details: |
+          
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+          
+    
+skills:
+    toolset:
+      - name: Javascript
+        level: 10%
+
+      - name: CSS
+        level: 50%
+
+      - name: HTML5
+        level: 80%
