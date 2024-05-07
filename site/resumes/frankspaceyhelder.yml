@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Frank Kenneth
+    last_name: Spacey Helder
+    
+    # Define yourself in 4-5 words
+    motto: Talk is cheap. Show me the code!
+    
+    # Focus
+    focus: Good software, like wine, takes time.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Recently embarked on this programming journey. Thoroughly enjoying it so far!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: franksh14@gmail.com #optional
+    phone: 625 480 382 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/frankspaceyhelder/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: frankspaceyhelder
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: Portuguese
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Skateboarding
+
+      - item: Playing guitar
+
+      - item: Playing video games
+
+# Your previous education
+education:
+    - degree: Bachelors in Spanish & Tourism
+      university: University of Sunderland
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2017
+      details: |
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: SDR
+      time: 2023 - Present
+      company: 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Digital Postcard with HTML & CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "My first coding project with HTML & CSS."
+
+      - title: Instagram Photo Feed with HTML & CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "My second coding project with HTML & CSS."
+
+      - title: Excuse Generator with JS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "My most advanced coding project to date with JavaScript."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 60%
+
+      - name: CSS
+        level: 55%
+
+      - name: Bootstrap
+        level: 60%
+
+      - name: JavaScript
+        level: 30%
