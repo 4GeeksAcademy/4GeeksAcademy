@@ -1,0 +1,72 @@
+template: "online-cv"
+skin: "green"
+
+# Información personal
+basic_info:
+
+    # Nombre completo
+    first_name: Miquel
+    last_name: Carnot Luna
+    
+    # Definete en 4-5 palabras
+    motto: Auténtico, Perfeccionista, Creativo, Ingenioso, Tranquilo
+    
+    # Focus
+    focus: Aprender programación
+    
+    # Resume tu carrera en un párrafo
+    summary: |
+      Soy un diseñador polivalente, dedicado al diseño de productos físicos y en busca de mi adaptación a los productos virtuales, tratando de rediseñarme y poder plasmar mi arte en código.
+    
+    # La dirección de tu foto de perfil
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/Gt52yLh
+
+    # Contact Information
+    email: mcgraphicss@gmail.com #optional
+    phone: 644 476 995 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/feed/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: greyzeids
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Airsoft
+
+      - item: Gaming
+
+      - item: Tech
+
+# Your project portfolio
+projects:
+    intro: >
+      De momento he hecho los proyectos del bootcamp de 4geeks
+
+skills:
+    toolset:
+      - name: HTML
+        level: 98%
+
+      - name: CSS
+        level: 98%
+
+      - name: Javascript
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 100%
