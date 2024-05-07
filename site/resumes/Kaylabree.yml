@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kayla
+    last_name: Wilson
+    
+    # Define yourself in 4-5 words
+    motto: Junior full-stack developer
+    
+    # Focus
+    focus: Learning Full-stack development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've worked as a Server and in Manufacturing since 2015. Working to make the career change to Video game developer or Full-stack developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: Kaylabree097@gmail.com #optional
+    phone: (414) 704-1462 #optional
+    linkedin: Kayla Wilson #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Kaylabree
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+      
+      - idiom: Spanish
+        level: Student
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Video games
+
+      - item: Doing Makeup
+
+# Your previous education
+education:
+    - degree: Full stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - Present
+      
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Production Associate
+      time: 2024 - Present
+      company: Startup Hubs, San Francisco
+     
+
+
+# Your project portfolio
+projects:
+    intro: >
+       Instagram Feed 
+       Payment Form
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
