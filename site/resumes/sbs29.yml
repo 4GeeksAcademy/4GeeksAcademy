@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sebastian
+    last_name: Solano
+    
+    # Define yourself in 4-5 words
+    motto: Passionate about technology and information.
+    
+    # focus
+    focus: Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      I'm a passionate Java programmer with knowledge in Python, JavaScript, PHP, SQL, among other languages and technologies. 
+      My fascination with continuous learning has led me to explore various areas within the field of information technology and communication. 
+      From the beginning of my career, I've tackled challenging projects and committed to consistently expanding my skills and knowledge. 
+      I envision my future delving deeper into this sector, where I can continue innovating, solving complex problems, and contributing to technological advancement.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.app.goo.gl/5jeN1Vx8ncj1gHtF9
+
+    # Contact Information
+    email: juanse2929@gamil.com
+    phone: +34 680967957 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/jsbsolano/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: sbs29
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Play Video Games
+
+      - item: Cook
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Technician in multiplatform application development
+      university: Chios Formacion, A Coruña - España
+      time: 2017 - 2019
+      details: 
+        I learned the basics of programming and fell in love with everything related to the ICT sector.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Junior Developer
+      time: 2019 - 2019
+      company: Oesía
+      details: Internships in multiplatform development and complementary training
+
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects
+
+    assignments:
+      - title: Learn Python
+        link: "https://github.com/sbs29/Python-desde-0"
+        tagline: "Python from basics to backend"
+
+      - title: Instagram Feed
+        link: "https://github.com/4GeeksAcademy/Sbs-Post-Feed-Instagram-Bootstrap"
+        tagline: "Just using Bootstrap"
+
+      - title: Time Tracker
+        link: "https://github.com/CampusDual/CD2023-BFS-2-G2_TimeTracker"
+        tagline: "Use Spring + Angular"
+
+      
+
+skills:
+    toolset:
+      - name: Python
+        level: 25%
+
+      - name: Javascript
+        level: 25%
+
+      - name: Angular
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Java
+        level: 50%
+
+      - name: SQL
+        level: 50%
+
+      - name: Php
+        level: 50%
+
+      - name: C
+        level: 30%
+  
