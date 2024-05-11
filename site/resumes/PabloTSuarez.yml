@@ -10,7 +10,7 @@ basic_info:
 
     # Your full name
     first_name: Pablo
-    last_name: Tapia Suarez
+    last_name: T. Suarez
     
     # Define yourself in 4-5 words
     motto: Always found the way!
@@ -20,10 +20,7 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Professional with 15 years of continuous learning in diferent industries
-      such as retail, banking, telecommunications, health, aeronautics and pharmaceuticals.
-      Always motivated to expand my skills and knowledge, hand to hand with
-      promoting collaboration, teamwork and people development every day.
+      Professional
 
       Second paragraph if required.
     
@@ -32,10 +29,10 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: ptapias.81@gmail.com
-    phone: +569 98733934 | +54 115825 2869
+    email: ptap1@mail.com
+    phone: +99 99990000 | +99 8888 00000
     #website: asd.com #optional
-    linkedin: linkedin.com/in/ptapias/
+    linkedin: linkedin.com
     
     #
     # ******** IMPORTANT *******
