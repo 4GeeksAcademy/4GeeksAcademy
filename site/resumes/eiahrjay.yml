@@ -1,0 +1,89 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  github: EIAHRJAY
+  first_name: Eduardo
+  last_name: Ribeiro
+  motto: Full Stack Developer
+  summary: >
+    I am an enthusiastic junior developer with a strong foundation in programming languages such as C, Shell Script, Python, and JavaScript, 
+    as well as proficiency in HTML and CSS. 
+    I have a keen eye for detail and enjoy tackling challenges with a methodical and analytical approach. 
+    My goal-oriented mindset drives me to continuously learn and improve my skills. 
+    I am eager to contribute to dynamic projects and collaborate with experienced professionals 
+    to further develop my abilities.
+  skills:
+    languages: 
+      - C
+      - Shell Script
+      - Python
+      - JavaScript
+      - HTML
+      - CSS
+    others: 
+      - Git
+      - GitHub
+    personal_characteristics: 
+      - enthusiastic
+      - detail-oriented
+      - goal-oriented
+  email: er70302409@gmail.com
+  phone: (34) 611 28 35 38
+  website: ""
+  linkedin: ""
+  github: EIAHRJAY
+  twitter: ""
+  stack-overflow: ""
+
+languages:
+  - idiom: Portuguese
+    level: Native
+  - idiom: Spanish
+    level: Fluent
+  - idiom: English
+    level: Elementary
+
+interests:
+  - Soccer, basketball.
+  - Watching Soccer, basketball.
+  - Cooking, wine tasting, videogames, eating.
+
+education:
+  - degree: Full Stack Developer
+    university: 4 Geeks Academy
+    time: 04/2024 - 08/2024 
+    details: >
+      Front end coding: HTML, CSS, JavaScript.
+      Back end coding: Python, C.
+
+projects:
+  intro: ""
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: DevStudio
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: Tempo
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors."
+    - title: Atom
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Delta
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps."
+
+skills_toolset:
+  - name: Html & Css
+    level: 98%
+  - name: Javascript & Python
+    level: 50%
+  - name: Lenguagem C
+    level: 70%
+  - name: Shell Script
+    level: 95%
+  - name: Photoshop
+    level: 60%
