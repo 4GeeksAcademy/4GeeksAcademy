@@ -1,0 +1,100 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Jiménez Carralero
+    
+    # Define yourself in 4-5 words
+    motto: Getting it wrong to get it better
+    
+    # focus
+    focus: Always learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am currently undergoing training to pursue my career as a full stack developer. I hold a degree in Corporate Communication and Advertising. I have experience in B2C corporate communication through social media management and the planning and execution of communication campaigns. I would like to further develop my career by specializing in internal communication and marketing to foster company growth through its employees. My goal is to continue my education both within my field and in related areas so that I can apply it all in my job.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: javierjimenezcarralero@gmail.com
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JaviJota
+    
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: High
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Diving
+
+      - item: Sports
+
+      - item: Videogames 
+
+# Your previous education
+education:
+    - degree: Corporate Communication and Advertising
+      university: University Loyola Andalucía
+      time: 2016 - 2024
+      # optional
+      
+    - degree: Full-Stack Software Developer.
+      university: 4GeeksAcademy
+      time: Current
+      # optional
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: Marketing and Advertising Assistant (Trainee)
+      time: 2020
+      company: SOKO Publicidad, Córdoba
+      # optional
+      details: |
+        Content creation for social media, video editing and montage, communication audit, campaign planning and creation, branding support, social media management with Hootsuite and WordPress blog management    
+      # Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML5 & CSS 
+        level: 
+
+      - name: Bootstrap 
+        level: 
+
+      - name: Javascript
+        level: 
+
+      - name: Adobe Suite
+        level: 
