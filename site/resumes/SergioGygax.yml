@@ -1,0 +1,104 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio Manuel
+    last_name: Añez Garcia
+    
+    # Define yourself in 4-5 words
+    motto: Cambiaré mi vida muy pronto
+    
+    # Focus
+    focus: Full Stack Developer :)
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Actualmente en formación 4Geeks Academa como Full Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: anezsergio4geeks@gmail.com #optional
+    phone: #optional
+    website: En proceso #optional
+    linkedin: En proceso #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sergiogygax
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Volley
+
+      - item: Movies
+
+      - item: Snowboarding
+
+# Your previous education
+education:
+    - degree: Licenciatura en Enfermería
+      university: Universidad Centro-Occidental Lisandro Alvarado
+      # optional
+      time: 2018 - 2020
+        Donde por motivos ajenas no pude lograr el TSU y me incribí en cursos de la Cruz Roja para terminar de consolidar los conocimientos adquiridos en la universidad.
+
+    - degree: Full Stack Developer
+      university: 4 Geeks Academy
+      # optional
+      time: 2024
+      details: |
+        Actualmente en proceso de aprendizaje para lograr convertirme en un gran full stack
+
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Animador de fiestas de todo tipo
+      time: 2015 - Present
+      company: Muesca, zona divertida, boga eventos, congelados party, tinna eventos, hora loca
+      # optional
+      details: |
+        Animador de todo tipo de eventos, fiestas, cumpleaños, bodas, bautizos, baby shower, gender reveal, divorcios, funerales, entreo otros.
+
+    - role: Cocinero
+      time: 2022 - Present
+      company: La Cachapera
+      # optional
+      details: |
+        Desarrolo todo tipo de comida típica venezolana
+
+    
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 80%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Git & GitHub
+        level: 75%
