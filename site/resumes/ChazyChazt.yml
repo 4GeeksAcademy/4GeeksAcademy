@@ -1,0 +1,80 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Carlos
+  last_name: Tomás Talavera
+
+  # Define yourself in 4-5 words
+  motto: Produce and Supply
+
+  # Focus
+  focus: To be an expert full stack developer
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
+
+  # Your profile picture URL
+  profile_picture: "https://i.ibb.co/xqwyYfJ/IMG-20220727-WA0034.jpg"
+  
+  # Contact Information
+  email: carlostt79@gmail.com
+  phone: +61 433417901
+  website:
+  linkedin: https://www.linkedin.com/in/carlosttalavera/
+
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: ChazyChazt
+
+  twitter:
+  stack-overflow:
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Proficient
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Football
+    - item: Finance
+    - item: Cinematography
+
+# Your previous education
+education:
+  - degree: Bachelor Degree in Primary Education
+    university: Universidad de Murcia
+    time: 2016-2020
+
+  - degree: Foreign Language Specialization (English)
+    university: Wyższa Szkoła Filologiczna
+    time: 2019-2020
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Lead Educator
+    time: 2022-2023
+    company: Links Childcare
+
+  - role: Search Engine Evaluator
+    time: 2022-Present
+    company: Telus International
+
+  - role: Helpdesk
+    time: 2022-2024
+    company: WiiStream
+
+# Your skills
+skills:
+  toolset:
+    - name: HTML5 & CSS
+      level: 95%
