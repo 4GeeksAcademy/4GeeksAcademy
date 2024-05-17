@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kevin
+    last_name: Rosario
+    
+    # Define yourself in 4-5 words
+    motto: I like developing new things.
+    
+    # Focus
+    focus: Changing the world of technology.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/lego/0.jpg
+
+    # Contact Information
+    email: TBD #optional
+    phone: TBD #optional
+    website: TBD #optional
+    linkedin: TBD #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: KevinRosario01
+    
+    twitter: 'TBD' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Engineering
+
+      - item: Puzzles
+
+# Your previous education
+education:
+    - degree: AS in Computer Programming and Analysis - Mobile Applications Development
+      university: Miami Dade College
+      # optional
+      university_logo: https://www.mdc.edu/media/mdc/marketing-communications/images/logos/mdc_blue_h.jpg
+      time: 2023 - 2025
+      details: |
+        The Computer Programming and Analysis program provides an opportunity to establish a basic foundation in computer programming in scientific, commercial, industrial and government data processing applications. The Mobile Applications Development concentration additionally offers hands-on instruction with current technology for Apple and Android mobile device platforms. Graduates are prepared to enter the workforce in a variety of industries in positions, such as entry-level application programmers, programmer specialists, computer programmers and programmer analysts.
+
+    - degree: AS in Criminal Justice
+      university: Miami Dade College
+      # optional
+      university_logo: https://www.mdc.edu/media/mdc/marketing-communications/images/logos/mdc_blue_h.jpg
+      time: 2025 - 2027
+      details: |
+        The Associate in Science in Criminal Justice Technology provides you with a solid foundation of basic law enforcement skills. It includes courses in the areas of law enforcement, legal systems, crime prevention, corrections and probation. These areas of study are directly involved in the apprehension, prosecution, defense, sentencing, incarceration, and supervision of those suspected of, or charged with, criminal offenses.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Business System Analyst
+      time: 2023 - Present
+      company: Early Learning Coalition of Palm Beach County, Florida
+      # optional
+      company_logo: https://lirp.cdn-website.com/5213f047/dms3rep/multi/opt/ELC+Logo-391w.png
+      details: |
+        Help businesses make sense of all the data they collect, understand patterns and trends, and develop strategies for using new technologies to improve their operations and bottom line.
+
+    - role: Data Analyst (IT) / Developer
+      time: 2015 - 2023
+      company: Cinch Home Services, Florida
+      # optional
+      company_logo: https://iuploads.scribblecdn.net/a3c75c5b-ebf4-493f-9ebc-33821d283457/global/imagelib/logos/cinch_logo.png
+      details: |
+        Interpreting data, analyzing results using statistical techniques. Developing and implementing data analyses, data collection systems and other strategies that optimize statistical efficiency and quality.
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects created:
+
+    assignments:
+      - title: Project Neberkenezer (Private in-house system)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A digital signature system with connections to systems such as PC, iPhone and Android"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: JavaScript
+        level: 98%
+
+      - name: C++ / C#
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java
+        level: 90%
+
+      - name: PHP/MySql
+        level: 60%
+
+      - name: Swift (iOS - iPhone)
+        level: 85%
+
+      - name: Java (Android)
+        level: 90%
