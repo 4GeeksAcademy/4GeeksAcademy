@@ -1,0 +1,211 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Valencia Giraldo
+    
+    # Define yourself in 4-5 words
+    motto: Siempre se puede mejorar
+    
+    # Focus
+    focus: Cambiar de profesión
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi experiencia en hostelería me ha brindado una serie de habilidades 
+      y cualidades que considero altamente relevantes y aplicables al mundo de la programación. 
+
+      Una de las habilidades más importantes que he adquirido en la hostelería es la capacidad de trabajar bajo presión y 
+      mantener la calma en situaciones desafiantes. En un entorno donde cada segundo cuenta y los clientes esperan un servicio impecable, 
+      he aprendido a mantener la compostura y a resolver problemas de manera eficiente y efectiva. 
+      Esta habilidad es igualmente importante en el campo de la programación, donde los plazos ajustados y los problemas técnicos pueden surgir en cualquier momento.
+
+      Además, la hostelería me ha enseñado la importancia de la atención al detalle y la precisión en la ejecución de las tareas. 
+      Desde la presentación de platos hasta la gestión de reservas, cada aspecto del servicio requiere un alto grado de precisión y meticulosidad. 
+      Esta mentalidad orientada a los detalles es igualmente relevante en la programación, donde un pequeño error de sintaxis o 
+      un malentendido en los requisitos puede tener consecuencias significativas.
+
+    # Contact Information
+    email: alevalencigiraldo@gmail.com.com #optional
+    phone: 234 2342 342 #optional
+    website: 4geeksAcademy.com #optional
+    linkedin: Alejandro Valencia Giraldo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: soutAle
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: Catalan
+        level: Avanzado
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Guitarra
+      
+      - item: Actividades de montaña
+
+      - item: Deportes
+
+      - item: Nadar
+
+# Your previous education
+education:
+    - degree: Primer año en FP2 Desarrollado de aplicaciones multiplataforma (DAM)
+      university: 
+      # optional
+      university_logo: 
+      time: 2021 - 2020
+      details: |
+        Lenguaje de marcas:
+          -HTML5
+          -CSS3
+          -XML
+          -XSL
+          
+        Programación:
+          -Java (Apache NetBeans)
+        
+        Base de datos:
+          Mysql (Workbench):
+            -Modelos de entidad relacion
+            -Diagramas de flujo
+            -DDL
+            -DML
+            -DCL
+          
+          Sistemas:
+            -Maquinas virtuales (SO Linux)
+            -Linea de comandos
+            -Particiones de disco duro.
+            
+
+
+    - degree: Bachillerato
+      university: 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lorem ipsum
+      time: Lorem ipsum
+      company: Lorem ipsum
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Lorem ipsum
+      time: Lorem ipsum
+      company: Lorem Ipsum
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Lorem ipsum
+      time: Lorem ipsum
+      company: Lorem ipsum
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 20%
+
+      - name: Java
+        level: 15% 
+
+      - name: JavaScript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 35%
+
+      - name: Mysql
+        level: 15%
