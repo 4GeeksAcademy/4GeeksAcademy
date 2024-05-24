@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carmen
+    last_name: Salvatierra
+    
+    # Define yourself in 4-5 words
+    motto: Alegre, capaz, confiable, paciente y trabajadora.
+    
+    # Focus
+    focus: Aprendiendo! Queres es poder!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Profesional apasionada por las tecnologias y la innovación, con gran sentido del análisis. Actitud resolutiva en el día a día. Proactiva, curiosa y creativa. 
+      Capacidad para organizar, coordinar e integrar equipos de trabajo, inspirando confianza a través de una buena comunicación.
+      Dispuesta a asumir desafios y salir de mi zona de confort para emperimentar y aprender de quienes me rodean. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: carmenflor06@hotmail.com #optional
+    phone: 111 111 111 #optional
+    website: ----- #optional
+    linkedin: ---- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carmenflorsl
+    
+    twitter: '---' #optional
+    stack-overflow: # 1707/carmenflorsl, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Professional
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Running
+
+      - item: Training
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Grado en Ingeniería de Sistemas de Telecomunicación
+      university: Universidad Politécnica de Cataluña
+      # optional
+      university_logo: ---
+      time: 2014 - 2020
+      details: |
+        Formación transversal necesaria para concebir, diseñar, implementar y operar sistemas de telecomunicación que se fundamentan en la generación, transmisión, recepción y procesamiento de señales eléctricas, acústicas y ópticas en todo el espectro de frecuencia, y el tratamiento de la información que está asociada. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ingeniero de proyecto
+      time: 2022 - Present
+      company: Gestelcom Servicios S.L, España
+      # optional
+      company_logo: 
+      details: |
+        Elaboración de proyectos de ingenieria basados en la red de comunicaciones de Endesa. Migración de su red, basada en tiempo real a red IP. 
+        Diseño de la red, realización de planos en AUTOCAD y realización de la documentación técnica. 
+
+# Your project portfolio
+projects:
+    intro: >
+      A continuación, algunos proyectos realizados en el bootcamp de 4GeeksAcademy.
+
+    assignments:
+      - title: Excuse Generator 
+        
+        tagline: "Generador de excusas random."
+
+      - title: Instagram Feed
+        
+        tagline: "Feed similar a Instagram."
+
+      - title: Instagram Bootstrap
+        
+        tagline: "Utilizando clases de Bootstrap."
+
+skills:
+    toolset:
+      - name: Visual C#
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Java
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Android Studio
+        level: 85%
+
+      - name: Linux
+        level: 60%
