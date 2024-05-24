@@ -1,0 +1,133 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Benjamin
+  last_name: Finch
+  motto: null
+  focus: Learning software development.
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/med/men/75.jpg
+  email: benjamin@gmail.com
+  phone: 305-798-4105
+  website: https://github.com/benjaminfinch
+  linkedin: null
+  github: benjaminfinch
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Coding
+    - item: Cooking
+    - item: Painting
+education:
+  - degree: BA Behavior Analysis
+    university: Florida International University
+    university_logo: null
+    time: 2014 - 2018
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Full Stack Developer Intern
+    time: Nov 2023 - Mar 2024
+    company: Startup Queentessence Inc.
+    company_logo: null
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2030 - 2032
+    company: Google, London
+    company_logo: null
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2033 - 236
+    company: Amazon, London
+    company_logo: null
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: null
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: null
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: null
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: null
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: null
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 40%
+    - name: Javascript
+      level: 80%
+    - name: React
+      level: 80%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Bootstrap
+      level: 95%
+    - name: Git
+      level: 89%
+    - name: PostgreSQL
+      level: 60%
