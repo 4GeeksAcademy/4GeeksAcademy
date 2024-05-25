@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "red"
+
+basic_info:
+
+    # Profile information
+    first_name: Alejandro
+    last_name: Sanchez
+    motto: Coder and Engineer
+    avatar: ~
+    summary: |
+        I am a bilingual Chemical Engineer and Full Stack Developer with extensive experience in research, project development, and web development. 
+        I excel in management, leadership, and customer service, with skills in advanced Excel, design of experiments, and full stack technologies like HTML, CSS, JavaScript, React, and Node.js. 
+        I thrive in teamwork and multicultural environments and am open to relocation or remote work. I am eager to contribute to any organization with my diverse technical and programming expertise.
+
+    # Sidebar links
+    email: a.sanchezb97@gmail.com
+    phone: 123 456 789
+    website: alesanchezr123456.com #do not add http://
+    linkedin: ~
+    github: alejosanch97
+    twitter: ~
+    stack-overflow: ~ 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Business
+      - item: html
+      - item: apps
+
+education:
+    - degree: Bootcamp 4geeks
+      university: UCAB
+      time: 2024 - 2024
+
+    - degree: BSc in Chemical Enginner
+      university: Bristol University
+      time: 2017 - 2020
+
+experiences:
+    - role: app developer
+      time: 2023 - Present
+      company: Crear School
+      details: |
+        In my recent experience, I focused on automating all school processes and occupational health and safety procedures using advanced IT tools. 
+        I implemented a comprehensive solution to reduce paper usage and facilitate quick access to information by digitizing all necessary data. 
+        To achieve this, I designed and developed eight types of applications using AppSheet, enabling more efficient and centralized data management. 
+        These applications not only improved the speed and accuracy of information access but also ensured a more sustainable and organized environment within the companies.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Brewer
+      time: 2014 - 2015
+      company: Astar brewing company
+      details: |
+        Delivered insightful presentations proposing strategies to enhance performance and optimize efficiency, leading to significant improvements in operational processes.
+        Conducted thorough analysis of raw materials to identify opportunities for recipe enhancements, resulting in elevated product quality and taste.
+        Developed innovative product formulations that adhered to stringent quality standards, ensuring compatibility with established margins.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Scientific researcher
+      time: 2019 - 2020
+      company: Andes University
+      details: |
+        Design and conceptual analysis for an ethanol production plant. Directed by Jorhjan Leal.
+        Synthesis in silico and characterization of hydrogels based on gelatin, glutaraldehyde and graphene oxide for the encapsulation of Kluyveromyces Lactis. 
+        Directed by Luis H Reyes.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Javascript
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Excel
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
