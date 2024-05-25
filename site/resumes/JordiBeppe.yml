@@ -1,0 +1,92 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jordi
+  last_name: Martinez
+  motto: living to find solutions
+  focus: Been empathic and collaborative
+  summary: >
+    Jordi Martínez is a highly skilled design professional and programmer
+    with extensive experience in senior design roles, including leadership
+    positions in art direction and production management. With formal education
+    in Industrial Design complemented by specialized training through a digital
+    bootcamp, Martínez possesses advanced skills across UX/UI design, 3D
+    modeling, graphic design principles, design thinking methodologies, HTML,
+    CSS and JS coding. Bilingual proficiency in English and Spanish further
+    enhances this candidate’s ability to communicate effectively in diverse
+    environments
+  avatar: https://avatars.githubusercontent.com/u/166647357?v=4
+  email: jordibeppe.mv@gmail.com
+  phone: 771 2056 771
+  linkedin: Jordi Matínez Valencia
+  github: JordiBeppe
+  twitter: JordiBeppe
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Cycling
+    - item: Martial Arts
+    - item: Cooking
+education:
+  - degree: BCs degree in Industrial Designer
+    university: Universidad de Guadalajara
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Escudo_UdeG.svg/1200px-Escudo_UdeG.svg.png
+    time: 2012 - 2018
+    details: >
+      I studied industrial design with a focus on design of both physical and
+      digital products, developing skills in problem solving and with a vision
+      of constant research and development, with an awareness of constant search
+      for new technologies and having particular attention in problem solving,
+      with training in resource and personnel management. I created elements for
+      the development of children with Autism Spectrum Disorder and visual
+      impairment, and worked with communities of artisans to create production
+      models applicable to their work.
+  - degree: Bootcamp in UX/UI design
+    university: EVOLVE.ES
+    university_logo: https://media.licdn.com/dms/image/C4D0BAQHMnVx4yYhvVg/company-logo_200_200/0/1630574081391?e=2147483647&v=beta&t=-mg_0TpjJclz3d_k0yWC6Gl7bYiv9oAIE1lWLZ0UMI0
+    time: 2024
+    details: ""
+experiences:
+  - role: Senior Designer
+    time: 2022 - 2024
+    company: MAKEIN, Guadalajara, Jal.
+    company_logo: https://media.licdn.com/dms/image/C4E0BAQEWaBtNSB2DAA/company-logo_200_200/0/1631371307194/makein_espacios_laborales_logo?e=2147483647&v=beta&t=6r31oE2-PBm5v-DC6VJR2xmMWplzzdT0NcdCxbTIoUc
+    details: >
+      Development of projects for workspaces, both corporate and industrial,
+      this process includes client outreach, user needs research, blueprint
+      development, client presentations, product and element research,
+      production planning and installation.
+        - Project management
+        - Research
+  - role: Production Manager
+    time: 2019 - 2021
+    company: Avant Garde Carpinteria, Guadalajara, Jal
+    company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRalPEYGHn_yzA4-j5IAt3brldxBi1-J2WiocwijKFXyQ&s
+    details: >
+      Production planning of interior design projects and customer service,
+      production planning and follow-up, team management, roadmap development
+      and follow-up for compliance, research of new equipment and elements for
+      innovative product development.
+  - role: Intern
+    time: 2017 - 2018
+    company: POLOi+d CUAAD
+    details: >
+      Support for the development of research projects for design solutions
+      in which we worked together with institutions such as TEA A.C., the
+      Escuela para Niñas Ciegas de Guadalajara A.C. and CONAFOR Jalisco.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+    - name: JavaScript & jQuery
+      level: 10%
+    - name: HTML5 & CSS
+      level: 50%
+    - name: Sketch & Photoshop
+      level: 90%
+    - name: CAD 3D Modeling
+      level: 90%
