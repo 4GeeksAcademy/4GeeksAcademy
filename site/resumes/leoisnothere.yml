@@ -1,0 +1,60 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Leonardo
+  last_name: Cusatis
+  motto: Resilient, calm and kind
+  focus: Improving as person and as a profesionnal
+  summary: Fullstack developer, specialized in PHP.
+  avatar: https://avatars.githubusercontent.com/u/82447759?s=400&v=4
+  email: leonardocusatis45@gmail.com
+  phone: "+584141253172"
+  github: leoisnothere
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Intermediate
+    - idiom: Spanish
+      level: Native
+    - idiom: Italian
+      level: Professional
+  interests:
+    - item: Gaming
+    - item: Music
+    - item: Running
+  education:
+    - degree: Associate in Computer Science
+      university: TECAV
+      university_logo: https://tecnologicoav.com/site/images/custom/logo_42_a%C3%B1os_300.png
+      time: 2022 - 2024
+      details: |
+        I spent 2 years learning about fullstack development with PHP and MySQL.
+  experiences:
+    - role: Junior Programmer
+      time: 2024-2024
+      company: NCG Venezuela, Caracas.
+      company_logo: https://vncg.com/wp-content/uploads/2021/09/60A-mas-logo-NCG-1.png
+      details: >
+        I worked as a Junior Programmer, updating an old system. I created this
+        update with PHP and MySql.
+  projects:
+    intro: This is the only project I've published so far.
+    assignments:
+      - title: propuestaIncidencias
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/leoisnothere/propuestaIncidencias
+        tagline: A responsive website made to report technological issues for the
+          company LOGINCA C.A.
+  skills:
+    toolset:
+      - name: Python & Django
+        level: 25%
+      - name: JavaScript & jQuery
+        level: 25%
+      - name: HTML5 & CSS
+        level: 40%
+      - name: PHP
+        level: 75%
+      - name: MySQL
+        level: 75%
