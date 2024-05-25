@@ -1,0 +1,89 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Perdomo
+    
+    # Define yourself in 4-5 words
+    motto: A true learner
+    
+    # Focus
+    focus: Python, Machine Learning, Full-Stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Developer with a big interest in learning. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQGW1EY2i8oC7g/profile-displayphoto-shrink_800_800/0/1686440911205?e=2147483647&v=beta&t=iJE-qAupZJEwJZMQsvSGoRZEYSqpcVvbGIkcX-YPocU
+
+    # Contact Information
+    email: daniel.perdomo.1987@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/perdomo-daniel/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GoblinSwarm
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Certificate in Artifial Intelligence
+      university: Universidad de la Empresa
+      # optional
+      university_logo: https://www.cuimoi.com.uy/wp-content/uploads/2021/07/UDE.png
+      time: 2021 - 2022
+      details: |
+        Learned Python, Data Science and Machine Learning
+          
+# Your previous job experiences or volunteer
+experiences:
+    - role: Corporal
+      time: 2009 - Present
+      company: Direccion Nacional de Migracion
+      # optional
+      company_logo: https://visas.minterior.gub.uy/SIGMADMZ-war/img/dnm.gif
+      details: |
+        Working here as part of the police force.
+        My job include: 
+        -Descaling situations that may occur. 
+        -Bringing information to people that may need it. 
+        -Detail-Oriented
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Machine Learning
+        level: 95%
+
+      - name: C
+        level: 90%
+
+      - name: C++ 
+        level: 85%
+
+      - name: JavaScript
+        level: 60%
+
