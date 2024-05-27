@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio Jesús
+    last_name: Padillo
+    
+    # Define yourself in 4-5 words
+    motto: Apasionado de la tecnología.
+    
+    # Focus
+    focus: Ayudar a las personas.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un apasionado de la tecnología con más de 5 años de
+      experiencia en compartir mi visión de futuro y cubriendo
+      necesidades tecnológicas que la mayoría de personas no
+      sabían que tenían. Dispongo de un gran interés en ampliar y
+      desarrollar mis conocimientos en programación web así
+      como aumentar mi capacidad creativa.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/98108563?s=400&u=d0b80784fdf7a08314629521334a3d6decc5f3fb&v=4
+
+    # Contact Information
+    email: ajp@ajpadillo.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: ajpadillo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AJPadillo
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+    # Interests or hobbies
+    interests:
+      - item: Cine
+
+      - item: Videojuegos
+
+      - item: Libros
+
+# Your previous education
+education:
+    - degree: C# y Bashscripting
+      university: Formación 42
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/512px-42_Logo.svg.png
+      time: Marzo 2022 - Junio 2022
+      details: |
+        Poniendo mucho énfasis en el autoaprendizaje y en investigar lo desconocido, en 42 aprendí los primeros y consiguientes pasos en programación usando el lenguaje C# y creando scripts en bash usando la terminal.
+
+          - Autoaprendizaje
+          - Gestión de la frustración
+
+    - degree: Sistemas informáticos y redes
+      university: I.E.S. Gerald Brenan
+      # optional
+      university_logo: https://blogsaverroes.juntadeandalucia.es/iesgbrenan/files/2021/09/logo.png
+      time: 2009 - 2011
+      details: |
+        Diseñar, implementar y mantener sistemas informáticos a pequeña escala, incluyendo redes de computadoras y la administración de hardware, software y servicios relacionados para garantizar su funcionamiento eficiente y seguro.
+
+          - Reparación y montaje de equipos
+          - Planteamiento y configuración de redes
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Técnico comercial
+      time: 2022 - 2024
+      company: OPPO Mobile Telecommunications Corp., Ltd.
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/OPPO_LOGO_2019.svg/1920px-OPPO_LOGO_2019.svg.png
+      details: |
+        Venta de productos informáticos, electrónicos y entornos tecnológicos en gran superficie, así como el asesoramiento técnico según las necesidades del cliente.
+
+    - role: Especialista comercial
+      time: 2019 - 2021
+      company: Orange España S.A.U.
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/c/c8/Orange_logo.svg
+      details: |
+        Venta de servicios de telefonía y terminales así como sus correspondientes valores añadidos. Seguimiento y gestión de ofertas comerciales para cartera de clientes, así como la consecución de los objetivos marcados por la empresa.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí una pequeña lista de los proyectos que he estado haciendo:
+
+    assignments:
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/AJPadillo-clase1-InstagramFeedBootstrap"
+        tagline: "Una recreación visual de un feed de Instagram responsivo con Bootstrap"
+
+      - title: Formulario HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/AJPadillo-clase1-FormularioHTML5"
+        tagline: "Aquí una simulación de un formulario responsivo con Bootstrap"
+
+      - title: Generador de excusas con JS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AJPadillo/vanillajs-hello-generador-excusas"
+        tagline: "Proyecto que concibe un repaso de las nociones básicas en Javascript"
+
+      - title: Tutorial de funciones en JS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AJPadillo/javascript-functions-exercises-tutorial"
+        tagline: "Pequeña agrupación de archivos en el que practicar las funciones en Javascript"
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 30%
+
+      - name: JavaScript
+        level: 10%
+
+      - name: Bootstrap
+        level: 50%
