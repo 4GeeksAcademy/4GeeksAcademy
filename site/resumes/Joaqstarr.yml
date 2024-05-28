@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joaquin
+    last_name: Royer
+    
+    # Define yourself in 4-5 words
+    motto: I like making Video Games.
+    
+    # Focus
+    focus: Game Programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have been developing in Unity for years, competing in Game Jams and honing my skills. Recently I have been taking on Unreal Engine and C++.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQGBenxxvmdvKw/profile-displayphoto-shrink_400_400/0/1705026924281?e=2147483647&v=beta&t=0uXDuDIJPw_mTM6IVLeztRiXkf2_5uMn8OUJrHCfcew
+    # Contact Information
+    email: joaqstarr@gmail.com #optional
+    phone:  #optional
+    website: #optional
+    linkedin: Joaquin Royer #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Joaqstarr
+    
+    twitter: #optional
+    stack-overflow:
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: Digital Media
+      university: University of Central Florida
+      # optional
+      university_logo:https://www.ucf.edu/brand/wp-content/blogs.dir/13/files/2016/07/BrandAsset_athletics-stackedUCF.jpg
+      time: 2022 - 2026
+      details: |
+        Learning the process of Game Development and making connections.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Associate Scholar
+      time: 2023 - Present
+      company: Limbitless Solutions
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/a/a5/Limbitless_Solutions_Organization_Logo.png
+      details: |
+        Build games to help train and build strength in Children learning to use their prothetic.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Here are 2 recent games of mine published on Itch.
+
+    assignments:
+      - title: CMD: Wave
+        # optional
+        project_logo: https://img.itch.zone/aW1nLzE1NDQ2MjEzLnBuZw==/347x500/4iTFKg.png
+        link: "https://joaqstarr.itch.io/cmd-wave"
+        tagline: "Video game made in 1 month for Metroidvania Jam."
+
+      - title: The Silent City
+        # optional
+        project_logo: https://img.itch.zone/aW1nLzE0NDMyODY3LnBuZw==/315x250%23c/cVjlSZ.png
+        link: "https://joaqstarr.itch.io/the-silent-city"
+        tagline: "Game made in 3 weeks for Secret Santa Jam."
+
+
+skills:
+    toolset:
+      - name: Unity
+        level: 98%
+
+      - name: C#
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Unreal
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 80%
