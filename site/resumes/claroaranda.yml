@@ -1,0 +1,226 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Claro
+    last_name: Aranda
+    
+    # Define yourself in 4-5 words
+    motto: I like to fix things
+    
+    # Focus
+    focus: Leave a mark
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Professional with 18 years of experience in the IT area, working in private companies and 
+      public entities. Knowledge in analysis, design and development of applications, as well as 
+      technical support. Experience in leading work teams. 
+      Management of .NET technologies and SQL Databases.
+      Motivated and performance-oriented. With close attention to detail and precision, and the 
+      important ability to function well both independently and in fast-paced team environments.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/mens/24.jpg
+
+    # Contact Information
+    email: aranda.claro@gmail.com #optional
+    phone: 123 4567 890 #optional
+    website: chamigo.com #optional
+    linkedin: /in/clarohernanaranda/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: claroaranda
+    twitter: 'claro_aranda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+      - item: Pets
+      - item: Work the ground
+
+
+# Your previous education
+education:
+    - degree: Full-Stack Web Developer
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.com/es
+      time: feb_2024 - ago_2024
+      details: |
+        HTML 5, CSS3. JavaScript, Bootstrap, ReactJS. MVC Pattern. The DOM. Python, Flask. 
+        API REST. Bases de Datos SQL. Git.
+
+    - degree: Analyst - Systems Programmer
+      university: Comprehensive Studies Center RA
+      # optional
+      university_logo: https://www.instagram.com/escuelatecnicaesquina/?hl=es
+      time: 20087 - 2010
+      details: |
+        Analysis, Requirements, Data Modeling, VB.NET Code and SQL Server Database.
+      
+    - degree: Information Systems Engineering (up to 4th year)
+      university: National Technological University
+      # optional
+      university_logo: https://www.frre.utn.edu.ar/
+      time: 2000 - 2005
+      details: |
+        It is the branch of engineering that is responsible for planning, directing, 
+        executing and controlling the development, analysis, design, development, 
+        testing, implementation and maintenance of information and software systems.
+
+    - degree: Computer Technician
+      university: School of Technical Education Nº1
+      # optional
+      university_logo: https://www.instagram.com/escuelatecnicaesquina/?hl=es
+      time: 1996 - 1998
+      details: |
+        Assemble, install, configure computer equipment. Fault detection and correction.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: COMPUTER SUPPORT TECHNICIAN
+      time: apr_2022 - nov_2022
+      company: ELEMSOFT - Ushuaia, Argentina
+      # optional
+      company_logo: https://elemsoft.net/
+      details: |
+        • Development of reports using Crystal Reports for Tourism Management System (C# .NET).
+        • SQL Server databases, query programming, views, stored procedures, triggers, indexes.
+        • Use of Team Foundation for version control.
+        • Task and team management using Trello.
+        • Use of the Microsoft Office suite for administrative tasks.
+        • User training.
+        • In-person and remote technical support.
+
+    - role: SOFTWARE DEVELOPER
+      time: apr_2021 - mar_2022
+      company: INFT - Córdoba, Argentina
+      # optional
+      company_logo: https://www.inft.com.ar/
+      details: |
+        • 100% remote work mode, using TeamViewer, AnyDesk, VPN, Remote Desktop for connection to the 
+        office and servers.
+        • Documentation of requirements through interviews with users.
+        • Development of new functionalities, correction of errors in the code, improvements and 
+        adaptations in Visual Basic 6.
+        • Version control with Tortoise SVN and Git.
+        • Deliverables with Advanced Installer.
+        • Databases: SQL Server, previous DB Migration (Excel, Access, FoxPro, SQL Server, Oracle).
+        Programming queries, views, SPs, functions, triggers, indexes. Optimizing the performance of 
+        the BD. Backup and Restore. Profiler for DB Monitoring. Generation of maintenance plans.
+        • Task management and team coordination with Trello, Bitrix. In addition to an internal 
+        system of tickets.
+        • Documenting the entire process and generating user manuals.
+
+    - role: DIRECTOR OF SYSTEMS
+      time: oct_2004 - mar_2021
+      company: MUNICIPALITY OF BARRANQUERAS, Chaco, Argentina
+      # optional
+      company_logo: https://www.barranqueras.gob.ar/
+      details: |
+        Starting as Coordinator, I managed to implement municipal management systems for HR (Salaries and
+        Personal), Accounting and Tax.
+        As head of the area, I worked as a Systems Administrator/DBA. Carrying forward, among others, tasks such as:
+        • Installation and configuration of System and Database Servers (Windows Server 2003/2008R2/2012R2/2016 -
+        SQL Server 2000/2005/2008/2012/2014/2016/2019).
+        •Virtualization with Hyper-V, Proxmox, VMware.
+        • Development and implementation of management systems Personnel Entry Control and Management of
+        Misdemeanor Court (VB 6, VB.NET – SQL Server).
+        • Configuration, repair and maintenance of computer equipment.
+        • LAN networks (wired, WiFi).
+        • Installation and configuration of WiFi Internet service in the city.
+        • Development of the entity's official website www.barranqueras.gob.ar (WordPress).
+        • Implementation of digital document management system (OpenKM).
+        • Implementation of the Driver Registration system (Moodle).
+        • Implementation of Task Manager, Inventory (GLPI) system.
+        • Implementation of the Digital Salary Receipt system (rsd.barranqueras.gob.ar).
+        • Resolution of incidents and customer service.
+
+    - role: COMPUTER SUPPORT TECHNICIAN IMPLEMENTATIONS
+      time: mar_2003 - oct_2004
+      company: ECOM CHACO SA - Chaco, Argentina
+      # optional
+      company_logo: https://ecom.com.ar/
+      details: |
+        I managed to implement municipal management systems (City Hall) for HR management (Salaries and
+        Personal), Accounting (Expenses) and Tax (Income). Carrying out, among others, tasks such as:
+        • Installation and configuration of System and DB Servers (Windows Server and SQL Server).
+        • Systems implementation. Analysis of regulatory documentation, general ordinances,
+        resolutions, collection policies.
+        • Interviews with users. In order to obtain precise information on the operation of the
+        entity, to make the necessary adaptations and appropriate parameterization of the application.
+        • SQL Server. Previous database migration. DB monitoring with Profiler. Optimization of
+        performance. Backup and Restore BD. Maintenance plans.
+        • User manuals. Using applications from the Microsoft Office suite, I developed manuals to explain
+        the different functionalities of the system.
+        • VPN, Remote Desktop. To connect to the system server, access shared resources of the company.  
+
+
+# Your project portfolio
+projects:
+    assignments:
+
+      - title: Feed de Instagram con Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/claroaranda/IgFeedBootstrap-ClaroAranda
+        tagline: "Responsive website, which simulates a simple Instagram feed."
+
+      - title: Formulario HTML
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/claroaranda/formularioHTML-ClaroAranda
+        tagline: "Web page that loads a form made only with HTML5 and CSS3."
+
+      - title: Generador de Excusas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/claroaranda/claroaranda-generador-de-excusas
+        tagline: "Web page that, every time it is updated, generates a new phrase."
+
+      - title: PostCard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/claroaranda/exercise-postcard
+        tagline: "Web page that shows a very simple postcard."
+
+      
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: JavaScript
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: VB.NET
+        level: 95%
+
+      - name: SQL
+        level: 90%
