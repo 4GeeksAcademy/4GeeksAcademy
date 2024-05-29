@@ -33,7 +33,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: http://sep.breatheco.de/static/profile-images/headshot.png
+    avatar: https://i.etsystatic.com/isla/44dd6a/56710330/isla_280x280.56710330_p9jr9pqm.jpg?version=0
 
     # Contact Information
     email: river.sedonia@gmail.com #optional
