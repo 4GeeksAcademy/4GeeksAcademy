@@ -1,0 +1,156 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Sedonia
+  last_name: Raethstein
+  motto: Expert bug finder
+  focus: Writing elegant code
+  summary: >
+    I'm a biologist with more than 20 years of education and professional
+    work experience. I've worked for state and federal governments,
+    universities, and a non-profit. My master's degree is in entomology, which
+    delights me to no end because here I am, still focused on finding bugs -
+    even after a wild turn in my career trajectory! My background is that of a
+    research scientist, which is all about creative problem solving. As a
+    scientist, I have learned how to keep in mind the big picture of what I hope
+    to accomplish with my work, while focusing in on individual components of a
+    given problem, to try and systematically solve the puzzle of a given
+    biological phenomenon. Much like writing code! I've learned to thoroughly
+    and consistently document my work, so that it is replicable by others. I've
+    also learned to collaborate with other researchers to carry out cohesive
+    projects remotely.
+  avatar: https://i.etsystatic.com/isla/44dd6a/56710330/isla_280x280.56710330_p9jr9pqm.jpg?version=0
+  email: river.sedonia@gmail.com
+  phone: 352-672-2252
+  website: madebysedonia.com
+  linkedin: https://www.linkedin.com/in/sedonia-raethstein-400181310/
+  github: Sedonia-R
+  twitter: sedonia_r
+  stack-overflow: Sedonia-R
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Beginner
+  interests:
+    - item: Canoeing / Kayaking / SUP
+    - item: Camping / Hiking
+    - item: Building / Woodworking
+    - item: Sculpture / Painting / Art / Crafts
+    - item: Cooking
+    - item: Travel
+education:
+  - degree: BS in Zoology
+    university: Southern Illinois University at Carbondale
+    university_logo: https://content.sportslogos.net/logos/34/841/full/3470_southern_illinois_salukis-primary-2019.png
+    time: 2002-2006
+    details: |
+      I graduated with honors (cum laude) from SIUC with a bachelor of science
+      degree in zoology and a minor in environmental studies. 
+
+        - Member: Alpha Lambda Delta Honors Society (2003-present)
+        - Member: Beta Beta Beta Biological Honors Society 
+                   (2005-present)
+        - Awarded: $1,500 William C. Hill Zoology Scholarship (2005)
+        - Secretary: SIUC Aikido Club (2002-2003)
+        - Vice-President: SIUC Aikido Club (2003-2005)
+        - President: SIUC Aikido Club (2005-2006)
+  - degree: MS in Entomology & Nematology
+    university: University of Florida
+    university_logo: https://entnemdept.ufl.edu/bug_club/images/entomologyshirt.png
+    time: 2013-2015
+    details: |
+      I earned a master of science degree from the University of Florida in the 
+      Entomology and Nematology Department, graduating with honors (magna cum 
+      laude). For my research project, I was responsible for the development and
+      implementation of a citizen science project called Backyard Bark Beetles. 
+      The project is sadly no longer active, but you can read about it here --> 
+      (https://www.citizenscience.gov/catalog/397). My project was aimed at 
+      large-scale monitoring of invasive bark and ambrosia beetle species 
+      utilizing help from citizen scientists. I not only developed an effective 
+      trap and testing protocol using readily available household products, I 
+      also discovered a novel and inexpensive method for temporary field 
+      preservation of insects using hand sanitizer. I assisted with the creation 
+      of a project website (no longer active), which was my first time doing any 
+      kind of web design. I generated and disseminated outreach materials, 
+      presented research at professional scientific meetings, and conducted 
+      extensive public outreach. I also taught at the undergraduate level and 
+      learned a ton about interdisciplinary and cross-institutional collaboration.
+      
+        - Member: Florida Entomological Society (2013-present)
+        - Member: Entomological Society of America (2013-present)
+        - Awarded: $250 Florida Entomological Society travel grant (2013 & 2014)
+        - Awarded: $350 Graduate Student Council travel grant (2013 & 2014)
+        - Awarded: $1,000 Nan-Yao Su Scholarship (2015)
+        - Awarded: $250 IFAS travel grant (2015)
+experiences:
+  - role: Student / Career Changer
+    time: May 2024 - present
+    company: 4Geeks Academy
+    company logo: https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943
+    details: >
+      I am currently undergoing a period of metamorphosis! I am learning an entirely new 
+      skill set to add to my existing (and extensive) experience and skills as a scientist, 
+      maker, caretaker, and mother.
+  - role: Full-time Caretaker
+    time: May 2022 - May 2024
+    company: n/a
+    details: >
+      In May of 2022, I made the decision to amicably leave my full time job as a Biological 
+      Scientist with the Florida Department of Agriculture to focus on my family after the 
+      worst parts of the pandemic. My intention was to take one to two months off to reconnect 
+      with my child, who had a very difficult time during the pandemic, but that one to two 
+      months turned into one and then two years of focusing on my family after my daughter 
+      became ill and required full-time care. I have been incredibly privileged to have a 
+      loving, supportive wife who has supported me financially through this time. My daughter 
+      is finally doing better and I am more than ready to get back into the work force! I have 
+      not been idle during my time away from work. I've spent time learning HTML and CSS via 
+      FreeCodeCamp and Ruby via Launch School, which has sparked my interest in web development
+      and programming, which led me to 4Geeks and the bootcamp that I am doing now to jump 
+      start my career transition so that I can get back to solving puzzles and making money!
+  - role: Biological Scientist IV
+    time: 2018-2022
+    company: Florida Department of Agriculture and Consumer Services, Division of
+      Plant Industry
+    company_logo: https://ffai.wildapricot.org/FLORIDA-DEPT.OF-AGRICULTURE
+    details: >
+      I loved my job at FDACS-DPI! I was in a supervisory roll, responsible for all aspects
+      of establishing an insect mass rearing program for state-wide biological control of the 
+      invasive weed Schinus terebinthifolia (Brazilian peppertree) in Florida. I managed all 
+      laboratory, greenhouse, and field research operations. I established and maintained 
+      plant and insect colonies. I hired, trained, and supervised staff. I built and maintained
+      collaborations with state and federal organizations. I sought external grant funding. I 
+      secured and maintained research permits. I established and maintained field research 
+      sites. I managed an $80k budget including personnel, equipment, travel, supply 
+      inventories, and purchasing. I collected, analyzed, and summarized research data. I 
+      performed administrative duties and I conducted outreach. I did a lot! I was actually 
+      really great at this job and I had the best boss. I'm confident that he has nothing 
+      but great things to say about me. If you're wondering why I don't go back - there are a 
+      number of personal and political reasons why I prefer to avoid working for the state of 
+      Florida at this time.
+  - role: Biological Science Technician (Recent Graduate), Biological Science
+      Technician (Insects), Field Assistant, Conservation Associate, Curatorial
+      Assistant
+    time: See details.
+    company: See details.
+    details: Ask for more information! I have a long work history and a long list of
+      publications and public presentations that I am happy to share upon
+      request.
+projects:
+  intro: |
+    I am currently working on websites for:
+      - Raethstein Consulting LLC 
+      - MadeBySedonia
+
+    These are projects in the works as I am learning as I go!
+skills:
+  toolset:
+    - name: Ruby
+      level: beginner
+    - name: JavaScript & jQuery
+      level: beginner
+    - name: HTML5 & CSS
+      level: beginner
+    - name: Sketch & Photoshop
+      level: beginner
