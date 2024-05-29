@@ -1,0 +1,23 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile Information
+  name: Samir Chawla
+  tagline: ML Engineer
+  education: post-secondary
+  experiences: Many jobs
+  projects: Many projects
+  skills: Python, ML Engineering, Cloud 
+
+  # Sidebar Links
+  email: samir.chawla6@gmail.com
+  website: https://samirchawla6.wixsite.com/portfolio-site
+  github: Samir221
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idion: Spanish
+      level: Professional
