@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Nazariego
+    
+    # Define yourself in 4-5 words
+    motto: I like travel around the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am passionate, enthusiastic, and I enjoy discovering new development tools. We're here to learn, and it doesn't matter if we make mistakes!
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: dnazariego@gmail.com #optional
+    phone: +569 64040431 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/nazariego/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nazariegode
+    
+    twitter:  #optional
+    stack-overflow: 22243449/david-nazariego-ulacio # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Painting
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Commercial Engineer.
+      university: Rafael Maria Baralt National Experimental University
+      # optional
+      university_logo: https://unermb1411.my.canva.site/images/d9de1e49708aeba6c37f32c70c4b6b13.jpg
+      time: 2009 - 2014
+      #details: |
+        
+# Your previous job experiences or volunteer
+#experiences:
+
+# Your project portfolio
+#projects:
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 100%
+
+      - name: JavaScript & jQuery
+        level: 100%
+
+      - name: Angular
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 100%
