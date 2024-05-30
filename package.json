@@ -15,5 +15,12 @@
   "precommit.silent": true,
   "pre-commit": [
     "test"
-  ]
+  ],
+  "name": "4geeksacademy",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> \t<img \t\twidth=\"300\" \t\talt=\"4Geeks Academy\" \t\tsrc=\"https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true\"> </p>",
+  "main": "generate-json.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
