@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "colors": "^1.4.0",
+    "events": "^3.3.0",
     "http-server": "^14.1.1",
     "js-yaml": "^4.1.0",
     "pre-commit": "^1.2.2",
-    "simple-git": "^3.19.1"
+    "simple-git": "3.19.1"
   },
   "scripts": {
     "build": "node generate-json.js",
@@ -14,5 +15,11 @@
   "precommit.silent": true,
   "pre-commit": [
     "test"
-  ]
+  ],
+  "name": "4geeksacademy",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"> \t<img \t\twidth=\"300\" \t\talt=\"4Geeks Academy\" \t\tsrc=\"https://github.com/4GeeksAcademy/About-4Geeks-Academy/blob/master/site/static/background_art.jpg?raw=true\"> </p>",
+  "main": "generate-json.js",
+  "author": "",
+  "license": "ISC"
 }
