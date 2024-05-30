@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Florencia
+    last_name: Saavedra
+    
+    # Define yourself in 4-5 words
+    motto: Im all in or all out, black or white, ying and yang.
+    
+    # Focus
+    focus: On me, on my progress.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As a self-taught developer, I have a strong commitment to learning and problem-solving. With experience in web scraping and backend development, I am skilled in a variety of tools and technologies, including Django, Celery, and Linux environments. I am an excellent communicator and team player who is always looking for new challenges and personal growth.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: flosaavedrau@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fsaavedrau
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Volleyball
+
+      - item: Programming
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University Adolfo Ibanez
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2023
+      details: 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Junior Developer
+      time: 2022 - 2023
+      company: Gregario, Santiago de chile
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Backend Python Developer at Gregario, I was responsible for developing code and
+        performing scrapings using Python. I utilized the Celery library to fetch the required information
+        from various web pages and then sent it to a PostgreSQL database. Additionally, I worked with
+        Docker containers and leveraged the Django API for implementing the business logic.
+        Throughout this role, I gained experience in efficient data extraction and storage in a database,
+        as well as creating scalable and robust solutions within an agile development environment.
+
+    - role: Semi senior Software developer
+      time: 2023 - Present
+      company: Tsoft, Santiago de Chile
+      
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In my role as SSR Developer for the Falabella client at Tsoft, I have been responsible for
+        automating processes identified through tools such as DataDog and Appdynamics. I apply my
+        technical skills in Flask, Django, Python, and Power Automate flows to enhance the efficiency
+        and quality of the developed products. I work closely with the team, contributing to the design
+        and construction of products, and actively participating in the review and continuous
+        improvement of the code
+
+
+    - role: Deployment Engineer
+      time: 2023 - 2023
+      company: Graymatics, Singapur
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Deployment Engineer Intern at Graymatics, I am responsible for training YOLO models
+        using Docker, SQL, and other tools. I also contribute to the development of pipelines for
+        DeepStream. This role allows me to apply my technical skills and gain hands-on experience in
+        deploying machine learning models in real-world scenarios.
+
+# Your project portfolio
+projects:
+
+    assignments:
+      - title: Project airport simulator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Desarrollamos un simulador de aeropuertos en Python que analiza la cantidad de pasajeros que pierden sus vuelos y el tiempo de embarque, considerando horarios de vuelos, tiempos de llegada, procedimientos de check-in, seguridad y distancias a puertas de embarque."
+
+      - title: Predictive Tool for Surgical Operations based on Patient Data and Seasonality
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "The predictive tool uses advanced data analysis and machine learning to process patient-specific information, including medical history, vital signs, diagnostic results, and considers seasonal variations in medical conditions or procedures."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript 
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bash 
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
