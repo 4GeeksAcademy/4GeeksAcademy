@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fuschia
+    last_name: McKoy
+    
+    # Define yourself in 4-5 words
+    motto: Learning is my passion
+    
+    # focus
+    focus: Success and happiness
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a former stock broker and financial analyst. After devloping myself in the world of finance, I've decided to develop myself in tech. On a personal level, what fullfills me is teaching and doing Pilates, traveling around the world, and spending time with family. I am always eager to learn new things and I always try to give my best in everything I do.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: link
+
+    # Contact Information
+    email: fuschiamckoy@gmail.com
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Fuschiam
+    
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobies
+    interests:
+      - item: Pilates
+
+      - item: Concerts
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: Economics and Mathmatics
+      university: University of North Carolina at Charlotte
+      # optional
+      university_logo: add a link
+      time: 2006-2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Investment Advisor
+      time: 2020-2023
+      company: Edelman Financial Engines
+      # optional
+      company_logo: link
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Small Business Owner
+      time: 2019-present
+      company: Vegan Choice Foods
+      # optional
+      company_logo: link
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: Stock Broker
+      time: 2012 - 2019
+      company: Vanguard and Ally 
+      # optional
+      company_logo: link
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      
+skills:
+    toolset:
+      - name: Python & Pandas
+        level: 
+
+      - name: Numpy & Matplotlib
+        level:
