@@ -1,0 +1,121 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cesar
+    last_name: Amaya
+    
+    # Define yourself in 4-5 words
+    motto:  Dedicated, constant, hardworking, always interested in improving my skills
+    
+    # Focus
+    focus: Full Stack web development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Full Stack web developer in progress, fully committed to improving my skills and learning more to be a competent professional always updated with the latest in development technology.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/168760876?s=400&u=8b2e42e26c030643420f94e7b19ec786b4ad16f2&v=4
+
+    # Contact Information
+    email: cesar.rafael.gep@gmail.com
+    phone: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cesaramcolson
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Musician
+
+      - item: Reading
+
+      - item: Fitness
+
+# Your previous education
+education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+      details: |
+        -HTML5
+        -CSS
+        -Bootstrap
+        -Javascript
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Sales Manager Assistant
+      time: 04/2022 - Current
+      company: Wasner Urban LLC, Florida
+      # optional
+      company_logo:
+      details: |
+          - Increased sales revenue by developing and implementing effective
+sales strategies.
+          - Built long-lasting client relationships through excellent customer
+service and consistent followups.
+          - Streamlined sales processes for improved efficiency, resulting in
+higher conversion rates.
+
+# Your project portfolio
+projects:
+    intro: >
+      My Proyects at 4geeks academy, learning how to code.
+
+    assignments:
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo:
+        link: https://github.com/4GeeksAcademy/InstagramPhotoFeedwithBootstrap-cesaramcolson
+        tagline: Responsive instagram created using bootstrap
+
+      - title: HTML5-form
+        # optional
+        project_logo:
+        link: https://github.com/4GeeksAcademy/HTML5-form-cesaramcolson
+        tagline: HTML5 form example built using bootstrap
+
+
+skills:
+    toolset:
+    - name: HTML5
+      level: 50%
+
+    - name: CSS
+      level: 50%
+
+    - name: Bootstrap
+      level: 50%
+
+    - name: Javascript
+      level: 10%
