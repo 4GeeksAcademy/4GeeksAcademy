@@ -1,0 +1,138 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Inês
+    last_name: Tellechea
+    
+    # Define yourself in 4-5 words
+    motto: On a growing pathway
+    
+    # Focus
+    focus: Improving patient care and reducing professionals work.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Working in healthcare for more than 10 years I was able to understand the issues for doctors, patients and institutions. 
+      I developed a vision on what healthcare should be...more empathetic and providing better care through processes automatization. 
+      I'm learning and preparing myself to create great innovation. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: inestell
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Learning
+
+      - item: Moving
+
+# Your previous education
+education:
+    - degree: Medicine
+      university: Faculdade de Ciências Médicas, Universidade Nova de Lisboa
+      time: 2003-2009
+      
+
+    - degree: Specialization in Anesthesiology
+      hospital: Centro Hospitalar Lisboa Norte
+      time: 2011 - 2015
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Anestesiologist
+      time: 2016 - Present
+      company: Hospital de Santa Maria, Hospital de Vila Franca de Xira, Hospital dos Lusíadas Lisboa, Hospital Lusíadas Amadora
+      # optional
+  
+    - role: Software Developer
+      time: the future
+      company: my own, I hope
+      
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Illustrator & Photoshop
+        level: 90%
