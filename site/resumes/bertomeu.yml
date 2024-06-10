@@ -1,0 +1,30 @@
+skin: orange
+template: online-cv
+
+basic_info: 
+  avatar: profile.png
+  email: josecarlosbertomeu@gmail.com
+  languages: 
+    - 
+      idiom: Spanish
+      level: Native
+    - 
+      idiom: English
+      level: High intermediate
+
+  linkedin: linkedin.com/in/jcbertomeu/
+  first_name: Jose Carlos
+  last_name: Bertomeu
+  phone: 8566-0802
+  github: bertomeu
+  tagline: "Full Stack Developer"
+  motto: A master of code who bridges the gap between ideas and digital experiences.
+
+education:
+    - degree: Bachelor of Science 
+      university: IES Marqués de los Vélez
+      time: 1992 - 1997
+
+    - degree: Full-Stack Software Developer
+      university: 4geeks academy
+      time: 2024 - present
