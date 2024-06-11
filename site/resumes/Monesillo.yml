@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Manuel
+    last_name: Duran
+    
+    # Define yourself in 4-5 words
+    motto: I try to be better
+    
+    # Focus
+    focus: Learning 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      After a long time searching something to be good on i finally found this cool
+      bootcamp, i was working before in other types of areas but i feel like nothing of
+      that was for me so, if i love computers and i love learning this was my best option.
+
+      Im trying to be a professional dev and I feel like it will be hard but if you try so hard
+      something you are looking for you could easy get it.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: skind.duran.f@gmail.com #optional
+    phone: +52 81 2445 6301 #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Monesillo
+    
+    twitter: #optional
+    stack-overflow: 24090516/manuel-duran # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C2
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Walking
+
+      - item: Hang out
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+# Your previous education
+education:
+  degree: High School
+  school: Universidad Autonoma de Nuevo Leon (UANL)
+  time: 2020-2022
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Costumer Service
+      time: 2022 - 2023
+      company: Art Daily
+      # optional
+      details: I was in charge to update the elements in the amazon site web and i was there 
+      for help the costumer whit anything taht can need.
+
+# Your project portfolio
+projects:
+    intro: >
+      This is a little example of projects that i work before
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+skills:
+    toolset:
+         - name: Git terminal
+        level: 30%
+
+      - name: JavaScript & jQuery
+        level: 12%
+
+      - name: HTML5 & CSS
+        level: 55%
+
+      - name: Bootstrap
+        level: 40%
+
+      - name: Sketch & Photoshop
+        level: 15%
