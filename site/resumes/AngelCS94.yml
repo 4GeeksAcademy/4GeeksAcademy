@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "blue"
+basic_info:
+    # Your full name
+    first_name: Angel
+    last_name: Cuevas
+    
+    motto: " Eat, Sleep, Code, Repeat"
+    
+    # focus
+    focus:  Improve every day.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Entrepreneur, self-taught, and proactive.
+      I studied Business Administration at the Complutense University of Madrid.
+      After finishing my studies, I founded an indoor golf school in Madrid with one of my best friends.
+      I managed the school for three years, reaching a total of 400 students.
+      At the end of the third year, I decided to sell my company to pursue my true passion: becoming a programmer.
+      During this period, I also became interested in the logistics sector.
+      Simultaneously, I worked at a courier service focused on large companies (transport broker) and later in the air cargo sector.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C5603AQGd8PVLkUxjPQ/profile-displayphoto-shrink_200_200/0/1641551901592?e=2147483647&v=beta&t=MxekjbuQU2JmEweBXhxwgLOtcJi4lPeQ7liFz0qVwL8
+    # Contact Information
+    email: angel.cuevas.saco@gmail.com #optional
+    phone: 650569282 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AngelCS94
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+      - idiom: English
+        level: Full proficiency
+      
+    # Interests or hobies
+    interests:
+      - item: Computer Hardware
+      - item: Golf, Padel, mountain-bike, climbing and snowboard.
+      - item: Travel
+# Your previous education
+education:
+    - degree: Business Administration
+      university: Universidad complutense de Madrid
+      # optional
+      university_logo: 
+      time:  
+      details: 
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrative Assistant
+      time: January 2023 - June 2024
+      company: Avianca Express
+      # optional
+      company_logo: 
+      details: |
+         
+   
+# Your project portfolio
+projects:
+    intro: >
+      I founded a golf school from scratch.
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
