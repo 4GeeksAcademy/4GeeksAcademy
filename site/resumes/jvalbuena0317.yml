@@ -1,0 +1,122 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jessica
+  last_name: Valbuena
+  motto: I like saving the world
+  focus: Marketing & Revenue
+  summary: As a dynamic and experienced professional with a strong background in
+    the Hospitality and Tourism industry, I am known for my enthusiasm,
+    knowledge, and effective communication skills that inspire teams to achieve
+    extraordinary outcomes. With a focus on innovation and results-driven
+    leadership, I prioritize collaboration to reach shared objectives and
+    constantly push boundaries to enhance the guest experience. Along with a
+    proven track record of delivering exceptional results, I am a dedicated team
+    player who learns quickly, seeks solutions, and consistently strives for the
+    success and well-being of my team.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: jessica.valbuena03@hotmail.com
+  phone: +297-742-0752
+  website: null
+  linkedin: www.linkedin.com/in/jessica-valbuena-a674b7139
+  github: jvalbuena0317
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional working proficiency
+    - idiom: Spanish
+      level: Native
+    - idiom: Papiamento
+      level: Advance
+  interests:
+    - item: Travel
+    - item: Dancing
+    - item: Cooking
+education:
+  - degree: Master of Business Administration
+    university: University of Aruba
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2016 - 2018
+    details: It is a two-year program with the first academic year comprised of
+      course work, the second academic year comprised of the presentation of a
+      research proposal or business plan proposal followed by the successful
+      completion of a research paper or business plan.
+  - degree: Bachelor's degree in hospitality & Tourism
+    university: University of Aruba
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2014 - 2017
+    details: The fully accredited FHTMS program is a unique program designed to
+      prepare students with the knowledge and skills needed to assume leadership
+      roles and to be successful citizens of character in the global hospitality
+      and tourism industry and the community at large. The Faculty of
+      Hospitality and Tourism Management Studies was founded on principles of
+      flexibility, responsibility, integrity, creativity, and sustainability,
+      which serve as a guiding educational philosophy, and reflects the values
+      and beliefs of both the University and the community it serves.
+experiences:
+  - role: Marketing Manager
+    time: 2021 - 2023
+    company: Hilton Aruba Caribbean Resort & Casino
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >-
+      This role entails monitoring and reviewing sales and marketing expenses
+      for accuracy, creating strategic partnerships, improving local social
+      media content, and analyzing performance data. You'll strategize and
+      execute marketing plans while optimizing e-commerce budgets, fostering
+      cross-departmental collaboration for new initiatives.
+
+      - Bullet point - Monitor and review Sales & Marketing expenses, ensuring accuracy in forecasting - Create strategic alliances with vendors and key partners to coordinate project and introduce new marketing initiatives - Assess and enhance local social media content, developing targeted campaigns for banquets, spa, food and beverage and rooms - Monitor and analyze social media analytics to gauge performance and optimize strategies. - Strategize and execute comprehensive marketing plans to achieve business objectives - Foster regular collaboration with other departments during the implementation of new concepts and marketing initiative - Optimize budget allocation for e-commerce strategie
+  - role: Revenue coordinator
+    time: 2017 - 2021
+    company: Hilton Aruba Caribbean Resort & Casino
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >-
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+      quis, sem.
+
+      - Bullet point - Generate comprehensive reports, as directed by the Revenue Director, to assess inventory and pricing strategies for enhanced revenue optimization - Thoroughly review and rectify any rate and code discrepancies to ensure maximum revenue potential - Regularly update and review OTA extranets to maintain accurate content and score high visibility levels - Provide support to the Marketing, Sales, and Reservations departments in their day-to-day tasks, projects, and the implementation of new initiative
+projects:
+  intro: You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Mail Chimp
+      level: 98%
+    - name: Adobe Ilustrator
+      level: 60%
+    - name: Canva
+      level: 98%
+    - name: HTML5 & CSS
+      level: 65%
