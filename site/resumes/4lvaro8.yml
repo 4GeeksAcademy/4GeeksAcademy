@@ -1,0 +1,36 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Álvaro
+  last_name: Fernández
+  motto: Can i get a cheescake?
+  summary: |
+    Student with knowledge in html, css, bootstrap, js, python and SQL.
+  github: 4lvaro8
+  languages:
+    - idiom: english
+      level: b2
+    - idiom: spanish
+      level: native
+  interests:
+    - item: music
+    - item: sports
+    - item: hiking
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+skills:
+  toolset:
+    - name: Python
+      level: 30%
+    - name: Javascript
+      level: 70%
+    - name: HTML5 & CSS
+      level: 70%
+    - name: Bootstrap
+      level: 70%
+    - name: SQL
+      level: 30%
