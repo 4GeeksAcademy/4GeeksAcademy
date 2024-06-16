@@ -1,0 +1,91 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bartosz
+    last_name: Szajda
+    
+    # Define yourself in 4-5 words
+    motto: Try to be better version of yourself
+    
+    # Focus
+    focus: studing and learning new things
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: | 
+    I was studing mathematics for one year and now I'm going to study artifical inteligenc on vrije universitet in Amsterdam. 
+    Although I have no working experience in IT,I'm studing everyday to have enough skills to applied for one
+
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Proffessional
+
+      - idiom: Polish
+        level:  Native
+
+     
+
+    # Interests or hobbies
+    interests:
+      - item:  Poker
+
+      - item: History
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BSc Mathematics
+      university: Vrije Universiteit Amsterdam
+      time: 2021-2022
+      details: |
+       During that one year I was studing the basics concepts of mathematics, such as linear algebra ,calculus , 
+       discrete mathematics, statistics and probability theory
+        
+
+  
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: AI-Engineer intern
+      time: 2024 - Present
+      company: Guide Me
+      details: |
+        I'm learning how to implement code written in python in to mahcine learning systems made by senior engineers,
+      
+
+
+skills:
+    toolset:
+      - name: Python
+        level: junior
+
+     
