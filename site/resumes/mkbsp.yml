@@ -1,0 +1,147 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mads
+    last_name: Schmidt Petersen
+    
+    # Define yourself in 4-5 words
+    motto: The Product Viking
+    
+    # Focus
+    focus: Creating things
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: An international Viking! He fearlessly navigates the wilderness of entrepreneurship, from Y Combinator to the challenging terrain of leading teams to rapidly build, launch, and test MVPs. And when all else fails, he's not afraid to roll up his sleeves and knock on doors to make that needle move!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQHOp9C8ixEMmQ/profile-displayphoto-shrink_800_800/0/1698889697604?e=1709769600&v=beta&t=dVoUl3DuGhbPiSJOZMCE7Wv6JD-VP5J1gnMoWNSkrL4
+
+    # Contact Information
+    email: mads@hippo.build #optional
+    phone: +351 924 949 916 #optional
+    website: theproductviking.com #optional
+    linkedin: https://www.linkedin.com/in/madsschmidtpetersen/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mkbsp
+    
+    twitter: MadsTrundte #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: Danish
+        level: Native
+
+      - idiom: Portuguese
+        level: Learning
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Nature
+
+      - item: My Family
+
+# Your previous education
+
+education:
+    - degree: Bachelors of International Business Administration
+      university: Hult International Business School
+      time: 2012 - 2014
+      details: Achieved Deans List and Honors List recognitions.
+        Focused on global business strategies and practices.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cofounder & CEO
+      time: June 2021 - Present
+      company: HippoBuild YC W22
+      location: Bogota, Colombia
+      details: Selected for Y Combinator Winter 2022 Acceleration Program.
+        Addressing operational and supply-chain inefficiencies for SMB Constructors in Latam via a Vertical SaaS and embedded Marketplace.
+
+    - role: Product Consultant
+      time: Oct 2020 - June 2021
+      company: Various (Tul, Marathon VC, Elenas)
+      location: Bogota, Colombia
+      details: Worked on launching Fintech products with Tul and improving operational bottlenecks at Elena.
+        Analysed and advised portfolio companies at Marathon VC.
+
+    - role: Vice President of Products
+      time: July 2019 - Oct 2020
+      company: Greensill Latam (Former OmniLatam)
+      location: Bogota, Colombia
+      details: Led the Product Team in data analytics, design, testing, product development, and launch.
+        Managed phases such as due diligence, acquisition, merger, and growth.
+
+# Your project portfolio
+projects:
+    intro: You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 0%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
