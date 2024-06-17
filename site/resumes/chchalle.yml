@@ -1,0 +1,97 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Chris
+    last_name: Challe
+    motto:  I don't know what's a motto with you
+    avatar: https://avatars3.githubusercontent.com/u/54982406?s=460&u=06f655ce5be3ee6b1b6db6c396c449196fca2404&v=4
+    summary: |
+      10 years industrial maintenance experience, maintenance manager and project engineer.
+
+    email: chrischalle@yahoo.com  
+    phone: +1 920 609 4403
+    website: 
+    linkedin: https://www.linkedin.com/in/christopher-challe-a5558a1a4/
+    github: chchalle
+  
+
+    languages:
+
+      - idiom: English
+        level: Native
+
+ 
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Ice Hockey
+
+      - item: Hardware
+
+education:
+    - degree: Physics and Applied Mathamatics
+      university: UW-Madison
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AWisconsin_Badgers_logo.svg&psig=AOvVaw1UBiHheLheOVi2zsHNXpeb&ust=1718752126354000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIi3o-Hg44YDFQAAAAAdAAAAABAE
+      time: 2017-2019
+      details: 
+
+    - degree: Computer Science
+      university: Universidad Antonio de Nebrija
+      university_logo: https://www.nebrija.com/images/logos/logotipo-universidad-nebrija.jpg
+      time: 2010-2014
+      details: 
+        
+experiences:
+    - role: Student
+      time: 2024 - Present
+      company: 4Geeks Academy 
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the turbo-intensive bootcamp.
+ 
+    - role: maintenance manager
+      time: 4 years
+      company: Sargento
+      details: |
+        ran a 24/7 maintenance department of 21 employees including 1 buyer and 1 scheduler/planner
+
+            - role: maintenance manager/project manager
+      time: 6 years
+      company: Kerry ingredients
+      details: |
+        ran and executed capital projects, including new line installs, and plant closures.  ran a 24/7 maintenance departmetn of 8 employees
+
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+    assignments:
+
+      - title: Form Bootstrap
+        link: https://github.com/CHCHALLE/chchalle-ista-photo-feed-bootstrap
+        tagline: "Very styled form in HTML and Bootstrap"
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 60%
+
+      - name: CSS
+        level: 30%
+
+      - name: Bootstrap
+        level: 20%
+
+      - name: C++
+        level: 50%
+
+      - name: Sleeping correctly
+        level: 0%
