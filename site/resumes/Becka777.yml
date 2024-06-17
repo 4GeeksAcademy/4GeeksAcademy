@@ -1,0 +1,54 @@
+# 
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Beka
+    last_name: Khutsishvili Meskhadze
+    
+    # Define yourself in 4-5 words
+    motto: Collaborator, competent, motivated, committed, proactive.
+    
+    # focus
+    focus: focus
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |   
+     I've been immersed in the logistics sector for five years, accumulating valuable experience along the way. Now, I'm focused on expanding my horizons by studying web development. This decision reflects my passion for continuous learning and my strong commitment to professional growth. My background in logistics, coupled with my current dedication to web development, highlights my ability to adapt and seek out new opportunities. I believe this blend of experience and learning provides me with a unique and versatile perspective, allowing me to bring innovative and creative solutions to any challenges in the tech field
+    
+    # Your profile picture URL
+    # https://media.licdn.com/dms/image/D4D03AQHZZiLzzJfEbA/profile-displayphoto-shrink_200_200/0/1671878907486?e=2147483647&v=beta&t=9WeBYwWimsBYr2crc8tfeCVBq_r72t7e2MQnJDemY9I
+
+    # Contact Information
+    email: bekavlc97@gmail.com
+    phone: +34 622 76 66 14
+    linkedin: https://www.linkedin.com/in/beka-khutsishvili-63317b178?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=es
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://github.com/becka777
+    github: Becka777
+    
+  
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Georgian
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Sport
+
