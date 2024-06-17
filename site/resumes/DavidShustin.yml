@@ -1,0 +1,84 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: D
+    last_name: S
+
+    motto: Money and passion never sleep
+
+    focus: Programming and finishing my college degree
+
+    summary: College student with a passion to start my career. I am a hard worker towards things I enjoy. Programing is something that I enjoy.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.enginebuildermag.com%2F2020%2F09%2Fhonda-b-k-series-engines%2F&psig=AOvVaw1Mlqiwvz7fMiATmK25ACny&ust=1718752088693000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJiDsc_g44YDFQAAAAAdAAAAABAE
+
+    email: dshustin@gmail.com
+    phone: 646-637-7262
+    website:
+    linkedin: NA
+
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DavidShustin
+
+    twitter: NA
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Russian
+        level: Intermediat
+
+
+    interests:
+      - item: Basketball
+
+      - item: Video Games
+
+      - item: Cooking
+
+education:
+    - degree: 
+      university: Spanish River Community High School
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fsrhs.palmbeachschools.org%2F&psig=AOvVaw23DXXoEQgv68o_IVvlpAud&ust=1718752284823000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCJ_63h44YDFQAAAAAdAAAAABAE
+      time: 2017-2021
+      details:
+          -Graduated in 2021 with top 50 students in my grade. 
+          -I had a 3.4 GPA, played on the varsity football team, and didn't have a senior year because of covid.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Sales Consultant
+      time: January 2023- July 202
+      company: AT&T
+      # optional
+      
+# Your project portfolio
+projects:
+    
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 50%
