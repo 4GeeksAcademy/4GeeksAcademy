@@ -1,0 +1,111 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Vitoria
+    last_name: Choupina
+    motto: Traveling is living 
+    avatar: 
+    summary: |
+      Computer sciences lover, This passion has led me to self-educate in subjects related to web development,
+      IT, object oriented programming, etc. I considere myself a responsible, persistent person, who makes everything on its hand
+      to be the best teammate possible, but specially, I am always hungry for knowledge; All these qualities will help me to grow
+      as a developer and as a person.
+
+    email: vitoriachoupinar@gmail.com 
+    phone: +34 XXXXXX 
+    website:
+    linkedin: https://www.linkedin.com/in/vitoria-choupina/ 
+    github: vchoupina
+    instagram: vchoupina
+    stack-overflow:
+
+    languages:
+      - idiom: Portuguese
+        level: C2
+
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: C1
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: Sports
+
+      - item: Traveling
+
+education:
+    - degree: 
+      university:
+      university_logo: 
+      time:
+      details: 
+
+    - degree: 
+      university: 
+      university_logo: 
+      time: 
+      details: 
+        
+experiences:
+    - role: Student
+      time: 2024 - Present
+      company: 4Geeks Academy 
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp
+ 
+    - role: 
+      time: 
+      company: 
+      company_logo:
+      details:
+
+    - role:
+      time:
+      company:
+      company_logo:
+      details:
+      
+projects:
+    intro: >
+      Here you can see a short list of my work as a student in 4GeeksAcademy
+
+    assignments:
+      - title: Digital Postcard
+        link: https://github.com/vchoupina/exercise-postcard
+        tagline: "A Digital postcard using only HTML and CSS "
+
+      - title: Instagram
+        link: https://github.com/vchoupina/Insta-bootstrap
+        tagline: "Fully responsive Instagram-look-a-like feed using HTML and Bootstrap exclusively. "
+
+      - title: Excuses Generator
+        link: https://github.com/vchoupina/Generador-de-excusas-JS
+        tagline: "A fully functional excuses generator using only HTML and JavaScript "
+
+      - title: Landing Page
+        link: https://github.com/4GeeksAcademy/Elroro23_vchoupina_bertomeu_Website
+        tagline: "website landing page in group "
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 70%
+
+      - name: Javascript
+        level: 30%
+
+      - name: CSS
+        level: 60%
+
+      - name: bootstrap
+        level: 50%
+
