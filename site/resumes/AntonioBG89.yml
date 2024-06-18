@@ -3,20 +3,20 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "orange"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Antonio
+    last_name: Buigues
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Perfeccionista, inteligente y motivado
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Mejorar
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -29,63 +29,48 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/men/34.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: antoniobuiguesgarcia@gmail.com #optional
+    phone: 636 824 646 #optional
+    website: #optional
+    linkedin: AntonioBG89 #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: AntonioBG89
     
-    twitter: 'webjeda' #optional
+    twitter: 'AntonioBG89' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Catalan/Valencian
         level: Native
 
-      - idiom: French
-        level: Professional
-
       - idiom: Spanish
+        level: Native
+
+      - idiom: English
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Diving
 
       - item: Snowboarding
 
-      - item: Cooking
+      - item: Working
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Higher Technician in Networked Computer Systems Administration
+      university: IES Pere Maria Orts i Bosch
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSliZwTzfSFxkVcky7xtp6dWgC0XjVNSPF07A&s
+      time: 2013 - 2015
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -98,11 +83,11 @@ education:
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Junior IT support and administration
+      time: may 2015 - oct 2015
+      company: Gestimed Levante SL, Benidorm
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://media.licdn.com/dms/image/C4E0BAQHogM2pDZhuzg/company-logo_200_200/0/1631358764243?e=2147483647&v=beta&t=pGsFh-gxUetAAAtFDTXMnImagKkGzzT7HCcABHeEApM
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -113,36 +98,6 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
 
           - Bullet point
           - Bullet point
@@ -187,20 +142,17 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
+      - name: HTML
         level: 98%
 
-      - name: JavaScript & jQuery
+      - name: CSS
         level: 98%
 
-      - name: Angular
+      - name: JavaScript
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: CISCO
+        level: 45%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Linux
+        level: 40%
