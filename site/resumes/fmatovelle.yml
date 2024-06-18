@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Federico Jose
+    last_name: Matovelle Espinosa
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack Developer
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Dinámico y enfocado. Me considero un lider capaz de organizar equipos para alcanzar objetivos significativos. Experto en inglés y español, con altos
+      conocimientos informáticos. Actualmente se encuentra especializándose a través de
+      un Bootcamp de Desarrollador Full Stack, complementando así su formación en
+      Animación Digital.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: fmatovelle1@gmail.com #optional
+    phone: 637738054 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/federico-matovelle #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fmatovelle
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Begginer
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Walking
+
+      - item: Drawing
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Animacion Digital
+      university: Universidad San Francisco de Quito
+      # optional
+      university_logo: 
+      time: 2019 - 2020
+      details: 
+        En el transcurso de ese anio en la USFQ aprendi a utilizar y dominar herramientas como Photoshop, Illustrator, After Effects, Premiere, Autodesk MAYA entre otras.
+
+
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      time: 2024 
+      details: |
+        En el programa de desarrollo web full stack, aprendi tecnologías clave como HTML, CSS, JavaScript, Python y frameworks populares como React y Flask. Además, el currículum incluye bases de datos, control de versiones con Git y despliegue de aplicaciones. 
+
+
+#   
+skills:
+    toolset:
+
+      - name: JavaScript 
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Photoshop
+        level: 90%
+
+      - name: Illustrator
+        level: 90%
+
+      - name: After Effects 
+        level: 90%
+
+      - name: Premiere
+        level: 90%
+
+      - name: Autodesk Maya
+        level: 90%
+
+
