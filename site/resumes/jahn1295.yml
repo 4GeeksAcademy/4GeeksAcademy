@@ -1,0 +1,61 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Ji Hee
+  last_name: Ahn
+  motto: Female; dog person; Christian; bi-sexual; Hufflepuff; ENFJ;
+    Capricorn-Saggitarius cusp
+  focus: Aiming to succeed vividly and being fulfilled by failing really well
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: jiheeahn1222@gmail.com
+  phone: (347) 510-4765
+  website: N/A
+  linkedin: N/A
+  github: Jahn1295
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Korean
+      level: Professional
+    - idiom: Japanese
+      level: Professional
+  interests:
+    - item: Guitar & Singing
+    - item: Traveling
+    - item: Crocheting
+education:
+  - degree: Certificate in TESOL
+    university: Columbia University
+    time: 2019 - 2020
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Linguistics and Rhetoric
+    university: CUNY Hunter College
+    time: 2013 - 2018
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
