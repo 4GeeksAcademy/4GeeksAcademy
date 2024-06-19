@@ -1,0 +1,86 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Marco
+  last_name: Urrutia
+  motto: I like the surprises of life and how Jesus accompanies you in every process.
+  focus: developing personally and professionally
+  summary: >
+    I studied computer science technician when I finished high school in
+    2009. Then I continued with engineering in 2019. Since 2010 I have worked in
+    various fields. Currently, I am an information manager at a hospital where I
+    manage patient databases. I am also attending a 4Geeks Academy BootCamp to
+    improve my programming skills and find a job related to that field to
+    develop myself more as a professional.
+  avatar: https://media.licdn.com/dms/image/D4D03AQFySOYPagERAA/profile-displayphoto-shrink_800_800/0/1709048798123?e=1724284800&v=beta&t=YhN_sW0ftz-c9dZuYcF-OiwvQkJIFf_5y68GtAH2Gs8
+  email: m.urrutia1991@gmail.com
+  phone: +569 745 71 041
+  website: ...
+  linkedin: www.linkedin.com/in/marco-urrutia-438b42288
+  github: marcourrutia
+  twitter: punk_ron
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+  interests:
+    - item: Programming
+    - item: Astronomy
+    - item: Politics
+    - item: Gym
+education:
+  - degree: Primary Education
+    university: San Francisco de Asís School, Arauco
+    time: 1996 - 2004
+  - degree: High School
+    university: San Francisco de Asís School, Arauco
+    time: 2005 - 2008
+  - degree: Technician in Computer Science
+    university: Virginio Gómez Professional Institute
+    time: 2009 - 2011
+  - degree: Execution Engineer in Computer Science
+    university: Virginio Gómez Professional Institute
+    time: 2019 - 2021
+experiences:
+  - role: Restocker and Warehouse Assistant
+    time: August 2010 - October 2010
+    company: Bigger Supermarkets, Arauco
+  - role: CSR
+    time: April 2011 - November 2011
+    company: Transcom World Wide
+    details: >
+      Order and sales management of mobile phones for customers of the
+      "Orange" telephone company in Spain.
+  - role: Intern in the IT department
+    time: March 2012 - April 2012
+    company: Municipality of Arauco
+    details: |
+      Helping with tasks related to the IT department (support).
+  - role: Salesperson
+    time: May 2012 - July 2012
+    company: El Araucano Hardware Store
+    details: |
+      Attend to customers and sell the desired products.
+  - role: Chipper Operator
+    time: August 2012 - October 2012
+    company: E.S.T MADESAN SAN CRISTOBAL
+    details: |
+      Load the chipper with all the leftover material from the boards.
+  - role: Electrician
+    time: November 2012 - January 2014
+    company: M.K.M
+    details: >
+      Perform various tasks related to electrical installation in the
+      construction of San Felipe de Arauco School.
+projects: null
+skills:
+  toolset:
+    - name: HTML
+      level: Intermediate
+    - name: CSS
+      level: Intermediate
+    - name: JavaScript
+      level: Beginner
