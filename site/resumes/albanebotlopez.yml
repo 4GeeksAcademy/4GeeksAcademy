@@ -1,0 +1,141 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alba
+    last_name: Nebot López
+    
+    # Define yourself in 4-5 words
+    motto: Passionate about web development and creating innovative solutions.
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I have a strong background in team leadership and product management, with a focus on marketing and operations.
+      Currently expanding my skills through a Full Stack Development Bootcamp at 4Geeks Academy,
+      I bring a unique blend of management expertise and technical knowledge. My career spans managing complex projects, overseeing cross-functional teams, and now diving into web development.
+      I am passionate about leveraging my diverse skill set to create innovative solutions and drive successful tech projects.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://res.cloudinary.com/dx4vddpud/image/upload/v1719226907/alba_-_1_ibrcd8.png
+
+    # Contact Information
+    email: albanebotlopez@gmail.com #optional
+    phone: +34 695 789 398 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/albanebotlopez/ #optional
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: albanebotlopez
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native (C2)
+      - 
+      - idiom: Catalan
+        level: Native (C2)
+      - 
+      - idiom: English
+        level: Fluent (C1)
+      - 
+      - idiom: Chinese
+        level: Basic (A1)
+
+    # Interests or hobies
+    interests:
+      - item: DIY Projects (Home improvement and vanlife)
+
+      - item: Traveling
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Bootcamp in Full Stack Development
+      school: 4geeks Academy
+      time: May 2024 - Sep 2024
+      details: Currently acquiring skills in front-end and back-end development, including HTML, CSS, JavaScript, and frameworks like React. The program also covers Node.js, Express, and databases such as MongoDB, emphasizing practical projects and real-world applications.
+    - degree: Bootcamp in UX/UI Design
+      school: Nuclio Digital School
+      time: July 2020 - Sep 2020
+      details: Completed intensive training in UX/UI design, focusing on user research, prototyping, wireframing, and user testing. Developed skills in tools such as Figma and Adobe XD.
+    - degree: Bachelor’s Degree in Marketing
+      university: UDG - Universitat Mediterrani
+      time: 2016 - 2020
+      details: Specialized in marketing strategies, digital marketing, and consumer behavior. Gained experience in market research, branding, and online marketing campaigns.
+    - degree: Bachelor’s Degree in Sociology
+      university: Universitat de Barcelona
+      time: 2012 - 2015
+      details: Focused on sociological research, social behavior, and data analysis. Conducted studies on social trends and their impacts on communities.
+experiences:
+    - role: Marketing & Operations Manager
+      time: December 2023 - Present
+      company: Facturit
+      details: |
+          - Lead a development team in creating innovative solutions, ensuring timely and high-quality delivery.
+          - Manage the full software development cycle from planning to implementation using agile methodologies.
+          - Translate client requests into technical specifications for developers, ensuring requirements and deadlines are met.
+          - Foster a collaborative and continuously improving work environment, promoting efficiency and innovation within the team.
+    - role: Marketing & Design Manager
+      time: April 2021 - December 2023
+      company: SocialDuo
+      details: |
+          - Designed, implemented, and supervised content and growth strategies to enhance brand presence.
+          - Managed and organized tasks within the graphic design department, ensuring high standards of creativity and execution.
+          - Developed website structures and content, enhancing user experience and engagement.
+          - Set pricing and service tariffs, optimizing revenue strategies.
+          - Oversaw human resources, including planning permissions, absences, and employee leaves.
+          - Maintained daily client communication and scheduled regular meetings to ensure satisfaction and address concerns.
+    - role: UX/UI Designer Education Mentor
+      time: February 2021 - September 2021
+      company: Nuclio Digital School
+      details: |
+          - Guided and supported students through the UX/UI design master's program, enhancing their design skills.
+          - Covered phases of user research, prototyping, wireframing, and user testing, ensuring comprehensive learning.
+    - role: Product Manager Junior
+      time: November 2018 - January 2020
+      company: Natur Import
+      details: |
+          - Monitored and managed four distinct brands: Cattier Paris, Jason USA, Nature’s Plus USA, and Rabenhorst.
+          - Controlled and purchased stock for these brands, ensuring inventory levels met demand.
+          - Created and managed databases of new leads, tracking and analyzing growth.
+          - Developed graphic (using Adobe Suite) and written content for newsletters and social media, boosting brand awareness.
+          - Maintained and updated website content through WordPress, both graphically and internally.
+          - Supported customer service with issues related to cosmetic brands, ensuring swift resolutions.
+          - Coordinated with parent brands for product launches and annual campaign creation.
+          - Developed materials and coordinated efforts with the commercial department to enhance sales strategies.
+    - role: Project Manager Trainee
+      time: January 2017 - September 2017
+      company: Sensory Value
+      details: |
+          - Supported market research projects, focusing on client needs and preferences.
+          - Specialized in the food and beverage industry, conducting studies and providing insights.
+    - role: Marketing Assistant
+      time: November 2015 - December 2016
+      company: GymPass Spain
+      details: |
+          - Planned sponsorships for national and international events, such as Factor Humano and FIBO, from initial stages to execution.
+          - Organized and managed support materials and merchandising for events.
+          - Programmed and designed B2B and B2C newsletters to highlight the latest fitness trends.
+          - Managed brand dissemination through social media, ensuring consistent and engaging content.
+
+
+          
+skills:
+  toolset:
+    - name: Javascript
+      level: 15%
+
+    - name: HTML5 & CSS
+      level: 40%
+
+    - name: Bootstrap 5
+      level: 20%
