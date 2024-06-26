@@ -1,0 +1,63 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Rodolfo
+    last_name: D'alessandro
+    motto: University Student
+    avatar: ~
+    summary: |
+        I am studying full stack programming at 4Geeks Academy, using languages such as HTML, CSS, Java, Python, etc.
+         
+
+    # Sidebar links
+    email: rodolfodalessandro23@gmail.com
+    phone: 414 100 52 42
+    website: ~
+    linkedin: www.linkedin.com/in/rodolfo-d-alessandro-13874a220
+    github: Elroro23
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: Bachelor of Science
+      university: La Salle La Colina
+      time: 2012 - 2017
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
