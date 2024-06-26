@@ -72,14 +72,17 @@ education:
       university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSliZwTzfSFxkVcky7xtp6dWgC0XjVNSPF07A&s
       time: 2013 - 2015
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        La titulación de Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR) pertenece a la familia profesional de Informática y Comunicaciones y es un ciclo formativo de Grado Superior que dura dos años, abarcando un total de 2000 horas. Durante este período, los estudiantes adquieren competencias profesionales para configurar, administrar y mantener sistemas informáticos en red, asegurando su funcionalidad y seguridad.
 
-          - Bullet point
-          - Bullet point
+        El plan de estudios incluye módulos como:
+
+          - Planificación y Administración de Redes
+          - Fundamentos de Hardware
+          - Gestión de Bases de Datos
+          - Seguridad y Alta Disponibilidad
+          - Administración de Sistemas Operativos
+          - Lenguajes de Marca y Sistemas de Gestión de Información
+          - y Servicios de Red e Internet
 
 # Your previous job experiences or volunteer
 experiences:
