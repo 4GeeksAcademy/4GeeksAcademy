@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando
+    last_name: Gimeno
+    
+    # Define yourself in 4-5 words
+    motto: Versatile full stack developer
+    
+    # Focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Psychology student with a deep interest in the areas of Information Technology and Human Resources.
+      I stand out for my skills in communication, teamwork, and problem-solving.
+      In addition, I have strong computer skills and experience in information search and analysis.
+      I consider self a person with a great capacity for learning, which allows me to adapt quickly to new technologies and methodologies.
+      I am confident that I can quickly acquire the technical skills necessary to perform successfully in the IT sector,
+      as well as apply my psychological knowledge to improve personnel selection, training, and development processes in the HR area.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQG1yYsTv58D2w/profile-displayphoto-shrink_800_800/0/1629085292170?e=1724889600&v=beta&t=Up7uaxSWSttZK-s8tfmeEPBhheBtVguNxV5AXYZbEKU
+
+    # Contact Information
+    email: fernandogimeno.ief@gmail.com #optional
+    phone: +598 94 808 509 #optional
+    website: https://fernandogimeno.netlify.app/ #optional
+    linkedin: fernando-gimeno #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fernando-gimeno
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Programming
+
+      - item: Psychology
+
+      - item: Human Resources
+
+# Your previous education
+education:
+    - degree: Degree in Psychology
+      university: Universidad de la República
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/d/d5/Logo_UDELAR.png
+      time: 2015 - Present
+      details: |
+        - Training on "POT Work and Health" at Montevideo City Hall
+        - Training on "Educational Inclusion" at Minas High School No. 3
+
+    - degree: Full Stack Development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - Present
+      details: |
+        - HTML, CSS, Bootstrap, Command Line, GitHub & Git, Best practices, JavaScript, DOM, Unit Testing,
+          React, Component State, Fetch API, API, Python, Data Structures, SQL, Models, Authentication JWT.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Seasonal Operator
+      time: 2015 - 2024
+      company: Fábrica Nacional de Cervezas
+      # optional
+      company_logo: #optional
+      details: |
+        - Operation of industrial machinery in the beverage industry
+        - Quality control of the product
+        - Teamwork
+        - Compliance with safety and hygiene standards
+        - Order and cleanliness in the workplace
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: CatWiki
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://cat-wiki-inky-ten.vercel.app/"
+        tagline: "At Cat Wiki, we're passionate about cats and we want to share our knowledge with the world. That's why we've created a library of articles covering everything you could ever want to know about cats, from their history and biology to their behavior and care."
+
+      - title: Reddit Clone
+        # optional
+        project_logo: #https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://reddit-clone-fg.netlify.app/"
+        tagline: "This project is a clone of Reddit, a popular social network and discussion website. The project is built using React, Redux Toolkit, and consumes data from the Reddit API."
+
+      - title: Maps App
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://mapapp-fg.netlify.app/"
+        tagline: "Map application for searching locations and tracing routes between two places. This map application was created using Bootstrap, React technologies and we use useContext to maintain the application state, in addition we consume the Mapbox API which we use to display the map, pins and routes."
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: Angular
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 99%
+
+      - name: Figma
+        level: 80%
+
+      - name: React
+        level: 75%
+      
+      - name: Redux
+        level: 60%
+
+      - name: Node.js
+        level: 70%
+
+      - name: Express
+        level: 50%
+
+      - name: MongoDB
+        level: 70%
+
+      - name: SQL
+        level: 50%
+
+      - name: Git
+        level: 80%
+
+      - name: GitHub
+        level: 80%
+
+      - name: Bootstrap
+        level: 90%
+
+      - name: Tailwind CSS
+        level: 80%
