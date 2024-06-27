@@ -5,8 +5,8 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: men
+    first_name: Lautaro
+    last_name: Deccia
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -43,14 +43,14 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: 
+        level: 
 
     # Interests or hobbies
     interests:
