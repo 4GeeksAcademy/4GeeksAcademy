@@ -1,0 +1,27 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Guzman
+    
+    # Define yourself in 4-5 words
+    motto: I like learning new things
+    
+    # Focus
+    focus: learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+    github: guzmanjose-cloud
