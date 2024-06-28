@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Nelson
+    last_name: Valero
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like to improve my skills
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Keep going
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,8 +32,8 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: nelsonvbarcelona@gmail.com #optional
+    phone: 622428891 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
@@ -47,13 +47,13 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Catalonian
         level: Professional
 
     # Interests or hobbies
