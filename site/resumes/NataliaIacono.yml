@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Natalia
+    last_name: Iacono
+    
+    # Define yourself in 4-5 words
+    motto: Soy una persona motivida, que siempre quiere aprender y compartir conocimiento.
+    
+    # Focus
+    focus: Compartir conociemiento es crecer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy diseñadora gráfica, diseñadora UI, y futura Full Stack Developer.
+
+      Lo conseguiré en 18 semanas de la mano de 4GeeksAcademy.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: natalia.iacono.pr@gmail.com #optional
+    phone: +34 675 896 279 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/natalia-iacono-705a11106/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/NataliaIacono
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Catalán
+        level: Intermediate  
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Cocinar
+
+      - item: Pasar tiempo con amigos/Familia
+
+      - item: Salir a desayunar
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4 Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+        Tendré las habialidades de un Full Stack, con visión para poder abordar los trabajos en diferentes lenguajes.
+
+          - HTML5
+          - CSS
+          - JAVASCRIPT
+          - PYTHON
+
+    - degree: Diseñadora UI
+      university: CoderHouse
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1458221654816010240/yFn7Q9fT_400x400.jpg
+      time: 2007 - 2011
+      details: |
+        Desarrollé las habilidad para crear el diseño de una interfaz gráfica funcional.
+
+          - Figma
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñadora Gráfica
+      time: 2018 - Present
+      company: Freelance
+      # optional
+      company_logo: 
+      details: |
+        Trabajo de forma freelance, gestioando diferentes proyectos, en su mayoria de indentidad visual. Uniendo todos los conocimientos adquiridos.
+
+          Identidad corporativa · Conferencia web · Diseño gráfico · Adobe Premiere Pro · Branding · Diseño editorial · Creatividad · Comunicación visual · Diseño creativo · Medios digitales · Figma · Desarrollo de marca · Tipografía · Diseño de circuitos digitales · Dirección creativa · Marca e identidad · Edición de imágenes · Aptitudes de organización · Definición de requisitos · Tarjetas de visita · Diseño gráfico para redes sociales · Diseño de experiencia de usuario (UX) · Adobe Creative Suite · Dirección artística · Adobe InDesign · Redes sociales · Adobe Illustrator · Atención al detalle · Comunicación · Microsoft PowerPoint · Pensamiento de diseño · Diseño de logotipos · Capacidad de análisis · Adobe Photoshop · Aptitudes creativas · Diseño
+
+    - role: Senior Diseñadora Gráfica
+      time: 2015 - 2018
+      company: Alvarez Argüelles Hoteles, Argentina
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C4D0BAQE6AUDcvFoqtA/company-logo_200_200/0/1631316511117?e=2147483647&v=beta&t=eoprAQns06TGx8NoQgOz5vlsjcHyDo-TALIQT5oWDBo
+      details: |
+        Mis tareas, desarrollar la grafica necesaria para los hoteles de la cadena hotelera.
+
+          Identidad corporativa · Adobe Premiere Pro · Resolución creativa de problemas · Creatividad · Comunicación visual · Diseño creativo · Medios digitales · Tipografía · Trabajo en equipo · Edición de imágenes · Aptitudes de organización · Definición de requisitos · Tarjetas de visita · Diseño gráfico para redes sociales · Adobe InDesign · Liderazgo de equipos · Comunicación · Pensamiento de diseño · Capacidad de análisis · Aptitudes creativas · Diseño · Gestión de proyectos
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
