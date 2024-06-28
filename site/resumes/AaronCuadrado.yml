@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aaron
+    last_name: Cuadrado Toral
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack Development Student
+    
+    # Focus
+    focus: Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Con una década de experiencia en el sector de la hostelería, he desempeñado diversos roles como camarero de barra, bartender, supervisor de sala y barista. Mi trayectoria ha estado enriquecida por interacciones en servicio de bar, relaciones con clientes y un gran interés por los vinos, aunque no como sumiller.
+
+      Además de mi trayectoria profesional, soy padre orgulloso de una maravillosa niña. Recientemente, he dado un giro en mi carrera dejando la hostelería para estudiar desarrollo full-stack. Esta transición refleja mi pasión por la tecnología y mi compromiso de crecer en un nuevo ámbito laboral.
+
+      Me caracterizo por ser responsable, centrado en el cliente, amable y respetuoso. Traigo consigo una combinación de habilidades adquiridas en el sector de la hostelería y muchas ganas de destacar en mi nuevo campo profesional. Estoy entusiasmado por aplicar mis habilidades y experiencia para contribuir de manera significativa en mi nueva etapa profesional.
+    
+    # Your profile picture URL
+    avatar: URL_de_tu_foto_de_perfil
+
+    # Contact Information
+    email: tuemail@example.com
+    phone: tu número de teléfono
+    website: tu sitio web
+    linkedin: aaroncuadrado
+    github: AaronCuadrado
+    twitter: tu_usuario_de_twitter
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Profesional
+
+    # Interests or hobbies
+    interests:
+      - item: Desarrollo web
+      - item: Tecnología
+
+# Your previous education
+education:
+    - degree: Full Stack Development Student
+      university: 4Geeks Academy España
+      university_logo: URL_del_logo_de_4Geeks
+      time: Actualidad
+      details: |
+        Estudio de desarrollo full stack, incluyendo frontend y backend, utilizando tecnologías modernas y metodologías ágiles.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Camarero de sala
+      time: ago. 2022 - may. 2024
+      company: Restaurante Basuki Bilbao
+      company_logo: URL_del_logo_de_Basuki
+      details: |
+        Atención al detalle y servicio al cliente, preparación de cócteles y bebidas.
+
+    - role: Barman
+      time: ago. 2020 - jun. 2022
+      company: Atenea
+      company_logo: URL_del_logo_de_Atenea
+      details: |
+        Preparación de bebidas y cócteles, resolución de problemas y servicio al cliente.
+
+    - role: Barman
+      time: abr. 2019 - mar. 2020
+      company: Nautico Berria
+      company_logo: URL_del_logo_de_Nautico_Berria
+      details: |
+        Preparación de bebidas y cócteles, atención al detalle y servicio al cliente.
+
+# Your project portfolio
+projects:
+    intro: >
+      Puedes listar tus proyectos secundarios o bibliotecas de código abierto en esta sección.
+
+    assignments:
+      - title: Proyecto 1
+        project_logo: URL_del_logo_del_proyecto
+        link: URL_del_proyecto
+        tagline: "Descripción breve del proyecto."
+
+      - title: Proyecto 2
+        project_logo: URL_del_logo_del_proyecto
+        link: URL_del_proyecto
+        tagline: "Descripción breve del proyecto."
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 95%
+
+      - name: JavaScript
+        level: 90%
+
+      - name: React
+        level: 85%
+
+      - name: Node.js
+        level: 80%
