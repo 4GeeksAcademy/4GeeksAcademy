@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eliza
+    last_name: Quast
+    
+    # Define yourself in 4-5 words
+    motto: I love tech!
+    
+    # Focus
+    focus: Making a Career Change
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My name is Eliza and I'm an experienced Internal Audit/Internal Controls consultant currently working with clients in the Fintech industry. I have a strong background in internal audit and internal controls testing, which have provided me a unique skillset and expertise that I leverage in analysis and process improvement initiatives.
+
+      I'm strongly self-motivated, quick learner, and group-oriented, which makes me a valuable asset to any team. To further expand my knowledge and enhance my data analysis capabilities, I have enrolled in beginner SQL courses (in SQLite).
+
+      I'm passionate about utilizing my analytical skills and attention to detail to help drive decision-making, formulate impactful and meaningful improvements, and contribute to the overall success of business owners and stakeholders. Outside of work, I enjoy playing board games and exploring the great outdoors through hiking.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ejquast@outlook.com #optional
+    phone: 214 609 3853 #optional
+    website: https://www.linkedin.com/in/eliza-quast/ #optional
+    linkedin: https://www.linkedin.com/in/eliza-quast/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ejquast
+    twitter: 'N/A' #optional
+    stack-overflow: N/A # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: German
+        level: Beginner
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Dancing
+
+      - item: Board Games
+
+# Your previous education
+education:
+    - degree: Master of Accountancy
+      university: University of Texas-Rio Grande Valley
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2015
+      details: |
+        Accounting degree
+
+    - degree: Bachelor of Arts
+      university: University of North Texas
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2006 - 2007
+      details: |
+        Sociology Degree
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Internal Controls/Internal Audit Senior Associate
+      time: 2021 - Present
+      company: PricewaterhouseCoopers, Dallas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Consultant
+
+    - role: SOX Auditor II
+      time: 2019 - 2021
+      company: L3Harris Technologies, Rockwall
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        SOX Audit
+
+    - role: Internal Audit Associate
+      time: 2016 - 2019
+      company: Neiman Marcus, Dallas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Operational Audit
+
+# Your project portfolio
+projects:
+    intro: >
+      My projects
+    assignments:
+      - title: Learn in Public
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Learninpublicproject-ejquast"
+        tagline: "Learn in Public Project."
+
+      - title: Instagram Bootstrap Project
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/ejquast/instagram-boostrap-project-ejquast"
+        tagline: "Instagram feed using bootstrap."
+
+      - title: Postcard Profect
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/ejquast/instagram-boostrap-project-ejquast"
+        tagline: "A first time post card project."
+
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 30%
+
+      - name: SQL
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 35%
