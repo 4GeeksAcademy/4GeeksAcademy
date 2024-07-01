@@ -1,0 +1,57 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alberto
+    last_name: Romero
+    
+    # Define yourself in 4-5 words
+    motto: creativo cientifico loco eprendiendo a programar
+    
+    # Focus
+    focus: Cybersecurty
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      lorem mucho lorem
+
+  
+    # Contact Information
+    email: 
+    phone: 
+    website: 
+    linkedin: https://www.linkedin.com/in/alberto-r-m-48abaa32/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CoolPenwin
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Circus staff
+
+      - item: Skateboarding
+
+      - item: growing plants
