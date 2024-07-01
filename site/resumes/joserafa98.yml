@@ -1,0 +1,148 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Rafael
+    last_name: Hernandez Trigo
+    
+    # Define yourself in 4-5 words
+    motto: I Love to learn
+    
+    # Focus
+    focus: Learning to make some fun stuff
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a social media specialist with 6 years of experience helping brands and businesses grow online.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:  https://drive.google.com/file/d/1AGVXtLHB5yOeHPhkgzpmXmaYnwcz3yyo/view?usp=drivesdk
+
+    # Contact Information
+    email: joserafahernandez.98@gmail.com #optional
+    phone: +34 602 429 809 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/jose-hernandez-67605813b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: joserafa98
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advance
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Cinema
+
+      - item: Politics
+
+      - item: History
+
+# Your previous education
+education:
+    - degree: Bachelor's degree in journalism
+      university: Universidad Arturo Michelena
+      # optional
+      university_logo: https://citopatologiageneral.wordpress.com/wp-content/uploads/2014/05/sfa.jpg
+      time: 2016 - 2020
+      details: |
+       Throughout my studies, i gained extensive experience in TV, Film and Radio Production, beside i learn everything about Journalism and Marketing.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Community Manager
+      time: 2021 - Present
+      company: Max Fm 92.9
+      # optional
+      company_logo: https://maxfm929.com/wp-content/uploads/2021/09/cropped-logo-max-con-rif-.png
+      details: |
+        Our team is working on the growth of the brand,
+         my work in particular consists of the creation of strategies, community management and brand positioning.
+
+    - role: Social Media Manager & Audiovisual
+      time: 2023 - 2024
+      company: CESUGA
+      # optional
+      company_logo: https://cesuga.com/wp-content/uploads/2019/12/Logo_Cesuga_WEB.jpg
+      details: |
+        Our team is working on the growth of the brand,
+         my work in particular consists of the creation of strategies, community management and brand positioning,
+         beside helping the teachers with the tech stuff and covered the class
+
+    - role: Video Editor
+      time: 2022 - 2024
+      company: Somos Curioseando 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       I am the editor and voice of the channel.
+        I work with editing tools like capcut and video tools like pexels and pixabay.
+
+# Your project portfolio
+projects:
+    intro: >
+      I share with you my (so far) best projects I have done in 4geeks academy:
+
+    assignments:
+      - title: Instagram feed with bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Joserafa98/Joserafa98-igfeed-bootstrap
+        tagline: "my first project using Bootstrap with JS, HTML5 and CSS3 "
+
+      - title: Generador de Excusas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Joserafa98/joserafa98-generador-excusas
+        tagline: "We create an excuse generator using mainly JS."
+
+      - title: Payment form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Joserafa98/joserafa98-payment-form
+        tagline: "we created a payment processor prototype using HTML form and Bootstrap"
+
+      - title: Instagram Feed with HTML5 & CSS3
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Joserafa98/joserafa98-instagram-feed
+        tagline: "My first project in the bootcamp. create an instagram feed using the first tools I learned."
+
+skills:
+    toolset:
+      - name: Community Management
+        level: 98%
+
+      - name: Video Editor
+        level: 98%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Graphics Design
+        level: 60%
+
+      - name: Sales
+        level: 60%
