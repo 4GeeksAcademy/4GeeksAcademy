@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Miguel E.
+    last_name: Navas R.
+    
+    motto: Moving on unifying innovation and opportunity for a prosperous future
+    
+    focus: Creating synergies
+    
+    summary: 
+      
+      As a dynamic and passionate professional, I bring a diverse background in Electrical Engineering, Accounting, and Finance,
+      complemented by my entrepreneurial spirit as a founder of successful startups. Recently, I have made a strategic pivot 
+      to pursue my true passion in programming, dedicating the past year to mastering new technologies and languages. 
+      With strong analytical skills, a problem-solving mindset, and a commitment to continuous learning, I am eager to leverage 
+      my unique blend of technical and business acumen as an aspiring junior developer in the tech industry.  
+    
+    # Your profile picture URL
+    avatar: http://sep.breatheco.de/static/profile-images/MN.png
+
+    # Contact Information
+    email: romenav.25@gmail.com 
+    phone: 3713810869 
+    website: romenav.com 
+    linkedin: menr25 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: menr-25
+    
+    twitter: 'N/A'
+    stack-overflow: N/A
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Italian
+        level: Professional
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+       - item: Climbing
+
+       - item: Snowboarding
+
+       - item: Cooking
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 98%
+
+      - name: Bootstrap
+        level: 98%
+
+      - name: Git & GitHub
+        level: 70%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: React
+        level: 60%
+
+      - name: Python
+        level: 30%
+
+      - name: Java
+        level: 30%
