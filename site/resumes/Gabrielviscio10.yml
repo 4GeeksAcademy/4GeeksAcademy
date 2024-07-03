@@ -1,0 +1,134 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Gonzalo Gabriel
+  last_name: Viscio Redondo
+  motto: Me gusta aprender y crear
+  focus: En mi aprendizaje
+  summary: >
+    Mi entusiasmo con el desarrollo full stack comienza cuando descubro las
+    posibilidades del desarrollo web gracias a amigos que se dedican a esto,
+    llamo mi atención hace años, pero realmente hoy puedo decir que a pesar de
+    que mis habilidades profesionalesno estan 100% orientadas a esto, puedo
+    reutilizarlas y ser un buen desarrollador.
+  avatar: https://ibb.co/k8sDWc1
+  email: gonzalo.viscio@icloud.com
+  phone: 623118454
+  website: asd.com
+  linkedin: GabrielViscio
+  github: Gabrielviscio10
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: B1
+    - idiom: Spanish
+      level: Nativo
+  interests:
+    - item: Padel
+    - item: Remodelación
+    - item: Cocina
+education:
+  - degree: Ing. Industrial
+    university: UTN Argentina
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2013-2017
+    details: |
+      Estudios cursados hasta tercer año.
+  - degree: Técnico Electromecánico
+    university: ENET N1 Argentina
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2008 - 2013
+    details: >
+      Primeros estudios relizados con orientacion técnica, logica cableada ,
+      programacioón de plc.
+experiences:
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+    - name: JavaScript & jQuery
+      level: 10%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 30%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 40%
