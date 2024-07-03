@@ -1,0 +1,173 @@
+
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aaron
+    last_name: Jesus
+    
+    # Define yourself in 4-5 words
+    motto: Full stack developer
+    
+    # Focus
+    focus: mejorar constantemente
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Inmigrante venezolano que curso 5 semestres de ingenieria de sistemas llegando a España con un año de experiencia como asistente de operaciones logisticas y 6 meses de practicas como recepcionista de empresa de telecomunicaciones a hacer un curso de programacion y sistemas informaticos(salesforce 550h) para luego conseguir trabajo como montador de eventos y luego como mozo de almacen y peon de planta de reutilizacion.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: Aaron.Martinez.b@gmail.com #optional
+    phone: 602852543 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/aaron-martinez-a63216185/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CodeAaronM
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Videojuegos
+
+      - item: Series
+
+      - item: peliculas
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        
+
+          
+          
+
+    - degree: Bachillerato
+      university: Colegio salesiano PIO XII
+      # optional
+      university_logo: 
+      time: 
+      details: |
+       
+           
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Montador de eventos
+      time: 2021-2023
+      company: Five star crew
+      # optional
+      company_logo: 
+      details: |
+        
+
+         
+         
+
+    - role: Asistente de operaciones logisticas
+      time: 2018-2019
+      company: Gazprombank Neftegaz Services
+      # optional
+      company_logo: 
+      details: |
+        
+
+         
+         
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+        
+
+          
+          
+
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
