@@ -1,0 +1,147 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jiminián
+  last_name: Elías
+  motto: Vive y deja vivir.
+  focus: Programming
+  summary: >
+    Profesional con 14 años de experiencia en el sector comercial y ventas,
+    recientemente reinventándome en el campo de la programación. Mi trayectoria
+    incluye alcanzar y superar consistentemente los objetivos de ventas,
+    construir relaciones sólidas con los clientes y liderar equipos hacia el
+    éxito. Reconocido por mi capacidad de comunicación efectiva y resolución de
+    problemas, he demostrado ser proactivo y adaptable en un entorno
+    competitivo.
+
+      Motivado por el deseo constante de aprender y evolucionar, he decidido aplicar mis habilidades analíticas y atención al detalle en el desarrollo de soluciones tecnológicas innovadoras. Esta transición al mundo de la programación me permite combinar mi experiencia en ventas con nuevas competencias técnicas, aportando una perspectiva única para entender y satisfacer las necesidades del cliente desde el desarrollo de software. 
+
+      Estoy comprometido a utilizar mis habilidades comerciales y técnicas para contribuir al éxito de proyectos y equipos en el sector tecnológico.
+
+
+    Second paragraph if required.
+  avatar: https://media.licdn.com/dms/image/D4D03AQFXTMmh9paK6g/profile-displayphoto-shrink_800_800/0/1719929603639?e=1725494400&v=beta&t=aPPTetCjCMBYmnJvqVnXklKaamzBoX6o-Bf23ygczBY
+  email: eliasjiminian@gmail.com
+  phone: +34 658 64 00 66
+  linkedin: www.linkedin.com/in/elías-jiminián-rosario
+  github: elias1989
+  stack-overflow: null
+  languages:
+    - idiom: Español
+      level: Native
+    - idiom: Inglés
+      level: Medio
+    - idiom: francés
+      level: Principiante
+    - idiom: Portugués
+      level: Principiante
+  interests:
+    - item: Viajes
+    - item: Senderismo
+    - item: Programación
+    - item: Puzles
+    - item: Deportes
+education:
+  - degree: Bootcamp Desarrolador Full-Stack
+    university: 4Geeks Academy
+    time: 2024
+    details: >
+      Certificación Bootcamp intensivo de desarrollo de software, frontend y
+      backend: HTML/CSS, Javascript, React, Python, Git, Github, Bootstrap, etc.
+
+        - Bullet point
+        - Bullet point
+  - degree: Téc. Sistemas Microinformáticos en Redes
+    university: ILerna Academy
+    time: 2024
+    details: >
+      Montaje y mantenimientos de equipos, sistemas operativos monopuesto,
+      redes locales, aplicaciones ofimáticas, seguridad informática, etc.
+
+        - Bullet point
+        - Bullet point
+  - degree: Bachillerato
+    university: IES Valdemorillo.
+    time: 2009
+    details: |
+      Bachiller de Humanidades.
+
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Asesor de formación.
+    time: 2023
+    company: IEPP, Madrid.
+    details: >
+      Dpto Admisiones de alumnos, ventas, información al alumnado, gestión de
+      matrículas en el Instituto Europeo de Psicología Positiva.
+
+        - Bullet point
+        - Bullet point
+  - role: Operador de CRA.
+    time: 2021 - 2022
+    company: ADT Security, Madrid.
+    details: >
+      Gestor de alarmas de inmuebles y negocios. Atención al cliente, aviso a
+      FCS, asistencia técnica.
+
+        - Bullet point
+        - Bullet point
+  - role: Gestor Comercial Seguros.
+    time: 2017 - 2019
+    company: Linea Directa Aseguradora, Madrid.
+    details: >
+      Dpto de Calidad: ventas, resolución de incidencias, gestión de pólizas,
+      retención de clientes.
+
+        - Bullet point
+        - Bullet point
+  - role: Operador de CRA.
+    time: 2015 - 2017
+    company: Secúritas Direct España, Madrid.
+    details: >
+      Gestor de alarmas de inmuebles y negocios. Atención al cliente, aviso a
+      FCS, asistencia técnica.
+
+        - Bullet point
+        - Bullet point
+projects:
+  - title: PHOTO-FEED INSTAGRAM
+    link: https://github.com/eliasjr1989/POST_INSTAGRAM_BOOTSTRAP.git
+    Description: A responsive Instagram photo feed using HTML5 and Bootstrap
+  - title: EXCUSE GENERATOR
+    link: https://github.com/eliasjr1989/Excuse-Generator.git
+    Description: desarrollo de una aplicación web sencilla que genera excusas
+      aleatorias, usando HTML, CSS y Javascript.
+  - title: PAYMENT FOR EXAMPLE
+    link: https://github.com/eliasjr1989/Formulario.git
+    Description: A responsive form using HTML and Bootstrap
+  - title: CUSTOM FORM
+    link: https://github.com/eliasjr1989/FormularioWeb.git
+    Description: A custom form using HTML and CSS, adn @keyframes
+  - title: POST INSTAGRAM
+    link: https://github.com/eliasjr1989/Post-de-Instagram.git
+    tagline: A Postcard using HMTL5, CSS and Javascript
+  - title: Group Project
+    link: https://github.com/eliasjr1989/Elias-Jose-Beatriz-Gabriel-exercise-collaborative-html-website.git
+    tagline: Proyecto grupal en el que cada integrante se encarga de una parte del
+      mismo, en mi caso, el Heading 1 y 2, usando HTML y Bootstrap
+  - title: My Website
+    link: https://github.com/eliasjr1989/my-cv-portfolio.git
+    tagline: Proyecto personal. CV interactivo, usando HTML, Javascript y CSS. Menú
+      desplegable con enlaces a diferentes secciones, y sección con barras de
+      progreso creadas con Javascript
+skills:
+  - name: JavaScript & jQuery
+    level: 60%
+  - name: HTML5 & CSS
+    level: 80%
+  - name: Bootstrap
+    level: 80%
+  - name: Git
+    level: 70%
+  - name: Github
+    level: 70%
+  - name: SQL
+    level: 60%
