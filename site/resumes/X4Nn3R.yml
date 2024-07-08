@@ -1,0 +1,214 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alex
+    last_name: Riascos
+    
+    # Define yourself in 4-5 words
+    motto: I like the world of web development and programming.
+    
+    # Focus
+    focus: Fulfill my dreams and goals
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a young physicist and recently graduated Geophysics Master's, demonstrating great potential in my fields of study. My passion for particle physics and muography has driven me to explore the boundaries of scientific knowledge, using cutting-edge techniques to unravel the mysteries of radiation-matter interaction. Now, I have expanded my horizons by delving into the world of web development, where I am acquiring skills that will allow me to share my findings and ideas with an ever-growing audience. My thirst for knowledge, my analytical mind, my adaptability, and determination have destined me to leave a mark in the fields of physics and web development. With my talent and commitment, I hope to inspire others.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/160887203?s=400&u=d5f2afdd2d916b0032b774a08a04907829d7a436&v=4
+
+    # Contact Information
+    email: alexriascos159@gmail.com #optional
+    phone: (+57)3175114886 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/alex-riascos
+
+ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: X4Nn3R
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Travel
+
+      - item: Play a musical instrument
+
+      - item: Watch movies
+
+      - item: Drive motorcycle and car
+
+      - item: Playing video games
+
+
+# Your previous education
+education:
+    - degree: MSc in Geophysics
+      university: University of Nariño, Colombia
+      # optional
+      university_logo: https://www.udenar.edu.co/recursos/wp-content/uploads/2021/09/udenar-1.png
+      time: 2021 - 2024
+      details: |
+        The career as a physicist and geophysicist focuses on the application of physical and mathematical principles to understand and analyze the structure and dynamics of the Earth. Geophysics is a discipline that combines physical measurements and physical-mathematical models to explore and understand the Earth system, including its interior, the ocean, and the atmosphere.
+
+          - Explore and understand the structure and dynamics of the Earth: Using measurements of Earth system properties, geophysicists create and use quantitative physical-mathematical models to analyze and understand the structure and dynamics of our planet.
+          - Develop skills in measurements and modeling: Geophysics students learn to design, plan, and execute geophysical studies, including the acquisition, processing, and interpretation of data.
+          - Practical applications: Geophysics is applied in various areas, such as the exploration of natural resources, environmental protection, the assessment of natural risks, and the optimization of infrastructure.
+
+    - degree: Physical
+      university: University of Nariño, Colombia
+      # optional
+      university_logo: https://www.udenar.edu.co/recursos/wp-content/uploads/2021/09/udenar-1.png
+      time: 2013 - 2019
+      details: |
+        The study as a physicist focuses on the application of physical and mathematical principles to understand and analyze natural phenomena at different scales, from the microscopic to the cosmic. Physics is a fundamental science that seeks to discover the laws that govern the universe and how matter and energy interact.
+
+          - Explore the fundamentals of nature: As a physicist, your goal is to develop a deep understanding of the principles that govern physical phenomena, from classical mechanics to quantum physics and relativity.
+          - Apply the scientific method: You use the rigor of the scientific method to formulate hypotheses, design experiments, collect and analyze data, and draw valid conclusions about the behavior of physical systems.
+          - Develop analytical and modeling skills: You acquire proficiency in the use of advanced mathematical tools and in the creation of theoretical models that allow you to predict and explain observed phenomena.
+          - Contribute to the advancement of knowledge: Your research and discoveries can lead to new technological developments and a better understanding of the universe around us.
+
+
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://media.licdn.com/dms/image/D4E0BAQEcO3fgdcSiEg/company-logo_200_200/0/1688681342958/4geeksacademyes_logo?e=2147483647&v=beta&t=i4nmsKGaCiAtCySq84U95KZ7qt_6HrwbQFsnKDf18HM
+      time: From July to November 2024
+      details: |
+        The career as a full stack web developer focuses on the creation of complete digital solutions, from the design and programming of the front-end to the implementation and maintenance of the back-end. You are a versatile professional who masters a wide range of technologies and tools to build robust, scalable, and high-performance web applications.
+
+          - Design and develop attractive and functional user interfaces: You use your skills in HTML, CSS, and JavaScript to create intuitive and visually appealing user experiences.
+          - Implement business logic and functionalities in the back-end: You master programming languages such as Python, PHP, or Node.js, as well as frameworks and databases, to build the server's architecture and functionality.
+          - Integrate the front-end and back-end into a complete web solution: You are capable of coordinating and synchronizing the development of both parts, ensuring a smooth integration and a coherent user experience.
+          - Optimize the performance and security of web applications: You apply optimization, testing, and deployment techniques to ensure the efficiency, scalability, and protection of your developments.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: JavaScript
+        level: 60%
+
+      
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Geant4
+        level: 85%
+
+      
