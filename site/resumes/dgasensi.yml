@@ -1,0 +1,174 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+    
+    first_name: David
+    last_name: González Asensi
+    
+
+    motto: A good person with good purposes
+    
+
+    focus: To improve myself and also the lives of those around me. 
+    
+ 
+    summary: |
+      20 years in the security sector and 12 as the head of a security team have provide me with important cualities.
+      observation, pattern detection in complex situations, work capacity and patience. Now i want to project all
+      this capabilities into a sector than has always interested me, wich is science, analisys and tecnology.
+
+   
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/dgasensi.jpg
+
+    # Contact Information
+    email: dgasensi@gmail.com
+    phone: +34622286796
+    website: #optional
+    linkedin: dgasensi #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dgasensi
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Conversational
+
+    
+    interests:
+      - item: Blues, rock guitar
+
+      - item: Scientific divulgation 
+
+      - item: Cooking
+
+      - item: Reading classic literature
+
+      - item: thinking about physics, cosmology, society, etc
+
+
+education:
+    - degree: Not finished physics
+      university: Universidad de Valencia
+      
+      
+      time: 2000 - 2001
+      
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Security team coordinator
+      time: 2008 - Present
+      company: SECURITAS, L'Oceanografic(Valencia)
+      details: |
+        As the Security Team Coordinator my primary role involves not 
+        only keeping the team motivated and engaged but also managing day-to-day
+        administrative duties. Also, As the Security Coordinator, it is my 
+        responsibility to respond to any incidents, and in those cases, 
+        I am the ultimate authority 
+        
+          - Leadership
+          - Proactivity
+
+    - role: Security CCTV
+      time: 2005 - 2008
+      company: SECURITAS, L'Oceanografic(Valencia)
+      details: |
+        My time in the CCTV control center served as an excellent preparation for
+        transitioning to a team leadership role. In that position, you become 
+        accustomed to maintaining focus for extended periods and act as the liaison
+        between the team leader and department heads within the service, as well as 
+        with SECURITAS managers and emergency services when necessary. In addition,
+        it is essential to become technically acquainted with a wide range of 
+        specialized software, including camera management systems, video recorders,
+        and intrusion alert systems, understanding not only how they operate but 
+        also how to identify any malfunctions.
+
+          - Concentration
+          - Ease of communication
+          - Deep knowledge of your technical resources
+
+    - role: Security guard
+      time: 2003 - 2005
+      company: SECURITAS, L'Oceanografic(Valencia)
+      details: |
+        
+
+    - role: Hardware technician, Video editing and photo retouching
+      time: 2000 - 2003
+      company: freelance
+      details: |
+        In my early days as a hardware technician and designer, from 2000 to 2003,
+        I saw a lot of changes in the world of PCs. Back then, we were
+        still fiddling with jumpers on motherboards, and if your computer
+        hit 100 MHz, you were doing pretty well. Every small retouch in a picture takes
+        5 minutes for being processed. But in those few years, 
+        things started to shift quickly. It was a time of rapid learning, adapting to the
+        new tech that just kept on coming
+
+
+# Your project portfolio
+projects:
+    intro: >
+        As a beginner in the field of technology and programming, I have not yet had the 
+        opportunity to contribute to projects on GitHub. My focus has been on building a 
+        solid foundation in coding principles and understanding the core concepts
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python 
+        level: 50%
+
+      - name: Photoshop
+        level: 20%
