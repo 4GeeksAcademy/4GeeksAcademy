@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hannah
+    last_name: Garcia
+    
+    # Define yourself in 4-5 words
+    motto: I work to live
+    
+    # Focus
+    focus: Be the best corporate baddie
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Started as a receptionist at an immigration law firm before becoming a paralegal, then later, Director of Operations. But my undergrad and masters' degrees were in Sustainability, so I used my sales experience next at a waste brokerage company. While working there, I started at 4Geeks to become a developer, so I can work remotely and travel the world, and make money doing it all. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQFvCPS1BG0E0Q/profile-displayphoto-shrink_800_800/0/1719268953425?e=1726704000&v=beta&t=KAdTd4myhPJyr5qroKTB8cecEY03XJCsrXJffN20CC8
+
+    # Contact Information
+    email: hannah.kacso@gmail.com #optional
+    phone: 954 940 2327 #optional
+    website: #optional
+    linkedin: hannah-kacso-garcia #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hnkgarcia
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: A2
+
+    # Interests or hobbies
+    interests:
+      - item: Video Games
+
+      - item: Travel
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Sustainable Business and Innovation
+      university: Utrecht University
+      # optional
+      university_logo: https://www.uu.nl/sites/default/files/cm_hs_avatar_corporate.png
+      time: 2020 - 2022
+      details: |
+        Master Degree in Sustainable Business and Innovation
+
+          - Honor's Annotation through Young Innovators Program
+
+    - degree: BSc in Sustainability and the Built Environment
+      university: University of Florida
+      # optional
+      university_logo: https://brandcenter.ufl.edu/wp-content/uploads/2022/07/NEW-IMAGES_UF-Logo_University-Logo-292x300.png
+      time: 2014 - 2018
+      details: |
+        Bachelor Degree in Sustainability and the Built Environment
+
+          - summa cum laude
+          - LEED AP O+M
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Sales Development Representative II
+      time: 2023 - Present
+      company: RoadRunner Recyling, Pittsburgh
+      # optional
+      company_logo: https://media.licdn.com/dms/image/D4E0BAQHIVlhdCQSbEA/company-logo_200_200/0/1693315907173/roadrunnerrecycling_logo?e=1729123200&v=beta&t=_c_NsbqUYGgjAnuhsxoQ6kiXbiZIK0od26YfLZ29C78
+      details: |
+        Promoted from SDR I to SDR II in under one year
+
+          - Generate, qualify, and disqualify leads to maintain the most accurate and up to date reporting in Salesforce Lightning
+          - Experience in cold calling, business development, and lead generation via phone, email, text and web to average around 2000 touch points a month for B2B Inside Sales
+          - Communicate with team members in other departments to ensure the smooth sales process for potential clients
+
+    - role: Director of Operations
+      time: 2021 - 2023
+      company: Law Offices of Connie Kaplan, P.A., Fort Lauderdale, FL
+      # optional
+      company_logo: https://media.licdn.com/dms/image/D4E0BAQE67LArtYG3aA/company-logo_200_200/0/1661436446933/lawofficesofconniekaplanpa_logo?e=1729123200&v=beta&t=6kHBP5MIorBCaJGuE78XQfjQpQHcrUuVgdWFdtH1wcg
+      details: |
+        Promoted from Special Project Manager
+
+          - Executed strategic plans on behalf of the firm owner to drive firm-wide effectiveness and efficiencies, seeing an increase in revenue each month, with one month as high as 128% over the same month in the previous year, and a 62% increase from one month to the next, increasing the overall sales conversion rate to a high of 82%, while decreasing cost
+          - Oversaw a team of 20 in 4 different departments, handling all HR responsibilities such as managing work hours, PTO, employee onboarding, evaluating performance towards KPIs, implementing Performance Improvement Plans, and all aspects of the hiring/firing/promoting/demoting processes as needed
+          - Drafted policies and procedures for existing systems, as well as lead the implementation of new systems, and trained all team members on correct usage
+
+    - role: Special Project Manager
+      time: 2020 - 2021
+      company: Law Offices of Connie Kaplan, P.A., Fort Lauderdale, FL
+      # optional
+      company_logo: https://media.licdn.com/dms/image/D4E0BAQE67LArtYG3aA/company-logo_200_200/0/1661436446933/lawofficesofconniekaplanpa_logo?e=1729123200&v=beta&t=6kHBP5MIorBCaJGuE78XQfjQpQHcrUuVgdWFdtH1wcg
+      details: |
+        Promoted from Receptionist
+
+          - Created teachable courses end-to-end to be sold to potential clients to file their own cases, including, but not limited to: instructions on using the course; where to find government information; how to prepare your own forms; what documents are necessary; how to package, mail, and track the application; what to do if the government response is an approval, denial, or request for evidence; etc.
+          - Managed budgeting, fee revisions, billing and general financial management of each course and ROIs following launch
+ 
+# Your project portfolio
+projects:
+    intro: >
+      Projects accomplished at 4Geeks Academy
+
+    assignments:
+      - title: Instagram Photo Feed using Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/4GeeksAcademy/Hannah-Garcia-Bootstrap-Instagram-Photo-Feed"
+        tagline: "Learning to use Bootstrap - Navs and Tabs and Modals"
+
+      - title: HTML5 Forms
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/4GeeksAcademy/Hannah-Garcia-HTML5-Form-Project"
+        tagline: "Learnig to make fillable forms"
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/4GeeksAcademy/Hannah-Garcia-Instagram-Postcard-Project"
+        tagline: "Learning HTML and CSS to make an Instagram post"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
