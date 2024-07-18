@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  # Profile information
+  first_name: Adrian
+  last_name: Pina
+  motto: Full Stack Developer
+  avatar: https://randomuser.me/api/portraits/lego/6.jpg
+  summary: |
+    I am an expert in telecommunications with a specialization in fiber optics and photovoltaic parks. My extensive experience includes designing, implementing, and managing advanced telecom systems and developing efficient, sustainable photovoltaic energy solutions.
+
+  # Sidebar links
+  email: Adrian.pina@gmail.com
+  phone: 605 876 315
+  website: N/A #do not add http://
+  linkedin: https://es.linkedin.com/in/Adrian-trivino?trk=public_profile_samename-profile
+  github: Adrianpina11
+  twitter: N/A
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: English
+      level: Basic
+
+    - idiom: Spanish
+      level: Native
+
+  interests:
+    - item: electronic music
+
+    - item: Baseball and soccer
+
+    - item: Travel
+education:
+  - degree: Bachelor in data processing
+    university: ISUM
+    time: 2012 - unfinished 
+    details: A high school graduate with a focus on data processing, skilled in managing and analyzing data.
+      Proficient in using various software tools and technologies for data entry, organization, and reporting. 
+      Equipped with a strong foundation in computer science principles and practical experience in data management tasks.
+
+
+  - degree: Access network technique
+    university: Telecommunications technical school
+    time: 2008 - 2012
+    details: Technician in telephone access networks and fiber optics, specializing in the installation, maintenance, and repair of telecommunications systems. Expert in configuring and optimizing fiber optic networks, ensuring high-quality and reliable connectivity. 
+      With a solid understanding of telecommunications technologies, provides efficient solutions for access networks and telephone services.
+
+  - degree: Full Stack Developeru
+    university: 4geeks
+    time: 2024- present
+    details: I am currently studying to become a Full Stack Developer, focusing on both front-end and back-end web development.
+     My coursework includes learning various programming languages, frameworks, and tools essential for building comprehensive web applications. 
+     I am gaining expertise in HTML, CSS, JavaScript, as well as server-side technologies like Node.js, databases, and APIs. This comprehensive training equips me with the skills needed to develop, maintain, and optimize dynamic and responsive web solutions.
+
+
+experiences:
+  - role: Photovoltaic installation technician, monitoring, CCTV | Technical Support N1-
+    time: 2015 - present
+    company: Sisenol Solutions
+    details: Installation of monitoring equipment for photovoltaic plants.
+
+  - role: Facilities technician
+    time: 2012 - 2015
+    company: Rimonet
+    details: Technical support (installation - repair) of structured cabling and fiber optics. Certification of structured cabling and fiber optic networks. Management of Ideal LanTek II 1000 Certifying Equipment, Shinewaytech OTDR and Shinewaytech OFS-80 Fusion Machine.
+     Installation of rack, fiber optic headers and Pacth panel. PC Maintenance, Installation of Operating Systems, Hardware and Software
+
+
+
+skills:
+  toolset:
+   
+    - name: Javascript & jQuery
+      level: 60%
+
+    
+    - name: HTML5 & CSS
+      level: 80%
+
+   
