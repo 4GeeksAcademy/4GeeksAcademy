@@ -1,0 +1,110 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adriana
+    last_name: Isea
+    
+    # Define yourself in 4-5 words
+    motto: Todo es posible si lo crees...
+    
+    # Focus
+    focus: Aprender, crecer y disfrutarlo.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me desempeño en el área de atención al cliente de forma virtual y gestión de proyectos, destaco en la automatización de procesos, 
+      proyección de datos y cumplimiento de metas. Mi creatividad y atención al detalle me han permitido liderar proyectos desde su concepción
+      hasta su finalización.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: adrianaisea02@gmail.com 
+    linkedin: adrianaisea
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: adrianaeif
+    
+    twitter: adrianaeif #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar
+
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Soporte y Calidad
+      time: 2022 - 2024
+      company: ZTZ Tech Group
+      # optional
+      details: |
+        Automatización de procesos para gestión de requerimientos de clientes. 
+
+    - role: Shopper Support
+      time: 2020 - 2022
+      company: Uber Chile - (Cornershop)
+      # optional
+      details: |
+        Desarrollo de informes, reportes estadísticos en Dashboard y manejo de reuniones masivas.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 30%
+
+      - name: CSS
+        level: 30%
+
+      - name: JavaScript
+        level: 10%
+
