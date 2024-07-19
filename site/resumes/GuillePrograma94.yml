@@ -1,0 +1,89 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Guillermo
+    last_name: Martínez Millà
+    motto: Seeking Excellence
+    focus: Key Accounts Manager & Warehouse Automatizations Manager
+    summary: |
+      I am a Key Accounts Manager and Warehouse Automatizations Manager with extensive experience in strategic account management and warehouse automation. I have a strong background in business administration and have worked with multinational companies to improve operational efficiency and drive growth. My attitude, willingness to learn, and dedication are my most valuable assets.
+    avatar: https://avatars.githubusercontent.com/u/134286903
+    email: guilleprograma94@gmail.com
+    phone: 696930773
+    website: 
+    linkedin: gmartinezmilla
+    github: GuillePrograma94
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Full Professional
+      - idiom: German
+        level: Elementary
+      - idiom: Greek
+        level: Professional Working
+      - idiom: Valencian
+        level: Native
+
+# Your previous education
+education:
+    - degree: Master of Business Administration (MBA)
+      university: ThePowerMBA
+      university_logo: https://framerusercontent.com/images/gLxDtDnDeQ1bu2L68mWiiIQ5u0.png
+      time: 2019 - 2020
+      details: |
+        Specialization in business administration and management.
+
+    - degree: Global Bachelor Degree in Business Management and Entrepreneurship
+      university: Universidad Europea de Valencia
+      university_logo: https://pbs.twimg.com/profile_images/1446104335302029317/nLSvZayq_400x400.png
+      time: 2015 - 2019
+      details: |
+        Exchange programs and specialization in business management and entrepreneurship.
+        - Erasmus+ in Berlin (2018)
+        - Summer Semester at Dublin Business School (2019)
+
+    - degree: Programa, Liderazgo empresarial
+      university: ESIC Business & Marketing School
+      university_logo: https://vtlogo.com/wp-content/uploads/2021/12/esic-business-and-marketing-school-vector-logo.png
+      time: 2019
+      details: |
+        Leadership program.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Key Accounts Manager & Warehouse Automatizations Manager
+      time: October 2019 - Present
+      company: GRUP CST & BATMAR SL
+      details: |
+        Managing strategic accounts and warehouse automation projects to enhance efficiency and customer satisfaction.
+
+    - role: Office Intern (Assistant Management)
+      time: May 2019 - July 2019
+      company: Centro de Día Los Brezos
+      details: |
+        Assisted management in daily operations and provided support in various administrative tasks.
+
+    - role: Intern in Quality Department
+      time: September 2017 - December 2017
+      company: Universidad Europea de Valencia
+      details: |
+        Supported quality assurance processes and contributed to accreditation documentation for new programs.
+
+    - role: B2B Sales Agent
+      time: September 2016 - September 2017
+      company: Saneamiento Martinez, S.L.
+      details: |
+        Conducted market studies, opened new sales zones, and managed client relationships to drive sales growth.
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 15%
