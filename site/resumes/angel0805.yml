@@ -1,0 +1,86 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Angel
+  last_name: Colina
+
+  # Define yourself in 4-5 words
+  motto: Preference for optimal performance
+
+  # Focus
+  focus: Get better every day
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    As a graduate from a Web Development program and a Data Science & Machine Learning student, I am at the beginning of a promising career. My passion for learning and improving my technical skills puts me in a unique position to take advantage of opportunities in these rapidly growing fields.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: angelcolina08@gmail.com #optional
+  phone: +34 645395716 #optional
+  website: asd.com #optional
+  linkedin: alandoe #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: https://github.com/angel0805
+  # github: example
+
+  twitter: "webjeda" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Advance
+
+  # Interests or hobbies
+  interests:
+    - item: Padel
+
+    - item: Tennis
+
+    - item: Baseball
+
+# Your previous education
+education:
+  - degree: Web Developer
+    university: CEAC
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2021 - 2024
+    details: |
+      We learn the basics of programming, using strongly typed languages. Where I managed to carry out projects that helped me little by little understand about programming.
+
+        - In the initial modules I developed a program that simulated an ATM using Java, I learned the basics of programming, developed logic and we used some OOP.
+        - Another of the projects that I managed to carry out is a login system where I learned to use Javascript, putting logic and regular expressions into practice.
+        - For the completion of the Degree, create a system that would manage insurance companies, clients, and home repairs. The technologies in the backend were PHP, OOP, Javascript and some AJAX, following the Model View Controller architecture.
+
+skills:
+  toolset:
+    - name: Python
+      level: 30%
+
+    - name: JavaScript
+      level: 30%
+
+    - name: HTML5 & CSS
+      level: 50%
+
+    - name: PHP
+      level: 50%
+
+    - name: Java
+      level: 30%
+
