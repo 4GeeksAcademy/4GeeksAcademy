@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Jaramillo
+    
+    # Define yourself in 4-5 words
+    motto: Siempre en evolución personal
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy José Jaramillo, Assistant Manager con más de 9 años de experiencia, destacado por mi capacidad para resolver problemas y mejorar la satisfacción del cliente. He trabajado en recursos humanos, gestión de inventarios y asistencia en ortodoncia, demostrando habilidades en la capacitación y el reclutamiento de personal, así como en la gestión operativa. Soy altamente adaptable, autónomo y hablo español (excelente) e inglés (bueno).
+
+      He contribuido en empresas como Bruce Orthodontics, PyP, Provesnacks S.A., y G&G Cargo, gestionando equipos, mejorando procesos y asegurando estándares de calidad. Poseo un Associate of Arts en Producción Musical, un Bachelor of Arts en Teología y un certificado como Representante de Ventas Médicas. Mi experiencia y formación me permiten aportar una perspectiva única y un valor significativo a cualquier organización.
+
+
+
+
+
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/WGHcv4P
+
+    # Contact Information
+    email: josejara93106@gmail.com #optional
+    phone: +593 992721176 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/jose-jaramillo-soto-a81134312/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Josedu
+    
+    twitter: 'josedujs' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Professional
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Producción musical
+
+      - item: Pesca deportiva
+
+      - item: Cocina
+
+      - item: Programación
+
+# Your previous education
+education:
+    - degree: Producción sonora y arreglos musicales
+      university: IAVQ
+      # optional
+      university_logo: 
+      time: 2012 - 2015
+      details: |
+        La carrera de Producción Musical comprende aspectos como Entrenamiento Auditivo Musical o Composición Musical. Carrera que se obtiene en cinco semestres de estudio. 
+
+        Un Productor musical participa en proyectos de realización sonora y musical, pasando por procesos de preproducción, producción y postproducción del material habitualmente demandado por el mercado.
+
+    - degree: Bachelor of Arts in Theology
+      university: Teshuvah Biblical Studies Center
+      # optional
+      university_logo: 
+      time: 2020 - Presente
+      details: |
+        Teshuvah es un centro de estudios bíblicos que pretende proporcionar instrumentos surgidos de las Escrituras para responder a desafíos trascendentales con los que se enfrenta el pueblo de Dios de habla hispana.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Orthodontic Technician
+      time: 2023 - Presente
+      company: Bruce Orthodontics
+      # optional
+      company_logo: 
+      details: |
+        
+        En Bruce Orthodontics, programaba citas para nuevos y actuales pacientes, gestionando la disponibilidad y las cargas de trabajo de los proveedores. Enseñaba a los pacientes sobre estrategias de higiene oral, control de la placa y protección del esmalte dental. Preparaba las salas de examen, esterilizaba equipos e instrumentos, y realizaba tareas sencillas como ajustar aparatos y hacer exámenes preliminares. También tomaba radiografías, fotografías e impresiones de los dientes y la boca de los pacientes, y registraba sus datos en el sistema informático cumpliendo estrictamente con las leyes de privacidad y manteniendo un alto nivel de precisión.
+
+    - role: Assistant Manager - Recursos Humanos
+      time: 2017 - 2022
+      company: PyP
+      # optional
+      company_logo: 
+      details: |
+        En PyP, en mi rol como Assistant Manager de Recursos Humanos, mejoré la comunicación entre los equipos y optimicé la eficiencia del departamento de recursos humanos. Coordiné las orientaciones y el proceso de integración de 40 nuevos empleados, diseñando métodos de formación efectivos. Además, proporcioné soluciones a problemas complejos y confidenciales, asegurando un entorno laboral armonioso y productivo.
+
+    - role: Inventory Manager
+      time: 2015 - 2017
+      company: ProveSnacks SA
+      # optional
+      company_logo: 
+      details: |
+        En Provesnacks S.A., como Inventory Manager, me encargué de organizar y etiquetar los inventarios, asegurando que los artículos estuvieran correctamente ubicados según su cantidad, tamaño o tipo de material. Colaboré con los departamentos de compras y producción para mantener niveles adecuados de calidad e inventario disponible. También entrené al nuevo personal en sus funciones, políticas de la empresa y procedimientos de seguridad, facilitando su rápida integración al equipo.
+
+# Your project portfolio
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: 10%
+
+      - name: CSS
+        level: 10%
+
+      
