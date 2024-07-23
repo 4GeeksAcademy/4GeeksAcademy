@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolle
+    last_name: Rodriguez Layton
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender 
+    
+    # focus
+    focus: Mejorar todos los dias 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: nicol1@gmail.com #optional
+    phone: 237 4823 344 #optional
+    linkedin: no yet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Nicoller-24
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: nivel C1
+
+    # Interests or hobies
+    interests:
+      - item: Pintar
+
+      - item: Peliculas
+
+      - item: Dibujar
+
+# Your previous education
+education:
+    - degree: Bachiller 
+      university: Tricapin
+      # optional
+      time: 2009 - 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Tecnico en Porgramacio de Software
+      university: Sena
+      # optional
+      time: 2021 - 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or voluntier
+experiences:
+      - role: Estudiante
+        time: 2021 - Present
+        company: 4Geeks Academy
+        details: Learning HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python during the intensive bootcamp. 
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: botstrapphotofeed
+        # optional
+        link: "#hook"
+        tagline: "Feed de instagram creado con bootstrap, responsive"
+
+      - title: Create-a-Form
+        # optional
+        link: "#"
+        tagline: "Formulario hecho con Bootstrap y Flexbox"
+
+      - title: exercise-postcard
+        # optional
+        link: "#"
+        tagline: "xxxxxxxxxx"
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Github
+        level: 45%
