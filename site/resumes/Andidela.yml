@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output
-#
-
 template: "online-cv"
 skin: "blue"
 
@@ -9,14 +5,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Maria Andrea
+    last_name: de la Rocha
     
     # Define yourself in 4-5 words
     motto: I like saving the world
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Educacion
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -40,7 +36,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01hb
+    github: Andidela
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
