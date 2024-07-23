@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output
-#
-
 template: "online-cv"
 skin: "blue"
 
@@ -9,14 +5,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Maria Andrea
+    last_name: de la Rocha
     
     # Define yourself in 4-5 words
     motto: I like saving the world
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Education
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,17 +28,17 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: andrea.delarocha@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01hb
+    github: Andidela
     
-    twitter: 'webjeda' #optional
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -51,23 +47,21 @@ basic_info:
         level: Native
 
       - idiom: French
-        level: Professional
+        level: A1
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Reading
 
-      - item: Snowboarding
-
-      - item: Cooking
+      - item: Drawing
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: BS in Biology
+      university: Barry University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
@@ -81,26 +75,12 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
+    - role: Secondary Science Teacher
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: American Cooperative School
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
@@ -117,24 +97,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
+    - role: Secondary Science and Math Teacher
       time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+      company: Lakeside International School
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
