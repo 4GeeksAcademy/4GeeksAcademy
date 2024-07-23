@@ -1,0 +1,60 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana Raquel
+    last_name: Perez Rojas
+    
+    # Define yourself in 4-5 words
+    motto: Valoro mucho la honestidad
+    
+    # Focus
+    focus: Aprender y mejorar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Apenas soy una estudiante de Ingeneria de Informatica, la cual entre
+      mas conoce este mundo mas se entusiasma al aprender nuevas cosas y 
+      desea conocer mejor todo lo relacionado con codificar, entre mas 
+      lo cozco mas me gusta.
+
+  # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ARaquel-22
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: Basic
+
+     
+
+    # Interests or hobbies
+    interests:
+      - item: Cocinar
+
+      - item: Hacer Rompecabesas
+
+      - item: Pasar tiempo con mis perros
+    
