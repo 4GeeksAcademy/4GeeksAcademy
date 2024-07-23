@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failures in output
 #
 
 template: "online-cv"
@@ -9,97 +9,83 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: santiago
-    last_name: Espinal
+    first_name: Santiago
+    last_name: Espinal Martinez
     
     # Define yourself in 4-5 words
-    motto: I am helping to build the world 
+    motto: I like learn 
     
-    # focus
-    focus: Take care of my family
+    # Focus
+    focus: strive to learn to be a good full-stack programmer 
     
-    # You have 1 paragraph to make a great impression, summarize your career.
+    # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      I born in Brazil....
-
-      I am looking for a new oportunity...
+      I am a recent graduate student in 2023, starting in the world of programming.
+      I am passionate about software development and am focused on gaining knowledge
+      in programming languages and web technologies. I am looking for opportunities
+      to apply my skills and grow professionally in the field of software development.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://yt3.googleusercontent.com/73Msdb-1LmWbH2LPOkyFw9nQFqTyh2LoY5A7EE7fjS96gig33N4ud0wQpVnZizA-vK1AQxlz=s900-c-k-c0x00ffffff-no-rj
 
     # Contact Information
-    email: roddrigomoraes@yahoo.com #optional
-    phone: 786 399 5754 #optional
-    linkedin: roddrigomoraes #optional
+    email: santiagoespinal333@gmail.com
     
     #
     # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: santiagoe16
     
-    twitter: 'moraesroddrigo' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-
-    # languages you speak, levels inculde: Native, Professional
+    # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: Portuguese
-        level: Native
-
-      - idiom: English
-        level: Professional
-
       - idiom: Spanish
-        level: Professional
+        level: native
 
-    # Interests or hobies
+    # Interests or hobbies
     interests:
-      - item: Beaches
+      - item: voleyball
 
-      - item: family
-
-      - item: Cooking
+      - item: video games
 
 # Your previous education
 education:
-    - degree: Computer Science
-      university: Miami Dade College
-      time: 2022 - current
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2011 - 2012
       details: |
-        I am studing...
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
-          - GPA 3.25
-      
-# Your previous job experiences or voluntier
-experiences:
-    - role: Bookkeeper
-      time: 2021 - Present
-      company: Quest Cargo, Miami
-      details: |
-        As a Bookkeeper, I ...
+          - Bullet point
+          - Bullet point
 
-
-    - role: Owner
-      time: 2016 - 2020
-      company: R&G Trading, Miami
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
       # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
       details: |
-        I worked....
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
 
+          - Bullet point
+          - Bullet point
 
-    - role: Bookkeeper
-      time: 2011 - 2015
-      company: Ezcup Dispenser, Sao Paulo - Brazil
-      # optional
-      details: |
-        As a bookkeper, I ....
+# Your previous job experiences or volunteer
 
-# Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
-      section.
-      
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
       - title: Velocity
         # optional
@@ -133,21 +119,7 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 75%
+    
     
