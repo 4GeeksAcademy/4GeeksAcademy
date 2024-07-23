@@ -1,5 +1,5 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output
+# 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 template: "online-cv"
@@ -9,22 +9,22 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Maria 
+    last_name: Beita
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: motto
     
-    # Focus
-    focus: Killing Bad Boys
+    # focus
+    focus: focus
     
-    # You have 1 paragraph to make a great impression, summarize your career
+    # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis disa parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricie nec, pellentesque eu.
       Second paragraph if required.
     
     # Your profile picture URL
@@ -32,128 +32,119 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: barbara.ramos@gmail.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01hb
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: beitaqa25
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # Languages you speak, levels include: Native, Professional
+    # languages you speak, levels inculde: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
-
-    # Interests or hobbies
+    # Interests or hobies
     interests:
-      - item: Climbing
-
-      - item: Snowboarding
-
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: PhD in Conservation Medicine
+      university: Universidad Andrés Bello
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
+      time: 2009 - 2016
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: BSc in Biochemistry
+      university: Pontificia Universidad Católica de Chile
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://cdn.worldvectorlogo.com/logos/universidad-catolica-de-chile.svg
+      time: 1998 - 2005
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
-# Your previous job experiences or volunteer
+# Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Asistente de investigación
+      time: 2017-2019
+      company: Pontificia Universidad Católica de Chile
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://cdn.worldvectorlogo.com/logos/universidad-catolica-de-chile.svg
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Tesista Doctorado
+      time: 2012 - 2016
+      company: Pontificia Universidad Católica de Chile
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
+    - role: Profesor Asistente
+      time: 2009 - 2013
+      company: Universidad Andrés Bello
+      # optional
+      company_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: Profesor Coordinador
+      time: 2009 - 2011
+      company: Universidad Andrés Bello
+      # optional
+      company_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
 # Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
       - title: Velocity
         # optional
@@ -190,7 +181,7 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: JavaScript & jQuery
+      - name: Javascript & jQuery
         level: 98%
 
       - name: Angular
