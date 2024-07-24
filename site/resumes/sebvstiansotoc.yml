@@ -1,0 +1,31 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Sebastian
+  last_name: Soto Cifuentes
+  motto: Dedication, learning, caring, helping, active
+  focus: Learning everything I can about web development.
+  summary: >
+    I am an active outdoorsy person who also enjoys being indoors and
+    spending time on the computer. 
+
+    I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
+
+    For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
+  avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+  email: 321mulville@gmail.com
+  linkedin: https://www.linkedin.com/in/mark-mulville-5a1b2a85/
+  github: 84mulville
+  twitter: MarkMulville
+  languages:
+    - idiom: English
+      level: Native
+  interests:
+    - item: Riding bmx
+    - item: Health & wellness
+    - item: Suring
+experiences:
+  - role: Professional bike rider
+    time: 2002 - Present
+    company: Profile Racing
