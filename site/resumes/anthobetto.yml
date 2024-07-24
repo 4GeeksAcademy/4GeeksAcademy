@@ -1,0 +1,71 @@
+template: "online-cv"
+skin: "blue"
+
+# Profile information
+basic_info:
+  first_name: Anthony
+  last_name: Flores
+
+  focus: Full-Stack Skills
+
+  summary: |
+    I am always willing to learn something new every single day.
+
+  # Your profile picture URL
+  avatar: https://i.postimg.cc/htFyJLnY/Foto-Perfil-Anthony-Flores.png
+
+  # Sidebar links
+  linkedin: https://www.linkedin.com/in/anthonyfloresm
+  github: anthobetto
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: Spanish
+      level: Professional
+
+    - idiom: German
+      level: Limited Working Proficiency
+
+  interests:
+    - item: Coding
+
+    - item: Sports (mostly Running and Padel)
+
+    - item: Cooking
+
+# Your previous education
+education:
+  - degree: Full-Stack Software Developer
+    educational institute: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - Current
+
+  - degree: The PowerMBA specialization in Digital Marketing
+    educational institute: ThePower Business School
+    university_logo: https://framerusercontent.com/images/zJBgnto0UuieHjFzX0KB4xPLrLk.png
+    time: 2022 - 2022
+
+  - degree: Bachelor's
+    university: University of Alejandro de Humboldt
+    university_logo: https://unihumboldt.edu.ve/img/logo.png
+    time: 2012 - 2016
+
+# Your previous job experiences
+experiences:
+  - role: Kit Digital Trainer
+    time: 2023 - Present
+    company: Erictel
+    # optional
+    company_logo: https://erictel.com/bundles/erictelintranet/img/erictel-logo.png
+    details: |
+      I show companies the development of IoT solution acquired through the company and how it works in the user interface.
+
+  - role: Career Advisor
+    time: 2022 - 2022
+    company: ThePower Business School, Madrid
+    # optional
+    company_logo: https://framerusercontent.com/images/zJBgnto0UuieHjFzX0KB4xPLrLk.png
+    details: |
+      Democratizing Higher Business Education
