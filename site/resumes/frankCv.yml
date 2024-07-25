@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Frank
+    last_name: Cruces
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like saving money
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Hunting Tardigrados
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,15 +32,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: fjcvillacorta@gmail.com #optional
+    phone: 940 713 801 #optional
+    website: nohay.com #optional
+    linkedin: https://www.linkedin.com/in/frank-crucesv/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: frankCv
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
