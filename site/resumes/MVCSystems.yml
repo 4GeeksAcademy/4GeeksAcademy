@@ -1,19 +1,19 @@
 template: "online-cv"
 skin: "blue"
 
-# Personal Information
+# Información Personal
 basic_info:
   first_name: Carlos
   last_name: Mera Valera
-  motto: I like saving the world
-  focus: Killing Bad Boys
+  motto: Me gusta salvar el mundo
+  focus: Eliminar a los chicos malos
   summary: |
-    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+    Resumir tu carrera aquí lorem ipsum dolor sit amet, consectetuer
     adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     Donec quam felis, ultricies nec, pellentesque eu.
 
-    Second paragraph if required.
+    Segundo párrafo si es necesario.
   avatar: https://randomuser.me/api/portraits/men/24.jpg
   email: carlosmerav@gmail.com
   phone: +1 305 123 4567
@@ -21,51 +21,51 @@ basic_info:
   linkedin: https://www.linkedin.com/in/carlosmerav/
   github: MVCSystems
   languages:
-    - idiom: English
-      level: Native
-    - idiom: Spanish
-      level: Professional
+    - idiom: Inglés
+      level: Nativo
+    - idiom: Español
+      level: Profesional
   interests:
-    - item: Climbing
-    - item: Snowboarding
-    - item: Cooking
+    - item: Escalada
+    - item: Snowboard
+    - item: Cocina
 
-# Your previous education
+# Educación previa
 education:
-  - degree: MSc in Computer Science
-    university: University of London
+  - degree: Maestría en Ciencias de la Computación
+    university: Universidad de Londres
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2011 - 2012
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      Describir tus estudios aquí lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
       sociis natoque penatibus et magnis dis parturient montes, nascetur
       ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
       pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Punto destacado
+        - Punto destacado
 
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
+  - degree: Licenciatura en Matemáticas Aplicadas
+    university: Universidad de Bristol
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2007 - 2011
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      Describir tus estudios aquí lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
       sociis natoque penatibus et magnis dis parturient montes, nascetur
       ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
       pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Punto destacado
+        - Punto destacado
 
-# Your previous job experiences or volunteer
+# Experiencia laboral previa o voluntariado
 experiences:
-  - role: Lead Developer
-    time: 2015 - Present
+  - role: Desarrollador Principal
+    time: 2015 - Presente
     company: Startup Hubs, San Francisco
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      Describe tu rol aquí lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
       Cum sociis natoque penatibus et magnis dis parturient montes,
       nascetur ridiculus mus. Donec quam felis, ultricies nec,
@@ -74,64 +74,64 @@ experiences:
       error sit voluptatem accusantium doloremque laudantium, totam rem
       aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
       architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+        - Punto destacado
+        - Punto destacado
 
-  - role: Senior Software Engineer
+  - role: Ingeniero de Software Senior
     time: 2014 - 2015
-    company: Google, London
+    company: Google, Londres
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      Describe tu rol aquí lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
       Cum sociis natoque penatibus et magnis dis parturient montes,
       nascetur ridiculus mus. Donec quam felis, ultricies nec,
       pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Punto destacado
+        - Punto destacado
 
-  - role: UI Developer
+  - role: Desarrollador UI
     time: 2012 - 2014
-    company: Amazon, London
+    company: Amazon, Londres
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      Describe tu rol aquí lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
       Cum sociis natoque penatibus et magnis dis parturient montes,
       nascetur ridiculus mus. Donec quam felis, ultricies nec,
       pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+        - Punto destacado
+        - Punto destacado
 
-# Your project portfolio
+# Portafolio de proyectos
 projects:
   intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Puedes listar tus proyectos paralelos o bibliotecas de código abierto en esta
+    sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
     - title: Velocity
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
     - title: DevStudio
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a los desarrolladores/diseñadores web a comercializar sus servicios."
     - title: Tempo
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar sus productos o servicios y atraer usuarios e inversores."
     - title: Atom
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      tagline: "Una solución de plantilla de sitio web integral para startups/desarrolladores para comercializar sus aplicaciones móviles."
     - title: Delta
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      tagline: "Un tema Bootstrap de una sola página receptiva diseñado para ayudar a los desarrolladores de aplicaciones a promocionar sus aplicaciones móviles."
 
-# Your skills
+# Tus habilidades
 skills:
   toolset:
     - name: Python & Django
@@ -146,3 +146,9 @@ skills:
       level: 85%
     - name: Sketch & Photoshop
       level: 60%
+    - name: Administración de Sistemas Linux
+      level: 90%
+    - name: Bases de Datos (SQL y NoSQL)
+      level: 85%
+    - name: Redes y Seguridad
+      level: 80%
