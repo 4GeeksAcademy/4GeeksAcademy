@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maribel
+    last_name: Maza
+    
+    # Define yourself in 4-5 words
+    motto: Put your heart in everything you do.
+    
+    # Focus
+    focus: Programming and enjoying the way !
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a passionate programmer who sees coding as an epic adventure, full of challenges and discoveries.
+
+      To me, programming isn't just a career—it's a thrilling journey where I get to turn ideas into reality every day.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://mir-s3-cdn-cf.behance.net/user/115/d5c8fc1132303209.61fa0f1f51db3.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mysticbel
+    
+    twitter: 'skyyofglass' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Teaching
+
+      - item: Volunteering
+
+      - item: Baking/Decorate cakes :)
+
+# Your previous education
+education:
+    - degree: Program 
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Full-stack Software Development.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Volunteer in Students Club
+      time: 2022 - Present
+      company: PMI Lima Perú Chapter
+      # optional
+      company_logo: 
+      details: |
+        Member and volunteer. 
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Bootstrap Instagram Clone
+        # optional
+        project_logo: 
+        link: https://github.com/mysticBel/bootstrap-instagram-clone 
+        tagline: "A simple responsive Instagram Feed."
+
+skills:
+    toolset:
+
+      - name: JavaScript & jQuery
+        level: 75%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Figma & Illustrator
+        level: 80%
