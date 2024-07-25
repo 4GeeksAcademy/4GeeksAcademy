@@ -9,8 +9,8 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: YONIL ALEXIS
+    last_name: HINOSTROZA POMAHUACRE
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -32,15 +32,15 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: yonilhp70@gmail.com #optional
+    phone: 952174946 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01hb
+    github: yonil
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
@@ -49,9 +49,6 @@ basic_info:
     languages:
       - idiom: English
         level: Native
-
-      - idiom: French
-        level: Professional
 
       - idiom: Spanish
         level: Professional
@@ -67,7 +64,7 @@ basic_info:
 # Your previous education
 education:
     - degree: MSc in Computer Science
-      university: University of London
+      university: Universidad Nacional San Cristobal De Huamanga
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
@@ -187,6 +184,9 @@ projects:
 
 skills:
     toolset:
+      - name: Flutter
+        level: 50%
+        
       - name: Python & Django
         level: 98%
 
