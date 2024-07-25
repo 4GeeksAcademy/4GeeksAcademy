@@ -9,21 +9,20 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Rocio
+    last_name: Miñano Rosas
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Be happy and smile
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Become a full stack developer
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Starting a career as junior Full-stack developer. I'm eager to learn and fullfill my curiosity 
+      with every piece of technology or information. I really like to focus on users and trying to
+      improve the experience and usability of things.
 
       Second paragraph if required.
     
@@ -32,25 +31,25 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: rocioma@gmail.com #optional
     phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    website: rociomr.com #optional
+    linkedin: https://www.linkedin.com/in/roci/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01hb
+    github: rociomr08
     
-    twitter: 'webjeda' #optional
+    twitter: 'roci' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
       - idiom: Spanish
@@ -58,14 +57,20 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Traveling
 
-      - item: Snowboarding
+      - item: Coding
 
-      - item: Cooking
+      - item: Nature
 
 # Your previous education
-education:
+    education:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2020 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+
     - degree: MSc in Computer Science
       university: University of London
       # optional
@@ -81,44 +86,26 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
+        Learning and doing projects!.
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        pellentesque eu, pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+          - Project html-css
+          - Project Bootstrap Feed Intsagram
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
+    - role: Junior Software Engineer
+      time: 2024 - 2025
       company: Google, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -133,7 +120,7 @@ experiences:
           - Bullet point
 
     - role: UI Developer
-      time: 2012 - 2014
+      time: 2026 - 2027
       company: Amazon, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
@@ -187,20 +174,17 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
       - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+        level: 70%
 
       - name: HTML5 & CSS
         level: 95%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 60%
 
       - name: Sketch & Photoshop
         level: 60%
+
+      - name: Bootstrap
+        level: 85%
