@@ -1,0 +1,100 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Micaela
+    last_name: Rojas
+    
+    # Define yourself in 4-5 words
+    motto: Full-time Geek
+    
+    # Focus
+    focus: Growing in coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a qualified professional in Software Design and Development. My experience focuses on web design, operating systems, and application development. I am passionate about the power of languages as a bridge between cultures and businesses, reflecting my commitment to intercultural communication and my eagerness to continuously learn and grow in the tech field.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: micaela.rojas.0602@gmail.com
+    phone: 960703936
+    github: MicaelaRojas
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Basic
+
+      - idiom: Chinese
+        level: Basic
+    
+
+    # Interests or hobbies
+    interests:
+      - item: Learning programming
+
+      - item: Learning languages
+
+      - item: Reading
+
+      - item: Watching anime
+
+# Your previous education
+education:
+    - degree: Technical in Software Design and Development
+      university: TECSUP
+      time: 2020 - 2023
+      details: |
+        Participated in an exchange program at the Complutense University of Madrid, where I attended advanced classes at the Faculty of Computer Science and was a finalist in an Arduino robotics competition.
+
+    - degree: Scholarship for 4Geeks Academy Bootcamp
+      university: TECSUP
+      time: 2024 - 2024
+      details: |
+        Awarded by the Peruvian government for an online bootcamp at 4Geeks Academy from July 15, 2024, to present. Engaged in intensive programming training with a focus on HTML and CSS.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Digital Manager
+      time: 05/01/2023 – 03/07/2023
+      company: Italian Cultural Institute of Lima
+      details: |
+        Provided technical support, equipment maintenance, digital file management, and virtual platforms. Streamlined and effectively stored recordings, videos, and images in a database, edited videos, and managed servers and network administration.
+
+    - role: Intern
+      time: 01/02/2022 – 15/04/2022
+      company: Contugas S.A.C
+      details: |
+        Optimized staff training processes using SAP and organized the launch event for SAP S4/HANA. Improved staff training by 25% and designed an Excel-based course control system.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this section. I have worked on various projects during the 4Geeks Academy bootcamp, focusing on HTML and CSS.
+
+    assignments:
+      - title: Projects in 4Geeks
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Different projects in HTML and CSS during the 4Geeks Academy bootcamp."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
