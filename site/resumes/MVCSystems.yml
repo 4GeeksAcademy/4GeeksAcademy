@@ -9,15 +9,10 @@ basic_info:
   focus: Eliminar a los chicos malos
   summary: |
     Resumir tu carrera aquí lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-
-    Segundo párrafo si es necesario.
+    adipiscing elit.
   avatar: https://randomuser.me/api/portraits/men/24.jpg
   email: carlosmerav@gmail.com
   phone: +1 305 123 4567
-  website: asd.com
   linkedin: https://www.linkedin.com/in/carlosmerav/
   github: MVCSystems
   languages:
@@ -34,102 +29,32 @@ basic_info:
 education:
   - degree: Maestría en Ciencias de la Computación
     university: Universidad de Londres
-    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2011 - 2012
-    details: |
-      Describir tus estudios aquí lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Punto destacado
-        - Punto destacado
-
   - degree: Licenciatura en Matemáticas Aplicadas
     university: Universidad de Bristol
-    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2007 - 2011
-    details: |
-      Describir tus estudios aquí lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Punto destacado
-        - Punto destacado
 
 # Experiencia laboral previa o voluntariado
 experiences:
   - role: Desarrollador Principal
     time: 2015 - Presente
     company: Startup Hubs, San Francisco
-    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    details: |
-      Describe tu rol aquí lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Punto destacado
-        - Punto destacado
-
   - role: Ingeniero de Software Senior
     time: 2014 - 2015
     company: Google, Londres
-    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    details: |
-      Describe tu rol aquí lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Punto destacado
-        - Punto destacado
-
   - role: Desarrollador UI
     time: 2012 - 2014
     company: Amazon, Londres
-    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    details: |
-      Describe tu rol aquí lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Punto destacado
-        - Punto destacado
 
 # Portafolio de proyectos
 projects:
   intro: >
-    Puedes listar tus proyectos paralelos o bibliotecas de código abierto en esta
-    sección. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Puedes listar tus proyectos paralelos o bibliotecas de código abierto en esta sección.
   assignments:
     - title: Velocity
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#hook"
       tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
-    - title: DevStudio
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a los desarrolladores/diseñadores web a comercializar sus servicios."
-    - title: Tempo
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar sus productos o servicios y atraer usuarios e inversores."
-    - title: Atom
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "Una solución de plantilla de sitio web integral para startups/desarrolladores para comercializar sus aplicaciones móviles."
-    - title: Delta
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: "Un tema Bootstrap de una sola página receptiva diseñado para ayudar a los desarrolladores de aplicaciones a promocionar sus aplicaciones móviles."
 
 # Tus habilidades
 skills:
@@ -144,8 +69,6 @@ skills:
       level: 95%
     - name: Ruby on Rails
       level: 85%
-    - name: Sketch & Photoshop
-      level: 60%
     - name: Administración de Sistemas Linux
       level: 90%
     - name: Bases de Datos (SQL y NoSQL)
