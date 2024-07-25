@@ -9,18 +9,18 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Maguila
+    last_name: Sanchez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Aprende bien para poder enseñar a los demas!
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Full-Stack Web Developer.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      Quimica. lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
@@ -32,47 +32,47 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: maguilasanchezromani.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: msanchez #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: MaguiSanchez
     
-    twitter: 'webjeda' #optional
+    twitter: 'msanchez' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: basico
 
-      - idiom: French
-        level: Professional
+      - idiom: español
+        level: nativo
 
       - idiom: Spanish
-        level: Professional
+        level: nativo
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: dibujar
 
-      - item: Snowboarding
+      - item: leer obras literarias
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: bch. Quimica
+      university: Universidad Nacional Mayor de San Marcos
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2012-2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        Quimica. lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
