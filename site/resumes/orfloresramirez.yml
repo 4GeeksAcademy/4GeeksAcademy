@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Ruben
+    last_name: Flores
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: The football is life.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Data Analysis
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -29,49 +29,47 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://scontent-lim1-1.cdninstagram.com/v/t51.2885-19/432256763_870985481450443_8806669574439262762_n.jpg?_nc_ht=scontent-lim1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=zugbkuQ8VMoQ7kNvgE54UY0&edm=AEhyXUkBAAAA&ccb=7-5&oh=00_AYB7reCn5N7Jvp1XaS4YyJUEStQyi5yzUoMcy4_8K-Ilig&oe=66A8A38A&_nc_sid=8f1549
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: ruben94fr@hotmail.com #optional
+    phone: 955840407 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: https://www.linkedin.com/in/ruben-flores-ramirez-b4aa74242/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: andy01hb
+    github: orfloresramirez
     
-    twitter: 'webjeda' #optional
+    twitter: nothing #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Basic
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Football
 
-      - item: Snowboarding
+      - item: Movies
 
-      - item: Cooking
+      - item: Music
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+
+    - degree: Scouting and Football performance analyst
+      university: LaPizarradelDT
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
+      time: 2023-act
+      details: 
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -81,12 +79,12 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Networks and Informatic Security
+      university: SISE
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
+      time: 2021-2024
+      details: 
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -94,16 +92,16 @@ education:
         pretium quis, sem.
 
           - Bullet point
-          - Bullet point
+          - Bullet point      
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Specialist Digital Imaging Solutions
+      time: 2016 - 2023
+      company: Iron Mountain , Callao - Peru
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      details: 
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -117,39 +115,9 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
 # Your project portfolio
 projects:
-    intro: >
+    intro: 
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
@@ -187,20 +155,11 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: PowerBI
+        level: 70%
 
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: SQLServer
+        level: 80%
 
       - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        level: 50%
