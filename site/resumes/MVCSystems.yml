@@ -8,8 +8,8 @@ basic_info:
   motto: Me gusta salvar el mundo
   focus: Eliminar a los chicos malos
   summary: |
-    Resumir tu carrera aquí lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit.
+    Soy un desarrollador de software con más de 5 años de experiencia en el desarrollo de aplicaciones web y móviles. Me apasiona la tecnología y me encanta aprender nuevas cosas. Soy un apasionado de la escalada y el snowboard.    
+
   avatar: https://randomuser.me/api/portraits/men/24.jpg
   email: carlosmerav@gmail.com
   phone: +1 305 123 4567
@@ -27,9 +27,9 @@ basic_info:
 
 # Educación previa
 education:
-  - degree: Maestría en Ciencias de la Computación
-    university: Universidad de Londres
-    time: 2011 - 2012
+  - degree: Computación e Informática
+    institute: Instituto IDAT
+    time: 2010 - 2014
   - degree: Licenciatura en Matemáticas Aplicadas
     university: Universidad de Bristol
     time: 2007 - 2011
@@ -42,6 +42,7 @@ experiences:
   - role: Ingeniero de Sistemas
     time: 2014 - 2015
     company: Google, Londres
+
 
 # Portafolio de proyectos
 projects:
