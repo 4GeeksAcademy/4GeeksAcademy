@@ -1,0 +1,73 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kevin
+    last_name: Villafuerte Montero
+  
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://images.pexels.com/photos/1851243/pexels-photo-1851243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+    # Contact Information
+    email: villafuerte.montero.26@gmail.com #optional
+    phone: --- #optional
+    website: --- #optional
+    linkedin: ---- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CVKevin
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+ 
+
+    # Interests or hobbies
+    interests:
+      - item: boxing
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Software Full Stack developer
+      university: 4 Geeks academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+
+    - degree: Bachiller
+      university: University Tecnology of Peru
+      time: 2024 - 2024
+
+
+skills:
+    toolset:
+      - name: Python
+
+      - name: Java
+
+      - name: JavaScript & jQuery
+
+      - name: Angular
+
+      - name: HTML5 & CSS
+
