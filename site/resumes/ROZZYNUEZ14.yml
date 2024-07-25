@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Rossy
+    last_name: Palacin
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: If you are afraid, do it with fear.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Achieve my goals
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: ROZZYNUEZ14
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
