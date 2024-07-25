@@ -5,9 +5,8 @@ skin: "blue"
 basic_info:
   first_name: Carlos
   last_name: Mera Valera
-  motto: Me gusta salvar el mundo
-  focus: Eliminar a los chicos malos
-  summary: |
+  motto: Me gusta aprender nuevas cosas y nuevas tecnologías.
+  summary:
     Soy un desarrollador de software con más de 5 años de experiencia en el desarrollo de aplicaciones web y móviles. Me apasiona la tecnología y me encanta aprender nuevas cosas. Soy un apasionado de la escalada y el snowboard.    
 
   avatar: https://randomuser.me/api/portraits/men/24.jpg
