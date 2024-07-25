@@ -1,0 +1,132 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Yonela
+    last_name: Carbajal Valdivia
+    motto: I like saving the world
+    focus: Killing Bad Boys
+    summary: |
+      Con un enfoque especial en la creación de soluciones innovadoras, me destaco 
+      por ser proactiva, autodidacta y colaborativa. He desarrollado 
+      habilidades sólidas en programación, lo que me permite aportar de manera 
+      significativa a los equipos de trabajo.
+
+      Mi ética profesional es un pilar fundamental. Priorizo valores como la 
+      integridad, la transparencia y el respeto en cada proyecto en el que participo. 
+      Busco constantemente oportunidades que me permitan aplicar y mejorar mis 
+      habilidades técnicas y de liderazgo.
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    email: yonelacv30@gmail.com
+    phone: 997736288
+    website: https://www.linkedin.com/in/yonela-isamar-carbajal-valdivia-680083227/
+    github: yonela12345
+    twitter: 'webjeda'
+    stack-overflow: 123456/yonelacv30
+    languages:
+      - idiom: English
+        level: Intermediate
+      - idiom: Spanish
+        level: Native
+    interests:
+      - item: Climbing
+      - item: Read
+      - item: Chess
+
+# Your previous education
+education:
+    - degree: Profesional Técnico en Diseño y Desarrollo de Software
+      university: Instituto Superior Tecnológico TECSUP
+      time: 2020 - 2022 (En proceso de titulación)
+      details: |
+        Competencias tecnológicas, administrativas y personales para desarrollar aplicaciones.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Desarrolladora Junior
+      time: 2023 - 2024
+      company: 9780Bitcoin
+      details: |
+        - Creación de API con Django para aplicación de Casa Cambio de Criptomonedas.
+        - Creación de vistas y funciones lógicas para el manejo de sesiones, intercambios de monedas, compras, ventas, administración de billeteras, etc.
+        - Consultas a APIs externas.
+        - Creación de tablas y manejos de bases de datos.
+    - role: Becario de Desarrollo Software
+      time: Marzo 2023 – Junio 2023
+      company: BSG Institute
+      details: |
+        - Creación de API con C#.
+        - Creación de procedimientos almacenados para consultas desde la API a la base de datos.
+        - Creación de simuladores de exámenes y edición de la plataforma principal usando Angular.
+    - role: Diseñadora y Desarrolladora de Software
+      time: Septiembre 2022 - Enero 2023
+      company: Buyer Perú SAC
+      details: |
+        - Gestión de Correos de los trabajadores de la empresa y diseño de formatos de correos de envío con firma.
+        - Configuración y gestión del módulo CRM para el área de ventas de la empresa (Se incluyeron procesos de venta como cotizaciones, etc.).
+    - role: Pasante de Diseño y Desarrollo de Software
+      time: Diciembre 2021 - Enero 2022
+      company: CORPORACION NATIVA E.I.R.L.
+      details: |
+        - Gestionar y realizar compra de los servicios a utilizar (Hosting y Dominio).
+        - Realizar la configuración y diseño de 2 sitios web de venta de ropa con WordPress.
+        - Realizar configuración y diseño de una landing page para la empresa.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: SAP
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
