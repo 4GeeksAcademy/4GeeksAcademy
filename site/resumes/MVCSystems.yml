@@ -30,9 +30,6 @@ education:
   - degree: Computación e Informática
     institute: Instituto IDAT
     time: 2010 - 2014
-  - degree: Licenciatura en Matemáticas Aplicadas
-    university: Universidad de Bristol
-    time: 2007 - 2011
 
 # Experiencia laboral previa o voluntariado
 experiences:
@@ -47,29 +44,45 @@ experiences:
 # Portafolio de proyectos
 projects:
   intro: >
-    Puedes listar tus proyectos paralelos o bibliotecas de código abierto en esta sección.
+    Proyectos en los que he trabajado recientemente, basado en el bootcamp 4geeks Academy.
   assignments:
     - title: Velocity
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       link: "#hook"
       tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
-
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    
 # Tus habilidades
 skills:
   toolset:
     - name: Python & Django
-      level: 98%
+      level: 30%
     - name: JavaScript & jQuery
-      level: 98%
+      level: 30%
     - name: Angular
-      level: 98%
+      level: 30%
     - name: HTML5 & CSS
-      level: 95%
-    - name: Ruby on Rails
-      level: 85%
+      level: 80%
     - name: Administración de Sistemas Linux
-      level: 90%
-    - name: Bases de Datos (SQL y NoSQL)
-      level: 85%
+      level: 50%
+    - name: Bases de Datos (SQL)
+      level: 80%
     - name: Redes y Seguridad
       level: 80%
+    - name: Help Desk
+      level: 95%
