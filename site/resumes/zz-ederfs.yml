@@ -9,58 +9,55 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Eder
+    last_name: Fernandez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Always learning, always innovating.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Building a better future.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Bachelor in Business Managment as background education but a lifetime working, experiencing and innovating in hardware & software. I'm able to work as standalone or collectively.
+      Looking always to new challenges and growth opportunities.
+      
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/men/73.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: emfs2000@gmail.com #optional
+    phone: any#optional
+    website: #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: zz-ederfs
     
-    twitter: 'webjeda' #optional
+    twitter: '' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
         level: Professional
+
+      - idiom: German
+        level: Intermediate
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Guitar
 
-      - item: Snowboarding
+      - item: Soccer
 
       - item: Cooking
 
