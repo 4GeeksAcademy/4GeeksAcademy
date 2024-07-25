@@ -14,19 +14,15 @@ basic_info:
     Donec quam felis, ultricies nec, pellentesque eu.
 
     Second paragraph if required.
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
   email: carlosmerav@gmail.com
-  phone: 234 2342 342
+  phone: +1 305 123 4567
   website: asd.com
   linkedin: https://www.linkedin.com/in/carlosmerav/
-  github: example
-  twitter: 'webjeda'
-  stack-overflow:
+  github: MVCSystems
   languages:
     - idiom: English
       level: Native
-    - idiom: French
-      level: Professional
     - idiom: Spanish
       level: Professional
   interests:
