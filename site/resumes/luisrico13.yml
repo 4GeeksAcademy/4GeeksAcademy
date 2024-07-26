@@ -9,21 +9,18 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Luis
+    last_name: Rico
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like dragon ball
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Make money
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Hi, I’m Alex, 28 years old, and I’m currently working in [your field]. When I’m not at the office, you can usually find me on the sports field or at the gym. I have a real passion for staying active, whether it’s playing basketball, going for a run, or trying out new sports. It’s a great way for me to unwind, stay fit, and connect with friends. If you’re into sports too, I’d love to hear about your favorites!
 
       Second paragraph if required.
     
@@ -40,7 +37,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: luisrico13
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
