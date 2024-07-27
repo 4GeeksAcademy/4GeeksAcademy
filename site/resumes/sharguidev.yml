@@ -1,4 +1,8 @@
-emplate: "online-cv"
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
 skin: "blue"
 
 # Personal Information
@@ -9,50 +13,54 @@ basic_info:
     last_name: Obando
     
     # Define yourself in 4-5 words
-    motto: I love Jesus Christ!
+    motto: I like saving the world
     
     # Focus
-    focus: Living Life as a Kid
+    focus: Killing Bad Boys
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      I am a software developer looking toestablish and consolidate myself in acompany that gives me stability, a place
-      that allows me to apply the knowledgeacquired in the years of study, as well as myplanning and leadership skills.
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
 
-      
+      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: mrguidoc@gmail.com #optional
+    email: a@a.com #optional
     phone: 234 2342 342 #optional
-    website: sharguidev.com #optional
-    linkedin: Guillermo Obando #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/Sharguidev
+    github: sharguidev
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: Spanish
+      - idiom: English
         level: Native
 
-      - idiom: English
+      - idiom: French
         level: Professional
 
+      - idiom: Spanish
+        level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Going to Mass
+      - item: Climbing
 
-      - item: Football games
+      - item: Snowboarding
 
       - item: Cooking
 
