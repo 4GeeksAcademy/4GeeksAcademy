@@ -2,7 +2,8 @@ template: "online-cv"
 skin: "blue"
 
 # Información Personal
-basic_info:
+basic_info: 
+   
   first_name: Yojan Stiben
   last_name: Hungria
   motto: "Innovating through code"
@@ -11,7 +12,7 @@ basic_info:
     Full Stack Developer skilled in Python, Flask, MySQL, ReactJS, Angular, and PostgreSQL. I refined my expertise at the Python Full Stack Bootcamp and JavaScript Full Stack Bootcamp in Coding Dojo and 4Geeks Academy.
   avatar: https://randomuser.me/api/portraits/man/24.jpg
   linkedin: https://www.linkedin.com/in/ing-yojan-stiben-hungria/
-  github: https://github.com/yshungria-uniandes
+  github: yshungria-uniandes
 
   languages:
     - idiom: Spanish
