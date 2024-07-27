@@ -9,11 +9,11 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Maria Fernanda
+    last_name: Gonzalez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: 
     
     # Focus
     focus: Killing Bad Boys
@@ -32,42 +32,39 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: mariafernandaarqui@gmail.com
+    phone: xxx
+    website: 
+    linkedin: 
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01hb
+    github: mafergonzalezz
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English 
+        level: B1
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item:  Crafting
 
-      - item: Snowboarding
+      - item: Play videogames
 
-      - item: Cooking
+      - item: Play padel 
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: bachelor of architecture
+      university: Universidad Jose Antonio Paez
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
