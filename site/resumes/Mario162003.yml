@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mario
+    last_name: Cañiares Arce
+    
+    # Define yourself in 4-5 words
+    motto: I like learning new things
+    
+    # Focus
+    focus: Play football
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am studying a business administration degree at the Universitat Autònoma de Barcelona. The next course is the last one and I have strated an online bootcam about data
+      science, focused on programing with python. 
+      During the last three years I've been working as a waiter in a bar from my town, Manresa. I consider myself I hardworking person who tries to learn new thigs every day
+      in order to keep the brain active but also to be motivated everyday. 
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.google.com/photo/AF1QipPEwG690MHrWQtXqOIj0Ye-w7kZFERBinxsAFIr
+
+    # Contact Information
+    email: macarce2003@gmail.com #optional
+    phone: +34 640-141-522 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Mario162003
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Italian
+        level: Begginer (level A1)
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Football
+
+      - item: Videogames
+
+      - item: F1
+
+# Your previous education
+education:
+    - degree: Business Administration 
+      university: Universitat Autònoma de Barcelona (UAB)
+      # optional
+      time: 2021 - 2025
+      details: |
+        Studying business administration was not a simple choice for me, because I was not aware if that degree
+        would fit me. However, I have really enjoyed those three years of the degree, since I have learned a lot, 
+        and I have found what suits best for me. I really liked the part from finance and data analysis, and in fact my next goal
+        is to study a master degree which combines both of them.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Waiter
+      time: 2021 - 2024
+      company: Frankfurt Albert
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Different projects done durning the course of Datascience in 4Geeks.
+
+    assignments:
+      - title: Final Project of the Pre-Work
+        # optional
+        project_logo: https://github.com/Mario162003/realestate-datacleanup-exercise.git
+        link: "#hook"
+        tagline: "House Prices of different places of Spain"
+
+skills:
+    toolset:
+      - name: Pytho
+        level: 5%
+
+      - name: Excel
+        level: 25%
