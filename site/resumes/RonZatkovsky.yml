@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ron
+    last_name: Zatkovsky
+    
+    # Define yourself in 4-5 words
+    motto: We can do it yes we can. If we cant do it, no one can!
+    
+    # Focus
+    focus: Killing Baddies
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I love programming
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: RonZatkovsky
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hebrew
+        level: Native
+
+      - idiom: Russian
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Singing
+
+      - item: Coding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BS in Computer Science
+      university: University of Connecticut
+      # optional
+      university_logo: https://today.uconn.edu/wp-content/uploads/2013/04/husky_qa.jpg.jpeg
+      time: 2020 - 2024
+      details: |
+        Lots of learning of the structure and correct practices
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Analyst
+      time: 2020 - Present
+      company: Edgewell Personal Care, Milford
+      # optional
+      company_logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092017/untitled-1_102.png?y3TtVHefmPr8PhLS1sWD1RZabWiuglRX&itok=359wbiJO
+      details: |
+        Stuff
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
