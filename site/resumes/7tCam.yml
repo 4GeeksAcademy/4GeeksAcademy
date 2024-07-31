@@ -9,69 +9,71 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Andy
-    last_name: Herrera
+    first_name: Luis
+    last_name: Gomez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like listen to programmer
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Achieve happiness
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+    summary: 
+      Programming is the art of the future, it is my safe place, my best decision.
+      Because it is not only about coding but also about finding intelligent solutions
+      and proposing technological and innovative proposals, that is why I feel very proud
+      to be part of this great revolutionary and technological era.
 
-      Second paragraph if required.
+     Second paragraph if required.
+
+      I chose to study programming because I firmly believe that it is the career that
+      offers the most opportunities to innovate and make a real difference in the world.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://ibb.co/RgSfqTQdd
 
     # Contact Information
-    email: a@a.com #optional
+    email: luis.28.august@gmail.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: https://www.linkedin.com/in/luis-gomez-8104382a1/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Andy01h
+    github: 7tCam
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: lutgomez # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
+
+      - idiom: Englis
+        level: Professional
 
       - idiom: French
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
-
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Read
 
-      - item: Snowboarding
+      - item: Travel
 
-      - item: Cooking
+      - item: Esports gaming
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: I.E 7098 Rodrigo Lara Bonilla
+      university: 4 Geeks
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
+      time: 2024 - 2025
+      details: 
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
