@@ -1,0 +1,88 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+  # Profile information
+  first_name: Alejandro
+  last_name: Dayekh
+  motto: La clave de la fotografía está en encuadrar bien los intantes que no regresan.
+  avatar: https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/146208674_5312318962126639_6244084036489217581_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=yYgSvGPQuMEAX9v0XDc&_nc_ht=scontent-mia3-1.xx&oh=f43baf832867826f68841138ca6fefba&oe=60926C7B
+  summary: |
+    La programación es algo inasumible para aprender a la perfección, lo bueno es que yo aprendo fallando y equivocándome. Así se los transmití a mis alumnos y alumnas también cuando fui maestro. Ahora pienso equivocarme sin parar hasta lograr ser menos imperfecto.
+
+  # Sidebar links
+  email: maestrodayekh@gmail.com
+  phone: 651724520
+  website: alesanchezr.com
+  linkedin: https://www.linkedin.com/in/franky-lopez-developer/?locale=en_US
+  github: ADayekh
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Upper-Intermediate
+
+  interests:
+    - item: Gaming
+
+    - item: Natural Photography
+
+    - item: Hiking
+
+education:
+  - degree: Maestro de Primaria
+    university: Universidad de La Laguna
+    time: 2016 - 2020
+    details: |
+     El proyecto de TFG explora el uso de videojuegos comerciales en un marco STEAM, incluyendo actividades interdisciplinares basadas en Flipped Classroom.
+
+  - degree: Máster en Tecnología Educativa
+    university: Universidad de La Laguna
+    time: 2020 - 2021
+    details: |
+      El proyecto de TFM realizado versa sobre el desarrollo de la Ciberseguridad y la Protección en la red en menores de 11-12 años a través de la Gamificación.
+
+experiences:
+  - role: Profesor de Primaria
+    time: 10/2021 - 05/2024
+    company: Pureza de María
+    details: |
+      Tutor de 6ºEP, docente de Robótica y TAC
+
+projects:
+  intro: >
+   Pronto tendré más proyectos que mostrar.
+    
+  assignments:
+    - title: Game Finder
+      # link: "#hook"
+      tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 20%
+
+    - name: HTML5 & CSS
+      level: 60%
+
