@@ -1,0 +1,115 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Anthony 
+  last_name: Campos
+  
+  # Define yourself in 4-5 words
+  motto: "Me gusta Aprender y Crear."
+  
+  # Focus
+  focus: "Ser mejor que ayer."
+  
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: "Desarrollador Full Stack | HTML, CSS, JavaScript, React, Python, Flask | Buscando oportunidades en desarrollo web"
+  
+  # Second paragraph if required.
+  # summary_second_paragraph: "..."
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: 
+
+  # Contact Information
+  email: anthonycq2024@gmail.com # optional
+  github: tonycq
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Español
+      level: Nativo
+
+  # Interests or hobbies
+  interests:
+    - item: Leer
+    - item: Ciclismo
+
+# Your previous education
+education:
+  - degree: Desarrollador Web Full Stack
+    university: 4 geeks Academy Chile
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2023-2024
+    details: |
+      bootcamp de 18 semanas en programación:  
+      - Fase pre-work: 2 semanas (conocer la plataforma 4 geeks, HTML, CSS).
+      - Fase aprender a programar: 2 semanas (algoritmos, bucles, línea de comandos, git, JavaScript).
+      - Fase Aplicaciones de Software Junior y Avanzadas: 14 semanas (React, DOM, Python, Flask, API Rest, Bases de datos, SQL).
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Servicio Técnico de Computadoras
+    time: 2008 - 2011
+    company: system@merilus
+    # optional
+    details: |
+      Como técnico de servicio de computadoras, ensamblaba equipos nuevos y proporcionaba explicaciones 
+      detalladas a los clientes sobre el cuidado y mantenimiento de sus dispositivos. También diagnosticaba y 
+      reparaba fallas de software, realizando tareas como formateo y reinstalación de sistemas operativos. Además, 
+      reemplazaba componentes dañados como tarjetas madre, memoria RAM y discos duros, asegurando la funcionalidad y 
+      rendimiento óptimo de los equipos.
+
+# Your project portfolio
+projects:
+  assignments:
+    - title: Post de Instagram
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Replicar un Post de Instagram usando HTML y CSS."
+
+    - title: Instagram Feed con Bootstrap
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Un sitio web donde usamos componentes de Bootstrap y navegación entre dos páginas."
+
+    - title: Crea un formulario con HTML5
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Un formulario para practicar usando HTML y CSS."
+
+    - title: Generador de excusas en JavaScript
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Proyecto que, con pocas líneas de código, crea un generador de excusas en JavaScript."
+
+    - title: Generador de Nombres de Dominios
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Proyecto donde automatizamos un generador de nombres de dominio usando JavaScript."
+
+skills:
+  toolset:
+    - name: Python 
+      level: 50%
+
+    - name: JavaScript 
+      level: 50%
+
+    - name: React
+      level: 60%
+
+    - name: HTML5 & CSS
+      level: 50%
