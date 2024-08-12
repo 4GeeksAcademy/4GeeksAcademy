@@ -1,8 +1,10 @@
 {
   "dependencies": {
     "colors": "^1.4.0",
+    "events": "^3.3.0",
     "http-server": "^14.1.1",
     "js-yaml": "^4.1.0",
+    "node-events": "^0.0.2",
     "pre-commit": "^1.2.2",
     "simple-git": "^3.19.1"
   },
