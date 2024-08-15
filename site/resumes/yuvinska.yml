@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "grey"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: yuvinska 
+    last_name: Medrano Sandoval
+    
+    # Define yourself in 4-5 words
+    motto: I like explore the world and learn new lenguages 
+    # Focus
+    focus: Killing Bad Boys, leaning java and I also traying to be The best cybersecurity in the world
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I am someone who is very ambitious and who always seeks to learn, improve in myself, I am really hardworking, a good leader, with character and sometimes clumsy, I have studied cooking, pastry and I am also a flight attendant, and I became a 5 star restaurant supervisor.
+
+      But this last year I have been working with Disney Cruise Line and I realized that technologies are in high demand nowadays, so I made the decision to start studying something with IT,
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.postimg.cc/RVtxsyFX/descargar.jpg
+
+    # Contact Information
+    email: yuvinskamedranopm@gmail.com #optional
+    phone: +34 602172513 #optional
+    website: https://github.com/yuvinska #optional
+    linkedin: https://www.linkedin.com/in/yuvinska-medrano-sandoval-39b882120/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yuvinska
+    
+    twitter: 'yuvinska' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Portugues
+        level: A2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Coding 
+
+      - item: Reading  
+
+
+# Your previous education
+education:
+    - degree: bachelor of science and Technology
+      High school : P. Mayor 
+      # optional
+      university_logo: https://web.murciaeduca.es/iespradomayor/wp-content/uploads/sites/490/2023/10/Diseno-sin-titulo2.png
+      time: 2016 - 2018
+      details: |
+        I fell in love with studying science in high school was something very nice
+
+         
+
+    - degree: CEAE Murcia Cabin crew 
+      Centro : Centro fro Aeronatical studies 
+      # optional
+      university_logo: https://cursosceae.es/wp-content/uploads/2017/07/logoceae.png
+      time: 2007 - 2011
+      details: |
+        We were taught survival maniacs in many types of environments, as well as ways to deal with emergency situations as well as on the ground or in the plane.
+
+          - Theorical test
+          - Fire exam 
+          - Swimming exam
+          - Medical exam 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Dinning Room Server 
+      time: may-2023 jenuary-2024
+      company: Disney Cruise line
+      # optional
+      company_logo: https://www.bing.com/images/search?view=detailV2&ccid=XvzVTZRO&id=E84203B8676047DD15FA90AA6468F3FAE68D35E3&thid=OIP.XvzVTZROeZN38VtNQ66UPgHaB-&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.5efcd54d944e799377f15b4d43ae943e%3frik%3d4zWN5vrzaGSqkA%26riu%3dhttp%253a%252f%252fupload.wikimedia.org%252fwikipedia%252fen%252fthumb%252f6%252f6f%252fDisney_Cruise_Line_logo.svg%252f1280px-Disney_Cruise_Line_logo.svg.png%26ehk%3dmiMpfv5T0WUVJyocVsN4hzvzDHd7KzqffMBetYtYoS0%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=341&expw=1280&q=Disney+Cruise+Line+Logo.png&simid=608004586379898860&FORM=IRPRST&ck=300FF1604F6801DC54F44B9147E76407&selectedIndex=1&itb=1
+      details: |
+        My job was to always be attentive to the safety of the customers and to always be up to date with the knowledge demanded by the Navy, and also the restaurant service offered by the cruise ship
+
+          - Certificate of Survival
+          - Emergency Boat Arm Certificate
+          - Swimming in the sea certificate
+          - Salvage Certificate
+          - Certificate of toxic products at sea
+          - visa USA(Caribe,Hawai), Canada(Alaska), Australia and New zeland 
+
+    - role: Food and Beverage Assistan Server 
+      time: march-may 2023
+      company: The Wesbury Hotel
+      # optional
+      company_logo: https://www.cfmedia.vfmleonardo.com/imageRepo/6/0/91/75/52/The_Westbury_Exterior_S.jpg
+      details: |
+        food knowledge and care of the client's food allergies and intolerances, always offering a high standard service with in-demand knowledge of wines and cocktails from the bar, thus reflecting the high standards of the company,
+
+          - Barista 
+          - Wine Knowledge 
+          - Cocktail Preparation
+
+    - role: Waitres 
+      time: aug - march 2022-2023 
+      company: The Mayson (Ryleigh´s)
+      # optional
+      company_logo: https://ryleighs.ie/
+      details: |
+        service for breakfast, bruch and some events, such as weddings, children's parties and company dinners.
+        always providing the best service and with knowledge of the menu and the bar
+
+          - Bullet point
+          - Bullet point
+
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 5%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Photografy
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Ruby on Rails
+        level: 3%
+
+      - name: Sketch & Photoshop
+        level: 30%
