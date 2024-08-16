@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose  
+    last_name: Casas
+    
+    # Define yourself in 4-5 words
+    motto: Practical, Efficiency, Responsible, Warm, Curious
+    
+    # Focus
+    focus: Learn to understand
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I DO care about the world, I DO care about my Family, Friends... beloved ones. I like make things easy, that's why i am conscious of everything and i like to learn, not just a bit, but everything about everything as much as I can.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: jjcasasm16@gmail.com #optional
+    phone: 407 5779089 #optional
+    website: N/A #optional
+    linkedin: N/A #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JC-kip
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Walk
+
+      - item: Practice sports
+
+      - item: Play Video-Games
+
+# Your previous education
+education:
+    - degree: Doctor of Veterinary Medicine (DVM).
+      university: La Universidad del Zulia (LUZ), Venezuela.
+      # optional
+      university_logo: 
+      time: 2013 - 2018
+      details: The curriculum covers animal anatomy, physiology, pathology, pharmacology, and surgery, with a focus on diagnosing, treating, and preventing diseases in animals. Students also learn about animal care, ethics, and public health. Clinical rotations in various veterinary specialties provide hands-on experience. After graduation, veterinarians must pass a licensing exam to practice. Some may pursue further specialization through internships and residencies.
+        
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Artificial insemination technician for cattle.
+      time: 2016 - 2020
+      company: Independent
+      # optional
+      company_logo: 
+      details: |
+        An Artificial Insemination (AI) Technician for Cattle specializes in breeding cattle using artificial insemination. Their key tasks include:
+
+              Semen Handling: Preparing and handling frozen semen for use.
+              Estrus Detection: Identifying when cows are in heat for optimal insemination timing.
+              Insemination: Inserting semen into the cow’s reproductive tract using specialized tools.
+              Record Keeping: Maintaining records of inseminations and herd performance.
+              Herd Management: Collaborating with veterinarians and farm managers to ensure herd health.
+
