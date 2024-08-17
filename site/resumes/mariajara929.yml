@@ -1,0 +1,123 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria
+    last_name: Del Mar
+    
+    # Define yourself in 4-5 words
+    motto: Craft Your Legacy
+
+    
+    # focus
+    focus: moving
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: | 
+      My name is Mar, just Mar, a seeker of stories and weaver of worlds. By trade, Im a graphic designer, though Ive recently ventured into the labyrinth of code, where every symbol is a spell and every line a path to discovery. My journey has taken me through the realms of fashion and digital media, a tapestry woven over 12 years of creativity and innovation. I hold two masters, one in editorial design and the other in branding, yet my true passion lies in the stories I tell, the whimsical characters I create, and the magical worlds they inhabit.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/77760972?v=4
+
+    # Contact Information
+    email: madelmar1290@gmail.com #optional
+    phone: 561 960 8311 #optional
+    website: https://cestmoidesign.com #optional
+    linkedin: www.linkedin.com/in/mar-fullerton #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mariajara929
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Fluent
+
+      - idiom: French
+        level: Beginner 
+
+
+    # Interests or hobies
+    interests:
+      - item: Illustration
+
+      - item: Books & Coffee
+
+      - item: Meditation
+
+      - item: Grounding
+
+      - item: Reading
+
+      - item: Writing
+
+# Your previous education
+education:
+    - degree: Full stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+        As a dedicated student in the 4Geeks Full Stack Developer program, I've immersed myself in the world of coding, learning to craft seamless and dynamic web applications from the ground up. This intensive curriculum has equipped me with both front-end and back-end development skills, empowering me to create user-friendly interfaces and robust, scalable server solutions.
+          - <strong> Mastered core technologies </strong> such as HTML, CSS, JavaScript, Python, and React to build responsive and interactive web applications.
+          - <strong> Developed full-stack projects </strong> that integrate front-end interfaces with back-end APIs and databases, demonstrating a deep understanding of the complete development cycle.
+    
+    - degree: Masters in Editorial Design and Branding
+      university: Pontificia Universidad Javeriana
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015
+      details: I delved deep into the art of creating cohesive brand identities and compelling editorial layouts. My studies focused on the strategic development of brand elements, from logos and typography to overall visual communication strategies, as well as the intricate process of designing editorial content that resonates with readers and reinforces brand messaging.
+        - Specialized in crafting brand identities, ensuring consistency and impact across all touchpoints, from visual elements to brand voice.
+        - Developed advanced skills in editorial design, mastering the layout and composition of printed and digital publications to effectively convey complex information in an aesthetically pleasing manner.
+    
+    - degree: Visual Communications Designer
+      university: Pontificia Universidad Javeriana
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012
+      details: |
+        I earned my degree in Visual Communication Design from Pontificia Universidad Javeriana, where I honed my ability to convey ideas and messages through compelling visual narratives. My education focused on blending creativity with strategic thinking, allowing me to create designs that are not only visually engaging but also effectively communicate the intended message across various media.          - Mastered core technologies  such as HTML, CSS, JavaScript, Python, and React to build responsive and interactive web applications.
+        - Developed expertise in graphic design principles, including typography, color theory, and layout design, to craft visually cohesive and impactful designs.
+        - Gained experience in diverse media, from print to digital platforms, ensuring versatility in delivering visual solutions across different formats.
+
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      Each line of code is woven with a bit of whimsy and every design is kissed by the blue sea. I believe in infusing my work with a touch of magic, creating solutions that are not just functional but uniquely mine—crafted with creativity, care, and a dash of the ocean’s inspiration. These projects reflect my journey, my imagination, and my commitment to bringing something special into the world, one piece of code at a time.
+    assignments:
+      - title: Instagram feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Mar_PhotoFeedwitBootstrap"
+        tagline: "A responsive website that playfully reimagines the essence of Instagram."
+
+      
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Bootstrap
+        level: 70%
+
+      - name: JAVASCRIPT
+        level: 10%
+      
+      - name: Photoshop & Illustrator
+        level: 90%
