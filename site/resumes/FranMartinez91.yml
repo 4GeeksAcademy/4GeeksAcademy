@@ -40,7 +40,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/FranMartinez91
+    github: FranMartinez91
     
     #optional twitter
     # Number/Username, e.g. 123456/alandoe stack-overflow
@@ -61,9 +61,9 @@ education:
     - degree: Ingeniería en Comercio Internacional
       university: Universidad San Sebastián
       # optional
-      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      #time: 2011 - 2012
-      #details: |
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2021
+      details: |
         #Describe your study here lorem ipsum dolor sit amet, consectetuer
         #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         #sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -80,8 +80,8 @@ experiences:
       time: 2022 - Presente
       company: Preunic
       # optional
-      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      #details: |
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
         #Describe your role here lorem ipsum dolor sit amet, consectetuer
         #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         #Cum sociis natoque penatibus et magnis dis parturient montes,
