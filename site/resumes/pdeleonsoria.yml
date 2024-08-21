@@ -1,0 +1,59 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Paola
+    last_name: de León
+    motto: Data Science
+    summary: |
+      Full Stack Developer in progress with a backgorund in Quality, Environment and Health and Safety.
+      Currently studying the 4geeks Academy Full Stack Developer Bootcamp to complete my education.
+      I have a very high attention to detail, brilliant organizational skills, such as time management, and am a really quick learner.
+
+    email: pdeleonsoria@gmail.com
+
+    github: Pdeleonsoria
+ 
+    languages:
+
+      - idiom: Spanish 
+        level: Native
+        
+      - idiom: English
+        level: Professional
+
+    interests:
+
+      - item: Coding
+
+      - item: Cooking
+
+      - item: Nature
+
+education:
+    - degree: Biology
+      university: University of Navarra
+      time: 2013
+      details: Clinic Biology
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: 
+      
+projects:
+    intro: >
+    
+
+skills:
+    toolset:
+      - name: Python
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
