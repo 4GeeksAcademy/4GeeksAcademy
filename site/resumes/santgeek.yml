@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Montoya Ordóñez
+    
+    # Define yourself in 4-5 words
+    motto: I like solving problems and coding is the way.
+    
+    # Focus
+    focus: Front-End Development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As a graduate in communication and multimedia design, I’ve focused my career on front-end development, merging visual storytelling with technical skills. Proficient in HTML, CSS, and JavaScript, I create engaging websites that communicate brand messages effectively. I enjoy collaborating with teams, staying updated on design trends, and using my creativity to solve challenges in the digital space.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: santiago.mordz@gmail.com #optional
+    phone: +593 099 927 8247 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/santiago-montoya-ordóñez-5a722b32 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: santgeek
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: French
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Writing
+
+      - item: Literature
+
+      - item: Concerts
+
+# Your previous education
+education:
+    - degree: Communications
+      university: Pontificia Universidad Católica del Ecuador
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2015
+      details: |
+        As a graduate in communications, my academic journey was a rich blend of theory and practical experience. I explored various facets of media, from journalism to digital communication, and developed my skills in writing, public speaking, and multimedia production.
+
+          
+
+    - degree: Multimedia Design
+      university: Instituto Metropolitano de Diseño
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        As a graduate in Multimedia Design, my educational experience was a dynamic fusion of creativity and technology. I delved into graphic design, animation, and interactive media, honing my skills in software like Adobe Creative Suite and various coding languages. 
+
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Communications Specialist
+      time: 2017 - 2024
+      company: Contraloría General del Estado, Ecuador
+      # optional
+      company_logo: 
+      details: |
+        Institutional content writing for different media and support in developing communication strategies for the positioning of the
+      organization and public relations.   
+
+
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 18%
+
+      - name: HTML5 & CSS
+        level: 75%   
+
+      - name: Photoshop
+        level: 75%
+
+      - name: Illustrator
+        level: 85%
+
+      - name: After Effects
+        level: 80%
