@@ -1,0 +1,58 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Tyler
+  last_name: Godwin
+  motto: Creative and fixates on details
+  focus: Constantly trying to improve my skills
+  avatar: https://lh3.googleusercontent.com/a/ACg8ocI6sFJAtG_YhdWec8VlTJUPusM7JXvd45Fi33qGl9ld2ZtSdzII=s288-c-no
+  email: tyler.godwin94@gmail.com
+  github: Tgodwin94
+  languages:
+    - idiom: English
+      level: Native
+  interests:
+    - item: Full Stack Development
+    - item: Playing guitar
+    - item: Cosmology
+education:
+  - degree: Some college completion
+    university: Columbia College Chicago
+    time: 2015 - 2016
+    details: >
+      - I ended up going to CCC due to my (at the time) major being a degree
+      I could pursue at this college. Music was the intent initially, but as
+      things came up and times changed, the IT world and later more
+      specifically, software development became the focus.
+  - degree: Some college completion
+    university: Georgia Gwinnett Collge
+    time: 2012 - 2014
+    details: >
+      - I studied here primarily due to the low cost of community college and
+      the purpose was to complete mostly general education courses before then
+      going elsewhere for my (at the time) intended degree.
+experiences:
+  - role: Warehouse Associate
+    time: 2019 - 2024
+    company: Chico's FAS
+projects:
+  intro: |
+    4Geeks Academy Full-Stack Software Development Projects
+  assignments:
+    - title: Instagram Post Layout
+      tagline: The goal was to replicate an Instagram-esque post.
+    - title: Instagram Photo Feed with Bootstrap
+      tagline: The goal was to replicate a feed of posts similar to Instagram that
+        utilized Bootstrap to help achieve the design format.
+    - title: HTML5 Form
+      tagline: The goal was to utilize a variety of skills and resources (such as
+        Bootstrap) to create a online/interactive payment form.
+skills:
+  toolset:
+    - name: HTML5
+      level: 70%
+    - name: CSS
+      level: 70%
+    - name: Javascript
+      level: 50%
