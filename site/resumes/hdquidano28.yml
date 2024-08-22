@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Helen
+    last_name: Quidano
+    
+    # Define yourself in 4-5 words
+    motto: Trying to find myself by exploring the world
+    
+    # focus
+    focus: Learning, and exploring the world
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      As I embark on my journey into full-stack web development, I am driven by a deep passion for learning and a commitment to excellence. 
+      Although I am new to coding, my experience in collaborative environments has honed my ability to work effectively in teams. 
+      I am excited to apply these skills to create dynamic, user-friendly web applications. With a fresh perspective and a strong work ethic, I am eager to grow and contribute meaningfully to the world of web development.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/169930513?s=400&u=b669bdbcece30963d86fc0b692933047f360ca8c&v=4
+
+    # Contact Information
+    email: hdquidano@gmail.com
+    phone: +507 6279 7442
+    linkedin: https://www.linkedin.com/in/helen-quidano-970636186/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hdquidano28
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobies
+    interests:
+      - item: Volleyball
+
+      - item: Video Games
+
+      - item: Exploring nature
+
+# Your previous education
+education:
+    - degree: Bachelor's Degree in Computer Systems Engineering
+      university: Universidad Interamericana de Panama
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo-UIP-jpg.jpg
+      time: 2012 - 2018
+      details: | 
+        This program equips students with the technical skills needed to tackle software development, hardware design, and systems integration, while also fostering critical problem-solving abilities. 
+        Graduates are well-prepared to pursue careers in various technology fields, including software engineering, network administration, and systems analysis.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Quality Assurance Engineer
+      time: 2019 - 2024
+      company: Smartmatic
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/C4D0BAQH-k7dZIbYlqg/company-logo_200_200/company-logo_200_200/0/1630537235423/smartmatic_logo?e=1732147200&v=beta&t=Tiddzpj4otrXpeZ-TGpo3ycFWNiWu7nqPtqq8ZdpxWA
+      details: |
+        Focused on ensuring that all products and systems meet the highest quality standards before deployment. 
+        This involves thorough code reviews, functionality testing, and verification that products meet technical specifications and requirements. 
+
+    - role: Tester Quality Assurance
+      time: 2016-2019
+      company: Smartmatic
+      details: |
+        Responsible for executing specific tests to validate the functionality and performance of developed systems. 
+        This includes creating and running test cases, reporting bugs, and collaborating with the development team to fix issues. 
+        The primary goal is to ensure that each system component functions correctly and meets the established requirements, minimizing the risk of errors in the final product.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Under Construction
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: Under Construction
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name:  Under Construction
+        level: Under Construction
+
+      - name: Under Construction
+        level: Under Construction
