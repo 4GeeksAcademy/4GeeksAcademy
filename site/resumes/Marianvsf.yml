@@ -1,0 +1,179 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marian
+    last_name: Suárez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta todo lo relacionada a la tecnología, aprenderlo y llegar a mejorarlo en algún punto.
+    
+    # Focus
+    focus: Ser excelente programador. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Desde que descubrí el mundo de la programación, quedé fascinado por la capacidad de crear soluciones innovadoras a través del código. Mi pasión por resolver problemas complejos y mi curiosidad innata me impulsaron a profundizar en este campo. A lo largo de mi trayectoria, he adquirido sólidas bases en diversos lenguajes de programación y frameworks, lo que me permite abordar proyectos de diversa índole con eficiencia y creatividad. Además de mis conocimientos técnicos, valoro la importancia del trabajo en equipo y la comunicación efectiva para colaborar en proyectos exitosos.".
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/176063233?s=400&u=c49cb1fbd158df6db6e061625f35671f435921ee&v=4
+
+    # Contact Information
+    email: marianvsf@gmail.com #optional
+    phone: +58 424 226 0908 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/marian-suárez-0a75a31b5 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Marianvsf
+    
+    twitter: 'mariaanvsf' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingenieria en Informática
+      university: Universidad Experimental de la Gran Caracas
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2024 - 2024
+      details: |
+        La Ingeniería en Informática de la UNEXCA forma profesionales altamente capacitados para diseñar, desarrollar e implementar soluciones tecnológicas innovadoras. A través de una sólida formación en programación, bases de datos, redes y sistemas operativos, los egresados están preparados para enfrentar los desafíos del mundo digital. La universidad, comprometida con la excelencia académica y la vinculación con el sector productivo, ofrece a sus estudiantes la oportunidad de desarrollar proyectos prácticos y adquirir experiencia en las últimas tendencias tecnológicas. Además, fomenta un ambiente de investigación y desarrollo, lo que permite a los estudiantes participar en proyectos de vanguardia y contribuir al avance de la disciplina.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+
+
