@@ -1,0 +1,114 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Pablo
+    last_name: Castillo
+
+    # Define yourself in 4-5 words
+    motto: disciplined, friendly, fair, workaholic
+
+    # focus
+    focus: Know in depth the entire development process to specialize in security
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      "Extensive professional career optimizing the capabilities of companies of diverse
+      economic sectors through the direction of activities related to computing,
+      mechanics, network administration, programming, information security.
+      Outstanding for transforming executive area strategies into concrete actions executed by
+      the information technology area, thus supporting corporate management and delivery
+      effective services and added value. Focused on generating results, with ease
+      form and guide efficient work teams and the ability to innovate to find better
+      alternatives in the organization to focus on achieving the established goals.
+      With development skills with high standards of performance in activities.
+      related to hardware repair, software installation, camera installation, Switch
+      & router, VLSM, SWITCH & ROUTE cisco, Linux and Windows server management,
+      advanced Python and Java programming, Ubiquiti radio links, office automation, pentesting and search
+      vulnerabilities in the network, Response to incidents using the Thread Hunting methodology, Analysis
+      Forensics, Malware Analysis, among other consultative activities."
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: castillojuanpa@gmail.com
+    linkedin: https://www.linkedin.com/in/juanpablocastillo-seguridadinformatica/
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this:
+    github: Jumpvzl
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: personal growth
+
+      - item: Adventures with my family
+
+      - item: Tecnology
+
+# Your previous education
+education:
+    - degree: Ingeniero de Telecomunicaciones
+      university: UNEFA
+      time: 2007-2014
+
+    - degree: Master Ofensive Security
+      university: Universidad de Murcia
+      time: 2023 - 2024
+
+
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+
+    assignments:
+      - title: My Postcard
+        link: https://github.com/Jumpvzl/html-hello
+        tagline: "My first coding project built an interactive Postcard with Html5 and Css."
+
+      - title: Instragram Feed
+        link: https://github.com/Jumpvzl/post_instagram_boostrap
+        tagline: "My second coding project further used boostrap skills and learned how to make a responsive website."
+
+      - title: Excuses JavaScript
+        link: https://github.com/Jumpvzl/GeneradorexcusasJavascript
+        tagline: "My first project with JavaScript"
+
+skills:
+    toolset:
+      - name: Pentesting
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Boostrap
+        level: 75%
+
+      - name: Ansible
+        level: 100%
+
+      - name: Windows Administration
+        level: 100%
+
+      - name: Unix Administration
+        level: 100%
