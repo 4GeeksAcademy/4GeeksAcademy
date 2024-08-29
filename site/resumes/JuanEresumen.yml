@@ -1,0 +1,70 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan
+    last_name: Gonzalez
+    
+    # Focus
+    focus: Learn HTTPS, JS, CSS, Python
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://pixabay.com/es/photos/pel%C3%ADcano-aviar-animal-agua-oceano-8710717/
+
+    # Contact Information
+    email: ernestor023@gmail.com
+    phone: 
+    website: 
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/juan007-play
+    
+    twitter: Ernesto44291958 
+    stack-overflow: Juan E Gonzalez
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+  
+    interests:
+      - item: Surfing
+
+      - item: Read
+
+# Your previous education
+education:
+    - degree: Developer Stack
+      university: 4Geek Institute
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+      details: |
+        
+
+skills:
+    toolset:
+      - name: Python
+        level: 35%
+
+      - name: JavaScript 
+        level: 10%
+
+      - name: HTTPS
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 30%%
