@@ -44,14 +44,14 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Ingles
+        level: Avanzado
 
-      - idiom: Portugue
-        level: Professional
+      - idiom: Portugues
+        level: Basico
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Español
+        level: Nativo
 
     # Interests or hobbies
     interests:
