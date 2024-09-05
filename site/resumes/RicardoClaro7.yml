@@ -1,0 +1,62 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo
+    last_name: Claro
+    
+    # Define yourself in 4-5 words
+    motto: don't give up
+    
+    # focus
+    focus: be successful
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ricardoclaro97@hotmail.com #optional
+    phone: (34)661903751 #optional
+    website: none yet #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: RicardoClaro7
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: medium
+        
+      - idiom: Spanish
+        level: Native
+        
+
+    # Interests or hobies
+    interests:
+      - item: trading
+
+      - item: sports
+
+      - item: business
+
+
