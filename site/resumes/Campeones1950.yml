@@ -19,14 +19,10 @@ basic_info:
     focus: Programar. 
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-    
+    summary: Licenciado en Gerencia y Administración de Empresas, con una sólida formación académica respaldada por un Postgrado en Marketing y Administración de la University of Cambridge y un Master en Marketing Digital de EUDE-Universidad Rey Juan Carlos.
+             Más de dos décadas de experiencia como ejecutivo en el área comercial 
+            de empresas proveedoras de soluciones tecnológicas, he liderado iniciativas clave para la transformación digital de diversas organizaciones. Mi enfoque se centra en la consultoría especializada en la automatización e informatización de procesos administrativos, comerciales y contables para pequeñas y grandes empresas en diferentes sectores.
+   
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
@@ -48,26 +44,26 @@ basic_info:
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Intermediate
 
-      - idiom: French
-        level: Professional
+      - idiom: Portugues
+        level: Intermediate
 
       - idiom: Spanish
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Lectura.
 
-      - item: Snowboarding
+      - item: Caminar
 
-      - item: Cooking
+      - item: Filosofía.
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Licenciado en Gerencia y Administración
+      university: Universidad ORT
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
