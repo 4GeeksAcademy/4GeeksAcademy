@@ -3,7 +3,7 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "green"
 
 # Personal Information
 basic_info:
@@ -44,10 +44,10 @@ basic_info:
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     # Interests or hobbies
     interests:
@@ -93,20 +93,14 @@ projects:
   
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: JavaScript
+        level: 55%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Lua
+        level: 10%
 
-      - name: Sketch & Photoshop
+      - name: ServiceNow
         level: 60%
