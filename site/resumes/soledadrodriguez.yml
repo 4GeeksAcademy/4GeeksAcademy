@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María Soledad
+    last_name: Rodríguez Mier
+    
+    # Define yourself in 4-5 words
+    motto: En un camino de aprendizaje
+    
+    # Focus
+    focus: Aprendiendo a programar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Actualmente estudiante del bootcamp de desarrollador full stack en 4geeks Academy. Cuento con experiencia en tareas administrativas, y atención al cliente.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/soledad-rodríguez- #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: soledadrodriguez
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+     
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Básico
+    # Interests or hobbies
+    interests:
+      - item: Cine, mis géneros favoritos son ciencia ficción y terror
+
+      - item: Libros, el primer libro que leí completo fue "La isla de coral" de R.M. Ballantyne
+
+# Your previous education
+education:
+    - 
+      Instituto: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+        Bootcamp de desarrollo fullstack, actualmente estamos en el módulo GIT.
+        Módulos ya realizados:
+          -HTML
+          -CSS
+          -Bootstrap
+          -Formularios
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Asistente administrativo
+      time: 2022-Presente
+      company: Servicios administrativos-contable y auditoría
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Me desempeño principalmente en el equipo de control de contratistas tercerizados, verificando que los mismos cumplan con las reglamentaciones establecidas por los decretos laborales actuales.
+        Adicionalmente trabajamos con gestión de documentación para controles de ingresos de personal.
+        Habilidades:
+          - Manejo de hojas de cálculo
+          - Redacción de informes
+          - Atención via mail y teléfonica
+  
+# Your project portfolio
+projects:
+    intro: >
+      Algunas de las tareas que he entregado durante estas semanas:
+
+    assignments:
+      - title: Instagram Post
+        # optional
+        project_logo: https://1000marcas.net/wp-content/uploads/2020/02/GitHub-Logo.jpg
+        link: https://github.com/4GeeksAcademy/SoledadRodriguezPostIG
+        tagline: "Un ejemplo de un post de Instagram realizado con HTML y CSS"
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://1000marcas.net/wp-content/uploads/2020/02/GitHub-Logo.jpg
+        link: https://github.com/4GeeksAcademy/SoledadRodriguez_html-hello
+        tagline: "Un ejemplo de un feed de Instagram realizado con Bootstrap"
+
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Photoshop
+        level: 20%
