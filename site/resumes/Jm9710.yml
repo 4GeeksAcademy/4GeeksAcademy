@@ -40,21 +40,21 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/Jm9710
+    github: Jm9710
     
-    twitter: 'webjeda' #optional
+    twitter: '----' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Ingles
+        level: Basico
 
-      - idiom: French
-        level: Professional
+      - idiom: Portugues
+        level: Nativo
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Español
+        level: Nativo
 
     # Interests or hobbies
     interests:
