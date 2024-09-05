@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+template: "online-cv"
+skin: "blue"
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Chogyal
+  last_name: Tshering Bhutia
+
+  # Define yourself in 4-5 words
+  motto: Roam and Remote, Wander the World, Work Anywhere!
+
+  # Focus
+  focus: Travelling and working.
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Tibetan origin, born in India 94' and living in Spain since 2013. Love to eat, travel and learn!
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/61793948?v=4
+  # Contact Information
+  email: cbhutia12@hotmail.com #optional
+  phone: +34628 987 684 #optional
+  linkedin: https://www.linkedin.com/in/chogyalbhutia #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: cbhutia
+
+  twitter: "Bhutia94" #optional
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+    - idiom: English
+      level: Native
+
+    - idiom: Nepali
+      level: Native
+    - idiom: Spanish
+      level: Native
+    - idiom: Hindi
+      level: Native
+    - idiom: Tibetan
+      level: Native
+    - idiom: Catalan
+      level: Conversational
+  # Interests or hobbies
+  interests:
+    - item: Travelling
+    - item: Manga
+    - item: Cooking
+# Your previous education
+education:
+  - degree: Vocational education on Computer Informatics.
+    university: INS Joan d'Austria
+    # optional
+    university_logo: https://agora.xtec.cat/insjoandaustria/wp-content/uploads/usu216/2022/03/JoanDAustria_Imagoptipo-e1646755852447.png
+    time: 2010 - 2012
+    details: |
+      Vocational education on Computer Informatics.
+# Your previous job experiences or volunteer
+experiences:
+  - role: Customer Support Lead
+    time: 2017 - Present
+    company: Whisbi
+    # optional
+    company_logo: https://whisbi.com/wp-content/uploads/2023/05/logo-whisbi_giosg-e1683191295628.png
+    details: |
+      Leading a team of support agents, improving KPIs, creating internal procedures and customer-facing documentation.
+# Your project portfolio
+projects:
+  intro: >
+    No projects for now :)
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
