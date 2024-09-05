@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Matias
+    last_name: Rosas
+    
+    # Define yourself in 4-5 words
+    motto: Saving the world one line at a time
+    
+    # Focus
+    focus: Fixing code
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I've started my carree in IT as an IT Service Desk agent four years ago. I'm now a lead manager on my current project. However, my desiree to keep growing on the industry lead me to study programming
+     I've now learnt HTML CSS and Javascript. But i'm still learning new technologys 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: matirosas@hotmail.com #optional
+    phone: 099 590 440 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/matias-rosas-mounic-8b82922bb/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MatiRosas31
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Tennis
+
+      - item: Reading
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Bachillerato Diversificado
+      university: Colegio y Liceo Latinoamericano
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhnZykoxOxsjyclRsQJQBr2ywkMpXZQptXg&s
+      time: 2008 - 2013
+      details: |
+        Highscool degree
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Manager
+      time: 2020 - Present
+      company: Tata Consulty Services, Montevideo.
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3iwpFLrYxv55iEIWmL47oCP4vYlbSYEiCDQ&s
+      details: |
+       I work as Lead Manager on a IT Service Desk project in Tata Consulty Services. We offer service desk assistance to employees in the Canadian region of a multinational firm.
+
+          - Management
+          - IT services
+# Your project portfolio
+projects:
+    intro: >
+      I don't have any projects yet. However i'd like to make a study focused mobile application that helps students with their learning process using AI
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+  
+skills:
+    toolset:
+      - name: JavaScript
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Lua
+        level: 10%
+
+      - name: ServiceNow
+        level: 60%
