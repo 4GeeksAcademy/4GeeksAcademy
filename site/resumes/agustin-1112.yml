@@ -1,0 +1,159 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Agustin
+  last_name: Perrone
+  motto: Líder, ingenioso, apasionado, resolutivo, dinámico
+  focus: Optimización de sistemas y soluciones tecnológicas para mejorar la
+    eficiencia operativa
+  summary: >
+    Mi carrera comenzó en el ámbito de la atención al cliente, donde
+    desarrollé habilidades fundamentales en comunicación y resolución de
+    problemas. 
+
+    Posteriormente, me desempeñé como administrativo, fortaleciendo mi capacidad organizativa y de gestión. 
+
+    Mi interés en la tecnología y mi constante deseo de aprender me llevaron a transitar hacia el área de IT, donde actualmente me desempeño, aplicando mi experiencia previa en una nueva dimensión técnica. 
+
+    Este recorrido me ha permitido combinar habilidades interpersonales y técnicas, logrando una perspectiva integral en mi desarrollo profesional.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: agustinperrone620@gmail.com
+  phone: "094019188"
+  website: asd.com
+  linkedin: https://uy.linkedin.com/in/agustin-perrone
+  github: agustin-1112
+  twitter: webjeda
+  stack_overflow: 123456/alandoe
+  languages:
+    - idiom: Inglés
+      level: Básico
+    - idiom: Español
+      level: Profesional
+  interests:
+    - Fútbol
+    - Películas
+    - Surf
+education:
+  - degree: Desarrollador Full-Stack
+    university: 4geeks-anda-utec
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: Agosto-Diciembre 2024
+    details: >
+      Utilización de aplicaciones y tecnología front como HTML5, CSS3,
+      JavaScript y ReactJs.
+
+      Utilización de aplicaciones y tecnología back como Python, Flask, MySQL, SQLite.
+
+      Creación de API RESTful.
+
+      Nociones de GIT para la administración de proyectos compartidos mediante repositorios remotos y locales.
+
+
+      - Punto importante
+
+      - Punto importante
+  - degree: Bachillerato
+    university: Liceo 26 - Liber Falco
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: Año de inicio - Año de finalización
+    details: |
+      Descripción de estudios relevantes aquí.
+
+      - Punto importante
+      - Punto importante
+experiences:
+  - role: Help Desk y Desarrollador
+    time: 2020 - Presente
+    company: Ues
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      - Soporte técnico a usuarios internos y externos.
+
+      - Integraciones con otras plataformas, manejo de APIs, desarrollo de servicios con Python.
+
+      - Consultas en SQL y manejo de bases de datos, documentación.
+
+
+      - Punto importante
+
+      - Punto importante
+  - role: Auxiliar Administrativo
+    time: 2017 - 2018
+    company: Banco República Oriental del Uruguay
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      - Tareas administrativas como manejo de facturas para pago a
+      proveedores, coordinación de cobranzas.
+
+      - Registración de documentación, emisión de informes, plantillas electrónicas, remitos.
+
+      - Atención al cliente interno y externo, archivo y organización de documentación, manejo de central telefónica, cadetería.
+
+
+      - Punto importante
+
+      - Punto importante
+  - role: Supervisor de Turno
+    time: 2015 - 2017
+    company: Burger King
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      - Contribuir al logro de los objetivos organizacionales garantizando
+      una gestión adecuada de las ventas.
+
+      - Supervisión del personal a cargo, control de cajas, objetivos de ventas, facturación, atención a clientes.
+
+      - Tareas administrativas como control y pago de facturas, armado de pedidos, armado de planillas laborales.
+
+      - Control de ingreso y egreso, realización de huella, implementación de políticas comerciales de la empresa.
+
+
+      - Punto importante
+
+      - Punto importante
+projects:
+  intro: >
+    Puedes listar tus proyectos paralelos o bibliotecas de código abierto en
+    esta sección.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: Una plantilla de sitio web adaptable diseñada para ayudar a las
+        startups a promover, comercializar y vender sus productos.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Una plantilla de sitio web adaptable diseñada para ayudar a
+        desarrolladores/diseñadores web a comercializar sus servicios.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Una plantilla de sitio web adaptable diseñada para ayudar a las
+        startups a promover sus productos o servicios y atraer usuarios e
+        inversores.
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Una solución completa de plantilla de sitio web para
+        startups/desarrolladores para comercializar sus aplicaciones móviles.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Un tema de una página de Bootstrap adaptable diseñado para ayudar a los
+        desarrolladores de aplicaciones a promover sus aplicaciones móviles.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 20%
+    - name: Angular
+      level: Nivel
+    - name: HTML5 & CSS
+      level: 80%
+    - name: Ruby on Rails
+      level: Nivel
+    - name: Sketch & Photoshop
+      level: Nivel
