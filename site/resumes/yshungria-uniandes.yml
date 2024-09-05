@@ -1,0 +1,55 @@
+template: "online-cv"
+skin: "blue"
+
+# Información Personal
+basic_info: 
+   
+  first_name: Yojan Stiben
+  last_name: Hungria
+  motto: "Innovating through code"
+  focus: Full Stack Development
+  summary: |
+    Full Stack Developer skilled in Python, Flask, MySQL, ReactJS, Angular, and PostgreSQL. I refined my expertise at the Python Full Stack Bootcamp and JavaScript Full Stack Bootcamp in Coding Dojo and 4Geeks Academy.
+  avatar: https://randomuser.me/api/portraits/man/24.jpg
+  linkedin: https://www.linkedin.com/in/ing-yojan-stiben-hungria/
+  github: yshungria-uniandes
+
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Football, Read Books, Coding
+
+# Educación
+education:
+  - degree: Bachelor of Electrical Engineering
+    university: University of national Colombia
+    time: 2011 - 2016
+    details: |
+      Project Management, Power Lines, Software Devlopment, Calculus, Field Electromagnetics, ect
+
+# Experiencia Laboral
+experiences:
+  - role: Full Stack Developer 
+    time: Present
+    company: 2NV
+    details: |
+      Software Developer
+
+
+# Habilidades
+skills:
+  toolset:
+    - name: Python & Flask
+      level: 98%
+    - name: MySQL
+      level: 95%
+    - name: ReactJS
+      level: 90%
+    - name: Angular
+      level: 70%
+    - name: PostgreSQL
+      level: 85%
