@@ -72,15 +72,7 @@ education:
       university_logo: https://iec.utu.edu.uy/
       time: 2003-2004
       details: |
-
-
-    - degree: 
-      university: 
-      # optional
-      university_logo: 
-      time: 
-      details: |
-
+       I learned everything about technical drawing and construction knowledge.
 
 # Your previous job experiences or volunteer
 experiences:
@@ -124,18 +116,18 @@ projects:
     assignments:
       - title: Boostrap
         # optional
-        link: https://github.com/4GeeksAcademy/kafalara-bootstrap
-        tagline: A responsive Bootstrap website template created to display posts and switch from grid to list view
+        link: "https://github.com/4GeeksAcademy/kafalara-bootstrap"
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view"
 
       - title: Formulario 
         # optional
-        link: https://github.com/4GeeksAcademy/kafalara-formulario-HTML
-        tagline: Learn how to use and interact with HTML Forms
+        link: "https://github.com/4GeeksAcademy/kafalara-formulario-HTML"
+        tagline: "Learn how to use and interact with HTML Forms"
 
       - title: Post Instagram
         # optional
-        link: https://github.com/4GeeksAcademy/kafalara-post-instagram
-        tagline: Create files in HTML and CSS
+        link: "https://github.com/4GeeksAcademy/kafalara-post-instagram"
+        tagline: "Create files in HTML and CSS"
 
 skills:
     toolset:
