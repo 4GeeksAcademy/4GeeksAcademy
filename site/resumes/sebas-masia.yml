@@ -1,0 +1,178 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Sebastian
+  last_name: Masia
+
+  # Define yourself in 4-5 words
+  motto: Innovative Full Stack Developer
+
+  # Focus
+  focus: Streamlining Operations Through Technology
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Innovative Full Stack Web Developer and Process Automation Expert with a robust background in
+    integrating systems to enhance business efficiency. Specializes in streamlining operations through
+    technology, leveraging a blend of programming and engineering skills. Passionate about developing
+    scalable web solutions and automating complex business processes.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+  # Contact Information
+  email: sebastianmasia@gmail.com #optional
+  phone: +58 (412) 567-4380 #optional
+  website: https://portfolio-c9687.web.app/ #optional
+  linkedin: sebmasia #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: sebas-masia
+
+  twitter: "" #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: C2 (EF-SET certificate)
+
+    - idiom: Spanish
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Developing Scalable Web Solutions
+
+    - item: Automating Complex Business Processes
+
+    - item: System Integration
+
+# Your previous education
+education:
+  - degree: Master of Business Administration (MBA)
+    university: IESA
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 09/2023 – present
+    details: |
+      Currently pursuing an MBA to further enhance strategic business skills and apply technological expertise to business challenges.
+
+  - degree: Full Stack Developer
+    university: 4geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 03/2024 – 08/2024
+    details: |
+      Intensive Full Stack Developer program focusing on the latest web development technologies and methodologies.
+
+        - Hands-on experience with React, Node.js, and Python.
+        - Gained expertise in RESTful APIs and cloud computing with AWS.
+
+  - degree: Bachelor Chemical Engineering
+    university: Universidad Metropolitana
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 09/2017 – 07/2022
+    details: |
+      Completed a Bachelor's degree in Chemical Engineering, gaining foundational engineering skills and problem-solving techniques.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Full Stack Developer
+    time: 04/2024 – present
+    company: IOET, Remote, USA
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Worked as a Full Stack Developer at IOET, managing internal applications and collaborating with 
+      clients on front-end and back-end tasks. Utilized TypeScript, React, GraphQL, and FastAPI to deliver high-quality software solutions.
+
+        - Developed and maintained responsive user interfaces.
+        - Implemented robust backend services.
+        - Ensured seamless integration between different system components.
+
+  - role: Systems Integration Specialist
+    time: 05/2023 – 06/2024
+    company: ROK Lanes, Remote, USA
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Orchestrated the integration of logistics and supply chain systems at ROK Lanes. Developed custom APIs and interfaces to connect disparate systems, enhancing data accuracy and operational efficiency.
+
+        - Played a pivotal role in the digital transition of logistics operations.
+        - Improved data accuracy by integrating various systems.
+
+  - role: Full Stack Web Developer (Freelance)
+    time: 08/2023 – 11/2023
+    company: Agricola Biofarm, Venezuela
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Led the digital transformation of Agricola Biofarm, developing and implementing a Shopify store for farm products. Automated key business processes, improving production efficiency by 30%.
+
+        - Collaborated with cross-functional teams to integrate systems.
+        - Ensured seamless data flow across platforms.
+
+  - role: Lead Web Developer
+    time: 09/2022 – 04/2023
+    company: Credit Junkies, Remote, USA
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Spearheaded the development and maintenance of the Credit Junkies web platform. Implemented automation strategies for customer credit analysis processes, leading to a 40% increase in process efficiency.
+
+        - Enhanced user experience.
+        - Streamlined client data management.
+
+  - role: IT Project Manager
+    time: 08/2021 – 08/2022
+    company: Ensource Financial, Remote, USA
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Managed IT projects focusing on software development and system integration for mortgage processing. Coordinated the development team, ensuring timely delivery of projects.
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Resume AI SaaS
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Developed a SaaS platform using Python with Django and React.js, incorporating AI and NLP functionalities for resume optimization to pass ATS filters."
+
+skills:
+  toolset:
+    - name: JavaScript & Node.js
+      level: 98%
+
+    - name: React & Angular
+      level: 98%
+
+    - name: Python & Flask
+      level: 95%
+
+    - name: RESTful APIs
+      level: 90%
+
+    - name: Docker & Kubernetes
+      level: 85%
+
+    - name: Machine Learning & AI
+      level: 75%
