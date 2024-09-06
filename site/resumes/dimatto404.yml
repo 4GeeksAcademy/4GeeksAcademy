@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diogo
+    last_name: Machado
+    
+    # Define yourself in 4-5 words
+    motto: Every cloud has a silver lining
+    
+    # Focus
+    focus: Learn and find a job
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Currently, I have no previous work experience aside from self-taught general knowledge.
+
+      Yet, I am working hard on changing that.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/foto-portada.jpeg
+
+    # Contact Information
+    email: dimatto404@gmail.com #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dimatto404
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: 3D Animation
+
+      - item: Coding
+
+      - item: Running
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your project portfolio
+projects:
+    intro: >
+      No previous proyects.
+
+skills:
+    toolset:
+      - name: SQL
+        level: 50%
+
+      - name: JavaScript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: C#
+        level: 65%
