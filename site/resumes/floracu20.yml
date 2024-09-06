@@ -15,19 +15,16 @@ basic_info:
     # Define yourself in 4-5 words
     motto: I like to always be learning
     
-    # Focus
-    focus: Killing Bad Boys
-    
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      I am a Computer Engineering student with a strong passion for ICT and continuous learning.
+      I excel at adapting to challenges, whether working individually or in teams, while maintaining
+      strong organization and planning skills. I am currently seeking opportunities to start my career
+      and apply my knowledge to impactful technology projects.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQE-PwHollnggg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725580181695?e=1730937600&v=beta&t=UBBhj-QMq2iccEalyE86VRjXp9HDzi3K91iJwoLtyd4
 
     # Contact Information
     email: floracuna20@gmail.com
@@ -36,7 +33,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: floracuna20
+    github: floracu20
 
     # Languages you speak, levels include: Native, Professional
     languages:
@@ -60,7 +57,7 @@ education:
       university: Universidad de la República
       # optional
       university_logo: https://www.cure.edu.uy/wp-content/uploads/2021/06/udelarlogo-300x295.jpeg
-      time: 2021 - Today
+      time: 2021 - Present
       details: |
           - Mathematics
           - Logics
@@ -70,39 +67,15 @@ education:
     
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: Maths and English tutor
+      time: 2018 - 2022
+      company: Self-employed
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        This role involved planning and delivering support classes in Mathematics and English for high school students.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Planification
+          - Mathematics
+          - English
 
     - role: Organizer - Volunteer
       time: 2017 - Today
@@ -110,10 +83,11 @@ experiences:
       # optional
       company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_U1HAoPk1IY0Ko2ByxxKuFy62lJ12M_UgA&s
       details: |
-        Estudiantinas Quebracho
+        Estudiantinas Quebracho is a non-profit organization founded by students in 2017, aimed at creating events
+        and activities for the general public, with a special focus on high school-aged youth in the town of Quebracho, Paysandú.
 
           - Team work
-          - 
+          - Creativity
 
 # Your project portfolio
 projects:
@@ -158,14 +132,14 @@ skills:
       - name: JavaScript & jQuery
         level: 25%
 
-      - name: Angular
-        level: 98%
+      - name: C
+        level: 40%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 70%
 
       - name: Ruby on Rails
         level: 25%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Microsoft Office package
+        level: 90%
