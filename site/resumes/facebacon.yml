@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sebastian
+    last_name: Diaz Saez
+    
+    # Define yourself in 4-5 words
+    motto: Keeping it chill and thrill
+    
+    # Focus
+    focus: Getting technical up in this
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Sebastian is the main brain behind Artisan Fitness LLC and Silver Can Water, based in Miami. 
+      He is all about investment and finance, rocking the CEO title while driving creative marketing. 
+      On top of that, he is diving deep into a full stack development bootcamp, currently mastering CSS and HTML, with plans to learn WebML and three.js. 
+      Always keeping it chill and trill, Sebastian on a mission to make waves in the beverage biz and tech world.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/113j68EwwUrQW5lpdGElTq5rIDUmHFMuP/view?usp=sharing
+
+    # Contact Information
+    email: diazebas@gmail.com #optional
+    phone:  #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/diazebas/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: facebacon
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Traveling
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BAc in Interdiciplinary Studies
+      university: Bristol University
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/1/1f/Florida_International_University_FIU_logo.svg
+      time: 2011 - 2015
+      details: |
+       Sebastian holds a bachelors degree in interdisciplinary studies with a focus on marketing and business management. 
+       This unique academic blend equips him with a versatile skill set, merging the strategic insights of marketing with the organizational and operational expertise of business management. 
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Program Manager - D2C Payments
+      time: 2021 - Present
+      company: Paramount Global
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/en/1/1e/Paramount_Global.svg
+      details: |
+        Spearheaded the expansion of a streaming service, 
+        increasing subscriptions globally and enhancing payment operations through integration and optimization strategies, 
+        resulting in improved transaction stability and significant fraud reduction. 
+        Implemented advanced security measures and reporting mechanisms, 
+        leading to improved customer engagement and compliance with PCI DSS standards.
+
+    - role: Project Manager - Digital Re-Engineering
+      time: 2019 - 2021
+      company: American Express
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg
+      details: |
+        Managed reengineering projects for the Amex Digital App, digitizing billing processes and driving product adoption across 15 markets, 
+        resulting in substantial cost savings and revenue increase. 
+        Streamlined operations by optimizing digital billing platforms and led digital transformation initiatives, 
+        reducing operational inefficiencies.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 35%
+
+      - name: JavaScript & jQuery
+        level: 25%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Photoshop
+        level: 200%
