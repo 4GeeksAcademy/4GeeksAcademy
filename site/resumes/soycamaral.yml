@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camila
+    last_name: Amaral Ribeiro
+    
+    # Define yourself in 4-5 words
+    motto: I have all that I want, but I want more.
+    
+    # Focus
+    focus: Stepping outside of my comfort zone.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      4 years as an English Teacher.
+      8 years as a History Teacher. 
+      Advanced Psychology Student. 
+      Full Stack Developer in training.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: soycamaral@gmail.com
+    phone: 
+    website: 
+    linkedin: camila-amaral-b65b0a14b
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: soycamaral
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Cooking
+
+      - item: Exercise
+
+# Your previous education
+education:
+    - degree: History Teacher
+      university: Instituto de Profesores Artigas
+      # optional
+      university_logo: 
+      time: 2013 - 2016
+      details: |
+        Studies in pedagogy, adolescent psychology.
+        Universal, American and Uruguayan History. 
+
+    - degree: Master in Human Sciences / River Plate Region History
+      university: Universidad de la República
+      # optional
+      university_logo: 
+      time: 2017 (not completed)
+      details: |
+        seminar: The worker's history of latin aerica: a transnational perspective 1917 - 1973
+        seminar: The construction of racist ideology and the african slavery in Colonial America
+        course: Transnational perspectives in the studes of the contemporary rights
+
+    - degree: Bachelor of Psychology
+      university: Universidad de la República
+      # optional
+      university_logo: 
+      time: 2018 - (in progress)
+      details: Proficient in psychological assessment and therapeutic interventions. 
+       In-depth knowledge of human behavior, mental health, and social contexts. 
+       Developed critical thinking and ethical reasoning for diverse clinical, educational, and social applications. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: History Teacher
+      time: 2017 - Present
+      company: Universidad del Trabajo del Uruguay / Dirección General de Educación Secundaria
+      # optional
+      company_logo: 
+      details: 
+       Extensive experience in teaching historical concepts and analysis to diverse student groups.
+       Strong focus on critical thinking, historical context, and the relevance of past events to contemporary issues. 
+       Expertise in creating assessments and projects that foster student understanding and academic growth.
+       
+    - role: Social Educator
+      time: 2020 - Present
+      company: Universidad del Trabajo del Uruguay
+      # optional
+      company_logo: 
+      details: |
+        Experienced in supporting student development through social and educational programs.
+        Proficient in creating inclusive environments that promote student engagement and well-being.
+        Skilled in addressing social challenges and fostering positive relationships within the educational community.
+        Focused on empowering students with critical life skills and promoting social integration.
+
+    - role: English Teacher
+      time: 2015 - 2019
+      company: Universidad del Trabajo del Uruguay
+      # optional
+      company_logo: 
+      details: |
+        Skilled in teaching English as a second language to students in vocational training programs.
+        Expertise in creating tailored lesson plans that cater to varying levels of language proficiency.
+        Focused on practical communication skills, fostering language development through interactive methods.
+        Committed to enhancing students' confidence and preparing them for professional and personal use of English.
+
+
+# Your project portfolio
+
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 90%
+
