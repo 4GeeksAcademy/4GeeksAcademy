@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Emiliano
+    last_name: Braña
+    
+    # Define yourself in 4-5 words
+    motto: swimmer and nature lover
+    
+    # Focus
+    focus: practice makes masters
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      For years my professional work touched lead positions in high self-paced and high performing innovative environments of work because of my scientific and technological mindset and skills. 
+      I grew professionally as a project manager in multiple cross industries like science, art, technology, IoT, AV, CX. With 10 years of experience and extensive training I became a fast learner with a high skill set to handle multiple projects from different sources of knowledge. 
+      At this part of my life I'm looking forward to a new challenge that could be my way of life. 
+      Always positive and an outside the box thinker, with an analytical and artistic path of seeing things and life.
+                .
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/67813424?v=4
+
+    # Contact Information
+    email: em.brana@gmail.com #optional
+    phone: +59895985943 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: embrana
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Proficient
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Swimming
+
+      - item: Surf
+
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: Bachelor Multimedia Arts
+      university: Universidad Nacional de las Artes - Buenos Aires, Argentina
+      # optional
+      university_logo:
+      time: 2015 - 2020
+      details: |
+        The Bachelor of Multimedia Arts from the National University of the Arts trains professionals who, based on solid theoretical and practical foundations, are capable of experimenting with new technologies applied to artistic production. The training offered covers the genres of new media, also going through transdisciplinary experiences. The student goes through the production of interactive installations, multimedia performance, electronic and object art, expanded cinema, experimental photography and video art, electronic and electroacoustic music, alternative video games, construction and design of interfaces and devices, augmented reality, etc.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Product Manager - Producer
+      time: 2022 - Present
+      company: Jam City
+      # optional
+    
+      details: |
+        -My responsibilities as a product manager involve all the product life cycle strategy/development as well as reporting KPIs and monitoring and reporting product status/healthiness, design of strategies, design hypotheses and validation through creation of experiments, backlog prioritization, SGs set, roadmap development, stakeholders meetings to reviews.
+        Manage sales and LiveOps, CRM programs, content, economy, and user traffic.
+        As a Producer i’m in charge of help organize a the team to drive the completion of product goals, and facilitate communications, prioritize and track sprint goals and ensure on-schedule deliveries
+        Project Managing.
+        - User story mapping
+        - Backlog Prioritization
+        - Definition of Sprint goal, DoD, Success Criteria
+        - Road Map refinement
+
+
+# Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 60%
+
+      - name: Angular
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Sketch & Photoshop
+        level: 61%
