@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolás
+    last_name: Arévalo
+    
+    # Define yourself in 4-5 words
+    motto: I like develop technological solution
+    
+    # Focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a young appassionated with technologies, I'm a continuos learner and ambitius about it.
+      I studied at UTEC and got the intermediate title: "IT Technician"
+      I'm working at Baufest for a EEUU client with technologies like Boomi Dell, AWS and many more.
+
+    # Contact Information
+    website: sirnico6.github.io #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sirnico6
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Video-Games
+
+      - item: Football
+
+      - item: Technologies
+
+# Your previous education
+education:
+    - degree: Information Technologie Degree
+      university: Technological University
+      # optional
+      university_logo: Technological University
+      time: 2020 - 2022
+      details: |
+        The Bachelor's Degree in Information Technology has as its training areas those linked to the lines of Programming,
+        Testing and Technological Infrastructure.
+        The degree has an intermediate degree of Senior University Technician in Information Technology that is obtained upon
+        completion and passing the fourth semester of the Study Plan. The final degree of "Bachelor of Information Technology"
+        is obtained upon completion and passing all the courses of the 8 semesters of the Study Plan.
+
+    - degree: Fullstack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - present
+      details: |
+        In this Bootcamp you will develop from scratch as a Full Stack Developer. 
+        You will learn to create a website by immersing yourself in the best practices of responsive web design, 
+        working with various languages. You will obtain a solid foundation in frontend, backend, database, distributed 
+        process management, and deployment on web platforms.
+        At the end of this program, you will have the knowledge to join the technology sector as a Full Stack Developer.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Fullstack Cloud Developer
+      time: 2022 - 2023
+      company: IBM
+      # optional
+      company_logo: https://www.svgrepo.com/show/331437/ibm.svg
+      details: |
+        Here I worked with IBM Cloud, as a Fullstack developer
+        My tasks at this position I developed a lot of Proof Of Concepts projects to show the IBM clients how powerful are the
+        services and technologies at IBM Cloud
+        I worked with:
+          - IBM Cloud
+          - Javascript & Node
+          - Docker, Kubernetes and Openshift
+          - IaaS, PaaS, SaaS, etc
+
+    - role: Middleware Developer
+      time: 2023 - 2024
+      company: Baufest
+      # optional
+      company_logo: https://baufest.com/wp-content/uploads/2021/10/logo_baufest.jpg
+      details: |
+        At Baufest I work with Boomi Dell as main technologie, here I develop integration between many endpoints as NetSuite, iSeries,
+        MFCS, etc.
+        Also I work close with AWS, for data managment, with S3, Lambdas, Databases, etc.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Rock-Paper-Scissors
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/SirNico6/Rock-Paper-Scissors"
+        tagline: "A Rock Paper Scissors game developer with HTML, CSS and JS."
+
+      - title: Ragnark
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://gamejolt.com/games/ragnark/593628"
+        tagline: "A small platform game developer with Unity for Android and PC."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: JavaScript & Node
+        level: 95%
+
+      - name: Angular
+        level: 55%
+
+      - name: HTML5 & CSS
+        level: 95%
+      
+      - name: SQL and NoSQL
+        level: 65%
