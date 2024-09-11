@@ -1,0 +1,185 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesus Vadhir
+    last_name: Lorenzo Demuner
+    
+    # Define yourself in 4-5 words
+    motto: Busco soluciones, no problemas.
+    
+    # Focus
+    focus: Filipenses 4:13
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lomuner@gmail.com #optional
+    phone: 664 492 6327 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: vadhir8
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: C1
+
+      - idiom: Japonés
+        level: A1
+
+    # Interests or hobbies
+    interests:
+      - item: Cristianismo
+
+      - item: Senderismo
+
+      - item: Naturaleza
+
+# Your previous education
+education:
+    - degree: Licenciado en Docencia de Idiomas
+      university: Universidad Autónoma de Baja California
+      # optional
+      university_logo: https://static.wixstatic.com/media/d37dc4_5386a03afdd34069a3b43974d6b2a3ce~mv2.png/v1/fill/w_296,h_404,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/UABC_escudo_SER%20(2).png
+      time: 2011 - 2015
+      details: |
+        Durante los cuatro años de carrera se imparten diferentes metodologías de enseñanza,
+        así como diversas materias relacionadas a la morfología y morfosintaxis de la lengua madre
+        y la lengua inglesa. Del mismo modo, los estudiantes pueden elegir diversas optativas
+        para ampliar su espectro de herramientas educativas, tales como: Educación a Distancia, 
+        un tercer idioma, etc.
+
+    - degree: Certificación en el idioma inglés
+      university: Cal Poly Pomona
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Docente
+      time: Agosto, 2024 - Present
+      company: Instituto Bilingüe Santillana del Mar
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Docente y Coordinador del área de inglés.
+      time: Junio, 2017 - Julio, 2024.
+      company: Colegio Cristiano Estrella de la Mañana
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      A continuación se enlistan los proyectos que han sido desarrollados durante el tiempo
+      de estudio en el BootCamp de "Fullstack Development" por parte de 4GeeksAcademy
+
+    assignments:
+      - title: Post de Instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Haciendo uso de HTML y CSS se recreó un post de Instagram"
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Utilizando Bootstrap se replicó un feed de Instagram"
+
+      - title: Formulario HTLM5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Haciendo uso de HTML se creó una replica de un formulario."
+
+      - title: Aprendiendo en Público
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Utilizando lo aprendido en clase se corrigió un error ortográfico encontrado en el curso Fulstack Development."
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
