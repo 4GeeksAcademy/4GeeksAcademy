@@ -1,0 +1,66 @@
+template: "online-cv"
+skin: "blue"
+
+# Información Personal
+basic_info:
+
+    # Tu nombre completo
+    first_name: elisabeth
+    last_name: sepulveda
+    
+    # Defínete en 4-5 palabras
+    motto: amoroso,cuidadora,respetuosa,comprometida,leal.
+    
+    # Enfoque
+    focus: un dia a la ves.
+    
+    # Tienes 1 párrafo para causar una gran impresión, resume tu carrera.
+    summary: |
+      soy profecional en desarrollo familiar, trabajo como independiente en vienes raices, alquiler de vehiculos,cosechadora,
+      y programador en formacion, quiero dar lo mejor de mi en esta profesion y sacarle provecho en veenficio de mis negocios.
+    
+    # URL de tu foto de perfil
+    # Si no tienes la imagen en una URL, puedes colocarla dentro de /static/profile-images/ y el enlace generado será http://sep.breatheco.de/static/profile-images/<nombre de tu archivo>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Información de contacto
+    email: a@a.com #opcional
+    phone: 234 2342 342 #opcional
+    website: asd.com #opcional
+    linkedin: ..... #opcional
+    
+    #
+    # ******** IMPORTANTE *******
+    # Este nombre de usuario de GitHub se usará para generar tu URL de perfil público como esta: http://sep.breatheco.de/sharu725
+    github: EliSepulveda
+    
+    twitter: 'webjeda' #opcional
+    stack-overflow: # Número/Usuario, por ejemplo, 123456/alandoe
+
+    # Idiomas que hablas, niveles incluyen: Nativo, Profesional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Básico
+    # Intereses o pasatiempos
+    interests:
+      - item: arte
+
+      - item: bailar
+
+      - item: code 
+
+# Tu educación previa
+education:
+    - degree: full stack 
+      university: 
+      # opcional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+       estoy en el proceso de aprendizaje 
+
+    
+      
