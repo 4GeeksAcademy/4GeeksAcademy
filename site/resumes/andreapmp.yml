@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+template: "online-cv"
+skin: "blue"
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Andrea
+    last_name: Martinez
+    # Define yourself in 4-5 words
+    motto: Love animals more than people
+    # Focus
+    focus: Full-Stack Software Development
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Since I became interested in software development, I began to learn self-taught and finally decided to boost my career by enrolling in 4 Geeks Academy, where I am constantly improving my skills.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    # Contact Information
+    email: andreamartinezp96@gmail.com
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andreapmp
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Intermediate
+    # Interests or hobbies
+    interests:
+      - item: Traveling
+      - item: Learning new skills
+      - item: Anime
+# Your previous education
+education:
+    - degree: Veterinary Science
+      university: University of Zulia (L.U.Z)
+      # optional
+      university_logo: http://www.luz.edu.ve/images/stories/sec_permanente/escudo_de_luz_peq.png
+      time: 2015 - 2021
+      details: |
+        During my career I learned about health care for pets, livestock and wildlife. As well as the control of the spread of diseases, protection of public health and management of different production systems.
+# Your previous job experiences or volunteer
+experiences:
+    - role: Dog groomer
+      time: 2018 - Present
+      company: Independent
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Manager at a dog boarding
+      time: 2017 - 2018
+      company: Pet's House, Maracaibo, VZLA
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      List of prejects made at the full-stack software developer bootcamp
+    assignments:
+      - title: HTML Forms
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/andreapmp/andream-html-forms"
+        tagline: "A model of an HTML form using HTML5/CSS and Bootstrap skills."
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/andreapmp/andream-ig-photo-feed-with-bootstrap"
+        tagline: "A sample Instagram feed using Bootstrap."
+      - title: Instagram Post Layout
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/andreapmp/andream-instagram-post-layout"
+        tagline: "A sample of an Instagram post using HTML and CSS."
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/andreapmp/exercise-postcard"
+        tagline: "A postcard using HTML5 and CSS."
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+      - name: Javascript & jQuery
+        level: 2%
+      - name: Angular
+        level: 0%
+      - name: HTML5 & CSS
+        level: 50%
+      - name: Ruby on Rails
+        level: 0%
+      - name: Sketch & Photoshop
+        level: 0%
