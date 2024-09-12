@@ -1,0 +1,144 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristhian
+    last_name: Ramirez
+    
+    # Define yourself in 4-5 words
+    motto: I love rock and roll
+    
+    # Focus
+    focus: Learn to code in order to serve the technology community and make significant 
+           contributions to the field.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Coordinate efficient materials movements by leveraging strong organizational and problem-solving
+      abilities. Successfully manage high-volume work with little oversight, including examining 
+      shipments and coordinating vendor resolutions. Good recordkeeping and time management skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: cdrr1990@gmail.com #optional
+    phone: 786 315 1795 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Borknagar
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    
+
+    # Interests or hobbies
+    interests:
+      - item: Playing Drums
+
+      - item: Drawing
+
+      - item: Listen to music
+
+# Your previous education
+education:
+    - degree: High School Diploma
+      university: Colegio Nacional Andres Bello
+      # optional
+      university_logo: 
+      time: 2009
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: 
+      university: 
+      # optional
+      university_logo:
+      time: 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Warehouse Manager
+      time: 12/21 - 12/22
+      company: Az Cargo, Miami, Florida
+      # optional
+      company_logo: https://azcargo.us/wp-content/uploads/2021/12/Logo_-_AZ_Cargo_-__JPG-removebg-preview.png
+      details: |
+       ● Supervise staff; Responsible for coaching, training, and developing
+         subordinate. Assigns work, sets completion dates, reviews work, and
+         manages performance in accordance with organizational policies,
+         procedures, and performance management process.
+       ● Provides customer support for logistics problems. Coordinates
+         transportation of customer materials. Manages inbound shipment
+         receipt and inventory control, warehousing, customs control, and
+         outbound shipment preparation and dispatch.
+       ● Assumes responsibility for good working practices, safety, and security
+         for customer inventory and warehouse staff.
+       
+
+          - Bullet point
+          - Bullet point
+
+    - role: Warehouse Agent
+      time: 2020 - 2021
+      company: Efl Global
+      # optional
+      company_logo: https://efl.global/themes/custom/efl/logo.svg
+      details: |
+        ● Enter into the Cargowise system all incoming cargo.
+        ● Planned, organized and executed daily maintenance tasks.
+        ● Receive, check-in and put away stock quickly and accurately.
+
+        ● Forklift driving, prepare orders to deliver.
+        ● Experience and knowledge in Cargowise, Magaya and
+          Global warehouse management systems.
+
+          - Bullet point
+          - Bullet point
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript 
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+  
