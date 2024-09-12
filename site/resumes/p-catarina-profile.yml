@@ -1,0 +1,152 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Catarina
+    last_name: Estremores
+    
+    # Define yourself in 4-5 words
+    motto: Either you think you can or you can't, you're right
+    
+    # Focus
+    focus: Quicking at this course
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      . . .
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/155997817?v=4
+
+    # Contact Information
+    email: work.chipio@gmail.com #optional
+    phone: XXX #optional
+    website: no #optional
+    linkedin: not there yet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: p-catarina-profile
+    
+    twitter: 'nope' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Fluent
+
+    # Interests or hobbies
+    interests:
+      - item: Storytelling - Games, Movies, Anime
+
+      - item: DYIs - sewing, carpentry, ceramics
+
+# Your previous education
+education:
+    - degree: Bachelor in Audiovisuals and Multimedia
+      university: University of Social Communication
+      # optional
+      university_logo: https://www.escs.ipl.pt/sites/default/files/ESCS-Logo.png
+      time: 2014 - 2018
+      details: |
+        With a solid basis in Communication as a discipline, this course is built around
+        developing skills in such area and apply it in the most varied media:
+
+          - Graphic Design
+          - Photography
+          - Film production
+          - Audio production
+          - Webddesign
+          - 2D and 3D animation
+          - Among many others
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Graphic Designer
+      time: 2019 - 2020
+      company: A Cor Laranja, Lisbon
+      # optional
+      company_logo: https://acorlaranja.pt/wp-content/uploads/2021/04/ACL_Menu-Cores_348x154-uai-258x114-1.png
+      details: |
+        I worked primarily with the Marketing Dept. to execute social 
+        media posts. Editorial design, standards manuals, proposal
+        presentations and a lot of “putting out fire”.
+
+    - role: Graphic Design & Ard Director
+      time: 2018 - 2018
+      company: Studio Unika, Lisbon
+      # optional
+      company_logo: 
+      details: |
+        Mainly responsible for branding, visual identities and logo design projects.
+        Also packaging and labels. Social media posts. Monitor and manage recent 
+        additions to the design team.
+
+# Your project portfolio
+projects:
+    intro: >
+      ...
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 0%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
