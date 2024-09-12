@@ -14,5 +14,9 @@
   "precommit.silent": true,
   "pre-commit": [
     "test"
-  ]
+  ],
+  "engines": {
+  "node": ">=18.0.0"
+  }
+  
 }
