@@ -1,0 +1,168 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Valeria
+    last_name: Vargas
+    
+    # Define yourself in 4-5 words
+    motto: Boricua, Chemist, Gamer, Coder.
+    
+    # focus
+    focus: Coding ideas one line at the time.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a Technical Busines Analyst with specialization in LabVantage LIMS.
+      Have experience in the pharmaceutical, forensic toxicolog, RnD, and Biotech industires.
+      My education started on my home island Puerto Rico to which I was born and raise. 
+      I acquired my B.S. degree in industrial chemistry and worked in laboratories making 
+      easy to complex experiments following the different pharmacopeias USP, EP, and JP. 
+      This exposure led me to Buffalo, New York where I acquired my M.S. degree in Chemical Engineering, 
+      it was during my stay in Western New York that I identified that every lab I participated in had a LIMS application. 
+      This sparked my interest and led me to begin my career with LIMS.
+
+      With a background in chemistry, I bring a distinctive perspective to the world of coding.
+      The analytical skills and problem-solving acumen honed through my study of chemical reactions 
+      find resonance in the world of coding algorithms. Just as I once marveled at the elegant interactions between elements, 
+      I am excited to bring a similar spirit of discovery to crafting innovative software solutions.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lvvargas.aponte@gmail.com #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/lvvargas-aponte/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lvvargas-aponte
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Gaming
+
+      - item: Reading
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: MSc in Chemical Engineering
+      university: University at Buffallo
+      # optional
+      university_logo: https://www.buffalo.edu/content/www/brand/identity/university-logo-and-marks/jcr:content/par/image_13.img.418.auto.q65.png/1460123040155.png
+      time: 2015 - 2017
+
+    - degree: BSc in Industrial Chemistry Minor in Mathematics
+      university: Inter American University of Puerto Rico
+      # optional
+      university_logo: https://tsdr.uspto.gov/img/86402756/large
+      time: 2009 - 2014
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Technical Business Analyst
+      time: 2021 - Present
+      company: CSols Inc.
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          - Provide best practices on LIMS Application Development, Incident and Problem Management, Configuration Management following Change Control.
+          - Authored SOP for Application Maintenance and Operation and Change Control Management.
+          - Performed primary Business Analysis work to document User and Functional Requirements for end-to-end Business Processes and feature requests.
+          - Assist in the incident response, investigation and resolution of operational issues including hypercare periods.
+          - Developed User and Functional requirements for Validated environments.
+          - Developed LabVantage API endpoints and Java actions to send and receive data from LabVantage LIMS to third party systems.
+          - Developed enhancements to Jasper Reports following user requirements.
+
+    - role: Informatics Engineer
+      time: 2020 - 2021
+      company: Astrix
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          - Provide best practices on LIMS development, master data, reports and any other configuration.
+          - Performed primary Business Analysis work to document User and Functional Requirements for entire Business Processes and feature requests.
+          - Developed enhancements, new functionality using OOB configuration, Java, JavaScript and Groovy. 
+          - Collaborate closely with other IT groups on Infrastructure and Database implementations such as Disaster Recovery, Windows Server Clustering and MSSQL Database Clustering.
+          - JIRA Administrator overseeing developer's tasks for the LabVantage program.
+          - Authored and executed system quality documents: IQ, OQ, PQ, CQ.
+          - Assist in developing SOPs, work instructions and other relevant documentation for quality system administration
+
+    - role: Informatics Analyst
+      time: 2018 - 2020
+      company: Accenture
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+          - Primary technical lead supporting LabVantage LIMS for a global pharmaceutical company with over 2000 active users.
+          - Developed dashboards using report automation in Service Now that were leveraged across other support teams.
+          - Executed system technical and quality documents via electronic validation.
+
+# Your project portfolio
+projects:
+    intro: >
+      Below is a list of the assingment and projects I've working on.
+
+    assignments:
+      - title: platformerGame
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lvvargas-aponte/platformerGame"
+        tagline: "A 2D platformer game using HTML/CSS and JS."
+
+      - title: Excuse Generator
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lvvargas-aponte/lvvargas-aponte-excuse-generator"
+        tagline: "Exercise to create an Excuse Generator with JS."
+
+      - title: Digital Postcard
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lvvargas-aponte/exercise-postcard"
+        tagline: "Exercise to create my first digital postcard."
+
+      - title: Instagram Post
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lvvargas-aponte/lvvargas-aponte-exercise-instagram-post"
+        tagline: "Exercise to recreate an instagram layout"
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: Beginner
+
+      - name: Python
+        level: Beginner
+      
+      - name: Java
+        level: Beginner
+
+      - name: HTML5 & CSS
+        level: Beginner
