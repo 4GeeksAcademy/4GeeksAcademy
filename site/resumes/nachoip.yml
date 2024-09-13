@@ -13,7 +13,7 @@ basic_info:
     last_name: Puig De La Hoz
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Apacionado por la informática y el fútbol.
     
     # Focus
     focus: Killing Bad Boys
@@ -47,22 +47,18 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Español
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Fútbol
 
-      - item: Snowboarding
+      - item: Viajar
 
-      - item: Cooking
+      
 
 # Your previous education
 education:
