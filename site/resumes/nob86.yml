@@ -1,0 +1,99 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Gustavo
+  last_name: Dalla Croce
+  motto: Me gusta la programacion
+  focus: Apasionado por el sector it
+  summary: Desarrollador Full Stack con sólidos conocimientos en JavaScript, HTML,
+    CSS, Node.js, y bases de datos. Experiencia práctica en proyectos personales
+    y formación autodidacta en tecnologías web modernas.
+  avatar: https://mail.google.com/mail/u/0?ui=2&ik=e538e1b448&attid=0.1&permmsgid=msg-a:r5170681734964865101&th=191472ca93d86571&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8CBoUR-EYeqlqyzX8-G1NvrxEK3Fk6FOve6ZuHOQxZh7GZkg2Ksx1pGBM76DRnj-N0VMddYhGm4ezAU75WBmpc_rAKU6FJbJoaZesn9YLoUzEdaaTR4nys_PQ&disp=emb&realattid=05B43FBA-27DB-40A8-A93A-7E82E1EF846D
+  email: gustavoadallacroce@gmail.com
+  phone: 623242321
+  website: as.com
+  linkedin: Gustavo Dalla Croce
+  github: nob86
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: Ingles
+      level: Avanzado
+    - idiom: Aleman
+      level: inicial
+    - idiom: Italiano
+      level: Avanzado
+    - idiom: Español
+      level: Nativo
+  interests:
+    - item: Climbing
+    - item: Snowboarding
+    - item: Cooking
+education:
+  - degree: Programador full stack
+    university: 4geeks academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024
+    details: >
+      Formación completa en programación Full Stack: HTML, CSS, JavaScript, y
+      React para desarrollo Front-End; Node.js, Express, y MongoDB en el
+      Back-End. Conocimientos en control de versiones con Git, despliegue en
+      Heroku, y creación de API RESTful. Capacitación en seguridad web y
+      autenticación de usuarios.
+experiences:
+  - role: Administrativo
+    time: 2010 - 2018
+    company: Rosario, Argentina
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Atencion en urgecias medicas 
+  - role: Administrativo
+    time: 2006 - 2008
+    company: Tribunales provinciales de Rosario
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Administrativo del poder judicial
+projects:
+  intro: |
+    proyectos de 4 geeks academy
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
