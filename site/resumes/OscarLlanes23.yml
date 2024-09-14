@@ -1,0 +1,66 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Oscar
+    last_name: Llanes
+    
+    # Define yourself in 4-5 words
+    motto: Proactivo , Entusiasta, Extrovertido, amable
+    
+    # Focus
+    focus: Ser buen programador
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: oscarllanes784@gmail.com
+    phone: 099 190 607
+    website: 
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: OscarLlanes23
+    
+    twitter: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: intermedio
+
+      
+    # Interests or hobbies
+    interests:
+      - item: Musica
+
+      - item: Tecnologia
+
+      - item: Deportes
+
+# Your previous education
+education:
+    - degree: Licenciatura en Tecnologias de la informacion
+      university: UTEC
+      # optional
+      university_logo: 
+      time: 2024 - Actual
+      details: 
