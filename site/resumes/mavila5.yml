@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Mathew (Mateo)
+  last_name: Avila
+  motto: Living each day to the max!
+  focus: Full Stack Developer & Marketing Professional
+  summary: >
+    Versatile, results-driven marketing coordinator with a proven track
+    record in print and digital advertisement development, website
+    administration, and brand management spanning over 5 years. Notably, a key
+    member in marketing efforts for United Way's 2023 Mayors' Gala, generating
+    $800,000 in revenue through data-driven strategies and creative thinking.
+  avatar: https://ca.slack-edge.com/T0BFXMWMV-U05NAF8BTU3-e8e8179d7b71-512
+  email: mavila2@outlook.com
+  phone: 561-229-8259
+  website: ""
+  linkedin: www.linkedin.com/in/mathewavila
+  github: MAvila5
+  twitter: webjeda
+  stack-overflow: ""
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Videography & Editing
+    - item: Reading
+    - item: Soccer
+education:
+  - degree: Master of Business Administration in Marketing
+    university: Lynn University
+    university_logo: ""
+    time: 2017 - 2018
+    details: Add details about your Master's degree here.
+  - degree: Bachelor of Arts in Political Science
+    university: Lynn University
+    university_logo: ""
+    time: 2014 - 2017
+    details: Add details about your Bachelor's degree here.
+experiences:
+  - role: Marketing Coordinator
+    time: 2021 - Present
+    company: United Way of Broward County | Fort Lauderdale, FL
+    company_logo: ""
+    details: >
+      - Collaborate with the Marketing Director to execute and monitor
+      marketing strategies for print and digital campaigns, ensuring adherence
+      to branding standards and achieving an average annual revenue of $1
+      million.
+
+      - Produce monthly blogs, craft bi-weekly e-newsletters, curate daily social media content, and support the production of quarterly and annual newsletter magazines and reports, reaching an audience of over 100,000 Broward County residents.
+
+      - Consistently increase website traffic by 10% annually through performing routine website updates and maintenance, producing detailed monthly campaign reports, and improving local and onsite SEO.
+
+      - Utilize paid marketing to exceed annual attendance goals by 10% for events like the Mayors' Gala and Magnolia Luncheon.
+
+      - Optimize online listings through Google Business Profile (GMB) and other online sites to promote customer services and event ticket sales, increasing visibility and driving a 15% growth in website traffic during campaigns.
+
+      - Oversee the production and editing of 20+ videos shared through Facebook, Instagram, LinkedIn, and Twitter.
+  - role: Marketing and Program Coordinator
+    time: 2018 - 2021
+    company: Philanthropy Tank | West Palm Beach, FL
+    company_logo: ""
+    details: >
+      - Constructed a marketing plan and drafted press releases to grow
+      applicants in Baltimore, Palm Beach, and Broward markets, ensuring over
+      600 submissions from '19 to '21.
+
+      - Led a $10k site redesign project to increase our conversion optimization rate and improve mobile rendering and UX (user experience), resulting in a 75% increase in application submissions from '20 to '21.
+
+      - Formed valuable partnerships with 20+ community partners within Palm Beach and Broward counties, leveraging relationship-building skills to build brand awareness and facilitate speaking opportunities for the President and CEO.
+
+      - Built timelines, proofread copy, and approved collateral designs from 10+ vendors to ensure proper execution of projects.
+
+      - Documented expenditure reporting and conducted meticulous quality control checks to fulfill proof of revenue, ROI, and legal obligations, leveraging compliance knowledge.
+  - role: Graduate Assistant
+    time: 2017 - 2018
+    company: Lynn University Library | Boca Raton, FL
+    company_logo: ""
+    details: >
+      - Conducted a website audit and developed an onsite SEO plan, resulting
+      in a 40% increase in the archives site's organic traffic from '17 to '18,
+      showcasing expertise in SEO best practices and understanding site
+      analytics.
+
+      - Planned and executed 10+ university events while archiving event photos on the blog section.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users & investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website
