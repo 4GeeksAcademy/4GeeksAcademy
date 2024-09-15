@@ -1,0 +1,46 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Andrés
+    last_name: Abadía Heredia
+    
+    
+    motto: Creative, and allways looking to improve.
+    
+    
+    focus: Specialise in backend and get a great job to keep learning.
+    
+    
+    summary: |
+      I am a software developer ready to join a company where I can help you achieve your goals and improve my skills.
+      I have experience in Java (Spring, Junit) and PHP, and a good knowledge of Javascript and Mongodb.
+      I’m allways looking forward to improve my skills.
+    
+
+
+    Experinece:
+    - company: Globant 
+      job_position: Java Developer
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fcompanieslogo.com%2Fglobant%2Flogo%2F&psig=AOvVaw35ikqPp9PPzRjWXN9vB952&ust=1696670661762000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNic2PKM4YEDFQAAAAAdAAAAABAE
+      time: 2023/05 - 2023/07
+      details: |
+        I was working in several apps to learn and improve my Java skills to change the legacy code of the client to the new versions and apply Spring, SOLID, Junit, and design patterns:
+        (Observer, Factory, Abstract Factory, Decorator, Strategy)
+   
+    
+    email: abadiaandres@gmail.com
+    linkedin: https://www.linkedin.com/in/andr%C3%A9s-abadia-heredia-686039b9/
+    
+    
+    github: Andleus
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Intermediate
+
+
