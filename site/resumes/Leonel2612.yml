@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Leonel
+    last_name: Santana
+    
+    # Define yourself in 4-5 words
+    motto: Responsible, Humble, Curious, Focused
+    
+    # focus
+    focus: Become a Full Stack 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am an Engineer seeking new challenges that I am passionate about, with experience in independent projects that were successfully completed. I enjoy working in a team and autonomously in a work environment where everyone involved in the project feels comfortable moving forward. Finally, I enjoy learning new things and sharing what I have learned with others.    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/drive/folders/1m04fiNOXmebvB2nvYdGN8-8lSuY0No2x
+
+    # Contact Information
+    email: leonelsantana32@gmail.com #optional
+    phone: +593 998698736 #optional
+    # website: asd.com #optional
+    linkedin: leonel-santana-73875b142 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Leonel2612
+    
+    twitter:  #optional
+    stack-overflow: Leonel S #Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Fluent
+
+      - idiom: Spanish
+        level: Native
+
+education Degree:
+    - degree: Full Stack Web Developer
+      university: 4Geeks Academy
+      time: 2023 - present
+      details: |
+        Full Stack Web Developer four intensive months bootcamp where I am learning all the tools that I need it in order to become a Full Stack Developer.  
+          
+    - degree: Bachelor of Science in Electrical Engineering
+      university: Universidad Laica Eloy Afaro de Manabi
+      # optional
+      time: 2017 - 2023
+     
+    - Course: Learn Python Course 3 
+      university: CodeAcademy
+      # optional
+      time: 2023-2023
+     
+# Your previous job experiences or voluntier
+experiences:
+    - role: Internship
+      time: 2019 - 2019
+      company: CNEL Manta
+      # optional
+      
+    - role: Assistant for scientific articles related to pattern recognition at ULEAM
+      time: 2018 - 2019
+      company: ULEAM
+      # optional
+
+    - role: Electrical design of hybrid photovoltaic wind system for the foundation Dos Corrientes
+      time: 2022 - 2023
+      company: Dos Corrientes
+      # optional
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: Python Bot
+        # optional
+        link: https://github.com/Leonel2612/Python-Bot
+        tagline: "An efficient Python bot designed to notify me when specific content becomes available on a web page."
+
+      - title: Script-About-Hacking
+        # optional
+        link: https://github.com/Leonel2612/Script-About-Hacking
+        tagline: "A little project about how I got access to the computer of the person who ran this script"
+
+      - title: Pokemon-Game-Battle
+        # optional
+        link: https://github.com/Leonel2612/Pokemon-Game-Battle
+        tagline: "A little Game Pokemon Battle"
+
+      - title: Project Instagram Photo Feed With Bootstrap
+        # optional
+        link: https://github.com/Leonel2612/html-hello
+        tagline: "An instagram Photo Feed with Bootstrap"
+
+ 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: Javascript & React
+        level: 60%
+
+      - name: Angular
+        level: 60%
+
+      - name: HTML5 & CSS 
+        level: 65%
+
