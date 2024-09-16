@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria  
+    last_name: Ortega
+    
+    # Define yourself in 4-5 words
+    motto: learning,dedication,caring,helping,adaptable
+
+    
+    # Focus
+    focus: Keep on learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     
+      Proficient Marketing Professional, expert in Digital Content, E-commerce, and Landing Page Design.
+      Holder of a Bachelor's in Marketing from the University of Central Florida and a Master's in Digital Marketing 
+      from Full Sail University. Actively pursuing Full Stack Developer Certification.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: mcamilaortega12@gmail.com #optional
+    phone: 407 914 4337 #optional
+    website:  #optional
+    linkedin: mariaortegab #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        
+      - idiom: Spanish
+       
+
+    # Interests or hobbies
+    interests:
+      - item: CrossFit
+
+      - item: Biking
+
+
+# Your previous education
+education:
+    - degree: B.S in Business - Marketing
+      university: University of Central Florida
+
+    - degree: M.S in Digital Marketing
+      university: Full Sail University
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ecommerce Marketing Specialist 
+      time: 2021 - Present
+      company: MaxLiving, Orlando,FL
+      
+          - Proficient knowledge of Shopify 
+          - Work closely with different teams (product management, graphics, sales) to provide updated content that will be shared across e-Commerce platforms.
+          - Provide support in other areas of Media Marketing, Email Marketing, SEO, Google Analytics
+          - Ability to multitask and meet deadlines while maintaining attention to detail.
+          - Monitor changes in website traffic or increases in sales
+          - Developing, monitoring, writing and updating product content contained on eCommerce websites/portals.
+          - Developing subject matter expertise in assigned product categories and taking ownership of daily business administration on assigned accounts.
+          - Cultivating standards, systems and best practices for content creation, distribution, maintenance, and new product listings.
+
+    - role: Marketing Assistant
+      time: 2019 - 2021
+      company: Touchrate Orlando, FL
+    
+          - Generated and managed daily content for company's social media accounts which generated an in- crease in followers - Content marketing
+          - Assisted in different business proposals 
+          - Assisted with website content and design
+          - Engaging with all users by replying to comments, emails, reviews and calls
+          - Created monthly news letter to current data base
+
+    - role: School Marketing & Enrollment Manager
+      time: 2017 - 2019
+      company: Charter Schools USA Orlando, FL
+     
+          - Awards: Award of excellence 2017-2018
+          - Collaborates with marketing team to execute digital marketing strategies designed to build awareness and boost enrollment through social media. Deploy email campaigns to support on-going communication to prospective families
+          - Managed social media platforms including Facebook, Instagram, website and elaborated content for those platforms
+          - Monitors online presence of company’s brand and engagement with users, strengthening parent relationships with the school
+          - Oversees the entire enrollment process to ensure the school receives maximum funding per pupil.
+          - Prepares, analyzes, and reports on educational activities for government and educational agencies and interprets registrations policies to faculty and students
+          - Supports Principal in managing project timelines and support timely delegation of responsibilities
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+  
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+ 
