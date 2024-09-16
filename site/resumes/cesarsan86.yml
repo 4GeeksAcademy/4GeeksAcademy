@@ -1,0 +1,182 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: César
+    last_name: Sánchez
+    
+    # Define yourself in 4-5 words
+    motto: Siempre motivado
+    
+    # Focus
+    focus: cada día aprendiendo cosas nuevas
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Persona comunicativa, amable y capaz de adaptarse a cada situación. Busco una oportunidad laboral en la que demostrar mi compromiso y capacidad de trabajo. En mis empleos anteriores siempre he destacado por mi buena productividad y mi capacidad de aprender rápidamente.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/20.jpg
+
+    # Contact Information
+    email:cesarsanchez86@hotmail.com #optional
+    phone: 653 19 20 81 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/c%C3%A9sar-s%C3%A1nchez-fern%C3%A1ndez-90044438/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cesarsan86
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom:Inglés
+        level: Bajo
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: tocar el violín
+
+      - item: escuchar música
+
+      - item: nuevas tecnologías
+
+# Your previous education
+education:
+    - degree: Grado superior de Desarrollo de Aplicaciones Web (D.A.W)
+      university: Juan XXIII de Alcorcón e Ilerna.
+      # optional
+      university_logo:
+      time: 2019 - 2021
+      details: |
+        Desarrollo de Aplicaciones Web: lenguajes de programación: C, Java, Html, CSS, SQL, JavaScript,
+        C#, PHP, Java.
+
+          - Habilidad para trabajar en equipo y evitar conflictos
+          - Ser organizado y poder planificar tareas y utiliar eficientemente el tiempo.
+
+    - degree: Grado superior de Violín
+      university: Conservatorio Superior de Música de Aragón
+      # optional
+      university_logo: 
+      time: 2005 - 2009
+      details: |
+    - degree: Curso de especialización en Python
+      university: SEAS Formación
+      # optional
+      university_logo: 
+      time: 2023
+      details: |  
+
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Amazon Logística
+      time: 2009 - Present
+      company: Amazon, Getafe
+      # optional
+      company_logo: 
+      details: |
+      
+
+          - Bullet point
+          - Bullet point
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+
+          - Bullet point
+          - Bullet point
+
+    - role: 
+      time:
+      company: 
+      # optional
+      company_logo: 
+      details: |
+      
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/cesar-bootstrap.git
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title:
+        # optional
+        project_logo: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
