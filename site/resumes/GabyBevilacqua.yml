@@ -1,0 +1,157 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriella
+    last_name: Bevilacqua
+    
+    # Define yourself in 4-5 words
+    motto: En eterno aprendizaje y crecimiento 
+    
+    # Focus
+    focus: Mantenerme autentica
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Art Designer, arquitecto y fotografa profesional, me encanta todo lo 
+      relacionado con el arte desde la fotografia hasta la realizacion de 
+      joyeria contemporanea. En el mundo de la programacion estoy comenzando
+      y ya se que me encanta la programacion creativa y animacion con codigo.
+      
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: bevi.gaby@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: Gabriella Bevilacqua Sanz #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GabyBevilacqua
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Conversation
+
+    # Interests or hobbies
+    interests:
+      - item: Museos y galerias
+
+      - item: Programas de edicion
+
+      - item: Conocer ciudades historicas
+
+# Your previous education
+education:
+    - degree: Grado superior en Arquitectura
+      university: Universidad Central de Venezuela
+      # optional
+       
+      time: 1998 - 2008
+      details: |
+        Hice mi carrera de arquitectura con calma y la disfrute muchisimo,
+        al mismo tiempo trabaje para distintos arquitectos y tambien 
+        me prepare como fotografa y trabaje en un reconocido estudio fotografico
+        de Latam ademas de hacer fotografia de deportes de accion.
+
+          - Diseno de viviendas unifamiliares
+          - Diseno de cocinas
+
+    - degree: Curso Nutricion y dietetica
+      university: Sepe, certificado oficial
+      # optional
+       
+      time: 2024 - 2024
+      details: |
+     
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Arquitecto disenador
+      time: 2012 - 2015
+      company: Intercuisine, Caracas, Venezuela
+      # optional
+      company_logo: 
+      details: |
+        Arquitecto disenador de cocinas, armarios y banos. Atencion de 
+        clientes de alto perfil. El trabajo consistia en atender al cliente,
+        tomar medidas de los espacios, hacer los disenos acordes a los
+        planteamitentos de los clientes, levantamiento 3D del proyecto,
+        planificacion y documentacion para el fabricante, recibir el 
+        pedido, supervision del montaje y fotos del acabado final. 
+
+          - Diseno de cocinas
+          - Diseno de banos
+
+    - role: Arquitecto disenador
+      time: 2010 - 2012
+      company: Iluminaciones Helios, Caracas, Venezuela
+      # optional
+      company_logo: 
+      details: |
+        Arquitecto disenador de iluminacion. Atencion de 
+        clientes de alto perfil. El trabajo consistia en atender al cliente,
+        tomar medidas de los espacios, hacer los disenos acordes a los
+        planteamitentos de los clientes, venta de las luminarias, 
+        supervision del montaje y fotos del acabado final.
+
+          - Iluminacion del hogar
+          
+
+    - role: Fotografa profesional
+      time: 2006 - 2010
+      company: Hoyos Photo Studio, Caracas, Venezuela
+      # optional
+      company_logo:
+      details: |
+        Fotografia de embarazos, para portafolio de modelos, fotografia 
+        familiar y de ninos. Atencion al cliente, edicion y retoque 
+        fotografico.
+
+          - Fotografia de embarazos
+          
+
+# Your project portfolio
+
+    
+    
+skills:
+    toolset:
+      - name: Autocad & Photoshop
+        level: 98%
+
+      - name: Cinema4D
+        level: 60%
+
+      - name: Illustrator
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 15%
+
+      - name: JavaScript
+        level: 10%
