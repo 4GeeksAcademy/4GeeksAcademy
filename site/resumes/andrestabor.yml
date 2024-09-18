@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrés Felipe
+    last_name: Taborda Arias
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Desarrollador web fullStack con múltiples habilidades para el trabajo en equipo, caracterizado por su capacidad de adaptabilidad y pasión por el aprendizaje continuo de nuevas tecnologías; aptitudes especificas desarrollado con tecnologías como React.js, Angular, Html, Css, Redux, Java, Spring Boot, Firebase, MongoDb, MySql, TDD, DDD, Rest Api, patrones de diseño, Rabitmq, aplicando metodologías ágiles como scrum.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/84872685?v=4
+
+    # Contact Information
+    email: andrestaborda43@gmail.com #optional
+    phone: 643 60 57 83 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/andresf-taborda/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AndresTabor  
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Poetry
+
+      - item: Drawing
+
+      - item: Jazz
+
+# Your previous education
+education:
+    - degree: Systems support technician
+      university: Cesde, Antioquia - Colombia
+      time: 2021 - 2021
+      details: |
+        Comprehensive training in resolution of technical problems, installation and configuration of operating systems and networks. Solid knowledge of front-end web development using HTML, CSS and JavaScript
+
+ 
+
+skills:
+    toolset:
+      - name: JavaScript 
+        level: 98%
+
+      - name: Angular
+        level: 78%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java & SpringBoot
+        level: 85%
+
+      - name: Illustrator & Photoshop
+        level: 70%
