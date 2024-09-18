@@ -1,9 +1,9 @@
 #
-# Tenga en cuenta que incluso un pequeño error de sintaxis aquí puede provocar fallos en la salida.
+# Be aware that even a small syntax error here can lead to failures in output
 #
 
-plantilla: "cv en línea"
-piel: "blue"
+template: "online-cv"
+skin: "blue"
 
 # Personal Information
 basic_info:
@@ -42,7 +42,7 @@ basic_info:
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: martincorestein
     
-    Gorjeo: martiin2009 #optional
+    twitter: 'martiin2009' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -60,94 +60,97 @@ basic_info:
     interests:
       - item: Fitness
 
-      - item: Learn
+      - item: Football
 
-      - item: Anime
+      - item: Cooking
 
-# Tu educación anterior
+# Your previous education
 education:
     - degree: Analista en Tecnologia de la Información
       university: Universidad ORT Uruguay
-      # opcional
-      logotipo_universidad: HTTPS://gestion.ort.edu.uy/general/img/Logo_ORT_alpha.png
-      tiempo: 2018 - 2019
+      # optional
+      university_logo: HTTPS://gestion.ort.edu.uy/general/img/Logo_ORT_alpha.png
+      time: 2018 - 2019
       details: |
         La carrera te permite descubrir tu potencial en el mundo del desarrollo de software, aprendiendo mediante práctica intensa con casos reales de la industria y adquiriendo habilidades clave para una rápida inserción laboral.
 
-    - grado: Desarrollador Full Stack
-      universidad: Academia 4Geeks
-      # opcional
-      logotipo_universitario: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      tiempo: actualmente
-      Detalles: |
-# Tus experiencias laborales anteriores o voluntariado
-experiencias:
-    - rol: Administrador de seguridad de TI
-      tiempo: 2019 - 2023
-      compañía: OCA SA, Uruguay
-      # opcional
-      logotipo_empresa: HTTPS://oca.uy/src/img/logo-OCA-internas.svg
-      Detalles: |
+    - degree: Desarrollador Full Stack
+      university: Academia 4Geeks
+      # optional
+      university_log: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: actualmente
+      details: |
+
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Administrador de seguridad de TI
+      time: 2019 - 2023
+      company: OCA SA, Uruguay
+      # optional
+      company_logo: HTTPS://oca.uy/src/img/logo-OCA-internas.svg
+      details: |
         Gestioné cuentas de usuario y permisos, asegurando que solo el personal autorizado tuviera acceso a datos y sistemas sensibles..
         Desarrollé programas de concientización en ciberseguridad y capacité a empleados sobre prácticas seguras para prevenir ciberataques..
         Guié a las organizaciones en sus procesos de certificación ISO27001, PCI DSS y PCI PIN..
         Ocupé el rol de CISO en las organizaciones, implementando y velando por el cumplimiento de las políticas de seguridad de la información..
         Supervisé la seguridad de las redes y sistemas de la empresa, identificando y mitigando amenazas cibernéticas..
 
-# Tu cartera de proyectos
-Proyectos:
-    introducción: >
-      Puede enumerar sus proyectos paralelos o bibliotecas de código abierto en este
-      sección El cliente es muy importante, el cliente será seguido por el cliente..
-      El vestíbulo y la lígula en la ahora bebible fringilla una cama de fútbol..
 
-    asignaciones:
-      - Título: Velocidad
-        # opcional
-        logotipo_proyecto: HTTPS://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        enlace: "#gancho"
-        Lema: "Una plantilla de sitio web responsiva diseñada para ayudar a las empresas emergentes a promover, comercializar y vender sus productos.."
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-      - Título: DevStudio
-        # opcional
-        logotipo_proyecto: HTTPS://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        enlace: "#"
-        Lema: "Una plantilla de sitio web responsiva diseñada para ayudar a los desarrolladores/diseñadores web a comercializar sus servicios.."
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - Título: tiempo
-        # opcional
-        logotipo_proyecto: HTTPS://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        enlace: "#"
-        Lema: "Una plantilla de sitio web responsiva diseñada para ayudar a las empresas emergentes a promocionar sus productos o servicios y atraer usuarios e inversores."
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - Título: Átomo
-        # opcional
-        logotipo_proyecto: HTTPS://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        enlace: "#"
-        Lema: "Una solución integral de plantilla de sitio web para que las empresas emergentes y los desarrolladores comercialicen sus aplicaciones móviles.."
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - ejercito: delta
-        # opcional
-        logotipo_proyecto: HTTPS://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        enlace: "#"
-        Lema: "Un tema responsivo de una página Bootstrap diseñado para ayudar a los desarrolladores de aplicaciones a promocionar sus aplicaciones móviles"
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-habilidades:
-    conjunto de herramientas:
-      - Nombre: Python y Django
-        nivel: 98%
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - Nombre: JavaScript y jQuery
-        nivel: 98%
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
 
-      - Nombre: Angular
-        nivel: 98%
+      - name: JavaScript & jQuery
+        level: 98%
 
-      - Nombre: HTML5 y CSS
-        nivel: 95%
+      - name: Angular
+        level: 98%
 
-      - Nombre: Rubí sobre rieles
-        nivel: 85%
+      - name: HTML5 & CSS
+        level: 95%
 
-      - Nombre: Bosquejo y Photoshop
-        nivel: 60%
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
