@@ -1,11 +1,10 @@
 ---
 template: online-cv
-skin: blue
 basic_info:
-  first_name: Wonder
-  last_name: Woman
-  motto: I like saving the world
-  focus: Killing Bad Boys
+  first_name: Aaron
+  last_name: Jordan
+  motto: It's taco time
+  focus: Eating tacos
   summary: >
     Summarize your career here lorem ipsum dolor sit amet, consectetuer
 
@@ -17,28 +16,28 @@ basic_info:
 
 
     Second paragraph if required.
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
-  email: a@a.com
-  phone: 234 2342 342
-  website: asd.com
-  linkedin: alandoe
-  github: example
-  twitter: webjeda
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+  email: teamcrunchytacos@duck.com
+  phone: xxx-xxx-xxxx
+  website: null
+  linkedin: null
+  github: Team-Crunchy-Tacos
+  twitter: null
   stack-overflow: null
   languages:
     - idiom: English
       level: Native
-    - idiom: French
-      level: Professional
-    - idiom: Spanish
-      level: Professional
+    - idiom: null
+      level: null
+    - idiom: null
+      level: null
   interests:
-    - item: Climbing
-    - item: Snowboarding
-    - item: Cooking
+    - item: Crunchy tacos
+    - item: Soft tacos
+    - item: street tacos
 education:
-  - degree: MSc in Computer Science
-    university: University of London
+  - degree: Full-stack web dev
+    university: University of Richmond
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2011 - 2012
     details: |
@@ -50,8 +49,8 @@ education:
 
         - Bullet point
         - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
+  - degree: null
+    university: null
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     time: 2007 - 2011
     details: |
@@ -64,9 +63,9 @@ education:
         - Bullet point
         - Bullet point
 experiences:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: jr dev
+    time: 2023 - Present
+    company: Zebra Admin
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -81,9 +80,9 @@ experiences:
 
         - Bullet point
         - Bullet point
-  - role: Senior Software Engineer
+  - role: null
     time: 2014 - 2015
-    company: Google, London
+    company: null
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -94,9 +93,9 @@ experiences:
 
         - Bullet point
         - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+  - role: null
+    time: null
+    company: null
     company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
     details: |
       Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -113,42 +112,33 @@ projects:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
     ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Velocity
+    - title: null
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#hook"
-      tagline: A responsive website template designed to help startups promote, market
-        and sell their products.
-    - title: DevStudio
+      link: null
+      tagline: null
+    - title: null
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: A responsive website template designed to help web developers/designers
-        market their services.
-    - title: Tempo
+      link: null
+      tagline: null
+    - title: null
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: A responsive website template designed to help startups promote their
-        products or services and to attract users &amp; investors
-    - title: Atom
+      link: null
+      tagline: null
+    - title: null
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: A comprehensive website template solution for startups/developers to
-        market their mobile apps.
-    - title: Delta
+      link: null
+      tagline: null
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: A responsive Bootstrap one page theme designed to help app developers
-        promote their mobile apps
+      link: null
+      tagline: null
 skills:
   toolset:
-    - name: Python & Django
+    - name: SQL, MySQL
       level: 98%
     - name: JavaScript & jQuery
       level: 98%
-    - name: Angular
+    - name: Joomla
       level: 98%
     - name: HTML5 & CSS
       level: 95%
-    - name: Ruby on Rails
-      level: 85%
-    - name: Sketch & Photoshop
-      level: 60%
+    
