@@ -1,0 +1,109 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Florencia
+    last_name: dos Santos
+    motto: "Organización y Adaptabilidad"
+    focus: Administración y Servicio al Cliente
+    summary: |
+      Me destaco por mi excelente capacidad de organización y planificación. 
+      Poseo una gran facilidad para adaptarme a entornos cambiantes y trabajar 
+      en equipos multidisciplinarios. Mi comunicación es clara y siempre orientada a 
+      objetivos. Deseo formar parte de un equipo en el que pueda seguir creciendo, 
+      desarrollando mis habilidades y aportando con responsabilidad y entusiasmo.
+    avatar: "https://randomuser.me/api/portraits/women/24.jpg"
+    email: florenciac0812@gmail.com
+    phone: "+598 92135946"
+    github: "Flodsc"
+    languages:
+      - idiom: Español
+        level: Nativo
+      - idiom: Portugués
+        level: Nativo
+      - idiom: Inglés
+        level: Básico (Cursando actualmente)
+    interests:
+      - item: Organización
+      - item: Planificación
+      - item: Trabajo en equipo
+
+# Your previous education
+education:
+    - degree: Licenciatura en Administración
+      university: Universidad de la República (cursando actualmente)
+      time: Actualidad
+      details: |
+        Formación en administración de empresas, gestión de recursos y análisis de datos.
+
+    - degree: Certificado en Inteligencia Emocional para el Liderazgo Efectivo
+      university: AnahuacX
+      time: 2023
+      details: |
+        Desarrollo de habilidades de liderazgo basadas en la inteligencia emocional.
+
+    - degree: Certificado en Gestión del Estrés y Mindfulness
+      university: AnahuacX
+      time: 2023
+      details: |
+        Técnicas para la gestión del estrés y el mindfulness en ambientes laborales.
+
+    - degree: Certificado Profesional en Análisis de Datos
+      university: Google
+      time: 2023
+      details: |
+        Formación intensiva en análisis de datos utilizando herramientas como SQL, Tableau y R.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Team Leader of Administration Support of CX
+      time: Julio 2020 - Enero 2024
+      company: Tiendamia
+      details: |
+        Responsable del soporte administrativo para otros departamentos, 
+        creación de informes analíticos (SHARE y CSAT), planificación de tareas, 
+        y gestión operativa de reembolsos. Creación y seguimiento de KPIs y OKRs.
+
+    - role: Customer Service
+      time: Agosto 2019 - Junio 2020
+      company: Tiendamia
+      details: |
+        Atención a clientes, resolución de dudas, y asistencia en la selección de productos. 
+        Respuesta a consultas sobre mercancía, precios y cambios en la plataforma.
+
+# Your project portfolio
+projects:
+    intro: >
+      Estos son algunos de mis proyectos recientes, donde apliqué mis habilidades técnicas 
+      y de análisis para mejorar procesos y resolver problemas en entornos colaborativos.
+    assignments:
+      - title: Feed de Instagram Interactivo
+        link: "https://github.com/Flodsc/my-project-instagram-feed-bootstrap"
+        tagline: "Creación de un feed de Instagram con Bootstrap, donde se pueden ver las imágenes en mosaico y en lista."
+
+      - title: Post de Instagram
+        link: "https://github.com/Flodsc/my-project-post-instagram"
+        tagline: "Diseño de un post de Instagram utilizando HTML5 y CSS."
+
+      - title: Formulario de Pago
+        link: "https://github.com/Flodsc/my-project-from-bootstrap"
+        tagline: "Desarrollo de un formulario de pago utilizando HTML y Bootstrap."
+
+# Skills
+skills:
+    toolset:
+      - name: Office
+        level: 100%
+      - name: Tableau
+        level: 90%
+      - name: SQL
+        level: 85%
+      - name: RStudio & R
+        level: 80%
+      - name: Jira & Monday
+        level: 75%
+      - name: HTML5, CSS & Bootstrap
+        level: 60%
+      - name: GitHub
+        level: 60%
