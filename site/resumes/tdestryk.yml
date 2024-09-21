@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Trevor
+    last_name: Kortum
+    
+    # Define yourself in 4-5 words
+    motto: Always wanting to learn
+    
+    # Focus
+    focus: Gain the best skills to do the most effective job
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     First I started doing more labor intensive work. From there I decided I wanted to further my education and strengthen my skills set. 
+     I then moved to Los Angeles to pursue film making. I grew a love for production but realized I wanted to further my skill set even 
+     more. Thats when I discovered Data Science. Now my goal is to understand the world of Data science.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+
+    # Contact Information
+    email: tdestryk@gmail.com
+    phone: 307-689-3132 #optional
+  #optional
+    linkedin: Trevor Kortum #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: tdestryk
+    
+   #optional
+    stack-overflow: Trevor Kortum # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Student
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Playing Guitar/Bass
+
+      - item: Kayaking
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      # optional
+      university_logo:
+      time: 
+      details: 
+
+    - degree: 
+      university:
+      # optional
+      university_logo: 
+      time: 
+      details: 
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: 
+    
+
+    - role:
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: 
+
+    
+# Your project portfolio
+projects:
+    intro: 
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name:
+        level:
+
+      - name: 
+        level:
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
