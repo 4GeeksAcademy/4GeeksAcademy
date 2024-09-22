@@ -16,7 +16,7 @@ basic_info:
     motto: Life is a DIY project
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Enjoying
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -24,18 +24,17 @@ basic_info:
       adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
-
       Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/men/15.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: example@adsl.com #optional
+    phone: 321 23 42 34 #optional
+    website: example.com #optional
+    linkedin: exgitample #optional
     
     #
     # ******** IMPORTANT *******
