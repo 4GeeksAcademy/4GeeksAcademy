@@ -1,0 +1,161 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diana 
+    last_name: Gomez
+    
+    # Define yourself in 4-5 words
+    motto: Muy chistosa 
+    
+    # Focus
+    focus: Estoy enfocandome en apreder cada dia 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Soy una persona la cual le gustaria enfocarce mas en la parte de la programacion , seguir aprendiedno cada dia y mejorar mi igles asi puedo enfocarme completamente a apreder mucho mas de este mundo.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://share.icloud.com/photos/01bZ0N3xL6XIzOOUNl-0SIhyA
+
+    # Contact Information
+    email: dianagomez192002@gmail.com #optional
+    phone: +1(530)557-0979 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DianisMartinez
+    
+    twitter: '@DianaGomez195' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: French
+        level: No
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Running
+
+      - item: Hiking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: No
+      university: Colegio Juan pablo II De Las Condes 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2022
+      details: 
+        Estudie ahi la mayoria de mi vida , desde que llegue a Chile.
+          - Bullet point
+          - Bullet point
+
+    - degree: No
+      university: No
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: No
+      details: 
+      No
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Polifuncional 
+      time: 2021-2022
+      company: Lider Express (Viatcura)
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/2/22/L%C3%ADder_logo.svg
+      details: |
+        Trabaje ahi para Comprarme un Telefono Celular 
+
+          - Bullet point
+          - Bullet point
+
+    - role: No
+      time: No
+      company: 
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       No
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details:
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro:
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Post Layout
+        # optional
+        project_logo: https://github.com/4GeeksAcademy/Instagram-post-DG
+        link: "#hook"
+        tagline: Este fue mi primer proyecto en el cual trabaje sola , pero con los consejos del profesor.
+
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo: https://github.com/4GeeksAcademy/Dg-proyecto2
+        link: "#"
+        tagline: "Aqui aprendi a trabajar con la plataformar Bootstrap"
+
+      - title: Create a HTML5 form
+        # optional
+        project_logo: https://github.com/4GeeksAcademy/DG-ProyHTML
+        link: "#"
+        tagline: "Aprendi a hacer un Formulario"
+skills:
+    toolset:
+      - name: Python & Django
+        level: Recien aprendiendo
+
+      - name: JavaScript & jQuery
+        level: Recien aprendiendo
+
+      - name: Angular
+        level: Recien aprendiendo
+
+      - name: HTML5 & CSS
+        level: Recien aprendiendo
+
+      - name: Ruby on Rails
+        level: Recien aprendiendo
+
+      - name: Sketch & Photoshop
+        level: Recien aprendiendogit
+
