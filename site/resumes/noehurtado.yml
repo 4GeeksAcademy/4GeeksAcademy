@@ -1,0 +1,184 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Noe
+    last_name: Hurtado O
+    
+    # Define yourself in 4-5 words
+    motto: Passionate, resourceful, goal-oriented, proactive 
+    
+    # focus
+    focus: Continuing to develop my skills in Data Science and AI.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      A highly experienced and accomplished supply chain professional with over 12 years’ 
+      experience in diverse industries across South America, Europe, and the Middle East. 
+      Expertise in streamlining processes, identifying cost-saving opportunities, and 
+      leading teams to achieve operational efficiencies. Skilled at building relationships 
+      with stakeholders and driving successful outcomes. Currently transitioning into Data 
+      Science and Artificial Intelligence, leveraging my analytical background and passion 
+      for innovation to harness the power of data in solving complex business challenges.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: noehurtado@gmail.com #optional
+    phone: 'na' #optional
+    website: 'na' #optional
+    linkedin: https://www.linkedin.com/in/noehurtado/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: noehurtado
+    
+    twitter: 'noehurtad0' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish 
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Data Analysis
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Master in International Business Management
+      university: Universitat Autònoma de Barcelona
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Gained a deep understanding of how to manage and lead business operations on a global scale. 
+        I studied key areas such as international trade, cross-cultural management, global marketing, 
+        and strategic planning. The program helped me develop the ability to navigate diverse markets, 
+        understand global economic trends, and approach business challenges with a strategic mindset. 
+        It also strengthened my skills in communication and negotiation, particularly in cross-cultural 
+        environments, preparing me to drive business success in international settings.
+    - degree: BBA in Finance
+      university: Universidad de Sonora
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2003 - 2007
+      details: |
+        Developed a strong foundation in economic theory and financial management. I gained in-depth 
+        knowledge of areas such as financial markets, investment strategies, corporate finance, and 
+        economic analysis. The program emphasized understanding the broader economic environment, as 
+        well as how financial decisions impact businesses and economies. I also learned how to analyze 
+        financial data, assess risks, and make informed economic forecasts, equipping me with the skills 
+        to navigate complex financial landscapes and contribute to sound economic decision-making.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Numpy, Pandas & Seaborn
+        level: 98%
+
+      - name: SQL
+        level: 98%
+
