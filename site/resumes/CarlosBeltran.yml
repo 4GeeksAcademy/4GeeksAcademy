@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Beltran-Pardo
+    
+    # Define yourself in 4-5 words
+    motto: If you're feeling lost, try.
+    
+    # focus
+    focus: Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Coding is what i am passionate about, i also have a degree in physics engineering.
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: carlosbeltranpardo@gmail.com
+    phone: +57 350 548 4336 #optional
+    linkedin: linkedin.com/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dodlitros
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Playing bass Guitar
+
+      - item: Visual arts
+
+      - item: Creative coding
+
+      - item: Graphic desing
+
+      - item: Outfit
+
+      - item: Freestyle
+
+      - item: Science
+
+      - item: Cine
+
+# Your previous education
+education:
+    - degree: physics engineering
+      university: EAFIT University (8 semesters )
+      time: 2017 - 2022
+    
+# Your previous job experiences or voluntier
+experiences:
+    - role: Front end developer assistant
+      time:  Present
+      company: soluciones 
+      # optional
+      details: |
+        EL frontend de una pasarela de pagos.
+        
+
+# Your project portfolio
+
+assignments:
+      - title: Instagram photo feed (bootstrap)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Excuse generator (javascript)
+        tagline: Randomly generate excuses using plain javascript and html
+
+skills:
+    toolset:
+      - name: HTML, CSS, Bootstrap, tailwind
+        level: Intermediate
+
+      - name: Javascript 
+        level: Intermediate
+
+      - name: React, Next
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: Flask
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: MySql
+        level: Intermediate
+
+      - name: R
+        level: Basic
+
+      - name: Matlab
+        level: Intermediate
+
+      - name: Ansys
+        level: Basic
+
+      - name: C++
+        level: Intermediate
+
+      - name: CREO, Solidworks
+        level: Intermediate
