@@ -1,0 +1,154 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Terry
+    last_name: Howell
+    
+    # Define yourself in 4-5 words
+    motto: Trust the timing of you life.
+    
+    # focus
+    focus: Self-improvement, financial freedom, and self fulfillment.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I completed my Bachelor's at UNC Charlotte in Management Information Systems. 
+      I've self studied some development, mainly Javascript. Currently, I am working in IT Support
+      but my company may be interested in moving me to the software development team. I am here to learn as much
+      as possible so I can move further in my career!
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4D03AQFHJsInkoNvPA/profile-displayphoto-shrink_400_400/0/1646766187317?e=1711584000&v=beta&t=F9EoG8wQjWgwPpsO-mpxMgOEOANZfvofNLDd5OHHXto
+
+    # Contact Information
+    email: terryhowell3@gmail.com #optional
+    phone: 321-402-9975
+    website:  
+    linkedin: https://www.linkedin.com/in/terryhowell3/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: terrylh22
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Video Games
+
+      - item: Anime
+
+      - item: Music Production
+
+      - item: Cooking
+
+# Your previous education
+education: 
+    - degree: BS in Management Information Systems
+      university: University of North Carolina at Charlotte
+      # optional
+      time: 2017 - 2021
+      details: |
+        -	GPA: 3.26/4.0
+        -	Developed a Microsoft Access application complete with Forms, Reports, ERDs, and custom SQL statements to simulate a car dealership.
+        -	Created detailed data flow diagrams to simulate hospital operations using Microsoft Visio and implemented the design using Microsoft Access.
+        -	Developed .NET C# based Windows Forms applications.
+        -	Developed Java console application for jpeg image manipulation.
+    
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: System Administrator
+      time: 2022 - Present
+      company: Autobell Car Wash
+      # optional
+      details: |
+        -	API design and development using NodeJS and MongoDB to integrate HR business applications.
+        -	Production support of mission critical business applications using SolarWinds Service Desk (Ticketing System), Dameware, and more.
+        -	Software implementation of ticketing and emergency systems.
+        -	User and Desktop support using Microsoft Intune, Azure Active Directory, Exchange and more.
+        -	POS implementation support and testing for multiple store locations.
+
+    - role: Associate Technical Recruiter
+      time: 2021 - 2022
+      company: Park Hudson International (Phaxis Staffing)
+      # optional
+      details: |
+        -	Studied and implemented optimized search strategies for LinkedIn Recruiter
+        -	Sourced, screened, and placed candidates for a wide variety of technical roles including Data Analytics, Data Engineering, Software Engineering, Technical Product Managers and others, including Director and VP level positions.
+        -	Attended client meetings to gather technical requirements.
+        -	Collaborated with Account Executives and hiring managers to produce realistic requirements.
+        -	Pioneered and suggested new recruiting strategies to management and team.
+        -	Tested potential recruiting resources and provided in depth feedback to upper management.
+
+    - role: Account Administrator (Contract)
+      time: 2021-2021
+      company: Atrium Health
+      # optional
+      details: |
+        -	Establish new user accounts and permissions for the medical team as requested within ServiceNow.
+        -	Communicated with many teams and groups across Atrium Health to ensure proper completion of service requests.
+        -	Establish Atrium Health Medical Student user accounts and track access privileges using various tools such as Excel.
+        -	Collaborated with team to create metric/data reports within ServiceNow.
+        -	Conduct weekly team metrics and statistics status meeting on a rotational basis.
+        -	Adheres to defined daily process quotas and deadlines as established by management.
+     
+  
+
+# Your project portfolio
+projects:
+    intro: >
+     
+
+    assignments:
+      - title: Bootstrap Instagram Feed
+        link: https://github.com/4GeeksAcademy/terrylh22-instagram-feed-bootstrap
+        tagline: 
+
+      - title: Instagram Post (HTML and CSS)
+        link: https://github.com/4GeeksAcademy/terrylh22-instagram-post
+        tagline: 
+
+      - title: HTML and CSS Postcard
+        link: https://github.com/terrylh22/exercise-postcard
+        tagline:
+
+skills:
+    toolset:
+      - name: HTML
+        level: 100%
+
+      - name: CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 60%
+        
+      - name: Javascript
+        level: 75%
+        
+      - name: NodeJS
+        level: 40%
+
+      - name: Office365
+        level: 70%
+
+      - name: Active Directory
+        level: 60%
+        
