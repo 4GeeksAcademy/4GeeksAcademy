@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pvll
+    last_name: Sound
+    
+    # Define yourself in 4-5 words
+    motto: I am an audiovisual artist.
+    
+    # Focus
+    focus: Art and sound.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Not interested in summarizing my career. Just doing this as an assignment.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1l_2qKNWMZXfOrnoU38-Di8TPbtxPhrty/view?usp=sharing
+
+    # Contact Information
+    email: notinterested@gmail.com #optional
+    phone: 000 0000 0000 #optional
+    website: notinterested.com #optional
+    linkedin: notinterested #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: notinterested
+    
+    twitter: 'notinterested' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Art
+      university: notinterested
+      # optional
+      university_logo: 
+      time: 0 - 0
+      details: |
+        notinterested
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: artist
+      time: 0
+      company: zero
+      # optional
+      company_logo: 
+      details: |
+        notinterested
+
+# Your project portfolio
+projects:
+    intro: >
+      art
+
+    assignments:
+      - title: art
+        # optional
+        project_logo: 
+        tagline: zero
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
