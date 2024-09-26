@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Matias 
+    last_name: Schlegel
+    
+    # Define yourself in 4-5 words
+    motto: Auténtico, optimista, apasionado, colaborativo y adaptable.
+    
+    # focus
+    focus: Estudiar para poder empezar a trabajar.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+     Con una sólida base en economía, respaldada por mi graduación de la escuela secundaria, 
+     he cultivado un interés apasionado por el emprendimiento y la innovación. 
+     Mi capacidad para comprender los principios económicos y aplicarlos creativamente se ha fortalecido a través de cursos 
+     de emprendimiento y mi dedicación al aprendizaje continuo del inglés. 
+     Mi enfoque en el desarrollo de soluciones innovadoras refleja mi compromiso con el crecimiento personal y profesional, 
+     buscando constantemente convertir ideas en acciones con impacto positivo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: blob:https://web.whatsapp.com/0776813a-fa34-404a-b56d-8baf4f078751
+
+    # Contact Information
+    email: matischlegel05@gmail.com
+    phone: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: matischlegel
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. Matias Schlegel
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Basico/Medio
+
+    # Interests or hobies
+    interests:
+      - item: Hacer ejercicio.
+
+      - item: Aprender cosas nuevas, ya sea a través de internet o de otro parte.
+
+      - item: Cocinar.
+
+      - item: Jugar videojuegos y explorar nuevos mundos virtuales.
+
+# Your previous education
+education:
+    - degree:  Graduado del bachiller de economía
+      university: Colegio Nrta. Sra. del Huerto
+      # optional
+      university_logo: https://www.colegiosenbuenosaires.com/wp-content/uploads/2023/02/Colegio-Nuestra-Senora-del-Huerto_en-temperley_GBA_escudo-logo.jpg
+      time: 2008 - 2023
+      details: |
+        Empecé el colegio en el año 2008 y dandolo por finalizado en el año 2023.
+        Durante los últimos tres años, es decir desde (2021) hasta (2023),  
+        he adquirido una sólida comprensión de los principios fundamentales de la economía, 
+        así como habilidades analíticas y de pensamiento crítico; Ya que elegí seguir la rama de
+        bachiller de economía.
+        He estudiado diversos conceptos económicos, incluyendo oferta y demanda, teoría de la producción, macroeconomía y microeconomía. 
+        Además, he desarrollado la capacidad de aplicar estos conceptos en contextos reales y analizar problemas económicos complejos. 
+        Mi formación también ha incluido el estudio de temas relacionados con política económica, finanzas y estadística, 
+        lo que me ha proporcionado una base integral para abordar los desafíos económicos contemporáneos con rigor y perspicacia.
+    
+# Your previous job experiences or voluntier
+experiences:
+      courses: Curso de microemprendimiento (2022) / Taller de educación Financiera y Emprendedurismo (2023)
+      
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+assignments:
+      - title: BootstrapInstagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website."
+
+      - title: HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website, where you complete your data."
+
+skills:
+    toolset:
+    - name: HTML
+    - level: 20%
+    - name: CSS
+    - level: 20%
+    - name: Bootstrap
+    - level: 20%
+    - name: Git
+    - level: 20%
