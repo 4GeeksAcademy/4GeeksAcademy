@@ -1,0 +1,107 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Federico
+    last_name: Resano
+    
+    
+    motto: Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth
+    
+    
+    focus: Learning as much as i can about programming and computer science.
+    
+    
+    summary: |
+      I've always loved solving problems and building things (sometimes useful, sometimes silly). I enjoy competitive things in my free time (chess and videogames).
+      At work I am focused and dedicated to complete my tasks rigourously.
+
+
+    
+   
+    avatar: https://media.licdn.com/dms/image/D4E03AQE5x0ftb1sMeQ/profile-displayphoto-shrink_100_100/0/1675037487675?e=1706140800&v=beta&t=deXwtU4Y49XYU4kCn6vlV8hOeRDmpFFSjy8bU1_W2X8
+
+    
+    email: federicoresano1@gmail.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/federico-resano-558b85204/
+    
+    
+    github: fede1525
+    #twitter: 'ResanoFederico' 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+    
+    interests:
+      - item: Chess
+
+      - item: Engineering
+
+      - item: Videogames
+
+
+
+education:
+      - career: Medicine
+        degree: Currently in course
+        university: Universidad de Buenos Aires
+        time: 2019 - 2021 
+        details: I spent two years studying medicine before deciding to make the switch to software development
+
+
+experiences:
+    - role: Delivery
+      time: 2022 - late 2022
+      company: Rappi
+    
+      details: Worked for a short time as a delivery man for a large company
+
+    - role: Warehouse worker / Logistics support
+      time: 2022 - 2023
+      company: Espacio al cuadrado
+
+      details: Worked for an online retail salesman, packaging, inventory management, reception and dispatch of merchandise.
+
+
+
+
+# # Your project portfolio
+projects:
+    intro: >
+       You can list your side projects or open source libraries in this
+       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+       - title: InvManagment
+         link: https://github.com/fede1525/InventoryManagement
+         tagline: "An application made to help business automatically manage their stockpiles"
+
+       - title: Tetris
+         link: https://github.com/fede1525/TetrisGame
+         tagline: "A simple tetris clone."
+
+skills:
+      toolset:
+       - name: Java
+         level: 90%
+
+       - name: Javascript & jQuery
+         level: 40%
+
+       - name: Spring Boot
+         level: 70%
+
+       - name: HTML5 & CSS
+         level: 95%
