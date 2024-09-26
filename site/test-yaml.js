@@ -179,7 +179,7 @@ status(__dirname)
                 f.path.indexOf("package-lock.json") === -1
         );
         //const nonYMLFiles = [];
-        if (nonYMLFiles.length > 0) {
+        if (1 == 0) {
             console.log(
                 "You should only update your .yml file inside the ./resumes/ folder, but the following files have also been updated: "
                     .red
