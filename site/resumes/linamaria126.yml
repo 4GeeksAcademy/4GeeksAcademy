@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lina María
+    last_name: Cardona Giraldo
+    
+    # Define yourself in 4-5 words
+    motto: Always positive!!!
+    
+    # Focus
+    focus: Programming
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      
+      I am a biologist by profession and I have dedicated myself mainly to the commercial world
+      I love technology, which is why I decided to train and enter this world
+      
+    
+    
+    # Contact Information
+    email: linamaria126@gmail.com
+    linkedin: https://www.linkedin.com/in/lina-mar%C3%ADa-cardona-giraldo-396125160/
+    github: linamaria126
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedia
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Travel
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BSc. Biologist
+      university: Universidad dek Valle 
+      # optional
+      
+      details: |
+        Biologist with emphasis en Genetics
+
+      
+    - degree: Tec. Arquitectural Draftsman
+      university: SENA
+      # optional
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Manager
+      time: 2008 - 2017
+      company: AMF LABORATORIO, Santiago de Cali
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Dirección de personal del Laboratorio, revisión de informes microbiológicos y fisicoquímicos, 
+        Capacitación a empresas Manufactureras de alimentos, estructuración del plan de mercadeo, 
+        consecusión de clientes, asesoramiento y acompañámiento a empresas de alimentos.
+
+
+    - role: Director
+      time: 2018 - 2019
+      company: DIMOL LABORATORIO, Santiago de Cali
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Consecusión de clientes potenciales para formar parte del programa de prevención de
+        cáncer de cuello uterino, Diseño de estrategias comerciales, Consecución de contactos
+        aliados relevantes para fortalecer el programa de prevención de cáncer de cuello uterino.
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 30%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 85%
+
+    
