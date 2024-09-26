@@ -1,0 +1,149 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jose Antonio
+  last_name: Tovar Polanco
+  motto: It's coder time
+  focus: I love computing, mechatronics and aeronautics
+  summary: |
+    Summarise your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. You can [download this free resume/CV template here]().
+    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Donec quam felis, ultricies nec, pellentesque eu.
+    Second paragraph if required.
+  avatar: https://avatars.githubusercontent.com/u/136499634?v=4
+  email: alchundria@gmail.com
+  phone: +58 235 32423
+  website: google.com
+  linkedin: https://www.linkedin.com
+  github: Joseblue11
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Medium
+    - idiom: French
+      level: nule
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Coding
+    - item: Investigate
+    - item: Learn
+education:
+  - degree: Computer Science
+    university: Central University of Venezuela
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Logo_Universidad_Central_de_Venezuela.svg/604px-Logo_Universidad_Central_de_Venezuela.svg.png
+    time: 2024 - Present
+    details: >
+      He is a Professional with the knowledge and capabilities to analyze,
+      design and develop 
+
+      projects involving databases, computer graphics applications, Internet applications and 
+
+      technologies, computer networks, operating systems, computer security systems, information 
+
+      and communication technologies, mathematical models, educational technologies, managerial 
+
+      decision making, artificial intelligence, among other areas.
+  - degree: Mechatronics Engineering
+    university: National Experimental Polytechnic University Antonio Jose de Sucre
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Unexpo.jpg/600px-Unexpo.jpg
+    time: 2024 - Present
+    details: >
+      He is a professional with comprehensive, moral and ethical training,
+      capable of designing,
+       innovating, researching, building, managing, operating, providing maintenance and 
+       consulting in processes that require precision mechanics, sophisticated automation 
+       systems, computer control and/or information and communication technology for the design 
+       of processes and products.
+experiences:
+  - role: Store Manager
+    time: 2022 - Present
+    company: Istore Venezuela Caracas
+    company_logo: https://pbs.twimg.com/profile_images/941697898294792193/uTEODXUC_400x400.jpg
+    details: >
+      Develop store strategies to increase customer pool, expand store
+      traffic and optimize 
+
+      profitability.Meet sales objectives by training, motivating, advising and providing 
+
+      feedback to store staff. Ensure high levels of customer satisfaction through excellent 
+
+      service.
+  - role: systems analyst
+    time: 2019 - 2020
+    company: Atrios Seguros
+    company_logo: https://atrioseguros.com/assets/img/logo-atrio-cropped.svg
+    details: >
+      They adapt and design information systems to help companies work faster
+      and more 
+
+      efficiently. They work closely with staff at all levels to figure out problems 
+
+      that arise in the existing system, and to meet customer expectations when creating 
+
+      a new system. Analysts produce a specification for a system that meets the needs 
+
+      of the business.
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Instagram Feed with Bootstrap
+      project_logo: https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943
+      link: "#https://github.com/Joseblue11/Instagram-Feed-con-Bootstrap"
+      tagline: refers to the implementation of a design similar to the Instagram feed
+        using the Bootstrap web development framework.
+    - title: Generador de Cartas Aleatoreas
+      project_logo: https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943
+      link: https://github.com/4GeeksAcademy/Joseblue11Generador-de-Cartas-Aleatorias
+      tagline: This type of generator can produce cards with different values,
+        symbols, colors or images at random, adding an element of surprise and
+        variety to the experience of the game or activity in which it is used.
+    - title: Contador Simple
+      project_logo: https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943
+      link: https://github.com/4GeeksAcademy/Joseblue11Simple-Counter1
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Semaforo
+      project_logo: https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943
+      link: https://github.com/4GeeksAcademy/Joseblue11Traffic-Light1
+      tagline: Traffic lights are a fundamental part of traffic regulation in cities
+        and roads, as they help maintain road order and safety by controlling
+        the flow of vehicles and pedestrians at intersections.
+    - title: Lista de tareas pemdientes con react
+      project_logo: https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/4G_LOGO_NEGRO-01__1_/original.png?1560209943
+      link: https://github.com/4GeeksAcademy/Joseblue11Aplicacion-de-Todolist-usando-React
+      tagline: A todo list with React refers to a list of tasks or to-dos created
+        using the React JavaScript library. React is a popular library for
+        building interactive user interfaces in web applications.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 70%
+    - name: Javascript & jQuery
+      level: 80%
+    - name: Angular
+      level: 50%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 60%
+    - name: Sketch & Photoshop
+      level: 60%
