@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Allan Roger
+    last_name: de Farias Leite
+    motto: Full-stack Developer
+    avatar: https://avatars.githubusercontent.com/u/105656076?v=4
+    summary: |
+      Actualmente me estoy formando como Full-Stack Developer y obtendré conocimientos avanzados en HTML5, CSS, Javascript, React, Python, SQL, Git, entre otras tecnologías.
+      Mi punto fuerte es trabajar bien en equipo y soy organizado, responsable, perseverante y enfocado.
+      Tengo muchas ganas de aprender, practicar y crecer como programador.
+
+    email: fl_allanroger@gmail.com
+    phone: +34 617650202
+    website: 
+    linkedin: www.linkedin.com/in/allanrogerdefariasleite/
+    github: allanrogerfl
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Portugues
+        level: Native
+
+      - idiom: Spanish 
+        level: Professional
+        
+      - idiom: English
+        level: A2
+
+    interests:
+      - item: Coding
+
+      - item: Moto
+
+      - item: Arte
+
+      - item: Neurociencia
+
+education:
+    - degree: superior grade
+      university: Estacio de sa(Rio de janeiro - Brasil)
+      time: 2 years
+      details: administration faculty
+      
+    - degree: Bootcamp
+      university: 4Geeks Academy
+      time: 18 weeks
+      details: Full-Stack Software Developer    
+      
+experiences:
+    - role: Fruit manager
+      time: Currently
+      company: Frutality
+      details: 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Project - Feed with bootstrap5.
+        link: https://github.com/4GeeksAcademy/fl_allanroger_Instagram_Feed_Bootstrap.git
+        tagline: "feed with random photos.   --"
+
+      - title: Form with htmls and bootstrap
+        link: https://github.com/4GeeksAcademy/fl_allanroger_formulario_con_HTML5.git
+        tagline: "Form design.   --"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 25%
+
+      - name: HTML5 & CSS
+        level: 85%
