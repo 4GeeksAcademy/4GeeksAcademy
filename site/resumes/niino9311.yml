@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Erick
+    last_name: Amador Lanza
+
+    # Define yourself in 4-5 words
+    motto: I want to be part of the people who make the program, not use it.
+
+    # Focus
+    focus: Front End
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am new to computer coding. I am changing careers from parts specialists at an emergency generator service.
+      I am very attentive to anything that carries my name on it, as it is the most important thing i have.
+      I am very excited to learn how to code.
+      I am an avid believer that if you do something you love, you will never work a day in your life.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/421562459_10232993933935740_5113071612651541022_n.jpg?stp=cp6_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=k_ygIcv8SosAX_wQqkz&_nc_oc=AQllUKlPWGje4srW6YCiUOoN6JYRGKOdK2JeFjzSpUBZlsx1iMlB0UHay3Z6axWFNltfes2KrA5yi2iBFh95LsDz&_nc_ht=scontent-mia3-2.xx&oh=00_AfCAGN8fgCVpe9BPuK51E6F9zlKH26Mm7NLD1dlwAWQX3A&oe=65B5F262
+
+    # Contact Information
+    email: 9311nino@gmail.com #optional
+    phone: 305-333-2562 #optional
+    website: #optional
+    linkedin: #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nino9311
+
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: proficient
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Fashion
+
+      - item: Working out/ Running
+
+      - item: Legos
+
+      - item: Animals
+
+# Your previous education
+education:
+    - degree: High School Diploma
+      university: Miami Jackson Senior High School
+      # optional
+      university_logo: https://jacksonshs.org/pics/jackson-shs-coat-of-arms.png
+      time: 2007 - 2011
+      details: |
+        General studies. Academy of International Business and Finance member.
+        I learned my basic education for my high school diploma.
+        Ialso learned about the structure of business and the starting of my own business.
+        I learned how to do personal and business accounting.
+          - Graduated top 10% of my class
+          - Graduated 7th in my class
+          - President of my environmental club
+          - Placed third in the Fairchild Challenge after joining the club mid competition in last place
+          - graduated with 300+ community hours
+          
+# Your previous job experiences or volunteer
+experiences:
+    - role: Student
+      time: 01/2024 - Present
+      company: 4Geeks Academy
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Full Stack Development student.
+          - HTML/CSS
+          - React
+          -Javascript
+# Your project portfolio
+projects:
+    intro: >
+      I Am still working on my projects
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 30%
