@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro Mauricio  
+    last_name: Barraza Galleguillos
+    
+    # Define yourself in 4-5 words
+    motto: Creativo 
+    
+    # Focus
+    focus: Ingeneria de software
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Ingeniero de software con experiencia en desarrollo full stack, particularmente utilizando React con Typescript, Nodejs y Django. Actualmente estoy buscando nuevas oportunidades para seguir aprendiendo y creciendo en el campo. Mi fluidez en ingl ́es, tanto hablado como escrito, me permite comunicarme eficazmente con clientes de todo el mundo.
+
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: alebaraza1997@gmail.com #optional
+    phone: +569 53095854 #optional
+    website:  ale-barraza.live#optional
+    linkedin: www.linkedin.com/ale-barraza/  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlejandroBarraza
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Japanese
+        level: Basic
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingeniería en computación e informática 
+      university: Universidad Católica del Norte, Chile
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018-2022
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Full Stack Developer - Práctica
+      time: Enero 2021 - Abril 2021
+      company: SGA Informática
+      # optional
+      details: |
+          - Corregí errores e implementé nuevas API REST utilizando Express.js y PostgreSQL para el ERP de la empresa.
+          -  Desarrollé nuevos componentes utilizando VueJS y VueX a través de archivos de Figma proporcionados por el disenador UX .
+
+    - role: Ingeniero de Software - capstone project / pr ́actica
+      time: Septiembre 2021 - Febrero 2022
+      company: Mutual Chile
+      # optional
+      details: |
+       
+
+          - Confeccioné, testé y documenté componentes construidos con React con Typescript.
+          - Desarrollé un blog de noticias con panel de administración para un equipo sin conocimiento en programación. Para ello, utilicé React con GraphQL y un headless CMS Strapi para el backend. Además, se crearon nuevos requerimientos para subir im ́agenes y v vídeos, para lo cual utilicé KoaJs y S3 de Amazon.
+# Your project portfolio
+projects:
+
+    assignments:
+      - title: Auth services
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://login-client-react.herokuapp.com/login"
+        tagline: "Construí una aplicaci ́on de autenticaión utilizando JWT. Permite a los usuarios iniciar sesión utilizando OAuth2.0 a trav ́es de la API de Google. Adem ́as, permite la recuperaci ́on de contrasenas haciendo uso del servicio Node-mailer al adjuntar un enlace en el correo electr ́onico proporcionado. El proyecto fue construido utilizando React, Redux Toolkit, RTK Query, ExpressJS, PostgreSQL y Node-mailer."
+
+      - title: StudyKana.
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://django-chat-kana.herokuapp.com/"
+        tagline: "Cuando estudiaba japonés construí una aplicación que permite agrupar a personas que tienen los mismos objetivos y afinidades, crear salas de estudio, hacer preguntas y seguir a personas con la misma afinidad. El proyecto se construyo en Django, Django REST Framework, React, Redux y PostgreSQL."
+
+      - title: Management App
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/alejandroBarraza/microservicesPy"
+        tagline: "Construí una aplicación de gestión basada en la arquitectura de micro servicios. Esta separa la administración y la autenticaci ́on de la aplicación principal, lo que permite que sea escalada con mayor facilidad y que funcione con mayor aislamiento. Para la administración se utiliz ́o Django y para la aplicación principal se utiliz ́o Flask. Ambas aplicaciones se comunican a trav ́es de Rabbitmq."
+
