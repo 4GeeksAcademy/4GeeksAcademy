@@ -1,0 +1,120 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+template: "online-cv"
+skin: "brown'
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: George
+    last_name: Smith
+
+    # Define yourself in 4-5 words
+    motto: Winners never quit
+
+    # focus
+    focus: Master my craft
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a seasoned IT professional with 10 plus years in the industry. I love what I do and have had the privilege of evolving with the industry. My passion relies in machine learning/AI where I like the be involved with newer and creative technologies. I bring knowledge, professional learning capabilities, expertise
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmia1-2.fna.fbcdn.net/v/t1.0-9/166891_496317176570_4016586_n.jpg?_nc_cat=105&_nc_oc=AQmaalm8PtOquBHu2KE8lth3k71JfnOddnmJ7gOOjcyibmZLuCVme14tZGvncECV8cxNcLPAe2GZeMfNovphZ_H6&_nc_ht=scontent.fmia1-2.fna&oh=64f9e34b550fdba833031d003873712e&oe=5E1EE90A
+
+    # Contact Information
+    email: spomar36@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: 
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gorshet
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: Sports
+
+      - item: Music
+
+      - item: Cooking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: 
+      university:
+      # optional
+      time: 
+      details: |
+       
+
+    
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: Best buy
+      # optional
+      company_logo:
+      details: |
+        
+
+    - role: 
+      time: 
+      company:
+      # optional
+      details: |
+        
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Champions League Card Challenge
+        link: "
+        tagline: A soccer card game that fetch information from an external API to update the players value.
+
+      - title: Contact Management
+        link: 
+        tagline: An App that allows the user to create, save, and update contacts in their contact list.
+
+      - title: Star Wars Blog Reading List
+        link: 
+        tagline: A website that fetch information from an external Star Wars API with everything you need to know.
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: React
+        level: 60%
+
