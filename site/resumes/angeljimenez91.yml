@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Angel
+    last_name: Jiménez Correa
+    
+    # Define yourself in 4-5 words
+    motto: Don't worry, be happy
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Persona trabajadora y creativa en el que mi creatividad, mis
+      habilidades, mis conocimientos y mi
+      experiencia sirvan para dar lo que me demanden.
+      Experiencia en el extranjero y con
+      muchas ganas de seguir aprendiendo
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/139405887?v=4
+
+    # Contact Information
+    email: angel1991huelva@gmail.com #optional
+    phone: 644791947 #optional
+    linkedin: https://www.linkedin.com/feed/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: https://github.com/angeljimenez91
+    github: angeljimenez91
+    
+    twitter: Angel91Huelva #optional
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Professional
+
+      - idiom: Francés
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Geografía
+
+      - item: Historia
+
+      - item: Deportes
+
+# Your previous education
+education:
+    - degree: Geografía y Gestión del Territorio
+      university: Universidad de Sevilla
+      # optional
+      time: 2011 - 2016
+     
+
+    - degree: Ciclo Superior de Turismo
+      university: IES La Rábida (Huelva)
+      # optional
+      time: 2009 - 2011
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcionista
+      time: 2021 - 2023
+      company: Precise Resort El Rompido
+      
+
+    - role: Recepcionista
+      time: 2018 - 2019
+      company: Hotel Simon, Sevilla
+      
+
+    - role: Supervisor y Asistente de Dirección
+      time: 2017 - 2018
+      company: Hotel Du Vin, Brighton
+      
+        
+
+# Your project portfolio
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 60%
