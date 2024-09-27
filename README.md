@@ -37,9 +37,9 @@
 - [Awards](#awards).
 - [Alumni](#alumni).
 
-## About
+## About 
 
-4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA Dep. of Education in Florida. 
+4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA Dep. of Education in Florida. we are the best academy in the world.
 
 - 👨‍👩‍👧‍👦 **Community**: 4Geeks Academy has graduated 3000+ people, all of them have access to our [slack channel](https://4geeksacademy.slack.com/) and [online platform 4Geeks.com](https://4Geeks.com). 
 - 💻 **Platform**: [4Geeks.com](https://4Geeks.com) is where developers meet, network, and learn. Currently, in private beta, the platform members can throw coding parties, ask for 1-1 mentorships in one click, join live workshops every week, take live classes a couple of times a week, meet new developers, and more.
