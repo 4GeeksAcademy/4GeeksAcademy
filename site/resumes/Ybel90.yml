@@ -1,0 +1,148 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Yasmina
+    last_name: Belhaj
+    
+    
+    motto: learn, improve, help, work on yourself
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+     I am an active, outdoorsy person who also likes to be indoors and spend time on the computer. 
+     I have worked all my life facing the public and I needed some time to know what to dedicate my time to.
+     That's why now I started learning about web development.
+
+    
+   
+    avatar: https://sdk.bitmoji.com/render/panel/20048676-300429185_16-s5-v1.png?transparent=1&palette=1&scale=1
+
+    
+    email: yasminabelhaj@hotmail.com
+    # phone: +34636169522
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/Ybel90
+    
+    
+    github: Ybel90
+    
+    twitter: 'Limaya90' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Spanish
+        level: hight
+      - idiom: Catalan
+        level: hight
+      - idiom: English
+        level: Medium
+      - idiom: French
+        level: Medium
+      - idiom: Arab
+        level: Native
+
+    
+    interests:
+      - item: - Watch movies or series
+
+      - item: Health life
+
+      - item: running
+
+
+
+# education:
+# - Graduated in Secondary Education
+# - Image Consulting course
+# - Currently studying at 4Geeks Academy Full stack devoloper
+
+
+experiences:
+    - role: Image advisor
+      time: 2016-2023
+      company: Druni
+    
+      # details: |
+     # - Skin advice to adapt correct products.
+      # - Team management
+      # - Management of delivery notes and billing.
+      # - Import of image care courses.
+      # - Personalized sale of facial and body products.
+
+
+#     - role: Manager
+#       time: 2020- 2022
+#       company: petit dreams
+       # details: |
+#           - children's store manager
+#           -  billing management
+#           - operation of the entire store.
+#           - wholesale purchase, and stock replacement
+#           - Scheduling and coordinating meetings, interviews, events, and other activities. 
+#           - Assists with the hiring and training of new employees including interviews and documentation. 
+
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# skills:
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
