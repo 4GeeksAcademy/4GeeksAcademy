@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Pedro.
+  last_name: Aguirregomezcorta.
+  motto: Do it, until it's incredible.
+  avatar: 
+  summary: |
+    
+
+  # Sidebar links
+  email: paguirre2391@gmail.com
+  phone: +56 9 3333 7813
+  #website: 
+  linkedin: https://www.linkedin.com/in/pedro-sim%C3%B3n-aguirregomezcorta-cabrera-b67708120?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BtvLoxOAWT52jKlBqYJa93A%3D%3D
+  github: paguirre2391
+  #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Medium
+
+  interests:
+    - item: Learning
+
+    - item: Bike mountain
+
+    - item: Workout
+
+education:
+  
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2023 - 2024
+    details: |
+     
+  - degree: Abogado
+    university: Universidad Santa Maria (Venezuela)
+    time: 2010 - 2015
+    details: 
+
+  - degree: Técnico Medio en Informática
+    university: ITAT
+    time: 0 - 2010
+    details: 
+      
+
+
+experiences:
+  - role: Cashier
+    time: 2022 - 2024
+    company: Resex SPA
+    details: |
+      It's a Casino online.
+      We pay the bets on the online site.
+projects:
+  intro: >
+    I don't have any proyect yet, but this will by better.
+    
+  assignments:
+    # - title: Game Finder
+    #  link: "#hook"
+    #  tagline: "A responsive website designed for gamers that want to find a game to play."
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 50%
+
+    - name: HTML5 & CSS
+      level: 50%
+
+    - name: Python
+      level: 50%
+
+    - name: FlaskSQL
+      level: 50%
