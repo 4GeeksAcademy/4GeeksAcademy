@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information 
+basic_info:
+
+    # Your full name
+    first_name: John
+    last_name: Pereira
+    
+    # Define yourself in 4-5 words
+    motto: Curiosity as a way of life
+    
+    # focus
+    focus: Be better, my friend
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Both my academic preparation and my professional career have revolved around the tourism sector, being able to develop my knowledge in the most important business hotel company in Spain.
+      Taking into account professional trends, I decided to embark on the adventure of the universal language of the future, programming, and thus be able to combine the knowledge of both and adapt to the professional needs of the market.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: japr@gmail.com
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: japr91
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Travelling
+
+      - item: Sports
+
+      - item: Videogames, films and TV Series
+
+      - item: Social activities
+
+# Your previous education
+education:
+    - degree: Systems Engineer
+      university: Universidad Santa Maria
+      time: 2009-2014
+      # optional
+      
+     
+# Your previous job experiences or voluntier
+experiences:
+
+    - role: Customer Success Manager - Account Manager
+      time: 2018 - 2024
+      company: Redwood
+      # optional
+      
+    - role: IT Server Specialist
+      time: 2011 - 2018
+      company: ARCO
+      # optional
+      # Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+    assignments:
+      - title: Typeat
+        # optional
+        project_logo: 
+        link: 
+        tagline: Final course project
+
+skills:
+    toolset:
+      - name: Python 
+        level: Advanced
+
+      - name: Javascript 
+        level: Advanced
+
+      - name: Bootstrap
+        level: Advanced
+
+      - name: HTML5 & CSS
+        level: Advanced
+
+      - name: React
+        level: Advanced
