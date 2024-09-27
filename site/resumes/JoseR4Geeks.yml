@@ -1,0 +1,73 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Jose
+  last_name: Ruiz
+  # Define yourself in 4-5 words
+
+  # Focus
+  focus: Software Engineering
+
+  # Contact Information
+  email:  #optional
+  phone:  #optional
+  website:  #optional
+  linkedin:  #optional
+
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: https://github.com/JoseR4Geeks
+  twitter:  #optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Gaming
+    - item: Recreational Shooting
+
+# Your previous job experiences or volunteer
+- role: Social Media Manager
+  time: 2019 - Present
+  details: |
+    As a Social Media Manager, I have been responsible for overseeing and implementing social media strategies to enhance the online presence and engagement. My role involves:
+    - Developing and executing comprehensive social media plans to meet organizational goals.
+    - Creating and curating engaging content for various social media platforms.
+    - Managing and monitoring social media accounts, including community engagement and responding to inquiries.
+    - Analyzing social media metrics to measure the effectiveness of campaigns and adjusting strategies accordingly.
+    - Collaborating with cross-functional teams to ensure alignment with overall marketing objectives.
+    - Staying updated on industry trends and implementing innovative approaches to social media marketing.
+    [Add specific achievements or notable projects if applicable]
+    - Successfully reaching over 100,000 subscribers on our social media channels.
+    - Generating over 20 million views across various social media platforms.
+    - Developing and executing strategies that led to substantial growth in our online community.
+
+# Your project portfolio
+projects:
+  intro: Highlights of projects I have completed in while in 4Geeks Academy.
+  assignments:
+    - title: Starwars Blog Reading List
+      link: https://github.com/JoseR4Geeks/Jose4GeeksStarwarsBlogReadingList
+    - title: Contact List with React and Fetch
+      link: https://github.com/JoseR4Geeks/ContactListJose4Geeks
+    - title: Todo List with React and Fetch
+      link: https://github.com/JoseR4Geeks/TodoListReactandFetch
+
+skills:
+  toolset:
+    - name: Python
+      level: 98%
+    - name: JavaScript & React
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Photoshop
+      level: 90%
+---
