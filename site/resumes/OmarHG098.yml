@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Omar
+    last_name: Hidalgo
+    
+    # Define yourself in 4-5 words
+    motto: Be a part of the world
+    
+    # Focus
+    focus: Learning everything I can
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a 25-year-old mechatronics engineer with a career focused on
+      maintenance and automation of industrial machinery. My goal is to grow
+      my skills and prove myself for new challenges.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/163226666?v=4
+
+    # Contact Information
+    email: omar_ehr@outlook.com #optional
+    phone: +52 331 971 3901 #optional
+    #website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/omar-hgo/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: OmarHG098
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - language: Spanish
+        level: Native
+
+      - Language: English
+        level: Professional
+
+      - language: Portugese
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - Item: Gym
+
+      - item: Cooking
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Bachelor's degree in mechatronic engineering
+      university: CETI
+      # optional
+      university_logo: https://static.wikia.nocookie.net/ceti/images/7/74/Ceti.png/revision/latest?cb=20141126225024&path-prefix=es
+      time: 2016 - 2020
+      details: |
+       Mechatronics is a multidisciplinary field that refers to the skill sets needed in the contemporary, advanced automated manufacturing industry with the use of mechanics, electronics, and computing.
+          - Focuses on industrial processes
+          - Creates solution with the use of electronics, mechanics, and computing
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Automation Engineer Jr.
+      time: 2021 - Present
+      company: Foxconn, El Salto
+      # optional
+      company_logo: https://1000logos.net/wp-content/uploads/2020/05/Foxconn-Logo-old.png
+      details: |
+        Diagnosis and resolution of problems in automated machinery, use and programming of ABB industrial 
+        robots, implementation of new products to automated machinery.
+
+          - Shift leader
+          - First-line engineer
+
+    - role: Maintenance engineer
+      time: 2021 - 2021
+      company: GMA, Tlaquepaque
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Maintenance and repairing of industrial machinery. Creation of maintenance plans. 
+
+          - Shift leader
+
+  
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
