@@ -1,0 +1,108 @@
+
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Galvan
+    
+    # Define yourself in 4-5 words
+    motto: me gusta aprender cosas nuevas todos los dias!
+    
+    # Focus
+    focus: Aprender a programar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Profesional en Seguridad Industrial con más de 5 años de experiencia
+      en la implementación y gestión de sistemas de seguridad en entornos industriales.
+      Experto en la identificación y mitigación de riesgos, desarrollo de programas de
+      capacitación y cumplimiento de normativas de seguridad. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://cdn-icons-png.flaticon.com/512/3135/3135768.png
+    # Contact Information
+    email: luis2211@hotmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: Luis Galvan #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luis920
+    
+    twitter: '---' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: running
+
+      - item: mountain biking
+
+# Your previous education
+education:
+    - degree: renewable energy engineering
+      university: Tecnologico nacional de mexico
+      # optional
+      university_logo: 
+      time: 2011 - 2012
+      details: |
+        Esta formación me proporciono las habilidades técnicas y el conocimiento 
+        necesario para diseñar, implementar y gestionar proyectos de energías 
+        renovables,contribuyendo a la transición hacia fuentes de energía más 
+        sostenibles.
+
+          Energía solar (fotovoltaica y térmica)
+          Energía eólica
+          Energía hidráulica
+          Biomasa y biogás
+          Energía geotérmica
+          Eficiencia energética
+          Sistemas de gestión de energía
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Supervisor de seguridad
+      time: 2018 - Present
+      company: GD AFFILIATES
+      # optional
+      company_logo: 
+      details: |
+        Encargado de verificar la normativa en materia de seguridad aplicable
+        ademas de prevenir y mitigar los riesgos a los que estaban expuestos 
+        los trabajadores.
+
+
+    
+
+skills:
+    toolset:
+      - name: Python 
+        level: 45%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Photoshop
+        level: 85%
