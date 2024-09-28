@@ -28,22 +28,22 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: ezpirituemprendedor@gmail.com #optional
+    phone: 3329082296 #optional
+    website: startupcero.com #optional
+    linkedin: armin perez sanchez #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: armin8
     
-    twitter: 'webjeda' #optional
+    twitter: 'armin_8' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Español
         level: Native
 
       - idiom: French
