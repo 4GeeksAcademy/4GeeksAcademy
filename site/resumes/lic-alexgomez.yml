@@ -44,18 +44,18 @@ basic_info:
     interests:
       - item: Develope
 
-      - item: Health & wellness
+      - item: Travel
 
-      - item: Suring
+      - item: Sport
 
 
 
 # education:
-#     - degree: Health Services Administration 
-#       university: Florida International University 
+#     - degree: Bachelor's Degree in Computer Science
+#       university: University Autonoma de Santo Domingo
 #       # optional
 #       university_logo: https://www.vhv.rs/dpng/d/461-4617822_fiu-panther-logo-png-mascot-florida-international-university.png
-#       time: 2011 - 2015
+#       time: 2015 - 2024
 #       details: |
 #         Describe your study here lorem ipsum dolor sit amet, consectetuer
 #         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -82,7 +82,7 @@ experiences:
 
 
 #     - role: Manager
-#       time: 2011- 2017
+#       time: 2011 - 2017
 #       company: Kumon, Miramar/Sunrise
 #       # optional
 #       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
