@@ -1,13 +1,13 @@
 --- 
 basic_info: 
   avatar: "https://randomuser.me/api/"
-  email: "aleguemad94@yahoo.es,"
+  email: "carlostb0318@gmail.com"
   first_name: Alejandro
   focus: "Learning to become a Full Stack Develope. Expaning my knowledge as much as possible to change my career and knowledge."
-  github: aleguerrerom
+  github: carlostriana
   interests: 
     - 
-      item: "Music, Sooccer, Track"
+      item: "Music, Soccer,"
     - 
       item: Metal/Networking/Programming
     - 
@@ -19,7 +19,7 @@ basic_info:
     - 
       idiom: English
       level: B1
-  last_name: Guerrero
+  last_name: Triana
   linkedin: "https://www.linkedin.com/"
   motto: "I'm ambitious, intelligent and fun."
   phone: "+506 8474 5584"
