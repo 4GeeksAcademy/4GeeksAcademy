@@ -1,0 +1,35 @@
+
+# Your full name
+first_name: Sebastian
+last_name: Guerschuny
+
+# Define yourself in 4-5 words
+motto: I am a proactive person, I am interested in the world of data and exploiting all the possibilities with it to improve processes and make them more efficient.
+
+# You have 1 paragraph to make a great impression, summarize your career
+summary: Developer and consultant with experience in Qlikview, QlikSense, Power BI, creation and management of dashboards,control and loading processes. Trainer of resources for Qlikview, QlikSense and Power BI.
+
+# Your profile picture URL
+# If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+# Contact Information
+email: sguerschuny@gmail.com
+
+github: sguerschuny
+
+# Languages you speak, levels include: Native, Professional
+languages:
+  - idiom: Spanish
+    level: Native
+
+  - idiom: English
+    level: Professional
+
+# Interests or hobbies
+interests:
+  - item: Sports
+
+  - item: Tech
+
+  - item: Music
