@@ -2,8 +2,8 @@
 # Be aware that even a small syntax error here can lead to failures in output
 #
 
-template: "Super Profile"
-skin: "lightBlue"
+template: "online-cv"
+skin: "orange"
 
 # Personal Information
 basic_info:
