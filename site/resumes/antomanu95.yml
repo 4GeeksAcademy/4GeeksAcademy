@@ -1,0 +1,160 @@
+# 
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio Manuel
+    last_name: Rojas Estevez
+    
+    # Define yourself in 4-5 words
+    motto: Sin sacrificio no hay victoria
+    
+    # focus
+    focus: focus
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      LLevo dedicandome aproximadamente 10 años a trabajar de cara al público, en concreto en Turismo(Alojamientos Turísticos) 
+      y ya llega a un punto donde ya no se puede progresar, ni se puede escalar ni mejorar tus condiciones. Al fin y al cabo si
+      cambias de empresa te van a ofrecer lo mismo o hasta incluso peores ofertas. Me siento agradecido por estos años que me he 
+      ganado la vida a base de muchos sacrificios, fines de semana etc... Pero estoy cansado de esta situación y no me quiero ver toda 
+      una vida asi... Es el momento de un cambio, de volver as sentir ilusión, de aprender, de progresar, de mejorar y de sacar lo
+      mejor de mí mismo. Y por eso estoy aqui... Con ganas de dar un cambio a mi vida y espero que para mejor. Es una oportunidad
+      , y me lo dare todo para poder lograr lo que quiero.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: antoniomr.estevez@hotmail.com #optional
+    phone: 587 1542 5895 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: antomanu95
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: High Level
+
+    # Interests or hobies
+    interests:
+      - item: Jugar a videojuegos, ver series (anime), jugar con mi perrita
+
+# Your previous education
+education:
+    - degree: Grduado en Turismo
+      university: Centro Universitario EUSA
+      # optional
+      university_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
+      time: 2015 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Receocioonista de Hotel
+      time: 2024-Actualidad
+      company: Hotel AACR Museo
+      # optional
+      company_logo: https://cdn.worldvectorlogo.com/logos/universidad-catolica-de-chile.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - role: Guia de un Museo
+      time: 2018 - 2024
+      company: Casa Palacio de la Condesa de Lebrija
+      # optional
+      company_logo: https://cpued.cl/wp-content/uploads/2018/08/logo-universidad-andres-bello.png
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
