@@ -19,7 +19,7 @@ basic_info:
     focus: Resolver
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
+    summary: 
       Soy ingeniero Industrial egresado del Instituto Tecnológico de Morelia, realicé mis practicas profesionales
       en el área de logística en la empresa Valeo Lighting Systems en la ciudad de Queretaro, México.
     
@@ -39,7 +39,7 @@ basic_info:
     github: maldo1904
     
     twitter: '' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 123456/maldo1904
 
     # Languages you speak, levels include: Native, Professional
     languages:
