@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: José Daniel
+    last_name: Maldonado Flores
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta jugar fúbol
+    
+    # Focus
+    focus: Resolver
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Soy ingeniero Industrial egresado del Instituto Tecnológico de Morelia, realicé mis practicas profesionales
+      en el área de logística en la empresa Valeo Lighting Systems en la ciudad de Queretaro, México.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQFY_i91r0mi_Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1682688276334?e=1733356800&v=beta&t=0vsBPwOpbeCEfKDwNWUuikAs2wy2dBkIsAG5tymdXq0
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/jos%C3%A9-daniel-maldonado-flores-22367a1b9/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: maldo1904
+    
+    twitter: '' #optional
+    stack-overflow: 123456/maldo1904
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Intermedio
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Fútbol
+
+      - item: Programación
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Ingeniero Industrial
+      university: Instituto Tecnológico de Morelia
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg6KoVgod_2JIyahMbroALvUYsceP5BEi2vA&s
+      time: 2019 - 2023
+      details: |
+        Egresado de la carrera de ingeniería industrial con especialidad en logística
+
+    - degree: Green Belt
+      university: Triskel America
+      # optional
+      university_logo: https://servicios.triskelamerica.com/wp-content/uploads/2021/08/Triskel_logo-02-1-1-e1629243186723-1024x273.png
+      time: Abril 2023 - Agosto 2023
+      details: |
+        Green Belt Lean Six Sigma
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Logistics Trainee
+      time: 2023 - 2024
+      company: Valeo Lighting Systems, Queretaro Mexico
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Valeo_Logo.svg/2560px-Valeo_Logo.svg.png
+      details: |
+       - Actividades de recepción
+       - Alimentación de línea
+       - Almacén y envío
+       - Embalaje y etiquetado
+       - Proceso de aduanas y aranceles
+       - Manejo de SAP
+       - Conteo de Inventarios
+
+    
+skills:
+    toolset:
+      - name: Liderazgo
+        level: 98%
+
+      - name: Tolerancia
+        level: 98%
+
+      - name: Trabajo en equipo
+        level: 98%
+
+      - name: Excel
+        level: 95%
+
+      - name: Inglés
+        level: 85%
+
+      - name: Programación
+        level: 60%
