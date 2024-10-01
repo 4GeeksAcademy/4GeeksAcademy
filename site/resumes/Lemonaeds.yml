@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel
+    last_name: Uranga
+    
+    # Define yourself in 4-5 words
+    motto: Gotta try it before we dislike it.
+    
+    # Focus
+    focus: Learning and improving
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      A hardworker whose bound to trying to learn and improving myself as my career is developing.
+      As a Computer Science graduate, I've worked on different IT companies focusing on both cloud systems sales
+      and FedRAMP assessments. My aim is to take all of this information I've gathered and focus it all on coding and developing
+      to be able to create projects and solve problems to better society!
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://picsum.photos/536/354
+
+    # Contact Information
+    email: migueuranga3619@gmail.com #optional
+    phone: 507 6673 0380 #optional
+    linkedin: https://www.linkedin.com/in/miguel-alejandro-uranga/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lemonaeds
+    stack-overflow: https://stackoverflow.com/users/27560285/miguel-uranga # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Anime
+
+      - item: Coding
+
+      - item: Movies
+
+      - item: Pin-Pong
+
+# Your previous education
+education:
+    - degree: BSc in Computer Science
+      university: Universidad Tecnológica de Panamá
+      # optional
+      university_logo: https://utp.ac.pa/sites/default/files/documentos/2024/imagen/3_logo_utp_-_cmyk_oficial.jpg
+      time: 2018 - 2024
+      details: |
+        The Bachelor's Degree in Computer and Systems Engineering is a proposal of specializations with a strong emphasis on 
+        the development of original computer elements and tailored to a specific solution. It is based 
+        on a solid mathematical and computational foundation that allows the formation of more critical professionals oriented to the development of innovative solutions.
+        
+        Based on the general theory of systems and the paradigm of computation, it integrates the aspects inherent to the study of systems and 
+        the mastery of the fundamental elements of computation, to offer a balanced curriculum in line with the market reality. It satisfies the 
+        need for a professional with the ability to adapt and generate computer solutions to problems where what exists in the market does not meet 
+        their expectations.
+        
+        The formation of the graduate is constituted by three areas of knowledge that integrate the study plan, through the distribution of courses: Humanistic, Scientific and Professional.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: It Staff Consultant (Federal)
+      time: Feb. 2023 – Present
+      company: A-Lign
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ▪	A-LIGN is a technology-enabled security and compliance partner that helps global organizations take a strategic approach to confidently mitigate cybersecurity risks. Our breadth and depth of expertise and A-SCEND, our proprietary compliance management platform, enable you to assess against the leading cybersecurity compliance frameworks important to your business – with one partner.
+        ▪	As an IT consultant for Federal, I have to commit to quality by analyzing the client’s system to determine whether or not they comply with FedRAMP’s requirements. Especially, within cloud-based systems. 
+        ▪	I also provide the client with a prior study of their documentation to check if their system is up to par with what the FedRAMP audit is going to be looking for.
+
+    - role: Cloud Services Account Manager
+      time: Nov. 2022 – Jan. 2023
+      company: Web Devices, Inc
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ▪	Web Devices Inc. is a leading provider in the development and implementation of Infrastructure Solutions and Business Continuity Management Models. Through alliances with market leaders such as Symantec, HP, Cisco Systems, NetApp, Fortinet, VMware, Citrix and Bluecat Networks we provide and support solutions for the most demanding environments in terms of performance, availability and ease of use. 
+        ▪	Identify and prospect for Cloud Services such as in-demand contracts and service sales opportunities and assess the level of alignment of customers’ strategies with the solutions provided. 
+        ▪	Get certified as required on various manufacturer’s products to then be able to train on the assigned tools and products and provide clients with a service able to cater to the clients’ needs.
+
+
+# Your project portfolio
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 20%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Java
+        level: 60%
+
+      - name: C
+        level: 20%
