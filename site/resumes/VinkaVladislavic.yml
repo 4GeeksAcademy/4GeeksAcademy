@@ -34,8 +34,8 @@ basic_info:
     # Contact Information
     email: v.vladislavic@outlook.com #optional
     phone: 59179566083 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    website: website.com #optional
+    linkedin: vinkavladislavic #optional
     
     #
     # ******** IMPORTANT *******
@@ -47,30 +47,30 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
+      - idiom: Italian
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Painting
 
-      - item: Snowboarding
+      - item: Traveling
 
-      - item: Cooking
+      - item: Dancing
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: MSc in Chemical Engineering
+      university: UCB
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2018 - 2022
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
