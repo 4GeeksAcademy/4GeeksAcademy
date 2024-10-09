@@ -1,5 +1,5 @@
 <!-- Hola -->
-<img src="https://github.com/Kyre13/Kyre13/raw/main/Banner.png">
+<img src="https://github.com/Kyre13/Kyre13/blob/master/Banner.png"
 
 <!-- Sobre mi -->
 <h2>Sobre mi 🙇</h2> 
