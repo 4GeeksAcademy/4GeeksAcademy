@@ -1,0 +1,104 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aaron
+    last_name: Barcos
+    
+    # Define yourself in 4-5 words
+    motto: Frontend Developer & Problem Solver
+    
+    # Focus
+    focus: Frontend Development, Vue.js, Shopify
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un desarrollador web frontend especializado en JavaScript, Vue.js y Shopify. Con una sólida experiencia en la creación de interfaces de usuario dinámicas y optimizadas, me apasiona crear experiencias digitales que sean intuitivas y eficientes. Me esfuerzo por mantenerme al día con las últimas tecnologías y ofrecer soluciones escalables para cada proyecto en el que trabajo.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: aaron.barcos@example.com #optional
+    phone: 123 456 7890 #optional
+    website: aaronbarcos.dev #optional
+    linkedin: aaronbarcos #optional
+    github: AaronBarcos
+    twitter: 'aaronbarcos' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Publicidad y RRPP
+      university: University of Alicante
+      time: 2019 - 2023
+      details: |
+        Desarrollé mis habilidades en diseño e interfaces de usuario
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Frontend Developer
+      time: 2023 - Present
+      company: Polo Club, Elche, Alicante
+      details: |
+        Trabajo en el equipo de frontend, asegurando que las soluciones técnicas no solo cumplan con los requerimientos, sino que también sean escalables y eficientes. Mi trabajo se centra principalmente en el frontend con Vue.js y Shopify, pero también colaboro en la arquitectura del backend.
+
+          - Desarrollo de aplicaciones frontend con Vue.js
+          - Integración de tiendas Shopify personalizadas
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí puedes ver algunos de mis proyectos personales y contribuciones de código abierto. Me enfoco en crear soluciones prácticas y escalables con un fuerte énfasis en la experiencia de usuario.
+
+    assignments:
+      - title: Custom Shopify Theme
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Desarrollo de un tema personalizado para una tienda Shopify, optimizado para SEO y conversiones."
+
+      - title: Vue.js SPA for eCommerce
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Aplicación de una sola página para una plataforma de comercio electrónico con Vue.js y Firebase."
+
+      - title: Real-Time Dashboard with Supabase
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Dashboard interactivo en tiempo real utilizando Supabase como backend y Vue.js para el frontend."
+
+skills:
+    toolset:
+      - name: JavaScript & Vue.js
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Shopify & Liquid
+        level: 90%
+
+      - name: Supabase & Node.js
+        level: 85%
+
+      - name: UI/UX Design
+        level: 75%
