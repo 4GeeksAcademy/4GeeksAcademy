@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Gil Fernández
+    
+    # Define yourself in 4-5 words
+    motto: Soy una persona alegre y positiva
+    
+    # Focus
+    focus: Estar tranquilo
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Estudié Publicidad y RRPP, posteriormente he trabajado en el mundo de la moda en varios ámbitos como en una revista,
+      una agencia de comunicación especializada en moda y en lo que actualmente me dedico como estilista y set designer freelance.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/fotoperfil.jpg
+
+    # Contact Information
+    email: alexgilfdez@gmail.com
+    phone: 645 970 232
+    website: alexgilfdz
+    linkedin: Alejandro Gil Fernández
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlexGilFdez
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Sport
+
+      - item: Reading
+
+      - item: Biking
+
+# Your previous education
+education:
+    - degree: Master in Fashion Product Direction and Management
+      university: IED MADRID - Istituto Europeo di Design
+      time: 2020 - 2021
+      details: |
+        MBA especializado en moda.
+
+    - degree: Degree in Advertising and PR
+      university: Complutense University Madrid
+      time: 2015 - 2020
+      details: |
+       Grado en Publicidad y Relaciones Publicas.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Stylist & Set Designer
+      time: 2023 - Present
+      company: Freelance
+     
+      details: |
+        E-commerce
+        Editorial
+        VIP
+        Ad's
+
+    - role: Social & Adv. Coordinator
+      time: 2021 - 2022
+      company: Elena Hernández Comunicación, Madrid.
+      
+      details: |
+        Media Plan.
+        Contracting and management of advertising actions.
+        Recruitment of Influencers and Celebrities.
+        Non-paid collaborations with Influencers and Celebs.
+        Stylistic advice to Celebs.
+        Relationship with Spanish press and stylists.
+        Showroom maintenance and management.
+
+    - role: Digital Manager
+      time: 2018 - 2019
+      company: ODDA Magazine, Madrid.
+      details: |
+        Management of the magazine's web and social media.
+        Search and management of new projects for the web.
+        Coordination of teams for the resolution of web projects.
+
+
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 50%
+
+      - name: Indesign
+        level: 50%
+
+      - name: Excel
+        level: 80%
+
+    
