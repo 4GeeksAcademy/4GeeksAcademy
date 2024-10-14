@@ -1,0 +1,166 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Celia
+    last_name: Bernal Porcar
+    
+    # Define yourself in 4-5 words
+    motto: Restless introvert
+    
+    # Focus
+    focus: Learning 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Operations agent / CRM  with broad experience in customer support and client management. 
+      I'm used to highly demanding work environments, facing day to day challenges with a positive attitude and always looking forward to learning more in the process.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: celia.bcn28@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CeliaBP
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Making Music
+
+      - item: all things DIY
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Masters Degree in music for Entertaining Experiences
+      university: University of Barcelona
+      # optional
+      university_logo: 
+      time: 2018 - 2019
+      details: |
+        Master's Degree including the following specialisations: Virtual Reality, Musical Production, Middleware, Unity, Unreal, Pro Tools, Logic Pro, Musical and Interactive Script, 3D Sound, Music Industry.
+          
+
+    - degree: Philosophy
+      university: University of Barcelona
+      # optional
+      university_logo: 
+      time: 2011 - 2016
+      details: |
+        Specialization in Philosophy od Science
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: CRM
+      time: 2021-2023
+      company: BMAT Music innovators
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Client Management (CMOS, rights holders, labels, radios and TVs)
+        Coordination with other teams to ensure quality standards of the services contracted as well as the implementation of new features and client’s new requests
+        Data Reporting preparation and delivery
+        Charts QA and delivery
+        OKR planing
+        Cross-selling and seeking potential new areas of business
+
+    - role: Content Operations Specialist
+      time: 2020 - 2022
+      company: Sonosuite / La Cupula Music
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: | 
+        Content availability, re-mapping & linking
+        Artist page requests (customization, OAC's,...)
+        Resolution to DSP-related questions (Ingestion, Catalog Requests, DSP’s changes & new features detection)
+        Product Proposals creation (JIRA)
+        Identification and resolution of music rights related issues
+        Intermediation Support / SNS Clients - DSPs - Merlin (Zendesk) 
+        New Feeds Set Up, DSPs set up and migration protocols, Coordination and planification of subsequent operations
+        Video related operations (VEVO, Tidal, iTunes, Youtube)
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      -
+      - name: Excel
+        level: 60%
+
+      - name: Confluence
+        level: 70%
+
+      - name: Zendesk
+        level: 85%
+
+      - name: JIRA
+        level: 70%
