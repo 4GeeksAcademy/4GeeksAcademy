@@ -1,0 +1,164 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Miguel
+    last_name: Garcia De La Cruz
+    
+    # Define yourself in 4-5 words
+    motto: Adaptable, creative, attentive, confident, consistent.
+    
+    # Focus
+    focus: Family
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      After more than 10 years in the hotel business in different cities and countries I decided to make a change and leave my comfort zone.
+      Thanks to my partner I started to feel attracted to programming and decided to take this step.
+      I discovered that it is a world in which you never stop learning and training, and even though I have never studied anything about it, I am now doing a bootcamp with my partner,
+      now I am doing a bootcamp with the motivation and confidence to be able to achieve whatever I set my mind to.
+
+      
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.flhr4-4.fna.fbcdn.net/v/t1.6435-9/45055469_10217333316395016_7740332010073227264_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_ohc=sfvPWpNTubsQ7kNvgGY43ZX&_nc_ht=scontent.flhr4-4.fna&_nc_gid=AVq6npwOq3OvuRicyODesNp&oh=00_AYB8dOGDm-NlRhEhwfhF_PSASnH1Ga8ZNIM86dwEAWV1pw&oe=6734DF80
+
+    # Contact Information
+    email: josemi_garcia_seven@hotmail.com #optional
+    phone: 234 2342 342 #optional
+    linkedin: https://www.linkedin.com/in/jose-miguel-garcia-de-la-cruz-8b99411b4/  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Josemi937
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Football
+
+      - item: Sky
+
+      - item: Coocking
+      
+      - item: Music
+
+
+# Your previous education
+education:
+    - degree: Grado media Administración y dirección de empresas
+      university: I.E.S Santa Eulalia (Tarrassa)
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2017
+      details: |
+        Formación en materias como:
+        - Comunicación empresarial
+        - Atención al cliente
+        - Técnica contable 
+        - Operaciones administrativas
+        ...
+
+          
+
+    - degree: Compulsory Secondary Education
+      university: I.E.S Alfonso VIII
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2009 - 2010
+      #details: |
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Restaurant Manager
+      time: 2022 - 2024
+      company: Zapote Restaurant ( London )
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+  
+        My task was to manage the team and the stock in the best possible way.
+        Create a good working environment, and handle customer complaints quickly and efficiently.
+
+        - Lead and teach the team.
+        - Perform employee rotas.
+        - Stock control.
+        - Deal with complaints.
+        - Recruiting new staff.
+        - Monitor quality food service and presentation
+
+          
+
+    - role: Assistant Restauran Manager
+      time: 2018 - 2022
+      company: Aqua Restauran Group ( London )
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        My task was to help the manager as much as possible with the team and restaurant management.
+
+          - Control the stock .
+          - Perform rotas .
+          - Make the Daily Cash up .
+          - Control de áreas of he restaurants .
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      Projects I have been developing in the bootcamp
+
+    assignments:
+      - title: Instagram with Boostrap
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/josemi937--Spain_PT_84---Post-Instagram.git
+        tagline: Instagram profile created with HTML and Boostrap.
+
+      - title: Instagram post
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Josemi937/html-hello.git
+        tagline: Instagram post created with HTML and CSS.
+
+      - title: Excuse generator
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Josemi937/vanillajs-hello.git
+        tagline: Excuses generator created with JavaScript
+
+      
+skills:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Boostrap
+        level: 50%
+
+      
