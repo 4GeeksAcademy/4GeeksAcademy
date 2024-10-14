@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Ródriguez
+    
+    # Define yourself in 4-5 words
+    motto: ¡Ready to learn!
+    
+    # Focus
+    focus: Get my goals
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      After 10 years in the transport industry, I decided to resume my programming studies, 
+      which I had left unfinished. Now I have taken up that path again with a great desire and 
+      enthusiasm to learn, and my new goal is to get into this professional world.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQFh08f6VhEgWQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718567720311?e=1734566400&v=beta&t=CjCCfbBNlxi2QNwvNH6ZiqjXNKsHAGZCf5lO7tED6Yo
+
+    # Contact Information
+    email: javier1108@gmail.com #optional
+    phone: none #optional
+    website: none #optional
+    linkedin: https://www.linkedin.com/in/javier-rodr%C3%ADguez-l%C3%B3pez-46344a314/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: javierrdlp
+    
+    twitter: 'none' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic     
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Application development technician multiplataform
+      university: IES Doctor Balmis
+      # optional
+      university_logo: https://media.licdn.com/dms/image/v2/C4E0BAQH-xgWTRu5IDA/company-logo_100_100-alternative/company-logo_100_100-alternative/0/1630654094208/ies_doctor_balmis_logo?e=1736985600&v=beta&t=2PTH5gZtxg7RRd6DZELWkxdQ6RUjM2YmBASkGTZDifE
+      time: 2022 - 2024
+      details: 
+        None
+       
+
+    - degree: Microcomputer systems and networks technician
+      university:  IES Doctor Balmis
+      # optional
+      university_logo: https://media.licdn.com/dms/image/v2/C4E0BAQH-xgWTRu5IDA/company-logo_100_100-alternative/company-logo_100_100-alternative/0/1630654094208/ies_doctor_balmis_logo?e=1736985600&v=beta&t=2PTH5gZtxg7RRd6DZELWkxdQ6RUjM2YmBASkGTZDifE
+      time: 2009 - 2011
+      details: 
+        None
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Practices
+      time: 2024
+      company: DXC Technoloy
+      # optional
+      company_logo: data:image/png;base64,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
+      details:
+        None
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: Kotlin
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Java
+        level: 85%
+
+      - name: C#
+        level: 60%
