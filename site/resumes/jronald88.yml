@@ -13,29 +13,24 @@ basic_info:
     last_name: Ronald
     
     # Define yourself in 4-5 words
-    motto: I am a man-child
+    motto: Analytical, Innovative, Collaborative, Adaptable.
     
     # Focus
-    focus: Watching Bad Boys
+    focus: Leveraging machine learning and AI to unlock business insights.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      After finishing my Mathematics with Computing (BSc) degree, I moved to Madrid, where I have been teaching for 14 years. 
-      First as an EFL Teacher, then as a Mathematics Teacher after returning to England to complete my Newly Qualified Teacher (NQT) year. 
-      I have lived and worked in Madrid since 2010 (barring my time in England), working in British Independant Schools, teaching mainly 16-18 year olds. 
-      
-      During the Covid lockdown, I decided to learn how to program using Python and began a Data Science course. I enjoyed it so much, I decided to finally complete
-      a certified Data Science and Machine Learning course to start my new career!
+      Experienced mathematician with a proven track record of raising achievement in education sector. Skilled in management, communication, data and statistical analysis.
       
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    #avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
     email: jasonronaldbsc@gmail.com #optional
     phone: +34 611 549 835 #optional
     #website: asd.com #optional
-    linkedin: www.linkedin.com/in/jason-ronald-629195b7 #optional
+    linkedin: www.linkedin.com/in/jason-ronald #optional
     
     #
     # ******** IMPORTANT *******
@@ -51,7 +46,7 @@ basic_info:
         level: Native
 
       - idiom: Spanish
-        level: Conversational (High)
+        level: Advanced
 
 
     # Interests or hobbies
@@ -64,146 +59,89 @@ basic_info:
 
 # Your previous education
 education:
+    - degree: Machine Learning and Data Science
+      university: 4Geeks Academy
+      # optional
+      
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024-
+      details: |
+        Certification in Data Science and Machine Learning.
+        
+          - Python
+          - Supervised and unsupervised machine learning
+          - Keras
+          - TensorFlow
+          - Deep Learning
+    
     - degree: BSc in Mathematics with Computer Science
       university: University of Plymouth
       # optional
-      """
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      
+      university_logo: https://www.topuniversities.com/sites/default/files/profiles/logos/university-of-plymouth_592560cf2aeae70239af4c79_large.jpg
+      time: 2006 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-    """
+        Study of Pure Mathematics, with a keen focus on algebra, abstract algebra numerical methods. Computer Science 
+        modules covered everything from rendering images in Java to animation using Flash.
+        
+          - Java
+          - C#
+          - C++
+          - Flash
+    
     - degree: PGCE in Secondary Mathematics
       university: Bath University
-      """
+      
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://ibec.or.id/wp-content/uploads/2018/07/uni_logo_bath_1280_510-e1535972281573.jpg
+      time: 2009 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Teacher training post-graduation education. 
 
-          - Bullet point
-          - Bullet point
+          - Specialism in Secondary Mathematics 
+          - GCSE and A-Level Mathematics focus
 
 # Your previous job experiences or volunteer
-"""
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Mathematics Teacher
+      time: 2019 - Present
+      company: Hastings School, Madrid
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Teacher of Mathematics across Secondary years with a specialism in International A-Level and university 
+        preparation (16-18 years old). 
 
-          - Bullet point
-          - Bullet point
+          - Increased underachieving students' attainment by 19% using data analysis and tracking systems.
+          - Achieved the highest IGCSE and A-Level mathematics results in school history, with 56.4% of students gaining A-A* grades.
+          - Streamlined the school's data management using and Python and its extensive libraries, cutting administrative time and improving data integrity.
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here you will find a list of past and ongoing projects that I am particularly proud of.
 
     assignments:
-      - title: Velocity
+      - title: Body Signal of Smoking Classifier.
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        link: "https://github.com/jronald88/Smoking_classifier"
+        tagline: "A binary classifier designed to detect whether someone is a smoker based on body signals"
 
 skills:
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
-
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+     
+      - name: matplotlib & seaborn
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: pandas
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
-        """
+      - name: machine learning algorithm development
+        level: 80%
+        
         
