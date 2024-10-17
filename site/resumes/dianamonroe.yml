@@ -1,0 +1,57 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diana
+    last_name: Moret
+    
+    # Define yourself in 4-5 words
+    motto: Do staff you love and the rest will follow
+    
+    # Focus
+    focus: Humanizing Machines - Automatizing Businesses
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Blending +10 of experience in UX Strategy, Human Centric Design with AI, Data Science, Python, Machine Learning & LLMs
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/176604534?v=4
+
+    # Contact Information
+    email: dianalayun@gmail.com #optional
+    linkedin: dianamoret #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dianamonroe
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Learning science related topics I like (quantum physics, astrophisics, abstract math...)
+
+      - item: Nature
+
+      - item: Sport
+
+# Your previous education
+More about me on Linkedin: https://www.linkedin.com/in/dianamoret/
+    
