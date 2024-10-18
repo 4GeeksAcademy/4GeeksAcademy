@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miriam
+    last_name: Jurado Cebrián
+    
+    # Define yourself in 4-5 words
+    motto: I like opossums
+    
+    # Focus
+    focus: Learning more and learning good
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      My interest on programming appeared when I was around 19, when I was learning about Robotic while I was studying a degree on Arts.
+      Since this moment I decided to continue learning about Software Development and currently I am a Frontend Developer with around 3 years of experience.
+      Furthemore, I have always been interested on Machine Learning and Data Science, so I think that this is a good moment to start the 4Geeks Bootcamp and acquired new skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    linkedin: www.linkedin.com/in/miriam-jc
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JCMiriam
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: C1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Videogames
+
+      - item: Motorbikes
+
+# Your previous education
+education:
+    - degree: Máster en Frontend
+      university: Lemoncode
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+        Master for learning advances skills from Frontend development, since the deployment of a project to diferent libraries as Angular, Vue, or React.
+
+    - degree: CFGS Desarrollo de Aplicaciones Web (DAW)
+      university: Ilerna Online
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2021
+      details: |
+        Degree on Web Development, giving the first step on the diferent points of programming: Backend, Frontend, Markup languages, or a proyect deployment.
+
+    - degree: Máster en Diseño Web y Desarrollo Frontend
+      university: La Gauss
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2019
+      details: |
+        Master specialized on UI/UX design, web layout and frontend development.
+
+    - degree: Grado en Bellas Artes
+      university: UMA
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2019
+      details: |
+        Degree on Arts in which I get the specialization in Graphic Design, Electronic and Robotic Art.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Frontend Developer
+      time: 2021 - 2024
+      company: Freepik Company, Málaga
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Frontend developer working mainly in projects related with checkout, user profiles, accounts and login;
+        using technologies as JavaScript, TypeScript, React, Next.js, Vue.js, Jest, Git or GitHub.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+skills:
+    toolset:
+      - name: Python
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: JavaScript & Typescript
+        level: 75%
+
+      - name: React & Next.js
+        level: 65%
+
+      - name: Graphic & UI/UX Design
+        level: 70%
+
+      - name: Figma & AdobeXD
+        level: 70%
+
+      - name: Photoshop, Illustrator & InDesign
+        level: 60%
