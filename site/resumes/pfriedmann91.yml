@@ -1,0 +1,95 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Pablo
+  last_name: Friedmann
+  motto: 90's kid with a camera
+  focus: Don't smoke again.
+  summary: 
+    I'm a Chilean photographer turned tech enthusiast, now based in
+    Valencia, Spain, with a bit of Buenos Aires in my history. After years of
+    developing film in darkrooms, I've shifted my focus to developing code,
+    studying to become a programmer. A lover of technology, design, and music,
+    I’m now merging my hands-on creative skills with the digital world. From
+    winding film to writing algorithms, I’m diving into tech with the same
+    passion I had in the darkroom, aiming to create and build the future—one
+    carefully crafted line of code at a time.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: pabloifm91@gmail.com
+  phone: 635 994 805
+  website: asd.com
+  linkedin: www.linkedin.com/in/pablo-friedmann/
+  github: example
+  twitter: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Portuguese
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Photography
+    - item: Cooking/Eating
+    - item: Coffee
+education:
+  - degree: Arts Bachelor - Photography Major
+    university: Universidad del Pacífico, Chile
+    time: 2014 - 2018
+    details: I began my artistic exploration as a visual artist, immersing myself in
+      various forms of creative expression. My studies focused on mastering the
+      use of visual elements like color, composition, and form, which helped me
+      develop a keen eye for detail and aesthetics. Through painting, drawing,
+      and mixed media, I learned how to convey powerful messages and emotions
+      without uttering a word. This foundation in visual storytelling paved the
+      way for my later work, helping me see the world through a lens of
+      creativity, always searching for meaning in every frame, line, and shadow.
+  - degree: Photographer
+    university: Escuela Argentina de Fotografía
+    time: 2018 - 2020
+    details: >
+      As I ventured into the world of photography, I honed my skills across
+      both analog and digital mediums. My formal education in photography
+      allowed me to delve deep into film photography, where I became passionate
+      about the process of capturing images on film and developing them by hand
+      in the darkroom. From understanding the nuances of different film stocks
+      to perfecting exposure and composition, I embraced the art of analog
+      photography. Alongside that, I gained experience in digital photography,
+      mastering post-production techniques and working with illumination to
+      craft the perfect shot. This blend of classic and modern techniques shaped
+      my unique photographic style, balancing tradition with innovation.
+experiences:
+  - role: Broker and Sales Executive
+    time: 2021-2022
+    company: Ventura Finanzas. Valencia, Españac
+    details:
+      - Established sales goals by forecasting monthly sales quotas and
+        projecting expected sales volume of financial assets for Capital Panda.
+      - Attracted and retained customers, committing and providing high
+        satisfaction among them.
+      - Worked independently and within a team setting.
+  - role: Business Developer and Key Account Manager
+    time: 2014 - 2018
+    company: 
+      Tango 360, Santiago. Chile.
+
+      - Identified and maximized sales opportunities. - Contributed with new solutions and ideas to improve service quality and the company growth. - Successfully built and maintained long-lasting client relationships by understanding and fulfilling their needs. - Delegated tasks to team members efficiently, empowering the coordination among different areas.
+projects:
+  assignments:
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+media:
+  links: https://www.latercera.com/paula/santiago-traves-lente/
+skills:
+  toolset:
+    - name: Photoshop
+      level: 98%
+    - name: Lightroom
+      level: 98%
+    - name: Illustrator
+      level: 80%
+    - name: DaVinci Resolve
+      level: 95%
