@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    Avatar: https://photos.fife.usercontent.google.com/pw/AP1GczOweDEOOiohf3yaryS-JSnaYtbP6qJv24Waut3c0hs8Nnb42r6ZA1Gwsg=w685-h913-s-no-gm?authuser=0
+    # Your full name
+    first_name: Micaela Giuseppina
+    last_name: De Rosa Di Gregorio
+     
+    
+    # Define yourself in 4-5 words
+    motto: No pain no gain
+    
+    # Focus
+    focus: Always try
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary:
+    My name is Micaela De Rosa, I am 25 years old. I live in Montevideo, Uruguay. I am excited about studying web development, it is totally new for me, and I am really enjoying it, although there are times when it requires attention and effort.
+    email: micaaderosa@gmail.com #optional
+    phone:  #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/micaeladerosa/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/MicaelaDeRosa23
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Skating
+
+      - item: Psychoanalysis
+
+# Your previous education
+education:
+    - degree: Beginner
+      university: Engineering faculty
+      time: 2018 - 2020
+      details: I studied three subjects at the Montevideo Engineering Faculty: Geometry and Algebra , PhysicsI, and Differential and Integral Calculus in a variable
+
+    - degree:  Beginner
+      university: Chemistry faculty
+      time: 2022
+      details: I studied for three modules auxiliary of hospital pharmacy. At that time I studied about the health system, medications and their functioning in the human body.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coach
+      time: 2017 - 2022
+      company: Golden Arches ( McDonald's)
+      # optional
+      details: I worked for 5 years at McDonald's, I excelled as a trainer in all existing areas, cooking, service and Mc'Cafe.
+
+    - role: Receptionist
+      time: 2022
+      company: Tintura de Sol
+      details: I was there for a very short period of time because then they called me from my current job. I worked for a homeopathy, taking orders, preparing the remedies and providing information to people about the different products.
+
+    - role: Cashier assistant, currency exchange and treasurer
+      time: 2022 - present
+      company: Varlix S.A
+      details: I currently work as a cashier's assistant for bill collection, currency exchange, and treasurer.
