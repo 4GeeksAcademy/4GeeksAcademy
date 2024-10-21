@@ -1,0 +1,128 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Lynda Zarelly
+  last_name: Rueda Delgado
+  motto: Learning is a treasure that follows its owner throughout life.
+  focus: The mind is not like a glass that must be filled, but rather like a fire
+    that must be fed.
+  summary: >
+    Teacher with 7 years of experience in the areas of biology, chemistry
+    and physics, with outstanding skills in coordinating STEAM and robotics
+    projects. With a solid academic background backed by a Master's Degree in
+    Education, currently expanding skills in programming through a specialized bootcamp. 
+    High capacity to integrate emerging technologies into educational processes, with an innovative and multidisciplinary approach.
+  avatar: https://media.licdn.com/dms/image/v2/D4E03AQEjRhOxSnZ3fw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729437328445?e=1735171200&v=beta&t=ZBJRi1UtCUr-MpNzD2poD3nANihOLjw9uNSBOdPI9ik
+  email: lyndazrdelgado@gmail.com
+  phone: +57 6436597
+  website: https://asd.com
+  linkedin: https://www.linkedin.com/in/lynda-zarelly-rueda-delgado-2b2999301
+  github: LZRUEDADELGADO
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: B1
+  interests:
+    - item: Learn and teach
+    - item: Video Games
+    - item: Explore nature
+    - item: Science
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy (España)
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024
+    details: |
+      Bootcamp in Full Stack Development.
+  - degree: MSc of Education
+    university: National Pedagogical University of Colombia
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Universidad_Pedagogica_%2811%29.jpg/220px-Universidad_Pedagogica_%2811%29.jpg
+    time: 2021 - 2023
+    details: >
+      The Master's Degree in Contemporary Studies in Biology Teaching
+      promotes education that recognizes biological and cultural diversity,
+      promoting dialogue between communities. It integrates historical
+      developments of biological knowledge and innovative teaching approaches,
+      addressing contemporary issues like ICT, post-nature, and epistemic
+      plurality.
+
+        - Research project:  http://repository.pedagogica.edu.co/handle/20.500.12209/18654
+        - International participation: https://grupokenta.co/eventos/cisiet/cisiet-2022/ volumen 1 pag 614
+  - degree: Bachelor's Degree in Biology
+    university: National Pedagogical University of Colombia
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Universidad_Pedagogica_%2811%29.jpg/220px-Universidad_Pedagogica_%2811%29.jpg
+    time: 2011-2 - 2017-2
+    details: >
+      The curriculum of the Bachelor of Biology is designed as a formative
+      research project, blending academic processes with self-regulatory
+      research efforts to improve educational quality.
+
+       - Research project:  http://repository.pedagogica.edu.co/handle/20.500.12209/7679 
+       - Other research and publications: https://dialnet.unirioja.es/servlet/articulo?codigo=7241341 
+experiences:
+  - role: STEM Area Coordinator and Biology Teacher
+    time: 2023
+    company: Colegio Nuevo Gimnasio
+    company_logo: ""
+  - role: Biology Teacher
+    time: 2022
+    company: Gimnasio Militar de la Fuerza Aérea Colombiana
+    company_logo: ""
+  - role: Biology and Chemistry Teacher, Coordinator of the Natural Sciences Area
+    time: 2019 - 2021
+    company: Bicentenario de la Independencia IED (Hermanos Maristas de la Enseñanza)
+    company_logo: ""
+  - role: Teacher of Chemical and Physical Biology, Coordinator of the Natural
+      Sciences Area
+    time: 2017 - 2019
+    company: Corporación Educativa Minuto de Dios IED Nueva Roma
+    company_logo: ""
+projects:
+  intro: >
+    List of side projects or open-source contributions. Below are some
+    templates and projects developed to help startups promote and market their
+    products.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote,
+        market, and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and attract users & investors.
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template for startups/developers to market
+        their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one-page theme for app developers promoting
+        mobile apps.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
