@@ -1,0 +1,182 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joel
+    last_name: Dorta Perez
+    
+    # Define yourself in 4-5 words
+    motto: Futbolero y adicto a la musica
+    
+    # Focus
+    focus: Jugar en el Real Madrid
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Licenciado en Farmacia por la Universidad Complutense de Madrid
+      Grado superior de Tecnico de Farmacia y Parafarmacia por la Universidad de la Laguna
+      
+      
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.grada3.com/wp-content/uploads/2023/10/bellingham-RMA-OSA.jpeg
+
+    # Contact Information
+    email: joeldortaperez19@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: jdortaperez19.com #optional
+    linkedin: joel dorta perez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jdorta19
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: Advanced
+
+      - idiom: Aleman
+        level: Basico
+
+    # Interests or hobbies
+    interests:
+      - item: Futbol y Padel
+
+      - item: Pescar 
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Farmacia
+      university: Universidad Complutense de Madrid
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2020
+      details: |
+        Licenciatura de Farmacia 
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Tecnico de Farmacia y Parafarmacia
+      university: Universidad de la Laguna
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2017
+      details: |
+       Grado superior de tecnico de Farmacia y Parafarmacia
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Farmaceutico
+      time: 2021-2023
+      company: Farmacia en Hortaleza, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Atencion y recepcion al publico, venta y administracion de medicamentos 
+
+          - Bullet point
+          - Bullet point
+
+    - role: Tecnico de Farmacia
+      time: 2020-2021
+      company: Farmacia Las Chafiras, Tenerife
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Atencion y recepcion al publico, venta y administracion de medicamentos y productos de parafarmacia.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Excel
+        level: Advanced
+
+      - name: HTML5 & CSS
+        level: Basic
+
+      - name: SQL
+        level: Basic
+
+      - name: Sketch & Photoshop
+        level: Basic
