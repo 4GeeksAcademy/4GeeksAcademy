@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joe Lizardo
+    last_name: Diaz Echevarria
+    
+    # Define yourself in 4-5 words
+    motto: Music will save the world
+    
+    # Focus
+    focus: Crecimiento personal
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      De doble nacionalidad, nacido en Callao y criado en Italia.
+      Mucha experiencia enfocada en atención al cliente, entre hosteleria y hospedaje trabajando en distintos idiomas(principalemente en Castellano e Inglés).
+      Bilingüe castellano e italiano.
+      Actualmente recepcionista en CoolRooms Palacio de Atocha, hotel boutique en Madrid. Actitud proactiva, eficiente, atento al detalle y empático.
+      
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+
+    # Contact Information
+    email: joediaz88@hotmail.com #optional
+    phone: +34 644820671 #optional
+    
+    linkedin: www.linkedin.com/in/joe-diaz-231b56176 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/JoeDE88
+    
+    
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Italiano
+        level: Bilingüe
+
+      - idiom: Castellano
+        level: Bilingüe
+
+      - idiom: Inglés
+        level: Alto
+
+      - idiom: Francés
+        level: Básico
+    # Interests or hobbies
+    interests:
+      - item: Música
+
+      - item: Natación y deportes
+
+      - item: Viajes
+
+# Your previous education
+education:
+    - degree: Diploma en Turismo y Lenguas extranjeras
+      university: Liceo Linguistico Da Vigo
+      # optional
+      time: 2002 - 2007
+      details: |
+        Aprendí y reforzé distintos idiomas, Inglés, Francés y Castellano direccionados al entorno del turismo.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcionista
+      time: 2021 - Presente
+      company: CoolRooms Palacio de Atocha
+      # optional
+      details: |
+        Gestión y atención al cliente personalizada.
+        Resolución de incidencias, quejas o problemas.
+        Cross-selling y venta de servicios extra.
+        Recomendaciones según el tipo de cliente. Manejo del estrés. Manejo avanzado del PMS Protel. Auditoría nocturna.
+
+
+# Your project portfolio
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+
+      - name: HTML5 & CSS
+        level: 90%
