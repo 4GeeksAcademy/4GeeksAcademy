@@ -1,0 +1,176 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Dudek
+    
+    # Define yourself in 4-5 words
+    motto: Committed to my goals
+    
+    # Focus
+    focus: Focus on learning and personal development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Committed and analytical professional with experience. I work focused on results and challenging work environments. I have mentored interns and have had the opportunity to teach an external company. I possess a high sense of commitment and integrity, as well as a focus on supporting change in large or complex organizations. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQF02QwuptTZ1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692195542510?e=1735171200&v=beta&t=5i7zJ1VHy0sDNzkBI-D5wqHgqy-_G4T7vjHGJ6SJwY0
+
+    # Contact Information
+    email: dudekruker2018@gmail.com
+    phone: 690 137 593
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/danieldudekkruk/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Daniel-Dudek
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Polish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness lifestyle
+
+      - item: Personal growth
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: Computer Engineering
+      university: Polytechnic University of Madrid
+      # optional
+      university_logo: https://www.upm.es/gsfs/SFS11831
+      time: 2016 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        It is a high-quality academic program that trains professionals capable of addressing the technological challenges of today's world. This degree, taught at the Escuela Técnica Superior de Ingenieros Informáticos, covers diverse areas of computer science, including software development, artificial intelligence, cybersecurity, and computer networks.
+
+          - Conceive, develop and maintain software systems and applications using various software engineering methods and programming languages appropriate to the type of application to be developed while maintaining the required quality levels.
+          - Design, develop, evaluate and ensure the accessibility, ergonomics, usability and security of computer systems, applications and services, as well as the information they provide, in accordance with current legislation and regulations.
+          - Define, evaluate and select hardware and software platforms for the development and implementation of computer applications and services of varying complexity.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Analytics Engineer
+      time: 2024 - Today
+      company: JAKALA Iberia
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4D0BAQGijFKH69ligg/company-logo_200_200/company-logo_200_200/0/1720193183622/jakala_spa_logo?e=1738195200&v=beta&t=axdMMvoyFz3oe9Y5juXVKQxBiabLtezmF4RpAzLaB7g
+      details: |
+        I specialize in providing customized technical solutions to potential clients, helping them to optimize their online presence and maximize the performance of their websites. My expertise covers data analysis, implementation of tracking tools and optimization of advertising campaigns.
+
+          - Implementation of Google Analytics 4 (GA4)
+          - Google Ads Campaign Management
+          - Use of Google Tag Manager (GTM)
+          - Customized Solutions
+          - Communication and Collaboration
+          - Continous Upgrade
+          - Big Query
+          - Google Cloud Run
+          - Use of Google Tag Manager Server Side
+
+    - role: Data Collection Engineer
+      time: 2020 - 2024
+      company: JAKALA Iberia
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4D0BAQGijFKH69ligg/company-logo_200_200/company-logo_200_200/0/1720193183622/jakala_spa_logo?e=1738195200&v=beta&t=axdMMvoyFz3oe9Y5juXVKQxBiabLtezmF4RpAzLaB7g
+      details: |
+        I specialize in providing customized technical solutions to potential clients, helping them to optimize their online presence and maximize the performance of their websites. My expertise covers data analysis, implementation of tracking tools and optimization of advertising campaigns.
+
+          - Implementation of Google Analytics 4 (GA4)
+          - Google Ads Campaign Management
+          - Use of Google Tag Manager (GTM)
+          - Customized Solutions
+          - Communication and Collaboration
+          - Continous Upgrade
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: JAVA
+        level: 75%
+
+      - name: JavaScript & jQuery
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: SQL
+        level: 60%
