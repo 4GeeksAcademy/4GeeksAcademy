@@ -1,0 +1,64 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Corostola Piniella
+    
+    # Define yourself in 4-5 words
+    motto: Constante, persistente , divertido y trabajador. 
+    
+    # Focus
+    focus: Disfrutar de lo que hago!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Como programador, me apasiona resolver problemas complejos y aportar soluciones eficientes e innovadoras. Tengo experiencia en [lenguajes clave y tecnologías relevantes para el puesto], y me mantengo al día con las tendencias del sector, lo cual me permite adaptarme rápidamente a nuevas herramientas y entornos de trabajo. Me destaco por mi atención al detalle, mi habilidad para trabajar en equipo y mi compromiso con la mejora continua. Mi objetivo es contribuir significativamente a los proyectos, asegurando calidad y optimización en cada fase del desarrollo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://th.bing.com/th/id/OIP.-RWXpj5bt51DXaTzcF416AHaGP?rs=1&pid=ImgDetMain
+
+    # Contact Information
+    email: diegocoros22@gmail.com #optional
+    phone: 618227635 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: diegocoros
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Football
+
+      - item: Cocinar
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: front-end 
+      time: 1 Mes de prácticas
+      company: Alexander Magazine
+      
+skills:
+    toolset:
+      - name: JavaScript
+      - name: HTML5 & CSS
+      - name: MYSQL & Php
