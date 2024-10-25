@@ -1,0 +1,71 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adrian
+    last_name: Neuville Quesada
+    
+    # Define yourself in 4-5 words
+    motto: I like traveling
+    
+    # Focus
+    focus: Becoming a FullStack developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am in the process of learning to code with 4Geeks Academy. I previously managed a restaurant but I have committed to a career change, and I'm now doing what I am passionate about.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: aneuville99@gmail.com #optional
+    phone: 655373080 #optional
+    website: #optional
+    linkedin: Adrian Neuville Quesada #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AdrianNQ99
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Football
+
+      - item: E-Sport
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: Full Stack Web Developer
+      university: $geeks Academy
+      # optional
+      time: 2024 - Present
+      details: |
+       Full Stack Web Developer four intensive months bootcamp during which I am learning to improve my logical thinking and develop a wide range of programming projects with HTML5, CSS, Bootstrap,Java Script, React JS, Python, Flask, MySQL Alchemy and more.
+
+    
