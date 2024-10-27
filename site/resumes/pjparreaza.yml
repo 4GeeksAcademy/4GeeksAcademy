@@ -21,73 +21,68 @@ basic_info:
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Finance, Multivariate Statistics, Econometrics, Time Series, Bayesian Statistics, 
+      Nonparametric Statistics, Futures, Options, Structured Products, Credit Derivatives, 
+      Commodities, market risk metrics management, Basel II - Basel III
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    #avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: p.j.p.arreaza@gmail.com #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    #linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: pjparreaza
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Intermediate
 
-      - idiom: Spanish
-        level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Studies
 
-      - item: Snowboarding
+      - item: Music
 
-      - item: Cooking
+      - item: Travel
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Statistics Specialist
+      university: Universidad Central de Venezuela
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #time: 2011 - 2012
+      #details: |
+      #  Describe your study here lorem ipsum dolor sit amet, consectetuer
+      # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #  sociis natoque penatibus et magnis dis parturient montes, nascetur
+      # ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #  pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
+      #    - Bullet point
+      #    - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: BSc in Mathematics
+      university: Universidad de Carabobo
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #time: 2007 - 2011
+      #details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
         sociis natoque penatibus et magnis dis parturient montes, nascetur
@@ -99,12 +94,12 @@ education:
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Risk Specialist
+      time: 2019 - Present
+      company: Mercantil Banco, Caracas, Venezuela
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -118,12 +113,12 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: University Professor
+      time: 2020 - Present
+      company: Universidad 'Alejandro de Humboldt'
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -133,12 +128,12 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: University Professor
+      time: 2015 - 2016
+      company: Universidad José Antonio Páez
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -149,36 +144,36 @@ experiences:
           - Bullet point
 
 # Your project portfolio
-projects:
-    intro: >
+#projects:
+#    intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-    assignments:
-      - title: Velocity
+ #   assignments:
+  #    - title: Velocity
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+   #     project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #    link: "#hook"
+     #   tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      #- title: DevStudio
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+       # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+  #    - title: Tempo
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+   #     project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #    link: "#"
+    #    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+    #  - title: Atom
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+     #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #  link: "#"
+       # tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
       - title: Delta
         # optional
@@ -188,20 +183,11 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
+      - name: R
         level: 98%
 
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Matlab
         level: 60%
+
+      - name: Phython
+        level: 50%
