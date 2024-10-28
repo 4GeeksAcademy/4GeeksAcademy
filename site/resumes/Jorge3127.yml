@@ -1,0 +1,94 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge
+    last_name: Pedroza
+    
+    # Define yourself in 4-5 words
+    motto: Dios y la familia primero
+    
+    # Focus
+    focus: En sacar adelante a mis hijas
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Industrial con experiencia de más de 10 años en la gestión estratégica en la logística de abastecimiento, 
+      control de inventarios, gestión general de ciclo de compras,logística de producción, y logística de transporte, 
+      con conocimiento de los diferentes canalesde distribución. Me caracterizo por ser una persona con alta habilidad para negociar 
+      empleando técnicas y tácticas, cumplidor de mis deberes laborales, serio, honesto, eficiente,de excelentes relaciones interpersonales 
+      y con proveedores, con capacidad de liderazgo depersonal, certero en la toma de decisiones y trabajo en equipo y con gestión enfocada 
+      al logrode altos resultados. Capacidad analítica de planeación en la parte operativa y administrativas,en la toma de datos y actitud 
+      pro activa, con total sentido de pertenencia
+      
+    # Contact Information
+    email: jorge.pedroza3127@gmail.com
+    phone: 636 62 80 83
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jorge3127
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Leer noticias de actualidad
+
+      - item: Pasar tiempo en familia
+
+      - item: Cocina
+
+# Your previous education
+education:
+    - degree: Master en logística integral
+      university: Universidad Autónoma del caribe - Barranquilla / Colombia
+      time: 2012 - 2016
+      details: |
+        Maestría basada en logística de abastecimiento y logística de distribución con enfasis en el transporte internacional.
+          
+    - degree: Ingeniero Industrial
+      university: Corporación Universitaria de la costa CUC - Barranquilla / Colombia
+      time: 1998 - 20002
+      details: |
+        Pregrado en ingenieria industrial viendo asignaturas como producción, logística, métodos y tiempos entre otras, con enfoque operacional.
+        
+# Your previous job experiences or volunteer
+experiences:
+    - role: Director de Compras y contrataciones.
+      time: 2017 - 2024
+      company: Constructora Aurora Proyectos - Barranquilla / Colombia.
+      details: |
+      - Control y seguimiento de presupuestos y gastos.
+      - Resolución de problemas y atención a incidencias.
+      - Uso de sistemas informáticos y tecnológicos.
+      - Cumplimiento eficiente de las tareas asignadas.
+      - Elaboración de informes y reportes.
+      - Trabajo en equipo para facilitar el cumplimiento de objetivos.
+      - Análisis de las tendencias del mercado, de la demanda y de lasnecesidades de la empresa.
+      - Gestión del presupuesto de compras, control de los gastos yaprovechamiento efectivo de recursos.
+      - Seguimiento general de los procesos de compra y control delabastecimiento oportuno y a tiempo.
+      - Delineamiento, planificación y desarrollo de la política de compras deproductos y servicios.
+      - Seguimiento de las compras, su documentación y la calidad de productosy servicios adquiridos.
+      - Búsqueda, selección y homologación de proveedores, negociación decontratos y precios.
+      - Establecimiento, evaluación y análisis de KPI para la gestión de comprasde la empresa.
+      - Revisión y actualización de estándares de calidad y protocolos decompras de la compañía.
+      - Desarrollo de estrategias de compras que garanticen mayor rentabilidad yeficiencia.
+      - Supervisión del inventario actualizado, el nivel de stock y la gestión dereabastecimiento periódico.
+      - Coordinación integral de los procesos de compras, ejecución y gestión depagos en tiempo y forma.
+      - Control del aprovisionamientos y disponibilidad de productos en tiempo yforma.
+      - Actualización de la base de datos de materiales, productos y servicios, ycontrol de stock.
+      - Programación y organización de pruebas de inventario periódicas.
+      - Control de reportes periódicos de consumo y análisis de resultados entérminos de rentabilidad.
+      - Control del presupuesto y verificación de la documentación de las compras realizadas.
+      - Determinación de políticas, lineamientos y procesos que orientan laactividad de compras.
+      - Gestión, evaluación y selección de proveedores, negociación de precios ycondiciones.
+
+       
