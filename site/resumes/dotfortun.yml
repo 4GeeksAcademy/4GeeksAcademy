@@ -9,7 +9,7 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    firstname: Shane
+    first_name: Shane
     last_name: Bell
     
     # Define yourself in 4-5 words
@@ -48,7 +48,6 @@ basic_info:
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
 
       - idiom: French
         level: Professional
