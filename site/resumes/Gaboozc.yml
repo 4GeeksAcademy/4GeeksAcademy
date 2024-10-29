@@ -1,0 +1,179 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriel 
+    last_name: Zavarse
+    
+    # Define yourself in 4-5 words
+    motto: living every day once
+    
+    # Focus
+    focus: learn more be better
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Dedicated A/V and telecommunications technician with expertise in structured cabling, low-voltage wiring, and audiovisual system installations across commercial and industrial projects. Known for precision, adherence to safety, and excellent customer communication, ensuring reliable, high-quality results. Currently mastering full-stack development to further enhance technical problem-solving abilities and expand skill versatility. 
+      A skilled team player and mentor, guiding junior technicians and managing project details from site surveys to inventory control. Consistently meets project standards and deadlines, contributing to team success and client satisfaction through effective coordination and documentation.
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/182711882?v=4
+
+    # Contact Information
+    email: gabozc28@gmail.com #optional
+    phone: 407-686-7561 #optional
+    website: non yet #optional
+    linkedin: non yet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Gaboozc
+    
+    twitter: '@zavarsegabriel' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: professional
+
+      - idiom: Spanish
+        level: native
+
+    # Interests or hobbies
+    interests:
+      - item: gaming
+
+      - item: reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: system engeenier
+      university: Unitec
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2013-2017
+      details: |
+        Studying system engineering was such an exciting time for me—I genuinely loved every part of it. Diving into complex problems, understanding how different components fit together, and optimizing processes was a thrill that kept me motivated. I loved the hands-on experience, the analytical challenges, and the way it pushed me to think critically. Those skills and experiences still stick with me, and I feel that same inspiration now as I explore full-stack development. Looking back, my time in system engineering helped shape the way I approach new challenges and really fostered my curiosity and passion for tech.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
