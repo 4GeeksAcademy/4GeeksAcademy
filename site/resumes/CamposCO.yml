@@ -1,0 +1,77 @@
+---
+template: online-cv
+skin: "ceramic"
+basic_info:
+  first_name: Carlos
+  last_name: Campos
+  motto: Data Analyst | Mechanical Engineer
+  focus: Fast learner, problem solver, thrives on challenges and team player
+  summary: >
+    Data Analyst, eager to learn. Proficient in Python, NumPy, Pandas,
+    Scikit-learn Matplotlib, 
+
+    SQL, Excel, Power BI dashboard design, data collection, cleaning and pre-processing and KPI 
+
+    calculation. I am eager to learn, effective communicator and team player, detail oriented and 
+
+    creative, always looking for challenges to improve my skills and abilities.
+  avatar: https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png
+  email: carlosocampos1104@gmail.com
+  phone: 584120919914
+  linkedin: https://www.linkedin.com/in/carlos-campos2139/
+  github: CamposCO
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: C1
+  interests:
+    - item: Gaming
+    - item: Cooking
+education:
+  - degree: Data Scientist & Machine Learning
+    university: 4 Geeks Academy
+    university_logo: https://media.licdn.com/dms/image/v2/D4E0BAQFEDB2oecApBg/company-logo_200_200/company-logo_200_200/0/1688681517580/4geeks_academy_vzla_logo?e=1738800000&v=beta&t=SOVbNYB3k-PpOscbaaljTsZ5xM8N_PbZn6tcY3s6m8A
+    time: 2024
+    details: ""
+  - degree: Mechanical Engineer
+    university: Universidad de Oriente
+    university_logo: https://udoci.com/wp-content/uploads/2022/07/cropped-cropped-Logo-UDO-oficial.png
+    time: 2018
+    details: ""
+experiences:
+  - role: Reliability Specialist
+    time: 2021 - Present
+    company: Avior Airlines C.A.
+    company_logo: https://aviorair.com/_next/image?url=%2Fimagenes%2Flogo30.webp&w=64&q=75
+    details: |
+      - Reliability based maintenance. 
+      - Statistical study of aircraft fleet failures.
+      - Elaboration of reliability reports. 
+      - Study of recurrent failures, repetitive failures and critical systems. 
+      - Analysis of data and failure history.
+  - role: Maintenance Planner IV
+    time: 2019 - 2020
+    company: Avior Airlines C.A.
+    company_logo: https://aviorair.com/_next/image?url=%2Fimagenes%2Flogo30.webp&w=64&q=75
+    details: >
+      - Planning and scheduling of preventive maintenance of aircraft
+      belonging to the Avior Airlines fleet
+
+      - Scheduling of letter services, airworthiness directives, CPCP, SFAR, EZAP, replacement of Hard-Time components, rotable components.
+projects:
+  assignments:
+    - title: Genetic K-Means.
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://colab.research.google.com/drive/1vO7-L1EdtnFyuALSBVFR6JG-lO_CVT6L?usp=sharing
+      tagline: A method to initialize centroids.
+skills:
+  toolset:
+    - name: Python
+      level: 90%
+    - name: Excel
+      level: 90%
+    - name: MS Office Suite
+      level: 90%
+    - name: Machine Learning
+      level: 75%
