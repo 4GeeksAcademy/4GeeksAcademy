@@ -1,0 +1,97 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Albanta
+  last_name: Leon Delgado
+  motto: Police, full stack developer, responsible and tireless
+  focus: Programming and coding
+  summary: >
+    I studied criminology and psychology by vocation, I am a police officer
+    and I rose through the ranks.
+
+    My deepest vocation has always been to program and dedicate myself to it and I never give up
+  avatar: https://www.instagram.com/baine22/
+  email: albanta.leondelgado@gmail.com
+  phone: 34649147137
+  website:
+    - null
+  linkedin: https://www.linkedin.com/in/albanta-leon-delgado-521407316/
+  github: https://github.com/Albanta22
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Advance
+  interests:
+    - item: Travel
+    - item: Practise sport
+    - item: Wine
+education:
+  - degree: Graduate in Criminology
+    university: University of Barcelona
+    university_logo: null
+    time: 2004-2007
+    details: |
+      Law, psychology, anthropology and sociology
+  - degree: Master psychology
+    university: University of Barcelona
+    university_logo: null
+    time: 2008-2009
+    details: |
+      Emotional psychology
+experiences:
+  - role: Police
+    time: 2008-Present
+    company: Mossos d'Esquadra (catalan police)
+    company_logo: null
+    details: >
+      Two years ago I was promoted to foreman, I have 14 people in my group
+      under my responsibility, I lead my team, we carry out prevention and
+      reaction to incidents
+projects:
+  intro: >
+    I am a student at the 4geeks academy and a future full stack developer,
+    my final project is related to a travel agency
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: Javascript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
