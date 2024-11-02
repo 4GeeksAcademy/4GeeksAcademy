@@ -1,0 +1,96 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alí
+    last_name: Pereira
+    
+    # Define yourself in 4-5 words
+    motto: Helping and Dedicated 
+    
+    # Focus
+    focus: Programming 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As a student in 4Geeks Academy, I´ve developed some projects in different programming languages, such as HTML5 and CSS. I, also, have some knowledge of Bootstrap and a little of JavaScript.  
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/564x/3c/1c/73/3c1c7364ed3445e25235b032ebc1dfe5.jpg
+
+    # Contact Information
+    email: #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alipereira19
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Tennis
+
+      - item: Padel
+
+# Your previous education
+education:
+    - degree: Systems Engineering
+      university: Universidad Metropolitana de Caracas
+      # optional
+      university_logo:  
+      time: 2022 - Present 
+      details: 
+        
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcionist 
+      time: 2024 - Present 
+      company: The Smile Mission
+      # optional
+      company_logo:
+      details: |
+        My job consists in making appointments, receive calls from patients and making calls.
+
+
+# Your project portfolio
+# Your project portfolio
+projects: Instagram Feed
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: ""
+
+
+      
+
+skills:
+    toolset:
+      - name: HTML and CSS 
+        level: 50%
+
+   
