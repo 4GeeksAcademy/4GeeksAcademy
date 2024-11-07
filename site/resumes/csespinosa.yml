@@ -1,1 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
 
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Clara
+    last_name: Espinosa
+    
+    # Define yourself in 4-5 words
+    motto: Siempre con la verdad
+    
+    # Focus
+    focus: Desarrollador Full Stack en (Tecnologías clave como JavaScript y Python).
+  
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Tengo experiencia en atención al cliente en eventos y en ventas directas, 
+      donde he desarrollado habilidades de servicio y comunicación efectiva. 
+      He trabajado en eventos como mesera y cantante, lo cual me ha permitido 
+      adaptarme a diferentes entornos y conectar con personas de manera profesional. 
+      Además, manejo mi propio negocio de venta de carnes a precios competitivos, 
+      lo que me ha dado experiencia en gestión de inventario, atención al cliente y negociación de precios.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: clara.espinosap@gmail.com
+    linkedin: not yet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: csespinosa
+    
+    twitter: 'claras.ep' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Musica
+
+      - item: Tenis 
+
+      - item: Acuarela
+
+# Your previous education
+education:
+    - degree: Licenciatura en Música e Interpretación, mención Canto.
+      university: UNIACC
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1120429285758652422/03EacM8T_400x400.png
+      time: 2020 - present
+      details: |
+        Estudio centrado en la interpretación vocal, explorando técnicas avanzadas de canto, teoría musical,
+        y expresión escénica. He desarrollado habilidades en diversos estilos musicales y participado en 
+        presentaciones tanto individuales como en ensamble, consolidando una formación artística sólida y 
+        versátil. A lo largo de la carrera, también he aprendido sobre producción musical, manejo de escenarios y
+        he adquirido una visión de la industria musical.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cantante Solista/Banda
+      time: 2017 - Present
+      company: Autónomo
+      details: |
+         He trabajado como cantante en matrimonios y eventos, 
+         tanto en presentaciones solistas como en bandas, adaptándome 
+         a distintos géneros musicales para cumplir con las expectativas 
+         del cliente y crear una experiencia memorable. Esta labor me ha 
+         permitido desarrollar habilidades de comunicación, trabajo en equipo
+         y dominio escénico, esenciales para presentaciones exitosas y para conectar con la audiencia.
+
+    - role: Vendedora Independiente de Carnes
+      time: 2017 - presente
+      company: Autónomo
+      details: |
+        Como vendedora de carnes a precios competitivos, gestiono de manera autónoma todos los aspectos 
+        del negocio, incluyendo inventario, atención al cliente y negociación con proveedores. Esta experiencia 
+        me ha permitido desarrollar habilidades en ventas, administración, y relaciones interpersonales, 
+        asegurando la satisfacción del cliente y un manejo eficiente de recursos. La gestión de este negocio 
+        también ha fortalecido mi capacidad para resolver problemas y adaptarme a las necesidades del mercado.
+
+    - role: Voluntario en Construcción y Apoyo Comunitario
+      time: 2015 - 2022
+      details: |
+        Participé durante varios años en un voluntariado enfocado en brindar apoyo a comunidades vulnerables, 
+        realizando tareas de construcción de plazas y viviendas, además de ofrecer asistencia en hogares. 
+        Este rol me permitió desarrollar habilidades prácticas en construcción y trabajo manual, así como habilidades
+        de colaboración y liderazgo, al coordinarme con otros voluntarios en proyectos de alto impacto para mejorar 
+        la calidad de vida de las familias locales. También fortalecí mi sensibilidad social y empatía, al trabajar 
+        de cerca con personas en situaciones difíciles.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
