@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francesc
+    last_name: Azuara Esbri
+    
+    # Define yourself in 4-5 words
+    motto: Se aprende haciendo y cayéndose, hay que ir construyendo paso a paso
+    
+    # Focus
+    focus: Desarrollador Full Stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      No tengo experiencia como dessarollador Full Satck, como persona ambiciosa qu soy, aportaré una actitud positiva y la voluntad y motivación para aprender de esta profesión, continuar formándome y ampliando mis cocnocimientos personales y profesionales.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: franazuara@gmail.com #optional
+    phone: 650766770 #optional
+    website:  #optional
+    linkedin: Fran Azuara #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: FranAzuara
+    
+   
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar en moto
+
+      - item: Deporte en general
+
+      - item: DJing
+
+# Your previous education
+education:
+    - degree: Licenciado en Ciencias de la Actividad Física y del Deporte
+      university: UPF, Tecnocampus Mataró
+      # optional
+      university_logo:
+      time: 2015 - 2020
+      details: |
+       
+
+    - degree: Licenciado en Fisioterapia
+      university: UPF, Tecnocampus Mataró
+      # optional
+      university_logo:
+      time: 2015 - 2020
+      details: |
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Técnico d Fitness, Entrenador personal y Fisioterapia Activa
+      time: 2017 - 2023
+      company: Centro deportivo Municipal Ciutadella, Barcelona
+      # optional
+      company_logo:
+      details: |
+
