@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Irvin
+    last_name: Vallejo
+    
+    # Define yourself in 4-5 words
+    motto: I want to learn everthing
+    
+    # Focus
+    focus: Machine learning and AI
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am mechatronics engineer with strong foundation in robotics and automation, now
+      transitioning into the dynamic fiel of artificial intelligence. My experience includes
+      hands-on work with data processing using Python (pandas) and focus on leveraging data
+      to derive insights, particularly for intelligent systems and potential applications within AI.
+      Driven by a passion for lifelong learning, i am committed to staying at the forefront of technology
+      and innovations
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: irvinvallejo97@gmail.com
+    phone: 3314483912
+    website:
+    linkedin: https://www.linkedin.com/in/ingvallejo
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: IrVallejo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Espanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Read
+
+      - item: learn
+
+      - item: watch movies
+
+# Your previous education
+education:
+
+    - degree: BSc in Mechatronics
+      university: Centro de Enseñanza Tecnica Industrial
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2020
+      details:
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: 
+ 
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 75
+
+      - name: Pandas, numpy
+        level: 50%
+
+      - name: sckit learn
+        level: 20%
+
+      - name: git hub
+        level: 50%
+
