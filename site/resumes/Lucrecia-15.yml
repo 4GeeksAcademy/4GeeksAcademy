@@ -100,11 +100,11 @@ education:
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Direction Arts
+      time: 2013-2017
+      company: UAI
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://uai.edu.ar/facultades/ciencias-de-la-comunicaci%C3%B3n/
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -119,11 +119,11 @@ experiences:
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Administrative manager
+      time: 2017 - 2023
+      company: Medical Clinic San Martin SAS
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://centromedicosm.com.ar/
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -157,17 +157,17 @@ projects:
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
+      - title: Form
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo: https://github.com/Lucrecia-15/exercise-html5-form
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A responsive website template designed to fill out form."
 
-      - title: DevStudio
+      - title: Instagram Feed
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        project_logo: https://github.com/Lucrecia-15/Instagram_Fedd_Bootstrap_LucreciaParodi
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "A responsive website template designed to upload images and information about them."
 
       - title: Tempo
         # optional
@@ -190,19 +190,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 0%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 5%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 35%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 0%
