@@ -1,0 +1,57 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Pablo
+    last_name: Dominguez
+    motto: Desarrollando creatividad y enfoque
+    focus: Desarrollo Full-Stack & Soluciones en IA
+    summary: |
+      Junior aposionado por aprender. Apasionado por crear aplicaciones intuitivas y escalables. Centrado en  Web y automatizaciones. uso frameworks como django y langchain 
+
+    avatar: <img src="https://avatars2.githubusercontent.com/u/12951949" height="100px">
+    email: pablodominguezviera@gmail.com
+    phone: 652-094-838
+    linkedin: Pablo Dominguez Viera
+    github: Ocultwolf
+
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B2
+
+    interests:
+      - item: Viajes
+      - item: Skate
+      - item: Mindfullness
+      - item: Investement
+      - item: Social-impact
+
+
+education:
+    - degree: data sciencie
+      university:  bootcamp  4geeks
+      time: 2024-2025
+      details: |
+        Tratamiento de los datos y aplicaion de algoritmos para modelos predictivos
+
+experiences:
+    - role: Desarrollador Full-Stack
+      time: 2021-2014
+      company: Open source Projects
+      details: |
+        Apoyo distintos proyectos open source tanto de inteligencia artificial como de ciberseguridad y blockchain en python
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 55%
+      - name: python & Lanchain
+        level: 35%
+      - name: SQL & NoSQL
+        level: 20%
+      - name: security
+        level: 30%
+  
