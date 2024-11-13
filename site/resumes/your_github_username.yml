@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gloria
+    last_name: González
+    
+    # Define yourself in 4-5 words
+    motto: I like to solve problems.
+    
+    # Focus
+    focus: Be 1% better every day.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a constant, committed person with a great ability to solve problems 
+      quickly and independently. I adapt very quickly to any environment and 
+      have great teamwork skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/280x280_RS/9f/5d/8c/9f5d8c45f994e555b18fa67b52f68424.jpg
+
+    # Contact Information
+    email: gloriaalbino.gg@gmail.com
+    phone: +58 414 1521013
+    instagram: gloriaalbino_
+    linkedin: https://www.linkedin.com/in/gloria-gonz%C3%A1lez-149771123/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/gloriaalbino
+    twitter: 'gloriaalbino_' 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+        
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Traveling 
+
+      - item: Science 
+
+# Your previous education
+education:
+
+    - degree: BS. in Chemistry
+      university: Central University of Venezuela
+      university_logo: http://www.ucv.ve/
+      time: 2015 - 2024
+      
+ - degree: Full-Stack Software Developer
+      university: 4Geeks 
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2025
+      details:
+        Mastery of the basics of programming and implementation of projects using HTML and CSS to create websites. 
+        Activities and projects that use variables, loops, conditionals and functions in JavaScript. An application 
+        was developed with React.js, MVC Pattern, JS Modules, Bundling, Babel JS, the DOM and events. Regarding the 
+        development of APIs, it was mainly focused on Python, Flask and SQL. Own APIs were built and interaction was 
+        achieved with other well-known APIs such as Google, Twillio, Facebook and Stripe. Finally, other advanced 
+        applications were used such as Python, Flask, REST APIs, Databases, SQL, MVC Pattern, etc.
+
+  - degree: Full-Stack Developer
+      university: EDTecnica (Universidad Pedagógica Experimental Libertador)
+      university_logo: https://edtecnica.com/
+      time: 2024 - 2025
+      details:
+      Completion of 10 projects using logic, algorithms and tools such as HTML, CSS, basic and advanced JavaScript, 
+      NodeJS and MongoDB. Presentation of a final project that encompassed everything learned.
+
+# Your project portfolio
+projects:
+    
+      - title: HTML & CSS
+        link: "https://github.com/gloriaalbino/PROYECTO"
+        tagline: "A responsive website template designed to help to sell and market makeup products."
+
+      - title: Veterinary clinic with JS
+        link: "https://github.com/gloriaalbino/ClinicaVet"
+        tagline: "A website designed with HTML, CSS and JS to help veterinary doctors in a clinic keep track of and record appointments with their patients."
+
+skills:
+    toolset:
+      - name: Python & MongoDB
+        level: 80%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: JavaScript & NodeJS
+        level: 90%
+
+      - name: React
+        level: 90%
+
+      - name: HTML & CSS
+        level: 95%
