@@ -1,0 +1,128 @@
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ignacio
+    last_name: Garfias Aguirre
+    
+    # Define yourself in 4-5 words
+    motto: I Support a Fair World
+    
+    # Focus
+    focus: Always Learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      With an academic foundation in Social Sciences, focusing on Law and Social Communication, my professional journey has
+       been marked by a strong proficiency in content creation and management, as well as digital metrics analysis.
+        I am currently redirecting my career path toward the thrilling world of software development, embarking on a journey 
+        from the fundamentals of front-end to the complexities of back-end technologies.
+
+
+
+        I am dedicated to excellence and the pursuit of new technical skills through specialized courses and practical projects.
+         My current studies encompass HTML, CSS, JavaScript, and I am becoming acquainted with modern frameworks and server-side languages 
+         such as Node.js and Python.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/280x280_RS/dd/53/63/dd5363129e8973e93327b910e9a9ecdb.jpg
+
+    # Contact Information
+    email: ignaciofrag@gmail.com #optional
+    phone: 623 993 462 #optional
+    website: "" #optional
+    linkedin: https://www.linkedin.com/in/ignaciofrag/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ignaciofrag
+    
+    twitter: '-' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Running
+
+      - item: Technology
+
+      - item: Cooking
+
+# Your previous education
+education:
+  - degree: Bachelor of Social Sciences with a concentration in Law and a Minor in Social Communication
+    university: Adolfo Ibáñez University
+    university_logo: "" 
+    time: 2013 - 2018
+    details: |
+      Gained a thorough grounding in the principles of social sciences, with a focus on the complex interplay between law, 
+      society, and communication. Developed a critical understanding of social dynamics and their legal implications,
+      while the minor in social communication honed my ability to convey complex information effectively.
+
+      - Engaged in rigorous legal theory and practice, preparing for real-world legal challenges.
+      - Cultivated analytical and problem-solving skills, particularly in understanding the societal impacts of legal decisions.
+
+  - degree: Full-time Bootcamp Software Developer Full Stack
+    university: 4Geeks Academy
+    university_logo: "" 
+    time: 2023 - 2024
+    details: |
+      Immersed in intensive training focused on both front-end and back-end development, covering technologies such as HTML, CSS, JavaScript, Node.js, and Python.
+      Transitioning career path towards software development with a goal to leverage analytical skills from a social sciences background to contribute to technology solutions.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Legal and Operations Specialist
+      time: 2022 - 2023
+      company: Latin American Ethical Bank, Santiago, Chile
+      # optional
+      company_logo: ""
+      details: |
+          At the forefront of legal and financial content management, I enhanced operational efficiencies in mortgage documentation 
+          and improved the execution of executive lawsuits. My role required a deep understanding of legal frameworks and financial 
+          operations, ensuring accuracy and compliance in all processes.
+
+          - Pioneered content creation and editing strategies for legal and financial documents.
+          - Streamlined legal procedures for mortgages and sales contracts, enhancing process efficiency.
+
+    - role: Real Estate Legal Customer Service
+      time: 2021 - 2021
+      company: FJC Real Estate Brokerage, Santiago, Chile
+      # optional
+      company_logo: ""
+      details: |
+          As the key administrator for legal admissions and property transactions, I developed a robust client service approach.
+          My problem-solving skills were critical in navigating complex property laws and ensuring seamless transactional processes.
+
+          - Orchestrated the drafting and execution of real estate transactions, including sales and leases.
+          - Improved client legal admission processes and facilitated efficient property registrations.
+
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 60%
+
+      - name: JavaScript & jQuery
+        level: 50%
