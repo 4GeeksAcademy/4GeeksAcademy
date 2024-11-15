@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: jesus
+    last_name: martinez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta la vida 
+    
+    # Focus
+    focus: Aprender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Militar, osteopata, tengo una tienda de alimentacion canina, soy papa y hago deporte
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://unsplash.com/es/fotos/un-coyote-en-banff-canada-cIX4l1gHjPA
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jesus2508
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: español
+        level: nativo
+
+      - idiom: ingles
+        level: usuario
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: deportes
+
+      - item: cocina
+
+      - item: aprender
+
+# Your previous education
+education:
+    - degree: instituto IES SAN ISIDRO
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+       
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: militar
+      time: 2009 - Presente
+      company: Ejercito de Tierra
+      # optional
+      company_logo: https://ejercito.defensa.gob.es/politicacookies.html
+      details: |
+        Soy militar con experiencia tanto en infantería ligera como en el
+         área de sanidad, lo que me ha permitido combinar habilidades tácticas con 
+         conocimientos médicos para adaptarme a diferentes situaciones operativas. 
+         Mi trayectoria incluye trabajo en equipo, planificación estratégica y respuesta 
+         rápida bajo presión, siempre con el objetivo de garantizar el bienestar y la 
+         seguridad de las personas. Me apasiona el aprendizaje continuo, perfeccionando 
+         mis capacidades para afrontar los retos con profesionalismo y eficacia.
+          
+
+    - role: Osteopata
+      time: 2019 - Presente
+      company: Autonomo
+      # optional
+      company_logo: 
+      details: |
+        Soy osteópata desde 2019, una disciplina que descubrí por mi interés en el 
+        funcionamiento del cuerpo humano y mi deseo de ayudar a los demás. La osteopatía 
+        me desafía constantemente, y disfruto de la satisfacción de resolver problemas 
+        complejos relacionados con la salud y el bienestar. Mi enfoque combina un análisis 
+        detallado con un trato cercano y humano, buscando siempre soluciones personalizadas 
+        para cada persona. Aunque lo practico casi como un hobby, me esfuerzo por mantenerme 
+        actualizado en técnicas y conocimientos para ofrecer siempre lo mejor. Para mí, la 
+        osteopatía no es solo una profesión, sino una forma de conectar con las personas y 
+        contribuir a mejorar su calidad de vida.
+
+    - role: empresa de alimentacion canina 2024 
+      time: 2024
+      company: Autonomo
+      # optional
+      company_logo: 
+      details: |
+        Codirijo una empresa de alimentación canina especializada en comida natural, ya sea 
+        cocinada o cruda, ofreciendo una alternativa saludable al pienso tradicional. Nuestro 
+        enfoque está en proporcionar dietas equilibradas, adaptadas a las necesidades específicas
+         de cada perro, mejorando su salud y calidad de vida. Creemos que la nutrición natural, 
+         basada en ingredientes de alta calidad, es clave para el bienestar de las mascotas. Este 
+         proyecto combina nuestra pasión por los animales con un modelo de negocio sostenible, 
+         buscando beneficiar tanto a las mascotas como a sus dueños.
+
+# Your project portfolio
+projects:
+    intro: >
+     Post instagram, instagram feed con Bootstrap, formulario HTML5.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 3%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Ruby on Rails
+        level: 0
+
+      - name: Sketch & Photoshop
+        level: 0%
