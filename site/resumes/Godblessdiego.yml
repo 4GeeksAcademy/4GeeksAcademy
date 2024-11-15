@@ -1,0 +1,112 @@
+template: "online-cv"
+skin: "orange"  # Changed the color to orange
+
+# Personal Information
+basic_info:
+    first_name: Diego
+    last_name: Figueroa Bravo
+    motto: "Growing fast, always adapting."  # Updated motto
+    focus: "Full Stack Software Developer, Copywriter, and Digital Marketing"
+
+    summary: |
+        I am a professional focused on creating innovative digital solutions and effective marketing strategies. With experience in software development, copywriting, and digital marketing, I specialize in transforming ideas into high-impact projects.
+
+        I have worked on projects with international clients, optimizing their digital presence and achieving business goals through strategic campaigns and web development. My approach is practical, always looking for measurable results.
+
+    avatar: https://randomuser.me/api/portraits/men/24.jpg  # Place your image URL here
+
+    email: diegofigueroabravo@gmail.com
+    phone: +56977600874
+    website: asd.com # If you have a personal website
+    linkedin: diego-figueroa-bravo
+    github: Godblessdiego
+
+    twitter: 'draxerting' # Updated to reflect X instead of Twitter
+    stack-overflow: # Optional
+
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B2 (IELTS certified)
+      - idiom: Dutch
+        level: A2
+
+    interests:
+      - item: Web Development
+      - item: Digital Marketing
+      - item: Technological Innovation
+
+# Education
+education:
+    - degree: Full Stack Software Development Bootcamp
+      university: 4Geek
+      time: 2023 - Present
+      details: |
+        Intensive web development study in a 90-day bootcamp. Focused on acquiring skills in backend, frontend, and best development practices.
+
+    - degree: Copywriting Bootcamp
+      university: 4D Academy
+      time: 2023
+      details: |
+        Training in advanced copywriting techniques, including content strategy, text optimization, and persuasion in digital marketing.
+
+    - degree: Industrial Engineering
+      university: Universidad de Santiago de Chile (USACH)
+      time: 2020 - 2022
+      details: |
+        Studied engineering with a focus on process optimization and business management. Developed analytical and problem-solving skills.
+
+# Work Experience
+experiences:
+    - role: Freelancer Copywriter & Digital Marketing
+      time: 2021 - Present
+      company: Fiverr, Upwork
+      details: |
+        Developed content strategies for various companies, helping to optimize their digital presence and increase conversions. Created blogs, websites, and email marketing campaigns.
+
+    - role: Salesperson and Bartender
+      time: 2018 - 2021
+      company: Freelance
+      details: |
+        Experience in sales and customer service, with developed interpersonal skills through interaction with clients from various industries.
+
+    - role: Radio Taxi Driver (License A2)
+      time: 2017 - 2019
+      company: Freelance
+      details: |
+        Transported clients on various routes, ensuring safety, comfort, and punctuality. Obtained A2 license for professional driving.
+
+# Skills
+skills:
+    toolset:
+      - name: HTML, CSS, JavaScript
+        level: 90%
+      - name: React, Python
+        level: 80%
+      - name: Bootstrap, Canva, Adobe Illustrator
+        level: 75%
+      - name: Email Marketing Campaigns
+        level: 85%
+
+# Projects
+projects:
+    intro: >
+      My project portfolio includes both web development and digital marketing campaigns. I always focus on generating measurable results and maintaining constant communication with clients to ensure their needs are met.
+    
+    assignments:
+      - title: Marketing Project for Client X
+        link: "#"
+        tagline: "Developed a digital marketing strategy to increase online sales for this client by 30%."
+
+      - title: Landing Page Development for Startup Y
+        link: "#"
+        tagline: "Created a responsive landing page that helped increase conversion by 50%."
+
+# Contact Information
+contact:
+    phone: +56977600874
+    email: diegofigueroabravo@gmail.com
+    linkedin: https://www.linkedin.com/in/diego-figueroa-bravo-067293288/overlay/about-this-profile/
+    github: https://github.com/Godblessdiego
+    twitter: @draxerting
