@@ -26,7 +26,7 @@
   </div>
   <a href="https://visitcount.itsvg.in">
   <img src="https://visitcount.itsvg.in/api?id=Kyre13&label=Profile%20Views&color=1&icon=1&pretty=true" />
-    [![](https://visitcount.itsvg.in/api?id=Kyre13&label=Profile%20Views&color=1&icon=1&pretty=true)](https://visitcount.itsvg.in)
+   
 </a>
 </p>
 </a>
