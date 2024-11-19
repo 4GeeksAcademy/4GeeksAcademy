@@ -1,5 +1,5 @@
 template: "online-cv"
-skin: "pink"
+skin: "blue"
 
 # Personal Information
 basic_info:
@@ -18,7 +18,7 @@ basic_info:
     phone: +56931274718
     website: ""
     linkedin: "https://www.linkedin.com/in/dafnegodoy/"
-    github: "https://github.com/dafneeee"
+    github: "dafneeee"
     twitter: ""
     stack-overflow: ""
     languages:
