@@ -1,0 +1,126 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Danny
+  last_name: Valdivia
+  motto: I like saving the world
+  focus: null
+  summary: >
+    I have been described as technology-savvy, organized, and patient with
+    a curious mind. Others have praised me for my dependability. These qualities
+    have helped me to succeed in various roles and responsibilities, and they
+    are a product of my life experiences.<br>
+
+    My strong work ethics come from my dedication to staying focused on the task at hand and my belief in the value of collaboration and teamwork. I am always eager to learn and improve, and I believe in taking a thoughtful and methodical approach to any challenge.<br>
+
+    If you are looking for someone with these qualities to collaborate with, please feel free to connect with me.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: dluis.valdivia@gmail.com
+  phone: 0
+  website: null
+  linkedin: https://www.linkedin.com/in/dannyvaldivia/
+  github: dluisvaldivia
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: bilingual
+    - idiom: Spanish
+      level: bilingual
+  interests:
+    - item: hiking
+    - item: tech
+    - item: gardening
+education:
+  - school: 4GeeksAcademy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024
+    details: |
+      4geeks is awesome!
+  - degree: Diploma
+    school: Australian Pacific College
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2010 - 2012
+    details: >
+      I studied in Australian Pacific College, in a campus in Sydney's
+      vibrant city centre. The course, at the time, consisted of learning to be
+      responsible for identifying and analyzing the needs of a company or
+      organization, and then designing and implementing IT solutions to meet
+      those needs. It involves working closely with stakeholders to understand
+      business requirements and translate them into functional specifications
+      for IT projects.
+  - degree: Diploma
+    school: TAFE NSW
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2012 - 2013
+    details: >
+      Studying at TAFE provided me with the knowledge and skills needed to
+      design, implement, and manage computer networks in a variety of
+      environments.
+experiences:
+  - role: english teacher
+    time: 5 years
+    company: Vaughan Systems
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      • Adaptability: Tailored lessons to meet the needs of individual
+      students, using a variety of teaching methods to keep them engaged and
+      motivated.
+
+      • Effective communication: Maintained open communication with students and the head office, adjusting my teaching style to ensure that everyone could hear and understand.
+
+      • Empathy and accountability: Provided individualized support and feedback to help students achieve their language learning goals, while being demanding when needed.
+
+      • Group management: Successfully managed group classes, ensuring that everyone received personalized attention in a collaborative and inclusive learning environment.
+
+      • Administrative skills: Diligent in performing administrative tasks, such as recording attendance, grading assignments, and maintaining accurate student records.
+
+      • Positive feedback: Received positive feedback for my classes and positive demeanor from students and leadership.
+
+      • Passion for teaching: Demonstrated enthusiasm and dedication to helping students achieve their language learning goals, always seeking to improve my teaching skills.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users & investors.
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
