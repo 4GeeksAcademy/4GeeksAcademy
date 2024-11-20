@@ -1,0 +1,43 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ignacio
+    last_name: Rízquez Vázquez
+    
+    # Define yourself in 4-5 words
+    motto: Dedicación, trabajo en equipo
+    
+    # focus
+    focus: Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: nachorizquez@gmail.com
+    website: nachodev.com
+    linkedin: Ignacio Rízquez Vázquez
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: https://sep.breatheco.de/sharu725
+    github: nachodev30
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
