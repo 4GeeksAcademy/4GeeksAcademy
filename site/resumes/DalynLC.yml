@@ -5,41 +5,28 @@ skin: "purple"
 basic_info:
 
     # Your full name
-    first_name: Dalyn Y
+    first_name: Dalyn Yenisey
     last_name: Lara Cortes
-    
+
     # Define yourself in 4-5 words
-    motto: Be the change you wish to see in the world.
-    
+    motto: Java and Backend Developer
+
     # Focus
-    focus: Reading random things
-    
+    focus: Backend Development, APIs
+
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      I like to learn and take on new challenges. I have participated in 
-      development projects in different roles, and I am currently in the 
-      QA Automation Testing area, where I have learned technical as well 
-      as leadership skills.
-
-      Second paragraph if required.
+      Experienced backend developer with a strong background in Java, Go, and modern frameworks. Passionate about creating scalable and efficient systems. Over 8 years of expertise in building RESTful APIs, microservices, and complex software architectures. Skilled in collaborating with cross-functional teams to deliver high-quality solutions.
+      Continuously improving by learning new technologies, recently exploring Rust and participating in hackathons to enhance skills in Python and backend frameworks.
     
     # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://thumb.ac-illust.com/3f/3f1d80b982ba420053c8d189ab3dd636_w.jpeg
+    avatar: https://randomuser.me/api/portraits/men/75.jpg
 
     # Contact Information
-    email: dalyn.ylc@gmail.com #optional
-    phone: +52 7713586411 #optional
-    website: asd.com #optional
-    linkedin: https://www.linkedin.com/in/dalyn-ylc/ #optional
-    
-    #
-    # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: DalynLC
-    
-    #twitter: 'webjeda' #optional
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    email: jesusj_t93@hotmail.com
+    phone: +34 610099983
+    linkedin: https://www.linkedin.com/in/jes%C3%BAs-jim%C3%A9nez-oca%C3%B1a-48362b124/
+    github: https://github.com/Nonpoint93
 
     # Languages you speak, levels include: Native, Professional
     languages:
@@ -51,73 +38,92 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Reading
-
-      - item: Listening music
-
-      - item: assemble 3D puzzles
+      - item: Learning Rust
+      - item: Participating in hackathons
+      - item: Exploring scalable backend solutions
+      - item: Participating in Hack the Box and TryHackMe
 
 # Your previous education
 education:
-    - degree: Bachelor in Computer Science
-      university: Universidad Autónoma del Estado de Hidalgo
-      # optional
-      university_logo: https://seeklogo.com/images/U/uaeh-logo-80EBF92B78-seeklogo.com.png
-      time: 2016 - 2020
+    - degree: Data Science & Machine Learning
+      university: 4Geeks Academy España
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: November 2024 - April 2025
       details: |
-        I attended the computer science program, whose focus was software 
-        development. During my stay I learned programming in different 
-        languages, databases as well as extra electives:
-
-          - Cryptography
-          - Data Mining
-
+        Focused on advanced topics in data science, machine learning, and analytics to apply in backend projects.
+    - degree: Microcomputer Systems and Networks
+      university: Universidad de Alcalá
+      time: 2015 - 2016
+      details: |
+        Studied core principles of computer systems, networking, and hardware configurations.
+    - degree: High School Diploma
+      university: IES Francisco de Goya
+      time: 2009 - 2011
+      details: |
+        General education with a focus on science and technology subjects.
 # Your previous job experiences or volunteer
 experiences:
-    - role: QA Automation Tester
-      time: 2022 - Present
-      company: Cognizant
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: Analista Programador Java
+      time: May 2022 - Present
+      company: SICE
       details: |
-        Playing the role of tester, I have participated in all testing 
-        phases, from planning to presenting results with clients. I have 
-        worked doing manual and automated functional testing. My main 
-        tasks in this role have been to train new team members in the 
-        use of tools and processes, creation of testing plans, execution 
-        of tests, generation of reports, defect management, and leadership 
-        of work teams. The tools I have become familiar with in this role 
-        are:
-        
-          - Jira
-          - qTest
-          - Cyara
-
+        Responsible for developing and maintaining backend systems using Java. Worked on optimizing processes and implementing new features.
+    - role: Desarrollador Go
+      time: December 2021 - May 2022
+      company: Grupo Dia
+      details: |
+        Developed a delivery management system for couriers and customers using Go. Built RESTful services for real-time order tracking and messaging.
+    - role: Java Software Engineer
+      time: June 2020 - December 2021
+      company: Between Technology
+      details: |
+        Contributed to building an internal portal for toll systems in Australia using Java 8. Focused on scalability and system optimization.
+    - role: Senior Java Software Engineer
+      time: October 2018 - April 2020
+      company: Accenture
+      details: |
+        Designed and developed enterprise-level solutions for various clients. Worked closely with stakeholders to gather requirements and deliver robust systems.
+    - role: Desarrollador Java
+      time: April 2017 - October 2018
+      company: everis
+      details: |
+        Collaborated on multiple projects, focusing on backend services and integrations using Java. Delivered high-quality, maintainable code.
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
+      Below are some of the notable projects I've worked on throughout my career. Each demonstrates a commitment to solving complex problems and delivering impactful solutions.
     assignments:
-      - title: Real State Data Clean up
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "https://github.com/DalynLC/realestate-datacleanup-exercise"
-        tagline: "A repository with a series of exercises that show the process of transforming a set of data into Dataframes, using different operations"
-
-
+      - title: Delivery Management System
+        link: "#"
+        tagline: |
+          Developed a Go-based RESTful service for real-time courier and order tracking, improving delivery efficiency and customer satisfaction.
+      - title: Toll System Portal
+        link: "#"
+        tagline: |
+          Contributed to an internal portal for managing toll systems in Australia, ensuring high availability and scalability.
+      - title: Backend System for Enterprise Clients
+        link: "#"
+        tagline: |
+          Designed and implemented backend systems using Java, enabling seamless operations and integrations.
 skills:
     toolset:
-      - name: Python
-        level: 60%
-
       - name: Java
-        level: 50%
+        level: 100%
 
-      - name: SQL
-        level: 50%
+      - name: RESTful APIs
+        level: 95%
 
-      - name: HTML5 & CSS
-        level: 50%
+      - name: Go
+        level: 85%
+
+      - name: Python (Flask, FastAPI)
+        level: 80%
+
+      - name: Rust
+        level: 70%
+
+      - name: Docker & Kubernetes
+        level: 75%
+
+      - name: SQL & Databases
+        level: 90%
