@@ -1,0 +1,51 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Pablo
+    last_name: Enguix Llopis
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      Apasionado de los videojuegos y la informática, con ganas de aprender a programar
+
+    
+   
+    avatar: https://media.licdn.com/dms/image/v2/D4D35AQGDXsIa9uWCcw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1683711864937?e=1732809600&v=beta&t=7D2QrjzpE2PsXHeIrByK9QcKKwNBTJgBZXaP6guk07M
+
+    
+    email: pabloenguixllopis@gmail.com
+    linkedin: https://www.linkedin.com/in/pablo-enguix-llopis-1b2986193/
+    
+    
+    github: pabloenguix09
+
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: Valentian
+        level: Native
+      - idiom: English
+        level: High
+
+    
+    interests:
+      - item: Videogames
+
+      - item: Gym
+
+      - item: Music
+
+experiences:
+    - role: Backend web developer
+      time: 2023 - 2024
+      company: LetsWoW
