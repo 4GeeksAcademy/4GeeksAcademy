@@ -1,0 +1,20 @@
+template: "online-cv"
+skin: "pink"
+
+basic_info: Información personal.
+
+name: Maria Fernanda Galvis
+tagline: Full Stack Developer
+avatar: https://img.freepik.com/premium-vector/front-head-girl-isolated-icon-design_25030-13189.jpg?w=360
+
+email: mariafernandagalvis33@hotmail.com
+phone: 663526466
+
+g
+website: 
+linkedin: MafeGalvis7
+github: MafeGalvis7
+
+education: 4 semestres de Administracion de empresas y 4 semestres de ingenieria industrial sin terminar
+experiences: Ninguno
+projects: Describe los proyectos que has creado como desarrollador.
