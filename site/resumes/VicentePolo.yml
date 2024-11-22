@@ -29,7 +29,7 @@ With strong multilingual skills and expertise in agile methodologies, I thrive i
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
 
     # Contact Information
     email: vpolocorell@gmail.com #optional
@@ -75,37 +75,52 @@ With strong multilingual skills and expertise in agile methodologies, I thrive i
 
       - item: Japanese culture
 
+       - item: Music from around the world
+
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: System Administration (ASI)
+      university: Serpis High School
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      university_logo: https://portal.edu.gva.es/iesserpis/wp-content/uploads/sites/1045/2023/06/SERPIS.-logo-dep-informatica.png
+      time: 2008 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+        - Implement and manage computer systems in both single-user and multi-user environments.
+        - Set up and administer local area networks (LAN) and manage the connection of the IT system to wide area networks (WAN).
+        - Install and support the use of general-purpose software packages and specialized applications.
+        - Propose and coordinate system and application improvements to optimize performance and usage.
+         
+    - degree: Master in Marketing and Digital Communication
+      university: IMF Business School
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://es.wikipedia.org/wiki/Archivo:NUEVO-alta-LOGO-IMF.png
+      time: 2016 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        The Online Master's in Digital Marketing from IMF is primarily aimed at three profiles. 
+        First, professionals in traditional marketing who want to make the leap and update their knowledge in the digital world. 
+        Second, individuals from journalism or communications looking to retrain and adapt to new media. 
+        Lastly, people within companies who wish to secure a leadership role in the digital marketing field.
 
-          - Bullet point
-          - Bullet point
+        The Master's in Communication and Digital Marketing equips students to develop and execute a digital media plan confidently and successfully. 
+        It provides students with the knowledge to advise companies and perform consultancy tasks.
+
+        The program is approached from a practical and strategic perspective, combining general content with more specialized subjects, 
+        allowing students to delve into the most relevant topics and tools demanded by today’s job market.
+
+    - degree: Phd on Agile project management witch Scrum, Kanban, Lean and XP
+      university: IEBS Biztech School
+      # optional
+      university_logo: https://www.iebschool.com/blog/wp-content/uploads/2014/10/IEBS-Business-School-Logo.png
+      time: 2017 - 2018
+      details: |
+
+      Agile project management is essential in response to today s markets, as its primary goal is to ensure the four main demands of the industry 
+      value, reduced time-to-market, agility, and reliability. It aims to maximize the value added to the product or service by adapting the development 
+      process to evolving requirements and external circumstances.
+
+      In the Postgraduate Program in Agile Project Management with Scrum, Kanban, Lean, and XP, you will learn the key agile methodologies necessary 
+      to develop innovative products and services, work in complex environments, enhance competitiveness and productivity, and improve efficiency in 
+      project management and planning.
 
 # Your previous job experiences or volunteer
 experiences:
