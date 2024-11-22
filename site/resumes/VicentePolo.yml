@@ -12,7 +12,7 @@ basic_info:
     last_name: Polo Corell
     
     # Define yourself in 4-5 words
-    motto: If nobody has done it, you have to try. If anybody has done it, it means you CAN.
+    motto: If nobody has done it, you can be th first. If anybody has done it, it means you CAN.
     
     # Focus
     focus: Learning, always. 
@@ -24,8 +24,8 @@ basic_info:
       and building partnerships in business settings. I excel at aligning HR and business objectives, improving processes, 
       and managing cross-functional teams in international environments.
 
-My strengths lie in leading talent development initiatives, coaching teams, and fostering employee engagement. 
-With strong multilingual skills and expertise in agile methodologies, I thrive in dynamic, collaborative roles.
+        My strengths lie in leading talent development initiatives, coaching teams, and fostering employee engagement. 
+        With strong multilingual skills and expertise in agile methodologies, I thrive in dynamic, collaborative roles.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -75,7 +75,7 @@ With strong multilingual skills and expertise in agile methodologies, I thrive i
 
       - item: Japanese culture
 
-       - item: Music from around the world
+      - item: Music from around the world
 
 # Your previous education
 education:
