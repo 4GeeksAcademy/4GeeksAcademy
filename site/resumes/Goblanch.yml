@@ -1,0 +1,184 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gonzalo
+    last_name: Blanch Domínguez
+    
+    # Define yourself in 4-5 words
+    motto: Siempre veo lo bueno.
+    
+    # Focus
+    focus: Desarrollo, optimización y legibilidad.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Programador de videojuegos graduado como técnico experto en desarrollo de videojuegos y 
+      especializado en programación, con experiencia en la enseñanza de Unity a niños y en desarrollo
+      de software para videojuegos. Actualmente sigo ampliando mis habilidades y conocimientos, 
+      cursando un intensivo de Full Stack en 4Geeks.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/736x/78/e6/b4/78e6b4af88853d7a333f6a2b555f9337.jpg
+    # Contact Information
+    email: gonzaloblanchdev@gmail.com #optional
+    phone: + 34 616 94 91 23 #optional
+    website:  #optional
+    linkedin: gonzaloblanch #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Goblanch
+    
+    twitter: '' #optional
+    stack-overflow: 28430166/goblanch
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Videogames
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Técnico Experto en Desarrollo de videojuegos
+      university: EVAD Málaga
+      # optional
+      university_logo: https://evadformacion.com/wp-content/uploads/evad-logo_general_negro-2.png
+      time: 2022 - 2024
+      details: |
+        Grado superior que aporta una visión 360 del desarrollo de videojuegos. Con especialización
+        en uso de motores de desarrollo y en programación con estos. Las tecnologías y lenguajes que
+        aprendí durante el curso son los siguientes:
+
+          - Unity
+          - Unreal Engine 5
+          - C#
+          - Unity Framework
+          - Unreal Blueprint Scripting
+          - C++
+          - Git / GitHub
+          - Perforce
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Profesor de Unity
+      time: 2024 - actualidad
+      company: EVAD KIDS
+      # optional
+      company_logo: https://evadformacion.com/wp-content/uploads/evad-kids-campamento-verano-logo.png
+      details: |
+        Profesor de Programación Avanzado I. La asignatura se basa en introducir a niños de edades
+        comprendidas entre 12 a 16 años en el uso de Unity como motor de desarrollo de videojuegos y en 
+        el mundo de la programación. En el curso que imparto los niños aprenden lo siguiente:
+
+          - Unity como programa
+          - Fundamentos de la programación con C#
+          - Desarrollo de videojuegos (conceptos básicos de diseño)
+          - Realización de proyectos con Unity (dos durante el curso)
+
+    - role: Tech Lead / Game Programmer
+      time: 2023 - actualidad
+      company: Typing Monke, Málaga
+      # optional
+      company_logo: https://i.pinimg.com/736x/45/61/7a/45617a05c0150b5aba95afdabb7a9b75.jpg
+      details: |
+        Tech Lead y programador en el desarrollo de Disconnected, un videojuego de terror psicológico
+        realizado por el estudio Typing Monke del cual soy miembro fundador. Mi labor se basa en la
+        organización del trabajo y gestión de hitos para el correcto desarrollo del proyecto y en implentar
+        herramientas necesarias para el desarrollo del videojuego dentro de Unreal Engine. Cabe destacar que
+        el proyecto se encuentra incubado en DevLabs Málaga, una incubadora que seleccionó nuestro proyecto para 
+        acelerarlo en sus instalaciones. Las tecnologías que uso a nivel de equipo son:
+
+          - Unreal Engine 5
+          - Unreal Blueprint Scripting
+          - C++
+          - Perforce (Helix-Core)
+          - Google Workspace
+
+    - role: Profesor de bajo
+      time: 2017 - 2018
+      company: Zyryab, Ceuta
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQ525XrIDnJRXOwXq3zIfL6Qu0BjQ-KQjZg&s
+      details: |
+        Profesor de bajo para niños de edades comprendidas entre 12 y 14 años y de nivel de iniciación. En mis
+        clases introducía el bajo como instrumento a los niños y aprendía nociones básicas de música como la lectura
+        de tablaturas mientras aprendían a tocar el instrumento.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Recreating Instagram Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/fs-pt-92-Instagram-bootstrap-feed-Gonzalo"
+        tagline: "Recreación de un feed de instagram usando Bootstrap para hacerlo totalmente responsivo."
+
+      - title: Fully Responsive Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/fs-pt-92-Form-Gonzalo"
+        tagline: "Formulario de HTML plenamente responsivo."
+
+      - title: GBFStateMachine
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Goblanch/GBFStateMachine"
+        tagline: "Una máquina de estados Plug&Play y reultilizable usando ScriptableObjects"
+
+      - title: FlappyBird Didactic
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Goblanch/Goblanch-FlappyBird-didactic"
+        tagline: "Un proyecto de recreación de FlappyBird didáctico"
+
+      - title: ToDo App
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Goblanch/to-do-app"
+        tagline: "Una aplicación de ToDo hecha con python y Tkinter"
+
+skills:
+    toolset:
+      - name: Unity & C#
+        level: 85%
+
+      - name: Unrel Engine
+        level: 90%
+
+      - name: Python
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: C++
+        level: 70%
+
+      - name: JavaScript
+        level: 60%
