@@ -12,7 +12,7 @@ basic_info:
     motto: University Student
     avatar: ~
     summary: |
-        Studying at UCV Computer Science. Interested in Software Development, using Java, Python, Javascript and other tools. 
+        Studying full-stack developer. Interested in Software Development, using Bootstrap, Python, Javascript and other tools. 
          
 
     # Sidebar links
@@ -39,7 +39,7 @@ basic_info:
 education:
     - degree: 
       university: 
-      time: 2012 - 2017
+      time: 2024-Currently
 
 experiences:
 
