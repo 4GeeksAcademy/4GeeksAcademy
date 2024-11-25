@@ -6,7 +6,7 @@
 
 - Estudiante Full Stack Developer
 - Estudiante en 4GeeksAcademy
-- 22 Años 
+- 23 Años 
 
 #
 
