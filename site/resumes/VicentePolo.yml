@@ -1,0 +1,210 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Vicente  
+    last_name: Polo Corell
+    
+    # Define yourself in 4-5 words
+    motto: If nobody has done it, you can be th first. If anybody has done it, it means you CAN.
+    
+    # Focus
+    focus: Learning, always. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a results-driven professional with extensive experience in talent management, business development, and project management.
+      My career spans over two years in talent acquisition and educational program design, coupled with ten years driving growth strategies 
+      and building partnerships in business settings. I excel at aligning HR and business objectives, improving processes, 
+      and managing cross-functional teams in international environments.
+
+        My strengths lie in leading talent development initiatives, coaching teams, and fostering employee engagement. 
+        With strong multilingual skills and expertise in agile methodologies, I thrive in dynamic, collaborative roles.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: vpolocorell@gmail.com #optional
+    phone: +34 717162766 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/vicente-polo-corell/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: VicentePolo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professionnal
+
+      - idiom: French
+        level: Intermediate
+      
+      - idiom: Italian
+        level: Intermediate
+      
+      - idiom: Russian
+        level: Intermediate
+         
+      - idiom: Ukrainian
+        level: Basic
+     
+    # Interests or hobbies
+    interests:
+    
+      - item: Reading
+
+      - item: Travelling
+
+      - item: Japanese culture
+
+      - item: Music from around the world
+
+# Your previous education
+education:
+    - degree: System Administration (ASI)
+      university: Serpis High School
+      # optional
+      university_logo: https://portal.edu.gva.es/iesserpis/wp-content/uploads/sites/1045/2023/06/SERPIS.-logo-dep-informatica.png
+      time: 2008 - 2010
+      details: |
+        - Implement and manage computer systems in both single-user and multi-user environments.
+        - Set up and administer local area networks (LAN) and manage the connection of the IT system to wide area networks (WAN).
+        - Install and support the use of general-purpose software packages and specialized applications.
+        - Propose and coordinate system and application improvements to optimize performance and usage.
+         
+    - degree: Master in Marketing and Digital Communication
+      university: IMF Business School
+      # optional
+      university_logo: https://es.wikipedia.org/wiki/Archivo:NUEVO-alta-LOGO-IMF.png
+      time: 2016 - 2017
+      details: |
+        The Online Master's in Digital Marketing from IMF is primarily aimed at three profiles. 
+        First, professionals in traditional marketing who want to make the leap and update their knowledge in the digital world. 
+        Second, individuals from journalism or communications looking to retrain and adapt to new media. 
+        Lastly, people within companies who wish to secure a leadership role in the digital marketing field.
+
+        The Master's in Communication and Digital Marketing equips students to develop and execute a digital media plan confidently and successfully. 
+        It provides students with the knowledge to advise companies and perform consultancy tasks.
+
+        The program is approached from a practical and strategic perspective, combining general content with more specialized subjects, 
+        allowing students to delve into the most relevant topics and tools demanded by today’s job market.
+
+    - degree: Phd on Agile project management witch Scrum, Kanban, Lean and XP
+      university: IEBS Biztech School
+      # optional
+      university_logo: https://www.iebschool.com/blog/wp-content/uploads/2014/10/IEBS-Business-School-Logo.png
+      time: 2017 - 2018
+      details: |
+
+          Agile project management is essential in response to today´s markets, as its primary goal is to ensure the four main demands of the industry 
+          value, reduced time-to-market, agility, and reliability. It aims to maximize the value added to the product or service by adapting the development 
+          process to evolving requirements and external circumstances.
+
+          In the Postgraduate Program in Agile Project Management with Scrum, Kanban, Lean, and XP, you will learn the key agile methodologies necessary 
+          to develop innovative products and services, work in complex environments, enhance competitiveness and productivity, and improve efficiency in 
+          project management and planning.
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: Business Development Manager
+      time: 2012 - Present
+      company: Frutas Fénix S.L
+      # optional
+      company_logo: https://www.frutasfenix.es/images/cabecerafactura2.jpg
+      details: |
+        Project Management:
+
+        - Executed strategic plans to build strong partnerships with providers, fostering synergies and mutual growth while aligning with brand policy.
+        - Conducted comprehensive market research to identify potential consumers and expand our reach.
+
+        Marketing & Communications:
+
+        - Spearheaded the development of the company’s brand across all channels, including media, design, and presentations at international trade fairs (e.g., Fruit Logistica, Fruit Attraction).
+        - Maintained close contact with customers to monitor satisfaction levels and resolve any issues promptly.
+        - Managed social media and community engagement to strengthen brand presence.
+
+        Human Resources / Consulting:
+
+        - Defined future strategic directions to drive improvement and growth within the company.
+        - Consulted with providers to adapt their products to meet the needs of our target markets.
+        - Implemented strategic initiatives, ensuring that objectives were met across all levels.
+        - Mentored and evaluated employees, managing competencies and fostering a culture of success.
+
+        Currently working as a backup consultant at 25% workload.
+       
+
+    - role: Talent Development Associate Manager
+      time: 2022 - 2024
+      company: EPAM Systems Spain S.L
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/d/d6/EPAM_logo.png
+      details: |
+        As an Associate Manager in the Talent Development department, I held several key responsibilities:
+
+        - Managed all junior training programs in Spain, including Java, Test Automation, and Front-End Development.
+        - Developed brand awareness within the educational community, working closely with high schools and universities to promote our educational initiatives. This involved building relationships with various stakeholders, including teachers and students.
+        - Represented the company at university job fairs, promoting our campus programs and training opportunities, while also overseeing the onboarding process for new talent.
+        - Supervised a pool of 13-15 students, monitoring their progress, ensuring motivation and engagement throughout their training.
+        - Collaborated with the Head of Location to assess performance and strategize future actions aimed at increasing engagement and participation.
+
+        Talent Development in Europe:
+
+        - Served as Stream Coordinator for Test Automation training programs across multiple countries, including Hungary, Romania, Croatia, Serbia, Poland, Lithuania, and Latvia.
+        - Identified inefficiencies in the onboarding, selection, and progress-tracking processes for students participating in cross-regional training programs.
+        - Provided support to various locations by troubleshooting workflow challenges and proposing effective solutions to overcome obstacles.
+
+    - role: Head of Creative Deparment
+      time: 2010 - 2011
+      company: Picubo Asociación Tecnológica
+      # optional
+      company_logo: https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/359724131_262013153127258_4178801839251738968_n.png?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Rh85N9dgWscQ7kNvgGuwumg&_nc_zt=23&_nc_ht=scontent-mad1-1.xx&_nc_gid=Amf_4TogujlHY-CmPjRKC11&oh=00_AYC8milxvo-AahYqWKbce-xTlZem_sa1uzckLcOdvSeLyQ&oe=6746A2C7
+      details: |
+        Team management
+        - Adapting to client needs and translating them into a language understandable for the team
+        - Innovation in creating offers that surprise the client
+        - Support in multicultural groups such as Russafa Innova, and participation in neighborhood activities by providing a multimedia platform as a resource
+
+# Your project portfolio
+projects:
+    intro: >
+      So far, as a developer, i am just a student regarding technical skills such as Python, Pandas, Numpy and Matplobly.
+      I will update my projects as i am doing them. 
+
+    assignments:
+    
+      - title: Real State Dataset
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/realestate-datacleanup-exercise"
+        tagline: "An exercise about working with DataSet and print some graphics and plots."
+   
+skills:
+    toolset:
+    
+      - name: Python 
+        level: Beginner
+
+      - name: HTML5 & CSS
+        level: Intermediate
+
+      - name: Sketch & Photoshop
+        level: Intermediate
