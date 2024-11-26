@@ -1,0 +1,58 @@
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+  # Your full name
+  nombre: Estefania Garrido Z
+  github: Estefaniagz
+  titulo: Data Scientist
+
+  # Define yourself in 4-5 words
+  motto: Cada día nutriéndome de conocimiento
+
+  # Focus
+  focus: Ser mejor cada día
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Enfermera de profesión, me desempeñé en diversas áreas, tanto en el sector público como privado,
+    mayoritariamente en gestión clínica e investigación. Hace un tiempo decidí dar un vuelco a mi vida profesional, 
+    por lo que actualmente tengo un magíster en data science, y continúo aprendiendo día a día más de este mundo al cual me quiero dedicar.
+
+  # Contact Information
+  email: garridozelada@gmail.com
+  linkedin: https://www.linkedin.com/in/estefan%C3%ADa-garridoz
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Básico
+
+  # Interests or hobbies
+  intereses:
+    - item: Lectura
+    - item: Deporte
+    - item: Naturaleza
+
+# Your previous education
+educacion:
+  - titulo: Enfermera universitaria 
+    universidad: Universidad de Viña del Mar
+  - titulo: Data scientist
+    universidad: Nuclio (Universidad Central de Cataluña) / 4geeks
+
+# Your previous job experiences or volunteer
+experiencia:
+  - rol: Enfermera
+    tiempo: 8 meses
+    compania: Clínica Bupa Reñaca
+
+# Skills or tools
+habilidades:
+  - herramienta: Python
+    nivel: 80%
+
+      
