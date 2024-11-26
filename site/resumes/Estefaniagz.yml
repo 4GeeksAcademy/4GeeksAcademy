@@ -1,0 +1,11 @@
+template: "online-cv"
+skin: "blue"
+
+# Información personal
+basic_info:
+    first_name: Estefanía
+    last_name: Garrido
+    github: Estefaniagz   # Aquí va tu nombre de usuario de GitHub
+    motto: "Me interesa la ciencia en general"
+    focus: "Enfermera y Data Scientist"
+    summary: "Soy fan de la lectura y la naturaleza.
