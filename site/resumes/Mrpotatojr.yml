@@ -59,45 +59,26 @@ basic_info:
 
       - item: Excersicing 
 
-      - item: Drinking
+      - item: Reading
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Systems Engineering
+      university: Fidelitas
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2021/27/2024
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        I have been learning programming with a focus on Java, gaining a solid understanding of object-oriented programming (OOP) principles and programming structures. 
+        My studies also include data modeling for databases using SQL, along with foundational knowledge in discrete mathematics, algebra, and networking. 
+        This diverse skill set equips me with a strong analytical mindset and problem-solving capabilities, essential for tackling complex technical challenges.
+        I am more than halfway through my degree and actively planning to complete it soon.
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Support engineer stage 2
+      time: 2024 - Present
+      company: Tek Experts, Costa Rica, San Pedro
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
