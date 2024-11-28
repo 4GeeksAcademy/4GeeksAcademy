@@ -45,19 +45,20 @@ basic_info:
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: professional
 
-      - idiom: French
-        level: Professional
 
       - idiom: Spanish
-        level: Professional
+        level: Native
+
+      - idiom: Spanish
+        level: Native
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Gaming
 
-      - item: Snowboarding
+      - item: Listen good music
 
       - item: Cooking
 
@@ -95,21 +96,17 @@ education:
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Fraud Prevention
+      time: 2023 - 2024
+      company: 24-7.ai
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        As a fraud prevention officer I recolected, analized and shared, diffent information
+        regarding the internal action on monetary and data process, avoiding any possible leak 
+        that could affect the integrity direct with business and possble fraud behaviors.
+        Also realize daly, weekly and monthly follow ups directly with the internal tools, focused 
+        on identify different bugs insted to prevent the misusing or misunderstanding for the same ones.
 
           - Bullet point
           - Bullet point
