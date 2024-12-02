@@ -1,0 +1,155 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: VICTOR MEDRANO
+    last_name: MEDRANO ROMERO
+    
+    # Define yourself in 4-5 words
+    motto: AUTODIDACTA Y ENTUSIASTA DEL SABER
+    
+    # Focus
+    focus: EL TIEMPO ES UN REGALO DE UN ÚNICO USO.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Venezolano de 40 Años, Esposo y Padre de 2 hijos. Graduado como Químico, he realizado estudios de Gestión y Administración
+      de Plantas Industriales además de ser Facilitador del modelo de Gestión de Excelencia Operacional. Mi experiencia laboral
+      abarca distintas áreas de una empresa, asistente, analista, supervisor, jefe de área, Gerente de Planta.
+
+      He realizado diversos cursos de diversas especialidades, el análisis de datos siempre ha estado ligado a mi trabajo por
+      lo que actualmente estoy realizando estudios de Programación y Ciencia de Datos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.app.goo.gl/191qnVoXL8v6nZpJ7
+    # Contact Information
+
+    email: vmmr230812@gmail.com #optional
+    phone: +34 624 828 045 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/víctor-medrano #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: victormedrano
+    
+    twitter: vmmr230812 #optional
+    stack-overflow: 28549253/vmmr-d # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Principiante
+
+    # Interests or hobbies
+    interests:
+      - item: Lectura
+
+      - item: Ajedrez
+
+      - item: Música
+
+# Your previous education
+education:
+    - degree: Ingeniero Químico
+      university: Universidad de Carabobo
+      # optional
+      university_logo: 
+      time: 2000 Septiembre - 2005 Julio
+      details: |
+        
+    - degree: Diplomado de Gestión y Administración de Plantas Industriales
+      university: MAYUGO
+      # optional
+      university_logo: 
+      time: 2021 Enero - 2021 Abril
+      details: |
+        
+        
+    - degree: Diplomado de Facilitador de Modelo de Gestión de Modelo de Excelencia Operacional
+      university: BECERT - YOKOTEN CONSULTING
+      # optional
+      university_logo: 
+      time: 2021 Agosto - 2022 Abril
+      details: |
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Operador de Planta Química
+      time: 2024 - Presente
+      company: MASOL IBERIA FUELOIL, FERROL, ESPAÑA
+      # optional
+      company_logo: 
+      details: |
+        
+
+    - role: Químico de Desarrollo, Investigación y Desarrollo
+      time: 2018 Mayo - 2022 Enero
+      company: TRICOLOR, VIÑA DEL MAR, CHILE
+      # optional
+      company_logo: 
+      details: |
+        
+
+    - role: Gerente General
+      time: 2006 Marzo - 2017 Noviembre
+      company: ENERGRAS, GUACARA, VENEZUELA
+      # optional
+      company_logo: 
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      Los siguientes proyectos son mis inicios en programación con Python en la Ciencia de Datos.
+
+    assignments:
+      - title: Limpieza de Bienes Raíces con Python
+        # optional
+        project_logo: 
+        link: https://github.com/vmmr-d/realestate-datacleanup-exercise
+        tagline: 
+
+      - title: Problemas de Calculo y Algebra con Python
+        # optional
+        project_logo: 
+        link: https://github.com/vmmr-d/calculus-and-algebra-problems-with-python
+        tagline: 
+
+      - title: Ejercicios de Probabilidad con Python
+        # optional
+        project_logo: 
+        link: https://github.com/vmmr-d/probability-exercises-project-in-python
+        tagline: 
+
+      - title: Ejercicios de Estadística Descriptiva con Python
+        # optional
+        project_logo: 
+        link: https://github.com/vmmr-d/descriptive-statistics-exercises-project-with-python
+        tagline: 
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 20%
+
+      - name: Excel
+        level: 95%
+
+      - name: SQL
+        level: 25%
