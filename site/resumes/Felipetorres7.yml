@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felipe
+    last_name: Torres
+    
+    # Define yourself in 4-5 words
+    motto: be a better person today
+    
+    # Focus
+    focus: my family
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have worked in a bit of everything 
+      from selling oranges, washing cars,
+       waiter, bartender, to being a prison 
+       officer in my country. and reinvent myself in Spain, which opened 
+       its doors to me...
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: torresdiazpipe93@out #optional
+    phone: 604270690 #optional
+    website: no have for moment  #optional
+    linkedin: no have for moment  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Felipetorres7
+    
+    twitter: no have for moment #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: medium
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: read
+
+      - item: tecnology
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Tecnico Penintenciario
+      university: EPN - INPEC colombia
+      # optional
+      university_logo: 
+      time: 2015 - 2021
+      details: |
+        prison training, human rights, force management, urban assault course...
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: bartender-waiter
+      time: 2021 - Present
+      company: Palma de Mallorca,balearic islands, Spain
+      # optional
+      company_logo:
+      details: |
+        making cocktails, table service, customer service, cafeteria and more
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: ---
+        # optional
+        project_logo: 
+        link: 
+        tagline: ----
+
+      
+
+skills:
+    toolset:
+      - name: Html5
+        level: 50%
+
+      - name: CSS
+        level: 60%
+
+      - name: Javascript
+        level: 10%
+
+      - name: python
+        level: 10%
