@@ -1,0 +1,75 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Federico
+    last_name: Iraci
+    
+    # Define yourself in 4-5 words
+    motto: Very empathetic
+
+    # Focus
+    focus: Learn to program
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Currently, I work as a delegate in a State delegation, being responsible for ensuring that members obtain solutions to their problems. In parallel, he dedicated the last two years to developing programming skills, with a focus on front-end technologies such as HTML, CSS, Bootstrap 5 and JavaScript. Additionally, I have basic knowledge of Python. I seek to apply my technical knowledge to optimize processes and develop innovative solutions in the field of health.
+      Looking for a new opportunity that allows me to combine my experience in health with my passion for technology. With more than 10 years of experience in the public sector, I have acquired solid skills in team and process management. Currently, I am expanding my knowledge in programming, with the aim of developing web applications that improve the efficiency and quality of health services. My skills include HTML, CSS, Bootstrap 5, JavaScript and Python (basic level).
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: site\src\static\perfil-img.jpg
+
+    # Contact Information
+    email: fedeiraci23@gmail.com #optional
+    phone: 2281364404 #optional
+    website: no #optional
+    linkedin: no #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Fmiracivita
+    
+    twitter: no #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Football
+
+      - item: Running
+
+      - item: Family
+      
+#skills
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: Bootstrap 5
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Sketch & Photoshop
+        level: 100%
