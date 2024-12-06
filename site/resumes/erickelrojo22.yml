@@ -1,0 +1,113 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Erick
+    last_name: Van Scoit
+    
+    # Define yourself in 4-5 words
+    motto: I'm passionate about learning.
+    
+    # Focus
+    focus: learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: I am a quick learner with a passion for continuous improvement.
+      My strengths include analytical skills, teamwork, and customer service experience.
+      I am highly empathetic, tolerant of frustration, and resilient, which allows me to tackle challenges with a positive attitude and find effective solutions.
+    
+    # Contact Information
+    email: erick.elrojo2010@icloud.com # optional
+    phone: 442 831 7718 # optional
+    website:  # optional
+    linkedin: 
+    github: erickelrojo22 # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Formula 1 
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: Escuela Bancaria Comercial 
+      university_logo: https://seeklogo.com/images/E/escuela-bancaria-y-comercial-logo-66B51ED4D2-seeklogo.com.png
+      time: 2023 - en curso
+      
+      description: |
+        As a Finance and Banking student at EBC, I am actively engaged in a comprehensive curriculum designed to provide a deep understanding of financial systems,
+        banking operations, and economic principles. 
+        My studies encompass both theoretical knowledge and practical skills, equipping me for a successful career in the financial sector.
+        
+        - Bullet point
+        - Bullet point
+
+# Your previous job experiences or volunteer experiences
+experience:
+    - role: Help Desk Specialist
+      time: 2022 - 2024
+      company: Ria Money Transfer
+      company_logo: https://logowik.com/content/uploads/images/ria-money-transfer5926.jpg
+      description: |
+        As a Help Desk Specialist at Ria Money Transfer,
+        I am responsible for providing technical support and assistance to both our internal team and customers.
+        My main tasks include troubleshooting hardware and software issues, answering inquiries, and ensuring smooth operation of our remittance systems.
+        
+        - Bullet point
+        - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors."
+
+      - title: Atom
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps."
+
+# Your skills
+skills:
+    toolset:
+      - name: Python 
+        level: 20%
+
+
