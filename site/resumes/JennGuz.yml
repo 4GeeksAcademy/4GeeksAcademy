@@ -1,0 +1,103 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jenniffer
+    last_name: Guzmán
+    
+    # Define yourself in 4-5 words
+    motto: Crafting clean code for a better tomorrow.
+    
+    # Focus
+    focus: Mastering new technologies to enhance my skills.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a passionate developer with a focus on continuous learning and self-improvement. Throughout my career, I have acquired skills in various technologies and programming languages. My experience includes web development as well as collaborating in multidisciplinary teams to solve problems. I am committed to excellence and always look for opportunities to expand my knowledge and skills in the field of software development.
+
+      Looking ahead, I aspire to continue growing as a professional, exploring new technologies and creating or contributing to projects that positively impact the community.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jenniffer.guzman122@gmail.com #optional
+    phone: 0968237171 #optional
+    website: asd.com #optional
+    linkedin: jennguz #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JennGuz
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: singing
+
+      - item: create things
+
+      - item: to play sports
+
+      - item: travel
+
+# Your previous education
+education:
+    - degree: information technology engineering
+      university: State University of Guayaquil
+      time: 2019 - 2023
+
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      time: 2024 - 2024
+
+    - degree: Data scientist
+      university: 4Geeks Academy
+      time: 2024 - 2024
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: FullStack Web Developer
+      time: Present
+      company: Masscer Media
+      details: |
+        Complete chat application that integrates generative AI for different purposes like Test, Image o video generations.
+
+# Your project portfolio
+projects:
+
+    assignments:
+      - title: starWarsBlog
+        link: "https://github.com/JennGuz/starWarsBlog"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: JavaScript 
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
