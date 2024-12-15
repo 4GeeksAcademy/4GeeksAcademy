@@ -1,172 +1,122 @@
-template: "online-cv"
-skin: "orange"
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
 
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
 basic_info:
 
-
+    # Your full name
     first_name: Gabriela
-    last_name: Moctezuma
+    last_name: Moctezuma Pascual
     
+    # Define yourself in 4-5 words
+    motto: Challenges make life more interesting
     
-    motto: Dedication, learning, caring, helping, active
+    # focus
+    focus: Overcoming
     
-    
-    focus: Learning everything I can about web development. 
-    
-    
+    # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer. 
-      I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
-      For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
+      Data Science.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4E03AQFYoMJIVQVI_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542655817663?e=1740009600&v=beta&t=dkeLx5Kvg3cqdjH_dER6EC2UKthlaKy6WKTFAvAuHoc
 
+    # Contact Information
+    email: gabiiimp@hotmail.com #optional
+    phone: +52 273 131 83 17 #optional
+    website:  #optional
+    linkedin: Gabriela Moctezuma #optional
     
-   
-    avatar: 
-
-    
-    email: gabiiimp@hotmail.com
-    # phone: 273 131 83 17
-    # website:
-    linkedin: https://www.linkedin.com/in/gabriela-moctezuma-4b377b175/
-    
-    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: Gabymoctezuma
     
-    twitter:  
-    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    
+    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
         level: Basic
-      
-    
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
     interests:
+      - item: Music
+
       - item: to make candles
 
-      - item: 
+      - item: play volleyball
 
-      - item: 
-
-
-
-# education:
-#     - degree: Electromechanical Engineer
-#       university: Instituto Tecnológico Superior de Huautusco 
-#       # optional
-#       university_logo:
-#       time: 2014 - 2018
-#       details: |
-#        
-
-#           - Bullet point
-#           - Bullet point
-
-
-experiences:
-    - role: Engineering assistant
-      time: 2021 - 2022
-      company: Ramsa
-    
-      # details: |
-      #     - Confirms insurance coverage. Determines necessity for pre-authorization and obtains authorization for scheduled procedures.
-      #     - Notifies patient of his/her financial responsibility for services to be provided. Notifies patients and practitioners of any services requested and/or referred that are not authorized by insurance.
-      #     - Communicates with patients and practitioners regarding financial responsibility and insurance coverage issues.
-      #     - Enters patient insurance information into the patient record and documents insurance coverage of services to be provided.
-      #     - Communicated with adjusters for workers compensation and automobile cases to ensure necessary information was obtained. 
-
-
-
-#     - role: Manager
-#       time: 2011- 2017
-#       company: Kumon, Miramar/Sunrise
-#       # optional
-#       company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kumon_Method_Logo.svg/1200px-Kumon_Method_Logo.svg.png
-#       details: |
+# Your previous education
+education:
+    - degree: Data Science
+      university: 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024-present
+      details: 
        
-#           - Worked with students to develop fundamental math/reading skills using Kumon proprietary learning methods. 
-#           -  Ensured necessary billing and payments were obtained on time. 
-#           - Developed marketing strategy and worked with small businesses to promote the Kumon brand.
-#           - Provide feedback to parents on the progress of students.
-#           - Manage employees and create a successful team environment through effective communication. 
-#           - Answering phone calls and setting up student orientations for enrollment. 
-#           - Proctor exams and grade classwork and homework.
-#           - Data entry of student progress into Content Management System. 
-#           - Managed day to day operations. 
-#           - Communication and coordination skills developed through handling and adapting to unexpected situations that affected the business. 
-#           - Scheduling and coordinating meetings, interviews, events, and other activities. 
-#           - Assists with the hiring and training of new employees including interviews and documentation. 
 
+    - degree: Electromechanical Engineer
+      university: Instituto Tecnológico Superior de Huatusco
+      # optional
+      university_logo:
+      time: 2014 - 2018
+      details: 
+       
 
-#     - role: UI Developer
-#       time: 2012 - 2014
-#       company: Amazon, London
-#       # optional
-#       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-#       details: |
-#         Describe your role here lorem ipsum dolor sit amet, consectetuer
-#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#         Cum sociis natoque penatibus et magnis dis parturient montes,
-#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#         pellentesque eu, pretium quis, sem.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Enginnering Assistant
+      time: 2021 - 2022
+      company: RAMSA Servicios y Automatización
+      # optional
+      company_logo: 
+      details: 
+        - Engineering assistant in integration projects, preparing electrical and pneumatic diagrams and operation manuals.
+        - Maintenance of electrical equipment
 
-#           - Bullet point
-#           - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-# # Your project portfolio
-# projects:
-#     intro: >
-#       You can list your side projects or open source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Working on it
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: ""
+        tagline: ""
 
-#     assignments:
-#       - title: Velocity
-#         # optional
-#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      
 
-#       - title: DevStudio
-#         # optional
-#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
 
-#       - title: Tempo
-#         # optional
-#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - name: Javascript & jQuery
+        level: 50%
 
-#       - title: Atom
-#         # optional
-#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - name: Angular
+        level: 70%
 
-#       - title: Delta
-#         # optional
-#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-#         link: "#"
-#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - name: HTML5 & CSS
+        level: 50%
 
-# skills:
-#     toolset:
-#       - name: Python & Django
-#         level: 98%
+      - name: Ruby on Rails
+        level: 50%
 
-#       - name: Javascript & jQuery
-#         level: 98%
-
-#       - name: Angular
-#         level: 98%
-
-#       - name: HTML5 & CSS
-#         level: 95%
-
-#       - name: Ruby on Rails
-#         level: 85%
-
-#       - name: Sketch & Photoshop
-#         level: 60
+      - name: Sketch & Photoshop
+        level: 80%
