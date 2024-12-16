@@ -1,0 +1,191 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Claudio 
+    last_name: Grisotto
+    
+    # Define yourself in 4-5 words
+    motto: become the best version of myself
+    
+    # Focus
+    focus: Get all the knowledge 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Im an electronic engineer focused mainly in hardware, i had worked in different fields that allowed me to get experience in a diverse of thinhgs, the next step for me was to get the software development to 
+      add up to my carrer and complement it, i want to develop great products that merge software and hardware. 
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: grisottoc
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish 
+        level: Native
+
+      
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+
+      - item: Pickleball
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: MSc in Electronics Engineering  
+      university: Yacambu University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Engineering
+      university: Yacambu University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2006 - 2010
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Electronics Manager 
+      time: 2019 - Present
+      company: Better Aviation Products, Coral Springs
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ● Building, operating, maintaining, modifying and troubleshooting electrical controls, instrumentation systems, test panels
+          and data acquisition systems used at FAA approved repair stations for the aviation industry.
+        ● Overseeandsupervise procedures to make sure they meet efficiency and quality standards in accordance with regulations.
+        ● Overhauling of Generator Control Units, Temperature Controllers, AC DC Systems, Communication Panels.
+        ● Technical Customer Service Support, about technical cases for new and existing clients, drafting technical documents,
+          manuals, pricing, quoting, inventory management.
+
+          
+
+    - role: Senior Engineer
+      time: 2015 - 2019
+      company: Globally Block inc
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+         ● Planning out the blueprints for software, including defining the scope, allocating resources, setting deadlines, laying out
+           communication strategies, and indicating tests and maintenance.
+         ● Assemblingandleading the project team, supervising each stage of the project.
+         ● Assistin technical discussions with the client.
+         ● Qualitycontrol of the final product delivered to the client.
+
+    - role:  Quality Control and Commissioning Inspector
+      time: 2012 - 2015
+      company: DSD
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+         ● Calibration and inspection of remote monitoring equipment in the ammonia processing plant.
+         ● Overseeandimplementquality assurance programs to meet production standards and client requirements.
+         ● Organizeandexecute testing and commissioning communication software and test equipment
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+        
