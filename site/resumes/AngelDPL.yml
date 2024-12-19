@@ -1,0 +1,53 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Angel
+  last_name: Ponte
+  motto: Slowly and with good writing
+  focus: My future
+  summary: >
+    Aspiring web developer with an unwavering determination to enter the
+    world of technology. 
+
+    Although I have not yet landed my first job as a developer, I have invested countless hours 
+
+    self-learning, completing online courses, and building personal projects that demonstrate my 
+
+    commitment and potential. My passion for programming, combined with my ability to learn quickly 
+
+    and my motivation to improve, drives me to seek my first opportunity in web development, ready 
+
+    to prove that I can be a valuable asset to any development team.
+  avatar: https://avatars.githubusercontent.com/u/172499291?v=4
+  email: angeld0606@gmail.com
+  phone: +34 610 98 84 96
+  website: null
+  linkedin: null
+  github: AngelDPL
+  twitter: n-a
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Puzzles
+    - item: Videogames
+    - item: Cooking
+education:
+  - degree: Full-Stack Software Developer
+    university: 4 Geeks Academy España
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2025
+experiences: null
+projects: null
+skills:
+  toolset:
+    - name: Python
+      level: 5%
+    - name: JavaScript
+      level: 20%
+    - name: HTML5 & CSS
+      level: 55%
