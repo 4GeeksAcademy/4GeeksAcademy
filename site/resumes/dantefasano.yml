@@ -1,0 +1,166 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Dante
+  last_name: Fasano
+  motto: I love coding and videogames
+  focus: Killing Bad Boys
+  summary: >
+    Marketing MBA with strong analytical skills and expertise in data
+    analysis. I enjoy working on challenging tasks 
+
+    that require intellectual activity and teamwork, and I am always eager to learn new skills and technologies.
+
+    Some of the areas that I am passionate about are web development, video game development, and database management.
+
+    I have completed multiple courses and certifications in these fields, and I am fluent in English, Spanish, and Italian.
+
+    My goal is to use my knowledge and creativity to help the company achieve its objectives and reach more customers.
+  avatar: https://media.licdn.com/dms/image/v2/D4E03AQH5oA6-aMAE5A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731356979555?e=1738195200&v=beta&t=XlkvwZdqcCJW5ohBcDW9c9l_23tUT6dxQgZgJ9YYGaQ
+  email: fasano.dante@gmail.com
+  phone: +58(412)3377987
+  website: https://dantefasano.dev
+  linkedin: https://www.linkedin.com/in/dante-fasano-abb08860/
+  github: dantefasano
+  twitter: "@dantefasano"
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: Italian
+      level: Professional
+  interests:
+    - item: Videogames
+    - item: Traveling
+    - item: Padel & Tennis
+education:
+  - degree: Master of Business Administration in Marketing (MBA)
+    university: Universidad Metropolitana
+    university_logo: https://www.unimet.edu.ve/wp-content/uploads/2023/07/Logo-footer.png
+    time: 2015 - 2017
+    details: >
+      As an MBA in Marketing, I learned to develop and implement strategic
+      marketing plans while 
+
+      improving my analytical skills and market research expertise, allowing me to develop skills 
+
+      on how to drive business growth and increase brand awareness.
+
+        - Digital marketing
+        - Marketing analytics
+        - Market research
+        - Social media marketing
+        - Content marketing
+        - Search engine optimization (SEO)
+        - Search engine marketing (SEM)
+  - degree: Bachelor of Accouting (BAcc)
+    university: Universidad Católica Andrés Bello
+    university_logo: https://dstvqyil45ir9.cloudfront.net/wp-content/uploads/2019/04/Logo_UCAB_1.png
+    time: 2008 - 2013
+    details: >
+      As a Bachelor of Accounting, I learned how to manage finances, record
+      fiscal transactions, 
+
+      manage costs, and create financial strategies.
+
+        - Financial statement preparation and analysis.
+        - Budgeting and forecasting.
+        - Audit preparation and support.
+        - Cost accounting.
+experiences:
+  - role: Lead Developer
+    time: 2015 - Present
+    company: Startup Hubs, San Francisco
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline:
+        A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline:
+        A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline:
+        A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline:
+        A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline:
+        A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
