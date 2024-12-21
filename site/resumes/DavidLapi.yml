@@ -1,0 +1,89 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+---
+template: online-cv
+skin: blue
+
+basic_info:
+  first_name: David
+  last_name: Vaamonde
+  motto: Me gusta el cachopo asturiano.
+  focus: Convertirme en un buen programador
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+
+    Second paragraph if required.
+  avatar: https://avatars.githubusercontent.com/u/186737354?s=400&u=a425095a44d2e0b6e9fbecaa075a4f9f5b5833b0&v=4
+  email: davidvaamonde.bueno@gmail.com
+  phone: +34 622 14 94 16
+  linkedin: www.linkedin.com/in/david-vaamonde-bueno-a31049202
+  github: DavidLapi
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Andar en bicicleta
+    - item: Probar videojuegos
+    - item: Cocinar
+education:
+  - degree: Sistemas microinformáticos y Redes (SMR)
+    university: CIFP de Avilés
+    university_logo: https://media.licdn.com/dms/image/v2/C4E0BAQEcR0YZMZtKzw/company-logo_200_200/company-logo_200_200/0/1638171699788?e=2147483647&v=beta&t=zQwf5is4lXtUE_j__g3CP3EY_KoyhhpyAdS-pukQxvE
+    time: 2015 - 2017
+    details: |
+      En este módulo aprendí a cómo usar un ordenador y saber manejar
+      las redes de otros sitios para hacerlos públicos o privados.
+      Manejaba muchas máquinas virtuales tanto Windows como Linux
+      y cogí muchos apuntes sobre ello.
+  - degree: Desarrollo de Aplicaciones Web (DAW)
+    university: CIFP de Avilés
+    university_logo: https://media.licdn.com/dms/image/v2/C4E0BAQEcR0YZMZtKzw/company-logo_200_200/company-logo_200_200/0/1638171699788?e=2147483647&v=beta&t=zQwf5is4lXtUE_j__g3CP3EY_KoyhhpyAdS-pukQxvE
+    time: 2017 - 2022
+    details: |
+      Después de hacer el grado medio de SMR aprendí a programar 
+      páginas web y ejecutar archivos desde la terminal. Luego proponía
+      algunas ideas que serían útiles para la tecnología de hoy en día.
+  - degree: Desarrollo de Aplicaciones Multiplataforma (DAM)
+    university: CIFP de Avilés
+    university_logo: https://media.licdn.com/dms/image/v2/C4E0BAQEcR0YZMZtKzw/company-logo_200_200/company-logo_200_200/0/1638171699788?e=2147483647&v=beta&t=zQwf5is4lXtUE_j__g3CP3EY_KoyhhpyAdS-pukQxvE
+    time: 2019 - 2020
+    details: |
+      En este módulo aprendí a manejar aplicaciones de móvil que
+      me servían para manejar código entre Android y Apple.
+  - degree: Seguridad informática
+    university: Interpros
+    university_logo: https://soyefr.org/wp-content/uploads/2019/10/Certificado-en-conciliacion-INTERPROS-1.jpg
+    time: 2022 - 2023
+    details: |
+      En este curso aprendí a cómo generar copias de seguridad
+      a través de comandos Linux, y a hackear éticamente direcciones
+      de ordenador para filtrar información no importante.
+experiences:
+  - role: Técnico de Sistemas microinformáticos y Redes
+    time: 2017 - 2017
+    company: Oxigar S.L., Avilés, Asturias
+    company_logo: https://i1.wp.com/oxigar.es/wp-content/uploads/2016/07/logo.png?fit=142%2C123&ssl=1
+  - role: Progrmador web
+    time: 2020 - 2020
+    company: Capgemini España, Langreo, Asturias
+    company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnA24zf8lIXVlbF7Si9rIAPFdseRHcnoqgpA&s
+skills:
+  toolset:
+    - name: JavaScript
+      level: 75%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: GIT & GitHub
+      level: 85%
