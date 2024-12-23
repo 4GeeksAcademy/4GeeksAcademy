@@ -1,0 +1,56 @@
+
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+
+    first_name: Esneider
+    last_name: Cadavid
+    
+
+    motto: My purpose in life is to achieve my goals
+    
+
+    focus: My goals
+    
+    summary: |
+      With a background in roles such as salesperson, door-to-door representative, waiter, and logistics assistant for an events company, I am now transitioning into a career as a programmer. Recognized for my creativity and energy, I consistently strive to exceed expectations and deliver my best in every situation.
+
+      Key strengths include self-awareness and a strong aptitude for learning, creativity, high energy, and excellent empathy and communication skills. My experience in public speaking and winning oratory competitions has enhanced my ability to connect with others effectively.
+
+      My current goal is to secure my first opportunity in the software industry and apply my skills to contribute meaningfully to a team.
+    
+    github: EsneiderCdD
+    
+    languages:
+      - idiom: English
+        level: Learning. 2025 goal
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Programming
+
+      - item: Nature
+
+      - item: Personal Growth
+
+skills:
+    toolset:
+      - name: Python 
+        level: 25%
+
+      - name: JavaScript & jQuery
+        level: 45%
+
+      - name: HTML5 
+        level: 75%
+
+      - name: CSS 
+        level: 60%
+
+      - name: Bootstrap
+        level: 33%
