@@ -1,0 +1,126 @@
+template: "online-cv"
+skin: "black"
+
+basic_info:
+
+    first_name: Ricardo E
+    last_name: Quirino
+    
+    motto: Creativity plus Perspective is Resilience
+    
+    focus: Improving life
+    
+    summary: |
+      Professional engineer with high responsibility, proactive, and persevering
+      with more than 5 years of experience in inbound sales, product
+      installation, quality control, web services and customer service. Problem-solving and
+      result-based approach skills performance.
+
+      Hungry to learn, to teach, to live.
+
+    avatar: https://media.licdn.com/dms/image/C4D03AQHh1I5WiYtuaw/profile-displayphoto-shrink_200_200/0/1548832152371?e=2147483647&v=beta&t=TVHzDujXDxXdD3VNU965sLOYFYb55oOpCe9jVs32WU8
+
+    email: ricenquimac@gmail.com 
+    phone: 55 4338 5007
+    linkedin: Ricardo Enrique Quirino Macin (https://www.linkedin.com/in/ricardo-enrique-quirino-mac%C3%ADn-174277158/)
+    github: Ricenquimac
+    
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Gym
+
+      - item: Painting
+
+      - item: Cooking
+
+education:
+    - degree: Mechatronics Engineering
+      university: Mondragon Mexico University
+     
+      university_logo: https://eap.mondragonmexico.edu.mx/?modulo=logo&nombre=logo-login&extension=png
+      time: 2015 - 2019
+      details: |
+       I was able to learn different disciplines, such as the design and analysis of mechanical systems, like sensors, actuators, and mechanical structures. Learned different programming languages and was able to integrate and manufacture devices, machines and automatic systems. 
+        - CNC Diploma
+
+     
+experiences:
+    - role: Web Development and Consultations
+      time: 2021 - Present
+      company: QUIMTEGRAAD, CDMX
+      company_logo: https://media.licdn.com/dms/image/v2/C4D0BAQFmsnd3wvkrHA/company-logo_200_200/company-logo_200_200/0/1630504227546/quimtegraad_advising_for_life_logo?e=1740009600&v=beta&t=3VfOqNStiXVTEuN5U9_Q7IGR_2ScaRwPITukDJykJqY
+      details: |
+        Lead qualification and project quoting of 50+ prospects. 
+          - SEO analysis and implementation for multiple websites' product detail page positioning and search enhancement.
+
+    - role: AI Development and Applications
+      time: 2020 - 2023
+      company: Scale AI, San Francisco
+      company_logo: data:image/png;base64,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
+      details: |
+         In charge of quality assurance audits for 8 projects and e-commerces with quality metrics above 90%. 
+          - Quality Assurance handbook for procedure enhancement.
+          - Post-processing Project coordinator (10-15 people).
+
+    - role: IT Engineer
+      time: 2019 - 2020
+      company: TATA Consultancy Services, Queretaro
+      company_logo: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAzCAMAAAD1nzvvAAAAY1BMVEX///9Iaq5BZayLncdEZ608Yqo2XqnY3uxfe7bByuBqg7ozXKjS2Oi5w9w6YKry9Pnp7PRTcrKDl8Tf4+8sWKbI0ONkf7iqt9Wbqs6wvNiTo8v4+fx7kMFZd7RviLwWTaIhUqTNMTt2AAACq0lEQVRIie2WbfOiIBDA0Vg0UXwiLbWu7/8pb3cxgrS6e/GfuRe3M40I/Bb2MYX4d6RuUOq/Y/pL16ZaKxRouzH7M6qZpAIpk1WkBAVT//2wwqbJRlI9fD527qzcYnywXuYPxyU7p/lT4e2hmZbOqhTAGANJwg9IV4vt6Y1XLBJGm+syjdWpzC4AY1aeqvG85KAM8nb/TDD5oSqDyLXwHNdZNQ3G7tnZb9QV7caYN2bO/XGclqFNZJrXDpyHVCbtgLc/9vtpVI9LgolCniBXmIsQQyJEpdhd5C+l5DI2G3DUUQShcuDRxNE8b8BzHEJTCpFLtFzFwTx8AxUadE3RRhOD0wasIE4xnLpSONpoGi4bsNERd3uAXWS63imTItyRkhNaQ04LbyLznXhk4ZFwfIBlaKQud0BxCHQrildCYB3og61PWYanYzlLGRQBN+xzaObjWnKhV8lg91BninccBnNNHxif4BqnvaQJpM8VZyo7IWWQc0fq4Vu/OhUWpOUhMCiUBHvbdeeLNOPgClFpfhT5Tk18lOGtF//Lj0ndHbx0FGd+p0o/hiv4XtJ752Pa2NSLxt520jSi8jib5wrlUgE4MD5lw55B9XvjPDfHuH8pX5nGg7+U5gKQSt8rUVtXDFhDZ6s55RPQ6u6bCKlcjaznC9DWGUe+x+hG0HsuqTnjCDuJ9Cq9VOAnaJl+4GxhkM/IqLxap3IHpGWouOO9gNQJDC+f98ADLmu+ujpF4Ky427Ze5QtoeEAecn3Hg7QFB6NXGYO8XLnubOsQHGjGBc+pjEEC6P+GFYwB2DzukK87YpD10d/GzNEMQEoGQ1e8PFQ60Cql8X9hwqetaOaGX3J33NjSE0FcUNzC6jtuTX0OZCg9fRyg8JdFQ6NmnanFvG4Qbqb88JX1Y/Ib89siBNGpKCIAAAAASUVORK5CYII=
+      details: |
+        In charge of technical support and first-hand contact with digital service providers.
+          - Incident and reporting coordinator.
+          - Analysis and quality control in protocol manuals.
+
+projects:
+    intro: >
+      
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python 
+        level: 80%
+
+      - name: JavaScript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: CNC
+        level: 85%
