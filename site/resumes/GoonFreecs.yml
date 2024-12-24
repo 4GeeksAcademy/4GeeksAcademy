@@ -1,0 +1,79 @@
+template: online-cv
+skin: berry
+basic_info:
+  first_name: Gonzalo
+  last_name: Cortés
+  motto: I like Video Games
+  summary: >
+    I am a young person, with a strong desire to learn and lead work teams.
+    I am always looking for new challenges that allow me to grow both personally
+    and professionally. I am characterized by being organized, attentive and
+    responsible, both in my individual work and in team work. Despite my youth,
+    I am committed to continuous learning and stay abreast of new technologies
+    to be as up-to-date as possible.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: gonzaloigcortescortes@gmail.com
+  phone: 961 920 800
+  website: asd.com
+  linkedin: alandoe
+  github: GoonFreecs
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Medium
+  interests:
+    - item: Write science fiction books
+    - item: Read Books
+    - item: Cooking
+education:
+  - degree: Full Stack Develpor/4 Geeks Academy
+    university: University of London
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2024
+  - degree: mechanical civil engineering
+    university: Pontificia Universidad Católica de Valparaíso
+    time: 2022 - 2022
+experiences:
+  - role: Student
+    time: in progress
+    company: 4Geeks Academy
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: JavaScript & jQuery
+      level: 5%
+    - name: HTML5 & CSS
+      level: 60%
