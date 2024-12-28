@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriel
+    last_name: D'Aloia
+    
+    # Define yourself in 4-5 words
+    motto: Persistencia y pasión por crecer
+    
+    # Focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador especializado en la creación de páginas web y tiendas online con Shopify y soluciones de comercio electrónico. Apasionado por la tecnología y por ofrecer experiencias de usuario de calidad, con un enfoque persistente en resolver problemas complejos y lograr resultados impactantes.
+
+      Amante de la programación y la innovación en e-commerce, me esfuerzo por mantenerme actualizado en las últimas tecnologías para ofrecer soluciones completas y efectivas.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: g-f-d-m@hotmail.com
+    phone: 641363127
+    website: # No personal website provided
+    linkedin: # No LinkedIn profile provided
+    github: Gabriel-DAloia
+    twitter: # No Twitter provided
+    stack-overflow: # No Stack Overflow provided
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Italiano
+        level: Básico
+
+    # Interests or hobbies
+    interests:
+      - item: E-commerce y tiendas online
+      - item: Programación
+
+# Your previous education
+education:
+    # No education details provided, add them here if available.
+
+# Your previous job experiences or volunteer
+experiences:
+    # No job details provided, add them here if available.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí puedes listar tus proyectos más relevantes o bibliotecas de código abierto.
+      Incluye descripciones breves y enlaces.
+
+    assignments:
+      # Add projects here, if any, with details like title, logo, and tagline.
+
+# Your skills
+skills:
+    toolset:
+      - name: Desarrollo de tiendas online con Shopify
+        level: 95%
+
+      - name: Desarrollo Full Stack
+        level: 85%
+
+      - name: Comercio Electrónico
+        level: 80%
+
+      - name: HTML5 y CSS
+        level: 75%
