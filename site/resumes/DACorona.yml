@@ -1,0 +1,55 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Damian
+  last_name: Corona
+  motto: I hate social gatherings
+  focus: Learn, improve, advance
+  summary: ""
+  avatar: https://media.licdn.com/dms/image/v2/D4E03AQFlPs-HZep4AQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728956947103?e=1741219200&v=beta&t=bdFuDd8wJG-Qg4tFSrDSXKQWxMZL01YdwQEyvGAOLFk
+  email: damianalejadrocorona@gmail.com
+  phone: +54 9 3541 382515
+  linkedin: www.linkedin.com/in/damian-alejandro-corona-619940276
+  github: DACorona
+  languages:
+    - idiom: English
+      level: suficient
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Cicling
+    - item: Ride motorcicling
+    - item: Play pc games
+education:
+  - degree: Navigation Officer (seagoing), Graduate on Maritime transport
+    university: Escuela nacional de nautica Manuel Belgrano
+    time: 2007 - 2011
+    details: |
+      Nautical school , for future seafares , according STCW formation code
+experiences:
+  - role: Chief Officer
+    time: 2021 - 2024
+    company: Jan de Nul, Argentina
+    details: >
+      Chief Officer , on dredgers , on charge of dredging operations
+      ,mainteinance of vessel and equipement.
+  - role: Loading Master
+    time: 2024 - Present
+    company: Service Management, Argentina
+    details: |
+      POAC on Ship to Ship operations in Uruguay and Argentina lighterings zones
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+    - name: JavaScript & jQuery
+      level: 0%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 65%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 40%
