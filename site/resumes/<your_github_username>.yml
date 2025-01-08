@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Hernán Ezequiel
+  last_name: Blanco Gier
+  
+  # Define yourself in 4-5 words
+  motto: Valiente, creativo, extrovertido, inquieto y
+  deportista.
+  
+  # Focus
+  focus: Ser mejor.
+  
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Soy un programador en formación de lenguajes de programación como CSS, JavaScript, HTML, etc. 
+    Me apasiona el desarrollo de software y la resolución de problemas a través de la tecnología. 
+    Durante mi etapa de aprendizaje, he trabajado en diferentes proyectos personales y académicos que me han permitido desarrollar habilidades en el desarrollo web.
+    Estoy entusiasmado por seguir creciendo profesionalmente, aprendiendo nuevas herramientas y contribuyendo con soluciones innovadoras en el ámbito tecnológico.
+  
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://s11.aconvert.com/convert/p3r68-cdx67/8l303-ss9oh.webp
+
+  # Contact Information
+  email: ezequielgier19@gmail.com #optional
+  phone: +34607060047 #optional
+  website: #optional
+  linkedin: #optional
+  github: https://github.com/Zmu2zeki19b
+  twitter: '' #optional
+  stack-overflow: zmu2zeki19b
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Profesional
+
+  # Interests or hobbies
+  interests:
+    - item: Fútbol
+    - item: Producción musical
+    - item: Gimnasio
+
+# Your previous education
+education:
+  - degree: ESO
+    university: IES Fuente Lucena
+    university_logo: #optional
+    time: 2012 - 2017
+    details: |
+      La ESO fue un tiempo clave de transición entre la infancia y la adolescencia, 
+      donde se consolidaron muchas de mis habilidades académicas y sociales. 
+      Aprendí a organizarme mejor, a trabajar en equipo y a asumir mayores responsabilidades.
+
+  - degree: Socorrista y primeros auxilios
+    university: Asociación Andaluza de Socorrismo y Salvamento (AASS)
+    university_logo: #optional
+    time: 2015 - 2015
+    details: |
+      Mi aprendizaje en el socorrismo se centró en la adquisición de habilidades prácticas para reaccionar rápidamente en situaciones de emergencia. 
+      Aprendí técnicas de rescate, primeros auxilios y cómo gestionar riesgos en el entorno acuático. 
+      La formación me permitió estar preparado para responder de manera efectiva y eficiente.
+
+  - degree: Productor musical
+    university: Audio Master Academy and Musiluz
+    university_logo: #optional
+    time: 2020 - 2021
+    details: |
+      Mi aprendizaje en producción musical me permitió dominar tanto las herramientas técnicas como los aspectos creativos del proceso. 
+      Aprendí a usar software de producción como Ableton Live, FL Studio o Logic Pro, lo que me dio la capacidad de crear y editar música profesionalmente. 
+      Además, exploré técnicas de mezcla y masterización para lograr un sonido pulido.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Socorrista
+    time: 2015 - 2016
+    company: Seguriocio, Málaga
+    company_logo: #optional
+    details: |
+      Como socorrista, mi principal responsabilidad fue garantizar la seguridad de los bañistas y usuarios en un parque acuático. 
+      Esto implicaba una vigilancia constante para prevenir accidentes, 
+      controlar el comportamiento de los bañistas y estar preparado para intervenir en caso de emergencia.
+
+  - role: Asistente de servicio técnico
+    time: 2018 - 2020
+    company: Dbsat, Málaga
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Como asistente de servicio técnico, 
+      mi principal responsabilidad fue ayudar a los clientes a solucionar problemas con dispositivos electrónicos, software o servicios. 
+      Esto incluía realizar diagnósticos, identificar fallos y ofrecer soluciones efectivas a los problemas reportados, 
+      siempre buscando la mejor solución para el usuario.
+
+  - role: Barman
+    time: 2020 - 2020
+    company: Boracay, Málaga
+    company_logo: #optional
+    details: |
+      Como barman, mi responsabilidad principal era preparar y servir una amplia variedad de bebidas, 
+      desde cócteles clásicos hasta bebidas personalizadas, garantizando siempre la calidad y el sabor. 
+      Esto requería un conocimiento profundo de recetas, 
+      técnicas de mezcla y presentación para ofrecer una experiencia memorable a los clientes.
+
+  - role: Operario de fábrica
+    time: 2020 - 2022
+    company: Frutas Eladio, Málaga
+    company_logo: #optional
+    details: |
+      Como operario, mi principal responsabilidad era operar y supervisar las máquinas de la línea de producción,
+      asegurando que el proceso de envasado, etiquetado y embalaje de las frutas se realizara de manera eficiente y sin interrupciones. 
+      Esto incluía cargar las frutas en las máquinas, monitorear el rendimiento de las mismas y ajustar los parámetros cuando era necesario para mantener un flujo constante de producción.
+
+  - role: Seguridad
+    time: 2020 - 2023
+    company: MgServicios
+    company_logo: #optional
+    details: |
+      Mi principal responsabilidad fue la vigilancia y el monitoreo de las instalaciones mediante cámaras de seguridad, 
+      patrullajes regulares y la observación constante de actividades sospechosas. 
+      Esto implicaba estar alerta a cualquier indicio de riesgo o incidente que pudiera comprometer la seguridad de las personas o bienes.
+      
+  - role: Asistente de producción
+    time: 2023 - 2023
+    company: Vezet
+    company_logo: #optional
+    details: |
+      Trabajaba en conjunto con otros operarios, supervisores y personal de mantenimiento para asegurar que el proceso de producción fuera fluido y sin contratiempos. 
+      La buena comunicación y la coordinación eran esenciales para resolver cualquier inconveniente rápidamente y mantener los estándares de producción.
+
+# Your project portfolio
+projects:
+  intro: >
+    Como novato, cada uno de estos proyectos me permitió poner en práctica conceptos fundamentales de la programación, 
+    como variables, estructuras de control (if, loops), funciones y manipulación de datos. 
+    Aunque los proyectos son sencillos, me han servido para mejorar mis habilidades y aprender a resolver problemas de manera eficiente, 
+    desarrollando una comprensión más sólida de la lógica de programación.
+  assignments:
+    - title: Postcard
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/Zmu2zeki19b/exercise-postcard
+      tagline: El producto final fue una tarjeta postal visualmente atractiva y funcional, ideal para ser utilizada como souvenir o para enviar mensajes personalizados.
+
+    - title: Instagram Feed
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/Zmu2zeki19b/Instagram-Eze-Avanzado
+      tagline: El resultado final fue un feed cohesivo, atractivo y bien planificado que atrajo a nuevos seguidores y mantuvo el interés de los ya existentes.
+
+    - title: Formulario
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/Zmu2zeki19b/Formulario-ezerep-html5
+      tagline: Fue un proyecto básico pero efectivo para aprender a manejar formularios web.
+
+    - title: Instagram Feed Boopstrap
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/Zmu2zeki19b/Instagram-Feed-Boopstrap
+      tagline: Este proyecto me permitió familiarizarme con los componentes básicos de Bootstrap y mejorar mis habilidades en la creación de interfaces responsivas.
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+    - name: JavaScript
+      level: 15%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 20%
