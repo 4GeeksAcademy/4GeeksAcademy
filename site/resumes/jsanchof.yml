@@ -1,0 +1,121 @@
+---
+template: online-cv
+skin: ceramic
+basic_info:
+  first_name: Jose
+  last_name: Sancho
+  motto: Better play than sleep
+  focus: Focus?
+  summary: >
+    Started at young age by reparing computers then went to sys admin,
+    developer, back to sys admin,
+
+    then moved to cloud administrator for internal services deployed on azure or AWS.
+
+
+    Worked as an SRE and loved the position, now I'm looking to get more into IaC and DevOps 
+
+    while completing a full-stack developer bootcamp.
+  avatar: https://media.licdn.com/dms/image/v2/C5103AQG1gi8jYS0BBw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517355860114?e=1742428800&v=beta&t=LWzmITJ0oLlfr-x6CRsccGODOtHPyBdLU1aI3SSkLxs
+  email: jose.sancho89@gmail.com
+  phone: +506 8883 9871
+  website: asd.com
+  linkedin: https://www.linkedin.com/in/jose-sancho-fonseca/
+  github: jsanchof
+  twitter: JoseSanchoCR
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: Portuguese
+      level: Basic words
+  interests:
+    - item: Gaming
+    - item: Cycling
+    - item: Anime
+education:
+  - degree: BSc in Informatics.
+    university: Ulacit
+    university_logo: https://www.logotypes101.com/logos/480/530A7661328198279D938954E698F026/logo_ulacit.png
+    time: 2021 - 2022
+    details: >+
+      Started from 0 the carrer in informatics, due the nature of my job at
+      Microsoft 
+
+      I wasn't able to continue the courses due schedule conflict.
+
+        - Approved the half of the credits for gratuation requirements.
+        
+  - degree: BSc in Computer Science
+    university: Universidad de Costa Rica
+    university_logo: https://www.ucr.ac.cr/vistas/webucr_ucr_5/imagenes/firma-ucr-c.svg
+    time: 2010 - 2012
+    details: >+
+      I started my carrer in computer science and informatics but was driven
+      out due the birth of my son.
+
+        
+experiences:
+  - role: Support Engineer
+    time: 2020 - 2024
+    company: Microsoft, Costa Rica
+    company_logo: https://cdn.prod.website-files.com/5ee732bebd9839b494ff27cd/5eef3a3260847d0d2783a76d_Microsoft-Logo-PNG-Transparent-Image.png
+    details: >
+      As part of the Azure Subscription Management Support team, I assited
+      Enterprise customer with concern on the services deployed,
+
+      revieiwng the SKUs deployed and the consumption, also in some specific services assited by giving guidance on how the can reduce the cost
+
+      and take advantage of the feature of the services.
+
+
+      Out of my responsabilities I took time to assist on complex request as an escalation point when my colleagues were facing unknown issues or limitations,
+
+      drived the escalation to lower the severity by addressing the main impact on the environment by the review of the customer requirements and goals. 
+
+        - Took over escalations on S500 customers
+        - Part of the ARR(Azure Rapid Response team)
+  - role: Cloud Support Analyst
+    time: 2018 - 2019
+    company: Experian, Costa Rica
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Monitor and process different jobs on both mainframe and cloud
+      processor based on Data Analist jobs submissions, it was
+
+      on my responsibility making sure that all the jobs ran and complete successfully while balancing mannually the system load and
+
+      completing some jobs that have specific schedule that must be completed at specific time.
+
+        - IBM mainframe
+        - Cloud monitoring
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+  toolset:
+    - name: Java
+      level: 85%
+    - name: C#
+      level: 80%
+    - name: JavaScript
+      level: 60%
+    - name: HTML5 & CSS
+      level: 60%
+    - name: Azure Administrator
+      level: 85%
+    - name: AWS administrator
+      level: 60%
