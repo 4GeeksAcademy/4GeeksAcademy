@@ -1,0 +1,125 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Yuster
+
+    # Define yourself in 4-5 words
+    motto: Data Scientist & Logistics Specialist
+
+    # Focus
+    focus: Data Analysis and Logistics Optimization
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a passionate Data Science enthusiast with experience in data analysis, logistics, and inventory management. My expertise spans across warehousing, stock control, supply planning, and data visualization. Currently, I am focused on leveraging Python and Power BI to automate processes and solve complex business challenges.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/10.jpg
+
+    # Contact Information
+    email: francisco.yuster@example.com
+    phone: 123-456-7890
+    website: franciscoyuster.com
+    linkedin: franciscoyuster
+    github: franciscoyuster
+    twitter: 'fyuster_ds'
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Skateboarding
+
+      - item: Basketball
+
+      - item: Chess
+
+      - item: Exercising
+
+# Your previous education
+education:
+    - degree: MSc in Data Science
+      university: University of Barcelona
+      time: 2020 - 2022
+      details: |
+        Focused on machine learning, data visualization, and predictive analytics. Collaborated on research projects analyzing supply chain optimization using Python and SQL.
+
+    - degree: BSc in Logistics and Inventory Management
+      university: National University
+      time: 2015 - 2019
+      details: |
+        Specialization in supply chain management, warehousing systems, and stock control. Excelled in courses on operations research and database management.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Analyst
+      time: 2022 - Present
+      company: Global Logistics Solutions
+      details: |
+        Developed predictive models to optimize stock levels, resulting in a 15% reduction in storage costs. Created interactive dashboards in Power BI to monitor KPIs across multiple warehouses.
+
+          - Designed automated reporting pipelines with Python.
+          - Improved delivery times by analyzing transportation data.
+
+    - role: Logistics Coordinator
+      time: 2019 - 2022
+      company: Regional Warehousing Corp
+      details: |
+        Managed inventory systems and streamlined supply chain processes, achieving a 20% increase in efficiency. Introduced new tracking systems using Excel and Power Query.
+
+          - Supervised a team of 10 in daily operations.
+          - Developed forecasting models for seasonal demand.
+
+# Your project portfolio
+projects:
+    intro: >
+      A collection of projects showcasing my skills in data analysis, visualization, and logistics optimization.
+
+    assignments:
+      - title: EDAwPy
+        link: "https://github.com/franciscoyuster/EDAwPy"
+        tagline: "Exploration Data Analysis using Python, focusing on cleaning, transformation, and visualization."
+
+      - title: ReportGDP
+        link: "https://github.com/franciscoyuster/ReportGDP"
+        tagline: "Python project analyzing global GDP trends using the World Bank API."
+
+      - title: Inventory Optimization Tool
+        link: "https://github.com/franciscoyuster/InventoryOptimizer"
+        tagline: "Automated tool for calculating reorder points and safety stock using Python."
+
+      - title: Logistics Dashboard
+        link: "https://github.com/franciscoyuster/LogisticsDashboard"
+        tagline: "Power BI dashboard for real-time monitoring of warehouse KPIs and transportation metrics."
+
+# Skills
+skills:
+    toolset:
+      - name: Python & Data Manipulation (Pandas, NumPy)
+        level: 95%
+
+      - name: Data Visualization (Power BI, Matplotlib)
+        level: 90%
+
+      - name: SQL & MySQL
+        level: 85%
+
+      - name: Logistics Optimization & Stock Control
+        level: 90%
+
+      - name: Excel & Power Query
+        level: 95%
+
+      - name: HTML5 & CSS3
+        level: 70%
