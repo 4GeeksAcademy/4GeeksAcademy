@@ -1,0 +1,146 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Taylor
+    last_name: Clements
+    
+    # Define yourself in 4-5 words
+    motto: Passionate about teaching and learning
+    
+    # Focus
+    focus: Social sciences
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Spent 8 years teaching high school mathematics and then another 2 as an adminstrator and department chair for Innovation and Learning as well as Mathematics. Have also taught undergraduate and graduate
+      level classes between private and public institutions. After leaving the classroom, 4 years as a Program Manager and Director of Curriculum and Instruction for
+      an education-technology startup company. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/TClements.jpg
+
+
+    # Contact Information
+    email: taylor.clements@gmail.com #optional
+    website: https://learningvschool.com/ #optional
+    linkedin: https://www.linkedin.com/in/drtclements/  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: drtclem
+    
+    
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: German
+        level: Intermediate
+
+
+    # Interests or hobbies
+    interests:
+      - item: Running
+
+      - item: Drum Corps
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: BS in Mathematics
+      university: Murray State University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007-2011
+      details: |
+        Double math/music major. Spent a lot of time doing marching band and other ensembles. Also was an 
+        honors program graduate, so studying abroad and learning a foreign language was required. Marched for the
+        Phantom Regiment in my summers. 
+
+    - degree: MA in Education
+      university: Western Kentucky University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011-2012
+      details: |
+        Did a cohort-based program in Louisville, KY teaching inner-city/high-needs students high school mathematics. 
+        Phenomenal program that was extremely intense but the best education setting and results. 
+
+    - degree: PhD in Education Scienes
+      university: University of Kentucky
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2013-2018
+      details: |
+        PhD in Education Sciences specializing in Education Technology and Leadership. An online and cohort-based model with
+        world-class educators and researchers. Tremendous experience at an R1 school. 
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Project Manager & Director of Curriculum and Instruction 
+      time: 2021 - Present
+      company: Cignition, Inc
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Managing multiple projects regarding partnerships, business relationships, curriculum and instruction, 
+        marketing materials, literature, and research. Working with educational leaders and teachers to help ensure 
+        that students are learning effectively through an inquiry-focused group-tutoring environment. Creating and 
+        aggregating curriculum appropriately for schools and districts based on standards and needs that specifically 
+        cater to student learning and engagement. Screening, interviewing, training, and leading professional 
+        development for tutors to help reinforce high-level pedagogy and engagement. Managing logistics, personnel, 
+        and calendars for school sites
+
+    - role: Instructor
+      time: 2019 - Present
+      company: Johns Hopkins University- CTY
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Instructor of an online and modular Geometry course for advanced high schoolers from 	around the world. 
+        Duties include conducting individual help sessions, contacting parents, and providing guidance on content. 
+
+    - role: Director of Innovation and Design
+      time: 2019 - 2021
+      company: Christchurch, VA
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Supervisor of the MakerSpace and facilitator of classes on design-thinking, coding, engineering, entrepreneurism, 
+        and topics in design and technology. Creating and developing external partnerships for off-campus learning 
+        experiences. Administrator and educational leader for Canvas. Assisting in leading digital instruction and 
+        asynchronous pedagogy. Chair of the Mathematics department and responsible for coordinating mathematics pedagogy 
+        and classroom leadership. Campus duties include coaching robotics, coaching endurance running, and various dorm duties. 
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      Just starting out with building a portfolio
+    assignments:
+  
+      - title: Real-Estate Cleanup
+        project_logo: https://github.com/drtclem/realestate-datacleanup-exercise 
+        link: "#"
+        tagline: "A simple cleaning and basic review of a dataset from Madrid's real-estate listings."
+
+     
+skills:
+    toolset:
+      - name: Python
+        level: 20%
