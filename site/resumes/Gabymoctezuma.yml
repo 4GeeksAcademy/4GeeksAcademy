@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriela
+    last_name: Moctezuma Pascual
+    
+    # Define yourself in 4-5 words
+    motto: Challenges make life more interesting
+    
+    # focus
+    focus: Overcoming
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Data Science.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4E03AQFYoMJIVQVI_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1542655817663?e=1740009600&v=beta&t=dkeLx5Kvg3cqdjH_dER6EC2UKthlaKy6WKTFAvAuHoc
+
+    # Contact Information
+    email: gabiiimp@hotmail.com #optional
+    phone: +52 273 131 83 17 #optional
+    website:  #optional
+    linkedin: Gabriela Moctezuma #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Gabymoctezuma
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: to make candles
+
+      - item: play volleyball
+
+# Your previous education
+education:
+    - degree: Data Science
+      university: 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024-present
+      details: 
+       
+
+    - degree: Electromechanical Engineer
+      university: Instituto Tecnológico Superior de Huatusco
+      # optional
+      university_logo:
+      time: 2014 - 2018
+      details: 
+       
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Enginnering Assistant
+      time: 2021 - 2022
+      company: RAMSA Servicios y Automatización
+      # optional
+      company_logo: 
+      details: 
+        - Engineering assistant in integration projects, preparing electrical and pneumatic diagrams and operation manuals.
+        - Maintenance of electrical equipment
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Working on it
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: ""
+        tagline: ""
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: Javascript & jQuery
+        level: 50%
+
+      - name: Angular
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 80%
