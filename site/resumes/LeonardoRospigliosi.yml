@@ -13,36 +13,34 @@ basic_info:
     last_name: Rospigliosi
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I love programming and also saving the world
     
     # Focus
     focus: Killing Bad Boys
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      I am a backend developer working with .net technologies 
+      but I continue learning to become a full stack developer
+      I love working in a collaborative international team. 
+      About me, I like playing soccer with friends.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: leonardorospigliosi@hotmail.com #optional
+    phone: +51 934049906 #optional
     website: asd.com #optional
-    linkedin: alandoe #optional
+    linkedin: www.linkedin.com/in/leonardorospigliosi #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: LeonardoRospigliosi
     
-    twitter: 'webjeda' #optional
+    twitter: 'none' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -50,27 +48,24 @@ basic_info:
       - idiom: English
         level: Professional
 
-      - idiom: French
-        level: Professional
-
       - idiom: Spanish
         level: Native
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Programming
 
-      - item: Snowboarding
+      - item: Technology
 
-      - item: Cooking
+      - item: Soccer
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Systems Enginner
+      university: Alas Peruanas University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2008 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
