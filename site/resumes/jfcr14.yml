@@ -1,0 +1,84 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: José Francisco
+  last_name: Carrión Ramos
+  motto: Creativo, eficiente y resolutivo
+  focus: Desarrollo TIC y soluciones digitales
+  summary: >
+    Desarrollador TIC con experiencia en el diseño, desarrollo e
+    implementación de soluciones digitales innovadoras. Graduado en EUSA
+    Sevilla, 
+
+    he trabajado como desarrollador en Duponte, aplicando tecnologías modernas para optimizar procesos empresariales. Apasionado por el aprendizaje continuo 
+
+    y la creación de aplicaciones web funcionales, busco contribuir con mi experiencia técnica y habilidades colaborativas al éxito de los proyectos.
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+  email: jfcarrionramos@gmail.com
+  phone: 654 321 987
+  website: jfcarrion.dev
+  linkedin: jfcarrionramos
+  github: jfcr14
+  twitter: jfcarrionramos
+  instagram: jfcarrionramos
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Profesional
+  interests:
+    - item: Desarrollo de software
+    - item: Fútbol y pádel
+    - item: Tecnología e innovación
+education:
+  - degree: Grado en Comunicación y Tecnologías Aplicadas
+    university: EUSA, Sevilla
+    time: 2016 - 2020
+    details: >
+      Formación integral en tecnologías aplicadas, desarrollo web y sistemas
+      de comunicación digital. 
+
+      Realicé proyectos académicos enfocados en el diseño y desarrollo de plataformas interactivas para la optimización empresarial.
+experiences:
+  - role: Desarrollador TIC
+    time: 2021 - Presente
+    company: Duponte, Sevilla
+    details: >
+      Encargado del desarrollo, mantenimiento y optimización de plataformas
+      tecnológicas para la gestión interna. 
+
+      Implementación de soluciones basadas en tecnologías web, logrando una mejora del 25% en la eficiencia de procesos internos.
+
+        - Diseño de sistemas para automatización empresarial
+        - Desarrollo y mantenimiento de aplicaciones web personalizadas
+        - Integración de herramientas para análisis de datos y reporting
+projects:
+  intro: >
+    Aquí se muestran algunos de los proyectos más destacados realizados como
+    parte de mi carrera profesional y personal.  Estos proyectos reflejan mi
+    experiencia y pasión por la tecnología y el desarrollo web.
+  assignments:
+    - title: Sistema de Gestión Empresarial
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/jfcr14/gestion-empresarial
+      tagline: Sistema desarrollado para optimizar los flujos internos de Duponte.
+    - title: Plataforma Web para Startups
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/jfcr14/startup-platform
+      tagline: Aplicación responsiva que permite a startups promocionar sus servicios
+        de manera efectiva.
+skills:
+  toolset:
+    - name: HTML5, CSS3 & Bootstrap
+      level: 95%
+    - name: JavaScript (ES6+) & React
+      level: 90%
+    - name: PHP & MySQL
+      level: 85%
+    - name: Git & Control de Versiones
+      level: 90%
+    - name: Gestión de Bases de Datos
+      level: 85%
+    - name: Resolución de Problemas
+      level: 98%
