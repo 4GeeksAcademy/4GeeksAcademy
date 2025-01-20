@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marc
+    last_name: Inglés
+    
+    # Define yourself in 4-5 words
+    motto: Im a chill guy (I guess).
+    
+    # focus
+    focus: Learning.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: whoknows@gmail.com
+    phone: 305-8784699 #optional
+    linkedin: https://es.linkedin.com/in/marc-ingl%C3%A9s-torn%C3%A9-a044a8206 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: minglestorne
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Climbing.
+
+      - item: Exercicing.
+
+# De aquí para abajo es copia y pega :S
+education:
+    - degree: Associate Bussiness Administration
+      university: Millenia Atlantic University
+      time: 2018 - 2020
+    - degree: Systems Engeneering (5 semesters)
+      university: Universidad Santa Maria
+      time: 2009 - 2011
+# Your previous job experiences or voluntier
+experiences:
+    - role: Full stack developer assistant
+      time: 2019 - Present
+      company: Stable Factory, Miami
+      # optional
+      details: |
+        Soclubtv.com Platform Design and Platform Development: Helped develop a social media platform with hundreds of concurrent users to engage with regular influencer-made shows. It had a realtime chat, e-commerce integration and more | Angular, NodeJS, MongoDB
+        RewardsWeb Platform Development Front end  Javascript/HTML/CSS 
+        Authentic Construction full website Front end  Javascript/HTML/CSS
+        
+
+# Your project portfolio
+
+assignments:
+      - title: Instagram photo feed (bootstrap)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Excuse generator (javascript)
+        tagline: Randomly generate excuses using plain javascript and html
+
+skills:
+    toolset:
+      - name: HTML, CSS, Bootstrap
+        level: Intermediate
+
+      - name: Javascript 
+        level: Intermediate
+
+      - name: React
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: Flask
+        level: Intermediate
+
+      - name: Python
+        level: Intermediate
+
+      - name: MySql
+        level: Intermediate
