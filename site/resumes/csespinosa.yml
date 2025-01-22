@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Clara
+    last_name: Espinosa
+    
+    # Define yourself in 4-5 words
+    motto: Siempre se verdadero
+    
+    # Focus
+    #focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Tengo experiencia en atención al cliente en eventos y en ventas directas, 
+      donde he desarrollado habilidades de servicio y comunicación efectiva. 
+      He trabajado en eventos como mesera y cantante, lo cual me ha permitido 
+      adaptarme a diferentes entornos y conectar con personas de manera profesional. 
+      Además, manejo mi propio negocio de venta de carnes a precios competitivos, 
+      lo que me ha dado experiencia en gestión de inventario, atención al cliente y negociación de precios.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    # avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: clara.espinosap@gmail.com
+    # phone: 234 2342 342 #optional  website: asd.com #optional  linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: csespinosa
+    
+    twitter: 'claras.ep' #optional   stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Música y Conciertos
+
+      - item: Tenis
+
+      - item: Vida social
+# Your previous education
+education:
+    - degree: Licenciatura en Música e Interpretación, mención en Canto.
+      university: Uniacc
+      # optional
+      # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2026
+      # details: |
+      #  Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      # sociis natoque penatibus et magnis dis parturient montes, nascetur
+      # ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #  pretium quis, sem.
+
+       #   - Bullet point
+       #  - Bullet point
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cantante Solista/Banda
+      time: 2016 - Present
+      company: Autónomo
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       # Describe your role here lorem ipsum dolor sit amet, consectetuer
+       #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+       # Cum sociis natoque penatibus et magnis dis parturient montes,
+       # nascetur ridiculus mus. Donec quam felis, ultricies nec,
+       # pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+       # enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+       # error sit voluptatem accusantium doloremque laudantium, totam rem
+       # aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+       # architecto beatae vitae dicta sunt explicabo.
+
+        #  - Bullet point
+         # - Bullet point
+
+    - role: role: Vendedora Independiente de Carnes
+      time: 2017 - presente
+      company: Autónomo
+       # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       # Describe your role here lorem ipsum dolor sit amet, consectetuer
+       #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+       # Cum sociis natoque penatibus et magnis dis parturient montes,
+       # nascetur ridiculus mus. Donec quam felis, ultricies nec,
+       # pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+       # enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+       # error sit voluptatem accusantium doloremque laudantium, totam rem
+       # aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+       # architecto beatae vitae dicta sunt explicabo.
+
+        #  - Bullet point
+         # - Bullet point
+
+    - role: Voluntario en Construcción y Apoyo Comunitario
+      time: 2015 - 2022
+       # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #details: |
+       # Describe your role here lorem ipsum dolor sit amet, consectetuer
+       #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+       # Cum sociis natoque penatibus et magnis dis parturient montes,
+       # nascetur ridiculus mus. Donec quam felis, ultricies nec,
+       # pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+       # enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+       # error sit voluptatem accusantium doloremque laudantium, totam rem
+       # aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+       # architecto beatae vitae dicta sunt explicabo.
+       #   - Bullet point
+       #   - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+   #   - name: JavaScript & jQuery
+   #     level: 98%
+
+   #   - name: Angular
+   #     level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+   #   - name: Ruby on Rails
+   #     level: 85%
+
+    #  - name: Sketch & Photoshop
+     #   level: 60%
