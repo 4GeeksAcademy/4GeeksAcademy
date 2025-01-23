@@ -1,0 +1,60 @@
+template: "online-cv"v
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Christian
+    last_name: Gasca
+    motto: keeping it a buck
+    avatar: ~
+    summary: |
+        Studying at UCF Political Science. Interested in Software Development, using Java, Python, Solidity and other tools but most importantlny Web-3 Decentralization. 
+         
+
+    # Sidebar links
+    email: alnovellino07@gmail.com
+    phone: 414 100 52 42
+    website: ~
+    linkedin: linkedin.com/in/alejandro-novellino-70954817b
+    github: AlejandroNovellino
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: Bachelor of Science
+      university: Archbishop McCarthy 
+      time: 2012 - 2017
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
