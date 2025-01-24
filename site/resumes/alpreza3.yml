@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Albert
+    last_name: Pregonas
+    
+    # Define yourself in 4-5 words
+    motto: Con mucha pasión pero con poca fuerza de voluntad
+    
+    # Focus
+    focus: Aprender entendendiendo
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy diseñador de experiencia de usuario y también fotógrafo. He trabajado como fotógrafo
+      en trabajos esporádicos. A través del diseño de experiencia de usuario me han vuelto otra vez
+      las ganas de aprender a programar e intentar poder ser una persona con conocimientos de ambos
+      sectores.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: alpaca62@gmail.com #optional
+    phone: 637 938 192 #optional
+    website: albertpregonas.com #optional
+    linkedin: https://www.linkedin.com/in/albertpregonas #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alpreza3
+    
+    twitter: 'alpaca62' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Catalán
+        level: Nativo
+
+      - idiom: Inglés
+        level: Profesional
+
+    # Interests or hobbies
+    interests:
+      - item: Fotografía
+
+      - item: Diseño
+
+      - item: Cine
+
+# Your previous education
+education:
+    - degree: Medios audiovisuales
+      university: Universitat Pompeu Fabra
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2020
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Máster en diseño de experiencia de usuario
+      university: UNIR
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Fotógrafo
+      time: 2020 - 2022
+      company: Autónomo
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Fotógrafo en eventos y bodas.
+
+    - role: Diseñador ux
+      time: 2023 - 2023
+      company: Proeduca, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Diseñador visual y de interacción en la experiencia de usuario en el campus virtual
+        de los profesores de la universidad UNIR.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Voyage
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Organizador de viajes."
+
+skills:
+    toolset:
+      - name: Illustrator
+        level: 76%
+
+      - name: Lightroom
+        level: 80%
+
+      - name: Premier Pro
+        level: 75%
+
+      - name: Figma
+        level: 80%
