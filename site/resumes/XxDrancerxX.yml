@@ -1,0 +1,79 @@
+---
+template: online-cv
+skin: ceramic
+basic_info:
+  first_name: Israel
+  last_name: Diaz
+  motto: Competitive, always learning new things and open to constructive criticism.
+  focus: Always developing the skills required to stay up to date and adapted to
+    the market.
+  summary: Although I have been in different sectors throughout my life
+    (restaurants, home deliveries, construction, markets) there has always been
+    a predominant sector or where I always end up working, which is sales and
+    customer service, which has allowed me to have a fluency in expressing my
+    ideas and listening to my clients, I am trying to enter the world of
+    programming (which seems like a wonderful world to me) and I think that in
+    the end it also has a little to do with sales, in the end we end up creating
+    or contributing to a system being maintained or sustainable over the years
+    and one of the factors that contribute to this are sales.
+  avatar: null
+  email: idmdiazmora98@gmail.com#optional
+  phone: 305 4235735
+  website: asd.com
+  linkedin: israel-diaz-mora
+  github: XxDrancerxX
+  twitter: Web
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Footbal//Sports
+    - item: Piano
+    - item: Cooking
+education:
+  - degree: High school graduate
+    university: Instituto metropolitano Adventista.
+    university_logo: null
+    time: 2010-2015
+    details: Describe your study here
+  - degree: Bachelor in computers science
+    university: UCAT
+    university_logo: null
+    time: 2016-2018
+    details: Technical
+experiences:
+  - role: Sales representative
+    time: 2019-2021
+    company: Koaj//Permoda LTDA
+    company_logo: null
+    details: >+
+      I started as a store assistant where I primarily had to check the stock
+      of clothing in the store, both what we had in stock and what was on
+      display, always stocking the display and assisting in sales as well. I
+      received orders in the morning for the merchandise that arrived and
+      efficiently arranged it in the warehouse.
+
+      Then I started working in sales and earned commission and basically my main function was to sell and when I had time I helped maintain the aesthetics of the store. At first we had a general goal for the store but then they combined it with an individual goal, so we had a general vision of sales and who had to reinforce to support the general goal.
+       
+         
+  - role: Impact computers
+    time: 2023-currently
+    company: Impact computers
+    company_logo: >-
+      I started as a front desk and had a variety of duties and tasks. I
+      had to review the pending orders we had with suppliers and follow up on
+      them (tracking number), always maintaining continuous communication with
+      the suppliers to ensure the fast delivery of the requested parts to
+      satisfy our customers.
+
+      Then I was moved to sales (current role) and now I answer calls and emails related to all the company's sales channels (Ebay, website, brokerbin...etc.) Always looking for new clients who buy in quantities (which is our strength and what increases our commission) and making sure that there is always a good image of the company in the channels we use to provide a good image for the confidence of current and new clients.
+projects: null
+skills:
+  toolset:
+    - name: JavaScript
+      level: 20%
+    - name: HTML5 & CSS
+      level: 50%
