@@ -1,0 +1,120 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Manuel
+    last_name: Dominguez
+    
+    # Define yourself in 4-5 words
+    motto: Amable, perseverante, amigable y creativo.
+    
+    # Focus
+    focus: Aprender cada dia mas sobre programacion.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante del curso FullStack, interesado en aprender sobre la programacion para lograr
+      estar entre los mejores.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Madg26
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: Bassic
+
+    # Interests or hobbies
+    interests:
+      - item: Beseball
+
+      - item: Trecking
+
+      - item: Outdoor activities
+
+# Your previous education
+education:
+    - degree: Ing Produccion Animal
+      university: University of the East
+      # optional
+      university_logo: https://th.bing.com/th/id/OIP.LSgFJx7zo65Yuhsc9eakEgHaHa?rs=1&pid=ImgDetMain
+      time: 2016 - 2018
+      details: Carrera incompleta, debido a la inmigracion.
+   
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Vendedor
+      time: 2022 - present
+      company: Ideal sa, Santiago de Chile
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Vender y distribuir los productos de la panaderia mas grande del mundo.
+        Atender a cada cliente de la ruta diaria con amabilidad, paciencia y constancia, 
+        para que nuestros productos lleguen a cada hogar y
+        asi lograr alimentar a un mundo mejor.
+
+# Your project portfolio
+projects:
+    intro: >
+     
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    
