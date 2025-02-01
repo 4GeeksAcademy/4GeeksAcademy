@@ -1,0 +1,80 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Guarin
+    
+    # Define yourself in 4-5 words
+    motto: Porque para mí el vivir es Cristo, y el morir es ganancia. Filipenses 1:21 
+    
+    # Focus
+    focus: Me encanta entender como funcionan las cosas
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estoy buscando más oportunidades para aprender y saber lo que verdaderamente quiero hacer, me encanta la tecnologia y el entretenimiento.
+
+      
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+
+    # Contact Information
+    email: guarindaniel207@gmail.com o  cocorroquiasprogamer@gmail.com
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DanielGG207
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: Profesional
+
+      
+
+      - idiom: Español
+        level: nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Ajedrez
+
+      - item: Piano 
+
+      - item: Videjuegos
+
+# Your previous education
+education:
+    
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    -
+
+# Your project portfolio
+projects:
+    intro: >
+      Hasta ahora no tengo ningun proyecto
+
+    
+
+skills:
+    toolset:
+      - name: Html y css 
+        level: 60%
+
+      - name: JavaScript 
+        level: 40%
