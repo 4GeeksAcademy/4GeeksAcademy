@@ -10,32 +10,36 @@ basic_info:
 
     # Your full name
     first_name: Carlos
-    last_name: Lopez de Lizaga
-
+    last_name: Lopez
+    
     # Define yourself in 4-5 words
-    motto: it do be like that sometimes
-
+    motto: I like saving the world
+    
     # Focus
     focus: Killing Bad Boys
-
+    
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Desde los 3 años jugando a videojuegos y usando ordenadores, se me dan bien, no lo voy negar.
-      Estudie desarrollo de videojuegos, pero me di cuenta de que me gusta mas jugarlos que hacerlos.
+      i studied videogame design, 3D and animation
+
+      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: clizaga@gmail.com #optional
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
     website: https://www.artstation.com/reez #optional
-
+    linkedin: alandoe #optional
+    
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Reez912
-
+    github: Reezo912
+    
+    twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -43,21 +47,24 @@ basic_info:
       - idiom: Spanish
         level: Native
 
+      - idiom: French
+        level: Professional
+
       - idiom: English
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Videogames
+      - item: Climbing
 
-      - item: Cinema
+      - item: Snowboarding
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: 3D design, animation and videogame design
-      university: CICE
+    - degree: MSc in Computer Science
+      university: University of London
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
@@ -67,8 +74,10 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
+
           - Bullet point
           - Bullet point
+
     - degree: BSc in Applied Mathematics
       university: Bristol University
       # optional
@@ -80,8 +89,10 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
+
           - Bullet point
           - Bullet point
+
 # Your previous job experiences or volunteer
 experiences:
     - role: Lead Developer
@@ -99,14 +110,47 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
+
           - Bullet point
           - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
 # Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
       - title: Velocity
         # optional
@@ -141,4 +185,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 10%
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
