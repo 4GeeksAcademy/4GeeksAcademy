@@ -150,15 +150,3 @@ skills:
     toolset:
       - name: Python & Django
         level: 10%
-
-      - name: Unreal Engine 5
-        level: 60%
-
-      - name: 3Ds Max
-        level: 70%
-
-      - name: Blender
-        level: 70%
-
-      - name: Substance suite
-        level: 50%
