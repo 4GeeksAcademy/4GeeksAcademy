@@ -109,3 +109,25 @@ assignments:
         tagline: "La aplicación web de generación de recetas con IA es una plataforma interactiva y personalizada que permite a los usuarios obtener recetas únicas basadas en sus preferencias, 
                   restricciones dietéticas o ingredientes disponibles. Al ingresar parámetros como ingredientes específicos, 
                   tipo de plato o estilo culinario, la aplicación se conecta con un modelo de inteligencia artificial que genera recetas creativas y detalladas en cuestión de segundos.."
+
+      
+
+
+
+
+skills:
+    toolset:
+      - name: Python & flask 
+        level: ~
+
+      - name: React
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Node js y Express
+        level: ~
+
+      - name: PHP
+        level: ~
