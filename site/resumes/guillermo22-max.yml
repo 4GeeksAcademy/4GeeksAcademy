@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Guillermo
+    last_name: Soto Siciliano
+    
+    # Define yourself in 4-5 words
+    motto: compartir el conocimiento
+    
+    # Focus
+    focus: divide y vencerás
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      soy técnico en programación de software, en lenguajes como PHP, Node JS y express, tambien tengo sertificación en java. actualmente soy Desarrollador Web Full-Stack en Raact y Python con flask
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: guillermosoto989@gmail.com #optional
+    phone: 619 730 358 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/luis-guillermo-soto-siciliano-553889349/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: guillermo22-max
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basico
+
+    # Interests or hobbies
+    interests:
+      - item: Sistemas computacinales 
+
+      - item: Deportes
+
+      - item: Musica
+
+# Your previous education
+education:
+    - degree: tecnico en programción de software
+      university: SENA Colombia
+      # optional
+      university_logo: https://yt3.googleusercontent.com/RP4KvTlSWm3hep7N_-35BfDMSJjl_ehpFe0ObvedehWoX3_uFL2OBo7W1NEvRN0jO0D_vR2F3w=s900-c-k-c0x00ffffff-no-rj
+      time: 2023 - 2024
+      details: |
+          - Construir el sistema que cumpla con los requisitos de la solución
+
+          - Analizar los requisitos del cliente para construir el sistema de información.
+
+          - Desarrolla e implementa aplicativos de software para entornos Windows o entornos Web sobre diferentes plataformas y lenguajes de programación.
+          
+
+    - degree: Full-Stack Software Developer 
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2025
+      details: |
+          - Soy desarrollador web full stack y me especializo en construir aplicaciones completas desde el frontend hasta el backend. 
+            En la parte del cliente, utilizo React para crear interfaces de usuario interactivas, modernas y optimizadas, 
+            con componentes reutilizables y gestión de estado eficiente. En el backend, trabajo con Python y Flask para desarrollar APIs RESTful que conectan el frontend con la lógica del servidor, 
+            integrando bases de datos con SQLAlchemy para manejar datos de manera eficiente y segura. Además, 
+            sé optimizar la comunicación entre ambas capas, implementar autenticación, manejar errores y garantizar que la aplicación sea escalable y fácil de mantener. 
+          
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2025 - Present
+      company: Mamma mIA
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+            En el desarrollo de la aplicación web que genera recetas mediante IA, 
+            mi rol como desarrollador web full stack abarcó la creación y optimización de cada parte del sistema para garantizar una experiencia fluida y efectiva para el usuario. 
+            En el frontend, desarrollé interfaces dinámicas y responsivas con React, permitiendo a los usuarios generar recetas personalizadas de forma intuitiva, 
+            gestionar preferencias de ingredientes y visualizar resultados en tiempo real. Implementé la gestión de estado y realicé integraciones con la API de IA para mostrar las sugerencias generadas.
+            En el backend, trabajé con Python y Flask para construir APIs RESTful seguras y escalables, gestionando las solicitudes de los usuarios y comunicándolas con el modelo de IA. 
+            También me aseguré de manejar la lógica de procesamiento, validar los datos de entrada y optimizar el rendimiento de las respuestas. 
+            Utilicé SQLAlchemy para almacenar datos relevantes como historial de recetas y preferencias del usuario.
+            Mi contribución no solo se enfocó en el desarrollo técnico, sino también en la colaboración con equipos de diseño, IA y producto, 
+            asegurándome de que las integraciones entre módulos fueran fluidas y alineadas con los objetivos del negocio. Además, participé en la optimización continua mediante refactorización, 
+            pruebas unitarias y revisión de código para garantizar la calidad del producto final.
+     
+
+assignments:
+      - title: Mamma mIA
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://proyecto-final-frontend-app.vercel.app/
+        tagline: "La aplicación web de generación de recetas con IA es una plataforma interactiva y personalizada que permite a los usuarios obtener recetas únicas basadas en sus preferencias, 
+                  restricciones dietéticas o ingredientes disponibles. Al ingresar parámetros como ingredientes específicos, 
+                  tipo de plato o estilo culinario, la aplicación se conecta con un modelo de inteligencia artificial que genera recetas creativas y detalladas en cuestión de segundos.."
