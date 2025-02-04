@@ -36,6 +36,7 @@ basic_info:
     twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
+
     # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: Spanish
