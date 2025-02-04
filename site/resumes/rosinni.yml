@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 template: "online-cv"
@@ -9,61 +9,75 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Nicolas
-    last_name: Jaramillo
-    
-    # Define yourself in 4-5 words
-    motto: “I don't stop when I'm tired, I stop when I'm done.”
-    
-    # Focus
-    focus: Learning
-    
-    # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      23 year old coder from Chile, Native Spanish and English speaker. Lived in New Zealand, looking to move back thanks to coding.
+    first_name: Rosinni
+    last_name: Rodriguez
 
-      
+    # Define yourself in 4-5 words
+    motto: Learning is my passion
+
+    # focus
+    focus: Becoming a better programmer
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://i.ibb.co/RyQtPY9/fotoperfil.png
+    avatar: http://sep.breatheco.de/static/profile-images/IMG_0005.jpg
 
     # Contact Information
-    email: nicolasj.o098@gmail.com #optional
-    phone: N/A #optional
-    website: N/A #optional
-    linkedin: https://www.linkedin.com/in/nick-jaramillo-9152302a7/ #optional
-    
+    email: andresolivares.se@outlook.com #optional
+    phone: 56 9 34463970 #optional
+    website: asd.com #optional
+    linkedin: notnow #optional
+
     #
     # ******** IMPORTANT *******
-    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: The-Nick-J
-    
-    twitter: N/A #optional
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: rosinni
+
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # Languages you speak, levels include: Native, Professional
+    # languages you speak, levels inculde: Native, Professional
     languages:
       - idiom: English
-        level: Native
+        level: Intermediate
 
       - idiom: Spanish
         level: Native
 
-    # Interests or hobbies
+
+    # Interests or hobies
     interests:
-      - item: Coding
+      - item: movies and series
 
-      - item: Gaming
+      - item: Playing video games
 
-      - item: Basketball
+      - item: Weightlifting
 
 # Your previous education
-
-    
-
-
-# Your previous job experiences or volunteer
+education:
+    - degree: Teacher of English
+      university: Universidad de Concepcion
+      # optional
+      university_logo: 
+      time: 2011 - 2017
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -80,10 +94,8 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
-
           - Bullet point
           - Bullet point
-
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
@@ -95,10 +107,8 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -110,17 +120,14 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
-
           - Bullet point
           - Bullet point
-
 # Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
     assignments:
       - title: Velocity
         # optional
@@ -154,20 +161,16 @@ projects:
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 0%
+      - name: Python
+        level: 90%
 
-      - name: JavaScript & jQuery
-        level: 50%
+      - name: Javascript
+        level: 100%
 
-      - name: Angular
-        level: 0%
+
 
       - name: HTML5 & CSS
         level: 95%
 
-      - name: Adobe Premier
-        level: 90%
-
-      - name: Photoshop
-        level: 60%
+      - name: Bootstrap
+        level: 80%
