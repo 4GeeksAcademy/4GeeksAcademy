@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Orjuela
+    
+    # Define yourself in 4-5 words
+    motto: Work hard party hard
+    
+    # Focus
+    focus: Getting stuff done
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Agro-Industrial Engineer with experience in finance and agricultural production. 
+      Spent two years as a billing representative, honing analytical skills, attention to detail, and financial process management. 
+      Transitioned into greenhouse flower production, applying problem-solving abilities and process optimization skills in a hands-on agricultural setting. 
+      Over four years, gained expertise in crop management, quality control, and production efficiency. 
+      Strong adaptability and a well-rounded understanding of both financial and agro-industrial operations.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: sergio9523@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: https://github.com/sergiorjuel #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sergiorjuel
+    
+    twitter: 'sergiorjuela' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Football
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Agro-industrial Engineering
+      university: University of Tolima
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2014 - 2020
+      details: |
+        In agro-industrial engineering, processes are designed and implemented that integrate primary production, transformation and marketing of products, based on the comprehensive use of raw materials of biological origin.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Greenhouse assistant
+      time: 2022 - Present
+      company: Gertens Greenhouses 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        -Supervise and operate the production line (planting cuttings)
+        -Works in the postharvest area (verify, monitor, and apply treatments according to the type of
+        flower for its packaging and subsequent shipment)
+        -Logistic work in the shipping area (personnel management, checking checklists and inventory
+        management).
+
+          
+
+    - role: Billing representative
+      time: 2020 - 2022
+      company: Stanley Black and Decker
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Manages invoicing, processes payments, verifies billing information, and handles customer inquiries regarding their bills. They ensure accuracy in account records, follow up on unpaid balances, and collaborate with other departments to maintain smooth billing operations. Strong attention to detail and communication skills are key for this role.
+
+
+
+# Your project portfolio
+projects:
+
+    assignments:
+      - title:    Instagram post
+        # optional
+        project_logo: https://github.com/4GeeksAcademy/bootstrap_instapost_sergiorjuelapt46
+        link: "#hook"
+        tagline: "An Instagram post design using bootstrap"
+
+
+
+skills:
+    toolset:
+
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      
