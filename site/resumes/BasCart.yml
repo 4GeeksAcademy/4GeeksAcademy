@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:   
+
+    # Your full name
+    first_name: Bastian
+    last_name: Cartagena
+    
+    # Define yourself in 4-5 words
+    motto: Busco el arte del mundo
+    
+    # Focus
+    focus: Ver más alla
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me encanta la programción, el poder crear un mundo nuevo en cada archivo me parece fascinante, el crear un programa desde cero e instruirlo para que se ejecute como uno espera me insentiva a hacer más.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: b.cartagena.paredes@gmail.com #optional
+    phone: +56 9 5515 1573  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BasCart
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: escribir
+
+      - item: videojuegos
+
+      - item: pintar
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer
+      university: 4 Geeks Academy
+      # optional
+      university_logo: https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png
+      time: 2025
+      details: |
+        Actualmente estoy estudiando un Bootcamp Full-stack software developer en donde estoy adquiriendo el conocimiento necesario para desenvolverme en el mundo de la programación.
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: vendedor
+      time: 2024 - Presente
+      company: Scoop
+      # optional
+    - role: ayudante de tienda
+      time: 2022-2024
+      company: Bazarhs
+      # optional
+
+    
+# Your project portfolio
+projects:
+    assignments:
+      - title: Generador de excusas
+        # optional
+        link: https://github.com/BasCart/BasCart-gen-de-ex-2
+        tagline: "Codigo que genera frases aleatorias cada vez que se recarga la pagina."
+
+      - title: Photo feed
+        # optional
+        link: https://github.com/BasCart/BasCart-insta-photo-feed/blob/main/index.html
+        tagline: "Proyecto donde se hizo una imitación de un perfil de instagram, manteniendo un formato similar, pero agregando un estilo externo."
+
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+
+      - name: JavaScript
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ilustrator
+        level: 30%
+
+      - name: Photoshop
+        level: 30%
