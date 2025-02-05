@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Massimo
+    last_name: Boschetti
+    
+    # Define yourself in 4-5 words
+    motto: I like learning all I can
+    
+    # Focus
+    focus: Nothing really
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        Junior Graphic designer with 2 years of experience looking to 
+        expand my skills, actually learning to code
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQH8vLnUaArPDQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692815850008?e=1744243200&v=beta&t=doIAFa6SecUsaNuNHYX7XFnB9oJ180Scw7ixF9T4SH0
+
+    # Contact Information
+    email: massimog.boschettib@gmail.com #optional
+    phone: +58 424 158 7450 #optional
+    linkedin: in/massimogboschetti/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MashiM0
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Skating
+
+      - item: Gaming
+
+      - item: Fine Arts
+
+# Your previous education
+education:
+    - degree: Associates Degree in Graphic Design
+      university: IUDLM
+      # optional
+      university_logo: https://media-exp1.licdn.com/dms/image/C4E0BAQH3CCjbGpWm9Q/company-logo_200_200/0/1650393773844?e=2147483647&v=beta&t=89np8SPdxmIYfJPYQIIeVAQBpBMpA4reM8kaL8qiTx0
+      time: 2022 - 2024
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: UX/UI and Graphic Designer
+      time: 2024 - Present
+      company: Venezolano de Crédito, Venezuela
+      # optional
+      company_logo: https://www.venezolano.com/images/galeria/108_1.png
+      details: |
+        In charge of the development and design of graphic material for web, app
+        and advertisement.
+
+          - Designed the new mobile app
+          - In the progress of updating the web page design
+
+    - role: Graphic Design Intern
+      time: 2023 - 2024
+      company: Lincrock, Colombia
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Graphic Design internship where I designed several art pieces for clothing collections,
+        social media posts and web advertisements.
+
+          - 2 clothing collections designed
+          - 1 month worth of social media content
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Branding and UI/UX
+        # optional
+        project_logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbrandslogos.com%2Fwp-content%2Fuploads%2Fimages%2Flarge%2Fbehance-logo.png&f=1&nofb=1&ipt=65e48023ca4618c9f27b4af4077f7d1f3efc8ef9ac3fc60e11abf0a3da594bf1&ipo=images
+        link: "https://www.behance.net/massimoboschet1"
+        tagline: "Link to my Design projects"
+
+skills:
+    toolset:
+      - name:  Illustrator & Photoshop
+        level: 75%
+
+      - name: Figma
+        level: 50%
+        
+      - name: HTML5 & CSS
+        level: 40%
+        
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Python
+        level: 15%
