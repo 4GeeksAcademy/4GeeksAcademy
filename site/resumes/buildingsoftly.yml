@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Austin
+    last_name: Mcmurry
+    
+    # Define yourself in 4-5 words
+    motto: Like it never happened
+    
+    # Focus
+    focus: Planting flowers one seed at a time
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Amateur software engineer with no actual experience in the industry.
+      Building complex and intutitive projects to boost my portfolio. 
+      Planning to takeover the industry by storm using my brain and body.
+      Seeking to leave a successful footprint on all future projects im included in. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgs.search.brave.com/10MJOgGUb3axgMkhgieRn5_PjyocRsxql-11mVXUV68/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQ4L2Q0/LzVhLzQ4ZDQ1YTM2/NDM3MGE0MmNjYWIx/N2RhN2U0YjQxMGQy/LmpwZw
+
+    # Contact Information
+    email: a.c.mcmurry@me.com #optional
+    phone: 972 469 4840 #optional
+    website: me.com #optional
+    linkedin: acmcmurry #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: buildingsoftly
+    
+    twitter: 'buildingsoftlyy' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: 
+        level: 
+
+      - idiom: 
+        level:
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Resistance training
+
+      - item: Threat intelligence
+
+# Your previous education
+education:
+    - degree: computer science
+      university: University of Rochester
+      # optional
+      university_logo: https://imgs.search.brave.com/LihcYAbegVs13M5rcT_VyYnOAO8K_R7Ay0orX0ZnoH4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzVh/MTI0ZjdlNjkyZWJl/MmYzZTVkZmY3Yy8x/NTY2OTQyMzUzOTY1/LTg2RFAxRVQwWFVR/VUZQS01UOUpEL3Vu/aXZlcnNpdHktb2Yt/cm9jaGVzdGVyLXVv/ZnItbG9nby1jb25j/ZXB0LTE4LnBuZw
+      time: 2023 - Present
+      details: |
+        Computer Science student with interest in computational biology. 
+        Minoring in Biology. 
+
+    - degree:
+      university: 
+      # optional
+      university_logo:
+      time: 
+      details: |
+        
+# Your previous job experiences or volunteer
+experiences:
+    - role: Student
+      time: 
+      company: 
+      # optional
+      company_logo:
+      details: |
+
+    - role:
+      time:
+      company:
+      # optional
+      company_logo:
+      details: |
+
+    - role:
+      time:
+      company:
+      # optional
+      company_logo:
+      details: |
+
+# Your project portfolio
+projects:
+    intro: >
+      4Geeks Academy Projects
+
+    assignments:
+      - title: 
+        # optional
+        project_logo:
+        link:
+        tagline:
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline:
+
+      - title:
+        # optional
+        project_logo:
+        link: 
+        tagline:
+
+      - title:
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title:
+        # optional
+        project_logo: 
+        link:
+        tagline:
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Bash
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java
+        level: 85%
+
+      - name:
+        level: 
