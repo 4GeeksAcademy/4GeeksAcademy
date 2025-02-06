@@ -1,0 +1,123 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Oscar
+  last_name: Bolaños Chacon
+
+  motto: A passionate computer enthusiast
+
+  focus: Acquire knowledge
+
+  summary: |
+    I have worked as a product builder, costumer service agent and as a team leader or supervisor.
+    I have the certificates English b2+, Generative AI, CCNA Introduction to Network and soft skills.
+    Now I am working hard to get the Full Stack Developer and Linux Administrator certificates.
+
+  avatar: https://avatars.githubusercontent.com/u/192293537?s=400&u=2c3ea49098f051d8070a9e64f6757126a7a4a815&v=4
+
+  # Contact Information
+  email: totmom07@gmail.com
+  phone: 506-7021-6172
+  linkedin: oscaranbocha
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: Togitahub
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+  # Interests or hobbies
+  interests:
+    - item: Playing Soccer
+
+    - item: Programming
+
+    - item: Learn new things
+
+# Your previous education
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - Current
+    details: |
+      As a Software Full Stack developer I handle both front-end and back-end development,
+      from design and implementation to deployment and maintenance.
+      I'm proficient in a range of programming languages and technologies.
+
+  - degree: Linux Administrator
+    university: Virtual Learning Academy
+    # optional
+    university_logo: https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2158383583/settings_images/bf5fa-a20d-6f27-473b-755cbfd064_eb2ddfe-3c70-3e80-4d00-1456d0c0248_Logo_VLA_version_negativa_a_un_color_Blanco.webp
+    time: 2025 - Current
+    details: |
+      As a Linux Administrator, I'm responsible for the upkeep, configuration, and reliable operation of
+      computer systems running the Linux operating system. 1   My work includes installing and configuring Software,
+      managing users and permissions, ensuring system security, troubleshooting issues, and monitoring performance.
+      I strive to keep systems running smoothly and efficiently.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Team Leader
+    time: 2024 - 2025
+    company: DDS Lab
+    details: |
+      - Supervising the milling and sintering area
+      - Team leader responsibilities
+      - Office and Outlook package
+      - Handling tableau
+      - Production reports, spreadsheets and more
+      - Data analytics
+      - Repair different industrial machines
+
+  - role: Costumer Serive Agent
+    time: 2023 - 2023
+    company: Support Services Group
+    details: |
+      - Costumer service via calls
+      - Systems like Salesforce and others
+      - Billing and scheduling services
+
+  - role: Product Builder 1
+    time: 2022 - 2022
+    company: Boston Scientific
+    details: |
+      - eDHR responsibilities in Boxing
+      - Systems such as SAP, MES, Excel, etc.
+      - Inventory control and warehouse activities
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Elixir Template Practice
+      link: https://github.com/Togitahub/ElixirTemplatePractice
+      tagline: "A responsive website template. I watch a YouTube video to practice"
+
+    - title: Excuses Project
+      link: https://github.com/Togitahub/excusesProject
+      tagline: "An excuses generator system with JavaScript"
+
+skills:
+  toolset:
+    - name: JavaScript
+      level: Basic
+
+    - name: HTML5
+      level: Advanced
+
+    - name: CSS
+      level: Advanced
