@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduardo
+    last_name: Chavez
+    
+    # Define yourself in 4-5 words
+    motto: I like traveling a lot 
+    
+    # Focus
+    focus: Learning how to code 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Passionate and detail-oriented software developer with a strong background in coding, problem-solving, and software development. Experienced in designing, developing, and maintaining applications using various programming languages and frameworks. Adept at collaborating with teams to create efficient, scalable, and innovative solutions. Continuously learning and adapting to new technologies to enhance performance and meet industry standards. Committed to delivering high-quality code and optimizing systems to drive business success.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C5603AQE8zRT-oNVyTQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1646255954891?e=1744243200&v=beta&t=HZ3DIWRDP1iZwH2tFBtyWDRZH85oWo_aOylwWXBMOHA
+
+    # Contact Information
+    email: ejosechavezl94@gmail.com#optional
+    phone: 634 729 742 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/eduardo-chavez-lopez-57aa78146/  #optional
+    
+
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ejosechavezl94
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermadiate
+
+      - idiom: Spanish 
+        level: Nativo 
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Traveling
+
+      - item: Visiting new places 
+
+# Your previous education
+education:
+    - degree: Degree in Modern languages 
+      university: Univesity americo vespucio Venezuela 
+      # optional
+      university_logo: https://tecnologicoav.com/site/images/custom/tecav_logo_43_aos_v6_final_horizontal.png
+      time: 2015 - 2017
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcionist 
+      time: 2022-2024 
+      company: W Hotel Barcelona 
+      # optional
+      company_logo: https://yt3.googleusercontent.com/aG90IFlTqJxQi4k3OiKzXomxeKx1JfDRprEZgBJvw5I0RD49QPvCM8SBOf05jhHxWTVHDTUdkv4=s900-c-k-c0x00ffffff-no-rj
+      details: responsibilities include providing a personalized and warm welcome to guests, ensuring their well-being is always a priority. You will manage front desk operations, including reservations, check-in/check-out procedures, and guest services. Maintaining a clean and organized environment, adhering to high standards of cleanliness and safety, is essential. Effective communication and collaboration with various hotel departments are crucial to facilitate guest requests and ensure a seamless experience
+        
+    - role: Recepcionist 
+      time: 2024- Present
+      company: Soho house Barcelona
+
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLAX2tyXnGuw2QgVNDDQF77Co0Oq793AMMDA&s
+      details: As a Receptionist at Soho House Barcelona, you will be the first point of contact for members and guests, ensuring a warm and seamless experience. Responsibilities include managing check-ins, check-outs, and reservations while handling special requests. Fluency in English and Spanish is required, with Opera software knowledge preferred. The role offers training, growth opportunities, and perks such as staff events, gym access, and partner discounts.
+        
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Instagram Feed
+        # optional
+        project_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png
+        link: "https://github.com/ejosechavezl94/Instagram-feed.git"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+    toolset:
+      - name: Sabre Interact - Airlines 
+        level: 98%
+
+      - name: Opera system 
+        level: 98%
+
+      - name: McOs 
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 20&
+
+      - name: javascript 
+        level: 20%
