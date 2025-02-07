@@ -30,7 +30,7 @@ basic_info:
 
     # Contact Information
     email: ejosechavezl94@gmail.com#optional
-    phone: 234 2342 342 #optional
+    phone: 634 729 742 #optional
     website: asd.com #optional
     linkedin: https://www.linkedin.com/in/eduardo-chavez-lopez-57aa78146/  #optional
     
@@ -106,23 +106,11 @@ projects:
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: Instagram Feed
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
+        project_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png
+        link: "https://github.com/ejosechavezl94/Instagram-feed.git"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
