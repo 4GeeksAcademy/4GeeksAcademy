@@ -1,0 +1,193 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cesar Eduardo
+    last_name: Arnetta
+    
+    # Define yourself in 4-5 words
+    motto: I like music instruments
+    
+    # Focus
+    focus: In develop my skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have experience in publicity comunications throught social media marketing as Instagram and Facebook, usings Facebook ads,
+      soial media content schedule programs, and other utilities in order to achive the goals and cover companies's needs. Therefore, I also,
+      have experience in administrative tasks, using tools as Microsoft Excel, SAP, and intern administrative programas of the companies.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4D03AQFM-GB7FeZR3Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1527294969428?e=1744243200&v=beta&t=xJl70JkQLEIhn6g7zlDAtqU45jGTJCrVN09M4Pydn-8
+
+    # Contact Information
+    email: cesararnertta@gmail.com #optional
+    phone: 674867310 #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/c%C3%A9sar-eduardo-arnetta-4102717a/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cesararnetta
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Conversational
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Watch and learn about finance and stock market
+
+      - item: Listen music and see new ways to play musical instruments
+
+      - item: Watch series and movies
+
+# Your previous education
+education:
+    - degree: Social Comunication Degree
+      university: Universidad Católica Andrés Bello
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1159188851736436738/i9W7A4Mb_400x400.jpg
+      time: 2012 - 2017
+      details: |
+        Social Comunicatiosn is a carrer that goal is to know all the knoeledge and skills to understand lenguages sintaxtis
+        and their media comunications. In my case I speciliazed in Publicity mention. The skill I get in this degree:
+
+          - Comprenhesion of the lenguage's sintaxys
+          - Publicity models for companies and brands
+          - Persona and profesional improve of my comunication skills
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Auxiliar Administrative
+      time: 20122 - Present
+      company: Emais S.L., Barcelona, Spain
+      # optional
+      company_logo: 
+      details: |
+        My job is about doing all the administrative and logistic taks of third party companies, that, in this case, is focus on
+        real state industry. The tools that ussualy used in day by day:
+
+          - Microsoft Excel
+          - SAP
+          - Administrative data system developmente by companies that we offer services.
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 90%
+
+      - name: JavaScript 
+        level: 60%
+
+      - name: CSS
+        level: 85%
+
+      - name: Photoshop
+        level: 90%
+
+      - name: Illustrator
+        level: 75%
+
+      - name: Wordpress
+        level: 80%
