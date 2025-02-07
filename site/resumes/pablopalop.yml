@@ -1,0 +1,180 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Palop Otaegui
+    
+    # Define yourself in 4-5 words
+    motto: "Experienced Business Consultant"
+    
+    # Focus
+    focus: "Strategic Analysis & Optimization"
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Experienced Business Consultant skilled in strategic analysis and operational optimization.
+      Proven ability to drive organizational improvements through data-driven insights and
+      effective leadership. Expertise in identifying efficiencies, implementing process enhancements, 
+      and fostering collaborative relationships to achieve business goals.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: pablo.palopi1@gmail.com #optional
+    phone: +34 649948125 #optional
+    #website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/pablo-palop-112014180/ #optional
+    github: pablopalop
+    #twitter: 'webjeda' #optional
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Tennis/Padel
+      
+      - item: Football
+
+      - item: Hiking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Aerospace Engineering - Airport & Air Transport Management
+      university: Universidad Politécnica de Madrid
+      university_logo: https://salondeidiomas.es/wp-content/uploads/2020/01/logo-UPM.png
+      time: 2016 - 2022
+      details: |
+        - Comprehensive studies in aerospace engineering with a focus on airport and air transport management.
+        - Research and analysis on smart cities development.
+        - SQL Advanced skills (April 2022).
+        - Python for Data Science, AI and Development (IBM Corp.).
+      
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - Present
+      details: |
+        - Web development training in modern technologies.
+        - Backend and frontend development.
+        - Agile methodologies and software deployment.
+
+# Your previous job experiences or volunteer
+experiences: 
+    - role: Business Analyst - HQ - Global 
+      time: Oct 2024 - Present
+      company: Job&Talent, Madrid-Spain
+      company_logo: https://images.ctfassets.net/5uneurb5huq8/6XgwcAzMxsacZT0QAW4rGX/a2842adeb955f7f12bbb133ae30769a3/220505.png
+      details: |
+        - Leading acquisition projects from the Supply team to increase activation and retention of leads from the marketplace.
+        - Implementing strategies to enhance user engagement within the platform.
+        - Data analysis and process optimization to maximize lead conversion into active users.
+        - Providing strategic support to the Strategy and People teams on key initiatives for expansion and operational efficiency.
+
+
+    - role: Operations Manager
+      time: Oct 2023 - Sept 2024
+      company: Charlie & Franks, Sydney-Australia
+      company_logo: https://d29863819cymls.cloudfront.net/flex-charlieflex/media/images/625cf725ef761_Charlie_Franks_Logo.png
+      details: |
+        - Managing stakeholders and suppliers.
+        - Coordinating deliveries and logistics.
+        - Optimizing and automating business processes.
+        - Overseeing team and labor management.
+
+    - role: Business Analyst - Germany/France/Sweden
+      time: Feb 2022 - Oct 2023
+      company: Job&Talent, Madrid-Spain
+      company_logo: https://images.ctfassets.net/5uneurb5huq8/6XgwcAzMxsacZT0QAW4rGX/a2842adeb955f7f12bbb133ae30769a3/220505.png
+      details: |
+        - Supporting international business operations in multiple markets.
+        - Implementing automated processes for account management.
+        - Conducting financial analysis and strategic planning.
+        - Managing CRM platforms and internal business reporting.
+        - Leading support team for international markets (France, Germany, Sweden, Spain).
+        - Providing account management support and automating processes.
+        - Conducting financial and business analysis and strategic planning.
+        - Improving business processes and developing internal proposals for business growth.
+        - Managing databases and CRM platforms.
+
+    - role: Project Engineer
+      time: Sept 2021 - Feb 2022
+      company: HAW, Hamburg-Germany
+      company_logo: https://lhk-hamburg.de/wp-content/uploads/2019/11/HAW-Logo_RGB_300dpi-1024x377.jpg
+      details: |
+        - Spearheaded research and development for an electric push-back vehicle.
+        - Integrated remote control features into vehicle design.
+        - Conducted extensive prototype testing to optimize performance.
+        - Assessed market trends and competitor products for differentiation.
+        - Provided feasibility analysis and recommendations for improvements.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Demonstrating real-world applications of your skills and knowledge.
+
+    assignments:
+      - title: Velocity
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market, and sell their products."
+
+      - title: DevStudio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A website template for startups to promote products/services and attract users."
+
+      - title: Atom
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A website solution for startups/developers to market mobile apps."
+
+      - title: Delta
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A Bootstrap one-page theme to help app developers promote mobile apps."
+
+skills:
+    toolset:
+      - name: Python & Data Science
+        level: 90%
+
+      - name: SQL & Database Management
+        level: 85%
+
+      - name: Business Intelligence & Analysis
+        level: 95%
+
+      - name: Strategic Planning & Operations
+        level: 98%
+
+      - name: Microsoft Office & Google Suite
+        level: 95%
+
+      - name: Process Automation & CRM
+        level: 90%
