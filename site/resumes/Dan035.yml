@@ -17,8 +17,8 @@ información_básica:
       Actualmente estoy estudiando un bootcamp de Desarrollo Web Full Stack durante el cual estoy aprendiendo a mejorar mi pensamiento lógico y desarrollar varios proyectos de programación.
     # Enlaces de la barra lateral
     correo_electrónico: landadlh603@gmail.com
-    linkedin: https://www.linkedin.com/in/daniel-landa-57337b349/
-    github: https://github.com/Dann035
+    linkedin: daniel-landa-57337b349
+    github: Dann035
     stack-overflow: # Número/Nombre de usuario, por ejemplo 123456/alandoe
 
     idiomas:
@@ -48,7 +48,7 @@ proyectos:
     intro: >
       Aquí puedes encontrar un resumen de mis proyectos realizados en 4Geeks Academy en mis primer mes de bootcamp.
     tareas:
-      - título: Alimentación de fotos de Instagram
+      - título: To-do-List
         enlace: "#https://github.com/Dann035/To-do-List"
         lema: "Una To-Do-List en la que se pueden agregar tareas y eliminarlas"
 
@@ -56,7 +56,7 @@ proyectos:
         enlace: "#https://github.com/Dann035/excuse-generator-javascript-cli"
         lema: "Ejercicio basado en obtener una excusa aleatoria al cargar el navegador con JavaScript."
 
-      - título: Generador de dominios
+      - título: Pokedex
         enlace: "#https://github.com/Dann035/Pokedex-1erProyect-Api"
         lema: "Un ejercicio basado en obtener datos de una API y mostrarlos en la página web con JavaScript."
 
