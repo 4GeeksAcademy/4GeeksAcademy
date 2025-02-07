@@ -1,0 +1,191 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Ignacio
+    last_name: Ibarra Lemp
+    
+    # Define yourself in 4-5 words
+    motto: Trust facts, trust data
+    
+    # focus
+    focus: Translate data into useful business insights that drive optimal decision making.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      The last ten years I've been dedicated to the wine and spirits industry, first in production working for wineries in Chile, Australia and Germny. More recently, I shifted within the wine indsutry towards sales and marketing in export markets in South East Asia. I've learned how to engage with different
+      people through these experiencies and adapt to different work environments, while also building my language skills and self confidence.
+  
+      Data tools have brought great value to my performance in every job role I've had. My professional journey continues in the direction of extracting as much value as possible from the increasing amount of data that institutions and individuals generate nowadays..
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/10X9VAFA63Iu40D1ZKhHHhQAKCpeAZ3SG/view?usp=sharing
+
+    # Contact Information
+    email: j.ibarralemp@outlook.es #optional
+    phone: +569 8230 0004 #optional
+    website: https://github.com/jilemp #optional
+    linkedin: https://www.linkedin.com/in/jose-ignacio-ibarra/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/jilemp
+    
+    #X: 'webjeda' #optional
+    stack-overflow: 23352615/josé-ignacio-ibarra-lemp # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Fluent
+
+      - idiom: English
+        level: Fluent
+
+      - idiom: French
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Football
+
+      - item: Wine
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BSc Agricultural Sciences - Viticulture and Winemaking
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo: https://cdn.worldvectorlogo.com/logos/universidad-catolica-de-chile.svg
+      time: 2011 - 2016
+      details: |
+        Bachelor formation in biology, chemistry and technical aspects related to agriculture. Strong focus in wine production from the vineyard to the final product. Also complemented with algebra, calculus, applied statistics and general business management.
+
+          - #1 Academic performance in Viticulture and Winemaking specialization
+          - Teaching Assistant: Plant Phisiology, Statistics, Oenology Laboratory
+
+    - degree: MSc Wine & Spirits Management
+      university: Kedge Business School Bordeaux, France
+      # optional
+      university_logo: https://cdn.prod.website-files.com/63adeb748ce5f04501ae5df2/665ecd5a4d1f6ec704964908_63724c6fc3868a1182b2887d_nouveau-kedge_logo-1024x351.png
+      time: 2017 - 2019
+      details: |
+        International business program dedicated to professionals in the wine industry. Formation in economics, finance, marketing, sales, wine knowledge and general management.
+        Particular space also dedicated to the development of soft skills and collaboration with people from different background and countries.
+
+          - Development of business acumen
+          - Strengthening of soft skills and team work
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Business Development Manager
+      time: 2022 - 2024
+      company: Winecellar.vn, Vietnam
+      # optional
+      company_logo: https://scontent.fscl25-1.fna.fbcdn.net/v/t39.30808-6/341695390_1261353468145147_2862128833670988923_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHq6hz9yLPVxoeAabA3ZqBXK7sAtUMsmw8ruwC1QyybD6RzggKuGsWl7vchNdxQ1z_oKxLEA6_jyll6jqtarjKZ&_nc_ohc=s2AUcG72ISgQ7kNvgHOPuRO&_nc_oc=AdjtzUY3a46yIkN5wtK6jy57lkO0YlvP4xeT9vcucwHLxLXjDBL6Qejd-bblG6PDzb4&_nc_zt=23&_nc_ht=scontent.fscl25-1.fna&_nc_gid=AjMq3kqBW709GJzxvWxuNYp&oh=00_AYD5gtLUD2wW2cqueQm1vBAcU2CjhZqVWDVB0X2dVNu93Q&oe=6778DCDF
+      details: |
+        Regional Sales and Marketing Representative in Ho Chi Minh City.
+        Expansion and development of the HORECA channel withn new and existing clients.
+        Training for client's staff and organization of commercial and public events.
+        Periodic sales projection and goals for key products and new brands.
+
+          - Building long-term relationships with clients
+          - Sustained accomplishment of sales targets
+
+    - role: Sales & Marketing Representative
+      time: 2020 - 2022
+      company: Vinifera, Vietnam
+      # optional
+      company_logo: https://viniferavn.com/wp-content/uploads/2024/06/Logo-Vinifera-trans-2024-1.png
+      details: |
+        Regional Sales and Marketing Representative in Ho Chi Minh City.
+        Expansion and development of the HORECA channel with new and existing clients,
+        wine training for client's staff, organization of trade shows and events open to the public and 
+        development of catalogues and marketing material.
+
+          - Sales planning for team based on historical records and projections
+          - Development of sales and marketing strategy for the sales team
+
+    - role: Marketing Manager
+      time: 2018 - 2019
+      company: House of Fine Wines, Hong Kong
+      # optional
+      company_logo: https://s3.eu-west-1.amazonaws.com/static.fw1.biz/images/278546_HOFWS+LOGOV!WEB.png
+      details: |
+        Organization of corporate and commercial events and development of marketing strategies for exclusive brands. Management of platforms for online sales, support for sales team in meetings and wine tastings with clients to introduce new products. Development of marketing material. Management of social networks and customer databases for communication and follow-up.
+        
+        - Marketing strategy development
+        - Sales support through data and technical training on wine products
+
+# Your project portfolio
+projects:
+    intro: >
+      A list of projects I've worked or contributed on:
+
+    assignments:
+      - title: Riskova
+        # optional
+        project_logo: https://www.canva.com/design/DAGYLIr0wVU/NeyNTXJaASBWuf2fUrC0iw/view?utm_content=DAGYLIr0wVU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h96dc78469f
+        link: "https://github.com/No-Country-simulation/c22-31-m-data-bi/tree/main"
+        tagline: "A demo of a tool to identify fraudulent activity in credit transactions using machine learning."
+
+      # - title: DevStudio
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      # - title: Tempo
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      # - title: Atom
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      # - title: Delta
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 90%
+
+      - name: SQL
+        level: 90%
+
+      - name: Django
+        level: 60%
+
+      - name: Power-BI
+        level: 90%
+
+      - name: RStudio
+        level: 50%
+
+      - name: Git
+        level: 90%%
+
+      - name: Scikit-learn
+        level: 60%
