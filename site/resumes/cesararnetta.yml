@@ -13,16 +13,21 @@ basic_info:
     last_name: Arnetta
     
     # Define yourself in 4-5 words
-    motto: I like music instruments
+    motto: Positive, empathetic, adaptive, reflective and fair
     
     # Focus
-    focus: In develop my skills
+    focus: Give my best and learn in the process
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      I have experience in publicity comunications throught social media marketing as Instagram and Facebook, usings Facebook ads,
-      soial media content schedule programs, and other utilities in order to achive the goals and cover companies's needs. Therefore, I also,
-      have experience in administrative tasks, using tools as Microsoft Excel, SAP, and intern administrative programas of the companies.
+      I have 3 years of experience as an administrator, in the Facility Management area,
+      covering the complete management of possessions and basic adaptations of properties;
+      carrying out processing and analysis activities in databases,
+      monitoring and logistical planning of actions and management of client and supplier billing.
+      Additionally, I have 7 years of experience doing digital marketing and content creation work
+      for different brands. I have learned web development on my own. I offer a combination of efficiency and friendliness,
+      which makes me a professional with whom it will be easy to work as a team.
+
       
     
     # Your profile picture URL
@@ -31,8 +36,8 @@ basic_info:
 
     # Contact Information
     email: cesararnertta@gmail.com #optional
-    phone: 674867310 #optional
-    website:  #optional
+    phone: +34 674867310 #optional
+    website: https://cearagency.com/cesar-eduardo-arnetta-cv/  ;  https://dulcerecetario.com/    #optional
     linkedin: https://www.linkedin.com/in/c%C3%A9sar-eduardo-arnetta-4102717a/ #optional
     
     #
@@ -74,103 +79,95 @@ education:
           - Publicity models for companies and brands
           - Persona and profesional improve of my comunication skills
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
 # Your previous job experiences or volunteer
 experiences:
     - role: Auxiliar Administrative
       time: 20122 - Present
-      company: Emais S.L., Barcelona, Spain
+      company: Emais Servicios Integrales S.L., Barcelona, Spain
+      # optional
+      company_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.emais.es%2F&psig=AOvVaw3mqDbbZ9X3Ef4igGBcNMHt&ust=1739045722623000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDeoaewsosDFQAAAAAdAAAAABAE
+      details: |
+        My job is about doing all the administrative and logistic taks for third party companies, that, in this case, is focus on
+        real state industry. The tools that ussualy used in my day by day:
+
+          - Client and supplier billing control
+          - Generation of budgets for the execution of work related to locksmithing, removal of belongings, cleaning, commercial photos and/or virtual tours of properties.
+          - Monitoring the actions of suppliers and their routes nationwide.
+          - Update database in Excel and internal management systems, designed by the company and the client. Occasional use of SAP and SQL
+
+    - role: Personal project
+      time: 2019 - present
+      company: World project
+      # optional
+      company_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fdulcerecetario.com%2F&psig=AOvVaw2buaaX9e86YELCLpFUMBNY&ust=1739046162711000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjflfyxsosDFQAAAAAdAAAAABAE
+      details: |
+        I have two porjects develop by myself using my knowledge in HTML, CSS and using Wordpress as a tool for packing and distribute the content
+        Cear Agency refers to my ideal publicity agency, and I used this format in order to show my skills to a posible customer that required social media and publicity services.
+        Dulce Recetario is the other one, that I fell proud, because I want to create a comunication medium with a topic that we loved: sweet recipes.
+        cearagency.
+
+          - Wordpress
+          - Mailchimp
+          - Forms
+          - HTML
+          - CSS
+          - SEO
+          - Facebook Ads
+          - Amazon Afiliates
+          - Google Analytics
+
+    - role: Social Media Manager and creative writter
+      time: 2015 - 2022
+      company: Venezuela and Argentina
       # optional
       company_logo: 
       details: |
-        My job is about doing all the administrative and logistic taks of third party companies, that, in this case, is focus on
-        real state industry. The tools that ussualy used in day by day:
+        Task doing on this projects: Content writing, press, social networks and internal and external corporate blogs. Image editing and short videos on social networks. Facebook Ads.
+        Themes worked on: Recipe book specializing in desserts. Sale and after-sale of yachts and supplies. Professional embroidery for companies and clients. IT services, sales of software and tax machines. Engineering of mega projects such as oil plants, among others. Technology press, curiosities and support in entertainment, politics and economics
 
-          - Microsoft Excel
-          - SAP
-          - Administrative data system developmente by companies that we offer services.
+          - 2019/11 - 2022/02 Social Media Manager • Yacht Center
+          - 2019-06 - 2022/02 Social Media Manager • Bordaclick
+          - 2018-07 - 2019/11 Social Media Manager • Sigma Group Tech
+          - 2018-07 - 2019/11 Social Media Manager • Saint Argentina
+          - 2018-02 - 2018/10 Redactor Creativo • Vepica
+          - 2015-07 - 2015/10 Redactor en prácticas • Bloque de Armas (Diario 2001)
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      There is some project that I already done in the fullstack development bootcamp at the moment
 
     assignments:
-      - title: Velocity
+      - title: Form in HTML
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/Form-in-HTML-Cesar-Arnetta
+        tagline: "A responsive form page, only front end, to submit payment info using bootstrap styles"
 
-      - title: DevStudio
+      - title: Instagram post layout 
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/Instagram-Post-Layout-Cesar-Arnetta
+        tagline: "A responsive Instagram post layout, using for the first time, flexbox property."
 
-      - title: Tempo
+      - title: Instagram build with two displays using bootstraps styles
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/Instagram-photo-pheed-Cesar-Arnetta
+        tagline: "A responsive website of Instagram photo feed layouts, unique post in a column and gallery of photos, using bootstrap styles."
 
-      - title: Atom
+      - title: Multi version resume
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/Cesar-Arnetta-exercise-build-your-resume-html-css
+        tagline: "A multi version of resume, adding steps of dificulty, that is not complete done, I have to finish the third version, but you can enjoy it."
 
-      - title: Delta
+      - title: An excuse generator with HTML, CSS, JavaScript
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/Cesar-Arnetta-Code-an-Excuse-Generator-in-JavaScript-1
+        tagline: "A website that use JavaScript arrays and put in the front end of the page every time you refresh teh page, in order to simulated an excuse generator"
 
 skills:
     toolset:
@@ -178,7 +175,7 @@ skills:
         level: 90%
 
       - name: JavaScript 
-        level: 60%
+        level: 70%
 
       - name: CSS
         level: 85%
