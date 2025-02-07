@@ -32,8 +32,8 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: viryloya14@gmail.com
+    phone: 5574805575 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
@@ -66,8 +66,8 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: CIENCIAS DE LA TIERRA
+      university: IPN
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
