@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis
+    last_name: Oballos
+    
+    # Define yourself in 4-5 words
+    motto: melómano TDAH ingeniero exintrovertido 
+    
+    # Focus
+    focus: Ford
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero biomédico especializado en tecnologías de apoyo a la discapacidad, equipología biomédica, procesamiento de señales e imágenes médicas, bases de datos, realidad virtual y desarrollo de software. 
+
+      Experiencia en gestión de operaciones y desarrollo de aplicaciones de realidad virtual para la rehabilitación. Comprometido con la innovación y el aprendizaje continuo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: luis.oballosm@gmail.com #optional
+    phone: 638173542 #optional
+    website: https://github.com/luisoballos #optional
+    linkedin: https://www.linkedin.com/in/luis-oballos-mancini/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: luisoballos
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Cycling
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Master's in Data Science & AI
+      university: Evolve Academy
+      university_logo: data:image/jpeg;base64,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
+      time: 2025 (ongoing)
+      details: |
+        Currently studying Data Science and Artificial Intelligence with a focus on:
+          - Pandas and data manipulation
+          - SQLite and database management
+          - Power BI for data visualization
+
+    - degree: Full-Stack Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 (ongoing)
+      details: |
+        Learning full stack development with:
+          - HTML, CSS, JavaScript
+          - Backend development (Flask and React)
+
+    - degree: MSc in Biomedical Engineering
+      university: Universidad CEU San Pablo, Madrid
+      time: 2022
+      details: |
+        Specialized in assistive technologies and signal processing. Master's thesis on:
+          - Development of a VR application for personalized upper limb rehabilitation
+          - Improved patient assessment accuracy by 30%
+
+    - degree: BSc in Biomedical Engineering
+      university: ECI Julio Garavito, Bogotá
+      time: 2019
+
+# Your previous job experiences or volunteer
+experience:
+    - role: Operation coordinator
+      time: Nov 2022 - Present
+      company: Natas D'Ouro, Madrid
+      details: |
+        - Ensured product quality standards
+        - Managed daily operations and inventory
+        - Ensured compliance with health regulations
+        - Led production and team coordination
+        - Improved operational efficiency and built a high-performing customer service team
+
+    - role: Waiter
+      time: Apr 2022 - Aug 2022
+      company: Goiko Grill
+        - Developed strong communication and teamwork skills
+        - Gained experience in time management and problem-solving
+
+    - role: Student Researcher
+      time: Mar 2021 - Feb 2022
+      company: Universidad CEU San Pablo, Madrid
+      details: |
+        - Developed a VR application for QUEST test in patients with muscle function loss
+        - Collaborated with university department and a multidisciplinary teammates to enhance rehabilitation therapy effectiveness
+
+# Your project portfolio
+projects:
+    assignments:
+      - title: PowerUp
+        link: "https://github.com/luisoballos/quest-eval"
+        tagline: "Development of a virtual reality application to evaluate the quality of upper extremity skills test (QUEST)"
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS3
+        level: 70%
+
+      - name: C#
+        level: 60%
+      
+      - name: SQL
+        level: 60%
+        
