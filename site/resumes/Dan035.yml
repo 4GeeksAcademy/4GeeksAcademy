@@ -19,6 +19,8 @@ información_básica:
     correo_electrónico: landadlh603@gmail.com
     linkedin: daniel-landa-57337b349
     github: Dann035
+    linkedin: daniel-landa-57337b349
+    github: Dann035
     stack-overflow: # Número/Nombre de usuario, por ejemplo 123456/alandoe
 
     idiomas:
@@ -48,7 +50,7 @@ proyectos:
     intro: >
       Aquí puedes encontrar un resumen de mis proyectos realizados en 4Geeks Academy en mis primer mes de bootcamp.
     tareas:
-      - título: To-do-List
+      - título: Alimentación de fotos de Instagram
         enlace: "#https://github.com/Dann035/To-do-List"
         lema: "Una To-Do-List en la que se pueden agregar tareas y eliminarlas"
 
