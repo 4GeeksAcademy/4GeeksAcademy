@@ -9,11 +9,11 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Hugo
-    last_name: Martinez
+    first_name: Wonder
+    last_name: Woman
     
     # Define yourself in 4-5 words
-    motto: I like save the wordl
+    motto: I like saving the world
     
     # Focus
     focus: Killing Bad Boys
@@ -40,17 +40,20 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: Hugo9442
+    github: example
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: Spanish
+      - idiom: English
         level: Native
 
-      - idiom: English
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
         level: Professional
 
     # Interests or hobbies
@@ -184,20 +187,20 @@ projects:
 
 skills:
     toolset:
-      - name: 
-        level:
+      - name: Python & Django
+        level: 98%
 
-      - name: 
-        level: 
+      - name: JavaScript & jQuery
+        level: 98%
 
-      - name: 
-        level: 
+      - name: Angular
+        level: 98%
 
-      - name: 
-        level: 
+      - name: HTML5 & CSS
+        level: 95%
 
-      - name: 
-        level: 
+      - name: Ruby on Rails
+        level: 85%
 
-      - name: 
-        level: 
+      - name: Sketch & Photoshop
+        level: 60%
