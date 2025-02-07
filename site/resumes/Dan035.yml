@@ -1,0 +1,71 @@
+#
+# Ten en cuenta que incluso un pequeño error de sintaxis aquí puede provocar fallos en la salida.
+#
+plantilla: "cv-en-línea"
+tema: "rojo"
+
+información_básica:
+
+    # Información del perfil
+    nombre: Daniel
+    apellido: Landa
+    alias: z3ro
+    lema: Desarrollador Full Stack
+    avatar: https://avatars.githubusercontent.com/u/174970168?v=4
+    resumen: |
+      Me apasionan las nuevas tecnologías y siempre estoy dispuesto a aprender algo nuevo cada día.
+      Actualmente estoy estudiando un bootcamp de Desarrollo Web Full Stack durante el cual estoy aprendiendo a mejorar mi pensamiento lógico y desarrollar varios proyectos de programación.
+    # Enlaces de la barra lateral
+    correo_electrónico: landadlh603@gmail.com
+    linkedin: https://www.linkedin.com/in/daniel-landa-57337b349/
+    github: https://github.com/Dann035
+    stack-overflow: # Número/Nombre de usuario, por ejemplo 123456/alandoe
+
+    idiomas:
+      - idioma: Español
+        nivel: Nativo
+
+      - idioma: Inglés
+        nivel: Basic
+
+    intereses:
+      - elemento: Jugar al fútbol
+
+      - elemento: Programar
+
+      - elemento: Jugar VideoJuegos
+
+educación:
+    - título: Desarrollador Web Full Stack
+      universidad: 4Geeks Academy
+      tiempo: 2024 - presente
+      detalles: |
+        Bootcamp de Desarrollo Web Full Stack de cuatro meses intensivos durante el cual estoy aprendiendo a mejorar mi pensamiento lógico y desarrollar una amplia variedad de proyectos de programación con HTML5, CSS, Bootstrap, JavaScript, React JS, Python, Flask, MySQL Alchemy y más.
+          - Punto de lista
+          - Punto de lista
+
+proyectos:
+    intro: >
+      Aquí puedes encontrar un resumen de mis proyectos realizados en 4Geeks Academy en mis primer mes de bootcamp.
+    tareas:
+      - título: Alimentación de fotos de Instagram
+        enlace: "#https://github.com/Dann035/To-do-List"
+        lema: "Una To-Do-List en la que se pueden agregar tareas y eliminarlas"
+
+      - título: Generador de excusas
+        enlace: "#https://github.com/Dann035/excuse-generator-javascript-cli"
+        lema: "Ejercicio basado en obtener una excusa aleatoria al cargar el navegador con JavaScript."
+
+      - título: Generador de dominios
+        enlace: "#https://github.com/Dann035/Pokedex-1erProyect-Api"
+        lema: "Un ejercicio basado en obtener datos de una API y mostrarlos en la página web con JavaScript."
+
+
+habilidades:
+    conjunto_de_herramientas:
+
+      - nombre: HTML5 y CSS
+      - nombre: JavaScript
+      - nombre: Bootstrap
+      - nombre: Tailwinds
+      - nombre: Git
