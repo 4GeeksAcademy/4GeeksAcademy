@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adrián  
+    last_name: Martín-Romo Cañadas
+    
+    # Define yourself in 4-5 words
+    motto: eat, sleep, music, code, repeat
+    
+    # Focus
+    focus: Reaching new heights in every aspect of my life
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+Passionate about cooking, music, programming, and hiking, I combine creativity and logic in everything I do. 
+I enjoy exploring new flavors in the kitchen, creating and appreciating music, developing innovative solutions through code, and connecting with nature on every trail I hike.
+I am always looking for new challenges and learning opportunities that allow me to grow in different areas.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: c:\Users\aa\Pictures\Captura de pantalla 2025-02-07 203745.png
+
+    # Contact Information
+    email: adrianmrc94@gmail.com #optional
+    phone: 620783352 #optional
+    linkedin: https://www.linkedin.com/in/adrian-martin-romo-ca%C3%B1adas-8a5460241/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AdrianMRC 
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Music
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: A-levels in Science
+      university: Nuestra señora de la almudena
+      # optional
+      university_logo: c:\Users\aa\Pictures\Screenshots\Captura de pantalla 2025-02-07 205924.png
+      time: 2011 - 2013
+      details: |
+        Studying the Science Baccalaureate at Nuestra Señora de la Almudena has been an amazing experience, full of learning and personal growth.
+        The dedicated teachers and supportive environment have fostered curiosity, teamwork, and critical thinking.
+        This journey has not only built strong academic foundations but also created unforgettable memories, inspiring a passion for science and discovery.
+
+    - degree: Advanced Technician in Culinary Management.
+      university: Escuela Superior Hostelería y Turismo
+      # optional
+      university_logo: c:\Users\aa\Pictures\Screenshots\Captura de pantalla 2025-02-07 210627.png
+      time: 2007 - 2011
+      details: |
+        Studying at the Escuela Superior de Hostelería y Turismo was an amazing experience! 
+        The program was a perfect mix of hands-on learning and professional kitchen management skills. 
+        I got to refine my cooking techniques, learn how to manage a kitchen efficiently, and understand the business side of the culinary world. 
+        The internships were invaluable, giving me real-world experience in top-tier restaurants. 
+        It was also great to connect with passionate chefs and professionals from around the world, which gave me a broad perspective on global culinary trends. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: cook, chef, headwaiter, office, waiter, head waiter
+      time: jul 2016 - oct 2024
+      company: The Irish Rover, Kabuki Wellington, TCH Hostel, Celso y Manolo.
+      details: |
+         I gained extensive experience in various hospitality roles. 
+         I was responsible for preparing high-quality dishes, managing kitchen operations, ensuring excellent customer service, and overseeing front-of-house activities. 
+         My role involved coordinating teams, handling reservations, maintaining inventory, and ensuring smooth daily operations. 
+         Working in diverse environments, from casual dining to high-end establishments, helped me develop adaptability, leadership, and strong teamwork skills, 
+         all while delivering an outstanding guest experience.
+
+# Your project portfolio
+projects:
+    intro: >
+      At the moment, I have only completed a few projects at 4Geeks Academy. 
+      I choose to include the ones I like the most based on their content and what I have learned from them.
+
+    assignments:
+      - title: Formulario
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Formulario-HTML5-AdrianMRC"
+        tagline: "A responsive website template designed to pay in a web with varius fields to complete."
+
+      - title: PhotoFeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/bootstrap-PhotoFeed-AdrianMRC"
+        tagline: "A responsive website template designed like a Pinterest tipe web."
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 20%
+
+      - name: JavaScript 
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
