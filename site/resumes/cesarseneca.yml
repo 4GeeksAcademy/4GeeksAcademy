@@ -1,0 +1,160 @@
+template: online-cv
+skin: berry
+basic_info:
+  first_name: Joana C.
+  last_name: Fernandes
+  description: Analytical, data-driven, strategic, problem-solver, adaptable.
+  focus: Driving efficiency and growth through smart solutions.
+  summary: >
+    I am a business professional with over five years of experience in
+    operational management, business
+    development, and process optimization. My expertise lies in identifying opportunities for growth,
+    improving workflows, and implementing strategic solutions that enhance efficiency and performance.
+    I have successfully led projects across different industries, working collaboratively with multidisciplinary
+    teams to achieve tangible results. Passionate about innovation and continuous improvement, I thrive in
+    dynamic environments where challenges become opportunities.
+  avatar: https://s11.aconvert.com/convert/p3r68-cdx67/boas2-6oeva.webp
+  email: fernandesjoana8@gmail.com
+  phone: +34 633439711
+  linkedin: https://www.linkedin.com/in/joanafernandesdeandrade/
+  github: cesarseneca
+  stack-overflow: 63836/Jo-verse
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+    - idiom: French
+      level: Basic
+    - idiom: Portuguese
+      level: Basic
+  interests:
+    - item: Reading books based on the olden days
+    - item: Watching action and Sci-fi movies
+    - item: Cooking
+education:
+  - degree: MBA (Master in Business Administration)
+    university: EAE Business School
+    university_logo: https://www.eae.es/sites/all/themes/eae/img/logo-eae.svg
+    time: April 2024
+    details: >
+      Focused on business strategy, leadership, and operational management.
+      Developed skills in problem-solving,
+      decision-making, and business growth strategies.
+        - Specialization in strategic planning and process optimization
+        - Courses in financial management, marketing, and project leadership
+  - degree: Bachelor in International Business (Graduated Cum Laude)
+    university: Universidad Interamericana de Panamá
+    university_logo: https://www.uip.edu.pa/wp-content/uploads/2021/07/logo-universidad-interamericana-panama.jpg
+    time: April 2022
+    details: >
+      Studied global business operations, market analysis, and corporate
+      strategies. Developed expertise in business
+      development and international commerce.
+        - Specialized in international trade and business management
+        - Graduated with honors (Cum Laude)
+experiences:
+  - role: Network & Services Operation Associate (Business Analyst)
+    time: Oct 2022 - Present
+    company: Accenture
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/2/2a/Accenture.svg
+    details: >
+      Leading network performance optimization and process improvement
+      projects to enhance operational efficiency.
+        - Developed interactive Power BI dashboards for real-time network monitoring, improving efficiency by 18%.
+        - Implemented predictive analysis techniques to anticipate network issues, ensuring 99.9% service availability.
+        - Led multidisciplinary teams to deliver process improvement projects within tight deadlines.
+  - role: Business Process Delivery Associate
+    time: June 2022 - Oct 2022
+    company: Accenture
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/2/2a/Accenture.svg
+    details: >
+      Optimized business processes and implemented data-driven solutions to
+      enhance performance.
+        - Identified and resolved operational inefficiencies, reducing costs by 10% and increasing efficiency by 15%.
+        - Developed analytical models to assess departmental performance and improve strategic decision-making.
+        - Enhanced interdepartmental communication through workflow analysis, reducing errors by 12%.
+  - role: Business Development Manager (Admissions Support Specialist)
+    time: June 2021 - June 2022
+    company: IMF - Smart Education
+    company_logo: https://www.imf-formacion.com/themes/imf_theme/images/imf-logo.svg
+    details: >
+      Led business development and admissions support initiatives to improve
+      student enrollment and experience.
+        - Implemented a data-driven admissions process, reducing processing times by 25%.
+        - Developed growth strategies based on market research, increasing new student enrollments by 30%.
+        - Improved technical support response times by 20%, enhancing customer satisfaction.
+  - role: Academic Commercial Agent (Enrollment Advisor)
+    time: May 2021 - June 2021
+    company: Universidad Europea de Madrid
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/6/6a/Universidad_Europea_de_Madrid_logo.svg
+    details: >
+      Managed student enrollment processes and marketing initiatives to
+      increase engagement.
+        - Optimized enrollment data tracking, improving tutor assignments and student satisfaction by 10%.
+        - Developed targeted marketing campaigns based on data analysis, increasing engagement by 18%.
+        - Implemented a CRM system to personalize student communication and follow-up.
+  - role: Sales Agent
+    time: Oct 2020 - April 2021
+    company: Canaway Academy Panamá
+    details: >
+      Managed sales and customer service for an online English academy.
+        - Led student recruitment efforts, increasing enrollments through targeted engagement strategies.
+        - Provided support and guidance to students, improving retention and satisfaction.
+  - role: Solution and Administrative Department
+    time: June 2019 - Oct 2020
+    company: Houseby Real Estate S.A.
+    details: >
+      Provided administrative and operational support in the real estate
+      sector.
+        - Managed client relations and property transactions, streamlining administrative processes.
+        - Assisted in human resources tasks, contributing to employee retention and office efficiency.
+  - role: Customer Service Agent/Sales Agent
+    time: Sep 2018 - Dec 2018
+    company: Alorica Panamá
+    details: >
+      Handled customer service and sales for telecommunications clients.
+        - Increased customer satisfaction by 30% through effective problem resolution.
+        - Boosted sales conversions by 20% through targeted service promotions.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Realestate Datacleanup Project
+      link: https://github.com/Jo-verse/JF_P1_realestate-datacleanup-exercise
+      tagline: Project to identify price variations between properties in different
+        areas of Madrid based on data cleaning.
+    - title: Calculus and algebra problems with python
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Probability exercises project
+      link: https://github.com/Jo-verse/JF_probability-exercises-project-in-python
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+skills:
+  toolset:
+    - name: Power BI
+      level: 98%
+    - name: Microsoft Excel (Advanced Formulas, Pivot Tables, VBA)
+      level: 95%
+    - name: SQL
+      level: 20%
+    - name: SAP & SAP Business ONE
+      level: 85%
+    - name: Python (Numpy)
+      level: 35%
+    - name: CRM Software (Salesforce, Monday, Pipedrive, Zoho, Clarify, Business
+        Objects)
+      level: 90%
+    - name: Data Visualization & Business Intelligence
+      level: 90%
+    - name: Project & Time Management
+      level: 95%
+    - name: Strategic Decision-Making
+      level: 92%
+    - name: Problem-Solving & Process Optimization
+      level: 96%
