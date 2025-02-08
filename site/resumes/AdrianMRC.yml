@@ -61,81 +61,56 @@ education:
     - degree: A-levels in Science
       university: Nuestra señora de la almudena
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: c:\Users\aa\Pictures\Screenshots\Captura de pantalla 2025-02-07 205924.png
       time: 2011 - 2013
       details: |
-        Describe your study here 
+        Studying the Science Baccalaureate at Nuestra Señora de la Almudena has been an amazing experience, full of learning and personal growth.
+        The dedicated teachers and supportive environment have fostered curiosity, teamwork, and critical thinking.
+        This journey has not only built strong academic foundations but also created unforgettable memories, inspiring a passion for science and discovery.
 
-    - degree: 
-      university: 
+    - degree: Advanced Technician in Culinary Management.
+      university: Escuela Superior Hostelería y Turismo
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: c:\Users\aa\Pictures\Screenshots\Captura de pantalla 2025-02-07 210627.png
       time: 2007 - 2011
       details: |
-        Describe your study here 
+        Studying at the Escuela Superior de Hostelería y Turismo was an amazing experience! 
+        The program was a perfect mix of hands-on learning and professional kitchen management skills. 
+        I got to refine my cooking techniques, learn how to manage a kitchen efficiently, and understand the business side of the culinary world. 
+        The internships were invaluable, giving me real-world experience in top-tier restaurants. 
+        It was also great to connect with passionate chefs and professionals from around the world, which gave me a broad perspective on global culinary trends. 
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: 
-      time: 2015 - Present
-      company: 
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: cook, chef, headwaiter, office, waiter, head waiter
+      time: jul 2016 - oct 2024
+      company: The Irish Rover, Kabuki Wellington, TCH Hostel, Celso y Manolo.
       details: |
-        Describe your role here 
-
-    - role: 
-      time: 2014 - 2015
-      company: 
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here 
-
-    - role: 
-      time: 
-      company: 
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here
+         I gained extensive experience in various hospitality roles. 
+         I was responsible for preparing high-quality dishes, managing kitchen operations, ensuring excellent customer service, and overseeing front-of-house activities. 
+         My role involved coordinating teams, handling reservations, maintaining inventory, and ensuring smooth daily operations. 
+         Working in diverse environments, from casual dining to high-end establishments, helped me develop adaptability, leadership, and strong teamwork skills, 
+         all while delivering an outstanding guest experience.
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section.
+      At the moment, I have only completed a few projects at 4Geeks Academy. 
+      I choose to include the ones I like the most based on their content and what I have learned from them.
 
     assignments:
-      - title: Velocity
+      - title: Formulario
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        link: "https://github.com/4GeeksAcademy/Formulario-HTML5-AdrianMRC"
+        tagline: "A responsive website template designed to pay in a web with varius fields to complete."
 
-      - title: DevStudio
+      - title: PhotoFeed
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        link: "https://github.com/4GeeksAcademy/bootstrap-PhotoFeed-AdrianMRC"
+        tagline: "A responsive website template designed like a Pinterest tipe web."
 
-      - title: Tempo
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
