@@ -1,0 +1,202 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María Fernanda
+    last_name: García 
+    
+    # Define yourself in 4-5 words
+    motto: I act despite my fear; fear doesn’t hold me back.
+    
+    # Focus
+    focus: My family, my home, and professional growth.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      "I left the diplomatic field to train in a trade; pastry is my passion
+      and my profession for the past 10 years. Currently, besides working as
+      a professional pastry chef, I am studying Data Science and Machine Learning
+      to develop my analytical skills and grow professionally."
+   
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C5103AQFeshKLDnMr2g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517545469867?e=1744243200&v=beta&t=7RopCZZsot9nk2yOyXLoLsUlPS0SzfRAPhQEbaxP9oc
+
+    # Contact Information
+    email: mafer.783@gmail.com #optional
+    phone: 633 44 24 01 #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/mafegarcias/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/mafegarcias
+    
+    # twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native / Professional
+
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Italiano 
+        level: Basic proficiency
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Books
+
+      - item: Crafts
+
+# Your previous education
+education:
+      - degree: Data Science and Machine Learning Bootcamp
+      academy: 4Geeks Academy. Madrid, Spain.
+      # optional
+      university_logo: https://4geeksacademy.com/static/dc42e38caa9db517ddea28bea5e40d02/74acc/4geeksacademy-logo-old.webp
+      time: 2025 - Present (In Progress)
+      details: |
+        Currently enrolled in the Data Science & Machine Learning Bootcamp 
+        at 4Geeks Academy. The program covers Python programming, SQL, data
+        analysis, machine learning, deep learning, and AI model deployment.
+        Hands-on training includes TensorFlow, Scikit-learn, and real-world
+        projects to develop analytical and problem-solving skills.
+      
+
+      - degree: Pastry chef, Baker and Confectionery Courses
+      university: Instituto Superior Mariano Moreno. 
+      # optional
+      university_logo: https://www.ismm.com.ve/assets/images/logo-azul.svg
+      time: 2012 - 2013
+      details: |
+        Learning professional techniques in classic French pastry, American
+        pastry, confectionery, chocolate and bonbons, sugar sculptures, and
+        bakery dough preparation. Covering sourdough fermentation, critical
+        points in baking, and the production of both sweet and savory baked
+        goods. Specializing in restaurant pastry.
+
+    - degree: International Relations
+      university: Universidad Central de Venezuela
+      # optional
+      university_logo: http://www.ucv.ve/fileadmin/templates/core/img/ucv.png
+      time: 2010 - 2015
+      details: |
+        Studies in politics, economics, sociology, and law, applied to the
+        international, public, and private sectors.
+        
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Pastry Chef
+      time: 2023 - Present
+      company: Sodexo Iberia. Madrid, Spain.
+      # optional
+      company_logo: https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Europe/ES/Media/Images/Logos---Icons-100-x-100/Sodexo_Logotype_Blue.png?h=42&iar=0&w=131
+      details: |
+        Elaboración de postres en restaurante privado de la corporación
+        L'oreal España, elaboración de productos utilizando técnicas de
+        la pastelería clásica francesa y española, diseño de postres en
+        jornadas especiales para la degustación del cliente, producción
+        de postres para eventos especiales, catering. 
+       
+    - role: Pastry 
+      time: 2018 - 2023
+      company: Celicioso. Madrid, Spain.
+      # optional
+      company_logo: https://celicioso.shop/wp-content/uploads/2022/02/WhiteLogo_150x.png
+      details: |
+        Elaboración de productos de pastelería 100% sin gluten. Diseño de
+        tartas personalizadas con fondant, manga pastelera, dripping. 
+        Especialidad en pastelería americana, diseño de nuevos productos,
+        elaboración, horneado y decoración de todos los productos que
+        se ofrece al cliente. Amasado, formado, fermentación y horneado 
+        de panes sin gluten. 
+
+    - role: Administrative Assistant
+      time: 2021 - 2022
+      company: Conavenca, Spain.
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWxWAmusW_F2P-AalXzwbsKlmoU-YLR5NymA&s
+      details: |
+        Performed administrative tasks, including document management, 
+        scheduling, and correspondence. Provided support to executives
+        and staff, ensuring smooth daily operations. Managed databases,
+        handled customer inquiries, and coordinated meetings. Maintained
+        records and assisted with financial and office management duties.
+
+# Your project portfolio
+projects:
+    intro: >
+      Developed a Python learning project utilizing Pandas for 
+      data manipulation, NumPy for numerical computations, and
+      Matplotlib/Seaborn for data visualization. Gained hands-on
+      experience in data analysis and visualization techniques.
+
+    assignments:
+      - title: Real Estate Data Cleanup
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Application of knowledge to explore a new dataset, answer key questions, and develop statistical functions for analyzing the obtained data."
+
+      - title: Python
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Calculus and linear algebra problems using Python."
+
+skills:
+    Technical skills:
+      - name: MS Office
+        level: 90%
+
+      - name: Filmora WonderShare Video Editor
+        level: 80%
+
+      - name: Python
+        level: Loading...
+
+      - name: Machine Learning
+        level: Loading...
+
+      - name: Data Analysis
+        level: Loading...
+
+      - name: Packages: Numpy, Pandas,
+      Jupyter Notebook, Scitik-Learn,
+      Matplotlib.
+        level: 25% and loanding...
+
+    Key Skills:
+      - name: Predictive Analysis
+        level: Loading...
+
+      - name: Data Visualization
+        level: Loading...
+
+      - name: Statistical Modeling
+        level: Loading...
+
+      - name: Data Analytics
+        level: Loading...
+
+      - name: Model Development
+        level: Loading...
