@@ -1,0 +1,148 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Juan Pablo
+  last_name: Aquino
+  motto: Divertirme, ayudar y compartir
+  focus: Siempre aprendiendo
+  summary: Hola a todos Soy Juan Pablo, y me considero un aprendiz apasionado del
+    desarrollo web. Me encanta la idea de poder construir aplicaciones completas
+    y funcionales, y estoy dedgitsgiticando mi tiempo y esfuerzo a convertirme en un
+    fullstack developer competente. Estoy abierto a aprender de los mejores y
+    colaborar en proyectos interesantes.
+  avatar: https://randomuser.me/api/portraits/men/11.jpg
+  email: juanpass@hotmail.com
+  phone: 234 2342 342
+  website: asd.com
+  linkedin: juanpabloaquino
+  github: juanpass
+  twitter: juanpass
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: French
+      level: Basic
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Marketing Digital
+    - item: Programación
+    - item: Diseño gráfico
+education:
+  - degree: Master en Marketing Digital y Comercio Electrónico
+    university: UNIR Universidad de la Rioja
+    university_logo: https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo.svg
+    time: 2021 - 2013
+    details: >
+      Analizar el mercado y la demanda del consumidor; diseña estrategias de
+      marketing online 
+
+      adaptándote a los diferentes canales y necesidades del sector y desarrolla análisis avanzados 
+
+      de la información para la mejora de la toma de decisiones con el Máster oficial en Marketing Digital de UNIR. 
+
+       -- Plan de Marketing Digital
+       -- Diseño Centrado en el Usuario
+       -- Publicidad Digital y SEM
+       -- Social Media Marketing
+       -- Analítica Avanzada de Clientes
+       -- Mobile Marketing
+       -- Inbound Marketing y SEO
+       -- Prácticas Externas
+       -- Trabajo Fin de Máster
+  - degree: Licenciado en Ciencias de la comunicación
+    university: Universidad del Valle de México
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo_UVM_Rojo.svg/2560px-Logo_UVM_Rojo.svg.png
+    time: 2007 - 2011
+    details: |
+      Licenciatura en Ciencias de la comunicacion.
+experiences:
+  - role: Director de Agencia de Marketing Digital
+    time: 2019 - Present
+    company: Sección Amarilla, México
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      error sit voluptatem accusantium doloremque laudantium, totam rem
+      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      architecto beatae vitae dicta sunt explicabo.
+
+        - Bullet point
+        - Bullet point
+  - role: Gerente Divisonal de Ventas
+    time: 2010 - 2019
+    company: Sección Amarilla, México
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - role: Gerente de Capacitación y Desarrollo
+    time: 2003 - 2007
+    company: Nextel, México
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+projects:
+  intro: |
+    Aqui están mis proyectos enviados en Github para 4 geeks.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 0%
+    - name: JavaScript & jQuery
+      level: 0%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 60%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 100%
+
