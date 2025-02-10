@@ -1,0 +1,131 @@
+#
+
+# Be aware that even a small syntax error here can lead to failures in output
+
+#
+
+  
+
+template: "online-cv"
+
+skin: "blue"
+
+  
+
+# Personal Information
+
+basic_info:
+
+  
+
+    # Your full name
+
+    first_name: Fabricio
+
+    last_name: Gasaro Mantaras
+
+    # Define yourself in 4-5 words
+
+    motto: Resiliente Disciplinado Ecuanime Empatico Pragmatico
+
+    # Focus
+
+    focus: Todo desde el amor
+
+    # You have 1 paragraph to make a great impression, summarize your career
+
+    summary: |
+
+      Soy un humano enfocado, me encuentro actualizando mi propio sistema operativo con el fin de ser mejor ser cada dia y poder aportar paz y felicidad a todos los seres humanos.
+
+    URLhttps://avatars.githubusercontent.com/u/188369350?v=4
+
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  
+
+    # Contact Information
+
+    email: fabriciogasaro@gmail.com
+
+    phone: 234 2342 342 #optional
+
+    website: asd.com #optional
+
+    linkedin: Fabricio Gasaro Mantaras
+
+    #
+
+    # ******** IMPORTANT *******
+
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+
+    github: fabrigasman
+
+    twitter: #optional
+
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  
+
+    # Languages you speak, levels include: Native, Professional
+
+    languages:
+
+      - idiom: English
+
+        level: B2
+
+  
+
+      - idiom: Spanish
+
+        level: Nativo
+
+  
+
+    # Interests or hobbies
+
+    interests:
+
+      - item: Videos Juegos
+
+  
+
+      - item: Gym
+
+  
+
+      - item: Patines en linea
+
+  
+
+      - item: Natacion
+
+  
+
+      - item: meditacion/Yoga/espiritualidad/budismo/Mindfulnes
+
+  
+
+      - item: Buenos habitos alimenticios
+
+  
+
+# Your previous education
+
+education:
+
+# Your previous job experiences or volunteer
+
+experiences:
+
+    -
+
+# Your project portfolio
+
+projects:
+
+skills:
