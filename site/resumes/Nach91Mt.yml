@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ignacio
+    last_name: Lopez 
+    
+    # Define yourself in 4-5 words
+    motto: Vivir dia a dia 
+    
+    # Focus
+    focus: Aprender nuevas coasas
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un profesional apasionado con experiencia en Programacion, destacándome en React, java ... 
+      A lo largo de mi carrera, he trabajado en INDRA. 
+      Me especializo en JavaScript y disfruto enfrentar desafíos que impulsen la innovación y la eficiencia. 
+      Con un enfoque orientado a resultados y una mentalidad colaborativa, siempre busco aportar valor y crecer profesionalmente. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/31.jpg
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Nach91Mt
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermedio
+
+      - idiom: Spanish
+        level: nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Motos
+
+      - item: Gym
+
+      - item: Ejercicio
+
+# Your previous education
+education:
+    - degree: Grado superior en diseño de aplicaciones multiplataforma
+      university: IESP CEU Madrid
+      # optional
+      university_logo: https://www.ceu.es/img/logo-ceu-1807x1807.webp
+      time: 2020 - 2023
+      details: |
+        Estudios se centraban sobre todo en programacion en Java, bases de datos SQL.
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Development practices
+      time: 2023-203
+      company: INDRA
+      # optional
+      company_logo: https://brandemia.org/sites/default/files/inline/images/indra_logo_portada.jpg
+      details: |
+       Desarrollo de apliaciones de testeo de espacios aereos 
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Web de restaurante en React
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Web interactiva para un restaurante"
+
+     
+
+skills:
+    toolset:
+      - name: Python 
+        level: %
+
+      - name: JavaScript 
+        level: 98%
+
+      - name: React
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: MongoDb
+        level: 85%
+
+      - name: Java
+        level: 90%
