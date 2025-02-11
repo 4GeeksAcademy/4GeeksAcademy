@@ -1,89 +1,57 @@
-const fs = require('fs');
-const path = require('path');
-const jsyaml = require("js-yaml");
-// const fm = require('front-matter');
+import fs from "fs";
+import path from "path";
+import jsyaml from "js-yaml";
+import { fileURLToPath } from "url";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// open a directory and find all the files inside (recursively)
-const walk = function(dir, done) {
-  var results = [];
-  fs.readdir(dir, function(err, list) {
-    if (err) return done(err);
-    var pending = list.length;
-    if (!pending) return done(null, results);
-    list.forEach(function(file) {
-      file = path.resolve(dir, file);
-      fs.stat(file, function(err, stat) {
-        if (stat && stat.isDirectory()) {
-          walk(file, function(err, res) {
-            results = results.concat(res);
-            if (!--pending) done(null, results);
-          });
+const walk = async (dir) => {
+  let results = [];
+  try {
+    const list = await fs.promises.readdir(dir);
+    await Promise.all(
+      list.map(async (file) => {
+        const fullPath = path.resolve(dir, file);
+        const stat = await fs.promises.stat(fullPath);
+        if (stat.isDirectory()) {
+          results = results.concat(await walk(fullPath));
         } else {
-          results.push(file);
-          if (!--pending) done(null, results);
+          results.push(fullPath);
         }
-      });
-    });
-  });
+      })
+    );
+  } catch (err) {
+    console.error(`Error scanning directory: ${dir}`, err);
+    process.exit(1);
+  }
+  return results;
 };
 
-
-const buildResumesData = (resumes) => resumes
-  .map(resumeYmlContent => {
+const buildResumesData = (resumes) =>
+  resumes.map((resumeYmlContent) => {
     const { fileName, yaml } = loadYML(resumeYmlContent);
-    return {
-        ...yaml
-    };
-});
+    return { ...yaml };
+  });
 
-const createContentJSON =(content, fileName) => {
-    const outputPath = "site/static/"
-    if (!fs.existsSync(outputPath)) fs.mkdirSync(outputPath);
-    else console.error("Output path does not exist, creating it: ", outputPath)
-
-    fs.writeFileSync(outputPath+fileName+".json", JSON.stringify(content));
+const createContentJSON = (content, fileName) => {
+  const outputPath = path.join(__dirname, "site/static/");
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath, { recursive: true });
+  }
+  fs.writeFileSync(
+    path.join(outputPath, `${fileName}.json`),
+    JSON.stringify(content, null, 2)
+  );
 };
-
-walk('site/resumes/', function(err, results) {
-    if (err){
-        console.log("Error scanning resume (yml) files");
-        process.exit(1);
-    } 
-    
-    try{
-      // "bildResumeData" will open the resume yml and convert it to an object
-      const resumes = buildResumesData(results);
-      // console.log(resumes)
-
-        
-        createContentJSON(resumes, "resumes");
-        // console.log("The /public/static/api/lessons.json file was created!");
-        process.exit(0);
-    }
-    catch(error){
-        console.log(error);
-        process.exit(1);
-    }
-});
-
 
 const loadYML = (pathToFile) => {
-  const content = fs.readFileSync(pathToFile, "utf8");
   try {
+    const content = fs.readFileSync(pathToFile, "utf8");
     const yaml = jsyaml.load(content);
+    const fileName = path.basename(pathToFile, path.extname(pathToFile)).toLowerCase();
 
-    // get the file name from the path
-    const fileName = pathToFile
-      .replace(/^.*[\\\/]/, "")
-      .split(".")
-      .slice(0, -1)
-      .join(".")
-      .toLowerCase();
-    
-    //if the yml parsing succeeded
-    if (typeof yaml == "undefined" || !yaml)
-      throw new Error(`The file ${fileName}.yml was impossible to parse`.red);
+    if (!yaml) throw new Error(`The file ${fileName}.yml was impossible to parse`);
     
     return { fileName, yaml };
   } catch (error) {
@@ -91,3 +59,15 @@ const loadYML = (pathToFile) => {
     return null;
   }
 };
+
+(async () => {
+  try {
+    const results = await walk("site/resumes/");
+    const resumes = buildResumesData(results);
+    createContentJSON(resumes, "resumes");
+    process.exit(0);
+  } catch (error) {
+    console.error(error);
+    process.exit(1);
+  }
+})();
