@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nataly
+    last_name: Castañeda Hernandez
+    
+    # Define yourself in 4-5 words
+    motto: You Only Live Once
+
+    
+    # Focus
+    focus: Improve myself every day
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Junior full stack developer passionate for facing
+     new challenges and giving the best out of me. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: "https://randomuser.me/api/portraits/women/24.jpg"
+
+    # Contact Information
+    email: nathalyhernandez815@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Nath1710
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Painting
+
+      - item: Music
+
+      - item: Video Games
+
+# Your previous education
+education:
+    - degree: psychologist
+      university: Areandina University Foundation
+      # optional
+      university_logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Goi9rnpyQMwZ2-6v_ppn81r63RH0bZoalg&s"
+      time: 2016 - 2023
+      details: |
+        Psychologist with an emphasis on organizational psychology and experience in handling office tools. 
+        Possesses skills for problem solving, development of training plans and analysis of organizational climate and culture.
+        Managing high commitment to the organization, interest in constant improvement and continuous development of activities 
+        that allow guaranteeing the quality, effectiveness and productivity of the proposals.
+
+
+    - degree: Full stack Developer Bootcamp
+      university: 4geeks Academy
+      # optional
+      university_logo: "https://4geeksacademy.com/es/desarrollador-full-stack/cursos-desarrollador-fullstack"
+      time: August 2024 - December 2024
+      details: |
+        Software and web application developer and designer, using programming languages 
+        such as Javascript and Python, achieving the decomposition of complex problems into smaller, 
+        simpler parts following good programming practices and generating solutions with logical thinking to 
+        everyday problems through software and web applications.
+# Your previous job experiences or volunteer
+experiences:
+    - role: Fraud Analyst
+      time: January 2024 - June 2024
+      company:  Almacontact
+      # optional
+      company_logo: "https://www.almaviva.it/en_GB/Our-companies/Almacontact"
+      details: |
+        "- Develop detailed reports, presentations and statistical analysis for executive management, supporting strategic decisions." + "- Monitor and analyze financial transactions in real time to identify unusual patterns and potential fraudulent activities, ensuring timely detection of risks." + "- Create and implement employee training programs focused on detecting and reporting fraudulent activities."
+# Your project portfolio
+projects:
+    intro: >
+      " Throughout my web development career I have had the opportunity to work on the following projects that showcase my work and my expertise in the area:"
+    assignments:
+      - title: Rock-paper-scissors
+        # optional
+        project_logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1JtKN6QZcfsZFjJhJdJSx9E8F75-Cf6l2Rw&s"
+        link: "https://github.com/Nath1710/Rock-paper-scissors"
+        tagline: "This repository contains a web page for the game Rock Paper Scissors. \nThe design of the page uses a responsive model and the dynamics of responsive controls between the player and the machine. \nThe whole project was worked collaboratively."
+
+      - title: Create-a-HTML5-form
+        # optional
+        project_logo:  "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+        link: "https://github.com/Nath1710/Create-a-HTML5-form"
+        tagline: "This repository contains the Create an HTML5 Form project from the HTML FORMS module. In this project, I focused on making my code responsive and used JavaScript functions for learning purposes. To test one of the implemented functions, the following card numbers are available for the Card# field \n1017 2208 2604 2504 1105 2611 1010 1709 You can use these provided credit card numbers and observe the results when you click the Submit button. Each number triggers a different outcome. If you use the Cancel button, a message will be displayed. \nFor a full experience, you can fill out all the fields. Try entering alphabetic characters in the Card#, CVC#, and Amount fields, and explore the State options."
+
+      - title: Tempo
+        # optional
+        project_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1JtKN6QZcfsZFjJhJdJSx9E8F75-Cf6l2Rw&s
+        link: "https://github.com/Nath1710/ping-coming-soon-page-master"
+        tagline: "The repository contains a frontend mentor page challenge with the goal that the user should be able to: See the optimal layout for the site based on their device's screen size See the hover states of all interactive elements on the page Submit their email address via an input field Receive an error message when the form is submitted if: \nThe input field is empty. The message for this error should say 'Oops! Looks like you forgot to add your email.' \nThe email address is not in the correct format (i.e. a correct email address should have this structure name@host.tld). The message for this error should say 'Please provide a valid email address.'"
+
+skills:
+    toolset:
+
+      - name: JavaScript & jQuery
+        level: 35%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Photoshop
+        level: 30%
