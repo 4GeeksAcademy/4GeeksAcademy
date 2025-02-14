@@ -1,0 +1,208 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: José
+    last_name: Riobó
+    
+    # Define yourself in 4-5 words
+    motto: Respice Finem
+    
+    # Focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E35AQEsG2PFcNfFcg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1700337201473?e=1732874400&v=beta&t=QVoFRlJJvfvZj3Z3Kd-cx6VrPsU38VkQ5FP3kOAy5KU
+
+    # Contact Information
+    email: joseriobo7@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: Jose Riobo Cicero #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: joseriobo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading Books and Poetry
+
+      - item: Working Out
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: MSc in Occupational Risk Prevention and Common Risks
+      university: Universidad de A Coruña
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2024 - 2025
+      details: |
+        Perform occupational risk prevention functions at a higher level. These functions can be summarized as follows:
+            Develop, coordinate, and oversee preventive action plans within companies.
+            Carry out technical activities related to prevention in the company, such as promoting prevention, 
+            conducting risk assessments, defining corrective measures, establishing control measures, and directing and 
+            supervising the activities of technicians with basic or intermediate level responsibilities.
+            Implement training and information activities for workers on prevention-related topics.
+            Prevent and control risks to individuals and property, providing an appropriate response to potential emergency 
+            situations within the area under the responsibility of the activity owner, ensuring the integration of these 
+            actions with the public civil protection system.
+       
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc Labor Relations and Human Resources
+      university: Universidad de A Coruña
+      # optional
+      university_logo: data:image/png;base64,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
+    
+      time: 2020 - 2024
+      details: |
+        It promotes problem-solving in people management under an ethical conduct, emphasizing teamwork, critical thinking, 
+        and entrepreneurial spirit. It offers multidisciplinary training in labor regulations, labor relations, and the social 
+        and psychological aspects of employment, combining the legal and organizational dimensions of human resources. 
+        The use of ICT, language learning through mobility programs, and connection with the professional world through internships 
+        are encouraged, along with the development of skills such as leadership, flexibility, and decision-making in multicultural environments.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
