@@ -1,0 +1,101 @@
+
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Fernanda
+  last_name: Flores
+  motto: Constant challenge to surpass limits
+  focus: Transforming Data into Insights
+  avatar: hhttps://drive.google.com/file/d/1K_u8M2J5QcXKzHiSEcLNbgkqgiWwyP1u/view?usp=drive_link
+  summary: >
+    I am an International Business professional with over 12 years of
+    experience in
+
+    international logistics trade, specializing in air operations and strategic customers
+
+    management. 
+
+
+    I am extremely passionate about solving complex challenges.Alongside my professional career, 
+
+    I have collaborated with business incubators and patent centers, driving innovative projects, 
+
+    and pursuing my own entrepreneurial ventures related to my hobbies. Currently, I am completing a 
+
+    Data Science & Machine Learning bootcamp, gaining skills for the tech sector. I seek roles that foster
+
+    continuous learning and challenge me, where I can make a significant impact through data-driven solutions.
+  email: ferflom87@gmail.com
+  github: ffloresm30
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate / Professional
+    - idiom: French
+      level: Basic
+  interests:
+    - item: Learning
+    - item: Cycling
+    - item: Cooking
+education:
+  - degree: Data Science & Machine Learning
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: October 2024 - Current
+    details: >
+      Completing an intensive Data Science & Machine Learning bootcamp at
+      4Geeks Academy. 
+
+      Acquiring comprehensive knowledge and hands-on experience in data analysis, statistical 
+
+      modeling, and machine learning algorithms. Developed key skills in Python programming,
+
+      data visualization, and database management, with a focus on practical applications and
+
+      real-world projects.
+
+
+        - Mastered data analysis and statistical modeling techniques
+        - Implemented machine learning algorithms to solve real-world problems
+        - Gained expertise in Python, data visualization, and SQL.
+  - degree: Bachelors Degree in International Business
+    university: IPN, Mexico
+    time: 2005 - 2009
+    details: >
+      The Bachelor's Degree in International Business at IPN provides
+      comprehensive training in finance, marketing, business law, and
+      negotiation. Students learn to design and implement international business
+      strategies and manage projects with a global perspective. The curriculum
+      emphasizes creativity and entrepreneurship, logical reasoning,
+      interpersonal relationships, problem-solving, self-study, and
+      self-learning. Graduates are equipped to work in companies with
+      international trade relations, governmental organizations, and consultancy
+      firms, or to start their own international business ventures.
+
+        - Developed expertise in international business operations and strategies
+        - Enhanced skills in creativity, entrepreneurship, and logical reasoning
+        - Improved interpersonal relationships and problem-solving abilities
+        - Cultivated self-study and self-learning habits
+  - degree: High School Technical Degree in International Trade
+    university: IPN
+    university_logo: null
+    time: 2002 - 2005
+    details: >
+      The High School Technical Degree in International Trade at IPN equips
+      students with fundamental knowledge and skills in global trade practices.
+      The program covers import/export regulations, logistics, and international
+      market analysis, providing a strong foundation for further studies or
+      entry-level positions in the field. The curriculum emphasizes creativity
+      and entrepreneurship, logical reasoning, interpersonal relationships,
+      problem-solving, self-study, and self-learning.
+
+        - Acquired foundational knowledge of international trade regulations
+        - Developed skills in logistics, market analysis, and entrepreneurship
+        - Enhanced problem-solving and interpersonal relationship abilities
+        - Fostered self-study and self-learning 
+skills:
+  toolset:
+    - name: Python
+      level: Basic
