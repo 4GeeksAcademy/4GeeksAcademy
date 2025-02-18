@@ -1,0 +1,128 @@
+template: "online-cv"
+skin: "blue"
+
+
+# Personal Information
+basic_info:
+
+
+# Your full name
+  Adonai
+  Carrión
+   
+# Define yourself in 4-5 words
+  Resonsability, respect, initiative and willing to learn
+   
+# Focus
+  I always look forward
+   
+# You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+  Offer efficient solutions through attention personalized to clients via chat, using skills
+  clear communication and focus in problem solving to improve the experience of user.
+  Provide quick responses and efficient, taking advantage experience in service client to ensure that each
+  interaction is clear and effective, getting customers to feel valued and satisfied.
+
+
+   
+# Your profile picture URL
+# If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+
+# Contact Information
+  email: aecojym@gmail.com
+   
+   
+# Languages you speak, levels include: Native, Professional
+  languages:
+  idiom: Spanish
+  level: Native
+
+
+  idiom: English
+  level: Professional
+
+
+  idiom: Italian
+  level: basic
+
+
+# Interests or hobbies
+  interests:
+  -item: cycling
+
+
+  -item: calistenics
+
+
+  -item: Cooking
+
+
+# Your previous education
+education:
+degree: Bachelor in International Relations
+        university: University of Panama
+        time:1992-1997
+        details: |
+     
+          - Bullet point
+          - Bullet point
+
+
+# Your previous job experiences or volunteer
+
+
+experiences:
+role: Ccustomer Service agent
+time: 2014-2025
+company: Iqor
+details: |
+       Inform customers about mobile phone plans,
+       rates, promotions, publicize new products,
+       make payment arrangements, activate phones. Educate the
+       users about the benefits of managing the account from the
+       company website and offer new services to existing plans.
+
+
+          - Bullet point
+          - Bullet point
+
+
+role: Relashionship analist International
+time: 2012-2014
+company: Ministerio de relaciones exteriores
+details: |
+       Collect and classify documents, data, bibliographic material and
+       other information about European countries. Review and evaluate
+       political and socio-economic and cultural issues at the bilateral level
+       and multilateral.
+       Present projects or suggestions for activities that can
+       join the annual bilateral and multilateral action program.
+       Inform and provide technical assistance to officials of
+       foreign policy and the public.
+       Keep the information of the countries in charge updated.
+       Follow up and coordinate visits inside and outside the country.
+
+
+          - Bullet point
+          - Bullet point
+
+
+role: customer service representative
+time: 1997-2012
+company: Star Contact
+details: |
+        Help customers activate cell phones and others
+        mobile devices. Inform about the status of the account,
+        provide technical assistance, take payments, publicize other
+        plans and services
+
+
+          - Bullet point
+          - Bullet point
+
+
+
+
+skills:
