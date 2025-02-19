@@ -13,10 +13,10 @@ basic_info:
     last_name: Zarraga
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Testeando el mundo y explorando soluciones siempre.
     
     # Focus
-    focus: Killing Bad Boys
+    focus: 
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -26,97 +26,55 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/man/24.jpg
+    avatar: https://avatars.githubusercontent.com/u/142839879?s=400&u=f1eb5d6eb51658b9e971e330218bdc7eadaa04e0&v=4
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email:  #optional
+    phone: 700 600 500 #optional
+    website: FiestadelCodigo.com #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: AlleriaDev
     
-    twitter: 'webjeda' #optional
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
+        level: Profesional
 
       - idiom: Spanish
-        level: Professional
+        level: Nativo
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Aprender
 
-      - item: Snowboarding
+      - item: Motor
 
-      - item: Cooking
+      - item: Videojuegos
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: MECRV
+      university: UPF
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo:
       time: 2011 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
 
 # Your previous job experiences or volunteer
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
 
-          - Bullet point
-          - Bullet point
 
 
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Proyectos en desarrollo... 
 
-    assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-
-skills:
-    toolset:
-      - name: Sketch & Photoshop
-        level: 60%
