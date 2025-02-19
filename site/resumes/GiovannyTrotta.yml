@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Giovanny
+    last_name: Trotta
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I like to learn new things
     
     # Focus
-    focus: Killing Bad Boys
+    focus: expand my knowledge and have my own technology company
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,117 +32,86 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: Giovannytrotta13@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: Giovannytrotta
     
-    twitter: 'webjeda' #optional
+    twitter:  #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: spanish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: italiano
+        level: Native
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: english
+        level: B2
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Basketball
 
-      - item: Snowboarding
+      - item: Video games
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: bdegree
+      university:
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      university_logo:
+      time:
+      details: |        
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: 
+      university: 
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: 
+      time: 
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-# Your previous job experiences or volunteer
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: student Developer
+      time: Present
+      company: 4geeks
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I want to become a full stack developer to carry out several personal projects that have a positive impact on the world
+
 
           - Bullet point
           - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
+    
+    - role: student Developer
+      time: 2024- present
       company: Google, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        
 
           - Bullet point
           - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: 
+      time:
+      company: 
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        
 
           - Bullet point
           - Bullet point
@@ -150,12 +119,10 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I have started with small interface projects
 
     assignments:
-      - title: Velocity
+      - title: 
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#hook"
@@ -188,19 +155,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 
 
       - name: JavaScript & jQuery
-        level: 98%
+        level: 
 
       - name: Angular
-        level: 98%
+        level: 
 
       - name: HTML5 & CSS
         level: 95%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 
