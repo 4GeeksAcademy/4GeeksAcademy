@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Manuel
+    last_name: Romero
+    
+    # Define yourself in 4-5 words
+    motto: I'm just going with the flow
+    
+    # Focus
+    focus: becoming a developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      There's not a lot to write in here at the moment haha
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/191545109?v=4
+
+    # Contact Information
+    email: manuyuuu@icloud.com #optional
+    phone: --- #optional
+    website: --- #optional
+    linkedin: Manuel Romero Reinoso #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: manuyuuu
+    
+    twitter: 'manuyuuu' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Traveling
+
+      - item: Fashion
+
+      - item: Partying
+
+# Your previous education
+education:
+    - degree: Bachillerato ciencias de la salud
+      university: Colegio Nuestra Señora de Gador
+      # optional
+      university_logo: https://www.nuestrasenoradegador.es/wp-content/themes/laermita/img/logo.png
+      time: 2020 - 2022
+      details: |
+        ---
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cashier
+      time: January 2025 - Present
+      company: Wok to Walk, Barcelona
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ---
+
+# Your project portfolio
+projects:
+    intro: >
+      Again, not much YET
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: life
+        level: 20%
