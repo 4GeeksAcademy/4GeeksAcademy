@@ -1,0 +1,82 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "yellow"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Carlos Eduardo
+  last_name: Olmos Chacon
+
+  # Define yourself in 4-5 words
+  motto: I like living in Andromeda
+
+  # Focus
+  focus: living serene
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    I am fascinated by technology and I have always wanted to go to another world with it, I love having big ambitions and I even like trying to achieve the
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: carloseduiardoochacon@gmail.com
+  phone: 603035305
+  website:
+  linkedin:
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: https://github.com/Carlosygaby/4GeeksAcademy
+
+  twitter: n/a
+  stack-overflow: n/a
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: basic
+
+    - idiom: Spanish
+      level: native
+
+  # Interests or hobbies
+  interests:
+    - item: music
+
+    - item: walk
+
+    - item: work
+
+# Your previous job experiences or volunteer
+experiences: nothing at the moment
+
+# Your project portfolio
+portafolio: nothing at the moment
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 10%
+
+    - name: JavaScript & jQuery
+      level: 30%
+
+    - name: Angular
+      level: 0%
+
+    - name: HTML5 & CSS
+      level: 60%
+
+    - name: Ruby on Rails
+      level: 0%
+
+    - name: Sketch & Photoshop
+      level: 0%
