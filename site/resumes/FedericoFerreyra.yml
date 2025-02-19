@@ -1,55 +1,49 @@
 ---
 template: online-cv
-skin: blue
+skin: green
 basic_info:
   first_name: Federico
   last_name: Ferreyra
-  motto: I like saving the world
-  focus: Killing Bad Boys
+  motto: Si te caes, te levantas y sigues
+  focus: siempre en lo que hago
   summary: >
-    Summarize your career here lorem ipsum dolor sit amet, consectetuer
-
-    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-    Donec quam felis, ultricies nec, pellentesque eu.
-
+    soy una persona extrovertida y me gusta mucho hacer cosas nuevas, me gustan los desafios
+    estar siempre haciendo algo ya sea deporte o bien cosas manuales de reparacion o contruccion.
+    Soy muy exigente conmigo mismo y me gusta que las cosas se hagan bien en el ambito laboral.
 
     Second paragraph if required.
-  avatar: https://randomuser.me/api/portraits/women/24.jpg
-  email: a@a.com
-  phone: 234 2342 342
+  avatar: https://avatars.githubusercontent.com/u/128550575?u=30223afac1d928f524a6ff1012077f4917bab85a&v=4
+  email: fpferreyra04@gmail.com
+  phone: 658043092
   website: asd.com
-  linkedin: alandoe
+  linkedin: https://www.linkedin.com/in/federico-ferreyra-scocco/
   github: federicoferreyra
   twitter: webjeda
   stack-overflow: null
   languages:
-    - idiom: English
-      level: Native
-    - idiom: French
-      level: Professional
     - idiom: Spanish
-      level: Professional
+      level: native
+    - idiom: English
+      level: basic
+  
   interests:
     - item: Climbing
     - item: Snowboarding
     - item: Cooking
+    - item: Cars
+    - item: Futbol
+
 education:
   - degree: MSc in Computer Science
-    university: University of London
+    university: University of Argentina
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-    time: 2011 - 2012
+    time: 2000 - 2005
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-
-        - Bullet point
-        - Bullet point
+      Despues de terminar el bachiller me dedique a trabajar de mecanico de coches, desde entonces 
+      me he dedicado a trabajar en ese rubro creciendo en el oficio. He llegado a dirigir mecanicos
+      en una empresa llamada Norauto y hoy me encuentro en un cambio profecional para poder
+      trabajar desde casa.
+       
   - degree: BSc in Applied Mathematics
     university: Bristol University
     university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
