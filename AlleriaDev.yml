@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Zarraga
+    
+    # Define yourself in 4-5 words
+    motto: Testeando el mundo y explorando soluciones siempre.
+    
+    # Focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Full Stack Developer
+
+      -.-
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/142839879?s=400&u=f1eb5d6eb51658b9e971e330218bdc7eadaa04e0&v=4
+
+    # Contact Information
+    email:  #optional
+    phone: 700 600 500 #optional
+    website: #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlleriaDev
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Profesional
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Aprender
+
+      - item: Motor
+
+      - item: Videojuegos
+
+# Your previous education
+education:
+    - degree: MECRV
+      university: UPF
+      # optional
+      university_logo:
+      time: 2011 - 2012
+      details: |
+
+
+
+# Your previous job experiences or volunteer
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos en desarrollo... 
