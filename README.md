@@ -1,32 +1,30 @@
-<!-- Hola -->
-<img src="https://github.com/Kyre13/Kyre13/blob/master/Banner.png">
-
 <!-- Sobre mi -->
-<h2>Sobre mi 🙇</h2> 
+<h1>¡Bienvenido a mi perfil!, Soy Erik.</h1> 
 
-- Estudiante Full Stack Developer
-- Estudiante en 4GeeksAcademy
-- 23 Años 
+🚀 Desarrollador Full Stack | 💻 Apasionado por la tecnología | 🔍 Siempre aprendiendo 
 
-#
+Mis redes:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erik-martin-b8a740314/) 
+[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](erikmartinfernandez@gmail.com) 
 
 <!-- Tecnologias usadas -->
-<h2>Tecnologias Usadas ⚡</h2> 
-
-![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap)
-#
-<!-- Analitics -->
-<h2> Github Analytics 📊</h2> 
-
-<p align="center">
-<a href="https://github.com/Kyre13">
-  <div aling="center">
-  <img width=49% height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Kyre13&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img width=49% height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Kyre13&layout=compact&langs_count=8&theme=algolia"/>
-  </div>
+<h2>⚡ Tecnologias y herramientas </h2> 
+<div align="center">
   
-   
-</a>
-</p>
-</a>
-</p>
+![My Skills](https://skillicons.dev/icons?i=vscode,html,css,materialui,js,react,python,mysql,flask,bootstrap,postman,git,github,figma)
+</div>
+<!-- Analitics -->
+<h2>📊 Github Analytics </h2> 
+<div align="center">
+
+![](https://github-contributor-stats.vercel.app/api?username=Kyre13&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kyre13&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=dark)
+</div>
+
+
+<h2>🏆 Github Trophies </h2> 
+<div align="center">
+  
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Kyre13&theme=radical)
+</div>
