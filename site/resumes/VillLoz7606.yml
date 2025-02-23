@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Carlos
+    last_name: Villarreal
+    motto: Perseverancia, dedicación, esfuerzo 
+    focus: Desarrollar habilidades para los eventos de la vida
+    
+    summary: |
+      Empecé como principiante ingresando en páginas y portales web con una guía donde mencionaban los diferentes niveles que tiene cada lenguaje y los temas que ves. 
+      Luego pase a producir pequeñas vistas de sitios webs y, además, generar cantidades de base de datos con SQL y generar múltiples consultas de los usuarios con PgAdmin y MySql.
+    
+      También estuve en talleres para el desarrollo personal, como uno de oratoria donde aprendí las habilidades para en hablar en público con prácticas de modulación, articulación de voz y formas de expresión física.
+    
+    # Your profile picture URL
+    avatar: https://scontent.fmrd1-2.fna.fbcdn.net/v/t39.30808-6/448691783_419046487790303_2553806555823308909_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=OKMxQL4rua4Q7kNvgFETStB&_nc_oc=AdgKxX4SdonaAFSwVUNBHZwvwtUbQSTTOWYbHFSOAVKF7YlvT5gTVSZYqfMAD4Zzulk&_nc_zt=23&_nc_ht=scontent.fmrd1-2.fna&_nc_gid=AxJj94gFJLklxFiT2SXeJ01&oh=00_AYDGxOV083BtQY9akcK0JqRRU6i3mxR-xjYsjsX3wxgKFw&oe=67BF30EB
+
+    # Contact Information
+    email: carlosrogervillarreal3@gmial.com 
+    phone: +58 414-1268826 
+    website: asd.com 
+    linkedin: Carlos Villarreal
+    github: VillLoz7606
+    twitter: 'cvillarreal'
+    stack-overflow: + 58 414-1268826
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Regular
+
+      - idiom: Español
+        level: Profesional
+
+    interests:
+      - item: Cantar
+
+      - item: Dibujar
+
+      - item: Leer historias fantásticas
+
+      - item: Escuhcar música
+
+
+education:
+    - degree: Bachiller
+      university: Colegio Alejandro de Humboldt de Guatire
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_Unexca_Positivo.jpg
+      time: 2012 - 2021
+      details: |
+            Entré en el colegio "Alejandro de Humboldt de Guatire" cuando pasé a segundo grado, al ser un nuevo entorno para mí luego de haber estado en otra escuela anteriormente me tocó adaptarme.
+            Fue todo un desarrollo personal y académico ya que este colegio era uno de los mejores de Guatire, es exigente pero lo compensa por sus buenos docentes y la variedad de materias que puedes ver, incluso en bachillerato puedes escoger otras materias como múscia, computación, etc.
+            Terminé mi período académico en primaria en 2016 y mi etapa en bachiller en 2021 en plena pandemia mundial.
+
+    - degree: Técnico Superior en Informática
+      university: Universidad Nacional Experimental de la Gran Caracas - UNEXCA
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_Unexca_Positivo.jpg
+      time: 2021 - 2023
+      details: |
+            Comencé en pandemia la universidad recién saliendo de graduarme como bachiller en el colegio Alejandro de Humboldt de Guatire. 
+            Lo conocí cuando me lo recomendaron cuando era conocido como Colegio Universitario, fue un gran elección para iniciar mi carrera universitaria, prepararme para una nueva etapa en mi vida. 
+            Y a día de hoy estoy solo a un año de conseguir mi titulo de ingeniero.
+
+experiences:
+    - role: Controtado en la unidad de soporte técnico en el área de tecnología
+      time: 2023 - Presente
+      company: SUSCERTE
+
+      company_logo: https://www.suscerte.gob.ve/wp-content/uploads/2023/07/LOGO-SUSCERTE1-300x290.png
+      details: |
+        Soy trabajador en el área de soporte técnico, me dispongo de solucionar los problemas en las demás áreas 
+        con alguno que tenga que ver en el daño o dficultad en la función de una máquina de trabajo, ya sea 
+        un monitor, CPU, teclado o mouse. 
+        También, en la revisión de otros equipos como escáner, impresora y laptops. 
+        Me dispongo de formateos y actualizar los sistemas operativos de los equipos si estos cuentan con versiones 
+        bastantes obsoletas, en realizar respaldo de información, instalación de programas de trabajo y cableado 
+        de red.
+
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
+    assignments:
+      - title: Postcard
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Carlos-Villarreal-Build-a-Digital-Postcard-with-HTML-CSS-latam-pt-46"
+        tagline: "Una tarjeta donde refleja una imformación de la tarjeta en el lado izquierdo, del lado derecho hay una sección donde puedes ingresar tu nombre, tu correo electrónico y algún comentario que tengas. Por último, en la parte inferior se encuentra un botón donde te permita enviar tu postcard."
+
+      - title: Intagram Post Layout
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Carlos-Villarreal-html-hello-latam-pt-46"
+        tagline: "En este proyecto había que replicar un post de instagram, agregandole una imagen y debajo de ella una sección donde se viera los botones de like, comment, share y otra de save, además de dos modulos más debajo en el cual el primero se viera la descrippcion de las personas que le han dado like y una decripción del post."
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 60%
+
+      - name: JavaScript 
+        level: 10%
+
+      - name: SQL
+        level: 75%
+
+      - name: Bootstrap 5
+        level: 30%
+
+      - name: Node.js
+        level: 10%
