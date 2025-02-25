@@ -18,14 +18,14 @@ Mis redes:
 <h2>📊 Github Analytics </h2> 
 <div align="center">
 
-![](https://github-contributor-stats.vercel.app/api?username=Kyre13&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=KyreDev&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kyre13&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=KyreDev&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=dark)
 </div>
 
 
 <h2>🏆 Github Trophies </h2> 
 <div align="center">
   
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Kyre13&theme=radical)
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=KyreDev&theme=radical)
 </div>
