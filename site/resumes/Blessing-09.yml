@@ -13,10 +13,10 @@ basic_info:
     last_name: Ogbogu
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Resilient, introspective, independent, reserved, evolving
     
     # Focus
-    focus: Loving good girls
+    focus: Learning, growing and glowing
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -50,7 +50,7 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
+      - idiom: Spanish
         level: Professional
 
       - idiom: Spanish
@@ -58,11 +58,11 @@ basic_info:
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Traveling
 
-      - item: Snowboarding
+      - item: Photography
 
-      - item: Cooking
+      - item: Self-care
 
 # Your previous education
 education:
