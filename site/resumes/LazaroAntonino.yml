@@ -1,0 +1,98 @@
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonino
+    last_name: Lazaro
+
+    # Define yourself in 4-5 words
+    motto: I like been the best
+
+    # Focus
+    focus: Working on my future
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      I started my career by obtaining a volleyball coaching certificate.
+      I then advanced by working as a gym instructor and personal trainer.
+      Currently, I am working as a programmer because I have always been passionate about technology and I am excited to see what the future holds.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: toni.lazaro.nunez@gmail.com #optional
+    phone: 653 60 26 87 #optional
+    linkedin: https://www.linkedin.com/in/antonino-lazaro-nu%C3%B1ez-480269202/ #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LazaroAntonino
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: High
+
+      - idiom: Spanish
+        level: Navite
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Volleyball
+
+      - item: Nature
+
+# Your previous education
+education:
+    - degree: Técnico Superior en Enseñanza y Animación Sociodeportiva (TESEAS)
+      university: San Ignacio de Loyola, Madrid
+      # optional
+      time: 2 years.
+      details: 
+        During my TESEAS studies, I gained comprehensive knowledge in physical education, sports training, and social animation.
+        This program provided me with the skills to design, implement, and evaluate sports and recreational activities,
+        promoting physical activity and healthy lifestyles.
+
+          - Developed and implemented fitness and sports programs
+          - Conducted training sessions and workshops
+          - Promoted social and physical well-being through sports activities
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Gym Supervisor
+      time: September 2024 - January 2025
+      company: FitUp, Madrid
+      # optional
+      company_logo: URL_del_logo_del_gimnasio
+      details:
+        As a Gym Supervisor, I was responsible for overseeing daily operations, ensuring customer satisfaction, and managing staff.
+        My duties included maintaining equipment, organizing fitness classes, and handling administrative tasks.
+        This role allowed me to develop strong leadership and organizational skills.
+
+          - Supervised and trained gym staff
+          - Managed scheduling and client appointments
+          - Ensured a clean and safe workout environment
+
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 20%
+
+
+      - name: HTML5 & CSS
+        level: 60%
