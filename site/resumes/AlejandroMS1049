@@ -1,0 +1,132 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+  
+    first_name: Alejandro
+    last_name: Morientes
+    
+    
+    motto: I want to know what consist the world
+    
+    
+    focus: learn about Code.
+    
+  
+    summary: |
+      I make decissions in life that makes me come to this exact moment and I want to learn much as possible about Coding.
+    
+    avatar: https://cdn3d.iconscout.com/3d/premium/thumb/man-avatar-3d-icon-download-in-png-blend-fbx-gltf-file-formats--men-people-male-pack-avatars-icons-5187871.png?f=webp
+
+    
+    email: moriop149@gmail.com 
+    phone: +34 625486014 
+    
+  
+    github: AlejandroMS1049
+    
+    twitter: none 
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Duch
+        level: Begginer
+
+      - idiom: Spanish
+        level: Native
+
+    
+    interests:
+      - item: Lear something new
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+
+education:
+    - degree: Gestión de Ventas y Espacios Comerciales
+      university:  I.E.S Miguel Romero Esteo
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2021
+      details: |
+        Marketing / Marketing Digital
+        Logística
+        Investigación Comercial
+        Gestión de Productos
+        Organización de equipos
+        Escaparatismo
+
+    - degree: Bachillerato
+      High School: I.E.S Emilio Prados
+
+
+experiences:
+    - role: Operario de Fábrica
+      time: 2021 - 2024
+      company: REMIA Den Dolder, Holanda
+      
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Supervisar la línea de producción.
+        Organizar la línea de fabricación del producto.
+        Organizar el personal para el trabajo.
+        Supervision constante de la calidad del producto.
+
+
+    - role: Reponedor
+      time: 2019 - 2019
+      company: Carrefour
+      
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Organizar y reponer los productos en la tienda.
+
+
+projects:
+    intro: >
+      Ahora mismo no tengo muchos proyectos ya que estoy en mis estudios para ser futuro programador. Aqui estan algunas practicas que ya he realizado.
+
+    assignments:
+      - title: Velocity
+        
+        project_logo: https://github.com/4GeeksAcademy/AMS-the-misspell-chalenge.git
+        link: "#hook"
+        tagline: "My Cv(?)"
+
+      - title: DevStudio
+        
+        project_logo: https://github.com/AlejandroMS1049/AMS-exercise-command-line-challenge.git
+        link: "#"
+        tagline: "Linea de Comandos"
+
+      - title: Tempo
+        
+        project_logo: https://github.com/4GeeksAcademy/colaborate-html-3.git
+        link: "#"
+        tagline: "Trabajo grupal para entender como trabajar en equipo"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 75%
+
+      - name: Angular
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 99%
