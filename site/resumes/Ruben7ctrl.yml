@@ -1,0 +1,173 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ruben
+    last_name: Cabello Miguel
+    
+    # Define yourself in 4-5 words
+    motto: Always looking for my best version
+    
+    # Focus
+    focus: Learning everything I can about web development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: I am a passionate student specializing in full-stack web development, with a constant focus on continuous improvement and skill acquisition. My primary motivation is to build efficient, well-structured technical solutions, tackling development challenges with an analytical mindset and problem-solving approach. I am committed to enhancing my knowledge and creating functional, scalable web applications, always seeking new opportunities to apply what I've learned in professional environments.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/77.jpg
+
+    # Contact Information
+    email: rubencabellomiguel@gmail.com #optional
+    phone: 686 202 686 #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ruben7ctrl
+    
+    twitter: '@ElRuby40' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    # Interests or hobbies
+    interests:
+      - item: Sports (Football, Basketball, Futbol, Padel, Tenis ...)
+
+      - item: Motor sports ( F1, MotoGP ...)
+
+      - item: Animals
+
+      - item: Snowboarding
+      
+# Your previous education
+education:
+    - degree: Chemistry
+      university: Autonomous University of Madrid
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Logo_UAM.jpg/320px-Logo_UAM.jpg
+      time: 2016-2021
+      details: 
+         I am a graduate in Chemistry with a strong foundation in the fundamental principles of chemical science and their application across various fields. Throughout my studies, I have gained a deep understanding of organic, inorganic, analytical, and physical chemistry, as well as laboratory techniques and scientific problem-solving. 
+         I have specialized in the research and analysis of chemical compounds, utilizing advanced laboratory tools and specialized software for modeling and data analysis.
+         My education has enabled me to develop skills in teamwork, technical communication, and project management, with a focus on precision, safety, and efficiency. I am eager to apply my knowledge in professional environments where I can contribute to the development of innovative solutions in scientific, industrial, or research settings.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Delivery Driver
+      time: Jul 2018 - Apr 2019
+      company: Papá Johns España S.L, Madrid
+      # optional
+      company_logo: https://media-cdn.tripadvisor.com/media/photo-p/10/c8/58/ee/papa-john-s-pizza.jpg
+      details: 
+      
+        - Streamlined delivery routes for enhanced efficiency and comprehensive service coverage.
+        - Ensured punctual and effective order delivery, achieving high levels of customer satisfaction.
+        - Upheld restaurant cleanliness and hygiene standards through diligent maintenance tasks.
+        - Handled telephone orders and delivered exceptional customer service in-store.
+
+    - role: Assistant Manager
+      time: May 2019 - Sep 2020
+      company: Papá Johns España S.L
+      # optional
+      company_logo: https://media-cdn.tripadvisor.com/media/photo-p/10/c8/58/ee/papa-john-s-pizza.jpg
+      details: 
+      
+        - Streamlined team management and shift scheduling, enhancing productivity and team cohesion.
+        - Executed precise daily financial reconciliations, maintaining fiscal integrity and accuracy.
+        - Conducted thorough inventory oversight, ensuring meticulous stock control and product readiness.
+
+    - role: General Manager
+      time: Sep 2020 - Jun 2022
+      company: Papá Johns España S.L, Madrid
+      # optional
+      company_logo: https://media-cdn.tripadvisor.com/media/photo-p/10/c8/58/ee/papa-john-s-pizza.jpg
+      details: 
+      
+        - Expertly oversaw operations across high-volume dining establishments.
+        - Implemented stringent financial protocols for cash management and reconciliations.
+        - Enforced meticulous cash handling procedures to guarantee precise financial transactions.
+        - Managed vendor partnerships, inventory oversight, and seamless order fulfillment.
+        - Consistently provided superior customer service and adeptly handled service recovery.
+        - Maintained compliance with all regulatory documentation for restaurant operations.
+        - Led and motivated teams ranging from 11 to 20 members, fostering a collaborative culture.
+        - Strategically scheduled staff to maximize operational efficiency and customer satisfaction.
+        
+    - role: General Manager
+      time: Jul 2022 - December 2024
+      company: Tierra Burrito S.L, Madrid
+      # optional
+      company_logo: https://www.tierraburritos.com/wp-content/uploads/logo-Tierra_sm.png
+      details: 
+      
+        - Strategically managed and optimized the annual budget for financial efficiency.
+        - Spearheaded kitchen trials to ensure culinary excellence and innovation.
+        - Directed talent acquisition, enhancing the team with industry-leading professionals.
+        - Executed terminations with a focus on operational efficiency and compliance.
+        - Oversaw facility maintenance, upholding superior quality standards.
+        - Championed staff professional growth via ongoing training initiatives.
+        - Facilitated monthly meetings to bolster team communication and align objectives.
+
+
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: 
+       
+       - Practicing with all that i can!!
+        
+# Your project portfolio
+projects:
+    intro: 
+      These are some of the projects that I have completed. This list will be updated as the 
+      my coding journey advances.
+      
+    assignments:
+      - title: Instagram Boostrap
+        link: https://github.com/Ruben7ctrl/fs-pt-100-ruben-bootstrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view."
+
+      - title: Excuse Generator
+        link: https://github.com/Ruben7ctrl/Generate-Excuse-Ruben
+        tagline: "Random excuse generator."
+
+      - title: Instagram Feed
+        link: https://github.com/Ruben7ctrl/Instragram-Feed-ruben
+        tagline: "A Instagram feed page of SuperBowl"
+
+      - title: Postcard
+        link: https://github.com/Ruben7ctrl/exercise-postcard
+        tagline: "A website template designed to input information on a postcard.."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 95%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
