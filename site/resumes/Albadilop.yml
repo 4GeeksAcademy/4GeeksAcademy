@@ -27,10 +27,10 @@ basic_info:
     avatar: http://sep.breatheco.de/static/profile-images/Profile.pic.jpeg
 
     # Contact Information
-    email: alba.dilop@gmail.com #optional
+    email: albadilop #optional
     phone: 000000000 #optional
-    website: albadilop.com #optional
-    linkedin: albadilop #optional
+    website: albadilop #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
@@ -150,15 +150,15 @@ projects:
     assignments:
       - title: Velocity
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        project_logo: 
+        link:
+        tagline: 
 
       - title: DevStudio
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        project_logo: 
+        link: 
+        tagline: 
 
       - title: Tempo
         # optional
