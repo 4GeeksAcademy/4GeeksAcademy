@@ -9,11 +9,11 @@ skin: "berry"
 basic_info:
 
     # Your full name
-    first_name: Ada
-    last_name: Schuler
+    first_name: Aaron
+    last_name: Schereiber
     
     # Define yourself in 4-5 words
-    motto: i love learning
+    motto: Never give up
     
     # focus
     focus: Full Stack Developer continuous improvement
@@ -26,7 +26,7 @@ basic_info:
     avatar: 
 
     # Contact Information
-    email: adaschuler@gmail.com #optional
+    email: aaronsr@gmail.com #optional
     phone: 56965735245 #optional
     website:   #optional
     linkedin: www.linkedin.com/in/adaschuler/ #optional
@@ -34,7 +34,7 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: adaschuler
+    github: aaron2210
     
     twitter: '' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
