@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+#---------------------------------------------------------------------------------#
+
+
+basic_info:
+    # Your full name
+    first_name: Rodolfo
+    last_name: Prieto Montoya.
+    
+    # Define yourself in 4-5 words
+    motto: Meditacion y arte.
+    
+    # focus
+    focus: Aprender hay mucho que aprender
+
+    #resumen
+    summary: Ingeniero empresariales,con una licenciatura en el lenguas extranjeras por estudiar en Rusia
+      
+
+    #picture URL
+    avatar: https://avatars.githubusercontent.com/u/197240898?s=400&u=95a3cc8163996fbe150d033b8f09c7485e752cd5&v=4
+
+    # Contact Information
+    email: rhantoni.cuba@gmail.com #optional
+    phone: +34 684314428 #optional
+    linkedin: Rodolfo Antonio #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: hedrickantonio
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+     # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: avanzado
+
+      - idiom: Ruso
+        level: avanzado
+
+    # Interests or hobies
+    interests:
+      - item: Teatro musical
+      - item: Meditacion
+      - item: videojuegos
+      - item: cine
+      - item: viajes
+
+
+
+# Your previous education
+education:
+    - degree: Empresariales
+      university: Volgograd State technical University
+      # optional
+      university_logo: https://www.bing.com/images/search?view=detailV2&ccid=jBAYPsF3&id=1BB3E96D767A751123255D69B46D77A8661C8F56&thid=OIP.jBAYPsF3bx5kFP8MZWgJFQAAAA&mediaurl=https%3A%2F%2Fs3.ap-south-1.amazonaws.com%2Fgotouniv%2Fuploads%2F2520%2Flogo%2Flogo_170X115.png&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.8c10183ec1776f1e6414ff0c65680915%3Frik%3DVo8cZqh3bbRpXQ%26pid%3DImgRaw%26r%3D0&exph=104&expw=170&q=volgograd+state+technical+university&simid=608008924519093815&form=IRPRST&ck=504EAD490D491796113ABD4449EA20DC&selectedindex=1&itb=0&ajaxhist=0&ajaxserp=0&pivotparams=insightsToken%3Dccid_j9BlYVEa*cp_475D3965E447265F901F1B558AC755E7*mid_DC10499D6FF8EFC9C9EF418524C6CFFA08E10A66*simid_608009951010751813*thid_OIP.j9BlYVEa2feqDp-CchXtCgAAAA&vt=0&sim=11&iss=VSI&ajaxhist=0&ajaxserp=0
+      time: 2010-2015
+      details: 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Jefe de ventas
+      time: 2013 - 2016
+      company: Volgaso Project, Volgograd ·
+      # optional
+      company_logo: https://static.tildacdn.com/tild3865-6633-4838-a237-666161336536/tild643t.png
+      details: |
+          Encargado de las ventas del software de KPIs en europa y latinoamerica
+
+
+    - role: Subject Matter Expert (SME)
+      time: 2018 - 2019
+      company: CCC digital Service (Telus International), Barcelona·
+      # optional
+      company_logo: https://www.telusdigital.com/_next/static/media/logo-telus-digital.daaa0538.svg
+      details: |
+          Experto en la materia dedicada a la moderacion de contenido de redes sociales
+
+    - role: Real Time Analyst
+      time: 2019 - 2020
+      company: Telus International, Barcelona·
+      # optional
+      company_logo: https://www.telusdigital.com/_next/static/media/logo-telus-digital.daaa0538.svg
+      details: Gestión del volumen de llamadas, la asistencia diaria y los horarios de las pausas del programa. Colaboró estrechamente con el equipo de operaciones para analizar y ayudar a mejorar sus procesos de prestación
+          de servicios. Utilización de tendencias e informes para prever las necesidades.
+
+
+    - role: Scheduler Analyst
+      time: 2020 - 2023
+      company: Telus International, Barcelona·
+      # optional
+      company_logo: https://www.telusdigital.com/_next/static/media/logo-telus-digital.daaa0538.svg
+      details: Crear horarios basados en diversos factores, principalmente el volumen de contactos previsto y la disponibilidad y aptitudes de los agentes, equilibrando las demandas de los clientes (volumen) con un uso eficiente
+              de la mano de obra. Realización de ajustes rápidos y eficaces de la  programación, medición de las horas y análisis de las previsiones.
+
+    - role: Workforce Operation Analyst
+      time: 2023 - Actualidad
+      company: Exoticca
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4E0BAQFp1eXFGpfmVQ/company-logo_200_200/company-logo_200_200/0/1683019398689/exoticca_travel_agency_logo?e=1749081600&v=beta&t=Mkb6cDgn2Ow_IOMx8AIvuP0yfgbp8hcfQxYpaPBeqqk
+      details: Responsable del departamento de WFM de la empresa. Responsable de  crear las previsiones de éxito de clientes, ventas y b2b. Responsable de
+               crear las rotaciones de todos estos Lob y los horarios para cumplir con los horarios comerciales y sus criterios dentro del convenio colectivo.
+
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Excel 
+        level: 90%
+
+      - name: Visual Basic
+        level: 90%
+
+      - name: Verint
+        level: 80%
+
+      - name: Tableu
+        level: 80%
+
+      
+        
