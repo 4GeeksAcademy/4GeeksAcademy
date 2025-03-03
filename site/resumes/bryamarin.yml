@@ -1,0 +1,148 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: bryam
+    last_name: marin
+    
+    
+    motto: va a suceder por que hare que suceda.
+    
+    
+    focus: el mejor desarrollador  
+    
+    
+    summary: |
+      Soy un profesional del marketing digital y Diseño Gráfico, reconocido por mi creatividad, liderazgo y capacidad para desarrollar proyectos innovadores que generen resultados medibles. Durante mi carrera, logró aumentar el engagement de clientes en más del 35%, elevar la facturación en más del 30% y liderar proyectos estratégicos para empresas de alto impacto, como Startapps.
+      Mi experiencia integra estrategias de SEO, marketing de contenidos y campañas digitales, lo que me ha permitido incrementar el tráfico web en un 40% y mejorar significativamente las tasas de conversión. Siempre estoy a la vanguardia de las últimas tendencias del marketing digital global, comprometido en transformar desafíos en oportunidades de
+      crecimiento y en superar las expectativas de cada cliente.
+
+    
+   
+    avatar: https://avatars.githubusercontent.com/u/192098961?v=4
+
+    
+    email: 321mulville@gmail.com
+    # phone: 672131146  
+    linkedin: https://www.linkedin.com/in/bryam-marin-0805ba1b6/
+    
+    
+    github: bryamarin
+    
+    behance: bryammarin18
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: medium
+
+    
+    interests:
+      - item: football and culture
+
+      - item: fitness and xtream games
+
+      - item: biker
+
+
+
+experiences:
+    - role: MARKETING DIGITAL / SEO &COMMUNITY MANAGER 
+      time: + 3 AÑOS  - Present
+      company: Independiente.
+    
+      details: |
+      #     - Dirección y generación de contenidos para marcas personales y empresariales.
+      #     - Gestión integral de redes sociales, email marketing y producción audiovisual.
+      #     - Desarrollo y ejecución de estrategias de contenido orientadas a resultados.
+      #     - Especialización en inbound marketing, automatización con IA y embudos de conversión.
+
+
+
+    - role: JEFE DE MARKETING
+      time: 2019- 2021
+      company: RHG mental training.
+
+      details: | 
+       
+       #    - Dirigir y generar contenidos para marca personal y empresarial.
+       #    - Generar contenidos, RRSS, email marketing, editor y creador de estrategias.
+       #    - Manejo de equipos de gabacion y de edicion para campaás audiovisual.
+       #    - Asesor personal para marcas internas de la empresa.
+
+
+    - role: UDISEÑADOR GRAFICO / ADMIN
+      time: 2013 - 2018
+      company: Arroces de colombia y el mundo.
+
+      details: |
+        #   - Creación y diseño de catálogos web para 10 clientes.
+        #   - Diseño de la mascota oficial de la marca y desarrollo de personajes.
+        #   - Realización de 15 ilustraciones semanales para campañas en redes sociales.
+        #   - Rediseño de logotipos para nuevos clientes.
+        #   - Atención al cliente y gestión de ventas.
+
+#           
+
+# # Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+
+
+skills:
+    - toolset: 
+       - name: Python & Django
+         level: 60%
+
+       - name: Javascript & jQuery
+         level: 60%
+
+       - name: Angular
+         level: 98%
+
+       - name: HTML5 & CSS
+         level: 95%
+
+       - name: RUTOMATIZACIÓN CON IA, NFT, BLOCKCHAIN, METAVERSO E INTELIGENCIA ARTIFICIAL
+         level: 85%
+
+       - name: Sketch & Photoshop
+         level: 90%
