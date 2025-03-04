@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felipe
+    last_name: Browne
+    
+    # Define yourself in 4-5 words
+    motto: I am a proactive guy
+    
+    # Focus
+    focus: Achive my goals
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Experienced in sales, marketing, and analytical business strategy, with over five years in the field.
+      Currently expanding my skills in Data Science and Machine Learning to integrate data-driven insights 
+      with strategic decision-making. Proficient in Python for data exploitation, including cleaning,
+      visualization, and building supervised and unsupervised models. Strong in effective communication and teamwork,
+      fostering collaboration in diverse environments. Advanced English proficiency,
+      developed through academic studies in Austria, supports international collaboration.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<photo profile.png>
+    avatar: http://sep.breatheco.de/static/profile-images/photo_profile.png
+
+    # Contact Information
+    email: felipe.browne.le@gmail.com #optional
+    phone: 998178501 #optional
+    linkedin: felipebrowne #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/bartowen
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Music
+
+      - item: Learm
+
+# Your previous education
+education:
+    - degree: 
+      university: Data Science and Maching Learning
+      time: 2024 - 2025
+      details: |
+        Data Science & Maching Learning
+
+    - degree: Business administration and economics
+      university: Fachhochschule Oberösterreich. University of Applied Science, Austria
+      time: 2016 - 2017
+      details: |
+        Exchange Program.
+  
+    - degree: Business administration and economics
+      university:    Universidad del Desarrollo, Chile
+      time: 2013 - 2017
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Founder
+      time: 2024 - Present
+      company: Towen Seguros, Chile
+      details: |
+        Insurance brokerage for businesses, combining personalized service, technology
+        and competitive pricing.
+
+          - Main achievement: closed a USD 372K deal.
+
+    - role: Product Manager
+      time: 2023 - Present
+      company: Construmart, Chile
+      details: |
+        Led strategic management of the tools line across 30 stores, driving supplier negotiations,
+        sales analysis, and process improvements, achieving 100% of 2024  targets and delivering consistent
+        growth in sales (+14.2% in August, +8.6% in October, +9,2% in November, +7,5% in December YTD).
+
+    - role: Business Development Representative
+      time: 2022 - 2023
+      company: Fintoc, Chile
+      # optional
+      details: |
+        Responsible for researching and engaging potential financial market clients,
+        handling B2B sales across SMB, Mid-Market, and Enterprise segments,
+        and collaborating with marketing to drive lead generation and strategic decisions.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: TourData
+        # optional
+        link: https://github.com/bartowen/Exploracion_Proyecto_Final
+        tagline: "The objective of the project is to forecast occasional trips for the next 12 months,
+         providing traceability from the origin of those trips to the final destination."
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+      - name: Excel
+        level: 95%
