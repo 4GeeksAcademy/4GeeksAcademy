@@ -1,0 +1,76 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolás
+    last_name: Díaz
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender.
+
+    # Focus
+    focus: Flora y vegetación de Chile
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me he desempeñado haciendo mediciones en terreno para proyectos de investigación de flora vascular
+      de la Universidad de Concepción y proyectos de consultoría ambiental que requieran cumplir con la normativa ambiental vigente.
+      Actualmente, me he estado desarrollando en Data Science para poder trabajar con datos de biodiversidad.
+    
+
+    # Contact Information
+    email: nicodlopez3@gmail.com #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Nicolas-DL
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio (B1)
+
+    # Interests or hobbies
+    interests:
+      - item: Leer novelas
+
+      - item: Basketball
+
+      - item: Desarrollo profesional
+
+# Your previous education
+education:
+    - degree: Ingeniero en Conservación de Recursos Naturales
+      university: Universidad de Concepción
+      time: 2011 - 2018
+
+    - degree: Diplomado en Gestión Ambiental
+      university: Pontificia Universidad Católica de Chile
+      time: 2023 -2023
+
+    - degree: Data Analyst
+      university: Bootcamp 4geeks
+      time: 2024-2024
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Qgis
+        level: 20%
+
+      - name: SQLite
+        level: 10%
