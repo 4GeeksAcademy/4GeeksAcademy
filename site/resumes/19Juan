@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Camilo
+    last_name: Cortés Jaramillo
+    
+    # Define yourself in 4-5 words
+    motto: Interlinked
+    
+    # Focus
+    focus: I want to get a data driven life
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Bilingual industrial engineer with a master degree in industrial engineering focused in supply chain and logistics, with experience in production management, 
+    knowledge in methodologies to optimize production processes (lean six sigma, lean manufacturing & TPM); data science, budget executioning, SAP, Power BI and Python.
+    I'm a professional with high skills to coordinate, guide and lead work teams efficiently and with analytical capacity to make decisions and solve problems always oriented to the result.    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: NA
+
+    # Contact Information
+    email: 19juan.cortes@gmail.com
+    phone: +57 3205941347
+    website: NA
+    linkedin: https://www.linkedin.com/in/juancamilocort%C3%A9sjaramillo/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: 19Juan
+    
+    twitter: NA
+    stack-overflow: NA
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: C1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Watching series
+
+      - item: Going to the gym
+
+      - item: Playing videogames
+
+# Your previous education
+education:
+    - degree: MSc in Industrial Engineering
+      university: ICESI university
+      time: 2022 - 2023
+      details: 
+        Master in industrial engineering focusing in supply chain and logistics.
+
+    - degree: Industrial Engineering
+      university: ICESI University
+      time: 2016 - 2021
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Manufacturing Team Lead
+      time: 2023 - Present
+      company: AB InBev
+      details: |
+        Ensure compliance with VPO safety, quality, productivity and environmental requirements in the brewing process. 
+        Lead process improvement projects using lean six sigma methodologies, 5S, inventory management, Kpi, and efficient problem solving. 
+        Trainer of the 360 safety culture program.
+        People in charge 14
+        Skills: Team Leadership, Problem Solving, Change Management, Statistical Process Control (SPC)
+
+    - role: Supply Trainee
+      time: 2022 - 2023
+      company: AB InBev
+      details: |
+        Identify opportunities for improvement in different areas, generating high impact on production costs and different KPI's in the areas of processing, 
+        industrial services, safety and labor welfare, using continuous improvement tools (PDCA, RTA, Shared Learning, Quick Wins).
+        Skills : Problem Solving
+
+    - role: Distribution Assistant Administrative
+      time: 2021 - 2022
+      company: AB InBev
+      details: |
+        Control and execution of the southern regional logistics budget.
+        Monitoring and reporting costs of the southern regional logistics operation.
+        Negotiation with suppliers and creation of purchase orders.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
