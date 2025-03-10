@@ -1,0 +1,77 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Barberá Ferrer
+    last_name: Loic Alejandro
+    
+    # Define yourself in 4-5 words
+    motto: vive rápido, muere joven
+    
+    # focus
+    focus: masterizar IA en videojuegos
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: Soy una persona que cuando hace algo le gusta hacerlo bien. Me gusta la eficiencia y no perder el tiempo, por lo que me gusta aprender nuevas técnicas para hacer las cosas mejor y más rápido.
+        
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Loicbf94
+   
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Inlés
+        level: B2
+
+      - idiom: Francés
+        level: Bilíngüe
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Anime
+
+      - item: Viedeojuegos
+
+      - item: movies
+
+        
+# Your project portfolio
+projects:
+    intro: De momento me apoyo en los proyectos de clase mientras sigo aprendiendo
+    assignments:
+      - title: Pre-Work
+        link: https://github.com/4GeeksAcademy/Loic-realestate-datacleanup-exercise
+        tagline: trabajo preparatorio con ejercicios sobre dataframe
+
+      - title: Algebra y calculo lineal
+        link: https://github.com/4GeeksAcademy/Loic-calculus-and-algebra-problems-with-python
+        tagline: ejercicios básicos de ca´lculo, algebra y graficado
+      
+skills:
+    toolset:
+
+      - name: python
+        level: 15%
+        
+      - name: numpy
+        level: 20%
+
+      - name: pandas
+        level: 35%
+
+      - name: matplotlib
+        level: 5%
