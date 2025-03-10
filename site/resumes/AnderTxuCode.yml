@@ -1,0 +1,139 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Ander
+    last_name: Bermudo
+    
+    motto: Motivated and hardworker person
+    
+    focus: Learning a lot
+    
+    summary: |
+      Software Engineer | Frontend Developer | Data Analyst | Data Scientist
+      Software Engineer graduated from Uneatlantico with experience in frontend 
+      development using Angular and TypeScript, as well as backend programming 
+      in C, Java, and Python. Skilled in building scalable web applications, 
+      designing clean and maintainable code, and implementing data-driven solutions.
+
+      Passionate about data analysis and data science, with expertise in statistical modeling, 
+      data visualization, and machine learning techniques. Proficient in working with large 
+      datasets, extracting insights, and making data-driven decisions.
+
+
+    
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    email: anderbermudo@gmail.com 
+    linkedin: https://www.linkedin.com/in/ander-bermudo-sainz-de-rozas-6086ab246/ 
+    
+
+    github: AnderTxuCode
+    
+    stack-overflow: 
+
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Basque
+        level: Native
+      
+
+    interests:
+      - item: Gym
+
+      - item: Kick-Boxing
+
+      - item: Football
+
+education:
+    - degree: Software Engineer
+      university: European University of Atlantic
+      # optional
+      university_logo: https://www.uneatlantico.es/
+      time: 2020 - 2025
+      details: |
+        During my studies as a Software Engineer at the European University of Atlantic, I gained a strong foundation in computer science, software development, and problem-solving techniques. I worked on various projects, both individually and in teams, focusing on coding, algorithms, and system design. My coursework included subjects like data structures, databases, web development, and software engineering principles.
+
+        - Gained hands-on experience in developing software applications.
+        - Learned advanced algorithms, data structures, and best practices in coding.
+        - Collaborated on team projects, strengthening my teamwork and communication skills.
+        - Developed an understanding of system architecture, design patterns, and software testing
+experiences:
+    - role: Developer
+      time: 2025, Jan - Present
+      company: Dominion Global
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+    - role: Developer
+      time: 2025, Jan - Present
+      company: Global Dominion
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Developer at Global Dominion, I am responsible for building and maintaining software applications, focusing on technologies like Angular, HTML, and CSS. Additionally, I contribute to R&D projects, exploring new technologies and methodologies to drive innovation within the company. I collaborate with cross-functional teams to design and implement features, improve system performance, and solve complex technical challenges.
+
+      - Developing and maintaining scalable applications using Angular, HTML, and CSS.
+      - Collaborating on R&D projects to explore new technologies and optimize business solutions.
+      - Writing clean, modular, and maintainable code to meet business requirements.
+      - Conducting code reviews, providing mentorship to junior developers, and ensuring software quality.
+
+    - role: Jira Developer
+      time: 2022 - 2022
+      company: NTT Data
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Jira Developer at NTT Data, I was responsible for customizing and managing Jira workflows and configurations to meet the needs of the development and business teams. I worked closely with project managers and developers to ensure that Jira was set up to optimize project tracking, reporting, and issue management.
+      - Developed and customized Jira workflows, screens, and permissions to streamline project management processes.
+      - Implemented automated processes using Jira automation rules to reduce manual work and improve efficiency.
+      - Collaborated with cross-functional teams to provide Jira training and support.
+      - Troubleshooted and resolved Jira-related issues, ensuring smooth system operations.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: JavaScript & TypScript
+        level: 70%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Java
+        level: 85%
+      
+      - name: C & C++
+        level: 85%
+
+      - name: Lua
+        level: 90%
