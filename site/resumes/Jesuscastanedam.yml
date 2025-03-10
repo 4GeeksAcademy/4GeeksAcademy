@@ -1,0 +1,71 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesus 
+    last_name: Castañeda
+    
+    # Define yourself in 4-5 words
+    motto: respeto, constancia, dedicado, responsable, puntual
+    
+    # focus
+    focus: Data sciences & Maching learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me considero una persona muy alegre, simpática, optimista, responsable, trabajadora, ambiciosa, proactiva, 
+      organizada, puntual, con facilidad de adaptación y con gran capacidad de aprendizaje.
+
+      De mis experiencias he aprendido y sacado siempre el máximo provecho, agradecido por la oportunidades que he tenido. 
+
+      Me gustaría seguir desarrollandome en el sector tecnológico y de atención al cliente, ya que son áreas que 
+      considero que soy bueno y me gustan.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+
+  
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jesuscastanedam
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: futbol
+
+      - item: reading
+
+      - item: movies
+      
+      - item: technology (computers & coding)
+
+      
+skills:
+    toolset:
+
+      - name: Python
+        level: 10%
+        
+      - name: Excel
+        level: 80%
