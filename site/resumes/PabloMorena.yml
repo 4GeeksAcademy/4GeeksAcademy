@@ -1,0 +1,114 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv-pablomorena"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Pablo
+  last_name: Morena
+  
+  # Define yourself in 4-5 words
+  motto: El saber no ocupa lugar
+  
+  # Focus
+  focus: Convertirme en analista de datos económicos
+  
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Economista con Master oficial de Desarrollo y Crecimiento Económico, ambos grados superados en la UC3M.
+    Tengo un año de experiencia en el BBVA, concretamente en el sector de altas de contrapartidas e instrucciones en sistemas.
+
+  # Your profile picture URL
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+  # Contact Information
+  email: pablomorenaserda@gmail.com # optional
+  phone:  # optional
+  website:  # optional
+  linkedin: www.linkedin.com/in/pmserda
+  
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: PabloMorena
+  
+  twitter: # optional
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Native
+
+    - idiom: French
+      level: Professional
+
+    - idiom: Italian
+      level: Professional
+
+  # Interests or hobbies
+  interests:
+    - item: Lectura
+    - item: Arte
+
+# Your previous education
+education:
+  - degree: Economía
+    university: Universidad Carlos III de Madrid
+    # optional
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Logo_UC3M.svg/365px-Logo_UC3M.svg.png
+    time: 2018 - 2022
+    details: |
+      Grado en Economía en la UC3M en donde pude especializarme concretamente en el área de
+      Macroeconomía y Econometría. Las asignaturas más relevantes que pude cursar fueron:
+        - Microeconomía y Macroeconomía cuantitativa
+        - Economía internacional
+        - Economía aplicada
+        - Historia económica
+
+  - degree: MEDEG (Master in Economic Development and Growth)
+    university: Universidad Carlos III de Madrid
+    # optional
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Logo_UC3M.svg/365px-Logo_UC3M.svg.png
+    time: 2022 - 2023
+    details: |
+      - Development Economics
+      - Institutions, Development and Growth
+      - The Economic Development of Latin America in the Long Run
+
+# Your previous job experiences or volunteer experiences:
+experiences:
+  - role: Customer data management (Datos Fijos) en BBVA (2023-2025)
+    time: 2023 - 2025
+    company: BBVA
+    # optional
+    details: |
+      Responsable de las altas de las distintas contrapartidas que operan con el BBVA y de sus instrucciones de productos financieros.
+      Además de la revisión de la categoría MIFID de las mismas contrapartidas y de los contratos de los productos financieros contratados.
+
+# Your project portfolio
+projects:
+  assignments:
+    - title: 
+      # optional
+      project_logo: 
+      link: 
+      tagline: 
+
+skills:
+  toolset:
+    - name: Stata
+      level: 70%
+
+    - name: Gretl
+      level: 70%
+
+    - name: Bloomberg
+      level: 60%
