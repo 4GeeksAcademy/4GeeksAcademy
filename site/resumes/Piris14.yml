@@ -1,0 +1,72 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Iris
+    last_name: Muñoz
+
+    # Define yourself in 4-5 words
+    motto: Siempre dispuesta a parender y crecer
+
+    # focus
+    focus: data science and machine learning
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+     Persona proactiva, orientada a los resultados y que siempre busca nuevos retos que me permitan seguir creciendo personal y profesionalmente. Con el objetivo de sumar valor a las organizaciones con las que trabajo.
+
+
+    # Contact Information
+    email: irismunozherrera@gmail.com
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: piris14
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+      - idiom: Inglés
+        level: C1
+
+    # Interests or hobbies
+    interests:
+      - item: Deportes
+      - item: Cocina
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: Administración y Dirección de Empresas
+      university: UAH (Alcalá de Henares - Spain)
+      time: 2015 - 2020
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Administrativa
+      time: 2022 - 2024
+      company: Baño & Jardín
+
+    - role: Departamento de marketing
+      time: 2021-2022
+      company: SEAT
+      
+skills:
+    toolset:
+      - name: Python
+        level: 10%
+      - name: Pelican
+        level: 80%
+      - name: Excel
+        level: 75%
+      - name: Canva 
+        level: 90%
