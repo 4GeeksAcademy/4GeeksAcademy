@@ -1,0 +1,92 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lucas
+    last_name: Magán
+    
+    # Define yourself in 4-5 words
+    motto: neo-otaku en busca de conocimiento
+    
+    # Focus
+    focus: Full-Stack Web Developer bootcamp
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona simple, ambiciosa con sus metas y en busca de constante evolución a todos los niveles
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: lucasfliper@hotmail.com #optional
+    phone: soon #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LMagan
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: B1
+
+
+    # Interests or hobbies
+    interests:
+      - item: Tecnología
+
+      - item: Manga/Anime
+
+      - item: Fitness
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: oficial de cocción
+      time: 2023
+      company: Grupo MahouSanMiguel 
+      # optional
+      company_logo: 
+      details: |
+        
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      actualmente en bootcamp... pronto más
+
+
+        
+
+skills:
+    toolset:
+ 
+      - name: JavaScript & jQuery
+
+      - name: HTML5 & CSS
+
