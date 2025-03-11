@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: William 
+    last_name: Aguas
+    
+    # Define yourself in 4-5 words
+    motto: Me gustan los perros
+    
+    # Focus
+    focus: Superarme todos los días.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Como profesional en mi carrera de programador, me esfuerzo constantemente por mejorar mis habilidades y mantenerme actualizado con las nuevas tecnologías. Mi objetivo es desarrollar soluciones eficientes y de alta calidad, resolviendo problemas con creatividad y lógica.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: william Aguas@gmail.com
+    phone: 3548165180
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/william-andres-aguas-gomez-33403a222
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: WILLIAMAGUAS
+    
+    twitter: william
+    stack-overflow: 3215 wiiliam
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermedio
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+       Lectura de libros sobre tecnología y desarrollo personal
+       Aprender nuevos idiomas y culturas
+       Ejercicio y bienestar físico
+       Viajar y explorar nuevos lugares
+
+# Your previous education
+education:
+    - degree: Negocios internacionales
+      university: Universidad Externado
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2021
+      details: |
+       se enfoca en el estudio y la gestión de operaciones comerciales a nivel global. Forma profesionales con conocimientos en comercio exterior, logística, finanzas, marketing internacional y estrategias de expansión de mercados. Los egresados son capaces de analizar el entorno económico y político mundial para identificar oportunidades de negocio y diseñar estrategias que permitan a las empresas competir en mercados internacionales. Además, la carrera fomenta habilidades en negociación, comunicación intercultural y toma de decisiones estratégicas, esenciales para el éxito en un mundo cada vez más globalizado.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        En mi experiencia laboral como programador, trabajé en el desarrollo y mantenimiento de aplicaciones web, asegurando su eficiencia y escalabilidad. Utilicé tecnologías como JavaScript, Python y bases de datos SQL para crear soluciones optimizadas según las necesidades del cliente. Colaboré con equipos multidisciplinarios en metodologías ágiles, participando en reuniones diarias y revisiones de código para mejorar la calidad del software. Además, resolví problemas técnicos, optimicé el rendimiento de sistemas y documenté procesos para facilitar futuras actualizaciones. Esta experiencia fortaleció mis habilidades en resolución de problemas, trabajo en equipo y desarrollo de software de alta calidad.
+        
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Actualmente, trabajo como programador, desarrollando y optimizando aplicaciones web para mejorar la experiencia del usuario y la eficiencia del sistema. Utilizo tecnologías como JavaScript, Python y bases de datos SQL para crear soluciones escalables y seguras. Colaboro con equipos multidisciplinarios en un entorno ágil, participando en reuniones diarias, revisiones de código y pruebas de calidad para garantizar el mejor desempeño del software. 
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Creé una plataforma que permite a las empresas registrar, organizar y gestionar la información de sus clientes de manera eficiente.
+      Diseñé y desarrollé un sistema que automatiza tareas repetitivas dentro de la empresa, como la generación de reportes y el envío de correos automatizados, reduciendo el tiempo de trabajo manual en un 40%.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 78%
+
+      - name: JavaScript & jQuery
+        level: 88%
+
+      - name: Angular
+        level: 88%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Ruby on Rails
+        level: 75%
+
+      - name: Sketch & Photoshop
+        level: 80%
