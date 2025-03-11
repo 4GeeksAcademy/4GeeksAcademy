@@ -1,0 +1,70 @@
+# 
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos A    
+    last_name: Barreto
+    
+    # Define yourself in 4-5 words
+    motto: I enjoy learning new things
+    
+    # Focus
+    focus: Improve myself any time
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I´m a very highlight subject matter on costumer servicegi
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+
+    # Contact Information
+    email: carlosandresb21@gmail.com #optional
+    phone: +1 786 554 9972  #optional
+    website: Pending... #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carlossb21
+    
+    
+    stack-overflow: n/a # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: professional
+
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Listen to good music
+
+      - item: Cooking
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
