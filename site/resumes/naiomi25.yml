@@ -1,0 +1,117 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Naiomi
+    last_name: Diaz
+    
+    # Define yourself in 4-5 words
+    motto: Vivo, río y dejo ser.
+    
+    # Focus
+    focus: Siempre en cosas nuevas
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona adaptable, siempre lista para fluir con los cambios y encontrar oportunidades en cada situación. 
+      Mi actitud alegre y curiosa me impulsa a aprender constantemente, descubriendo nuevas formas de hacer las cosas 
+      y mejorando cada día. Me encanta simplificar la vida, buscando soluciones prácticas que me permitan disfrutar más 
+      del presente con tranquilidad y optimismo.
+
+      
+    
+    # Your profile picture URL
+  
+    
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:   https://drive.google.com/uc?export=view&id=14uslZuGKWyS4vAEJP6pcasOrQWaZIGm1 
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: naiomi25
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: 123456/alandoe # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Eapañol
+        level: Nativo
+
+      - idiom: Ingles
+        level: Intermedio
+
+    # Interests or hobbies
+    interests:
+      - item: escalar
+
+      - item: leer
+
+      - item: fitness
+
+# Your previous education
+education:
+    - degree: Grado en turismo
+      university: Universidad de Fuenlabrada
+      # optional
+      university_logo: https://www.urjc.es/images/tour_virtual/fuenlabrada/assets/uploaded/20210103131902.NUvNlc.jpg
+      time: 2010 - 2014
+      
+        
+    - degree: Full-Stack Software Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://digitalfuturesociety.com/app/uploads/2021/06/BDT_logo_becas_geeks_v2.jpg
+      time: 2025 - presente
+      
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coordinadora att.cliente, cajas, y backoffice.
+            Vendedora dportes de montaña,alpinismo y camping.
+
+      time: 2009 - 2024
+      company: Decathlon, España
+      # optional
+      company_logo: https://www.reasonwhy.es/media/cache/destacada/decathlon-nueva-etapa.jpg
+      details: Coordinadora de Caja y Atención al Cliente con amplia experiencia en la gestión del flujo de dinero 
+        y el manejo de procesos administrativos. Responsable de organizar y supervisar al equipo
+        durante los turnos, asegurando un desempeño eficiente y la correcta gestión de los loomies. 
+        Experta en la resolución de incidencias, formación del personal y atención de reclamaciones, 
+        proporcionando soluciones rápidas y efectivas para mejorar la satisfacción del cliente y 
+        optimizar los procesos internos. Comprometida con la eficiencia operativa y el excelente 
+        servicio al cliente.|
+        
+
+    - role: Agente de viajes
+      time: 2009 - 2013
+      company: Sprintravel
+      # optional
+      
+      details: Asesoría y planificación de viajes personalizados,
+       gestionando reservas de vuelos, alojamiento, transporte y actividades turísticas. 
+       Encargado de la elaboración de itinerarios a medida, proporcionando información detallada 
+       sobre destinos y servicios. Gestión de documentación de viaje, incluyendo visados y seguros,
+       y atención al cliente, resolviendo incidencias y reclamaciones antes, durante y después del viaje. Coordinación de pagos, 
+       emisión de facturas y control de transacciones financieras. Mantenimiento actualizado de la oferta turística y promoción de servicios a
+       través de diferentes canales.
+        
+
+         
+
+# Your project portfolio
