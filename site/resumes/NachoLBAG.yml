@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ignacio
+    last_name: López
+    
+    # Define yourself in 4-5 words
+    motto: Hay que estar más tranquilo
+    
+    # Focus
+    focus: Vivir en paz
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Me gusta aprender a mi ritmo, vivimos en una sociedad acostumbrada a las prisas, la paciencia es lo mas importante. Respira profundo y sigue adelante.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: nacholb99@icloud.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: Ignacio López Blasco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NachoLBAG
+    
+    twitter: 'No uso' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: Bassic
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Tennis
+
+      - item: Videogames
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Primary Education Degree
+      university: University of Córdoba
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2023
+      details: Sinceramente, de los 4 años que estuve, solo me sirvieron las practicas, ahí es donde verdaderamente se aprende a interactuar con los niños.
+
+  
+
+    - degree: Marketing & Publity
+      university: Camilo José Cela University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2025
+      details: Aprendí a como moverse por el mercado y encontrar nichos a la altura de los tiempos que corren, encontrar patrones y tendencias.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Social Media Intern 
+      time: 2021 - 2023
+      company: Colegio Alauda, Córdoba
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Desarrollo de Contenido, Creación de posts tanto en Instagram como en Facebook. Estrategia de Contenido, Encargado de crear anuncios con Facebook Ads y Google Analytics. Colaboraciones, Gestionar el engagement y planear publicaciones con Content Creators. Tendencias de Redes Sociales, Me mantuve al tanto de las últimas tendencias en redes sociales y adaptando el contenido para maximizar su impacto.
+
+    - role: Ecommerce Founder 
+      time: 2015 - 2017
+      company: Wicker Brand, Spain
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Gestión de la Plataforma, Administré la tienda en línea utilizando plataformas como Shopify, optimizando la experiencia del usuario. Estrategias de Marketing, Diseñé e implementé campañas de marketing digital (SEO, SEM, redes sociales) que aumentaron las visitas y las conversiones en un 3000% en 6 meses. Análisis de Datos, Utilicé herramientas analíticas (Google Analytics, informes de ventas) para evaluar el rendimiento y tomar decisiones informadas sobre productos y estrategias. Gestión de Inventario, Supervisé el inventario, asegurando niveles adecuados de stock y gestionando pedidos de proveedores.
+
+    - role: Profesor sustituto
+      time: 2022 - 2022
+      company: Colegio Alauda, Córdoba
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Impartición de Clases, Enseñé diversas asignaturas de educación primaria, adaptando el contenido a las necesidades de los alumnos. Gestión del Aula, Mantuve un ambiente de aprendizaje positivo, gestionando el comportamiento y fomentando la participación de los estudiantes. Evaluación del Progreso, Realicé evaluaciones y seguimientos del rendimiento académico de los estudiantes, proporcionando retroalimentación constructiva.
+
+# Your project portfolio
+projects:
+    intro: >
+      Actualmente no tengo proyectos en proceso.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 1%
+
+      - name: JavaScript & jQuery
+        level: 5%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Sketch & Photoshop
+        level: 40%
