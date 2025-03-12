@@ -1,0 +1,222 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Valero
+    last_name: Gaudo Gallego
+    
+    # Define yourself in 4-5 words
+    motto: Work hard, play hard
+    
+    # Focus
+    focus: Learning how to become a skilled full-stack developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Automotive engineer willing to learn and become a full-stack
+      developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Valero.jpg
+
+    # Contact Information
+    email: vgaudo@hotmail.com #optional
+    phone: +34 658489993 #optional
+    website: #optional
+    linkedin: valero-gaudo-gallego-079a6835 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: valero-g
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Travelling
+
+      - item: Sailing
+
+      - item: Hiking
+
+# Your previous education
+education:
+    - degree: Industrial Engineer 
+      university: Centro Politecnico Superior- Universidad de Zaragoza 
+      # optional
+      university_logo: https://gic.unizar.es/sites/gic/files/identidadCorporativa/imagen/solemne_color.png
+      time: 1997 - 2002
+      details: |
+        Industrial engineer covers a broad scope of subjects, from electronics to mechanics,
+        industrial organization or structural design.
+        Two stages abroad:
+
+          - 2002: École Nationale Supérieure d Arts et Métiers (ENSAM), Bordeaux, France.
+          - 2000-2001: Technische Universität Braunschweig, Germany
+
+    - degree: Administration and Business Management Degree
+      university: UNED (Spanish Remote University)
+      # optional
+      university_logo: https://portal.uned.es/NUEVOWEB/IMAGENES/logoUNED.gif
+      time: 2002 - 2013
+      details: |
+        Degree performed while working. Performed as professional, learning economics,
+        as well as business administration or taxes management gave me an understanding on 
+        how society works. 
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Powertrain SW validation team coordinator
+      time: 2023 - Present
+      company: Bertrandt AG, Barcelona
+      # optional
+      company_logo: https://www.bertrandt.com/fileadmin/default/logo-bertrandt.svg
+      details: |
+        Responsibilities:
+          - Team coordination of 6 engineers
+          - Validation of Engine Management SW for combustion and EV powertrains
+          - Validation of powertrain functions in vehicle and Hardware in the Loop environments
+          - Reporting of SW validation results.
+
+    - role: Engine Management System Project Manager 
+      time: 2017 - 20223
+      company: Bertrandt AG, Barcelona
+      # optional
+      company_logo: https://www.bertrandt.com/fileadmin/default/logo-bertrandt.svg
+      details: |
+        Project manager of EMS activities leading the project team: deliverables agreement, resources planning,
+        work packages and schedule management, execution, control and closure of project
+        Assignment and follow-up of workpackages:
+        - Validation and calibration of engine management software vehicle functions.
+        - Validation and calibration of electrical Engine ECU diagnostics.
+        - Validation and calibration of Engine ECU CAN and LINcommunication.
+        - Creation of wiring harness diagram for engine ECU.
+        - Troubleshooting of Engine ECU SW related issues.
+        - Assist factory in production trials.
+        - Provide technical support and guidelines to team members.
+
+    - role: Senior Application Engineer
+      time: 2015 - 2017
+      company: Robert Bosch Limited, Denham (United Kingdom) 
+      # optional
+      company_logo: https://www.bosch-professional.com/media/professional/central_assets/bosch_logo/bosch.svg
+      details: |
+        Responsibilities:
+        - Assist customers in the application and integration of AdBlue dosing systems to machine applications.
+        - Assist customers in the calibration of the AdBlue dosing system and diagnostics.
+        - Assist customers in the integration of Bosch dosing control units (DCU).
+        - Sign off the customer key applications.
+        - Support and participation in the acquisition of new business.
+        - Lead one application engineer and one graduate engineer
+
+    - role: Powertrain System and Functions Software development engineer
+      time: 2012 - 2014
+      company: Bosch Engineering GmbH, Abstatt (Germany) 
+      # optional
+      company_logo: https://www.bosch-professional.com/media/professional/central_assets/bosch_logo/bosch.svg
+      details: |
+        Responsibilities:
+        Software functions development for powertrain electronic control units.
+        - Clarification of technical requests with project team and customer.
+        - Estimation of development effort and planification of work packages.
+        - Creation of specifications (specification sheets and software documentation).
+        - Coding, integration, configuration and delivery of work packages to project teamsand customer.
+        - Testing of work packages in Labcar or vehicle.
+        - Conduction of all quality measures (Reviews, Test specification, 8D Reports).
+        - Presentation and discussion with project teams and customer.
+
+    - role: Diesel application engineer
+      time: 2008 - 2012
+      company: Robert Bosch España, Barcelona 
+      # optional
+      company_logo: https://www.bosch-professional.com/media/professional/central_assets/bosch_logo/bosch.svg
+      details: |
+        Responsibilities:
+        - Software functions development for powertrain electronic control units.
+        - Calibration and validation of fuel injection functions
+        - Support for Driveability, engine test bench and emission activities
+        - Support for Winter, Summer and Altitude tests.
+        - Fleet validation organization and support.
+        - Validation of Low Pressure Circuit and Diagnosis system.
+        - Technical support and troubleshooting.
+        - Customer interface for software validation and technical Support.
+        - Customer CAN messaging validation.
+
+    - role: Key Account Manager
+      time: 2003 - 2007
+      company: Robert Bosch España, Barcelona 
+      # optional
+      company_logo: https://www.bosch-professional.com/media/professional/central_assets/bosch_logo/bosch.svg
+      details: |
+        Responsibilities:
+        - Prepare offers for new projects in coordination with Business Division
+        - Business plan and sales forecast monitoring
+        - New products homologation
+        - Design change management
+        - Customer interface for 0-km and warranty claims.
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects done in 4Geeks acadamey!
+
+    assignments:
+      - title: Instagram-Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/valero-g/instagram-bootstrap-valero-g
+        tagline: "Instagram web page done with bootstrap."
+
+      - title: Form
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/valero-g/form-html5-valero-g
+        tagline: "Form done with HTML5 "
+
+      - title: Landing page
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/valero-g/exercise-product-landing-page-plain-css-valero-g
+        tagline: "Landing page donw with HTML and CSS"
+
+skills:
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: JavaScript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Visual Basic for Applications
+        level: 75%
+
+      - name: INCA & CANalyzer (automotive tools)
+        level: 90%
