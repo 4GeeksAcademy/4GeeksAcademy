@@ -1,0 +1,69 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Sebastian
+  last_name: Lopez
+  motto: I like saving the world and play rugby
+  focus: Killing Bad Boys
+  summary: >
+    Trabaje en Posnet una empresa de Mastercard, con los equipos POS (poin of sale) en Arg. despues me mude a españa en 2022 y acutalmente soy mozo de Almacen 
+
+
+    Second paragraph if required.
+    avatar: https://lh3.googleusercontent.com/a/ACg8ocIRN7-qC7CHUZdyS3JJN5ynn8iXnY-EUjbwhxHJoPllRbR1zsVc=s192-c-rg-br100
+  email: sebastianlopez8@hotmail.com
+  phone: +34 6547069
+  website: asd.com
+  linkedin: www.linkedin.com/in/sebastian-lopez-36aa997b
+  github: sebaslop-afk
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: b2
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Climbing
+    - item: Snowboarding
+    - item: Cooking
+education:
+  - degree: Lic. ing.comercial
+    university: Universidad abierta interamericana
+    university_logo: https://uai.edu.ar/media/1011/uai.svg
+    time: 2010 - 2014
+    details: Realizado en Arg.
+     
+
+        - Bullet point
+        - Bullet point
+  - degree: Data scientist
+    university: Bristol University
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025
+    details: Recien comienzo a estudiar 
+      
+
+      - Bullet point
+      - Bullet point
+experiences:
+  - role: Mozo de Almacen
+    time: 2022- Present
+    company: Startup Hubs, San Francisco
+    company_logo: https://vivescortadaimport.com/img/minoristas-vives-de-la-cortada-logo-1631549711.jpg
+    details: Preparo pedidos on line y atiendo a los clientes 
+     
+  
+        - Bullet point
+        - Bullet point
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 30%
+    
+    - name: HTML5 & CSS
+      level: 15%
+    
+ 
