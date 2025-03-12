@@ -1,0 +1,151 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sandra
+    last_name: Gómez
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack dev in training
+    
+    # Focus
+    focus: merging tech and design
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Visual artist who loves technology and tries to merge the best of both worlds. With a vast knowledge in creating 2D and 3D assets and currently focusing into developing my tech skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: AAAAAAAA
+
+    # Contact Information
+    email: AA@gmail.com #optional
+    phone: AA #optional
+    website: AA #optional
+    linkedin: AA #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sanxworkshop
+    
+    twitter: 'sanxworkshop' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Cats
+
+      - item: Arts
+
+# Your previous education
+education:
+    - degree: Videogame creation internship
+      university: PlayStation Talents 
+      # optional
+      university_logo: 
+      time: 2017-2018
+      details: |
+       Creation of a videogame and a videogame studio in the PS Hub in Valencia
+
+          - Creation of 2D and 3D assets for the project
+          - Creation and management of an indie videogame studio
+
+    - degree: Fine Arts
+      university: UPV
+      # optional
+      university_logo: 
+      time: 2012 - 2016
+      details: |
+        Learning of the main fine arts disciplines and applying them into tech arts.
+
+          - Photography, video art
+          - Computer graphics
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 3D Background Supervisor
+      time: Present
+      company: ..
+      # optional
+      company_logo:
+      details: |
+        Managing and correcting the 3D assets from the background team of the movie "Deshechable"
+
+          - Time management, asset management
+          - 3D correcting
+
+    - role: Art director
+      time: 2023 - 2024
+      company: ..
+      # optional
+      company_logo: 
+      details: |
+        Art direction for Videogame
+
+          - Defining the art style
+          - Creation of concept art
+
+    - role: Application Administrator
+      time: 2022 - 2023
+      company: ..
+      # optional
+      company_logo: 
+      details: |
+        Application administrator 
+
+          - Q&A for new developments
+          - Creation of manuals
+
+# Your project portfolio
+projects:
+    intro: >
+      I don't know what to put here.
+
+    assignments:
+      - title: GitHub
+        # optional
+        project_logo: 
+        link: "https://github.com/SanxWorkshop"
+        tagline: "Github link for FS learning projects"
+
+skills:
+    toolset:
+      - name: Photoshop, adobe pack
+        level: 98%
+
+      - name: Blender, 3dsMax
+        level: 98%
+
+      - name: UE5
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Javascript
+        level: 20%
+
+      - name: Python
+        level: 2%
