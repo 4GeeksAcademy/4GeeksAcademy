@@ -1,0 +1,107 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name:  Daniela
+    last_name: Martínez
+
+    motto: Extrovertida, divertida, comprometida, resiliente
+
+    focus: Aprender nuevas cosas todos los días
+
+    summary: A lo largo de mi carrera profesional me he ido actualizando 
+      e intento dar siempre la mejor versión profesional de mi. Cada día 
+      voy estudiando nuevos conceptos para no quedarme rezagada en conocimientos.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    email: danmv.0991@gmail.com 
+    phone: 
+    website:
+    linkedin: 
+
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Daniela-MV
+
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Básico
+
+      - idiom: 
+        level: 
+
+    interests:
+      - item: Leer
+
+      - item: Escuchar música
+
+      - item: Salir con amigos
+
+education:
+    - degree: Full-stack developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Actual
+      details:
+                 Actualmente me encuentro cursando el bootcamp de fullstack developer en 4Geeks academy,
+        el cual se desarrolla de manera virtual e interactiva con los otros compañeros. 
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Licenciatura en Fisioterapia
+      time: 2019-presente
+      company: Marval Fisioterapia
+      # optional
+      company_logo:
+      details: |
+       Actualmente me dedico a dar consulta de manera particular, realizando la valoración de los pacientes, dando el tratamiento y seguimiento de sus lesiones.
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+       Aquí se encuentran los primero proyectos en los que he trabajado
+    assignments:
+      - title: Instagram Post
+        # optional
+        project_logo: 
+        link: "https://github.com/4GeeksAcademy/Daniela-MV-Post-de-Instagram"
+        tagline: "Post con las principales fotos de instagram"
+
+      - title: Formulario con Bootstrap
+        # optional
+        project_logo: 
+        link: "https://github.com/4GeeksAcademy/Daniela-MV_Formulario"
+        tagline: "Formulario creado con Bootstrap"
+
+
+skills:
+    toolset:
+      - name: HTML5 Y CSS3
+        level: 30%
+
+      - name: Bootstrap4
+        level: 30%
+
+      - name: Javascript
+        level: 20%
+
+      - name: 
+        level: 
+
+      - name: 
+        level:
+
+      - name: 
+        level:
