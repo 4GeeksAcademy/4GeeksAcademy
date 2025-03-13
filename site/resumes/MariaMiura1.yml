@@ -1,0 +1,18 @@
+
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Maria
+  last_name: Miura
+  motto: 七転び八起き
+  summary: I am a dedicated professional with a background in Applied Linguistics
+    and ongoing studies in Data Science.With experience teaching Spanish and
+    Japanese at various educational institutions, including universities, I have
+    helped students develop strong language skills and cultural awareness.
+    Fluent in Spanish, English, and Japanese, I am adept at engaging diverse
+    learners effectively. My expertise in linguistics, combined with my Data
+    Science studies, allows me to bridge the gap between language and data
+    analysis, providing valuable insights through a data-driven approach.
+      
+  github: MariaMiura1
+   
