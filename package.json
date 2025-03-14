@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "colors": "^1.4.0",
+    "cross-spawn": "^7.0.6",
     "http-server": "^14.1.1",
     "js-yaml": "^4.1.0",
-    "pre-commit": "^1.2.2",
-    "simple-git": "^3.19.1"
+    "pre-commit": "^1.0.10",
+    "simple-git": "^3.27.0"
   },
   "scripts": {
     "build": "node generate-json.js",
