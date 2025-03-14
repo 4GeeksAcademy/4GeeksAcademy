@@ -1,0 +1,78 @@
+template: "online-cv"
+skin: "gray"
+
+basic_info:
+
+
+    first_name: Maria Delgado Franco
+    motto: International Business
+    avatar: nofile
+    summary: |
+      I'm an international business administrator. 
+      I worked for a time as a purchasing and logistics manager at a mining company in Peru.
+      I'm currently studying data science to improve and create programs that help with logistics efficiency.
+
+    
+    email: mariadelgadof19.midf@gmail.com
+    phone: 645884110
+    websites:
+    linkedin: Maria Delgado
+    github: MariaDe96
+    twitter: MariaMidf
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    interests:
+      - item: Art 
+      - item: Logistic & Business
+      - item: Data Science
+      - item: Artificial Ingelligence
+
+education:
+    - degree: International Business Administration 
+      university: Instituto San Ignacio de Loyoya
+      time: 2019 - 2021
+
+experiences:
+    - role: Restaurant Manager
+      time: 2024 - Present
+      company: La Prensa de Embajadores
+      details: |
+        I am in charge of the administrative and logistical side of the restaurant,
+        thus achieving efficiency in service and purchasing.
+
+         -Bullet Point
+         -Bullet Point
+
+    - role: Purchasing and logistics manager
+      time: 2019 - 2021
+      company: Go Mining
+      details: |
+        I was responsible for managing clients and suppliers, purchasing and contracting heavy mining machinery.
+        We provided subcontracted services to mining companies.
+
+         -Bullet Point
+         -Bullet Point
+      
+skills:
+    toolset:
+      - name: Python
+        level: 28%
+
+      - name: Javascript
+        level: 28%
+
+      - name: Excel
+        level: 98%
+
+      - name: Adobe PhotoShop
+        level: 98%
+
+      - name: Git
+        level: 25%
+        
