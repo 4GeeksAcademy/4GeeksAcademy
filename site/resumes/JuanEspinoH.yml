@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Juan
+    last_name: Espino
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I love and hate CSS
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Front end
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -29,13 +29,13 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://media.licdn.com/dms/image/v2/D5603AQH4xdsoctkE4g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1675732245087?e=1747267200&v=beta&t=v1jK6reTVnR-OT6g2oAvM_ezyfjZEwMr6Epz2yCiOpU
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: jjuanespinoholguin@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/juanespinoh/ #optional
     
     #
     # ******** IMPORTANT *******
@@ -48,29 +48,26 @@ basic_info:
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
-
-      - idiom: French
-        level: Professional
+        level: Intermediate
 
       - idiom: Spanish
-        level: Professional
+        level: Native
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Jogging
 
-      - item: Snowboarding
+      - item: Video games
 
       - item: Cooking
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Accounting
+      university: University of Coahuila
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2012 - 2017
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -81,20 +78,7 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
 
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
