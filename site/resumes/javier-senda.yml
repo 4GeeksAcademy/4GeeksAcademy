@@ -1,0 +1,146 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Sendarrubias
+    
+    # Define yourself in 4-5 words
+    motto: Every challenge is an opportunity to innovate and improve.
+    
+    # Focus
+    focus: Problem-solving and adding value
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I started my career as a Customs Agent and gradually took on new challenges, eventually becoming a Product Owner to meet the company’s needs. 
+      My experience in the industry allows me to understand both operational processes and opportunities for improvement through technology. 
+      I enjoy working in a team, continuously learning, and finding solutions that add value to the business and its users
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQEfjLMXEI4FxA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723905135695?e=1747267200&v=beta&t=hyaPuFJU6bYHuZaEcV5bLJkZMbHpHPMGDIQNEVv6O20
+
+    # Contact Information
+    email: javiersendarrubias@hotmail.com #optional
+    # phone: 234 2342 342 #optional
+    # website: asd.com #optional
+    # linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: javier-senda
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: UX & UI design
+
+      - item: Bussiness Inteligence
+
+      - item: Financial investments
+
+# Your previous education
+education:
+    
+    - degree: Digital creation and design
+      university: Universitat Oberta de Catalunya
+      # optional
+      university_logo: https://coecs.com/wp-content/uploads/2018/10/uoc-61535447.jpg
+      time: 2020 - 2024
+      details: |
+        I developed a more creative mindset and learned to design and prototype with a user-centered approach. 
+        This program enhanced my ability to create intuitive digital experiences, focusing on usability, aesthetics, and innovation 
+          
+    - degree: Design and Development of videogames
+      university: Rey Juan Carlos University
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMGV5MJ1yruIVM_Z5eiFi9pzUqTm7RXXpEBA&s
+      time: 2017 - 2020
+      details: |
+        I gained a solid foundation in programming, game design, and teamwork within software development projects. 
+        I learned to collaborate effectively in multidisciplinary teams, applying agile methodologies to bring creative ideas to life.
+
+          - Fundamentals of programming and game design – Learned the basics of coding, user experience, and interactive design
+          - Collaboration in software development – Worked in teams using agile methodologies to develop and improve digital projects
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Product owner
+      time: 2024 - Present
+      company: Grupo Air Go Express, Madrid
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoHwJCDP5O9tFbdyLqTkJYvHQL0T15GGzGQ&s
+      details: |
+        Collaborating with the IT team on the digitalization, automation, and development of a new customer-focused product aimed at increasing transparency across all processes for both clients and the company. 
+        Working on an ongoing key project to enhance efficiency and improve the user experience.
+
+          - Product development and automation – Working on a new solution to optimize operations and improve service transparency
+          - Cross-functional collaboration – Coordinating with IT and business teams to align product vision with company goals
+          - Process optimization – Driving digital transformation to streamline workflows and enhance customer experience.
+
+    - role: Customs agent
+      time: 2022 - 2024
+      company: Grupo Air Go Express, Madrid
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoHwJCDP5O9tFbdyLqTkJYvHQL0T15GGzGQ&s
+      details: |
+        Customs clearance processes while expanding responsibilities to include logistics coordination and close collaboration with the warehouse team. 
+        Ensured efficient import-export operations, compliance with customs regulations, and smooth cargo handling.
+
+          - Customs clearance and documentation – Processed and supervised import/export declarations, ensuring compliance and efficiency
+
+    - role: Customs agent
+      time: 2021 - 2022
+      company: Top Freight Solutions, Madrid
+      # optional
+      company_logo: https://top-freight.com/images/logo_big.png
+      details: |
+        Prepared customs declarations and supervised documentation, ensuring compliance with regulations. 
+        Primarily focused on e-commerce customs clearance and import-export
+
+          - e-Commerce customs clearance - Managed customs procedures for online trade, ensuring smooth and efficient clearance
+          - Import and export operations – Processed and verified documentation for international shipments, optimizing customs workflows
+
+skills:
+    toolset:
+      - name: Customs clearance
+        level: 70%
+
+      - name: Jira
+        level: 80%
+
+      - name: Agile & Scrum Frameworks
+        level: 90%
+
+      - name: Prototyping & Wireframing
+        level: 60%
+
+      - name: Functional Requirements Specification
+        level: 70%
+
+      - name: SQL
+        level: 55%
+      
+      - name: Product Roadmap Planning
+        level: 65%
+
+      
