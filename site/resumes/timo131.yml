@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Thomas
+    last_name: Mosley
+    
+    # Define yourself in 4-5 words
+    motto: Great minds think alike.
+    
+    # Focus
+    focus: Language Technology & Automation
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hailing from Oklahoma, I've been in Spain since 2010. I taught English for 5 years before entering the translation industry where I have specialized in the technologies uses in this field.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQELsDxQbLC4Vw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1679008881351?e=1746057600&v=beta&t=EyIEvOydV-XNYxD6IjwOo6hXnivCgY5_s4_lQgmS0zY
+
+    # Contact Information
+    linkedin: thomasemosleyiii #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: timo131
+    
+    twitter: 'timo131' #optional
+    stack-overflow: none # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Proficient
+
+      - idiom: French
+        level: Beginner
+
+    # Interests or hobbies
+    interests:
+      - item: Theater
+
+      - item: Cooking
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: Master in Translation Technology, Audiovisual Translation and Localization
+      university: Universidad Alfonso X El Sabio
+      # optional
+      university_logo: https://aadcdn.msauthimages.net/c1c6b6c8-ggm9ashcpywknkwxflzh5kr3xc-kdf2y-3ipgbxmxto/logintenantbranding/0/bannerlogo?ts=638151614439769911
+      time: 2011 - 2012
+      details: |
+        I intended to become a translator but was introduced to the world of technology that has become my passion.
+
+
+    - degree: B.A. Spanish
+      university: Oklahoma Baptist University
+      # optional
+      university_logo: https://www.okbu.edu/themes/obu/6.0/logos/obu.svg
+      time: 2006 - 2011
+      details: |
+        I majored in Spanish including study abroad for two months in Buenos Aires, Argentina.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Localization Engineeering Manager
+      time: 2020 - Present
+      company: ITC Global Translations
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4E0BAQEDl1htlJz4qQ/company-logo_200_200/company-logo_200_200/0/1720518663139/itc_traductions_logo?e=1749081600&v=beta&t=q6_j_1nEQpmGGXf7OvLgzoEmq9vjBslNE-_2KehgxP4
+      details: |
+        I lead a team of localization engineers that specialize is various areas of support and development within our company including techical support for other teams, consulting for clients, automating tasks, developing custom tools, innovation strategy, and research & development.
+
+    - role: Head of Language Technology
+      time: 2018 - 2020
+      company: Noraktrad
+      # optional
+      company_logo: https://www.norak.es/wp-content/uploads/sites/8/2020/02/logo-norak.png
+      details: |
+        I took my previously acquired skills to the next level and worked more closely with the production manager on company strategy.
+
+    - role: Localization Engineer
+      time: 2016 - 2018
+      company: Seprotec
+      # optional
+      company_logo: https://seprotec.com/img/ico/linkedin.svg
+      details: |
+        I gained many foundational skills in localization engineering such as advances uses of CAT tools, translation memory management, glossary creation, desktop publishing, website localization, and more.
+
+# Your project portfolio
+projects:
+    intro: >
+      Work in progress: More to come soon!
+
+    assignments:
+      - title: My first website
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A website that showcases my front-end skills."
+
+skills:
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: JavaScript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Apache Velocity
+        level: 50%
+
+      - name: Groovy
+        level: 50%
+
+      - name: VBA for Word & Excel
+        level: 80%
