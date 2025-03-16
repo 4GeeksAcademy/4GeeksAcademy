@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javiera
+    last_name: Vega
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender constantemente áreas nuevas. 
+    
+    # Focus
+    focus: Aprender a programar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy diseñadora de ambientes de profesión,  en los últimos años me he desarrollado en el área del diseño gráfico y marketing digital.
+      Actualmente, estoy invirtiendo en mi desarrollo profesional a través de un curso de programación, buscando ampliar mis habilidades y explorar nuevas oportunidades laborales en un campo de alta demanda.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: javieravegareyes7@gmail.com
+    phone: 56 9 81986294
+    website: http://magnoliadigital.cl/
+    linkedin: https://www.linkedin.com/in/javiera-vega-reyes-978b7496/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JavieraVega
+    
+    twitter: 
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native - Profesisonal
+
+    # Interests or hobbies
+    interests:
+      - item: Powerjump
+
+      - item: Cocinar
+
+      - item: Películas
+
+# Your previous education
+education:
+    - degree: Diseñadora de Ambientes 
+      university: Instituto profesinonal DUOC
+      # optional
+      university_logo: 
+      time: 2010 - 2014
+      details: |
+
+    - degree: Community Manager
+      university: Instituto profesinonal DUOC
+      # optional
+      university_logo: 
+      time: 2021-2021
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñadora de ambientes
+      time: 2014 - 2015
+      company: La Maceta, diseño de escenografía.
+      # optional
+      details: |
+        Desarrollo de diseño, producción e instalación tanto de escenografías como mobiliario para canales de
+        televisión, eventos y empresas de retail.
+        Realización de presupuestos, supervisión de materiales, contacto con proveedores, y permanente
+        contacto con cliente en cada proyecto.
+
+    - role: Administración - Community Manager
+      time: 2015 - Presente
+      company: Graymax, Centro Radiológico Dental y Maxilofacial.
+      # optional
+      details: |
+        Estratega y productora de planificación de contenido visual para las redes sociales, enfocado en la publicidad del
+        Centro Dental. Trabajo continuo en análisis de métricas de Instagram, Google Ads, LinkedIn y Facebook, con resultados
+        en un aumento de 20% de nuevos pacientes y en la fidelización de los clientes.
+        Alta capacidad en detectar y atraer atención del público objetivo a través de la comunicación visual.
+
+    - role: Directora de Proyecto y Community Manager
+      time: 2024 - Presente
+      company: Magnolia Marketing Digital
+      # optional
+      company_logo: 
+      details: |
+        Estratega de planificación de contenido visual para las redes sociales. Trabajo continuo en análisis de métricas de
+        Instagram, Facebook y LinkedIn, para generar proyectos junto al cliente.
+        Encargada creativa de piezas gráficas, logos y papelería.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
