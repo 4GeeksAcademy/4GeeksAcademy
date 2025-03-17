@@ -1,0 +1,123 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Michel
+    last_name: Marquez
+    
+    # Define yourself in 4-5 words
+    motto: A passionate, detail-driven web designer.
+    
+    # Focus
+    focus: Master JS 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Learning more every day.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/22.jpg
+
+    # Contact Information
+    email: marquezmichel2003@gmail.com
+    phone: +58 4249128087
+    website: tba
+    linkedin: tba
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: michelmarq1
+    
+    twitter: 'tba' #optional
+    stack-overflow: tba # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Social Media
+
+      - item: Working Out
+
+      - item: Singing
+
+      - item: Play sports
+
+# Your previous education
+# Your previous education
+education:
+    - degree: tba
+      university: tba
+      # optional
+      university_logo: https://www.google.com/imgres?q=logo%20ucab&imgurl=https%3A%2F%2Fdstvqyil45ir9.cloudfront.net%2Fwp-content%2Fuploads%2F2019%2F04%2FLogo_UCAB_3.png&imgrefurl=https%3A%2F%2Fwww.ucab.edu.ve%2Flogo%2F&docid=-7Mpw-peaT1QEM&tbnid=aXYfGvpwNzK6LM&vet=12ahUKEwj_i9nrzo-MAxXk8MkDHS7JKYIQM3oECBoQAA..i&w=1569&h=1586&hcb=2&ved=2ahUKEwj_i9nrzo-MAxXk8MkDHS7JKYIQM3oECBoQAA
+      time: 2022 - in progress
+      details: 
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: none yet
+      time: tbd
+      company: tbd
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Form
+        # optional
+        link: "https://github.com/4GeeksAcademy/MichelMarquez-form"
+        tagline: "A website that i made"
+
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
+
