@@ -1,0 +1,92 @@
+
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel Alejandro
+    last_name: Henríquez Fuentes
+    
+    # Define yourself in 4-5 words
+    motto: I like programming and reading new stuff
+    
+    # focus
+    focus: Codes and novels
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+      Student Multimedia Graphic Design of "UNIACC".
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: daniel.henriquezf90@gmail.com #optional
+    phone: 
+    website: 
+    linkedin: https://www.linkedin.com/in/danielhenriqu/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DanielHenriquezf
+    
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Football
+
+      - item: Crossfit
+
+      - item: Anime
+
+# Your previous education
+education:
+    - degree: Multimedia Graphic Design
+      time: 2009-2014
+      university: UNIACC
+      # optional
+      university_logo: 
+      details: As a multimedia graphic designer, I consider myself a creative and versatile professional, capable of combining my skills in traditional graphic design with my knowledge of digital media and interactive technologies.
+   
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Designer
+      time: 2020 - Present
+      company: DFV, Chile
+      # optional
+      company_logo: https://dfvingenieria.cl/wp-content/uploads/2023/10/LOGO_186C_03-removebg-preview.png
+      details: A designer in a company is a creative and strategic professional who translates business needs into impactful visual solutions. They master design tools and aesthetic principles, collaborating with multidisciplinary teams to ensure brand consistency. Their user-centered approach and ability to adapt to market trends make them a key asset for visual communication and customer experience.
+
+    
+
+# Your project portfolio
+projects:
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 80%
+
+      - name: Illustrator
+        level: 80%
+      
+      - name: Adobe Premiere
+        level: 80%
