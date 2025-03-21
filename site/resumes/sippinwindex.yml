@@ -1,0 +1,151 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan
+    last_name: Fernandez
+    
+    # Define yourself in 4-5 words
+    motto: Will create something revolutionary
+    
+    # Focus
+    focus: Learning programming languages
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I strive to be the best version of myself, I want to learn programming, master Javascript, typescript, Microsoft programming language, and dwell into python.
+      In a year from now I want to look back, and be amazed at what I have deployed, fabricated, and programmed, and what exiting new projects I have scheduled in my life.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.imghippo.com/i/QYr2382.jpg
+
+    # Contact Information
+    email: stormblazart@gmail.com #optional
+    phone: 783 273 6964 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/juan-fernandez-99a309a2/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: sippinwindex
+    
+    twitter: '@FullyStackedUp' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Exercising
+
+      - item: Bicycling
+
+      - item: Drawing
+
+# Your previous education
+education:
+    - degree: Associates
+      university: Miami-Dade College
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Went to school for business administration, missing 2-3 classes for my full bachelors, but dint see a lot of passion in that field.
+        I might return to obtain it, but for now it was put aside while I focused on Full-stack, UX and UI passion.
+
+          - Still want to get my bachelors in some point down the line.
+          - My side passions took me into another route, which I enjoyed a lot, as I put business administration aside.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Healthcare data entry and coder
+      time: 2024 - Present
+      company: Group1001, National
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Ensure the data processed for healthcare department, ClearSpring is processed, we work with providers, patients, clients and internal as well as
+        external teams. The providers that enter our health insurance network must be coded properly, assesed, credentialied and approved, this is large
+        ammounts of data that is combined in master files, which can be millions of lines.
+
+          - Data processing and parsing
+          - Coding, billing and modifyng
+
+    - role: Assistant Property Manager
+      time: 2022 - 2024
+      company: First Service Residential, Florida
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Multiple duties that an assistant manager does, from organizing showings, handeling documentation, proper safetynets,
+        legal paperwork, contracts, sales, rentals and ensuring the condominioun, HOA or community is in good faith. This is
+        an extensive list of duties, such as billing, repairs, contractors, subcontractors, handeling association fees, reconciliations,
+        and being up to date in latest FLorida and local code. 
+
+          - Daily operational duties
+          - Handeling a team of 6 plus all the sub-contractors
+
+    - role: Graphic Designer
+      time: 2016 - 2021
+      company: Miami Event Photobooth
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Provided in-office graphic design services utilizing Adobe suite, to provide social media activation events, weddings,
+        corporate events and more. This included setting up designs for photobooths, photography, monitor screens, and backdrops.
+        We were contracted for multiple corporate events such as Visa, Porsche, Coca-Cola, Green Giant, fine dining, Nike, and more.
+
+
+          - Graphic design work for multiple events
+          - Entire corporate graphic design services
+
+# Your project portfolio
+projects:
+    intro: >
+      I am working on my full-stack projects in the meantime, I also have very nice UX UI projects as well that will accompany my 
+      portfolio.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Placeholder until I can update it with my full information"
+
+
+skills:
+    toolset:
+      - name: Typescript
+        level: 30%
+
+      - name: JavaScript & React
+        level: 40%
+
+      - name: UX UI Figma
+        level: 89%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name:  Excel PowerQuery 
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 90%
