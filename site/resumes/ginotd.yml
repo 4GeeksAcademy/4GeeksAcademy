@@ -1,0 +1,100 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Gino Tomas
+  last_name: DAdderio
+  motto: null
+  focus: Learning as much as possible!
+  summary: >
+    University dropout, helping the family business. Opening a new path
+    with coding in my life. 
+
+
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: g.tomasdadderio@gmail.com
+  phone: null
+  website: null
+  linkedin: null
+  github: GinoTD
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: B2 - Semi-professional
+    - idiom: Italian
+      level: Intermediate
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Biking
+    - item: Tennis / Padel
+    - item: Cooking
+education:
+  - degree: Grado en Ingenieria Civil
+    university: Universidad Politécnica de Madrid
+    university_logo: null
+    time: 2018-2019
+    details: |
+      
+      - First time coding ever
+      - Trying to do first year to then enter Grado en Ingenieria Informática
+  - degree: Grado en Economía
+    university: Universidad de La Laguna
+    university_logo: null
+    time: 2019-2020 / 2021-2022
+    details: ""
+experiences:
+  - role: null
+    time: null
+    company: null
+    company_logo: null
+    details: ""
+  - role: null
+    time: null
+    company: null
+    company_logo: null
+    details: ""
+  - role: null
+    time: null
+    company: null
+    company_logo: null
+    details: ""
+projects:
+  intro: ""
+  assignments:
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+skills:
+  toolset:
+    - name: Python
+      level: 10%
+    - name: Photoshop
+      level: 30%
+    - name: null
+      level: null
+    - name: null
+      level: null
+    - name: null
+      level: null
+    - name: null
+      level: null
