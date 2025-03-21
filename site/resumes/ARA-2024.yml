@@ -1,0 +1,80 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ana
+    last_name: Rubio Arevalo
+    
+    # Define yourself in 4-5 words
+    motto: Data Analyst
+    
+    # Focus
+    focus: Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Telecommunication Engineer.
+         
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: anarubioa@yahoo.com
+    phone: #optional
+    website: #optional
+    linkedin: linkedin.com/in/ana-rubio-arevalo-b7322931b 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ARA-2024
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+languages:
+  - idiom: Spanish
+    level: Native
+  - idiom: English
+    level: Professional
+  - idiom: French
+    level: Professional
+interests:
+  - item: Hiking
+education:
+  - degree: Telecommunication Engineering
+    university: Universidad Politécnica de Madrid
+    time: 1994
+  - degree: Data Science
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2007 - 2011
+experiences:
+  - role: Bid Manager, Presales, Sales Manager
+    time: 2000 - 2024
+    company: Nokia
+    details: >
+      Projects for Telefonica, Orange, Cellnex, Lyntia, HITACHI, Banco
+      Santander, Correos Telecom, ADIF, Algeciras Port, INDRA, Metro de Madrid,
+      Red Eléctrica, Iberdrola, ENEL.
+  - role: Senior Sales Manager
+    time: 1997 - 2000
+    company: IBM
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Account Manager for e-business Solutions (Web portals, intranet,
+      extranet and electronic commerce) in Vertical markets including
+      Telecommunications, Media, Financial, Public Administration and Industry.
+      Direct touch sales and through Business Partners.
+  - role: Research and Development Engineer
+    time: 1993 - 1994
+    company: Telefonica Research and Development
+    details: |
+      R&D Engineer in the Optics Department.
+skills: null
+toolset:
+  - name: Python
+    level: 95%
