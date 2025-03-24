@@ -1,0 +1,47 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose  
+    last_name: Lopez
+    
+    # Define yourself in 4-5 words
+    motto: Good Boy
+    
+    # Focus
+    focus: Learn to code
+    
+     
+    
+  
+    github: JoseSoto03
+    
+       # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+
+    # Interests or hobbies
+    interests:
+      - item: Videgames
+
+      - item: Mountain Biking
+
+      - item: Running
+
+# Your previous education
+education:
+    - degree: Industrial Engineer
+      university: Universidad De Occidente
+      # optional
+      university_logo: 
+      time: 2008-2013
+      details: |
+        
