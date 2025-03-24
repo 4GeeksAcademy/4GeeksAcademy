@@ -1,0 +1,170 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Heidy
+    last_name: Diaz
+    
+    # Define yourself in 4-5 words
+    motto: I like justice and serving God 
+    
+    # Focus
+    focus: Never do what you don't like to be done 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I studied Computer Science at the prestigious Marta Abreu University in Cuba.
+       In 2009 I graduated. I worked in the government of my municipality as a network 
+       administrator for 6 years. in 2015 I did a master's degree in Bioinformatics and 
+       Computational Biology. Since then I started working in the hospitality industry
+        also as a network and systems administrator. 
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: heidydiazbarrios@gmail.com #optional
+    phone: 621 43 07 86 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: HeidyDB
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: First Level
+
+    # Interests or hobbies
+    interests:
+      - item: Family meeting
+
+      - item: visiting friends 
+
+      - item: travel
+
+# Your previous education
+education:
+    - degree: MSc in Bioinformatics and Computational Biology
+      university: University of Las Villas Cuba
+      # optional
+      university_logo: https://th.bing.com/th/id/OIP.zuaDXIBSgTDizwBhhgAldwAAAA?rs=1&pid=ImgDetMain
+      time: 2009 - 2015
+      details: |
+        Biology applied to de IA to solve problems  
+
+          
+
+    - degree: BSc in Computer Sciece
+      university: University of Las Villas , Cuba 
+      # optional
+      university_logo: https://th.bing.com/th/id/OIP.zuaDXIBSgTDizwBhhgAldwAAAA?rs=1&pid=ImgDetMain
+      time: 2004 - 2009
+      details: |
+        maths aplied to computers, computer programs, data base, compilers, data science 
+
+         
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: network admin 
+      time: 2009 - 20015
+      company: Goverment 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        security and network administrator
+
+          
+
+    - role: Seniornetwork admin and Software Engineer
+      time: 2015-2020
+      company: Gaviota SA
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       database admin (SQL) and software developer . 
+
+        
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: SQL
+        level: 98%
+
+      - name: Java
+        level: 60%
+
+      - name: Delphi
+        level: 90%
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
