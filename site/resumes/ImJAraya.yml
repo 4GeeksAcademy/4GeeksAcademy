@@ -14,6 +14,7 @@ basic_info:
   github: ImJAraya
   linkedin: https://www.linkedin.com/in/jarayam/
   location: Oriental, 100 mts oeste del TEC, Cartago, Costa Rica
+  avatar: ""
   languages:
     - idiom: Español
       level: Nativo
@@ -55,6 +56,7 @@ experiences:
       - Desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript y Python.
       - Participación activa en retos de código y simulaciones de entornos laborales.
       - Uso de Git y GitHub para control de versiones y trabajo colaborativo.
+
 projects:
   intro: >
     Aún estoy construyendo mi portafolio como desarrollador. Pronto compartiré mis primeros proyectos aquí.
@@ -65,16 +67,13 @@ projects:
 skills:
   toolset:
     - name: HTML
-      level: Junior
+      level: 40%
 
     - name: JavaScript
-      level: Junior
+      level: 45%
 
     - name: Java
-      level: Junior
+      level: 35%
 
     - name: Python
-      level: Junior
-
-
-
+      level: 40%
