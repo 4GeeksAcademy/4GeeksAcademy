@@ -1,0 +1,79 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: José Fabián
+  last_name: Araya Montero
+  motto: Siempre aprendiendo, siempre avanzando.
+  summary: >
+    Desarrollador junior en formación con experiencia en entornos productivos y enfoque en resolución de problemas,
+    trabajo en equipo y mejora continua. Comprometido con el aprendizaje constante y la aplicación práctica de habilidades
+    en desarrollo de software para contribuir a la eficiencia y crecimiento de la empresa.
+  phone: +506 8647 3460
+  email: arayafabian99@gmail.com
+  github: ImJAraya
+  linkedin: https://www.linkedin.com/in/jarayam/
+  location: Oriental, 100 mts oeste del TEC, Cartago, Costa Rica
+  avatar: ""
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: B1
+  interests:
+    - item: Programación
+    - item: Tecnología
+    - item: Aprendizaje continuo
+
+education:
+  - degree: Bachillerato en Informática Empresarial
+    university: Universidad de Costa Rica
+    time: 2022 - Actualidad
+    details: En curso
+
+  - degree: Secundaria Completa
+    university: CINDEA Turrialba
+    time: 2021
+
+  - degree: Primaria Completa
+    university: Escuela La Dominica
+    time: 2010
+
+  - degree: Full-Stack Software Developer
+    university: 4GeeksAcademy-latam
+    time: Actualidad
+    details: En curso
+
+  - degree: Inglés B1+
+    university: autodidacta
+    time: Actualidad
+
+experiences:
+  - role: Desarrollador Full-Stack en formación
+    time: Actualidad
+    company: Proyectos personales / 4GeeksAcademy
+    details: |
+      - Desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript y Python.
+      - Participación activa en retos de código y simulaciones de entornos laborales.
+      - Uso de Git y GitHub para control de versiones y trabajo colaborativo.
+
+projects:
+  intro: >
+    Aún estoy construyendo mi portafolio como desarrollador. Pronto compartiré mis primeros proyectos aquí.
+  assignments:
+    - title: Proyecto en desarrollo
+      tagline: "Aplicación académica realizada como parte del programa en 4GeeksAcademy."
+
+skills:
+  toolset:
+    - name: HTML
+      level: 40%
+
+    - name: JavaScript
+      level: 45%
+
+    - name: Java
+      level: 35%
+
+    - name: Python
+      level: 40%
