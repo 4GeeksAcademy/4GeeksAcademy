@@ -16,7 +16,7 @@ basic_info:
     motto: Genius, billionaire, playboy, philanthropist.
     
     # Focus
-    focus: Bringing the future to us
+    focus: Bringing the future to us one project at a time.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -31,6 +31,7 @@ basic_info:
     # Contact Information
     email: krwarner16@gmail.com #optional
     phone: (352)-598-1487 #optional
+    website: asd.com #optional
     linkedin: Kyle Warner #optional
     
     #
@@ -38,7 +39,7 @@ basic_info:
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: kwarner16
     
-    twitter: KyleWarner_ #optional
+    twitter: 'KyleWarner_' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
@@ -46,7 +47,7 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: Manderin
+      - idiom: Mandarin
         level: Professional
 
       - idiom: ASL
@@ -62,22 +63,120 @@ basic_info:
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
+    - degree: Associates in Arts
       university: College of Central Florida
       # optional
       university_logo: https://www.bing.com/images/search?q=College%20of%20central%20florida%20logo%20URL&FORM=IQFRBA&id=3608351525F91EBE340B657746C534AC58A689C1
-      time: 2022-2024
+      time: 2022 - 2024
       details: |
-        Started college at 15 and graduated when I was 17. Focused on computer classes,
-        but obtained my Associates degree in Arts.
+        Started college at 15 and graduated when I was 17. Focused on computer classes
+        and obtained my Associates degree in Arts.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
-      - name: Python
-        level: 75%
+      - name: Python & Django
+        level: 98%
 
-      - name: C#
-        level: 55%
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
 
       - name: HTML5 & CSS
         level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
