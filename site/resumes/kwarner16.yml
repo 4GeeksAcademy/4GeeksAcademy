@@ -1,4 +1,4 @@
-#
+---
 # Be aware that even a small syntax error here can lead to failures in output
 #
 
@@ -25,11 +25,10 @@ basic_info:
       build an innovative tech startup focused on unique technological advancements.
     
     # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://sigmawire.net/i/03/PuGkHb.jpg
 
     # Contact Information
-    email: krwarner16@gmail.com #optional
+    email: ڪمkwarner16@gmail.com #optional
     phone: (352)-598-1487 #optional
     website: asd.com #optional
     linkedin: Kyle Warner #optional
@@ -72,7 +71,7 @@ education:
         Started college at 15 and graduated when I was 17. Focused on computer classes
         and obtained my Associates degree in Arts.
 
-# Your previous job experiences or volunteer
+# Your previous job experiences or volunteer experiences:
 experiences:
     - role: Lead Developer
       time: 2015 - Present
