@@ -1,4 +1,4 @@
-#
+---
 # Be aware that even a small syntax error here can lead to failures in output
 #
 
@@ -13,24 +13,22 @@ basic_info:
     last_name: Warner
     
     # Define yourself in 4-5 words
-    motto: Billionaire, genius, playboy, philanthropist.
+    motto: Genius, billionaire, playboy, philanthropist.
     
     # Focus
-    focus: Bringing the future closer one project at a time.
+    focus: Bringing the future to us one project at a time.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Graduated college at 17 years old. Obtained my Machine Learning
-      and Data Science certificate from 4Geeks at 18. Will go to Embry-
-      Riddle University to receive my degree in Robotics at 21. Will build
-      my own advanced, innovative tech startup at 25.
+      Graduated college at 17. Obtained Machine Learning and Data Science certificate at 18.
+      Will attend Embry-Riddle to learn robotics and electrical engineering at 19. Will eventually 
+      build an innovative tech startup focused on unique technological advancements.
     
     # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://sigmawire.net/i/03/PuGkHb.jpg
 
     # Contact Information
-    email: krwarner16@gmail.com #optional
+    email: ڪمkwarner16@gmail.com #optional
     phone: (352)-598-1487 #optional
     website: asd.com #optional
     linkedin: Kyle Warner #optional
