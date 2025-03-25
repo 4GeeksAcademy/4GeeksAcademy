@@ -27,7 +27,7 @@ basic_info:
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://sigmawire.net/i/03/PuGkHb.jpg
-    
+
     # Contact Information
     email: krwarner16@gmail.com #optional
     phone: (352)-598-1487 #optional
@@ -65,7 +65,7 @@ education:
     - degree: MSc in Computer Science
       university: College of Central Florida
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      university_logo: https://www.bing.com/images/search?q=College%20of%20central%20florida%20logo%20URL&FORM=IQFRBA&id=3608351525F91EBE340B657746C534AC58A689C1
       time: 2022-2024
       details: |
         Started college at 15 and graduated when I was 17. Focused on computer classes,
