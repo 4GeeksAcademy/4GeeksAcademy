@@ -1,0 +1,87 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+    first_name: Sandro
+    last_name: Gomez
+    motto: "Entusiasta y culo inquieto"
+    focus: "Solucionador de problemas"
+    summary: |
+      Me he dedicado durante toda la vida a sectores como la construcción, andamios y mantenimiento de jardines.
+      Ahora estoy dando mis primeros pasos en el mundo de la programación con mucha ilusión y ganas de aprender.
+      
+    avatar: https://github.com/sandrodevx/Web-Portfolio/blob/main/DSC00325-Mejorado-NR.jpg?raw=true
+    email: sandrodevx@gmail.com
+    phone: +34 616524763
+    website: https://sandrodevx.github.io/Web-Portfolio/
+    linkedin: https://www.linkedin.com/in/sandro-gomez-21355b346/
+    github: sandrodevx
+
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: B2
+
+    interests:
+      - item: Senderismo
+      - item: Fotografía y video
+      - item: Tecnología
+
+# Education
+education:
+    - degree: Educación Secundaria
+      university: ""
+      time: ""
+      details: ""
+
+# Work Experience
+experiences:
+    - role: Peón de construcción
+      company: Construcciones Edbaser
+      time: 2015 - 2020
+      details: ""
+
+    - role: Montaje de andamios
+      company: Protech
+      time: 2020 - 2021
+      details: ""
+
+    - role: Oficial de Jardinería
+      company: Quisland Projects
+      time: 2021 - 2025
+      details: ""
+
+# Projects
+projects:
+    intro: "Algunos proyectos personales que he desarrollado mientras aprendo programación:"
+    
+    assignments:
+      - title: QR Code Generator
+        link: https://github.com/sandrodevx/QR-Code-Generator
+        tagline: "Generador de código QR desarrollado como proyecto de aprendizaje"
+
+      - title: E-commerce Bootstrap
+        link: https://github.com/sandrodevx/E-commerce-Bootstrap
+        tagline: "Maquetación de tienda online usando Bootstrap"
+
+# Skills
+skills:
+    toolset:
+      - name: HTML5
+        level: 40%
+
+      - name: CSS3
+        level: 30%
+
+      - name: JavaScript
+        level: 20%
+
+      - name: Python
+        level: 10%
