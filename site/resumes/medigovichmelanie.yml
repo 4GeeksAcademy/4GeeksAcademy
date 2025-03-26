@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "pink"
+
+basic_info:
+
+# Personal Information
+
+    first_name: Melanie
+    last_name: Medigovich
+    motto: Graphic Designer and Programmer
+    avatar: https://avatars.githubusercontent.com/u/196478429?s=400&u=92d669f67f94243174fb82460133778757b4c6e6&v=4
+    summary: |
+     Trained as graphic designer and sales professional now building my future in software development, focusing on front-end technologies to merge my design expertise with interactive tech.
+
+
+    # Contact Information
+    email: melacem@gmail.com
+    phone: +34 684 195 495
+    linkedin: melaniemedigovich
+    github: medigovichmelanie
+    twitter: '@melmedigovich'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Dancing
+      - item: Reading
+      - item: Cooking
+
+
+education:
+    - degree: Gráfica publicitaria
+      university: Escola d'Art i Superior de Disseny d'Alacant
+      university_logo: https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-6/305056856_793015215093101_3982674037857814904_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FAErEyjBj4gQ7kNvgH3ulmQ&_nc_oc=AdkwvUI01tbdh98n0ILOIKJ8Q-hgOCkrKcp2cyb6460L5mxKmkRa04Ivqk-ASbWYY0RdQVRNmL76vM4KgArbQcS9&_nc_zt=23&_nc_ht=scontent-bcn1-1.xx&_nc_gid=CarpUlBi4451M6zGURfqUQ&oh=00_AYHQWGEqLo8B1Ybz7ekSeaLDtQmUyfIxJAL8TCUOuzRJUw&oe=67EA5840
+      time: 2019 - 2021
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Testing QA
+      university: Educación IT
+      university_logo: https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg
+      time: 2021 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: Commercial Sales Lead
+      time: 2023 - Present
+      company: Naturgy
+      company_logo: https://www.naturgy.es/content/dam/naturgy/espana/global/logos/logo_naturgy_home.svg
+      details: |
+       My role focuses on driving sales targets, coaching agents in consultative selling techniques, and ensuring compliance with energy sector regulations. Key responsibilities include monitoring KPIs, optimizing conversion rates, and handling customer escalations - all while maintaining our company's commitment to ethical energy sales.
+
+
+skills:
+    toolset:
+      - name: Adobe Indesign
+        level: 70%
+
+      - name: Adobe Illustrator
+        level: 80%
+
+      - name: Adobe Photoshop
+        level: 80%
+
+      - name: HTML5
+        level: 50%
+
+      - name: CSS
+        level: 50%
+
+      - name: Java Script
+        level: 30%
