@@ -1,0 +1,53 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Emilio Yair
+  last_name: Baruch Pio
+  motto: Think outside the box
+  focus: Resolve problems
+  summary: >
+    
+  I'm a curious and dedicated person who is interested to focus the programming and data science with sustainable development areas.
+
+  email: yahir6895@hotmail.com
+  phone: 229 118 9186
+  website: asd.com
+  linkedin: https://www.linkedin.com/in/emilio-yair-baruch-pio-96461a199/
+  github: https://github.com/Soma31
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+  interests:
+    - item: Programming
+    - item: Design
+    - item: Sustainable Development
+
+education:
+
+  - degree: Chemical Engineering
+    university: Technological Institute of Veracruz
+
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+experiences:
+  - role: Environmental Coordinator
+    time: January 2024 - May 2025
+    company: Alcamare, S. de R.L. de C.V.
+    details: |
+
+   - Visual verifications about job safety and environmental protection.
+   - Manage environmental licenses for legal complishment.
+
+skills:
+  toolset:
+    - name: Microsoft Office
+      level: 98%
