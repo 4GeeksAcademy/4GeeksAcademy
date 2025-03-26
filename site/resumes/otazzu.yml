@@ -1,0 +1,89 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Darío
+    last_name: Otazú Flores
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta programar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/lego/5.jpg
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: otazzu
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Gamer
+
+      - item: Skating
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: Desarrollo Aplicaciones Multiplataforma
+      university: Linkia FP
+      time: 2020 - 2023
+      # optional
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Soporte Técnico
+      time: 2023 - Present
+      company: Satec
+      # optional
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram like with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/otazzu/Instagram-Photo-Feed-Con-Bootstrap"
+        tagline: "Una página responsive simulando el feed de Instagram."
+
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Python
+        level: 85%
+
+      - name: Noje.js
+        level: 60%
