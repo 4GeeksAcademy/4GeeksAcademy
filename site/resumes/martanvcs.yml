@@ -1,0 +1,180 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marta
+    last_name: Navarro
+    
+    # Define yourself in 4-5 words
+    motto: Creative – Detail-oriented – Versatile – Passionate
+    
+    # Focus
+    focus: Learn without limits
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hybrid artist specialized in 2D and 3D with experience in art direction, character modeling, VFX
+      composition, and animation. Passionate about creating innovative visual worlds and committed
+      to delivering high-quality work
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: martanvcs@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: martadaisya #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/martanvcs
+    github: martanvcs
+    
+    twitter: 'grinruru' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Drawing
+
+      - item: Hicking
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree:  Bachelor's Degree in Animation
+      university: University Center for Technology and Digital Art (U-TAD)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2021
+      details: |
+        Studied core principles of 2D/3D animation, character design, and visual storytelling.
+        Skilled in industry-standard software including Maya, Blender, and After Effects.
+        Strong foundation in drawing, composition, and motion techniques.
+        Experienced in collaborative projects and building a professional animation portfolio
+
+
+
+    - degree: High School Education
+      university: Santo Tomas de Villanueva School
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Compulsory secondary education and Baccalaureate
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Freelance Artist
+      time: 2022 - Present
+      company: Freelance
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Designed book covers and banners for events. •
+        Modeled 3D characters and created various illustrations.
+
+          - Bullet point
+          - Bullet point
+
+    - role: 2D Artist
+      time: Jun 2021 - Sep 2021
+      company: Saona Studios, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+         Created character and environment designs for a Metroidvania-style video game.
+         Developed the narrative design of the game
+
+          
+
+    - role: 2D/3D Generalist in SOULS (Shortfilm)
+      time: Sep 2019 - Jun 2021
+      company: U-Tad, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Designed and conceptualized the main character. 
+        Coordinated animation and composition of 3D scenes
+
+    - role: Art Director and 3D Generalist
+      time: Nov 2020 - Mar 2021
+      company: Vifit, Remote
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Conceptualization and design of environments and characters. 
+        Created 3D models and textures for props and characters. 
+        Supervised art direction of a VR video game.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Twitch Program Host and Gaming Event Staff
+      time: Oct 2019 - Jan 2020
+      company: QLash, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Conceptualization and design of environments and characters. 
+        Created 3D models and textures for props and characters. 
+        Supervised art direction of a VR video game.
+
+          - Bullet point
+          - Bullet point
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: SOULS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "SOULS(Shortfilm) Winner Best Shortfilm Amateur"
+
+      
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Autodesk Maya
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 87%
+
+      - name: Nuke
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 90%
