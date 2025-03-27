@@ -6,15 +6,15 @@ basic_info:
   last_name: Baruch Pio
   motto: Think outside the box
   focus: Resolve problems
-  summary: >
+  summary: |
     
-  I'm a curious and dedicated person who is interested to focus the programming and data science with sustainable development areas.
+  I am a curious and dedicated person who is interested to focus the programming and data science with sustainable development areas.
 
   email: yahir6895@hotmail.com
   phone: 229 118 9186
   linkedin: https://www.linkedin.com/in/emilio-yair-baruch-pio-96461a199/
   github: https://github.com/Soma31
-  stack-overflow: null
+  
   languages:
     - idiom: Spanish
       level: Native
@@ -24,22 +24,19 @@ basic_info:
     - item: Programming
     - item: Design
     - item: Sustainable Development
+    - item: Playing
 
 education:
 
   - degree: Chemical Engineering
     university: Technological Institute of Veracruz
-
+    time: 2014 - 2019
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
+    speciality: Environmental Management
 
 experiences:
   - role: Environmental Coordinator
-    time: January 2024 - May 2025
+    time: January 2024 - May 2024
     company: Alcamare, S. de R.L. de C.V.
     details: |
 
