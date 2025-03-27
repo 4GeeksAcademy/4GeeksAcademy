@@ -6,9 +6,8 @@ basic_info:
   last_name: Baruch Pio
   motto: Think outside the box
   focus: Resolve problems
-  summary: |
-    
-  I am a curious and dedicated person who is interested to focus the programming and data science with sustainable development areas.
+  summary: >
+    I am a curious and dedicated person who is interested to focus the programming and data science with sustainable development areas.
 
   email: yahir6895@hotmail.com
   phone: 229 118 9186
@@ -39,9 +38,8 @@ experiences:
     time: January 2024 - May 2024
     company: Alcamare, S. de R.L. de C.V.
     details: |
-
-   - Visual verifications about job safety and environmental protection.
-   - Manage environmental licenses for legal complishment.
+     - Visual verifications about job safety and environmental protection.
+     - Manage environmental licenses for legal complishment.
 
 skills:
   toolset:
