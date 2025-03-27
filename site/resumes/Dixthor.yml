@@ -1,0 +1,122 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos Omar
+    last_name: Villalobos
+    
+    # Define yourself in 4-5 words
+    motto: Soy una persona apasionada
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Apasionado por la tecnología. Soy un ingeniero en TI con conocimientos en cybe seguridad, infraestructura, virtualización y almacenamiento de nube privado.
+      Mi carrera me ha orientado a adquirir conocimientos en programación, por lo que poco a poco intento adentrarme en este bello mundo de la programación.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.linkedin.com/in/carlos-omar-villalobos-moreno-itengineer/
+
+    # Contact Information
+    email: carlosvillalobos9704@gmail.com
+    phone: 44444444444
+    website: https://dixthor.github.io
+    linkedin: https://www.linkedin.com/in/carlos-omar-villalobos-moreno-itengineer/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Dixthor
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermedio
+
+      - idiom: French
+        level: basico
+
+      - idiom: Spanish
+        level: nativo
+
+    # Interests or hobbies
+    interests:
+      - item: mecanica
+
+      - item: camping
+
+      - item: autos
+
+# Your previous education
+education:
+    - degree: Ingeniero en TI
+      university: Universidad Tecnológica de Morelia
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/e/e3/UTM.png
+      time: 2018 - 2022
+      details: |
+        En mis años de estudiante me gustaba mucho el poder realizar diferentes proyectos. Llegue a relacionarme bien con mis profesores que me daban grandes oportunidades como por ejemplo el concurso de mapping de la universidad e incluso para mi servicio social me consideraron para formar parte del equipo de marketing de la universidad, con el cual logramos triplicar las fichas de nuevos ingresantes a la universidad.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: SysOps
+      time: 2023 - Present
+      company: Encora, España
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4C3so9p8qBiK6ye6hfaG64KBCldZAe_pyjg&s
+      details: |
+       Excelente empresa que me brindo la oportunidad de desarrollarme profesionalmente. Tuve la oportunidad de trabajar con empresas internacionales administrando y monitorizando su infraestructura con herramientas como Xorux, PRTG y gestión de tickets desde Jira y Zoho. Trabaje con herramientas de nube como VeeamB&R y Cohesity, también con tecnologías de virtualización como VMware.
+
+    - role: Help Desk
+      time: 2022 - 2023
+      company: GNK Logistica, Michoacán
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Fui parte del equipo de mesa de ayuda de GNK Logística, en el cuál atendíamos las incidencias presentadas en el sistema de farmacia que tienen todas las unidades de farmacia de la Secretaría de Salud del Estado de Michoacán como por ejemplo fallas en el sistema, problemas con la red, ajustes en la base de datos, entre otros. En este trabajo llegue a ser supervisor de mesa de ayuda por mi buen desempeño.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí pueden ver algunos de mis proyectos
+
+    assignments:
+      - title: G's Club Habanos
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://gsclubhabanos.com.mx
+        tagline: "Una página informativa para un pequeño negocio de puros y habanos"
+
+      
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 70%
