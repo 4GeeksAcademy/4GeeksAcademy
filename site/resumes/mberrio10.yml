@@ -1,0 +1,223 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mike
+    last_name: Berrio
+    
+    # Define yourself in 4-5 words
+    motto: I like doing creative work
+    
+    # Focus
+    focus: Creating the best technology
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        A highly dependable and detail-oriented Full Stack Web Developer with extensive
+        experience in building scalable, engaging, community-focused, and accessible websites. 
+        Proven ability to develop production-ready websites from design mock-ups, 
+        with a strong background in HTML5, CSS3, React.js, and Java with experience in designing, 
+        developing, and maintaining Java-based applications. Proven ability 
+        to meet high standards and security requirements, with a strong background 
+        in Spring Framework, Hibernate, and microservices architecture. Passionate 
+        about continuous learning, teamwork, and innovation. Fluent in both English
+        and Spanish, I thrive in diverse and inclusive environments, always striving for 
+        excellence and leadership.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/39283177?v=4
+
+    # Contact Information
+    email: mikeberrio1@google.com #optional
+    phone: N/A #optional
+    website: https://mikeberrio.netlify.app/ #optional
+    linkedin: linkedin.com/in/mikeberrio #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mberrio10
+    
+    twitter: 'N/A' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Musician/Composer
+
+      - item: European Football
+
+      - item: Beach
+
+# Your previous education
+education:
+    - degree: Software Development
+      university: Universidad Autónoma De Las Americas, Colombia.
+      # optional
+      university_logo: https://www.uam.edu.co/wp-content/uploads/2024/02/Logo-Vision-de-las-Americas-f.png
+      time: 2008 - 2010
+      details: |
+        A comprehensive education in software development, 
+        blending theoretical foundations with practical application. 
+        The curriculum spans six semesters, beginning 
+        with fundamental mathematics (Calculus, Linear Algebra, Statistics) 
+        and programming principles, then progressing to advanced
+        software engineering concepts, data structures, and database management. 
+        also gain valuable knowledge in related areas such as 
+        business administration, legal and tax regulations, and ethical considerations.
+
+          - C#, Java, PHP, .NET
+
+    - degree: Digital Communications and Multimedia
+      university: Palm Beach State College
+      # optional
+      university_logo: https://fs.palmbeachstate.edu/adfs/portal/logo/logo.jpg?id=F48BA13BE6E806FE3B47B133D46014301D22F454199B5BAD94DA67FE5B1080FE
+      time: 2013 - 2016
+
+    - degree: Full-Stack Web Development
+      university: Miami Dade College
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Full Stack Web Developer Instructor
+      time: May 2024 - Present
+      company: PC Professor Boca Raton, FL
+      # optional
+      details: |
+
+          - Deliver comprehensive instruction on various web development technologies such as 
+            HTML/CSS, JavaScript, React.js, Node.js, and PHP.
+          - Equip students with skills for Full Stack Development.
+          - Conduct practical, hands-on project-based learning.
+          - Troubleshoot and resolve technical issues for students.
+
+    - role: Operations Business Analyst Intern
+      time: 2021 - 2022
+      company: The Home Depot, Remote
+      # optional
+      details: |
+
+          - Mentor staff and document project progress using Jira.
+          - Support senior management and resolve problems efficiently.
+          - Collaborate with cross-functional teams to meet deadlines.
+          - Improve workflow efficiency by 15% using process improvement tools such as Microsoft Excel.
+          - Utilize Tableau for data analysis and visualization to support data-driven decision-making and business intelligence.
+
+    - role: Frontend Developer (Freelancer)
+      time:  Aug 2020 - Dec 2020
+      company: Miami-Dade Beacon Council
+      # optional
+      details: |
+
+          - Implement user interfaces using React.js, GraphQL, and SCSS.
+          - Collaborate with coalition of Miami's business, education, and government leaders.
+          - Worked closely with a team of 5 members to ensure seamless integration and functionality.
+          - Integrated API resources for deskilling opportunities, career development coaching, and access to hiring managers.
+          - Ensure portal responsiveness and cross-browser compatibility.
+   
+    - role: Software Developer 
+      time:  2020 - 2021
+      company: BreathCo | Miami, FL
+      # optional
+      details: |
+
+          - Support development, QA, and user experience teams.
+          - Develop and maintain unit test projects using Jest.
+          - Create successful test scripts for automated feature testing.
+    
+    - role: Full Stack Developer (Freelancer) 
+      time:  Jan 2020 - March 2020
+      company: Sparkle Salon Boutique | Coral Springs, FL
+      # optional
+      details: |
+
+          - Initiate client meetings and choose tech stack.
+          - Create user-friendly interfaces and communicate project goals.
+          - Demonstrate project management and technical expertise.
+
+# Your project portfolio
+projects:
+    intro: >
+      I`m a Full Stack Developer with a strong background in both front-end
+      and back-end technologies. My expertise includes HTML/CSS, JavaScript, 
+      React.js, Node.js, Java, Spring Boot, and MongoDB. I`ve spent the 
+      6 years working on various projects, developing a deep understanding 
+      of web development and Agile methodologies. In my previous roles, 
+      I`ve had the opportunity to work in dynamic teams, develop secure, 
+      reliable, scalable software solutions, and write custom code or scripts
+      to automate infrastructure, monitoring services, and test cases. 
+      I`m also experienced in customer service, which has honed my problem-solving 
+      skills and ability to understand and meet diverse customer needs. I`m excited 
+      about the opportunity to leverage my skills and experiences as a Software Engineer, 
+      where I can contribute to creating secure, reliable, scalable software solutions 
+      and continue to learn and grow.
+
+    assignments:
+      - title: Sparkle Salon
+        # optional
+        link: "https://sparklesalonboutique.com/"
+        tagline: "Stylish Sparkle Salon V2.0: Sass-crafted, Express-backed, EJS-rendered elegance."
+
+      - title: Girls-In-Balance-MERN-Blog
+        # optional
+        link: "https://girlsinbalance.netlify.app/"
+        tagline: "Fitness Blog: A MERN stack React app for fitness enthusiasts with interactive blogs."
+
+      - title: Movie of the Weekend
+        # optional
+        link: "https://themovieweekend.netlify.app/"
+        tagline: "MovieMaster: A React app with Redux & Axios, streaming data from The Movie TMDB API."
+
+      - title: Github Search
+        # optional
+        link: "https://search-app-ten.vercel.app/"
+        tagline: "RepoFinder: A sleek React app leveraging GitHub API for language-specific repos."
+
+      - title: The Simon Game
+        # optional
+        link: "https://playthesimongame.netlify.app/"
+        tagline: "A fun JavaScript game where you can play the simon game and each level will get more difficult."
+      
+      - title: Drum kit
+        # optional
+        link: "https://playsomedrums.netlify.app/"
+        tagline: "A fun JavaScript game where you can play the drums with your keyboard."
+      
+      - title: The Dice Game
+        # optional
+        link: "https://playthedicegame.netlify.app/"
+        tagline: "A fun JavaScript game where 2 players can roll a dice and the app will tell you the winner."
+
+skills:
+    toolset:
+      - Languages: HTML5/CSS, JavaScript (ES6, Vanilla.js), Java, PHP, SQL, MySQL, PostgreSQL, NoSQL.
+        level: 98%
+
+      - Frontend Technologies: HTML5/CSS, Sass, JQuery, Bootstrap, DOM, Object/Event-Oriented Programming, React.js, 
+              Vanilla.js, NPM, Webpack, Fetch API, Ajax, Babel, MVC, Next.js, EJS, Headless WordPress, WordPress API, WordPress CLI.
+        level: 98%
+
+      - Backend Technologies: Node.js, GraphQL, RESTful API development, JSON, JWT Authentication, Java, Spring Boot, PHP, Express.js, MongoDB.
+        level: 85%
+
+      - Tools and Methodologies: Agile Development, Source Code, SCRUM, Version Control, Git, GitHub, CI/CD, Unit Testing libraries (Jest), Mockito, Jira, Trello, Tableau.
+        level: 95%
