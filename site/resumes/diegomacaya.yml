@@ -1,0 +1,128 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Macaya
+    
+    # Define yourself in 4-5 words
+    motto: Comprometido, observador y persistente
+    
+    # Focus
+    focus: Siempre aprendiendo y aplicando las mejores prácticas 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Comercial y Magíster en Finanzas de la Universidad Adolfo Ibáñez y Científico de Datos de 4Geeks Academy, con alto grado de compromiso, orientación a la excelencia, dispuesto a asumir desafíos, proponer soluciones y trabajar en equipo para lograr generar soluciones que impactan de forma significativa en mi entorno. 
+      Cuento con experiencia en consultoría, mejora continua, reportería, inteligencia de negocios y excelencia operacional. Busco ser parte de empresas que se destacan por su responsabilidad social y medioambiental, aportando con mi experiencia y conocimientos en el análisis, diseño, ejecución y seguimiento de iniciativas de transformación, utilizando herramientas de ciencia de datos y machine learning para obtener los mejores resultados.
+
+    
+    # Contact Information
+    email: diego@macaya.cl #optional
+    phone: 9 7450 3584 #optional
+    #website: asd.com #optional
+    linkedin: diego-macaya-silva #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: diegomacaya
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Hikking
+
+      - item: Ciclismo
+
+      - item: Tenis
+
+# Your previous education
+education:
+    - degree: Científico de Datos
+      university: 4Geeks Academy
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 07/2024 - 11/2024
+      details: |
+          - Curso intensivo de 16 semanas
+          - Construcción y aplicación de modelos predictivos y de machine learning
+          - Utilización de Python como lenguaje principal de programación
+
+    - degree: Ingeniería Comercial 
+      university: Universidad Adolfo Ibáñez
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2017
+      details: |
+          - Magíster en Finanzas, Santiago, Chile • 2017
+          - Ingeniería Comercial, Minor Psicología de las Organizaciones, Santiago, Chile • 2012 - 2016
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Consultor Líder
+      time: 11/2022 - 07/2023
+      company: Kopernicus Tech, Santiago
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ● Monitorear y administrar portafolio de siete proyectos de transformación para importante aseguradora, con un presupuesto total de US 23 millones.
+        ● Prestar apoyo metodológico para la elaboración de hojas de ruta para la implementación de cada proyecto, identificando stakeholders, ruta crítica, riesgos y desafíos.
+        ● Facilitar y promover comunicación entre áreas involucradas en el programa de transformación para cumplir en tiempo y forma con la planificación propuesta.
+
+
+    - role: Analista Senior de Proyectos Estratégicos
+      time: 08/2022 - 10/2022
+      company: Entel, Santiago
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ●	Apoyar y orientar a equipos de trabajo con el desarrollo de casos de negocios y confección de plan de implementación de iniciativas de eficiencia.
+        ●	Facilitar la resolución de problemas y desafíos con equipos comprometidos en el avance de iniciativas de proyectos estratégicos.
+        ●	Gestionar desviaciones en la captura de valor y KPIs, estableciendo planes de trabajo correctivos y actualizar información en plataforma de gestión de proyectos.
+
+    - role: Ingeniero de Proyectos
+      time: 02/2021 - 06/2022
+      company: Liquitech SPA, Santiago
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ●	Construir reporte integrado de cierre comercial, proyección y gestión de admisión de riesgo y gestión de operaciones, utilizando herramientas de SQL.
+        ●	Implementar mejoras en la capacidad del front por agendamiento de clientes y revisión anticipada de documentación legal de las operaciones.
+        ●	Construir reporte de facturación, disponibilidad y entrega de motos de flota propia, utilizando herramientas de SQL.
+        ●	Elaborar estudios de mercado y segmentación de clientes.
+        ●	Diseñar un modelo de comisiones basado en el margen bruto y rentabilidad de cada una de las operaciones cursadas.
+
+    - role: Analista
+      time: 06/2018 - 02/2021
+      company: Deloitte, Santiago
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        ●	Coordinar equipo interno (Retail Operations, SAP, Supply Chain y Human Capital) para importante proyecto de implementación de SAP.
+        ●	Realizar levantamiento, evaluación y priorización de requerimientos funcionales.
+        ●	Levantar y rediseñar procesos de punta a punta en sector bancario y retail financiero.
+
+
+
+skills:
+    toolset:
+      - name: Python
+
+      - name: SQL
