@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: 
+
+    # Your full name
+    first_name: Micaela Giuseppina
+    last_name: De Rosa Di Gregorio
+    
+    # Define yourself in 4-5 words
+    motto: No pain no gain.
+    
+    # Focus
+    focus: Always try
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: My name is Micaela De Rosa, I am 25 years old. I live in Montevideo, Uruguay. I am excited about studying web development, it is totally new for me, and I am really enjoying it, although there are times when it requires attention and effort
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://photos.fife.usercontent.google.com/pw/AP1GczOweDEOOiohf3yaryS-JSnaYtbP6qJv24Waut3c0hs8Nnb42r6ZA1Gwsg=w685-h913-s-no-gm?authuser=0\n' 
+
+    # Contact Information
+    email: micaaderosa@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/micaeladerosa/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MicaelaDeRosa
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+      - item: Skating
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: 
+      university: Engineering faculty
+      # optional
+      university_logo: https://www.fing.edu.uy/
+      time: 2018-2020
+      details: I studied three subjects at the Montevideo Engineering Faculty Geometry and Algebra , Physics, and Differential and Integral Calculus 
+     
+    - degree: 
+      university: Chemistry faculty
+      # optional
+      university_logo: 
+      time: 2022
+      details: I studied for three modules auxiliary of hospital pharmacy. At that time I studied about the health system, medications and their functioning in the human body
+
+    - degree: Web development student
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeksacademy.com/es/inicio
+      time: 2024 
+      details: Taking front end and back-end web development bootcamp
+# Your previous job experiences or volunteer
+
+experiences:
+    - role: Coach
+      time: 2017-2022 
+      company: McDonald's
+      # optional
+      company_logo: https://www.mcdonalds.com.uy/
+      details: I worked for 5 years at McDonald's, I excelled as a trainer in all existing areas, cooking, service and Mc'Cafe
+
+    - role: Receptionist
+      time: 2022
+      company: Tintura de Sol 
+      # optional
+      company_logo: https://tinturadesol.com/?gclid=Cj0KCQjwsc24BhDPARIsAFXqAB1Bu-YtoE4AXjKGzteVYi5tVBsxy1Q3xPEzif-rCywezhP3CLXdz54aArtcEALw_wcB
+      details: I was there for a very short period of time because then they called me from my current job. I worked for a homeopathy, taking orders, preparing the remedies and providing information to people about the different products.
+
+    - role: Cashier assistant, currency exchange and treasures
+      time: 2022-present
+      company: Varlix S.A 
+      # optional
+      company_logo: https://www.varlix.com.uy/
+      details: I currently work as a cashier's assistant for bill collection, currency exchange, and treasurer.
