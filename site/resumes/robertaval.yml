@@ -1,0 +1,152 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Roberta
+    last_name: Valyte
+
+    # Define yourself in 4-5 words
+    motto: Passionate about innovation, creativity, and adventure
+    
+    # Focus
+    focus: Business development, ticketing technology, and sports partnerships
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Dynamic professional with expertise in event ticketing management, business development, social media marketing, and AI content creation. Adept at integrating technology with global partnerships to drive business growth. Strong analytical and problem-solving skills, with a passion for emerging trends in fintech, blockchain, and digital engagement. Outside of work, I’m deeply involved in Latin dancing, martial arts, photography, and travel, which fuel my creativity and global perspective.
+    
+    # Your profile picture URL
+    profile_picture: "http://sep.breatheco.de/static/profile-images/robertavalprofilepic.jpg"
+
+
+    # Contact Information
+    email: roberta_valyte@hotmail.com
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: robertaval
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Martial Arts (Brazilian Jiu-Jitsu)
+
+      - item: Travel (Cultural immersion & global exploration)
+
+      - item: Latin Dancing (Salsa, Bachata, Cha-cha-cha)
+
+# Your previous education
+education:
+    - degree: BSc in Accounting with Management
+      university: University of London
+      # optional
+      university_logo: https://www.google.com/imgres?q=university%20of%20london%20logo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fsco%2F3%2F3d%2FUniversity_of_London.svg
+      time: 2010 - 2014
+      details: |
+        Focused on financial management, business strategy, and analytics.
+        Developed strong analytical and problem-solving skills in business operations.
+        Specialized in fintech and e-commerce business models.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Global Partnerships Project Manager
+      time: 2023 - Present
+      company: Stage Front | Remote (Maryland, USA)
+      company_logo: data:image/png;base64,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
+      details: |
+        Managing global ticketing systems for large-scale events, ensuring smooth integration and operation.
+        Overseeing partnerships and coordinating with stadium vendors and technical teams.
+        Spearheading social media marketing to drive engagement and ticket sales.
+
+    - role: AI Content Writer - Google
+      time: 2023
+      company: Tech Mahindra, London
+      company_logo: data:image/png;base64,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
+      details: |
+        Created SEO-optimized AI-driven content to improve chatbot interaction.
+        Developed conversational scripts and strategic narratives.
+        Utilized data analytics to optimize content performance across digital platforms.
+
+    - role: Project Manager
+      time: 2014 - 2023
+      company: StubHub, London
+      company_logo: data:image/jpeg;base64,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
+      details:  Implemented secondary ticketing systems for major live events in Europe. Managed POS systems, network integration, and event logistics.Worked closely with global sports partners to streamline ticket sales.
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
