@@ -1,0 +1,83 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriel
+    last_name: Pezo
+    
+    # Define yourself in 4-5 words
+    motto: Life shows no mercy
+    
+    # Focus
+    focus: Getting better
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a teacher.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/156217567?v=4
+
+    # Contact Information
+    email: gabrielpezorojas@gmail.com #optional
+    phone: 953590692 #optional
+    website:  #optional
+    linkedin: Gabriel Pezo #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gabrielpezo
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Sports
+
+      - item: Computers
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: January 2024
+      details: |
+        Currently undertaking the course.
+      # optional
+ 
+# Your project portfolio
+projects:
+    intro: >
+      No projects yet.
+
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 5%
+
+
+      - name: HTML5 & CSS
+        level: 30%
