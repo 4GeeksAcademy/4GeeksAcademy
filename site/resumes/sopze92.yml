@@ -1,0 +1,45 @@
+template: "online-cv"
+skin: "blue"
+basic_info:
+    first_name: Sergio
+    last_name: del Pino
+    motto: There's always a way
+    focus: Falling through time
+    summary: |
+      Had my first computer at age of 3.
+      Love creating, both with computers and out of them
+    avatar: https://i.imgur.com/pklnl4P.png
+    email: sergiodepa92@gmail.com #optional
+    # phone:
+    website: www.sopze.com #optional
+    linkedin: sergiodepa #optional
+    github: Sopze92
+    # twitter: 
+    stack-overflow: 7342982/sergio-del-pino
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Gaming
+      - item: Develop
+      - item: Cooking
+      - item: Music
+
+skills:
+    toolset:
+      - name: 3D Modeling
+        level: 95%
+
+      - name: C, C#, C++, Java
+        level: 80%
+
+      - name: HTML, CSS
+        level: 65%
+
+      - name: JavaScript, Python
+        level: 60%
