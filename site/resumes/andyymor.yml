@@ -8,30 +8,19 @@ skin: "blue"
 # Personal Information
 basic_info:
 
-    #
-    # ******** IMPORTANT *******
-    # Github username has to match file
-    github: example
-
-
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Andrew  
+    last_name: Morales
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Innovation through collaboration!
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Cultivating my mastery of software development and coding skils.
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+        Aspiring developer with a love for learning and perfecting my expertise with all forms of coding.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
@@ -43,6 +32,11 @@ basic_info:
     website: asd.com #optional
     linkedin: alandoe #optional
     
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andyymor
+    
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
@@ -51,36 +45,30 @@ basic_info:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
-
+    
       - idiom: Spanish
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Tennis
 
-      - item: Snowboarding
+      - item: Reading
 
-      - item: Cooking
+      - item: Gym
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Bachelors in Commercial Entrepreneurship
+      university: Florida State University
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2018 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        In depth therotecial and practical knowledge on how to create, start up, and run a business.
+        Had to create a start up business and bring a product or service to market. Well versed in accounting, marketing, creation of products, etc.
+          - Sales experience.
+          - Customer sercive management as well.
 
     - degree: BSc in Applied Mathematics
       university: Bristol University
@@ -99,24 +87,15 @@ education:
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Shipping Department Manager 
+      time: 2021 - Present
+      company: Gold Coast Real Estate School, Coral Springs, Florida
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
+        I am responible for all the shippments that are delivered to student and to other schools in the entire state of Florida.
+          - Handle all shipments myself
+          - Over 100 shipments per day
 
     - role: Senior Software Engineer
       time: 2014 - 2015
@@ -189,19 +168,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 0%
 
       - name: JavaScript & jQuery
-        level: 98%
+        level: 50%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
         level: 95%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 0%
