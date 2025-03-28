@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Forrest
+    last_name: Parker
+    
+    # Define yourself in 4-5 words
+    motto: husband, father, problem solver
+    
+    # Focus
+    focus: Making things easier
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Forrest is an accomplished professional with a strong background in management, information systems, and technology. He has extensive experience in driving software initiatives, leading teams, and delivering significant value through digital solutions. With a foundation in construction management and a master's degree in information systems, Forrest has successfully managed business relationships, implemented systems for internal development, and led teams supporting key applications. In 2023, he transitioned to co-owning a wedding photography and videography business, where he continues to leverage his expertise in information systems and technology management.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: theparkerbrother
+    
+    twitter: 
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Portugues
+        level: Conversational
+
+    # Interests or hobbies
+    interests:
+      - item: Health
+
+      - item: Movies
+
+      - item: Home Theater
+
+# Your previous education
+education:
+    - degree: MSc in Information Systems
+      university: University of Utah
+      # optional
+
+    - degree: BSc in Construction Management
+      university: Brigham Young University
+      # optional
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Founder and Systems Manager
+      time: 2020 - Present
+      company: Ivory Grove
+      # optional
+      company_logo: 
+
+    - role: Information Technology Delivery Manager
+      time: 2023
+      company: CRH Americas
+      # optional
+      company_logo:
+
+    - role: Manager of Rapid Application Development
+      time: 2018-2023
+      company: CRH Americas
+      # optional
+      company_logo:
+
+# Your project portfolio
+projects:
+    intro: >
+
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
