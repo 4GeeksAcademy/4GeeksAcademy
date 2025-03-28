@@ -1,0 +1,176 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Liliana
+    last_name: Aqueveque
+    
+    # Define yourself in 4-5 words
+    motto: I have fun solving problems
+    
+    # Focus
+    focus: Training daily, applying skills consistently
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      With a strong foundation in engineering sciences, and with experience in data analysis, 
+      I found passion for coding. I bring a blend of technical acumen and a 
+      genuine passion for problem-solving to the table. 
+      With a commitment to continuous learning, I thrive on challenges and am enthusiastic 
+      about contributing my skills to meaningful projects.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C4E03AQGspR0JDAaTfQ/profile-displayphoto-shrink_800_800/0/1658893413249?e=1702512000&v=beta&t=YH0ejqw0Si-0C37iE1CMrVTim6DgNGTT8jsfECNGYa8
+
+    # Contact Information
+    email: lili.aqueveque@gmail.com #optional
+    phone: +569 5511 7193 #optional
+    website: #optional
+    linkedin: liliana-aqueveque #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: liliaqvq
+    
+    twitter: 'Lili_Aqvq' #optional
+    stack-overflow: 22254942/lili-aqvq # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Movies
+
+      - item: Dancing
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Full-Stack Developer
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: September - December 2023
+      details: |
+        My studies at 4GeeksAcademy equipped me with comprehensive skills 
+        in full-stack development, honing my expertise in both front-end 
+        and back-end technologies. Through hands-on learning and practical 
+        application, I mastered essential tools and frameworks, becoming 
+        proficient in creating dynamic and responsive web applications.
+
+          - Mastered Full-Stack Technologies
+          - Applied Problem-Solving
+
+    - degree: BSc in Engineering Sciences
+      university: Universidad de Santiago de Chile
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Escudo_USACH.svg/1200px-Escudo_USACH.svg.png
+      time: 2014 - 2021
+      details: |
+        In my Bachelor of Engineering Sciences studies, I delved deep 
+        into the core concepts of various engineering disciplines. My 
+        education equipped me with a strong foundation in problem-solving, 
+        critical thinking, analytical skills and mathematics. I gained hands-on 
+        experience in designing and implementing innovative solutions 
+        for real-world engineering challenges. This background not only 
+        honed my technical abilities but also fostered my creativity 
+        and adaptability, preparing me for a successful career in the dynamic 
+        field of engineering.
+
+          - Broad Engineering Expertise
+          - Innovative Solutions
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Analyst
+      time: 2022 - 2023
+      company: Algoritmos y Mediciones Ambientales, Santiago
+      # optional
+      company_logo: https://algoritmospa.com/wp-content/uploads/2023/07/logo-algoritmos-web.png
+      details: |
+        My role in the company was the processing and data analysis of
+        environmental variables, the creation of reports for clients,
+        managing projects and consistently meeting clients' requirements.
+        I also provided training to new personnel, ensuring they were equipped 
+        with the necessary skills and knowledge to excel in their roles. 
+
+          - Data analysis
+          - Training sessions
+
+    - role: Project Engineer
+      time: 2019 - 2020
+      company: AC Ambiental, Santiago
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In my role as a project engineer at an environmental consultation 
+        company, my primary focus was to meticulously assess environmental 
+        factors and compile detailed reports for our clients. This involved 
+        conducting extensive research, analyzing complex data, and distilling 
+        technical information into comprehensive and easy-to-understand documents. 
+
+          - Compiled Comprehensive Reports
+          - Effective Client Collaboration
+
+# Your project portfolio
+projects:
+    intro: >
+      Currently creating a drum set with CSS/HTML/JS
+
+    assignments:
+      - title: How old are you?
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/liliaqvq/lili_aqueveque_how_old_are_you"
+        tagline: "A website that calculates your age and gives you a deep insight about it."
+
+      - title: Bubble sorting cards generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/lili-aqueveque-bubble-sorting-cards-2"
+        tagline: "It generates cards based on the user's input and it sorted them."
+
+      - title: Form validation with regex
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/lili-aqueveque-validate-form-regex"
+        tagline: "Payment form, with submittion and validation"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 75%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 75%
