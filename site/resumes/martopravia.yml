@@ -1,0 +1,108 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Martin
+  last_name: Pravia
+
+  # Define yourself in 4-5 words
+  motto: Apasionado por aprender cosas nuevas
+
+  # Focus
+  focus: Actualmente en el código, ya que es práctica y más práctica
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Actualmente me encuentro en proceso de formación como Junior Full Stack Developer, dando un giro significativo a mi carrera profesional para adentrarme en el mundo del desarrollo web. 
+    Cuento con una sólida trayectoria en la gestión y liderazgo, habiéndome desempeñado como administrador en el área gastronómica de un hospital y anteriormente como jefe de pastelería en destacados restaurantes. 
+    Mi experiencia en la gestión de equipos y atención al detalle me impulsa a aplicar esas habilidades en el ámbito tecnológico, mientras aprendo y crezco en programación.
+
+  # Your profile picture URL
+  avatar: https://randomuser.me/api/portraits/men/28.jpg
+
+  # Contact Information
+  email: marto.pravia@gmail.com
+  phone: +598 97024024
+  website: 
+  linkedin: www.linkedin.com/in/martin-pravia
+  github: martopravia
+  twitter: 
+  stack-overflow: 
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Inglés
+      level: Avanzado
+    - idiom: Español
+      level: Nativo
+
+  # Interests or hobbies
+  interests:
+    - item: Viajar
+    - item: Cocinar
+    - item: Estar en mi jardín
+
+# Your previous education
+education:
+  - degree: Técnico en comercio exterior
+    university: Escuela Francesa De Negocios
+    university_logo: 
+    time: 2021
+    details: |
+      Conocimientos sobre Aduanas, Distribución física internacional, Medios de pago internacionales, Operaciones internacionales, Regulación jurídica y Seguros.
+
+  - degree: Cocinero, pastelero, organizador integral de eventos y gestor gastronómico
+    university: Gato Dumas Colegio de Cocineros
+    university_logo: 
+    time: 2006-2009
+    details: |
+      Egresado de las carreras de Cocinero, Pastelero, Organizador Integral de Eventos y de Gestión Gastronómica.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Encargado de Concesión Hospital Evangélico
+    time: 2022-2024
+    company: Goddard Catering Group
+    company_logo: 
+    details: |
+      Encargado de Concesión - Hospital Evangélico.
+      Proporcionar alimentos preparados y servicios relacionados de la mejor calidad cumpliendo de manera consistente con las expectativas de nuestros clientes, empleados, accionistas y de las comunidades en las que operamos.
+      Administración general de la concesión, manejo de personal, control de horas, licencias, planificación semanal de horarios, planificación del trabajo del personal mediante VPS, reuniones diarias con el equipo en base a tablero de desempeño DDS1, empleo de herramientas 5S.
+      Control del mantenimiento del orden del local y depósito, satisfacción del cliente, correcto frenteo de productos y rotación de los mismos mediante FIFO / FEFO.
+      Realización y coordinación de pedidos a planta y proveedores externos.
+      Control de gastos de la concesión, gestión de inventario y mantenimiento del foodcost en base al budget asignado, control de cajas, facturación, manejo de cofre y depósitos.
+      Control y gestión de planillas HACCP, logrando cumplir con los estándares requeridos mediante continuas auditorías.
+      Desarrollar niveles de servicio que permitan competir a un mejor nivel, mejorando el profit.
+      Proponer acciones de mejora concretas en base a planes de acción realizables a corto y mediano plazo.
+
+  - role: Co Propietario
+    time: 2014-2015
+    company: 1819 Deli Takeaway
+    company_logo: 
+    details: |
+      Proyecto gastronómico, gestión de proveedores, administración, atención al cliente, estandarización de recetas y procedimientos, redes sociales.
+
+  - role: Encargado de Producto
+    time: 2012-2016
+    company: Claro
+    company_logo: 
+    details: |
+      Gestión de inventarios para el interior del país, control de entrada y salida de mercadería, coordinación y realización de pedidos, impulso de promociones para baja de stock de obsoletos, control de equipos fallados, elaboración de reportes e informes para jefaturas, colaboración en preparación de procedimientos.
+
+# Your project portfolio
+
+skills:
+  toolset:
+    - name: Python
+      level: 50%
+    - name: Javascript
+      level: 50%
+    - name: HTML5 & CSS
+      level: 50%
