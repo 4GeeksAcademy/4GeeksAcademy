@@ -1,0 +1,132 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Matteo
+    last_name: Bertuzzi
+
+    # Define yourself in 4-5 words
+    motto: Passionate about building user-centric applications
+
+    # Focus area
+    focus: Full Stack Developer | Aspiring Data Scientist
+
+    # Career Summary
+    summary: |
+      Full Stack Web Developer with experience in WordPress development, CRM systems, JavaScript, ReactJS, and Python. Committed to continuous growth and leveraging emerging technologies to build user-centric applications. Thriving in multicultural environments.
+
+    # Profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: matteobertuzzi@icloud.com
+    website: mattsfitchef.com #optional
+    linkedin: https://www.linkedin.com/in/matteo-bertuzzi/
+    github: matteobertuzzi
+
+    # Languages you speak
+    languages:
+      - idiom: Italian
+        level: Native
+
+      - idiom: English
+        level: Proficient
+
+      - idiom: German
+        level: Proficient
+
+      - idiom: Spanish
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+      - item: Blogging
+      - item: Learning AI & Data Science
+      - item: Fitness
+
+# Your previous education
+education:
+    - degree: Full Stack Software Developer
+      university: 4Geeks Academy
+      time: 2023 - 2024
+      details: |
+        Intensive bootcamp focused on front-end and back-end development, working with JavaScript, React, Flask, and SQL.
+
+    - degree: Bachelor's Degree in International Marketing Management
+      university: IU International University of Applied Sciences
+      time: 2020 - 2023
+      details: |
+        Learned marketing principles, strategic planning, and management with a focus on international business.
+
+# Your previous job experiences
+experiences:
+    - role: Web Developer and Content Manager
+      time: 2022 - 2024 (Present)
+      company: MattsfitChef
+      details: |
+        WordPress developer, content creator, and manager for a food blog focused on healthy recipes.
+
+          - Developed and managed a WordPress blog with over 1,100,000 sessions and 855,000 users over the last 90 days.
+          - Implemented SEO strategies to achieve a monthly traffic increase target of 50,000 sessions.
+          - Created and optimized new content 5 times a week.
+
+    - role: CRM Manager
+      time: 2023
+      company: ZYCH Consulting
+      details: |
+        CRM management and marketing automation specialist for remote clients.
+
+          - Implemented and managed CRM systems for 10 clients.
+          - Developed and planned weekly marketing campaigns.
+          - Automated marketing processes to increase productivity by 35%.
+
+# Your project portfolio
+projects:
+    intro: >
+      Highlights of key projects showcasing expertise in web development, backend systems, and user-centric applications.
+
+    assignments:
+      - title: Training Date
+        link: https://github.com/matteo-training-date
+        tagline: |
+          A web app connecting trainers and users, built with JavaScript, React, and Python (Flask). Includes payment processing, location services, and secure user authentication.
+
+      - title: MattsfitChef Blog
+        link: https://mattsfitchef.com
+        tagline: |
+          A WordPress blog focusing on healthy, high-protein recipes with over 1M monthly sessions.
+
+# Skills Section
+skills:
+    toolset:
+      - name: JavaScript & ReactJS
+        level: 90%
+
+      - name: Python & Flask
+        level: 85%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: SQL & SQLAlchemy
+        level: 80%
+
+      - name: WordPress Development
+        level: 85%
+
+      - name: REST APIs
+        level: 80%
+
+      - name: Git & GitHub
+        level: 85%
+
+# Strengths
+strengths:
+    - Problem-solver: Skilled at identifying issues and finding effective solutions to complex problems.
+    - Detail-oriented: Focused on accuracy and thoroughness in all aspects of work and projects.
+    - Effective Learner: Capable of swiftly assimilating new concepts and technologies, fostering growth.
+    - Consistent and Reliable: Dependable and conscientious in approach to work, ensuring tasks are completed with commitment and responsibility.
