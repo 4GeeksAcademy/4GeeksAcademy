@@ -1,0 +1,81 @@
+My profile 
+
+template: "online-cv"
+skin: "blue"
+
+
+Basic_info:
+
+    
+First_name: Alex
+Last_name: Martinborough
+    
+motto: Health and fitness all-day
+    
+focus: Helping the black and brown community advance themselves in technology. 
+
+Summary: |Experienced Technology Coordinator with a demonstrated history of working in the information technology and services industry.
+Strong professional skilled in Human Resources, Invoicing, Customer Service, Data Entry, and Microsoft Office.
+
+Avatar: BD7A2423-8EAE-4D28-8245-54FF33E97903.jpeg
+
+Contact Information:
+email: alexlmartinborough@gmail.com
+phone: 3477261330
+Linkedin: https://www.linkedin.com/in/alex-martinborough-51830323/
+    
+Twitter: alexlmartinbor1
+
+Interests:
+- item: Gym
+
+- item: Traveling
+
+- item: Men's fashion 
+
+- item: Technology 
+
+- item: Dancing 
+
+
+education:
+- degree: Computer information
+University: Devry University 
+
+      Time: 2013 - 2015
+      
+details: |
+- Computer technology 
+- Bullet point
+- Certificate 
+4Geeks Academy
+time: 2023 - Present
+details: |
+Studying code (Full-stack Developer)
+
+- Javascript 
+- HTML CSS
+
+experiences:
+- Role: Support Analyst 
+Time: 2022 - 2023
+Company: Atalssian
+    
+details: |
+IT Consulting, Network Support, Technical Support, Computer Repair, Computer Networking, and Data Recovery
+
+- Bullet point
+- Bullet point
+
+- role: 
+IT Support Specialist
+time: 2021 - 2022
+Company: CGS
+     
+Details: |
+Computer Generated Solutions is a diversified technology company with global operations in the US, Canada, India, Europe, and South America. 
+We provide IT Consulting and Professional Services, Outsourcing, and Managed Services, Specializing in Lenovo systems and ERP software and services.
+
+$ git add .
+$ git commit -m "my profile"
+$ git push origin master
