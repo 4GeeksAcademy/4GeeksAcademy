@@ -1,0 +1,57 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Aléxis Ralfe
+  last_name: da Silva Mendes
+  motto: Programming is the way!
+  focus: Being better than myself yestarday
+  summary: >
+    I am currently in the second year of my Computer Engineering degree and
+    taking a bootcamp to enter the job market and start my career doing what I
+    love. Additionally, I have a degree in languages, which I hope will someday
+    help me bridge the gap between cultures. I am passionate about continuous
+    learning and constantly strive to be better than I was yesterday.
+  avatar: https://avatars.githubusercontent.com/u/13695520?v=4
+  email: alexismendes98@hotmail.com
+  phone: 937668010
+  website: null
+  linkedin: www.linkedin.com/in/ralfe-mendes
+  github: AlexisRSM
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: C2
+    - idiom: French
+      level: C1
+    - idiom: Spanish
+      level: A2
+  interests:
+    - item: Diving
+    - item: Programming
+    - item: Cooking
+    - item: Technology
+education:
+  - degree: BSc Computer Science
+    university: Universidade Aberta
+    university_logo: https://portal.uab.pt/wp-content/uploads/2017/10/IG_Logo_horizontal_outline_pb.jpg
+    time: 2022 - 2025
+    details: ""
+  - degree: BSc in Languages Literatures and Cultures
+    university: Iniversity of Algarve
+    university_logo: https://upload.wikimedia.org/wikipedia/commons/9/99/Log%C3%B3tipo_da_Universidade_do_Algarve.jpg
+    time: 2020 - 2023
+    details: ""
+skills:
+  toolset:
+    - name: Python
+      level: 58%
+    - name: JavaScript
+      level: 78%
+    - name: C
+      level: 98%
+    - name: HTML5 & CSS & BootStrap
+      level: 95%
+    - name: Sketch & Photoshop
+      level: 60%
