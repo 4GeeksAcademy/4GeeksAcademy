@@ -1,0 +1,69 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: David
+    last_name: de Mata de la Puente
+    motto: Full Stack Developer
+    avatar: https://github.com/davidmata97-cell
+    summary: |
+      
+    email: daviddemata97@gmail.com
+    phone: 654 77 32 02  
+    website: N/A #do not add http://
+    linkedin: https://es.linkedin.com/in/alberto-trivino?trk=public_profile_samename-profile
+    github: davidmata97-cell
+    twitter: N/A
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: classical music
+
+      - item: Basketeball and soccer
+
+      - item: Travel
+education:
+    - degree: High proffesional degree
+      university: Proffesional degree
+      time: 2024 - unfinished 
+      details: A high school graduate with a focus on web develop, skilled in innformatic systems and data base.
+      
+
+    - degree: LAW
+      university: ULE
+      time: 2015-2020
+      details: A law degree is a graduate-level degree that prepares individuals for a career in the legal profession. It is the first professional degree in law and is typically  required for individuals who wish to practice law as attorneys or lawyers in Spain  and many other countries.
+
+    - degree: Full Stack Developeru
+      university: 4geeks
+      time: 2024- present
+      details: I am currently studying to become a Full Stack Developer, focusing on both front-end and back-end web development. My coursework includes learning various programming languages, frameworks, and tools essential for building comprehensive web applications.  I am gaining expertise in HTML, CSS, JavaScript, as well as server-side technologies like Node.js, databases, and APIs. This comprehensive training equips me with the skills needed to develop, maintain, and optimize dynamic and responsive web solutions.
+
+
+experiences:
+    - role: Lawyer practice
+      time: 2019-
+      company: particular lawyer
+      details: legal practices on civil law
+
+    
+
+
+skills:
+    toolset:
+    
+      - name: Javascript & jQuery
+        level: 30%
+
+      
+      - name: HTML5 & CSS
+        level: 50%
