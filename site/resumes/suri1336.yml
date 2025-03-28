@@ -1,0 +1,67 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Sara
+    last_name: Uri
+    motto: Nothing i can't do
+    avatar: 
+    summary: Graduating high school early, I obtained a cosmetology license and worked as a nail tech, providing flexibility for exploring diverse career options. Intrigued by the growing popularity of web development, I took a free beginners' course and fell in love with it. Facing the challenge of self-teaching, I enrolled in a bootcamp to guide my journey towards becoming a Full Stack Developer, combining my unique background and newfound passion for a fulfilling career.
+
+    # Sidebar links
+    email: Sarauri12@icloud.com
+    phone: 7277723443
+    github: Suri1336
+
+    languages:
+      - idiom: English
+        level: Advanced
+      - idiom: Arabic
+        level: Native
+
+
+    interests:
+      - item: Rollerblading
+
+      - item: Painting
+
+      - item: Trying new foods
+
+education:
+  - degree: FullStack Web Developer
+    university: 4Geeks Academy
+    time: 2023 - 2024
+    details: |
+      Learned to create responsive websites using HTML, CSS, Javascript,
+      Python, Django. Learned how to use coding social websites such as
+      Github, Stack Overflow & Stack.
+
+projects:
+    intro:
+     https://github.com/Suri1336/postcard2
+     https://github.com/Suri1336/instagram-feed
+     https://github.com/Suri1336/Bootstrap-suri1336
+
+skills:
+    toolset:
+
+      - name: HTML
+        level: 85%
+
+      - name: CSS
+        level: 90%
+
+      - name: Python
+        level: 15%
+
+      - name: HTML5
+        level: 85%
+
+      - name: Javascript
+        level: 20%
+
