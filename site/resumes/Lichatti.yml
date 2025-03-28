@@ -1,0 +1,68 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Lisandro
+    last_name: Piatti
+    motto: Full-stack Developer
+    summary: |
+      Due to my passion for programming I have been self-taught in HTML5, CSS, Python and javascript. I am currently training as a Full-Stack Developer and will gain advanced knowledge in HTML5, CSS, Javascript, React, Python, SQL, Git, among other technologies. 
+      I am a very organized, responsible, and perseverant person, oriented to meet schedules and deadlines, I also have a natural inclination to facilitate a favourable working environment and work in a team.
+      I am eager to learn, practice and grow as a programmer, acquire new skills, improve the ones I have and collaborate with other people.
+
+
+    email: lisandropiatti@gmail.com
+    phone: 691 833 706
+    website: 
+    linkedin: 
+    github: Lichatti
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+
+    interests:
+      - item: Coding
+
+      - item: Animals
+
+      - item: Games
+
+education:
+    - degree: Economia y gestion de las Organizaciones.
+      university: Argentina
+      time: 5 years
+      details: Economy.
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing with javascript! 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Instagram Bootsrap
+        link: https://github.com/Lichatti/bootstrap_layout_instagram_style
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+             
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript
+        level: 65%
+
+      - name: HTML5 & CSS
+        level: 85%
