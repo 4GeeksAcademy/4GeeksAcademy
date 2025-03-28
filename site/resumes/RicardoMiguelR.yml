@@ -1,0 +1,194 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo
+    last_name: Migue
+    
+    # Define yourself in 4-5 words
+    motto: Soy esa persona a la que le gusta desafiarce a si mismo con los retos mas dificiles!
+    
+    # Focus
+    focus: Perseguir objetivos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      En cuanto a esta grandiosa carrera de Desarrollador, empezamos desde 0, comezamos viendo
+      HTML  en general, todo los que conlleva html y su estructura, atributos, etc, tambien he
+      CSS, estilizar un sitio web mediante selectores, para asi darle color y una vista que sea
+      muy agradable para el usuario final; y para el final vimos Bootstrap, es una herramienta 
+      con la misma finalidad que CSS pero mas sencilla y mas amplia con diseños ya listos para
+      tu sitio.
+
+      Ademas de lo anterior hemos visto Git y GitHub, ademas de la Terminal de Comandos, pero espero
+      ya con ansias ver lenguajes de programacion como Javascript, python, ademas de React, entre otros.
+      Estoy trabajando para convertirme en uno de los mejores desarrolladores, y lo cumpliré.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/140925782?v=4
+
+    # Contact Information
+    email: ricardomr.23@hotmail.com
+    phone: XXXXXXXXX
+    website: XXXXXXXXX
+    linkedin: XXXXXXXXX
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: RicardoMiguelR
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Muy básico
+
+      - idiom: French
+        level: Ninguno
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Jugar y ver futbol, amo el futbol
+
+      - item: Jugar videojuegos
+
+      - item: Ir al cine, en general ver peliculas, ya sea cine o en casa
+
+# Your previous education
+education:
+    - degree: Bachillerato
+      university: Universidad CIUM Nezahualcoyotl
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Full Stack Developer
+      university: 4Geeks Academy Latam
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - actual (en curso)
+      details: |
+        En este Bootcamp te desarrollarás desde cero como Full Stack Developer. Aprenderás a crear un sitio web sumergiéndote en las mejores prácticas del diseño web responsive, trabajando con diversos lenguajes. Obtedrás una sólida base de frontend, backend, base de datos, manejo de procesos distribuidos y despliegue en plataformas web.
+        Al finalizar este programa, contarás con los conocimientos para incorporarte al sector tecnológico como Full Stack Developer.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Gestor de cobranza (home office)
+      time: 2023
+      company: Super Apoyo
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Ventas (home office)
+      time: 2023
+      company: Izzi
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Repartidor de plaaformas delivery
+      time: 2017 - 2024
+      company: Didi food, Uber eats, Rappi
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects: Html, CSS, Bootstrap, Terminal de Comando, Git y GitHub
+intro: >
+      He realizado hasta ahora algunos proyectos escolares, utilizando las herramientas: Html, 
+      Bootstrap, Css, en conjunto con Git y GitHub y la Terminal de Comandos.
+
+assignments:
+      - title: Formulario con Html-Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/RicardoMR-Proyect-FormHtml5
+        tagline: Se realizo este proyecto, solo con Html y Bootstrap.
+
+      - title: Feed de Instagram con Html-Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/RicardoMR-FeedInstagram-Bootstrap
+        tagline: Se realizo este proyecto solo utilizando Html y Bootstrap.
+
+      - title: Post de Instagram con Html-CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/RicardoMiguelR/Post-Instagram4Geeks
+        tagline: Se realizo este proyecto solo utilizando Html y CSS.
+
+skills:
+    toolset:
+      - name: Python
+        level: En curso...
+
+      - name: JavaScript & jQuery
+        level: En curso...
+
+      - name: Bootstrap
+        level: En curso...
+
+      - name: HTML5 & CSS
+        level: En curso...
+
+      - name: SQL
+        level: En curso...
+
+      - name: React
+        level: En curso...
