@@ -1,0 +1,27 @@
+template: online-cv
+skin: blue
+basic_info:
+  name: Heber Marin
+  username: heber1502
+  email: hebermg33@gmail.com
+  github: heber1502
+skills:
+  - Photography
+  - Trading
+  - Python
+  - Data Science
+experience:
+  - role: Photographer
+    company: None
+    years: 5
+  - role: Trader
+    company: None
+    years: 5
+education:
+  - degree: Business Administration
+    university: Universidad Nacional Experimental (UNEFA)
+    time: 2008-2013
+
+
+
+
