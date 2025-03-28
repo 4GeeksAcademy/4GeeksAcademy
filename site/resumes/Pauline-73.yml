@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pauline
+    last_name: Charvin
+    
+    # Define yourself in 4-5 words
+    motto: Curious mind, positive, conscientious, and adventurous!
+    
+    # Focus
+    focus: Passionate about learning and solve problems
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      30 year-old-french, based in Barcelona. Customer Success professional, committed to building solid and long-term relationships with key accounts, providing them deep and relevant analysis and strategic advice.
+     
+
+      And now also Data Science student and extremely motivated to develop my skills and grow professionally.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    #avatar: http://sep.breatheco.de/static/profile-images/photo
+
+    # Contact Information
+    email: pauline.charvin@gmail.com
+    phone: 613 501 501
+    linkedin: https://www.linkedin.com/in/pauline-charvin-443429a3/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Pauline-73
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: French
+        level: Native
+
+      - idiom: Spanish
+        level: Bilingual
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Skate
+
+      - item: Yoga
+
+      - item: Ski
+
+# Your previous education
+education:
+    - degree: Bootcamp
+      university: 4Geeks Academy
+      time: 2024
+
+    - degree: Master's degree in Marketing (Sales specialization)
+      university: Noema Business School
+      time: 2014 - 2018
+
+    - degree: Exchange
+      university: Pontificia Universidad Catolica Del Peru
+      time: 2017
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer Success Manager
+      time: April 2023 - Now
+      company: Shopfully, (in Barcelona)
+      details: |
+          Digital campaign follow-up: Data analysis and strategic recomendations. 
+          In charge of loyalty of key accounts (1,2 million's portfolio).
+
+    - role: Customer success Manager
+      time: April 22 - April 2023
+      company: Selfpackaging, (in Barcelona)
+      details: |
+          B2B accounts portfolio: advise them on their packaging, on product design, budget optimisation and operations.
+    
+    - role: Customer Success Manager
+      time: October 2019 - October 2021 
+      company: Papernest, (in Barcelona)
+      details: |
+          Portfolio of +/- 150 key partners  (Real Estate). Personnal target reached each month (KPI was % of churn).
+
+    - role: Project Manager
+      time: September 2018 - July 2019
+      company: Gaston Sacaze (in Lima, Perú)
+      details: |
+        Peru Maestro project: Classical music concerts and TV program on ATV+.
+        - Sales: build analysis reports, involved in the strategic decisions and sponsor search (prospection and meetings) + customer service.
+        - Marketing : branding, web construction and community manager.
+        - Production: logistic coordination of concerts and TV recordings.
+
+    - role: Community manager and Customer hapiness
+      time: July 2017 - December 2017 
+      company: Percko, (in Paris)
+      details: |
+        Manage customer service and social networks (publications, manage FR and ES influencers, Amazon).
+
+    - role: Assistant of MICE Key Account department (B2B events)
+      time: July 2016 - December 2016
+      company: Hoteles y Casinos Barrière, (in Paris)
+      details: |
+         Manage and follow-up the leads from event agencies. Assist CS in client meeting.
+
+    - role: Commercial and operations manager 
+      time: January 2016 - June 2016
+      company: Galerie Joseph, (in Paris)
+      details: |
+         Personal turnover of 225k € in 6 months.
+
+
+skills:
+    toolset:
+      - name: Sales CRM (Salesforce/Hubspot)
+        level: 90%
+
+      - name: Microsoft Suite
+        level: 90%
+
+      - name: Tableau
+        level: 50%
