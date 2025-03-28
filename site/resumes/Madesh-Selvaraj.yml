@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Madeshwaran
+    last_name: Selvaraj
+    
+    # Define yourself in 4-5 words
+    motto: Curious, thoughtful, helpful, supportive, adaptive.
+    
+    # Focus
+    focus: Data Science and Machine Learning 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Dynamic and detail-oriented Process Engineer with over 10 years of experience in the semiconductor microfabrication field. 
+      Adept in developing and optimizing semiconductor processes to enhance production efficiency, yield, and product quality. 
+      Proven ability to lead, to collaborate with cross-functional teams, to drive innovative solutions, and to achieve project goals. 
+      Skilled in using advanced analytical tools and techniques to troubleshoot complex process issues. 
+      Committed to ensuring compliance with industry standards and safety regulations while maintaining a focus on cost reduction, timely completion, and process sustainability. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: madeshwaran.selvaraj@outlook.com #optional
+    phone: 650 625 7727 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/madeshwaran-selvaraj #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Madesh-Selvaraj
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Tamil
+        level: Professional
+
+      - idiom: Hindi
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Hike
+
+      - item: Soccer
+
+      - item: Board games
+
+# Your previous education
+education:
+    - degree: MSc in Microtechnology
+      university: Chalmers University of Technology
+      # optional
+      university_logo: https://www.cleanpng.com/png-chalmers-university-of-technology-norwegian-univer-2961454/
+      time: 2009 - 2012
+      details: |
+        Masters with major in micrp/nano- technology.  
+          - Semiconductor micro/nano fabrication
+          - Cleanroom Processes 
+          - MEMS and other micor devices fabrication methods
+
+    - degree: BEng in Electrnics and Cummincation Engineering
+      university: Anna University
+      # optional
+      university_logo: https://www.cleanpng.com/png-anna-university-university-college-of-engineering-6892520/
+      time: 2005 - 2009
+      details: |
+        Bacelor of Engineering with major in Electronics and Communication.  
+          - Electrical and Electronics 
+          - RF/Wireless communication
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Semiconductor Manufacturing Process Engineer
+      time: 2021 - 2024
+      company: Intel, Sunnyvale
+      # optional
+      company_logo: https://logos-world.net/intel-logo/
+      details: |
+        Innovative technology development and integration yield Engineer in the Mask Metrology team at Intel Mask Operations (IMO) division. 
+        Primary responsibility involved developing and sustaining various semiconductor manufacturing processes and equipment.  
+          - Directed installation, troubleshooting, repair, and maintenance of Critical Dimension-Scanning Electron Microscopy for next-gen photomask lithography.
+          - Managed all essential inventory for day-to-day operations.
+          - 24/7 on-call support for sustaining production and customer service.
+          - Owned twelve high-end manufacturing tools in a critical mask-production line.
+          - Managed an on-site Field Service Engineering team, overseeing their daily activities, and ensuring adherence to quality standards, resulting in an improved equipment yield from 79% to 93%.
+          - Led installation of fifteen manufacturing equipment as a Tool Installation Manager. Saved $75k+ in installation-related costs by timely completion of projects in conjunction and collaboration with cross-functional teams.
+
+    - role: Graduate Research Assisstant
+      time: 2013 - 2020
+      company: University of British Columbia, Vanvouver
+      # optional
+      company_logo: https://ires.ubc.ca/ubc-logo/
+      details: |
+        Developed three novel Micro-Electromechanical Systems (MEMS) actuators for smart guided-catheter applications and supported other on-going research projects within the group. 
+
+          - Authored/co-authored 4 publications and an international conference oral presentation
+          - Lab Manager for 5+ years responsible for maintaining lab equipment and associated parts/chemical inventory. 
+            Saved more than 20k using expense tracking for all lab resource usage. 
+          - Mentored four undergraduates in their research.
+
+skills:
+    toolset:
+      - name: Python 
+        level: 5%
+
+      - name: Excel
+        level: 95%
+
+      - name: SQL
+        level: 50%
