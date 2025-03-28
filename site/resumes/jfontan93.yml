@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco Javier
+    last_name: Fontan Omil
+    
+    # Define yourself in 4-5 words
+    motto: Ambicioso, Eficiente, Orientado a resultados y Sensato
+    
+    # Focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me adapto con facilidad a nuevos retos laborales, siempres estoy en continuo aprendizaje
+      lo que más caracteriza a mi carrera laboral, es la capacidad de trabajo y resolucion 
+      en cualquier ambiente laboral
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/167186600?v=4&size=64
+
+    # Contact Information
+    email: jfontan93@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jfontan93
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Professional
+
+      - idiom: Portugues
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Ciclismo
+
+      - item: Snowboarding
+
+      - item: Musica
+
+# Your previous education
+education:
+    - degree: Técnico Superior en instalaciones electromecánicas y automatismos
+      university: IES Frei Martin Sarmiento
+      # optional
+      university_logo: 
+      time: 2015- 2017
+      details: |
+        Montaje y mantenimiento infraestructuras de telecomunicación en edificios, instalaciones eléctricas de baja tensión, máquinas eléctricas y sistemas automatizados.
+        Configuración y calculo de instalaciones y equipos.
+        Montaje de los elementos componentes de redes de distribución de baja tensión y elementos auxiliares.
+        Montaje los equipos y canalizaciones asociados a las instalaciones eléctricas y automatizadas e infraestructuras de telecomunicaciones en edificios.
+        Instalación y mantenimiento de máquinas eléctricas rotativas y estáticas.
+  
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Técnico logístico
+      time: 2024 - Present
+      company: Serveo Ipro
+      # optional
+      company_logo: https://serveo.com/sites/default/files/styles/noticias_detalle_858_x_473/public/2024-05/Captura%20de%20pantalla%202024-05-22%20160453.webp?itok=0nYT5wsb
+      details: |
+        Dirección de logística
+        Gestion integral de almacenes
+        Gestión integral de operarios
+        Implantación e integración de plantas de producción
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Photoshop
+        level: 60%
