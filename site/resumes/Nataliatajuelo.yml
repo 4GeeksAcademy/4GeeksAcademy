@@ -1,0 +1,222 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Natalia 
+    last_name: Tajuelo Gómez
+    
+    # Define yourself in 4-5 words
+    motto: Computational linguist
+    
+    # Focus
+    focus: Natural language processing expert / Data analyist
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     A computational linguist with decision-making skills 
+     combined with a detail-oriented nature and the ability 
+     to work in a team and find solutions. 
+     My goal is to join a position in a dynamic environment, 
+     with the possibility of projection and where 
+     I can collaborate with my knowledge.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: tajuelonatalia@gmail.com #optional
+    phone: +34 628412025  #optional
+    linkedin: www.linkedin.com/in/natalia-tajuelo-gómez-096b0516b #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Nataliatajuelo
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Japanese
+        level: Beginner
+
+    # Interests or hobbies
+    interests:
+      - item: Languages
+
+      - item: Sports
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Natural Language Processing Expert
+      university: Cálamo & Cran
+      # optional
+      time: 2023 - 2024
+      details: |
+
+          - Language technologies for humanistic linguists: the different PLN techniques, 
+            proofreading and machine translation, speech technologies, information extraction 
+            and generation, and the importance of corpus creation. 
+          - Programming for humanists: learning Python language oriented to this sector, 
+            UNIX terminal, bash scripting, searching, machine learning and API.
+          - Language technologies for information extraction: providing solutions to problems 
+            through entity recognition, automatic classification, complex information extraction, 
+            information retrieval, question answering and summary extraction.
+          - Language technologies for conversational interface development: interface design, 
+          from the creation of the personality, its training to its subsequent maintenance.
+
+    - degree: Audiovisual translation and subtitling
+      university: Cálamo & Cran
+      # optional
+      time: 2022 - 2022
+      details: |
+        Translation of scripts for dubbing, voice-over and subtitling 
+        (both from scratch and with template) using computer programs.
+
+    - degree: European Studies
+      university: Instituto Europeo
+      # optional
+      time: 2021 - 2022
+      details: |
+        In-depth knowledge of the history, the founding treaties, the institutional system, 
+        Community law, EU decision-making, financing, European citizenship, the internal market, 
+        all its common policies, the Economic and Monetary Union and its external relations.
+
+    - degree: Translation for international organizations
+      university: Cálamo & Cran
+      # optional
+      time: 2020 - 2020
+      details: |
+        Knowledge of the characteristics that make up official texts (EU and UN) and 
+        their high degree of complexity and requirement.
+
+    - degree: English Studies 
+      university: Universidad Complutense de Madrid
+      # optional
+      time: 2016 - 2020
+      details: |
+        Linguistic, literary, education and translation skills.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Host Families and International Programs Coordinator
+      time: 2023 - Present
+      company: INESLE Education, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS .
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
