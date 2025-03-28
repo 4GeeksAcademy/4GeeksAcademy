@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tatiana
+    last_name: Cazorla Cabezas
+    
+    # Define yourself in 4-5 words
+    motto: Physics and Data Science
+    
+    # Focus
+    focus: Astrophysics and Biotechnology
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have worked on testing cosmological models and studying stellar systems. Currently, I model pharmacokinetic reactions
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: tatianacazorlacabezas@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: TatianaCC
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Scientific dissemination
+
+      - item: DIY projects
+
+# Your previous education
+education:
+      - degree: Degree in Physics
+        university: University of Granada/UNED
+        # optional
+        university_logo: 
+        time: Present
+        details: |
+          lectives in applied physics (Astrophysics, Geophysics, Biophysics, Complex Systems Physics, Physics of the Environment
+          and Physics of the Atmosphere) and theoretical physics (General Relativity). 80% of credits passed.
+
+      - degree: Complete Machine Learning course, Data science in Python
+        university: UDEMY
+        # optional
+        university_logo:
+        time: June 2020
+        details: |
+          48,5h
+
+      - degree: Learning Python for Data Analysis and Visualization
+        university: UDEMY
+        # optional
+        university_logo:
+        time: June 2020
+        details: |
+          21h
+
+      - degree: Python for scientific and technical calculation
+        university: Centro Mediterráneo (University of Granada)
+        # optional
+        university_logo:
+        time: November 2019
+        details: |
+          120h
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: R&D in biotecnology and software development
+      time: 2021 - Present
+      company: Enzymlogic S.L (Madrid, Spain)
+      # optional
+      company_logo: 
+      details: |
+        Laboratory technician conducting pharmacokinetic experiments,
+        data analysis, development and implementation of mathematical models, 
+        and specific software development for analysis, modeling, and databases 
+        with a user-friendly graphical interface.
+
+    - role: Research in Star Systems
+      time: 2019 - 2021
+      company: Institute of Astrophysics of Andalucia (IAA-CSIC, Granada, Sapin)
+      # optional
+      company_logo: 
+      details: |
+        Research on stellar structures in the solar neighborhood formed by young stars. Internship.
+
+    - role: Research in Testing Cosmological models
+      time: 2018
+      company: Astronomy Center (University of Sussex)
+      # optional
+      company_logo: 
+      details: |
+        Implementation of theoretical cosmological models and testing the physical validity of their results
+
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+ 
+
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 60%
