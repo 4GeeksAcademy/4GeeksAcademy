@@ -1,0 +1,76 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Daniel
+  last_name: Bayona
+  motto: I love learning new things
+  focus: be a better dev
+  summary: >
+    Junior Software developer who is seeking to continuously improve his
+    knowledge. 
+
+    Strong skills in software design, programming and project management.
+
+    Driven to demonstrate dedication, with high expectations for continuous improvement, to bring positive things to the work and personal environment. 
+
+    By being motivated, flexible, committed and having a logical/creative thinking.
+
+
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: danielbh9818@gmail.com
+  phone: 3163330100
+  website: asd.com
+  linkedin: https://www.linkedin.com/in/danielhbayona/
+  github: Bayunas
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Sports
+    - item: video games
+    - item: Cooking
+education:
+  - degree: Computer Engineering
+    university: Universidad de la sabana
+    university_logo: null
+    time: 2017 - 2023
+    details: |
+      Computer Engineering.
+experiences:
+  - role: IT Intern project management
+    time: 2022 - 2023
+    company: OPAIN S.A
+    details: In charge of managing the POS project in a tech level, dedicated to
+      analyze the sales at El Dorado airport. Interacting with people from India
+      in order to do troubleshooting to the IOT devices and improving the
+      reliability of the sales.
+  - role: Technical Consultant / developer
+    time: 2022 - Present
+    company: GrayMatter Software Services Pvt Ltd
+    details: |
+      Working at El Dorado airport in Colombia, Bogota DC. troubleshooting the
+      devices that are connected around the airport stores to analyze the sales.
+projects:
+  intro: |
+    My projects
+  assignments:
+    - title: Video game development and design
+      link: https://bayunas.itch.io/megaman
+      tagline: of a video game, getting as close as possible to the theme of megaman.
+        The game was developed in Unity with C#.
+skills:
+  toolset:
+    - name: Java
+      level: 40%
+    - name: JavaScript
+      level: 80%
+    - name: Python
+      level: 50%
+    - name: HTML5 & CSS
+      level: 80%
