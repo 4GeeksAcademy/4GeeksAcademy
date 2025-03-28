@@ -1,0 +1,52 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  # Profile information
+  first_name: Edgardo
+  last_name: Gomez
+  motto: Oh yes, the past can hurt, but the way I see it, you can either run from it, or learn from it.
+  
+  summary: |
+    I'm a Psychologist and a Data Scientist residing in Spain.
+    I hold a Master's degree in Sexology Sciences and am currently pursuing a PhD in Psychology. 
+    A few years ago, I discovered a new fascination for programming and have been passionately exploring it ever since. 
+    This journey into the world of coding has allowed me to merge my analytical skills with technological creativity, opening up new avenues for innovation and problem-solving. 
+
+  # Sidebar links
+  email: gomezpuled@gmail.com
+  phone: 673829717
+  github: sesael
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+  interests:
+    - item: Videogames 
+    - item: Programming
+    - item: Music and Movies
+
+education:
+  - degree: Psychologist
+    university: Universidad de la Costa
+    time: 2015 - 2019
+
+  - degree: Master's Degree in Sexology Sciences
+    university: Universidad de Almería
+    time: 2020 - 2021
+  
+  - degree: PhD in Psychology
+    university: Universidad de Granada
+    time: 2021 - Present
+
+
+skills:
+  toolset:
+    - name: Python 
+      level: 90%
+
