@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Oneil
+  last_name: Rodney
+  motto: Always Keep pushing forward
+  focus: Coding
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: oneilorodney@gmail.com
+  phone: 9598954688
+  website: asd.com
+  linkedin: alandoe
+  github: Oneil-R
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: none
+      level: Professional
+    - idiom: none
+      level: Professional
+  interests:
+    - item: Biking
+    - item: Swimming
+    - item: Cooking
+education:
+  - degree: Certificate- Project Management, Operation Managemant, Human Resources
+    university: Alison Online Education
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2020 - 2020
+    details: |
+      # Describe your study here lorem ipsum dolor sit amet, consectetuer
+      # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      # sociis natoque penatibus et magnis dis parturient montes, nascetur
+      # ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      # pretium quis, sem.
+
+      #   - Bullet point
+      #   - Bullet point
+experiences:
+  - role: Operation Agent
+    time: 2019 - 2020
+    company: InterCaribbean Airways, Kingston
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      - Summarized operational performance and recommended continuous
+      improvements by producing comprehensive reports.
+
+      - Established a proactive safety culture by utilizing computer-based simulations to support emergency response.
+
+      - Leveraged SITA Aero's data analysis tools to analyze flight data, identify trends, and make data-driven decisions to improve operational efficiency.
+
+      - Collaborated with cross-functional teams to integrate Kapture CRM into existing operational workflows, ensuring seamless communication and information sharing.
+
+      - Engineered customized solutions to optimize flight schedules and resource allocation based on insights derived from FlightAware data, resulting in improved operational efficiency and cost savings.
+
+      - Experienced in connecting Tableau to various data sources, cleaning, and transforming data for analysis.
+  - role: Operation Coordinator
+    time: 2017 - 2019
+    company: AJAS Aviation, LTD Kingston Jamaica
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      
+      - Streamlined operational framework through effective collaborations with flight operations teams to integrate and optimize diverse technology systems, including flight planning, monitoring, and communication systems. 
+
+      - Mitigated disruptions and maintained operational rhythm by securing clearances for take-off and landing at allocated times.
+
+      - Safeguarded flight operations software reliability by identifying issues and executing comprehensive system testing. 
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 20%
+    - name: JavaScript & jQuery
+      level: 5%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 60%
+    - name: Ruby on Rails
+      level: 1%
+    - name: Sketch & Photoshop
+      level: 1%
