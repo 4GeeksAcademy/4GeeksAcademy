@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Wissam
+    last_name: Serhan
+    
+    # Define yourself in 4-5 words
+    motto: Disciplinado, deportista, ingeniero, alegre
+    
+    # Focus
+    focus: Lograr programar en los proximos 4 meses
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi nombre es Wissam Serhan, soy ingeniero de produccion de la Universidad Metropolitana. Me considero una persona disciplinada y enfocada cuando tengo una meta. Me gusta trabajar en equipo y lograr que todos consigamos el mismo objetivo. 
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: wissamserhan
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Espanol
+        level: Native
+
+      - idiom: Ingles
+        level: Professional
+
+      - idiom: Arabe
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Padel
+
+      - item: Futbol
+
+      - item: Comida
+
+# Your previous education
+education:
+    - degree: Ingenieria de produccion
+      university: Universidad Metropolitana
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Ingeniero de producción, profesional especializado en planificar, diseñar, implementar y mejorar sistemas y procesos de producción en diversas industrias. Tengo como función principal es garantizar la eficiencia y la calidad en la producción de bienes y servicios, optimizando recursos como tiempo, mano de obra y materiales. Además de supervisar la gestión de la cadena de suministro, coordina equipos de trabajo y utiliza técnicas de análisis y mejora continua para aumentar la productividad y reducir costos.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Analista de produccion
+      time: 2020-2022
+      company: Grupo Bimbo, Guarenas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Un analista de producción es responsable de analizar y mejorar los procesos de producción en una empresa. Esto implica recopilar y analizar datos de rendimiento, identificar problemas, desarrollar soluciones para mejorar la eficiencia y la calidad, coordinar con otros departamentos y realizar un seguimiento continuo del desempeño de los procesos para garantizar mejoras sostenibles.
+
+          
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
