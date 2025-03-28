@@ -1,0 +1,95 @@
+---
+template: online-cv
+skin: White
+basic_info:
+  first_name: Roberto
+  last_name: Torres
+  motto: Ambitious to learn and improve every day.
+  focus: Looking for new challenges as a developer.
+  summary: >
+    I am a self-taught student focused on learning every day, I love
+    solving new  challenges and evolving by practicing. I have decided to take a
+    turn in my  professional career by studying at the 4GeeksAcademy bootcamp
+    focused on full-stack  development. I have always been attracted to
+    technology and everything related to  computers and it is time to put it
+    into practice in other areas such as development.
+
+
+    Second paragraph if required.
+  avatar: https://pps.whatsapp.net/v/t61.24694-24/240224538_2850284948608816_6895496809269618392_n.jpg?ccb=11-4&oh=01_Q5AaIALauvtGQmgb-snmEd6Vckgl_5DwjFsjEcIN_vZA2DXb&oe=674D77CA&_nc_sid=5e03e0&_nc_cat=106
+  stack-overflow: Basic knowledge.
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Medium
+  interests:
+    - item: Technology
+    - item: Music
+    - item: Videogames
+education:
+  - degree: FP Vehicle Electromechanics
+    university: IES Faitanar
+    university_logo: null
+    time: 2006 - 2010
+    details: |
+      Specific higher degree in electromechanics of self-propelled vehicles, 
+      adaptation of new technologies in electronics and diagnostic machines.
+
+        - Bullet point
+        - Bullet point
+  - degree: Self-taught studies and musical training on his own, more than ten years
+      of musical experience.
+    university: Bristol University
+    university_logo: null
+    time: 2010 - Present
+    details: |
+      Music production as a freelancer
+experiences:
+  - role: Vehicle electromechanics
+    time: 2010 - 2016
+    company: Ford Montalt
+    company_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fundacionvicentetormo.org%2Ffree-backgrounds-ford-logo-wallpapers%2F&psig=AOvVaw2hQZqt923tXTitkVbJsJ6B&ust=1732358728521000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCr6qbh74kDFQAAAAAdAAAAABAI
+    details: |
+      Worker as electromechanic of self-propelled vehicles, 
+      adaptation of new technologies in electronics and diagnostic machines.
+
+        - Bullet point
+        - Bullet point
+  - role: Carrier
+    time: 2016 - 2019
+    company: Charcuval
+    company_logo: null
+    details: |
+      carrier delivering and collecting.
+
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+projects:
+  intro: |
+    All type of music projects.
+  assignments:
+    - title: Luxxor Beats
+      project_logo: https://yt3.googleusercontent.com/vkDqBBzGIY1Ek7t2MGKjC8-JD9Uptp7qkwb5ZXLOOZsK1hfe9vUYJH66XUKzXW8wo7yB6_Fstg=s160-c-k-c0x00ffffff-no-rj
+      link: https://www.youtube.com/@luxxorbeats
+skills:
+  toolset:
+    - name: JavaScript
+      level: Basic Knowledge
+    - name: HTML5 & CSS
+      level: Basic Knowledge
+    - name: Bootstrap
+      level: Basic Knowledge
