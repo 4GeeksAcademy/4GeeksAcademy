@@ -1,0 +1,55 @@
+Plantilla: "online-cv"
+Skin: "blue"
+
+Info_Basico:
+
+
+    Nombre: Jorge
+    Apellido: Pedroza
+    
+    
+       
+    Enfoque: Ser cientifico de datos y poder aplicarlo al área de la medicina.    
+    
+    Resumen: Soy una persona amorosa a mi familia lo cual es mi principal motor, me caracterizo por ser honesto, responsable y dedicado
+              a mi profesión. Tengo mas de 15 años de experiencia en logística de abastecimiento y distribución.
+    
+    
+   
+       
+    email: jorge.pedroza3127@gmail.com
+    # phone: 636 62 80 83
+    
+    
+    github: Jorge3127
+    
+      
+    Idioma: Castellano
+    Nivel: Nativo
+      
+    
+    Pasatiempos: Leer, compartir en familia, la tecnologia y ahora la IA
+
+    Educación:
+    - Grado: Ingeniero Industrial
+      Universidad: Corporación Universitaria de la costa CUC- Barranquilla / Colombia
+     
+      Detalles: 
+        Carrera universitaria de una duración de 5 años (10 semestres) con enfasis en la producción y logpistica.
+
+    - Grado: Master en logística y transporte internacional.
+      Universidad: Universidad Autónoma del Caribe - Barranquilla / Colombia
+      
+      Detalles: 
+          Maestría con enfasis en logística de abastecimiento y distribución.
+
+
+    Experiencia: 
+      Duración: 2017 - 2024
+      Compañia: Constructora Aurora Proyectos
+      Detalles: Director de compras y contrataciones - Encargado de las compras de materiales y contrataciones de las diferentes 
+                  obras civiles de la compañia. Logrando buenos indicadores de reducción de costos versus presupuestos y óptimos niveles
+                  de inventarios.
+
+          
+    
