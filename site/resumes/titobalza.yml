@@ -1,0 +1,80 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tito
+    last_name: Balza
+    
+    # Define yourself in 4-5 words
+    motto: 
+    
+    # Focus
+    focus: Grow my knowledge
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm an economics and software development student, and I love to code!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: titobalzaromero@gmail.com #optional
+    phone: 584142328585 #optional
+    website: 
+    linkedin: Tito balza romero 
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: titobalza
+    
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Play Videogames
+
+      - item: Cooking
+
+# Your previous education
+education:
+  
+experiences:
+    
+projects:
+    intro: >
+      
+
+    assignments: []
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: JavaScript
+        level: 67%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Sketch & Photoshop
+        level: 50%
