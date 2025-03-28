@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Termini
+    
+    # Define yourself in 4-5 words
+    motto: Curioso, audaz, automata, persistente
+    
+    # focus
+    focus: Learning better practice of data science.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Curiosio de nacimiento automata por convicción. Todo en esta vida se puede automatizar.
+      Amante de la tecnologia y del analisis profundo de los datos.
+      Las predicciones y el Machine learning son el presente y ahora el futuro que nos deparará?
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: jaterminim@gmail.com #optional
+    phone: +58-424-947.92.91 #optional
+    website: #optional
+    linkedin: linkedin.com/jaterminim
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jjaterminim
+    
+    twitter:  #optional
+    stack-overflow: jaterminim
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: professional (B2-C1)
+
+      - idiom: Spanish
+        level: nativo
+
+    
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+
+      - item: data analisys
+
+      - item: data stakeholder
+
+      - item: travel
+
+      - item: urban planning
+
+      - item: comercio exterior (Foreign trade)
+
+
+# Your previous education
+education:
+    - degree: Urnanista (Urban Planner) 
+      university: Universidad Simón Bolivar
+      # optional
+      university_logo: 
+      time: 2013 - 2019
+      details: |
+        Estudie planificación urbana. Una carrera muy similar a ingeneria industrial enfocada directamente a ciudades
+        Es un carrera que maneja grandes volumenes de datos. Mi primera experiencia con python
+        la hice en la universidad al manejar 20 millones de datos sobre la ciudad de Caracas.
+        Mi primera geoespacialización que realicé con python la hice en un mapa de homicidios,
+        con data real sobre los asesinatos en la ciudad de Caracas entre 2017 y 2019. Donde pude enlazar la academia
+        con una problematica real.
+# Your previous job experiences or voluntier
+experiences:
+    - role: Urban Planner 
+      time: Feb 2018 - May 2020
+      company: Tir Inmobiliario
+      company_logo: 
+      details: |
+        
+    - role: Data science and urban planner
+      time: 2014 - 2015
+      company: Caracas Mi Convive (ONG)
+      # optional
+      company_logo: 
+      details: |
+      
+    - role: Business development manager (Caribbean e-commerce)
+      time: 2021 - act
+      company: ask
+      # optional
+      company_logo: 
+      details: 
+        
+# Your project portfolio
+projects:
+  please see the linkedin.
+    assignments:
+      - title: Caracas Hotspot
+        # optional
+        project_logo: 
+        link: see linkedin profile
+        tagline: "Una gran depuración, geoespacialización de una base de datos sobre los homicidios en la ciudad de Caracas,
+        el cual sus analisis permitieron realizar intervenciones urbanas para que permitieron la disminución de los crimenes en la zona.
+        Se creo una encuesta que a traves de sql se iba geoespacializando automaticamente en la cartografia base dispuesta en 
+        arcgis online. El constrate con otras datos permitio el exito de este proyecto.
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 70%
+
+      - name: Javascript
+        level: 50%
+
+      - name: React
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Git
+        level: 60%
+
+      - name: PostgreSQL
+        level: 60%
+
+      - name: Data Analisys
+        level: 90%
+
+      - name: TeamWork
+        level: 90%
