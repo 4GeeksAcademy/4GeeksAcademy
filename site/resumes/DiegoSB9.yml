@@ -1,0 +1,100 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Sales
+    
+    # Define yourself in 4-5 words
+    motto: I like to enjoy life
+    
+    # Focus
+    focus: Improve and learn every day
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: diego_sb_95@hotmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DiegoSB9
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Low
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: travel
+
+      - item: Snorkel
+
+      - item: physical exercise
+
+
+# Your previous education
+education:
+    - degree: Senior technician in industrial automation
+      university: San José - Málaga
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2024
+      details: 
+        The Higher Degree in Industrial Automation and Robotics trains students in the design,
+        programming, installation, and maintenance of automated systems and robots in industrial
+        environments. Areas of study include PLC programming, industrial robotics, electronics,
+        pneumatics and hydraulics, and industrial communication networks. The program also focuses
+        on system integration and preventive maintenance, with special attention to safety.
+
+          - Bullet point
+          - Bullet point
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Higher technician in industrial automation
+      time: 2020 - Present
+      company: Manabíos Nature S.L. - Málaga
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        Automation of packaging machinery, machinery maintenance, development and implementation
+        of home automation, research and development in machine development, manufacturing and
+        packaging of products.
+
+          - Bullet point
+          - Bullet point
+
+
