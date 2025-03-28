@@ -1,0 +1,128 @@
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Antonio
+    last_name: Betancourt Sanchez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta mantenerme Activo en todo momento
+    
+    # Focus
+    focus: Aprender cada dia mas cosas nuevas
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      soy una persona pro-activa responsable orientada al cumplimiento laboral y personal, tengo buenas actitudes al momento de trabajar en equipo siempre con buen animo y positivismo frente a alas adversidades
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://img.freepik.com/vector-premium/ilustracion-avatar-estudiante-cono-perfil-usuario-avatar-jovenes_118339-4402.jpg
+
+    # Contact Information
+    email: Jbetancourts976@gmail.com
+    phone: +569 79242216
+    website: 
+    linkedin: www.linkedin.com/in/jose-antonio-betancourt-sanchez-054a04179
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: Intermedio
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Gimnasio
+
+      - item: Futboll
+      - item: Games
+
+# Your previous education
+
+degree: 4Geeks Academy
+      university: 4Geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Actualmente en Curso 
+      - 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Jefe de Informes Comerciales
+      time: Actualmente
+      company: Incomer Limitada
+      # optional
+      company_logo: https://incomerltda.cl/img/logo2.png
+      details: |
+        Jefe de departamento encargado de flujo de proveedores envio de informes comerciales, dicom y evaluacion de creditos.
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Post
+        # optional
+        link: "https://github.com/JoseB852/InstagramPost"
+
+        - title: Formulario con Bootsrap
+        # optional
+        link: "https://github.com/JoseB852/Formulario-Bootsrap"
+
+         - title: Instagram-bootsrap
+        # optional
+        link: "https://github.com/JoseB852/Instagram-bootsrap"
+      
+skills:
+    toolset:
+      - name: Microsmicrosoft office
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
