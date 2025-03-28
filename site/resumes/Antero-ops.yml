@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antero
+    last_name: Vásquez
+    
+    # Define yourself in 4-5 words
+    motto: I like to improve myself everyday
+    
+    # Focus
+    focus: Make friends and family be happy
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a guy who is interested in growing professionally and to bring these aspects to a personal personal side in order to improve. I am eager to learn and to learn and collaborate with other people in order to achieve my goals.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: anterovasquez24@gmail.com #optional
+    phone: +34 654 15 84 67 #optional
+    linkedin: www.linkedin.com/in/anterovasquez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Antero-ops
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Advertising, Marketing and Public Relations
+      university: ESERP Digital Business & Law School
+      # optional
+      time: 2020 - 2024
+     
+    - degree: Digital Marketing Certification at HubSpot Academy
+      university: HubSpot Acabdemy
+      time: 2022
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Account Manager
+      time: 2022 - Present
+      company: ROI&CO / Rebelads
+      details: |
+        1. International customer relationship management, problem resolution and satisfaction assurance. 
+        2. Results orientation combined with teamwork
+
+    - role: Community Manager
+      time: Dec. 2021 - April 2022
+      company: Impacte Serveis Informàtics
+    
+      details: |
+        1. Manage different social networks in order to achieve previously established objectives. 
+        2. Provide and care for a responsible social image that is aligned with what the company was looking for.
+        3. Ensure digital presence in the different networks required.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
+    skills:
+    toolset:
+      - name: Database 
+        level: 45%
+
+      - name: Office pack
+        level: 80%
+
+      - name: Adobe
+        level: 40%
+
+      - name: HTML5
+        level: 50%
+
