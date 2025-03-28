@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicholas
+    last_name: Detrio
+    
+    # Define yourself in 4-5 words
+    motto: Live long and prosper.
+    
+    # Focus
+    focus: Data Science and Information Technology
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Adaptable IT and Data Analysis skills in inputting, interpreting and analyzing data in a fast-paced environment. Advanced
+      proficiency in all aspects of Excel, Power BI, Microsoft Office, Sharepoint, Windows Servers and Microsoft OS. Experienced
+      in preparing detailed documents and reports while managing complex internal and external data analysis responsibilities.
+      Strong communication skills to interpret complicated issues and illustrate the solutions in simple effective means.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgur.com/cTmr5ul
+
+    # Contact Information
+    email: nicholasdetrio@gmail.com #optional
+    phone: (786)246-9327 #optional
+    website: nicholasdetrio.com #optional
+    linkedin: nicholas-detrio-b2924b143 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nicholasdetrio
+    
+    twitter: 'nicholasdetrio' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Dodgeball
+
+      - item: Playing Music
+
+# Your previous education
+education:
+    - degree: Bachelor of Arts
+      university: Florida State University
+      # optional
+      university_logo: https://alumni.fsu.edu/sites/alumni.fsu.edu/files/images/Community/Clubs/Image_Gallery/FSU%20Seal.png
+      time: 2006 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Analyst
+      time: 2018 - Present
+      company: Nan McKay & Associates
+      # optional
+      company_logo: https://nanmckay.com/hs-fs/hubfs/NMA_Logo_RGB%20for%20email%20signature%20transparent-01-01.png?width=520&height=353&name=NMA_Logo_RGB%20for%20email%20signature%20transparent-01-01.png
+      details: |
+          - Collect, clean, and analyze data ensuring accuracy and quality.
+          - Create effective visualizations and reports to communicate findings to clients
+          - Maintain databases, ensuring data integrity and security. Adhere to data privacy regulations.
+          - Collaborate with teams, translating technical insights for non-technical colleagues and quantify the business impact.
+          - Proficient in data analysis tools, programming languages, and committed to continuous learning.
+          - Critically evaluate information gathered from multiple sources
+          - Explain reports and recommendations to multiple audiences
+
+    - role: Data Analyst
+      time: 2017 - 2018
+      company: Care Resource
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+          - Create, update, and monitor reports on the agency services across all six locations and all departments for the Board of Directors meeting on a monthly basis
+          - Create and improve reports for medical managers and primary providers in order to ensure proper service as well as maintain deliverables for grants.
+
+
+    - role: IT Systems Specialist
+      time: 2014 - 2017
+      company: Nan McKay & Associates
+      # optional
+      company_logo: https://nanmckay.com/hs-fs/hubfs/NMA_Logo_RGB%20for%20email%20signature%20transparent-01-01.png?width=520&height=353&name=NMA_Logo_RGB%20for%20email%20signature%20transparent-01-01.png
+      details: |
+          - Create, manage, and maintain sharepoint databases, workflows, and infopath forms, while delivering reports in a timely manner as well as suggesting solutions and executing solutions.
+          - Analyzing and identifying issues, suggesting improvements and adapting reports and systems to meet management needs
+          - Communicate issues and improvements of key systems to county IT department.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
