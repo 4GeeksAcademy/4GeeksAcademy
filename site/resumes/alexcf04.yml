@@ -1,0 +1,56 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Alex
+  last_name: Fazakas
+  motto: I like saving the world
+  focus: Killing Bad Boys
+  summary: |
+    Nada
+  avatar: https://media.licdn.com/dms/image/D4D03AQEo0C97rVl6EQ/profile-displayphoto-shrink_800_800/0/1698949525022?e=1704931200&v=beta&t=HeMAYp_2Bk8SQlDWP4XLX6mP2omOTmKySMuE0R-Nd_Q
+  email: alexcf0402@gmail.com
+  phone: +34 667051556
+  linkedin: https://www.linkedin.com/in/alex-fazakas-7893001ba/
+  github: alexcf04
+  languages:
+    - idiom: English
+      level: Not really bad
+    - idiom: Spanish
+      level: Native
+    - idiom: Romanian
+      level: Native
+  interests:
+    - item: Paddel
+    - item: Ski
+    - item: Cooking
+education:
+  - degree: ESO
+    university: Spain
+    time: 8 years
+experiences:
+  - role: Tecnichian Telecom
+    time: 2015 - Present
+    company: Vodafone. DIGI SPAIN
+assignments:
+  - title: Instagram Post
+    link: https://github.com/4GeeksAcademy/instagram_post_alex1
+    tagline: Realizado login template usando Bootstrap, CSS y HTML.
+  - title: Instagram Boostrap
+    link: https://github.com/alexcf04/Alex_Fazakas_Instagram-Bootstrap
+    tagline: Realizado login template usando Bootstrap, CSS y HTML.
+  - title: Instagram Feed - HTML FORMS
+    link: https://github.com/4GeeksAcademy/Alex_Fazakas_HTML_Forms-
+    tagline: Website template realizado usando Bootstrap
+skills:
+  toolset:
+    - name: HTML
+      level: 40%
+    - name: CSS
+      level: 40%
+    - name: Bootstrap
+      level: 50%
+    - name: Git
+      level: 40%
+    - name: Github
+      level: 40%
