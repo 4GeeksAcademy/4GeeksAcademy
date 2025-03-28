@@ -1,0 +1,190 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kay
+    last_name: Morales
+    
+    # Define yourself in 4-5 words
+    motto: Impossible to stop someone who never quits.
+    
+    # Focus
+    focus: Success secret
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Coding is skill that empowers to create, innovate, and solve problems with a strong foundation in coding, I can build websites, develop mobile apps, and create software. 
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.pexels.com/photo/woman-standing-on-crop-field-543368/
+
+    # Contact Information
+    email: Kayt1020@yahoo.com 
+    phone: 786-498-2198 
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Kayt1020/K.LIP
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Yoga
+
+      - item: Skiing 
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: Miami Dade College 
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mdc.edu%2Fmktg%2Fresources%2F&psig=AOvVaw0Q-qqjmPu82mbJPYuji_ti&ust=1695170695089000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKD6ooK6tYEDFQAAAAAdAAAAABAD
+      time: 2023 - 2024
+      details: | Learning how to code with 4 geeks Academy!
+        
+
+    - degree: BSc In Criminal Justice 
+      university: University of Miami 
+      # optional
+      university_logo: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANQAAACBCAMAAACPQ2RuAAAAqFBMVEX///8AUDD0cyH839L0dCX0agAAQxv/+vgARiD4+fn3onl2jn/zbAnU3dmDmo2Hn5IiUzT4spD4roz4tpibraIAQBUATCn0cBfzXgDzYwAAMAD6xrA6YUf1hkr7z7zm6+kANgD+8esAPAuuvbX3pYH96eCktawXSyjDzcj1gD5FbFT2lmVmhnX5wKf0ejEnWj72mnBYfWozVjkAJgD2jln818dLZ1BgdmKv3fA4AAADSklEQVR4nO3c7XKiMBiG4QKCqCAqEEBUFKsCKtpW7fmf2Ubrdrvdr7xIxtnOcx9AxmvymqA/eHhACCGEEEKCNcWT9RFa4gmuGO/bgj0u5JiSjnBLwSUHkSWWHmhyUPbKMMWadkRRuipYQxaqpwhmdIECCiiggAIKKKCAAgoooIACCiiggAIKKKC+EqoPFFBAAQUUUEABBRRQQAEFFFBAAQUUUIYDFFBAAQUUUF8A5QIFFFBAAQUUUEABBRRQ/y1KPX5F1EQOKrsnKojloObsjiirLwflmPdEteW8EqBzT1SQS3kjQFLcc/zUSMrxl6WiJikoay0DtRGePikoNZQwf8lQ2CQHJWOrCBsl489MXlD7/ZsJnxIU1JaEKmseQHtHQfme4LJaSECpVj6r09QaEYZPUYaZ4LrNIKCo9HWNqtbGoJgUQ/RtPLT5O+9Vbb9A7BHNJDx9Dw+zMWmrVKuup/VMIc2ewopEfHEtIqHUINjXMIKtDaOcEbypTVn/2KDtlWqFgxtPQdsZ0rZJYSvRU+K7qrRoKlVXBzc8CGbdnk8jKeaOaOJH4FgnblZgqblbabsS79QziZPH/EL44PtQTGapgR4Gg4k2E/6V1UrszGFDnyhSWFrMK5B4M1clHhgXVxSM94Mtp/2T4zmdgqVkkaKkK49w7H1mbVWL+t06wyyL399lmY/X7YG73cbx9SKzl/Ol5zidp2L03OsxZlKH7pxp3kK6FLdL8hS+47hO50Xh9b8M7yVNfd+oZHmLpb1OxcH7KS0eh1FV16WG7l5R1BPus2hYLO0q58PvmsWHkg9iZdntKD6pq+difuPYfa557O9zXa8GuxFlpv5o42Q1i66uhRbvgzDSA9pj/A0oxvzpkG3mWVLX0P2BdnT347wMzrsmaiOj+MFoGGw3Om28TC7nQzNtsu23D6UeRSIjKY7iGH86NXZPna43t6UM3N9rzhaLxcR9POR6GIZn3nkwL4mi2DVOSafT4UvKNRxjJ5LHTazmee/cwX69PhzG4zwvy0aDX8K6dbmp3u+poWG+vbeUKb3ebjcanU6n19fXTddZSv/e3FKzOeM7qGnH42Qyid/a/nii+F6WZfZ5RxLh1+MihBBCCCH0a98A/CmMSy+cKxUAAAAASUVORK5CYII=
+      time: 2005 - 2009
+      details: | In Criminal Justice I leanred to maintaining law and order in society. 
+        
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Accountant
+      time: 2002 - Present
+      company: Miami, FL
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+ 
