@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cèlia
+    last_name: Elias Gavarró
+    
+    # Define yourself in 4-5 words
+    motto: Enthusiastic learner, programmer, creative.
+    
+    # Focus
+    focus: Front-end and Back-end development.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have extensive studies in different areas. Firstly, I did a degree in Fine Arts at the University of Barcelona, since I have always been passionate about drawing. Later I completed a Master's Degree in Secondary Education, since education is another of my passions and in this way I could combine my passion for drawing with teaching. Later I took a degree in Early Childhood Education since I really like working with toddlers, and I think that teaching from early childhood is extremely important. I have 8 months of experience working in different schools and kindergartens for ESO and preschool students.
+      
+      Finally, my interest in web development aroused for some time now, so I decided to jump in and take on this new field head on. I am currently taking the Full-Stack Software Developer Bootcamp at 4GeeksAcademy.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: celia.eliasgv.p@gmail.com
+    phone: None # optional
+    website: None at present # optional
+    linkedin: https://www.linkedin.com/in/celia-elias-gavarro/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: celiaelias
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Art (drawing, painting, illustration)
+
+      - item: Learning new concepts in current or new areas of my interest
+
+      - item: Working out
+
+# Your previous education
+education:
+    - degree: Full-Stack Software Developer Bootcamp
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - Present
+      details: |
+        In the Full-Stack Software Developer Bootcamp I am learning to become a Full Stack Software Developer. We are acquiring skills in creating responsive web designs and working with various programming languages. The curriculum covers a solid foundation in frontend development, backend programming, database management, distributed process management, and deployment on web platforms. Some of the programming languages we are studying include JavaScript, Python, and React. Additionally, we have gained knowledge about HTML and CSS.
+
+          - Some important aspects of the Full-Stack Software Developer Bootcamp include: Basics (HTML, CSS, JavaScript), Front-End (GIT, DOM, JavaScript, React), Back-End (Python, MySQL, Flask) and Full-Stack Development.
+          - Hands-on, project-oriented approach, learning by doing. Collaboration and problem solving are encouraged, and students are expected to work on practical projects that reflect real-world situations.
+          - Upon completion, we will have acquired the skills and necessary knowledge to work as full-stack software developers in the technology industry. This includes the ability to build complete web applications, understand and apply agile development concepts, and work effectively in development teams.
+     
+    - degree: Early Childhood Education Degree
+      university: International University of La Rioja (UNIR)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/d/df/Logo_UNIR.png
+      time: 2018 - 2021
+      details: |
+        The degree in Early Childhood Education offers university training that equips us to work with children aged 0 to 6 during the preschool education stage. This program focuses on providing future educators with the skills, knowledge, and competencies necessary to promote the integral development of children in their early years of life.
+
+          - Some important aspects of the Early Childhood Education degree include: Theories of Child Development, Methodology and Didactics, Observation and Evaluation, Educational Intervention, Inclusion and Diversity, Legislation and Regulations, Professional Practices.
+          - Upon completion of the degree, graduates are qualified to work as early childhood education teachers in schools, kindergartens and other educational environments catering to preschool-age children.
+
+    - degree: Master’s Degree in Compulsory Secondary Education and Baccalaureate Teaching, Professional Training and Language Teaching (drawing specialty)
+      university: University of Barcelona
+      # optional
+      university_logo: https://brandemia.org/sites/default/files/sites/default/files/logo_universidad_barcelona_nuevo.jpg
+      time: 2017 - 2018
+      details: |
+        The Master in Secondary Education is a postgraduate program designed to prepare professionals for teaching at the secondary education level (adolescents ages 12 to 18). This type of master's degree focuses on providing future teachers with the pedagogical skills, specific knowledge of the subjects they will teach, and the competencies necessary to address the educational needs of students at this level.
+
+          - This master's degree allows you to teach the specialty of drawing in secondary education institutions, whether in public or private schools or highschools.
+          - Some important aspects of this Master's degree include: Specialization in Specific Subjects, Innovative Methodologies, Inclusion and Diversity, Adolescent Psychology, Evaluation and Monitoring of Learning, Program Structure.
+    
+    - degree: Fine Arts
+      university: University of Barcelona
+      # optional
+      university_logo: https://brandemia.org/sites/default/files/sites/default/files/logo_universidad_barcelona_nuevo.jpg
+      time: 2013 - 2017
+      details: |
+        The degree in Fine Arts is a university education designed to develop artistic skills, creativity and critical understanding of the visual arts. This program provides you with a comprehensive education in various artistic disciplines, allowing you to explore and develop your own visual language.
+
+          - Some important aspects of the Fine Arts degree include: Development of Artistic Skills, Creative Exploration, Theoretical and Conceptual Understanding, Critical Development, Experimentation with Media and Technologies, Projects and Exhibitions.
+          - The professional outings of Fine Arts are visual arts, design, illustration, art curation, art teaching, cultural managing, among others.      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Kindergarten teacher
+      time: October 2023 - November 2023 (1 month)
+      company: Vicky Kindergarten (Llar d’infants Vicki), Cambrils 
+      # optional
+      company_logo: 
+      details: |
+        Kindergarten teacher for all groups of children in the Kindergarten (0-3 years).
+
+    - role: Kindergarten teacher
+      time: July 2023 - August 2023 (2 months)
+      company: Municipal Kindergarten La Galereta (Llar d’infants Municipal La Galereta), Cambrils
+      # optional
+      company_logo: 
+      details: |
+        Kindergarten teacher for a group of children aged 0 to 1 year old, as well as another group aged 2 to 3 years.
+
+    - role: UI Developer
+      time: september 2022 - february 2023 (5 months)
+      company: ARCE School, Reus
+      # optional
+      company_logo: 
+      details: |
+        Art teacher for 1st, 2nd and 3rd grades in Secondary Education (ESO).
+
+# Your project portfolio
+projects:
+    intro: >
+      These are some of the projects I made in the Full-Stack Software Developer Bootcamp at 4GeeksAcademy.
+
+    assignments:
+
+      - title: Instagram post
+        # optional
+        project_logo: 
+        link: https://github.com/celiaelias/html_hello-instagram_post
+        tagline: "Instagram post."
+
+      - title: Instagram photo feed
+        # optional
+        project_logo: 
+        link: https://github.com/celiaelias/celiaelias-instagram-photo-feed
+        tagline: "Instagram photo feed."
+      
+      - title: Instagram feed
+        # optional
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/celiaelias-instagram-feed-with-bootstrap
+        tagline: "Responsive Instagram feed with Bootstrap."
+
+      - title: Form
+        # optional
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/celiaelias-form-with-bootstrap
+        tagline: "A responsive form."
+
+      - title: Excuse generator
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/excuse_generator_celia
+        tagline: "Excuse generator with JavaScript."
+
+skills:
+    toolset:
+      - name: HTML
+        level: Intermediate
+
+      - name: CSS
+        level: Intermediate
+
+      - name: Javascript
+        level: Intermediate
