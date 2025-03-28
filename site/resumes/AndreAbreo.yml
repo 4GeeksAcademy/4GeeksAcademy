@@ -1,0 +1,170 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: André
+    last_name: Abreo
+    
+    # Define yourself in 4-5 words
+    motto: I prefer the jump than waiting to decide
+    
+    # Focus
+    focus: Maximize my skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a proactive, determined, enterprising, tireless person.
+      I have sought to incorporate new knowledge and not stagnate.
+      I am looking to improve myself and join a high-level international company to demonstrate
+      what I can contribute.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/lego/5.jpg
+
+    # Contact Information
+    email: worldvruruguay@gmail.com #optional
+    phone: 094 #optional
+    website: www.worldvruruguay.com #optional
+    linkedin: https://www.linkedin.com/in/andreabreo/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AndreAbreo
+    
+    twitter: '@DrBuitre' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Playing video games
+
+      - item: The anime
+
+      - item: Learn new things
+
+# Your previous education
+education:
+    - degree: Bachelor's Degree in Information Technology
+      university: Utec
+      # optional
+      university_logo: https://red.utec.edu.uy/wp-content/uploads/2018/11/01-Isologotipo-4.jpg
+      time: 2022 - 2023
+      details: |
+        Student in Information Technology
+        Taking second semester
+
+          - Java programming
+          - SQL database
+          - QA Functional Testing
+
+    - degree: Marketing Analyst Technician
+      university: UTU Higher Technical School of Commerce
+      # optional
+      university_logo: https://www.utu.edu.uy/sites/www.utu.edu.uy/files/styles/styles_noticias_home/public/noticia/imagenes/2021/08/logo%20centor%20cultural%20para%20web.jpg?h=09aa5902&itok=r-nRd8E8
+      time: 2010 - 2011
+      details: |
+        Graduated from the Higher School of Commerce.
+        Tertiary title of Marketing Analyst Technician
+
+          - Marketing
+          - Administration
+          - Advertising
+          - Trade
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Owner
+      time: 2022 - Present
+      company: World Vr Uruguay
+      # optional
+      company_logo: https://beb9f32f7c.clvaw-cdnwnd.com/4880e79d3bbc95438bc621fecd09a303/200000039-6e2ec6e2ed/logo%20gris.png?ph=beb9f32f7c
+      details: |
+        Personal entrepreneurship.
+        Leasing of Virtual Reality Equipment.
+        Animation of events with Virtual Reality
+
+          - VR
+          - Entertainment
+
+    - role: Monitoring Assistant
+      time: 2023
+      company: Microfin, Uruguay
+      # optional
+      company_logo: https://pbs.twimg.com/profile_images/625779577244114944/RFljUktB_400x400.jpg
+      details: |
+        In charge of night shift monitoring.
+        Troubleshooting,
+        On Bitcoin mining farm
+
+          - Blockchain
+          - Monitoring
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Final Python project
+      Final project WEB Development
+      Final Javascript Project
+
+    assignments:
+      - title: Comic Blog
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AndreAbreo/ProyectoFinalPython"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Club de mascotas exoticas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AndreAbreo/proyecto_coder"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Simulacro de Prestamos personales
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AndreAbreo/CoderJS_51105"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 80%
+
+      - name: JavaScript & jQuery
+        level: 80%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Java
+        level: 80%
+
+      - name: SQL
+        level: 80%
+
+      - name: Sketch & Photoshop
+        level: 60%
