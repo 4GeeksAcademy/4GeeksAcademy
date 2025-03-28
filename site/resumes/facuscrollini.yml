@@ -1,0 +1,98 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Facundo 
+    last_name: Bravo Scrollini
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world one code at a time
+    
+    # Focus
+    focus: On improving my personal and professional skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Human core, working on getting better professional and comunication skills to improve not just myself, instead of help my partners and friends to get better life projects and lifestyle.
+      Always looking for a new experience to grow, challenges makes a better career, and anytime it presents I face them in front to merge with it and level-up my own personal career and life.
+    
+    
+    # Your profile picture URL
+
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/5LNQ3mp/Facundo-Profile-Photo.jpg
+
+    # Contact Information
+    email: facuscrollinic@gmail.com #optional
+    phone: 692 91 60 64 #optional
+     #optional
+     #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: facuscrollini
+    
+    twitter: '@facuscrollini' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+      - idiom: Italian
+        level: A1
+
+    # Interests or hobbies
+    interests:
+      - item: Drawing
+
+      - item: Running
+
+      - item: Reading
+# Your previous education
+education:
+    - degree: Art Bachelor
+      university: Liceo Departamental of Maldonado 
+      # optional
+      university_logo: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMW-uwqVgNBfx4M4zXIFdAjPlRrUDYG60HYsIdaTCajabL5A-er3zt9Is4Q8nu3Rk6rT3PiC4q1EzZnb5rfHsuhkXHicArC3Z04FXn2qDXAmQhEH8akfCSEcCX9R64xXAzv1UvSMxn160/s1600/liceo+1.jpg
+      time: 2013 - 2016
+      details: |
+        On this speciality I learned a lot of skills, most of it the artistic and the conection ones, with me and others. A beautiful and meaningful experience and period of my life. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Hotel Reception
+      time: 2024
+      company: Palacio de Rojas, Valencia
+      # optional
+      company_logo: data:image/png;base64,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
+      details: |
+       In this site I growed my experience with people and working on PC's, this was my first experience doing it, and it confirms how good I feel about working with OS and the hotel base data. 
+
+
+skills:
+    toolset:
+
+      - name: Digital Design
+        level: 90%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Photoshop
+        level: 80%
