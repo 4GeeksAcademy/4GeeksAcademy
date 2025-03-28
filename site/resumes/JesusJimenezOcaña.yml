@@ -1,0 +1,142 @@
+template: "online-cv"
+skin: "purple"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesús
+    last_name: Jiménez Ocaña
+    
+    # Define yourself in 4-5 words
+    motto: Java and Backend Developer
+    
+    # Focus
+    focus: Backend Development, APIs
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Experienced backend developer with a strong background in Java, Go, and modern frameworks. Passionate about creating scalable and efficient systems. Over 8 years of expertise in building RESTful APIs, microservices, and complex software architectures. Skilled in collaborating with cross-functional teams to deliver high-quality solutions.
+
+      Continuously improving by learning new technologies, recently exploring Rust and participating in hackathons to enhance skills in Python and backend frameworks.
+    
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/75.jpg
+
+    # Contact Information
+    email: jesusj_t93@hotmail.com
+    phone: +34 610099983
+    linkedin: https://www.linkedin.com/in/jes%C3%BAs-jim%C3%A9nez-oca%C3%B1a-48362b124/
+    github: https://github.com/Nonpoint93
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Learning Rust
+      - item: Participating in hackathons
+      - item: Exploring scalable backend solutions
+      - item: Participating in Hack the Box and TryHackMe
+
+# Your previous education
+education:
+    - degree: Data Science & Machine Learning
+      university: 4Geeks Academy España
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: November 2024 - April 2025
+      details: |
+        Focused on advanced topics in data science, machine learning, and analytics to apply in backend projects.
+
+    - degree: Microcomputer Systems and Networks
+      university: Universidad de Alcalá
+      time: 2015 - 2016
+      details: |
+        Studied core principles of computer systems, networking, and hardware configurations.
+
+    - degree: High School Diploma
+      university: IES Francisco de Goya
+      time: 2009 - 2011
+      details: |
+        General education with a focus on science and technology subjects.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Analista Programador Java
+      time: May 2022 - Present
+      company: SICE
+      details: |
+        Responsible for developing and maintaining backend systems using Java. Worked on optimizing processes and implementing new features.
+
+    - role: Desarrollador Go
+      time: December 2021 - May 2022
+      company: Grupo Dia
+      details: |
+        Developed a delivery management system for couriers and customers using Go. Built RESTful services for real-time order tracking and messaging.
+
+    - role: Java Software Engineer
+      time: June 2020 - December 2021
+      company: Between Technology
+      details: |
+        Contributed to building an internal portal for toll systems in Australia using Java 8. Focused on scalability and system optimization.
+
+    - role: Senior Java Software Engineer
+      time: October 2018 - April 2020
+      company: Accenture
+      details: |
+        Designed and developed enterprise-level solutions for various clients. Worked closely with stakeholders to gather requirements and deliver robust systems.
+
+    - role: Desarrollador Java
+      time: April 2017 - October 2018
+      company: everis
+      details: |
+        Collaborated on multiple projects, focusing on backend services and integrations using Java. Delivered high-quality, maintainable code.
+
+# Your project portfolio
+projects:
+    intro: >
+      Below are some of the notable projects I've worked on throughout my career. Each demonstrates a commitment to solving complex problems and delivering impactful solutions.
+
+    assignments:
+      - title: Delivery Management System
+        link: "#"
+        tagline: |
+          Developed a Go-based RESTful service for real-time courier and order tracking, improving delivery efficiency and customer satisfaction.
+
+      - title: Toll System Portal
+        link: "#"
+        tagline: |
+          Contributed to an internal portal for managing toll systems in Australia, ensuring high availability and scalability.
+
+      - title: Backend System for Enterprise Clients
+        link: "#"
+        tagline: |
+          Designed and implemented backend systems using Java, enabling seamless operations and integrations.
+
+skills:
+    toolset:
+      - name: Java
+        level: 100%
+
+      - name: RESTful APIs
+        level: 95%
+
+      - name: Go
+        level: 85%
+
+      - name: Python (Flask, FastAPI)
+        level: 80%
+
+      - name: Rust
+        level: 70%
+
+      - name: Docker & Kubernetes
+        level: 75%
+
+      - name: SQL & Databases
+        level: 90%
