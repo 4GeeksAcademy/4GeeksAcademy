@@ -1,0 +1,114 @@
+---
+# 
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv";
+skin: black
+basic_info:
+  first_name: Brandon-Ray
+  last_name: Brown
+  motto: I like saving the world
+  focus: Getting 1% better everyday
+  summary: null
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: a@a.com
+  phone: 234 2342 342
+  website: asd.com
+  linkedin: alandoe
+  github: example
+  twitter: webjeda
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+  interests:
+    - item: Gym
+    - item: Reading
+    - item: Traveling by plane
+education:
+  - degree: Bachelor's in Management & Marketing
+    university: Florida Atlantic University
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2009-2014
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Account Executive
+    time: 2021 - 2024
+    company: Timberwolves & Lynx, Minneapolis, MN
+    company_logo: null
+    details: Managing partner relationships for the Timberwolves & Lynx for a diverse range of brands, such as Sire
+  Spirits, E&J Gallo, Betway & Deluxe.
+
+  Leading the implementation of all partnership brand assets and managing partner budgets across diverse
+  channels, including in-arena signage, digital/social media, community activations, and fan experience
+  within the arena.
+
+  Working closely in collaboration with the digital, social, and video content team to create and deliver
+  high-impact content that effectively aligns with and achieves partnership objectives throughout the
+  season. Conceptualizing, managing and activating over 10 events per season for various partners spanning from
+  watch parties to financial literacy programs.
+
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    company_logo: null
+    details: ""
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: null
+    details: ""
+projects:
+  # intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  # assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+# skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
