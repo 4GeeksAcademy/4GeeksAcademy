@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Monique
+    last_name: Menezes
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta los desafios
+    
+    # Focus
+    focus: Aprender y mejorar continuamente
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Formada en química en Brasil, vine a España y adquirí más de 6 años de experiencia en hostelería, destacando en atención al cliente y adaptabilidad. Ahora estoy dando un giro hacia el área tecnológica, una pasión que he tenido desde niña y que me inspira a aprender y superar nuevos desafíos. Comprometida con el crecimiento constante, busco aportar en cada proyecto con entusiasmo y dedicación.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1cdwH-z436Arklm8pjjF8araFyMzd6V_A/view?usp=drive_link
+
+    # Contact Information
+    email: niquemenezes@gmail.com #optional
+    phone: (+34)636 63 00 37 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Niquemenezes
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portugues
+        level: Nativo
+
+      - idiom: Español
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Viajar y conocer nuevas culturas
+
+      - item: Tecnología y programación
+
+      - item: Pasar tiempo con la familia
+
+# Your previous education
+education:
+    - degree: Química
+      university: Universidade Federal Rural do Rio de Janeiro
+      # optional
+      university_logo: https://logodownload.org/wp-content/uploads/2020/02/ufrrj-logo.png
+      time: 2000 - 2005
+      details: 
+        Estudié Química en la Universidade Federal Rural do Rio de Janeiro, donde adquirí una sólida formación científica en diversas áreas de la química, como la química orgánica, analítica e inorgánica. Durante mi carrera, desarrollé habilidades prácticas en laboratorios, participando en investigaciones y experimentos que me permitieron comprender la aplicación de la teoría en situaciones reales. Esta formación me proporcionó una base técnica fuerte que me ha permitido adaptarme y desarrollar nuevas habilidades en diferentes campos profesionales.
+ 
+
+    - degree: Formacion Profesional Tecnica Química
+      university: Instituto Federal do Rio de Janeiro 
+      # optional
+      university_logo: https://portal.ifrj.edu.br/sites/default/files/IFRJ/ASCOM/logo_ifrj_horizontal.png
+      time: 1995 - 1999
+      details: 
+        Realicé estudios de formación profesional en química en el Instituto Federal de Química, donde adquirí una formación técnica especializada en procesos químicos, análisis y control de calidad. A lo largo de la formación, aprendí a manejar equipos y técnicas de laboratorio, así como a aplicar principios químicos en la resolución de problemas industriales y de investigación. Esta experiencia me permitió desarrollar habilidades prácticas esenciales para el trabajo en el sector químico, así como un enfoque riguroso y preciso en la ejecución de tareas técnicas.
+      
+   
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Atencion al Cliente
+      time: 2018 - Actual
+      company: Ona Marinas de Nerja
+      # optional
+      company_logo: https://cdn2.paraty.es/ona-corporativa/images/aab3dadf405c3c5
+      details: Me encargo de la preparación y organización de las habitaciones para garantizar una experiencia excepcional para los huéspedes, asegurando que cada espacio esté limpio, ordenado y listo para la recepción del cliente.
+
+
+    - role: Gestión de distribución de frutas 
+      time: 2017 - 2017
+      company: Axarquia Tropical
+      # optional
+      company_logo: https://www.axarquiatropical.com/wp-content/themes/maldon_custom/library/images/company/logo.svg 
+      details: Trabajé en la logística y gestión de la distribución de frutas, asegurando la calidad del producto, su correcta organización y su entrega eficiente en el tiempo estipulado. Esta experiencia me permitió desarrollar habilidades en trabajo en equipo, organización y atención al detalle.
+        
+
+    - role: Profesora de Química
+      time: 2005 - 2007
+      company: Colegio Mercurio
+      # optional
+      company_logo: 
+      details: Impartí clases de química a adultos, adaptando los contenidos a sus necesidades y niveles de conocimiento. Diseñé actividades prácticas y explicaciones claras para facilitar la comprensión de conceptos complejos, promoviendo un ambiente de aprendizaje dinámico y motivador. Mi labor incluyó el desarrollo de materiales didácticos, la evaluación continua de los estudiantes y el uso de ejemplos aplicados para hacer la química accesible y relevante para ellos.
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      Durante mi curso, empecé con mis pequeños proyectos y voy dejando apuntado algunos de ellos. Cada proyecto ha sido una experiencia de aprendizaje invaluable en mi camino como desarrollador.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+   
+skills:
+    toolset:
+      - name: Html & CSS
+        level: 60%
+
+      - name: Git & GitHub
+        level: 40%
+
+      - name: Boostrap
+        level: 60%
