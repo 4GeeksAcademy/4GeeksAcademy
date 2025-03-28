@@ -1,0 +1,99 @@
+---
+template: online-cv
+skin: green
+basic_info:
+  first_name: Jorge
+  last_name: Álvarez
+  motto: It's not easy being green
+  focus: Keep on going
+  summary: >
+    Maestro cortador de troncos, dedico mi tiempo libre a complicarme la
+    vida creando algoritmos inutiles. 
+
+    Realmente vengo del mundo de la logística y el almacenaje, siendo un experto en cargar camiones de forma eficiente.
+
+    ¿De que me vale esto y porque estoy aquí? Pues me vale para saber apreciar lo que en su dia no quise hacer por pereza, y ahora me arrepiento de no haber hecho, e intento cambiar completamente el rumbo (del que no disfrutaba) que llevaba mi vida a nivel profesional.
+
+    Todo es mentira, simplemente ríete un poco.
+
+
+    Second paragraph isnt required, trust me.
+  avatar: 
+  email: botelladelagua@gmail.com
+  phone: +34 609 405 718
+  website: asdfghijklmnoprstdetelocreiste.com
+  linkedin: masadelante
+  github: Xingha0
+  twitter: Anacleto
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: French
+      level: Yo no compro pan
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Skateboarding
+    - item: Snowboarding
+    - item: Sleepboarding
+    - item: I said Skateboarding?
+    - item: Photograpy
+education:
+  - degree: Mmm in Prrr Science
+    university: University of Miausachusets
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011 - 2012
+    details: |
+      Eso no se estudia, se sabe
+experiences:
+  - role: Encargado de Almacén
+    time: 2008 - 2023
+    company: Inditex
+    company_logo: null
+    details: "Tendrias que ver mi armario..."
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 8%
+    - name: JavaScript & jQuery
+      level: 0.8%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 2.5%
+    - name: Ruby on Rails
+      level: -55%
+    - name: Ligthroom & Photoshop
+      level: 160%
