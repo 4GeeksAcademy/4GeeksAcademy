@@ -1,0 +1,77 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jairo
+    last_name: Almanza
+    
+    # Define yourself in 4-5 words
+    motto: Mejores personas hacen mejores jugadores
+    
+    # Focus
+    focus: Learn DataScience & Learning Machine
+    
+    # Contact Information
+    email: jairo.andres.almanza@gmail.com #optional
+    phone: +57 323-248-2994 #optional
+    github: Jairo-Almanza
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+languages:
+      - idiom: Inglés
+        level: Medio-Alto
+
+      - idiom: Español
+        level: Nativo
+
+interests:
+      - item: Programacion Ciencia Datos y ML
+
+      - item: Rugby
+
+      - item: Deporte Motor
+  
+education:
+    - degree: Tecnologo en sistemas de informacion
+      university: Universidad ESUMER
+      time: 2003 - 2008
+      
+experiences:
+    - role: Tecnico/Vendedor
+      time: 2018 - 2022
+      company: CN Technology
+      details: |
+        Ventas, mantenimiento preventivo y correctivo de portatiles y cpu.
+
+          
+assignments:
+- title: Proyecto final colaborativo
+  link: "https://github.com/Jairo-Almanza/Proyecto_Final"
+  tagline: "Designing a Machine Learning Model to Predict Accident Severity in the United States,
+            utilizando APIs, sqlite, numpy, pandas, scikit-learn,streamlit,streamlit-option-menu,joblib"
+
+- title: Proyecto colaborativo despliegue web
+  link: "https://final-project-9wyg.onrender.com"
+  tagline: "This machine learning model can allow emergency services to prioritize and allocate resources more efficiently"
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Codespaces
+        level: 40%
+
+      - name: Github
+        level: 40%
+
+      - name: Node
+        level: 40%
