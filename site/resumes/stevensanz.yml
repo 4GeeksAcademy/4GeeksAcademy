@@ -1,0 +1,65 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Steven  
+    last_name: Sanz
+    motto: Full-stack Developer
+    avatar: 
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+
+    email: stevensanz_95@hotmail.com
+    phone: 722239332
+    website: 
+    github: stevensanz
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spain
+        level: Native
+
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+education:
+    - degree: 
+      university: 
+      time: 
+      details: 
+      
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Code4ever 
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+    
+    assignments:
+      - title: Instagram Bootstrap
+        link: https://github.com/StevenSanz/stevensanz-instafeed-bootstrap
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view.   --"
+
+      - title: Postcard
+        link: https://github.com/StevenSanz/MYPOSTCARDst
+        tagline: "A responsive website template designed to input information on a postcard.   --"
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 35%
+
+      - name: HTML5 & CSS
+        level: 75%
