@@ -1,0 +1,96 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nallely
+    last_name: Quintero
+    
+    # Define yourself in 4-5 words
+    motto: Passionate about data and learning
+    
+    # Focus
+    focus: Machine Learning, IA, Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Student of the bachelor's degree in statistics, 
+      passionate about machine learning, data science,
+      I like to update my knowledge
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: nallelyquintero44@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: nallelyquintero #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: nallequintero
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: read books
+
+      - item: Programming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Licenciatura en Estadistica
+      university: Universidad de los Andes
+      time: 2011 - 2025
+      details: |
+        The Bachelor of Statistics degree focuses on the collection,
+        analysis, and interpretation of data. Students learn to apply 
+        statistical methods to solve problems in a variety of areas, 
+        such as social sciences, economics, health, and more. 
+        It includes topics such as probability, statistical inference, 
+        design of experiments, and data analysis. 
+        In short, it trains professionals capable of making informed 
+        decisions based on quantitative data.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: data scientist
+      time: 2021 - 2024
+      company: QUASH
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        * Management and cleaning of data from various clients who offer loans.
+        * Construction of machine learning models, which allow 
+        predicting a person's payment behavior.
+        * Preparation of business results reports.
+
+    - role: Senior Liquidity Risk Specialist
+      time: 2017 - 2023
+      company: Banco Nacional de Credito
+
+skills:
+    toolset:
+      - name: Python
+        level: 30%
+
+      - name: R
+        level: 60%
