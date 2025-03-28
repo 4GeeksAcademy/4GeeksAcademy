@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Benjamin
+    last_name: Flores
+    
+    # Define yourself in 4-5 words
+    motto: I like computers
+    
+    # Focus
+    focus: Provide wealth to my family
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've always been working in 5 stars hotels, could say the best ones in the cities i have lived in. Learning a lot from my older partners, working hard with stranges shifts. But always giving the best of me on each day no matter what.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgs.search.brave.com/gD_xghhi4smMxhjlDSnXpf_56XPXGm27co1CmJqQSYI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/YS50cmFuc2Zlcm1h/cmt0LnRlY2hub2xv/Z3kvcG9ydHJhaXQv/YmlnLzM1NjY0LTE0/ODM1MTkyODYuanBn/P2xtPTE
+
+    # Contact Information
+    email: benjaaflores47@gmail.com #optional
+    phone: 604 16 24 56 #optional
+    linkedin: Benjamin (Benjy) Flores #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Benjyflores
+    
+    twitter: benjyflores #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Portuguese
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Football
+
+      - item: Gym
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: Full-Stack
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+        A full-stack developer is a programmer who works in software development and is knowledgeable in both the front end and back end of an application. They work on the frontend, backend, database, server configuration, and user interface to create a seamless user experience. Full-stack development involves designing, creating, testing, and deploying a complete web application from start to finish, using various technologies and tools. The main components of a full-stack development are the front-end, back-end, and database. Full-stack developers are skilled in Java, Python, and other programming languages
+
+          - HTML
+          - CSS
+          - Java
+          - React
+          - Python
+
+    - degree: BC Natural Science
+      university: D.A.D
+      # optional
+      time: 2014 - 2018
+      details: |
+        Public high school from the Universidad Nacional de Cuyo, Argentina, Mendoza.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Night Audit
+      time: 2023 - Present
+      company: SHA Wellnes Clinic
+      # optional
+      company_logo: https://imgs.search.brave.com/IT00EWMfAqMh8lL5iuDfNJEtPqEPeYaNCoWAtneAn38/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9saXZl/LnN0YXRpY2ZsaWNr/ci5jb20vNjE5NS82/MTIzNTIxNTYxXzIz/YWMxZTM0YzkuanBn
+      details: |
+        Night Shift receptionist, completing check-ins of the day. Preparing files, keys, room assignments, any emergency that occurs during the night, any additional request of guests during the night, and taking care of any early departure.
+
+    - role: Guest Service
+      time: 2022 - 2023
+      company: Hotel Sheraton Mendoza
+      # optional
+      company_logo: https://imgs.search.brave.com/pxkFxGIJebVTO6d0sBEGg-c_vbwYbant9t-ONoozZwI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pay5p/bWdraXQubmV0LzN2/bHFzNWF4eGpmL1RX/L2lrLXNlby91cGxv/YWRlZEltYWdlcy9B/bGxfVFdfQXJ0LzIw/MTkvMDMxOC9UMDMx/OFNoZXJhdG9uTmV3/TG9nby9TaGVyYXRv/bi1yZXBsYWNlcy1s/YXVyZWwtd3JlYXRo/LWluLW5ldy1sb2dv/LmpwZz90cj13LTc4/MCxoLTQ0MCxmby1h/dXRv
+      details: |
+        Back office work, attending guests or external calls. Confirming events or reservations at our restaurants. Assisting front desk when needed.
+
+    - role: Receptionist
+      time: 2018 - 2022
+      company: Diplomatic Hotel
+      # optional
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Post Card
+        # optional
+        link: https://github.com/Benjyflores/exercise-postcard
+        tagline: "A simple Post Card made with HTML5 & CSS."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
