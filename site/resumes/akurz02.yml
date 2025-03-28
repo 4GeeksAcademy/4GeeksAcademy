@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adam
+    last_name: Kurz
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Reliable programming gamer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Adam Kurz is a web-developer and programmer based in Miami, FL. His 
+      passion for video games has propelled him to work towards obtaining 
+      a Bachelors degree in Computer Science from Florida International 
+      University, as well as working towards a full-stack dev certification
+      from 4Geeks Academy. Feel free to connect with him through any of the 
+      means listed below.
+    
+    # Your profile picture URL
+    avatar: http://sep.breatheco.de/static/profile-images/20240328_YAML-Ref
+
+    # Contact Information
+    email: adam.kurz4@gmail.com
+    linkedin: adam-kurz-93a4881b8
+    
+    #
+    # ******** IMPORTANT *******
+    github: https://github.com/akurz02
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Video Games
+
+      - item: Biking
+
+      - item: Cooking
+
+# Your previous education
+education:
+
+    - degree: High School Diploma
+      school: Miami Palmetto Senior High
+      time: Aug. 2016 - May 2020
+      details: |
+        Received my diploma from the local High School.
+
+    - degree: Full-Stack Web Developer
+      university: 4Geeks Academy
+      time: Present
+      details: Have been learning the ins and outs of web development.
+      
+    - degree: BA in Computer Science
+      university: Florida International University
+      time: Currently
+      details: Learned most of my basic understanding of systems and programming here.
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Employee/Team Member
+      time: 2023 - Present
+      company: Chill-N Nitrogen Ice Cream, LLC
+      details: |
+        Customer service, food safety.
+
+    - role: Employee/Team Member
+      time: 2023 - Present
+      company: Azucar Ice Cream, LLC
+      details: |
+        Customer service, food safety, limited IT work on premises.
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: GIMP
+        level: 60%
