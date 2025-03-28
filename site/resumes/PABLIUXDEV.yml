@@ -1,0 +1,150 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo Humberto
+    last_name: Dávila Manzanilla
+    
+    # Define yourself in 4-5 words
+    motto: Entusiasta UX y Desarrollador en entrenamiento
+    
+    # Focus
+    focus: Aprendizaje en diseño de servicios
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Inicié mi carrera en el mundo de la tecnología como diseñador instruccional y multimedia.
+      Ahora me dedico a realizar investigación UX freelance así como al diseño de aplicativos.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: pablo.h.davila@gmail.com #optional
+    phone: +52 5549128395 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: PABLIUXDEV
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: C1
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Senderismo
+
+      - item: Cocina
+
+      - item: Estudio
+
+# Your previous education
+education:
+    - degree: Licenciatura en Pedagogía
+      university: Universidad Nacional Autonoma de México
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2014
+      details: |
+        La carrera estuvo enfocada en metodologías de investigación enfocadas al 
+        ámbito educativo así como en planeación y diseño de proyectos educativos
+        tanto presenciales como en línea mediante diseño instruccional
+
+        
+
+    - degree: Maestría en Diseño Multimedia con Orientación a Aplicaciones Web y Móviles
+      university: Universidad del Valle de México
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2023
+      details: |
+       La curso se enfocó en mejorar habilidades de diseño gráfico,
+       planeación y aplicación de diseño con enfoque de experiencia de usuario (UX)
+       y diseño de interfaz (UI)
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Digital Producer
+      time: 2016 - Actualidad
+      company: Macmillan Education, Mexico
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        Mis actividades son variadas. Realizo edición de contenido, coordinación en montaje
+        de aplicativos, seguimiento como dueño de Producto a nuestro eCommerce y diseño 
+        aplicativos para uso de la fuerza de ventas.
+
+    - role: Asesor Externo
+      time: 2023 - Actualidad
+      company: Psicofarma, Mexico
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Doy consultoría para el desarrollo de aplicativos con enfoque en UX y accesibilidad.
+       Elaboro diferentes instrumentos de investigación y analizo el uso de las aplicaciones
+       mediante heurísticas y pruebas con usuarios.
+
+   
+
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de los proyectos en los que he trabajado son los siguientes:
+
+    assignments:
+      - title: Digital eBooks Sampling System
+        # optional- title: eBooks Digital Samplers
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Sistema de envío de muestras y seguimiento para prospectos"
+
+      - title: Salud y seguimiento terapeutico
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Aplicación que apoya a pacientes con diferentes problemas a dar seguimiento a su tratamiento."
+
+
+      
+
+skills:
+    toolset:
+      - name: Figma, Miró, Adobe XD
+        level: 80%
+
+      - name: Adobe Illustrator
+        level: 80%
+
+      - name: Adobe Photoshop
+        level: 70%
+
+      - name: Adobe Premiere
+        level: 95%
+
+      - name: After Effects
+        level: 70%
+
+      - name: Adobe Audition
+        level: 80%
