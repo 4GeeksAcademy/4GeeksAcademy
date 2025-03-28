@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis R.
+    last_name: Silva
+    
+    # Define yourself in 4-5 words
+    motto: Give me your problems!
+    
+    # Focus
+    focus: bugs...
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a results-oriented professional with a strong foundation in business administration and a growing passion for web development. My experience in customer service, project management, and administrative tasks has equipped me with the essential skills to excel in this dynamic field.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQH7uZRgdHaE4Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1679069604510?e=1738195200&v=beta&t=IwNXvqXHF0RwOKkDzP2YsYWff7Ke3nXDLpl5C8bygGc
+
+    # Contact Information
+    email: lrsc135@gmail.com #optional
+    phone: +58 424 959 1657 #optional
+    linkedin: https://www.linkedin.com/in/luisrenesilva/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LuisRe135
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced (C2)
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: MMA
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor's in Business Administration
+      university: Universidad Gran Mariscl degit  Ayacucho
+      # optional
+      time: 2015 - 2019
+     
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Virtual Assistan
+      time: 2021 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: Aided several clients in the hospitality and construction industry with their administrative needs. Streamlined file organization and expense categorization, boosting client productivity and reducing data loss. Conducted a cost segregation study for a client, resulting in over a $20K tax reimbursement, significantly enhancing their financial position. Managed client invoicing through Google Sheets, Stessa, and QuickBooks, achieving on-time payment rates and improving cash flow. Cultivated strong relationships with clients and contractors, leading to an increase in repeat business.I acted as the right-hand man for a real-estate investor in his projects.Analyzed locations and properties for profitability in the vacation rental markets.Talked and made decisions on behalf of the CEO with contractors, banks, HOA boards, and property management groups.Prepared documentation for several purposes.
+
+# Your project portfolio
+projects:
+    intro: >
+      "Here you'll find my latest project"
+
+    assignments:
+      - title: Trippy
+        # optional
+        project_logo: https://raw.githubusercontent.com/4GeeksAcademy/trip-planner/refs/heads/main/src/front/img/logo-trippy.png
+        link: "https://github.com/4GeeksAcademy/trip-planner/"
+        tagline: "Collaborative trip planner app that helps users compare activities based on description, costs, and duration, and choose which activities to add to their trip alone or with comments and likes from others on the same trip."
+
+
+
+skills:
+    toolset:
+      - name: Python & Flask
+
+      - name: JavaScript & React
+
+      - name: Angular
+
+      - name: Node.js
+ 
