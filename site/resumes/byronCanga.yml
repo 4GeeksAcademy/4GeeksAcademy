@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Byron
+  last_name: Canga
+
+  # Define yourself in 4-5 words
+  motto: Me encanta diseñar UI
+
+  # Focus
+  focus: Explorando la Evolución del Diseño y Desarrollo Frontend
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: | 
+    Soy un apasionado del diseño y el desarrollo frontend, 
+    y cada día espero con entusiasmo la llegada de nuevas 
+    tecnologías. La creatividad que implica transformar 
+    ideas en interfaces interactivas atractivas es lo 
+    que me motiva en este campo. Creo firmemente en la 
+    importancia de la estrecha colaboración entre el diseño
+    y el desarrollo para lograr experiencias de usuario
+    excepcionales. Mi enfoque se centra en combinar la 
+    estética y la funcionalidad para crear productos 
+    altamente eficientes y visualmente atractivos.
+    
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://lh3.googleusercontent.com/a/ACg8ocIdw9SHZnqt4rm4UWshytYtc6Xl6Xbc5mtQBxChcbiXcGQ=s288-c-no
+
+  # Contact Information
+  email: byroncanga@gmail.com #optional  
+  website: byga.company #optional
+  linkedin: byroncanga #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: byroncanga
+
+  twitter: "byroncanga" #optional
+  
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Ingles
+      level: Basic
+
+    - idiom: Español
+      level: Nativo    
+
+  # Interests or hobbies
+  interests:
+    - item: CSS
+
+    - item: JS
+
+    - item: Developer
+
+# Your previous education
+education:
+  - degree: Autodidacta
+    time: 2015 - Present
+    university: youtube
+    
+# Your previous job experiences or volunteer
+experiences:
+  - role: Diseñador UI
+    time: 2015 - 2023
+    company: byga
+    # optional
+    company_logo: https://byga.company/wp-content/uploads/2022/03/logo-byga.svg
+    details: |
+      Empresa dedicada a brindar servicios para mepresas de juegos
+      de bingo y broadcast     
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+  assignments:
+    - title: Velocity
+      # optional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    
+skills:
+  toolset:
+    - name: Adobe XD
+      level: 98%
+
+    - name: HTML / CSS
+      level: 5S0%
+
+    - name: Illustrator
+      level: 98%
+
+    - name: Photoshop
+      level: 70%
+
+    - name: Cinema 4d
+      level: 50%
+    
