@@ -9,30 +9,24 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Joaquin
+    last_name: Sanchez
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Dinamico, Proactivo, Responsable
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Aprender
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+    summary: Desarrollador Full Stack con más de 5 años de experiencia en la creación de aplicaciones web escalables y dinámicas. Dominio de tecnologías como JavaScript, React, Node.js y bases de datos SQL y NoSQL, lo que me permite diseñar soluciones completas que abarcan tanto el frontend como el backend. Apasionado por la optimización de procesos y la implementación de mejores prácticas en el desarrollo ágil, he colaborado en equipos multidisciplinarios para entregar proyectos innovadores y de alto impacto. Comprometido con el aprendizaje continuo y la mejora constante, busco aportar mi experiencia y creatividad a un entorno desafiante.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: joaquin.sancheezz@gmail.com
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
@@ -40,29 +34,26 @@ basic_info:
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: https://github.com/joacosanchez12
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Español
+        level: Nativo
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Ingles
+        level: Principiante
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Leer
 
-      - item: Snowboarding
+      - item: Deportes
 
-      - item: Cooking
+      - item: Cocinar
 
 # Your previous education
 education:
