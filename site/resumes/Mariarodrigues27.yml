@@ -1,0 +1,81 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria
+    last_name: Rodrigues
+    
+    # Define yourself in 4-5 words
+    motto: I like challenges
+    # Focus
+    focus: Solving problems
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I’m excited to share that I’m embarking on a journey into data science, driven by a passion for uncovering insights from data. Although I’m just starting and don’t have previous experience in the field, I bring a strong foundation in analytical thinking and problem-solving from my background. I’m eager to learn and apply concepts such as data analysis, machine learning, and statistical modeling to real-world challenges. This new path is not just a career shift for me, but a thrilling opportunity to explore the potential of data in making informed decisions and driving innovation.
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: maria.abreulr27@gmail.com
+    linkedin: https://www.linkedin.com/in/maria-rodrigues-745611329?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVJWd5N95Qk2mH4T508%2BZPA%3D%3D
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Mariarodrigues27
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Weightliifting 
+
+      - item: Running
+
+      - item: Cooking
+
+
+    
+    assignments:
+      - title: real state data clean up
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Mariarodrigues27/realestate-datacleanup-exercise.git
+        
+      - title: calculus and algebra
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/mariarodrigues27calculus-and-algebra-problems-with-python.git
+    skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Sketch & Photoshop
+        level: 80%
