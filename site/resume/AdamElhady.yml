@@ -3,28 +3,24 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "green"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Adam
+    last_name: Elhady
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: I love coding and configuring new ideas related to IT
     
     # Focus
-    focus: Killing Bad Boys
+    focus: coding and overclocking
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
+      Good interpersonal treatment, passionate about technology, responsible, creative, collaborative and persevering. Strategic logical thinking.
       Second paragraph if required.
     
     # Your profile picture URL
