@@ -1,0 +1,181 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandra
+    last_name: Chavez
+    
+    # Define yourself in 4-5 words
+    motto: Yo amo los perros.
+    
+    # Focus
+    focus: Estudiar en 4Geeks.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Durante estos últimos años, he tenido la oportunidad de trabajar con algunas empresas de distintos sectores lo cual me da una visión amplia de las necesidades de los clientes internos y externos. Ha sido una gran experiencia tratar con dueños de empresas cuyo objetivo es tener un negocio de alta demanda. Con cada uno de ellos me he enriquecido y podido valorar los distintos tipos de liderazgo y equipo. Me gusta aprender, dar lo mejor de mí y continuo capacitándome en áreas que pueden complementar mi carrera profesional. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: alejandrachavezpuyol@gmail.com 
+    phone: +59399070761
+    website: Enproceso.com
+    linkedin: Alejandra Chávez Puyold
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlejandraChavezP
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Alta
+
+      - idiom: French
+        level: Medio
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Volley
+
+      - item: Correr
+
+      - item: Beach Tennis
+      
+      - item: Yoga
+
+# Your previous education
+education:
+    - degree: Ing. en Administración de Empresas y Marketing Estratégico
+      university: Universidad Casa Grande
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2013 - 2017
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coordinadora del proyecto
+      time: 2019 - 2020
+      company: Fundación Juntos.
+      # optional
+      details: |
+        Proyecto Manitos Juntas para brindar educación a niños de escasos recursos desde la pandemia COVID-19.
+
+          -Educación digital. 
+          -Capacitación de profesores.
+          -Adecuación de instalaciones remotas. 
+        
+        Misión de Nil - Libro educativo para niños cuyo objetivo era informar y preservar especies endémicas de aves y árboles ecuatorianos.  (2018)
+        
+        Gueyitas - acción dirigida a niños de 6-10 años para reducir el maltrato animal en la ciudad de Guayaquil.
+
+    - role: Project Manager
+      time: 2021-presente
+      company: Agencia Casa Digital
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Casa Digital
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Meta Business Manager
+        level: 90%
+
+      - name: IFS - Infusion Soft
+        level: 90%
+
+      - name: Premiere 
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Illustrador Photoshop
+        level: 60%
