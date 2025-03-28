@@ -1,0 +1,104 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Dafne
+    last_name: Godoy Herrera
+    motto: "Inmersa en el mundo de las STEM desde 2018"
+    focus: "FullStack Java Junior | Analista Programadora"
+    summary: |
+      Inmersa en el mundo de las STEM desde 2018 donde tomé mi primer taller de programación, 
+      en 2019 entré a "NiñasPro" lo que me hizo decidir estudiar informática en la universidad. 
+      He visto un poco de todo desde Unity, Impresión 3D, Ciencia de datos y Desarrollo. 
+      Recientemente finalicé un bootcamp de "FullStack Java" en Generation y busco desempeñarme 
+      como developer en el corto plazo, dispuesta a seguir aprendiendo siempre.
+    avatar: https://avatars.githubusercontent.com/u/39860163?v=4&size=64
+    email: dafne.godoy.h@gmail.com
+    phone: +56931274718
+    website: ""
+    linkedin: "https://www.linkedin.com/in/dafnegodoy/"
+    github: "dafneeee"
+    twitter: ""
+    stack-overflow: ""
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+    interests:
+      - item: "Desarrollo de Software"
+      - item: "Tecnología"
+      - item: "Ciencia de Datos"
+
+# Your previous education
+education:
+    - degree: "Ingeniería en Información y Control de Gestión"
+      university: "Universidad Diego Portales"
+      time: "February 2020 – Actualidad"
+      details: |
+        Luego de aprobar 4 semestres con éxito ya poseo el título de: Analista Programadora.
+    - degree: "Desarrolladora Full Stack Java"
+      university: "Generation"
+      time: "April 2023 – July 2023"
+      details: |
+        Bootcamp de 12 semanas. Habilidades aprendidas: HTML, CSS, GIT, Github, JavaScript, 
+        Java, Spring Boot, SQL, MVC, JIRA, Trabajo en equipo.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: "Junior Systems Engineer"
+      time: "August 2023 – October 2023"
+      company: "Minsait by Indra"
+      details: |
+        Desarrollo varios proyectos con HTML, CSS, Javascript, React, Python, Django, Docker, GIT.
+    - role: "Ayudante de Profesor"
+      time: "January 2021 – January 2021"
+      company: "Ideo Maker"
+      details: |
+        Ayudante en el programa Penta UC. "Curso: Futuros interactivos: diseños de experiencias con 
+        realidad aumentada". Tecnologías: Unity y C#.
+
+# Your project portfolio
+projects:
+    intro: >
+      Puedes listar tus proyectos personales o de código abierto en esta sección. Lorem ipsum dolor sit 
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: "Proyecto 1"
+        link: "#"
+        tagline: "Descripción breve del proyecto."
+      - title: "Proyecto 2"
+        link: "#"
+        tagline: "Descripción breve del proyecto."
+
+skills:
+    toolset:
+      - name: "HTML"
+      - name: "CSS"
+      - name: "JavaScript"
+      - name: "Java"
+      - name: "Spring Boot"
+      - name: "React"
+      - name: "C#"
+      - name: "Python"
+      - name: "MySQL"
+      - name: "SQL"
+      - name: "GIT"
+      - name: "Github"
+      - name: "Bootrsrap"
+      - name: "Unity"
+      - name: "C++"
+
+    tools:
+      - name: "JIRA"
+      - name: "Trello"
+      - name: "Excel"
+      - name: "PowerDesigner"
+      - name: "SCRUM"
+      - name: "VSCode"
+      - name: "Intellij"
+      - name: "UML"
+      - name: "PowerBI"
+      - name: "JupyterLab"
+      - name: "Figma"
