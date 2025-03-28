@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Rosales
+    
+    # Define yourself in 4-5 words
+    motto: Cree en tí
+    
+    # Focus
+    focus: Ser un mejor ser humano y profesional cada día
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Tengo amplia experiencia en el área ingenieril, tanto práctica como de investigación.
+      Conocimientos en el área de producción y en manejo de grandes equipos multidisciplinarios.
+      Apasionado por el manejo y análisis de datos.
+      Sé cómo trabajar bajo presión y me gusta el liderar, así como también los retos.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    
+    # Contact Information
+    email: josed.rosales95@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/josé-rosales-682562158/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: josedrosales
+        
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Profesional
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Tecnología
+
+      - item: Finanzas
+
+      - item: Deportes
+
+# Your previous education
+education:
+    - degree: Ingeniero Químico
+      university: Universidad Simón Bolívar
+      # optional
+      time: 2012 - 2018
+      details: |
+        Examinar sistemáticamente los datos y los hechos para revelar y comprender las relaciones causa-efecto, y así sentar
+        las bases para la resolución de problemas y la toma de decisiones.
+        Planificar, organizar, dirigir y supervisar las operaciones en términos del uso eficiente de materiales, energía y recursos humanos, 
+        para garantizar la continuidad de los procesos y equipos, la calidad de los productos
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ingeniero de Contenido Educativo
+      time: 2021 - Present
+      company: Knowledgehook, Canadá
+               
+    - role: Consultor independiente
+      time: 2021 - 2022
+      company: SDS Manager, Noruega
+
+    - role: Consultor independiente
+      time: 2020 - 2022
+      company: Business Analytiq, Portugal
+
+    - role: Ingeniero de Procesos
+      time: 2019 - 2022
+      company: Acumuladores Duncan, Venezuela
+
+    - role: Ingeniero de Procesos
+      time: 2018 - 2019
+      company: Corporación Alcoholes del Caribe, Venezuela
+
+    - role: Pasante
+      time: Abr 2018 - Sep 2018
+      company: Cargill, Venezuela
+
+    - role: Pasante
+      time: Jul 2016 - Ago 2016
+      company: Benzoven, Venezuela
+      
+skills:
+    toolset:
+      - name: Excel
+        level: 90%
+
+      - name: Python
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: .svg
+        level: 100%
+
+      - name: Microsoft Office
+        level: 90%
+
+      - name: Gerencia y liderazgo
+        level: 98%
