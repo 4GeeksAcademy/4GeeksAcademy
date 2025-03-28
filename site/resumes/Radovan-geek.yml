@@ -1,0 +1,100 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Radovan
+    last_name: Halir
+
+    motto: I want to be in the videogame industry and level up my skills programming for 3D.
+
+    focus: Programming
+
+    summary: Experienced in Motion Graphics with a demonstrated history of working in digital marketing agencies for big brands in Venezuela
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+
+    email: rdvn.halir@gmail.com
+    phone: 04120971916
+    website:
+    linkedin: https://www.linkedin.com/in/radovan-halir-226a4a63/
+
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Radovan-geek
+
+    twitter: 
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Classical Guitar Music
+
+      - item: 3D modeling
+
+      - item: Drawing
+
+education:
+    - degree: Audiovisual Mass Comunicator
+      university: Universidad Santa Maria
+      university_logo: https://usm.edu.ve/wp-content/uploads/2020/07/Logo_USM_Horizontal_Mesa_de_trabajo_1-1.png
+      time: 2023 - 20247
+      details:
+         
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Motion-Grapher
+      time: 2023 - Present
+      company: B2B Agency
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D560BAQGjOTAtv8q2PQ/company-logo_200_200/company-logo_200_200/0/1680707881158/b2b_marketing_solutionsvzla_logo?e=2147483647&v=beta&t=MFiAetnluq-mUh0eSPkaqpz3vuIvwKTJEaZE8Z3172E
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      right now just studying fullstack developement in 4geeks
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: None
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0% 
+
+      - name: Javascript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 80%
