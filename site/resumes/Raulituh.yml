@@ -1,0 +1,77 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+  first_name: Raúl 
+  last_name: Viana Ruiz
+  motto: Full-Stack Developer
+  avatar: https://avatars.githubusercontent.com/u/179687992?v=4
+  summary: Soy un apasionado de la informática. 
+  email: raaaulviana33@gmail.com
+  phone: +376 645 898 #Optional
+  website: 
+  linkedin: 
+  github: Raulituh
+  twitter: 
+  stack-overflow: 
+
+languages:
+  - idiom: Español
+    level: Nativo
+
+  - idiom: Inglés 
+    level: Muy fluido
+        
+  - idiom: Francés
+    level: Conversaciones básicas y entendimiento
+
+interests:
+  - item: Viajar
+  - item: Comer
+  - item: Escuchar música
+  - item: Emprender
+
+education:
+  - degree: Bachillerato Internacional
+    university: Agora International School Andorra
+    time: 2021-2023
+    details: Bachillerato la mitad en inglés, viviendo en una residencia de estudiantes.
+      
+experiences:
+  - role: Estudiante
+    time: 2024 - Presente
+    company: 4Geeks Academy
+    details: Aprendiendo HTML, CSS, Bootstrap4, JS, Angular, React, SQL, Python durante el bootcamp intensivo. 
+      
+projects:
+  intro: >
+    Aquí algunos de mis proyectos de GitHub:
+    
+  assignments:
+    - title: 
+      link: 
+      tagline:
+
+    - title: 
+      link: 
+      tagline: 
+
+    - title: Instagram Photo Feed with Bootstrap
+      link: 
+      tagline: 
+
+    - title: 
+      link: 
+      tagline: 
+        
+    - title: 
+      link: 
+      tagline: 
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 60%
+
+    - name: HTML5 & CSS
+      level: 90%
