@@ -1,0 +1,69 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo
+    last_name: Arias
+    
+    # Define yourself in 4-5 words
+    motto: Its raining Codes
+    
+    # focus
+    focus: web development
+    
+    # You have 1 paragraph to make a great impression, summarize your career. LATER
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars3.githubusercontent.com/u/49835178?s=460&u=944de2ad887921e3b6e261d1d60ef272a4350677&v=4
+
+    # Contact Information
+    email: ricardoarias4@hotmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ricard0-A
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Play Videogames
+
+      - item: Listen Music
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: Javascript 
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 60%
