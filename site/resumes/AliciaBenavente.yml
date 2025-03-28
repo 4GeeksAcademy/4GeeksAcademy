@@ -1,0 +1,90 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Alicia
+  last_name: Benavente
+  motto: I love dancing and eating
+  focus: learning everything I can from FullStack course in 4GeeksAcademy
+  summary: >
+    I've been working as a Laboratory Technician in research field for the
+    last 6 years, and I realise there is no use for me anymore to continue (at
+    least for now) working in this, as conditions are not really good, and
+    possibilities to grow not that many.
+    So I took the decision of learning about programming with the FullStack bootcamp with 4GeeksAcademy, and hopefully I'll find a new job in no time.
+  linkedin: www.linkedin.com/in/alicia-benavente-garcia
+  github: AliciaBenavente
+  languages:
+    - language: Spanish
+      level: Native
+    - language: English
+      level: C1
+  interests:
+    - item: Dancing
+    - item: Cooking
+    - item: Music
+education:
+  - degree: Certificate of Higher Education as Laboratory Technician
+    university: IES Moratalaz
+    time: 2014 - 2016
+    details: |
+      Clinic Diagnostic Laboratory Education
+      Main subjects
+        - Biology
+        - Biochemistry
+        - Microbiology
+experiences:
+  - role: Lab Technician
+    time: 2022 - Present
+    company: Instituto de Investigación Biomédica
+    details: >
+      DNA extraction from saliva, feces and fungi samples. Quality controls.
+      Supporting and performing different experiments, preparation of samples
+      for sending to sequence.
+      Preparation of mediums, purchasing of reagents and material.
+  - role: Lab Technician
+    time: 2020 - 2022
+    company: Complutense University of Madrid
+    details: >
+      Saliva samples processing, RNA extractions, laboratory maintenance,
+      waste and stocktaking.
+        - COVID project
+  - role: Lab Technician
+    time: 2017 - 2019
+    company: Complutense University of Madrid
+    details: >
+      Giving support to an Investigation group from the Complutense
+      University of Madrid. Main tasks:
+      - Preparation of specific biochemistry laboratory material.
+      - Pulmonary surfactant purification, and organic extractions to obtain surfactant proteins; quantification of phospholipids (Rouser method), liquid nitrogen and gases handling.
+      - Cell culture.
+      - Realization of national and international shipments.
+      - Organization, maintenance and stocktaking of fungible material, waste and orders management.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Form with HTML/Bootstrap
+      link: https://github.com/AliciaBenavente/HTML-form-AliciaBenavente
+      tagline: A form created with HTML and Bootstrap
+    - title: Instagram with Bootstrap
+      link: https://github.com/AliciaBenavente/Instagram-Bootstrap-AliciaBenavente
+      tagline: Instagram Feed and Grid to practice with Bootstrap
+    - title: Instagram Feed project
+      link: https://github.com/AliciaBenavente/Instagram-Feed-Proyect-Alicia
+      tagline: A Instagram Feed with several photos and comments to practice even more
+        HTML and CSS
+    - title: Instagram publication
+      link: https://github.com/AliciaBenavente/html-hello
+      tagline: An individual publication with a similar appearance to Instagram
+        publications to practice HTML and CSS
+    - title: Postcard
+      link: https://github.com/AliciaBenavente/exercise-postcard
+      tagline: A Postcard created for practicing CSS and HTML
+skills:
+  toolset:
+    - name: JavaScript
+      level: 40%
+    - name: HTML5 & CSS
+      level: 70%
