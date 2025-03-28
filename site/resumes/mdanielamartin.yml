@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria Daniela
+    last_name: Martin
+    
+    # Define yourself in 4-5 words
+    motto: Engineer by degree, developer by choice!
+    
+    # Focus
+    focus: Developing responsive and scalable websites!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Started as a Mechanical Engineer with a focus on finite element analysis.
+      Through my work I discovered my passion for solving problems with coding
+      and opted to pursue a career as web developer. 
+      
+  
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://64.media.tumblr.com/9503a07a74df9a6e8d04371bd39e6761/779890f9471a495b-72/s640x960/dbfc937151994faa5d20738d9ac7ba2758fd0770.png
+    # Contact Information
+    email: mdaniela.martin@proton.me #optional
+    phone: 234 2342 342 #optional
+    website: maria.com #optional
+    linkedin: mdm-pereira22 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mdanielamartin
+    
+    twitter: 'mdanielamartin' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Figure Skating
+
+      - item: Formula 1
+
+      - item: Turtles
+
+# Your previous education
+education:
+    - degree: MSc in Mechanical Engineering
+      university: University of Illinois at Urbana-Champaign
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      details: |
+        Studied programming and mathematics to build models for finite element analysis. 
+        I used the following programming languages:
+          - Python
+          - Matlab
+          - R
+
+    - degree: BSc in Mechanical Engineering
+      university: Michigan State University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2019
+      details: |
+        Studied Mechanical Engineering with a concentration on Aerospace design. I focused on the following areas:
+          - Aerospace Performance
+          - Turbomachinery
+          - Computational Fluid Dynamics
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Graduate Researh Assistant
+      time: 2021 - 2022
+      company: University of Illinois at Urbana-Champaign
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+
+        Conducted numerical simulations of electrochemical cells using the finite volume method, and processed results using graphs and images. Interpreted data and reviewed academic literature on numerical methods in electrochemistry.
+
+          - Matlab
+          - Excel
+          - PowerPoint
+
+    - role: Technical Assistant
+      time: 2018 - 2018
+      company: Facility for Rare Isotope Beams
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Utilized SolidWorks for part design, assembly, and technical drawings. Organized bill of materials, coordinated with vendors, and managed custom part orders. Collaborated on vacuum-sealed connectors and independently designed a modular safety fence for quick installation.
+
+          - SolidWorks
+          - Excel
+
+
+# Your project portfolio
+projects:
+    intro: >
+      A short list of  small projects, built with HTML, CSS, Bootstrap and JS.
+
+    assignments:
+      - title: Forms with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive template for a payment processing with credit cards."
+
+      - title: Photo Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A template to organize pictures into an Instagram-like feed."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: JavaScript
+        level: 60%
+
+      - name: React
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: SolidWorks
+        level: 70%
