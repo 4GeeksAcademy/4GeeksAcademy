@@ -1,0 +1,80 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Albeto Carlos
+  last_name: Marin Wheelock
+  motto: Soy proactivo
+  focus: Mejora continua
+  summary: |
+    La imaginacion y observación es la base del pensamiento cientifico.
+  avatar: https://drive.google.com/file/d/10TpcfMi9iF-uCnf2Xz2Nw5tzwK4T-OZG/view?usp=drive_link
+  email: marinalberto23@gmail.com
+  phone: 58616123
+  website: ninguno
+  linkedin: alberto
+  github: albertomarinw
+  twitter: ninguno
+  stack-overflow: null
+  languages:
+    - idiom: Español
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: Latin
+      level: Professional
+  interests:
+    - item: Lectura
+    - item: correr
+    - item: cocina
+education:
+  - degree: Lic. Economía y Finanzas
+    university: University Thomas More
+    university_logo: https://unithomasmore.edu.ni/wp-content/uploads/2022/11/UTM-01-horizontal-1536x371.png
+    time: 2008 - 2012
+    details: >
+      Ciencia que estudia los recursos, la creación de riqueza y la
+      producción, distribución y consumo de bienes y servicios, para satisfacer
+      las necesidades humanas.
+
+      Sistema de producción, distribución, comercio y consumo de bienes y servicios de una sociedad o de un país.
+
+      - Bullet point
+
+      - Bullet point
+  - degree: Posgrado Contabilidad de costos y Gerencia Financiera
+    university: University Thomas More
+    university_logo: https://unithomasmore.edu.ni/wp-content/uploads/2022/11/UTM-01-horizontal-1536x371.png
+    time: 2013 - 2014
+    details: |
+      La administración financiera es la disciplina que se encarga de planear, 
+      organizar y controlar la distribución de los recursos económicos de tu empresa, 
+      en pro de generar una mayor rentabilidad del negocio. 
+      Al realizar una gestión exhaustiva de los gastos e ingresos 
+      se define el rumbo de la empresa.
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: AGORA CORREDORES DE SEGUROS
+    time: 2004 - Present
+    company: CORREDOR DE DE SEGUROS
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: Venta de seguros de vida e inversión
+        - Bullet point
+        - Bullet point
+  - role: CORREDOR
+    time: 2014 - 2023
+    company: Google, London
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
