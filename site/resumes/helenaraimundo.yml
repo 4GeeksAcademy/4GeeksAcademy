@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Helena
+    last_name: Raimundo
+    
+    # Define yourself in 4-5 words
+    motto: Give meaning to life
+    
+    # Focus
+    focus: dedication, development, teamwork, enthusiasm
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've been an architect for six years. After many challenges and being far from realising my personal goals, I jumped into a new adventure in a new professional area. I hope that the bootcamp will allow me to join an excellent company and be part of a group with an eye on the future.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: arq.helenaraimundo@gmail.com #optional
+    
+    website: https://www.instagram.com/helenaraimundo/ #optional
+    linkedin: helena-raimundo-arq #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: helenaraimundo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Low
+
+    # Interests or hobbies
+    interests:
+      - item: Travel
+
+      - item: Cooking
+
+      - item: Movies
+
+# Your previous education
+education:
+    - Bootcamp: Mester in Architecture
+      bootcamp_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+          - Full-stack Software Developer course
+
+    - degree: Mester in Architecture
+      university: Escola Superior Artística do Porto
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIaRdWe4iScderoC-XJLYX_QI9-TE7rwdDBJqigiMJ&s
+      time: 2010 - 2016
+      details: |
+          - Grades of excellence
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Architect
+      time: 2019 - Present
+      company: JJ Silva Garcia Arquitecto Lda, Vila do Conde, Portugal
+      details: |
+          - Office work
+          - Dealing with Clients
+          - Working with a large team of engineers, constrution companies and municipal services
+          - Organisation and discipline
+          - Punctuality and attendance
+
+    - role: Architect
+      time: 2018 - 2019
+      company: Atelier do Alto, Trofa, Portugal
+
+
+    - role: Trainee architect
+      time: 2017 - 2018
+      company: Nonarquitetura, Vila Nova de Gaia, Portugal
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 00%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 00%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Ruby on Rails
+        level: 00%
+
+      - name: Sketch & Photoshop
+        level: 20%
