@@ -1,0 +1,79 @@
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jose Aurelio
+  last_name: Najera Rivas
+  motto: Stress Coffee Fullfilment
+  focus: Continuous Improvement.
+  summary: >
+    Senior Electrical Engineer with 30 years of experience in semiconductors, electronics modules manufacturing and 
+    testing, Failure analysis, Electric Field Control among others. I have been participating in leadership roles 
+    with teams focus on problem resolution and continuous improvement in the electronics manufacturing industry, 
+    providing assessments and technical support to customers to implement electric field controls and debugging of 
+    complex application problems.
+
+  avatar: https://randomuser.me/api/portraits/lego/5.jpg
+  email: aurelio.najerar93@gmail.com
+  web: null
+  phone: +52 656 148 9618
+  linkedin: aurelio-najera-7798a649
+  github: Anajerar
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Microelectronics
+    - item: Programing
+    - item: Photography
+education:
+  - degree: BS Elecrtronics Enginering
+    university: ITCM
+    university_logo: https://www.cdmadero.tecnm.mx/images/logo-itcm-v2.png
+    time: 1987 - 1991
+    details: |
+      Electronics Engineer with focus on Microcontroles and Industrial controls.
+  
+experiences:
+  - role: Field Quality Engineer
+    time: 1997 - 2024
+    company: NXP Semiconductors, Guadalajara, Mexico
+    company_logo: https://scottproject.eu/wp-content/uploads/2017/05/NXP-NL.jpg
+    details: |
+      Field Quality Engineer reporting to Americas region Field Quality Director. 
+      Responsible to support large customer base from North and South America and Taiwan customers in the Automotive, 
+      Industrial, and general electronics market.
+
+        - Reduced 10% yearly of customer returns caused by EOS/ESD by providing customer assessments 
+          and training on Electric field control.
+        - BSuccessful implementation of remote debug strategy for the fast resolution of complex 
+          microcontrollers application problems in record time.
+  
+projects:
+  intro: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: null
+      project_logo: null
+      link: null
+      tagline: null
+    
+skills:
+  toolset:
+    - name: Python & Django
+      level: 10%
+    - name: JavaScript & jQuery
+      level: 2%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 30%
+    - name: Ruby on Rails
+      level: 0%
+    - name: Sketch & Photoshop
+      level: 50%
+    
