@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bruno
+    last_name: Murua Carreras
+    
+    # Define yourself in 4-5 words
+    motto: Trabajador Inteligente
+    
+    # Focus
+    focus: Aprender para ascender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Comence a programar cuando comenzo la pandemia en 2020 , solo por diversion y aprendiendo por mi
+      cuenta, hice diversos bots para discord o para juegos. A principios de 2021 decidi ponerme a estudiar
+      asi que me inscribi en el Ciclo Superior de DAM , aprobe el primer año pero sentia que no me gustaba
+      la forma en que enseñaban ya que habia aprendido mucho mas por mi cuenta que lo que aprendi en 1 año
+      haciendo ese Ciclo, asi que me sali y me tome un año sabatico por asi decirlo , hasta que descubri 4Geeks
+      el cual me prometia formarme de una forma que a mi me agradara y no sintiera que estaba desperdiciando mi 
+      tiempo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQHepyIMxVGZ6A/profile-displayphoto-shrink_200_200/0/1703165598705?e=1708560000&v=beta&t=i0d_lWLw8l2NSJyuyMJXtIIR3Ajw4LJGCCK_CJ7-O14
+
+    # Contact Information
+    email: b.muruacarreras@gmail.com #optional
+    phone: +34 696118939 #optional
+    linkedin: bruno-murua #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: SrZeroRequiem
+    
+    twitter: 'SrZeroRequiem' #optional
+    stack-overflow: 23089289/bruno-murua
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+
+    # Interests or hobbies
+    interests:
+      - item: Anime & Manga
+
+      - item: Coding
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+    - degree: Grado Superio Desarrollo de Aplicaciones Multiplataforma
+      university: Institut Provencana
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Encargado de Turno / Product Manager
+      time: 2020 - Present
+      company: KFC Castelldefels, Barcelona
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Gestionar a un equipo , resolucion de problemas ya sea referidos al cliente , con albaranes, inventarios o de maquinaria.
+        Tambie me encargo de hacer los inventarios , los pedidos de pollo y demas cosas, y tambien hago los horarios semanales de mi equipo.
+
+# Your project portfolio
+projects:
+    intro: >
+      Lista de mis proyectos
+
+    assignments:
+      - title: GachaBot
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/SrZeroRequiem/GachaBot"
+        tagline: "Gacha Anime for discord, using JS , Discord API, MongoDB"
+
+skills:
+    toolset:
+      - name: Java
+        level: 60%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Node.JS
+        level: 85%
