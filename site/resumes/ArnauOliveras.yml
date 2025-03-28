@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Arnau
+    last_name: Oliveras Ferrer
+    
+    # Define yourself in 4-5 words
+    motto: El código es mi café.
+    
+    # Focus
+    focus: Aprender mucho
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Programador experimentado en el desarrollo de videojuegos
+       en equipo y en la creación de herramientas, actualmente 
+       realizando un curso de Full Stack Developer en 4Geeks. 
+       Motivado por ampliar mis conocimientos en Unity y en el 
+       desarrollo Full Stack, así como en la optimización de código
+        en motores gráficos. Apasionado por seguir creciendo en 
+        la industria de los videojuegos y la programación en general.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/ogw/AF2bZyjXP-lMLnMqGL9BSBNVnurdaL4RSeMSFSESUhn3sWbAak8=s32-c-mo
+
+    # Contact Information
+    email: arnauolifer@gmail.com
+    phone: +34 638 72 85 96
+    website:  #optional
+    linkedin: arnauoliveras #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ArnauOliveras
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Catalán 
+        level: Nativo
+
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Avanzado 
+
+    # Interests or hobbies
+    interests:
+      - item: Programar
+
+      - item: Snowboarding
+
+      - item: Cocinar
+
+      - item: Ir a la montaña
+
+# Your previous education
+education:
+    - degree: Diseño y producción de videojuegos
+      university: Tecnocampus UPF - Mataró
+      # optional
+      university_logo: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAvVBMVEX////8///+///7///9///4///8//389Of89e359uX98eL4+u/89PL8+N78//byxIfjl0DknD/pmknimEnimkby2K7/+/fxtoXqkTftmUHqlkbfqWv0///wuontiy3pjyrtkDbkjRjujibfkjHmkS7vvIHnlCnljCT01LnwtHLzihjhoU/wtnfejynfm1Ly07zvo2jxxJzuv4z0wKHsxpTpnVLy27v648niuor4jBnryJ7jpGTkq1/mpGfykSCCsW9CAAABTklEQVR4AcXSxWKEMBSF4Zvc5KAdd0PH3X3e/7GKtF2x77/kA6L0HwkpWDGxliQVyTQIIpkhG6ZhWLaj2bQc0037ShAZlsqVaq3eaFKr3anVukm9vosfHAxHnu8FTaGHYRTFSWGjVaI8PfYmnc50xpgvotBPGi3/kIZ+pxF5M4GV1+1M1kE83ZhwSDJAKE9DL1xslZp7nXi3PxyHJ0dQyaGk0ul8bizrFyBBb08gJQeAlqSZ2DRdw7BNFikeBiC05LV9G+9dolJJoqQBneJ0z0SgwWXq3TcWCCAiRgnIMaESXePYOxuKtGO2HNds5b8dJoiSukxypMfz+Xo/rznuiaWA+EWMF4vgs2gqpLi6NGfN2fbgdzLkQ6db7462ipNNiBP34yBex5UEUbB9WR2vZqJg47O8oG5ywZHlNZ52qeiw05JHEkXXJE2xZKZ/6BvFsCpsYUs2qAAAAABJRU5ErkJggg==
+      time: 2020 - 2024
+      details: |
+        En el Grado de Diseño y Producción de Videojuegos en el TecnoCampus 
+        de Mataró, trabajé en equipo para crear videojuegos desde cero,
+         utilizando herramientas como Unity y programas de modelado 3D como 
+         3D MAX. Aprendí diseño de niveles, narrativa interactiva y 
+         programación, y participé en proyectos y game jams que 
+         simulaban el ambiente de un estudio real.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Prácticas de programador C#
+      time: Enero 2024 - Mayo 2024
+      company: KANEDA GAMES
+      # optional
+      company_logo: 
+      details: |
+        
+
+# Your project portfolio
+projects:
+    intro: >
+      Durante mis ratos libres, junto con compañeros, he trabajado en diversos proyectos, aplicando mis conocimientos en desarrollo de videojuegos y creando herramientas.
+
+    assignments:
+      - title: ROOTRIENTS
+        # optional
+        project_logo: data:image/jpeg;base64,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
+        link: "https://marinaco.itch.io/rootrients"
+        tagline: "Puzzle 2D donde construyes el camino de las raíces para que puedan recolectar sus nutrientes y crecer."
+
+      - title: AXO
+        # optional
+        project_logo: https://img.itch.zone/aW1nLzEyNTM3ODg2LnBuZw==/original/WAMj0p.png
+        link: "https://elialzu.itch.io/axo"
+        tagline: "Un juego puzzle 3D donde debes superar diferentes islas utilizando magia con tu varita y las runas que encuentras en las propias islas."
+
+
+skills:
+    toolset:
+      - name: C#
+        level: 95%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: C++
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Unity
+        level: 95%
