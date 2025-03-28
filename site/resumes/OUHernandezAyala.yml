@@ -1,0 +1,115 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Oscar Uriel
+    last_name: Hernandez Ayala
+    
+    # Define yourself in 4-5 words
+    motto: I am focused on the future.
+    
+    # Focus
+    focus: Solve problems
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a Computer Engineering intern, graduated from UPIICSA, completing my degree in 2023, 
+      and I'm currently in the process of becoming a web developer by attending the 4Geeks bootcamp. 
+      I'm enthusiastic about my learning journey and look forward to contributing my knowledge to 
+      various projects that come my way.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/bvzJhHk
+
+    # Contact Information
+    email: urieloha710@gmail.com #optional
+    phone: 52 5567886682 #optional
+    website: #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: OUHernandezAyala
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate 
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Futbol
+
+      - item: Fitness
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Computer Engineering 
+      university: UPIICSA
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2023
+      details: |
+        An engineer in computer science from UPIICSA (National Polytechnic Institute - Professional 
+        Interdisciplinary Unit of Engineering and Social and Administrative Sciences) is a highly 
+        skilled professional in the field of computer science and software engineering. These engineers 
+        have received a strong academic education at UPIICSA, an institution renowned for its excellence 
+        in engineering and related sciences.
+
+        An engineer in computer science from UPIICSA is characterized by their deep knowledge in areas 
+        such as programming, computer security, artificial intelligence, database management, system 
+        design, and project management. Moreover, they are experts in problem-solving and the development 
+        of innovative technological solutions.
+
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+  
