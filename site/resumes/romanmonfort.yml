@@ -1,0 +1,114 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Roman
+    last_name: Monfort
+    
+    
+    motto: Dedication, punctual, responsible, helping, proactive
+    
+    
+    focus: Learning and improving in the IT area. 
+    
+    
+    summary: |
+      I am an economics student and I want to change the direction of my life by learning about web development.
+       I am looking to develop myself in this sector, I am very excited and motivated.
+
+    
+   
+    avatar: https://media.licdn.com/dms/image/D4D35AQEaIqdpW8hA5g/profile-framedphoto-shrink_400_400/0/1694718361959?e=1697508000&v=beta&t=ZEJx20cq1bCjUPL6AWtKQcfQQaa_NxrmJ8j6xdvMii8
+
+    
+    email: roma1314.rm@gmail.com
+    # phone: +598 91 395 387 
+    linkedin: https://www.linkedin.com/in/roman-monfort-1821bb199/
+    
+    
+    github: romanmonfort
+    
+    #twitter: 'MarkMulville' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: A2
+
+
+    
+    interests:
+      - item: Design  & Editing
+
+      - item: Football
+
+      - item: IT Area
+
+
+
+# Your previous education
+education:
+    - degree: humanistic and economics
+  
+      university: High School-Sauce
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2021
+      details: Study basic knowledge that a person should have and then some knowledge about the "social-economic" area.
+       
+
+    - degree: Public Accountant
+      university: UDELAR
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 20XX
+      details: |
+       Management of company accounts, account closing, economic advice and tax knowledge.
+    
+# Your previous job experiences or voluntier
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. 
+
+    assignments:
+      - title: Instagram-Feed
+        # optional
+        project_logo: https://github.com/breatheco-de/exercise-instagram-feed-bootstrap/blob/master/assets/preview.gif?raw=true
+        link: "https://github.com/4GeeksAcademy/romanmonfort-instagram-feed"
+        tagline: "A responsive website template designed based on instagram."
+
+      - title: Html-Form
+        # optional
+        project_logo: https://github.com/breatheco-de/html5-form/blob/master/preview.png?raw=true
+        link: "https://github.com/4GeeksAcademy/romanmonfort-formHtml5"
+        tagline: "A responsive website form with an html and with boostrap"
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
