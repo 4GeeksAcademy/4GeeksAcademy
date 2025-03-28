@@ -1,0 +1,90 @@
+---
+template: online-cv
+skin: green
+basic_info:
+  first_name: Estarlin
+  last_name: Soto
+  motto: Me gusta Programar.
+  focus: null
+  summary: >
+    Me defino como una persona responsable, puntual, emprendedora y
+    proactivo, 
+
+    me gusta trabajar en equipo y fomentar valores. Me adapto a trabajar bajo 
+
+    presión, cuento con varios años de experiencia en en puestos de TI, ventas y atención 
+
+    al cliente. También me considero una persona resolutiva, con buen ánimo y 
+
+    capaz de resolver problemas eficientemente.
+
+    Desde pequeño me atrajo la programación y siempre fue 
+
+    mi sueño trabajar en dicha area, desde entonces me centre en conocer cada vez más.
+  avatar: https://media.licdn.com/dms/image/C4E03AQEzFsCrarAwWg/profile-displayphoto-shrink_800_800/0/1664141867916?e=1700092800&v=beta&t=uxi2p_cHqmp5ElR4bEb8SqntePcXKMcfkkg4rJsc6HE
+  email: estarlinsotodev@gmai.com
+  phone: null
+  website: null
+  linkedin: estarlin-soto-308988251
+  github: estarlinsoto
+  twitter: ""
+  stack-overflow: ""
+  languages:
+    - idiom: Spanish
+      level: Nativo
+    - idiom: English
+      level: Intermedio
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Games
+    - item: Programar
+    - item: Aprender nuevos skills
+education:
+  - degree: Santo Domingo, Rep. Dominicana
+    university: Universidad Dominicana O&M
+    university_logo: https://www.intec.edu.do/templates/yootheme/cache/0e/oym-0e02566d.png
+    time: 2016 - 2022
+    details: |
+      Ingenieria En Sistemas
+experiences:
+  - role: Reparacion de Drones
+    time: 2015 - 2019
+    company: Drone Doctor
+    company_logo: null
+    details: |
+      Encargado del area de reparaciones y ventas de la sucursal.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: null
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: ""
+    - title: null
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: ""
+    - title: null
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: ""
+    - title: null
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: ""
+    - title: null
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: ""
+skills:
+  toolset:
+    - name: HTML5 - CSS & Bootstrap
+      level: 80%
+    - name: Javascript
+      level: 75%
+    - name: Java
+      level: 75%
