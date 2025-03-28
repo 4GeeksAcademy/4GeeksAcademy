@@ -1,0 +1,175 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rishi 
+    last_name: Verma
+    
+    # Define yourself in 4-5 words
+    motto: Seeking Growth and Advancement
+    
+    # focus
+    focus: Patent and Trade Mark Shadowing
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      With a strong background in Mechanical Engineering and a diverse work experience, I have contributed significantly in various roles including Quality Engineer, Production Manager, and Patent Examiner. My career has been characterized by my ability to improve production processes, enhance product quality, and ensure the accuracy and efficiency of patent applications. I am seeking opportunities that allow for professional growth and the application of my skills in a dynamic environment.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: rvermaji321@gmail.com #optional
+    phone: 734-331-5385 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Anish-tech123
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Hindi
+        level: Native
+
+      - idiom: Punjabi
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor of Science in Mechanical Engineering
+      university: Iowa State University, Ames, Iowa
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        Completed a comprehensive program in Mechanical Engineering, gaining expertise in various engineering principles and practices.
+
+    - degree: Masters of Science in Mechanical Engineering
+      university: Iowa State University, Ames, Iowa
+      # optional
+      university_logo: 
+      time:
+      details: |
+        Advanced studies in Mechanical Engineering, focusing on specialized topics and research.
+
+    - degree: MBA
+      university: St. Ambrose University, Davenport, Iowa
+      # optional
+      university_logo: 
+      time: 
+      details: |
+        Acquired skills in business administration, management, and strategic planning, complementing my technical background.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Quality Engineer
+      time: August 2019 - Present
+      company: Amazon, MI
+      # optional
+      company_logo: 
+      details: |
+        Suggested to have studs placed on the horizontal black bar by the workstation.
+          - Rebin Station 
+          - Taper Station 
+          - Packer
+
+    - role: Production Manager/Engineer
+      time: November 2015 - June 2019
+      company: AVG Automation, IA
+      # optional
+      company_logo: 
+      details: |
+        Took part in the application's delivery lifecycle to proactively ensure production suitability. Made a helpful employee handbook and maintenance schedule.
+          - Worked together with support, development, and QA to enhance the release/deployment/integration life cycle.
+          - Arranged six new production lines with a 110 % quality rate.
+          - An increase in output and quality of 80% for six automation lines using DMAIC. 
+          - Involved in Automation Product Development (I/O Modules, Proximity Switches, Time Delay Switches, PLC).
+
+    - role: Project Engineer
+      time: August 2011 - October 2015
+      company: Sivyer Steel Corporation, IA
+      # optional
+      company_logo: 
+      details: |
+        Created a Gage pack program for all gages utilized in the Quality Department, 5S procedures, and a production work plan.
+          - Developed a database for quotes, FMEA processes, a maintenance schedule and SPC charts for the machine shop.
+          - Developed clamps for flasks, Worked on Process Flow Diagram for Cleaning Room Improvements.
+          - In charge of product shipment at the end.
+          - Contributed to raising the quality of Bedloe goods and reducing the amount of material scrap produced.
+
+    - role: Patent Examiner (Engineer)
+      time: February 2009 - January 2011
+      company: United States Patent Office (USPTO), Alexandria, VA
+      # optional
+      company_logo: 
+      details: |
+        Held to account for "patent applications'" accuracy, efficiency, and promptness.
+          - Performed "Basic," "Advanced," and "Legal" patent examination tasks independently.
+          - Evaluated the novelty and patentability of claimed inventions.
+
+    - role: Quality Engineer
+      time: March 2005 – February 2009
+      company: AVG Automation /Uticor, Bettendorf, Iowa
+      # optional
+      company_logo: 
+      details: |
+        Managed the quality and production of a variety of products.
+          - Established, directed, and upheld the level of excellence for manufactured items.
+          - Performed engineering duties linked to quality.
+          - Planning and carrying out regular internal and external audits of the products.
+          - Provided engineering assistance in selecting vendors and assessed the product's precision and overall quality.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Microsoft Project
+        level: Professional
+        
+      - name: Microsoft Office
+        level: Professional
+
+      - name: Statistical Experimental Design Techniques
+        level: Professional 
+
+      - name: Statistical Decision Making
+        level: Professional
+
+      - name: Analysis of Variance
+        level: Professional
