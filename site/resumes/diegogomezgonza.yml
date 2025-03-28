@@ -1,0 +1,138 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Diego
+  last_name: Gómez
+
+  # Define yourself in 4-5 words
+  motto: I keep trying to be helpful
+
+  # Focus
+  focus: Learn day by day
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    I am Diego Gómez González, and it has been 6 years since I discovered the world of computer science.
+    Currently, I am studying a higher degree in Multiplatform Development. I consider myself to be someone who can be trusted, I enjoy helping others,
+    and I am creative when it comes to contributing ideas. I am a proactive person and I value teamwork.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://avatars.githubusercontent.com/u/93382813?v=4
+
+  # Contact Information
+  email: diegogomezgonza9@gmail.com #optional
+  linkedin: Diego Gómez González #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: diegogomezgonza
+
+  stack-overflow: dieg0nz # Number/Username, e.g. 123456/alandoe
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: B1
+
+  # Interests or hobbies
+  interests:
+    - item: Drawing
+
+    - item: Exercising
+
+    - item: Cinema
+
+# Your previous education
+education:
+  - degree: Technician in microcomputer systems.
+    university: Campus FP Getafe
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2019-2021
+    details: |
+      Assembly of computer equipment, networks, Excel, Linux, system administration, and cybersecurity.
+
+  - degree: Multiplatform Applications Technician (back end developer).
+    university: Campus FP Getafe
+    # optional
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2021 - 2023
+    details: |
+      Java, Python, Power BI, Figma, Adobe XD, SQL (Workbench, PostgreSQL), Angular (Ionic) and HTML & CSS.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Front end Developer
+    time: 2023 (4 months)
+    company: CloudAPPi
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      I was working with an internship contract in which I worked on a real project (API Quality)
+      where I was involved in front-end development, working on a project created with React using JSX.
+
+        - JavaScript
+        - JSX
+        - React.js
+        - Git
+        - GitLab
+
+  - role: Systems Administrator
+    time: 2021 (3 months)
+    company: SMART HEALTH TV SOLUTION SL
+    # optional
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      I worked on the installation of computer networks, working with Linux, network distribution, and managing information with Excel.
+
+        - Ubuntu
+        - Networks
+
+skills:
+  toolset:
+    - name: Java
+      level: 70%
+
+    - name: JavaScript
+      level: 60%
+
+    - name: Python
+      level: 50%
+
+    - name: React
+      level: 60%
+
+    - name: SQL
+      level: 80%
+
+    - name: Angular
+      level: 90%
+
+    - name: Ionic
+      level: 80%
+
+    - name: Git
+      level: 80%
+
+    - name: HTML5 & CSS
+      level: 90%
+
+    - name: Figma & Adobe XD
+      level: 90%
+
+    - name: Photoshop CS6
+      level: 80%
+
+
