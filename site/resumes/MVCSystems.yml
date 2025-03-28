@@ -1,0 +1,85 @@
+template: "online-cv"
+skin: "blue"
+
+# Información Personal
+basic_info:
+  first_name: Carlos
+  last_name: Mera Valera
+  motto: Me gusta aprender nuevas cosas y nuevas tecnologías.
+  summary:
+    Soy técnico en computación con más de cinco años de experiencia en el ámbito tecnológico. Aunque actualmente no desarrollo aplicaciones, tengo un gran interés en aprender sobre el desarrollo de software y en explorar nuevas tecnologías.    
+
+  avatar: https://randomuser.me/api/portraits/men/24.jpg
+  email: carlosmerav@gmail.com
+  phone: +1 305 123 4567
+  linkedin: https://www.linkedin.com/in/carlosmerav/
+  github: https://github.com/MVCSystems
+  languages:
+    - idiom: Inglés
+      level: Nativo
+    - idiom: Español
+      level: Profesional
+  interests:
+    - item: Escalada
+    - item: Snowboard
+    - item: Cocina
+
+# Educación previa
+education:
+  - degree: Computación e Informática
+    institute: Instituto IDAT
+    time: 2010 - 2014
+
+# Experiencia laboral previa o voluntariado
+experiences:
+  - role: Help Desk
+    time: 2013 - Presente
+    company: Gobierno local
+  - role: Ingeniero de Sistemas
+    time: 2014 - 2015
+    company: Google, Londres
+
+
+# Portafolio de proyectos
+projects:
+  intro: >
+    Proyectos en los que he trabajado recientemente, basado en el bootcamp 4geeks Academy.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    - title: 4Geeks Academy
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: "Una plantilla de sitio web receptiva diseñada para ayudar a las startups a promocionar, comercializar y vender sus productos."
+    
+# Tus habilidades
+skills:
+  toolset:
+    - name: Python & Django
+      level: 30%
+    - name: Angular
+      level: 30%
+    - name: HTML5 & CSS
+      level: 80%
+    - name: Administración de Sistemas Linux
+      level: 50%
+    - name: Bases de Datos (SQL)
+      level: 80%
+    - name: Redes y Seguridad
+      level: 80%
+    - name: Help Desk
+      level: 95%
