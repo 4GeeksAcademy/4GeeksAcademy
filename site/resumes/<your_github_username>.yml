@@ -1,0 +1,105 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+    first_name: Jose  
+    last_name: Moreno
+    
+    motto: Dream maker.
+    
+    focus: Learning to be a professional developer.
+    
+    summary: |
+      As a child I always had a dream, that dream is to create totally new applications and games, I would like to see how they evolve little by little,and one day create a definitive app that will revolutionize the electronic world.I am 22 years old, single and future Full stack developer.
+
+      Second paragraph if required.
+    
+    avatar: https://avatars.githubusercontent.com/u/166447988?s=96&v=4.jpg
+    
+    email: kaosbrigade@hotmail.com 
+    phone: 786-919-3562 
+    website: asd.com 
+    linkedin: https://www.linkedin.com/in/jose-sanchez-5709ba2a8/ 
+
+    github: JochiKum
+    
+    twitter: 'Jose Sanchez' 
+    stack-overflow: 29807/JoseAle 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Soccer
+
+      - item: Anime/Video-games
+
+      - item: Reading Novels
+
+education:
+    - degree: MSc in Civil construction
+      university: University Antonio Jose de Sucre
+      university_logo: https://imgs.search.brave.com/o8C3bzPKoXRcv8VN1I5Xn1plytaqdRZe9RAckpo7pAs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9idXNj/YWNhcnJlcmEuY29t/LmNvL3B1YmxpYy9j/b250ZW50L2xvZ29z/L2VzdGFuZGFyL2Nv/cnBvcmFjaW9uLXVu/aXZlcnNpdGFyaWEt/YW50b25pby1qb3Nl/LWRlLXN1Y3JlXzU1/MHg0MjAuanBn
+      time: 2018 - 2021
+
+experiences:
+    - role: Waiter
+      time: 2023 - Present
+      company: Aprile Restaurant, Miami
+      company_logo: https://aprilemiami.com/wp-content/uploads/2022/09/Logo-AprileVector-AltaCalidad-01.png
+      
+projects:
+    intro: Exercise Poscard With html and CSS, Instagram Feed With Html and CSS, Forms with Bootstrap    
+      
+
+    assignments:
+      - title: Velocity
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Delta
+        
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
