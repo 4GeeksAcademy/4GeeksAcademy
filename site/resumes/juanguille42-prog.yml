@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan
+    last_name: Scharffenorth
+    
+    # Define yourself in 4-5 words
+    motto: Lets wander where the wifi its weak
+    
+    # Focus
+    focus: sports, work and learning
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Transitioning from a career in Civil Engineering to becoming an Associate in Venture Capital funds, 
+      I am leveraging my expertise to navigate the financial sphere effectively. By acquiring programming skills, 
+      I am further enhancing my capabilities in the financial sector, ensuring a data-driven and technologically adept approach to investment analysis and decision-making 
+      in my financial career.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/23.jpg
+
+    # Contact Information
+    email: juan.scharffenorth@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/juan-g-scharffenorth-899909128/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: juanguille42-prog
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Trekking
+
+      - item: Skydiving
+
+      - item: Crossfit
+
+# Your previous education
+education:
+    - degree: MSc in Finance
+      university: IESA
+      # optional
+      university_logo: 
+      time: 2016-2018
+      details: |
+        Master in corporate finance & investments
+
+    - degree: Civil Engineer Degree
+      university: Universidad Metropolitana
+      # optional
+      university_logo: 
+      time: 2011-2016
+      details: |
+        Civil engineer degree
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Financial Associate
+      time: 2020-2021
+      company: SquareOne Capital
+      # optional
+      company_logo: 
+      details: |
+        Investment analysis of private equity and venture capital deals
+
+    - role: Strategy Associate
+      time: 2019-2020
+      company: Banesco Seguros, Caracas
+      # optional
+      company_logo:
+      details: |
+
+
+    - role: Investment Analysis
+      time: 2017-2019
+      company: Invesroy, Caracas
+      # optional
+      company_logo: 
+      details: |
+        Investment analysis of real estate deals on Miami, FL.
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects from 4geeks academy:
+
+    assignments:
+      - title: Boostrap site collaborative project
+        # optional
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/Luis-Roldan-Latam23-collaborative-project
+        tagline: Collaborative project
+
+      - title: HTML form with Boostrap
+        # optional
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/JG-HTMLForm
+        tagline: 
+
+      - title: Instagram photo
+        # optional
+        project_logo: 
+        link: https://github.com/4GeeksAcademy/InstagramJS
+        tagline: 
+
+skills:
+    toolset:
+      - name: Investment Analysis
+        level: 90%
+
+      - name: HTML
+        level: 40%
+
+      - name: CSS
+        level: 40%
+
+      - name: Boostrap 
+        level: 50%
