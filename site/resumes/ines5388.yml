@@ -1,0 +1,198 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Inés
+    last_name: Togni
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta conocer nuevas culturas.
+    
+    # Focus
+    focus: Hacer deportes
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me considero una persona responsable y organizada con habilidades para desarrollar multitareas.
+      Me encuentro en constante busqueda de nuevos desafios y aprendizaje.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ines5388@hotmail.com #optional
+    phone: +34695636328 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ines5388
+    
+    twitter: 'ines5388' #optional
+    stack-overflow: 5388/ines
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Inglish
+        level: B2
+        
+
+    # Interests or hobbies
+    interests:
+      - item: Jugar al tenis
+
+      - item: Viajar
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Ingenieria Quimica
+      university: Universidad Nacional de La Plata
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Ingenieria Petroquimica
+      university: Universidad de La Plata
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ingenieria Quimica
+      time: 2020 - Present
+      company: YPF, Argentina
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Sub Ingeniera Quimica
+      time: 2015 - 2020
+      company: Repsol, Uruguay
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Pasante de Ingenieria
+      time: 2012 - 2016
+      company: Shell, Argentina
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+        Realizacion de nuevos sistemas energeticos de toda sudamerica.
+
+    assignments:
+      - title: Quimica Aplicada.
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Energia para todos
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Quimica en yacimientos.
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Energias renovables
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Petroleo y Ecosisitema
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Medicion de Energeia Heolica
+        level: 97%
+
+      - name: Yacimientos Petroliferos
+        level: 99%
+
+      - name: Extraccion de pozos petroleros
+        level: 97%
+
+      - name: Manteniiento de maquinas petroleras
+        level: 94%
+
+      - name: Realizacion de Mantenimiento de turbinas petroleras
+        level: 87%
+
+      - name: Medicion de tanques de alta densidad.
+        level: 60%
