@@ -1,0 +1,76 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Marina
+    last_name: Domínguez Toril
+    
+    motto: Let's do our best!
+    
+    focus: Allways learning
+    
+    summary: |
+      After 14 years working in the development of mobile networks Core nodes, I'm moving on towards Data Science world.
+    
+    email: marinadt@hotmail.com 
+    phone: 679245949
+    linkedin: www.linkedin.com/in/marina-dominguez-toril-822438195
+    github: https://github.com/Sonmi-451-83
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Photography
+
+      - item: History
+
+      - item: Cats
+
+education:
+    - degree: Telecommunications Engineering, specialization in Telematics
+      university: Universidad de Alcalá (Spain)
+
+    - degree: Bsc (Honors) Computer networks
+      university: Glyndwr University (UK)
+
+    - degree: Technical Engineering in Management Informatics
+      university: Recognition of a university degree (Spain)
+      
+
+experiences:
+    - role: Project manager and Lead Developer
+      time:  2009-2011
+      company: JSC Ingenium
+      details: |
+        Business IN project for Movistar, implemented on the Telsis platform.
+
+    - role: Lead Developer
+      time: 2009 - 2024
+      company: JSC Ingenium
+      details: |
+        Development and management of the 3G/4G mobile networks Core, covering various nodes (calls, TopUp, among others) and the corresponding protocols involved in each one.
+
+
+skills:
+    toolset:
+      - name: Python
+
+      - name: Visual Studio
+
+      - name: Visual basic
+
+      - name: C#
+
+      - name: .Net Framework
+
+      - name: T-SQL, SQL Server, relational databases
+
+      - name: Wireshark
+
+      - name: MAP, CAP, ISUP; SIP, TopUp protocols and general knowledge of 3G and 4G mobile networks
