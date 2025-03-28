@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yenesey
+    last_name: Bastida
+    
+    # Define yourself in 4-5 words
+    motto: Don´t Repeat Yourself, Innovate.
+    
+    # Focus
+    focus: Learn by doing
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Trained in Full Stack Development by 4Geeks Academy.
+      Currently working on a personal project, inspired by the Academy.
+      Without work experience in the tech world but with a desire to live learning 
+      the technological origin and background of everything that surrounds us.
+      I can't wait to get started!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: yeneseyclase@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Yenesey2001
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Develop
+
+      - item: Cinema
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: Bachillerato Ciencias Tecnologicas
+      university: IES Agustin Espinosa
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2020
+      details: |
+        Bachiller's degree in technological sciences, where I learned the fundamentals of mathematics, 
+        physics and technical drawing.
+        All of this focused on developing logical thinking.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Team staff
+      time: 2021 - jun 2024 / oct 2024 - present
+      company: Mc Donalds
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In my job I am dedicated to everything related to the product and customer service.
+        Here, I have learned things like teamwork, stress management and the importance of 
+        communication in the work environment.
+
+    - role: Waiter's assistant
+      time: 2024 Summer
+      company: Hotel Princesa Yaiza
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In this job I was dedicated to helping the waiters in their activity, 
+        doing things like bringing drinks, food, clearing dishes, serving customers, etc.
+
+        Here I perfected my English and learned the importance of the experience that clients have.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      During the course, I have learned thousands of things, although many aspects need to be perfected.
+      But above all, it has served as inspiration for me to start not only academic projects, but also personal projects.
+      My personal project is focused and has the mission of helping to make people's lives easier.
+
+    assignments:
+      - title: Generador de excusas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/Yenesey2001/Excuses-Yenesey-Bastida.git"
+        tagline: "Project that generates random excuses when reloading the page."
+
+      - title: Formulario con Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yenesey2001/Form-Bootstrap.git"
+        tagline: "Form created using Bootstrap."
+
+      - title: Instagram feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yenesey2001/Instagram-feed.git"
+        tagline: "Instagram feed created using Bootstrap with the aim of learning how to use bootstrap elements such as the navbar."
+
+      - title: Instagarm feed HTML & CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yenesey2001/Instagram-html-css.git"
+        tagline: "Instagram feed created this time using HTML and CSS."
+
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Yenesey2001/exercise-postcard.git"
+        tagline: "Postcard created using HTML and CSS to test the foundations of these languages."
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: SQL
+        level: 90%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: React
+        level: 40%
+
+      - name: React Native
+        level: 30%
+
+
+
+     
