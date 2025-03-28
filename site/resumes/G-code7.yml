@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gustavo
+    last_name: Liendo
+    
+    # Define yourself in 4-5 words
+    motto: Passionate Programmer & Music Lover
+
+    # Focus
+    focus: Full-Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a programming enthusiast with experience working on projects as a freelance contractor and as an employee for significant companies such as 4Geeks Academy. Over the years, I have deepened my knowledge in various areas of technology, but I still feel there is much to learn.
+      In addition to my passion for programming, I am interested in music, guitar, piano, philosophy, and programming.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQE3F0-0VDzipg/profile-displayphoto-shrink_200_200/0/1673021324167?e=1728518400&v=beta&t=980JicixcMica6RgunBSTQcVW7rKp7ktJsW9xvf53YA
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/gustavo-liendo-b5b668111/
+    github: G-code7
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Programming 
+      
+      - item: Philosophy
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: Electronics Technician
+      university: Universidad Simón Bolívar
+      time: 2014 - 2019
+      details: |
+        Studied electronics technician, gaining fundamental knowledge in circuits, electronic systems, and telecommunications.
+
+    - degree: Fullstack Web Developer with JavaScript
+      university: Platzi
+      time: 2022 - Present
+      details: |
+        Completed the fullstack web developer path, specializing in JavaScript and modern web technologies.
+
+    - degree: Fullstack Developer Bootcamp
+      university: 4Geeks Academy
+      time: Present
+      details: |
+        Currently enrolled in an intensive bootcamp to deepen my skills in fullstack development with a practical and applied focus.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Web Design Specialist
+      time: 2023 - Present
+      company: 4Geeks Academy
+      details: |
+        Responsible for maintaining the website, analyzing SEO, reviewing and updating the 4Geeks website, and creating new sections within the site.
+
+    - role: Freelance Web Developer
+      time: 2019 - 2023
+      company: Independent
+      details: |
+        Worked as a freelance web developer, creating various types of websites using platforms like WordPress and Shopify, with a special focus on eCommerce.
+
+# Your project portfolio
+projects:
+    intro: >
+      Here is a selection of my personal and professional projects, showcasing my skills and experience in web development. These projects demonstrate my ability to create responsive and dynamic websites using various technologies. Each project highlights a different aspect of my expertise, from front-end design to full-stack development.
+
+    assignments:
+      - title: Personal Portfolio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://g-code7.github.io"
+        tagline: "Personal portfolio showcasing projects built with HTML, CSS, and JavaScript."
+
+# Skills
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 100%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: React
+        level: 15%
+
+      - name: Figma
+        level: 100%
+
+      - name: Photoshop
+        level: 100%
+
+      - name: Illustrator
+        level: 100%
