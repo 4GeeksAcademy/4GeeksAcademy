@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduardo
+    last_name: Hernández Guzmán
+    
+    # Define yourself in 4-5 words
+    motto: Ama y haz lo quieras
+    
+    # Focus
+    focus: Conócete a ti mismo y actúa
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Esfuerzo constante capturando vida a través de la lente como fotógrafo. 
+      Simultánea búsqueda de creatividad digital, fusionando arte visual y códigos en HTML para dar vida a la web.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb_X7C6XnMiEakEdbIapwT4SNnCUMabqSAtw&usqp=CAU
+
+    # Contact Information
+    email: edohdezg@gmail.com
+    #phone: 
+    #website: 
+    #linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: EduardoHernandezGuzman
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Castellano
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+      - idiom: Francés
+        level: Principiante
+
+    # Interests or hobbies
+    interests:
+      - item: Fotografía
+
+      - item: Literatura
+
+      - item: Fanzines
+
+# Your previous education
+education:
+    - degree: Licenciatura en Derecho
+      university: Universidad de La Laguna
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2002 - 2007
+      details: |
+        Comienzo a Estudiar Derecho en la Universidad de La Laguna en el año 2002. 
+        En el año 2004 me mudo a la ciudad de León y termino mis estudios en el año 2007.
+
+    - degree: Fotografía profesional
+      university: Keltia
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2009
+      details: |
+        En el año 2007 comienzo un curso de Fotografía Profesional en la escuela Keltia de Madrid.
+        Estudio allí hasta el año 2009.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Trabajador por cuenta propia (Fotógrafo)
+      time: 2008 - Presente
+      company: 
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        
+
+    - role: Profesor de Fotografía
+      time: 2009 - 2013
+      company: Keltia (escuela de fotografía)
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Imparto clases de Iniciación a la Fotografía y Laboratorio.
+
+    - role: Profesor de Pasarela y Posado
+      time: 2012 - 2018
+      company: Mundo de talento
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Trabajo como profesor de Pasarela y Posado para la agencia de modelos Mundo de Talento.
+
+# Your project portfolio
+projects:
+    intro: >
+      Estos son los proyectos que he realizado en estas semanas en 4GEEKS
+
+    assignments:
+      - title: Instagram post con BOOTSTRAP
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: Post de Instragram responsivo utilizando BOOTSTRAP
+
+      - title: Formulario con BOOTSTRAP
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: Formulario responsivo utilizando BOOTSTRAP
+
+     # - title: Tempo
+        # optional
+      #  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #  link: "#"
+      #  tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+     # - title: Atom
+        # optional
+      #  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+       # link: "#"
+       # tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    #  - title: Delta
+    #    # optional
+    #    project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #    link: "#"
+    #    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+#skills:
+#    toolset:
+#      - name: Python & Django
+#        level: 98%
+
+#      - name: JavaScript & jQuery
+#        level: 98%
+
+#      - name: Angular
+#        level: 98%
+
+#      - name: HTML5 & CSS
+#        level: 95%
+
+#      - name: Ruby on Rails
+#        level: 85%
+
+#      - name: Sketch & Photoshop
+#        level: 60%
