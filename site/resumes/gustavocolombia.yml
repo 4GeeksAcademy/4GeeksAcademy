@@ -1,0 +1,163 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "Blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gustavo
+    last_name: Patiño
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta ayudar al projímo 
+    
+    # Focus
+    focus: En el amor propio
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy profesional en cultura fisica y deporte, con enfasis en natación. La natación es un estilo de vida saludable que fomenta la idea cambiar habitos de sedentarimos, y darnos una mejor calidad de vida.
+      por otra parte, la misma practica con cierta continuidad puede mejorar todas las capacidades fisicas, y coordinativas. Actualmente esto dedicado a estudiar y profundizar en un hambito todalemtne diferente pero que enmarca la vida.
+      me refiero netamente a la programación. La idea es profundizar en este campo para mejorar mi capacidad para entender los sistemas informaticos, y la nueva inteligencia artificial que nos rodea totalmente hoy en dia.
+      
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: tavo_tauro_35@hotmail.com #optional
+    phone: 3102526278  #optional
+    website: gustavoadolfopatinogomez #optional
+    linkedin: Gustavo Patiño #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gustavocolombia
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: ingles
+        level: medio
+
+    # Interests or hobbies
+    interests:
+      - item: nadar
+
+      - item: Enseñar
+
+      - item:  ver series
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: Univerisdad incca de colombia
+      # optional
+      university_logo: https://unincca.edu.co/
+      time: 2011 - 2016
+      details: 
+        La carrera de cultura fisica, y deporte tiene un enfoque hacia el entrenamiento deportivo que realmente 
+
+          - Bullet point
+          - Bullet point
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Profesor de natación 
+      time:  feb 2014 - oct 2016
+      company: Colegio agustiniano del salitre
+      # optional
+      company_logo: https://agustinianosalitre.edu.co/
+      details: |
+          Revision del área de trabajo en la piscina, calentamiento previo fuera del agua
+          Adaptación al medio acuático mediante elementos y,mecanización con ayuda del profesor.
+          Preparación de informes semanales.
+
+
+          - Bullet point
+          - Bullet point
+
+    - role: Profesor de natación
+      time: feb 2016 - Agost 2016
+      company: Club Militar Puente Aranda, 
+      # optional
+      company_logo: https://www.clubmilitar.gov.co/home/
+      details: |
+         Revision del área de trabajo en la piscina, calentamiento previo antes de entrar a la piscina
+         Adaptación al medio acuático mediante elementos y mecanización de movimientos con ayuda del profesor.
+         Perfeccionamiento de los estilos de natacion.
+         Evaluacion correspondiente al nivel del mes actual.
+
+
+  
+# Your project portfolio
+projects:
+    intro: >
+      Mis proyectos aprendidos fueron html,css,bootstrad,terminal entre otros por lo tanto los proyectos de aprendizaje
+      van a mejorar mi conocimiento en los campos de la programación la cual es la base de todo
+
+    assignments:
+      - title: proyecto instagrama
+        # optional
+        project_logo: https://4geeks.com/es/syllabus/latam-pt-31/project/instagram-post
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Bootstrad
+        # optional
+        project_logo: https://4geeks.com/syllabus/latam-pt-31/project/instagram-feed-bootstrap
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Formulario html
+        # optional
+        project_logo: https://4geeks.com/syllabus/latam-pt-31/project/html5-form
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Desafio de linea
+        # optional
+        project_logo: https://4geeks.com/syllabus/latam-pt-31/project/exercise-terminal-challenge
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: GITHUB
+        # optional
+        project_logo: hhttps://4geeks.com/syllabus/latam-pt-31/project/learn-in-public-project
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 20%
+
+      - name: JavaScript & jQuery
+        level: 40%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 20%
+
+      - name: Sketch & Photoshop
+        level: 60%
