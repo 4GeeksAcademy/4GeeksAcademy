@@ -1,0 +1,67 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Emilio
+  last_name: Acosta Reyes
+
+  # Define yourself in 4-5 words
+  motto: Proactive, Tenacious, Sociable, Hard-working
+
+  # focus
+  focus: Learning skills full stack developer
+
+  # You have 1 paragraph to make a great impression, summarize your career.
+  summary: |
+    Enthusiastic full stack developer student. I was woorking on 
+    support and maintenanceas technical field for over 15 years, Technology has been my life.  
+
+    Second paragraph if required.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar:
+
+  # Contact Information
+  email: andresfx44@gmail.com 
+  phone: 593 9965-34894
+  website:
+  linkedin:
+    Emilio Acosta
+    # This github username will be use to generate your public profile URL like this: https://github.com/Fabizuni
+  github: Emilioone
+  facebook: A. Emilio Acosta
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: French
+      level: Intermediate
+
+    # Interests or hobies
+  interests:
+    - item: Traveling, reading books, Carpe DIem
+
+    - item: Sports (Gym, Swimming, Basketball)
+
+    - item: Enjoying with my family, cooking
+
+  education:
+    - degree: Software Engineer
+      university: Private Technical University of Loja
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2023
+      details: -HTML5
+        -CSS
+        -Bootstrap
+        -Javascript
+        -React
+
