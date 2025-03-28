@@ -1,0 +1,148 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carmen
+    last_name: Morcuende
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hello! I’m Carmen, a designer with experience in both graphic and web design. Exploring new ideas and 
+      styles to make the most of them has always interested me. I take pride in being punctual with deadlines and 
+      working effectively in teams to achieve the best results. Always committed to quality and innovation, I’m 
+      here to take any project to the next level.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQFS1cjQNUc4hw/profile-displayphoto-shrink_200_200/0/1709149444725?e=1721260800&v=beta&t=iFpvDCk-rUazoaj7R2Dkt_ayMukSMa1gUBakIKdobKc
+
+    # Contact Information
+    email: morcuendecar@gmail.com #optional
+    phone: 653 882 637 #optional
+    website: https://www.behance.net/carmenmorcuende #optional
+    linkedin: https://www.linkedin.com/in/carmen-morcuende-10341719a/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carmenmorc
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Chinese
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Photography
+
+      - item: Houseplants
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: Design
+      university: Universidad Complutense de Madrid
+      # optional
+      university_logo: https://www.ucm.es/data/cont/docs/3-2016-07-21-EscudoUCMTransparenteBig.png
+      time: 2018 - 2022
+      details: |
+        The Design degree at the Complutense University of Madrid offers a 
+        comprehensive education covering graphic, industrial, and multimedia design. 
+        It equips students with both theoretical understanding and practical skills, 
+        preparing them for careers across various design fields such as advertising, 
+        branding, and digital media. Through workshops, projects, and internships, 
+        students develop creativity, critical thinking, and problem-solving abilities, 
+        while also emphasizing interdisciplinary collaboration and innovative design approaches.
+
+    - degree: Full Stack Development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+      details: |
+        The 4Geeks Full Stack Developer Bootcamp is an intensive program designed
+         to equip students with the skills and knowledge needed to excel in the 
+         field of web development. Over the course of the bootcamp, participants 
+         learn front-end and back-end technologies, including HTML, CSS, JavaScript, 
+         Python, and frameworks like Django and React. The curriculum is hands-on and 
+         project-based, allowing students to build real-world applications and portfolios. 
+         With a focus on practical skills and industry-relevant tools, graduates are 
+         prepared for entry-level positions as full stack developers.
+
+    - degree: Introduction to Python
+      university: University of Toronto
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+      details: |
+        The Introduction to Python course at the University of Toronto provides 
+        students with a foundational understanding of Python programming language. 
+        Covering essential concepts such as variables, data types, loops, and functions, 
+        the course aims to familiarize students with the fundamentals of programming 
+        through Python. Through a combination of lectures, coding exercises, and projects, 
+        participants gain hands-on experience in writing Python code and solving problems. 
+        By the end of the course, students are equipped with the skills to tackle basic 
+        programming tasks and are prepared to advance to more specialized areas of Python 
+        development.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Graphic Designer
+      time: 2022 - 2024
+      company: Home And Living, Madrid
+      # optional
+      company_logo: https://homeandliving.es/cdn/shop/files/LOGO-DEFINITIVO.png?height=71&v=1646211062
+      details: |
+        During my tenure as a graphic designer at Home And Living, I undertook a 
+        multifaceted role, crafting both products and social media content. 
+        My responsibilities extended to designing websites for various marketplaces 
+        and crafting advertisements tailored to each platform. Additionally, I possess 
+        a solid understanding of prepress procedures, ensuring seamless transitions 
+        from design to print. This role has honed my creativity, technical skills, 
+        and ability to adapt to diverse design needs within the decoration industry.
+
+
+# Your project portfolio
+ projects:
+     intro: >
+
+     assignments:
+       - title: Velocity
+         optional
+         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+         link: "#hook"
+         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: Adobe Suite
+        level: 90%
+
+      - name: HTML & CSS
+        level: 50%
+
+      - name: JavaScript
+        level: 25%
+
+      - name: Pyhton
+        level: 40%
