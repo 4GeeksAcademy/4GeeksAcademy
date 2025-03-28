@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcelo
+    last_name: Bencini
+    
+    # Define yourself in 4-5 words
+    motto: Dynamic, specialized, innovative, collaborative, committed
+    
+    # Focus
+    focus: dedicated to achieving excellence through strategic thinking, collaboration, and continuous improvement
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      "As a Junior Full Stack Developer, my training and experience revolve around comprehensive application development, spanning both the frontend and backend. Throughout my time as a developer, I have honed my skills in key technologies, showcasing a solid ability to create efficient and scalable solutions. My recent five-year tenure in Ireland has not only refined my English proficiency but has also cultivated adaptability and intercultural skills. I am eager to bring my enthusiasm, expertise, and dedication to a team that values innovation and technical excellence."
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4E03AQHKZPADv4pUww/profile-displayphoto-shrink_200_200/0/1690651888390?e=2147483647&v=beta&t=Y6tY4KAtw3xvGXNTyVhnvDbmUslOYJGrKeuxP-Bz7PE
+
+    # Contact Information
+    email: bencinimarcelo92@gmail.com #optional
+    phone: +353 830249857 #optional
+   
+    linkedin: https://www.linkedin.com/in/marcelo-alejandro-bencini-b6041710b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marceloalejandrobencini
+    
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: medium
+
+      - idiom: Italian
+        level: Medium
+
+    # Interests or hobbies
+    interests:
+      - item: Rugby
+
+      - item: Tennis
+
+      - item: read books
+
+# Your previous education
+education:
+    - degree: 
+      university:
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 
+      details: |
+        
+   
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: 
+
+      
