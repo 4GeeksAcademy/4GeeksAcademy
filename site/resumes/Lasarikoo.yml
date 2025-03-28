@@ -1,0 +1,103 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Lázaro
+  last_name: Beltrán
+  motto: Life better with cars and games
+  focus: Open my own business
+  summary: >
+    I am Lázaro, a passionate web developer with a foundation in IT and
+    experience as a field technician. Throughout my career, I have proactively
+    acquired knowledge in design tools, digital marketing, operating systems and
+    cybersecurity, which has allowed me allows us to offer comprehensive and
+    personalized solutions to each project.
+  avatar: https://beltrangarcia.com/media/Lazaro.jpg
+  email: lazaro@beltrangarcia.com
+  phone: 638 133 536
+  website: beltrangarcia.com
+  linkedin: lazarobeltrangarcia
+  github: Lasarikoo
+  twitter: ""
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Conversational
+    - idiom: Spanish
+      level: Native
+    - idiom: Catalan
+      level: Native
+  interests:
+    - item: Games
+    - item: Cars
+    - item: Soccer
+education:
+  - degree: CFGM sistems and networks
+    university: IFP Sants
+    university_logo: https://beltrangarcia.com/media/IFP.jpg
+    time: 2018 - 2020
+    details: |
+      Web server configuration.
+      Setup and management of networks.
+      Windows and Linux operating systems.
+      Hardware repairs and device optimization.
+      Front-end development with HTML and CSS.
+
+        - Hardware
+        - Software
+experiences:
+  - role: HelpDesk
+    time: 2025 - Present
+    company: Alphanet Security Systems
+    company_logo: https://beltrangarcia.com/media/Alphanet.jpg
+    details: |
+      Management of IP security cameras
+      Tracking and management of incident tickets
+      Customer phone support
+      Remote support for field technicians
+
+        - Networks
+        - IPTV
+  - role: Field Technician
+    time: 2023 - 2025
+    company: INET Smart IT Services
+    company_logo: https://beltrangarcia.com/media/INET.jpg
+    details: |
+      Management of teams with Microsoft Intune.
+      Maintenance of devices (Hardware and Software).
+      Management of local networks and troubleshooting.
+      Massive software installations, deployment of printing systems.
+      Management of servers dedicated to data hosting for the center.
+
+        - Windows
+        - Hardware
+projects:
+  intro: |
+    You can see my lsat projects here.
+  assignments:
+    - title: BEGA
+      project_logo: https://bega.ltd/wp-content/uploads/2024/04/cropped-BEGA-LOGO-e1712415731929.png
+      link: https://bega.ltd/
+      tagline: WordPress + Elementor design for company
+    - title: FlakeHost
+      project_logo: https://flakehost.com/wp-content/uploads/2024/12/FlakeHost-Logo-transparente-955x1024.png
+      link: https://flakehost.com/
+      tagline: Hero title + Header for Elementor website
+    - title: TheBuilder
+      project_logo: https://constructora.bega.ltd/wp-content/uploads/2024/10/Logo-en-blanco.png
+      link: https://constructora.bega.ltd/
+      tagline: Elementor template for build business
+skills:
+  toolset:
+    - name: HTML & CSS
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 70%
+    - name: WordPress
+      level: 90%
+    - name: Windows
+      level: 95%
+    - name: Office365
+      level: 85%
+    - name: Photoshop
+      level: 60%
