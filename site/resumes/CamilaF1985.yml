@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Camila
+    last_name: Fabbroni
+    
+    # Define yourself in 4-5 words
+    motto: Tech Alchemist Crafting Solutions
+    
+    # Focus
+    focus: Eager to Conquer Coding Challenges
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As a passionate junior developer, I have recently completed a rigorous Full Stack Java 
+      Developer bootcamp, equipping me with a solid foundation in web development. Eager to continue
+      my growth, I am currently enrolled in a Full Stack Developer bootcamp where I am expanding my 
+      knowledge and honing my skills in Python, Node.js, and React. 
+      I am dedicated to embracing new challenges and staying at the forefront of evolving technologies, 
+      ready to contribute to innovative projects and make a meaningful impact in the world of software 
+      development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.postimg.cc/KvcR1dg9/foto-perfil.jpg
+
+    # Contact Information
+    email: camila.fabbroni1985@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/camila-fabbroni-arrasate-6b4a28288/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CamilaF1985
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Music
+
+      - item: Movies
+
+      - item: Cars
+
+# Your previous education
+education:
+    - degree: Full Stack Java Developer
+      university: Adalid Chile
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 March - 2023 September
+      details: |
+        I pursued a comprehensive Full Stack Java Developer program at Adalid Chile, where I 
+        gained proficiency in both front-end and back-end development. My coursework covered a 
+        wide range of technologies and frameworks, including HTML, CSS, JavaScript, MySQL, Java, 
+        Spring Framework, Spring MVC, Thymeleaf, Hibernate, and Maven. This extensive training 
+        provided me with the skills and knowledge needed to excel in web development, from 
+        crafting engaging user interfaces to building robust and scalable server-side applications.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Driver
+      time: 2022 - Present
+      company: Uber, Chile
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a Driver at Uber, Chile, I have been responsible for providing efficient and reliable 
+        transportation services to passengers. My role involves ensuring a safe and comfortable 
+        journey for passengers while maintaining a high level of professionalism and customer service. 
+        I have successfully navigated diverse routes and traffic conditions, ensuring timely pickups 
+        and drop-offs. This experience has honed my communication and problem-solving skills while 
+        fostering a strong sense of responsibility and adaptability.
+
+# Your project portfolio
+projects:
+  intro: >
+    Brief description of my projects, along with key details and technologies used. 
+
+  assignments:
+    - title: Sushi Pe - Sushi Order Management
+      link: "https://github.com/CamilaF1985/Modulo7"
+      tagline: >
+        Development of a web application for sushi order management using Java, 
+        Spring Framework, Spring MVC, Thymeleaf, Hibernate, and MySQL.
+
+skills:
+  toolset:
+    - name: Java
+      level: 73.8%
+
+    - name: JavaScript
+      level: 19.9%
+
+    - name: HTML & CSS
+      level: 6.3%
