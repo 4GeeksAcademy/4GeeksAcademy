@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ricardo
+    last_name: Hernandez Avila
+    
+    # Define yourself in 4-5 words
+    motto: I love a challenge
+    
+    # Focus
+    focus: Learn something new everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Dynamic Data Analyst with a rich background in data analysis and project coordination, complemented by a Bachelor's degree in Psychology. 
+      Currently enriching expertise with Data Science and Machine Learning training to bridge analytical acumen with psychological insights. 
+      Adept in Python, SQL, and data visualization, aiming to leverage these skills to contribute to evidence-based strategic decision-making.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://drive.google.com/file/d/1Zu-2NXyWog1R2Cl7Tn4Ivx2gDawQFtQn/view?usp=drive_link
+
+    # Contact Information
+    email: rrhernandezavila@gmail.com #optional
+    phone: +1 (787) 635-7430 #optional
+    linkedin: https://www.linkedin.com/in/ricardo-hernandez-avila-5b261812b/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Ricoou
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Aviation
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Data Science and Machine Learning Certification
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+        The Data Science & Machine Learning Bootcamp at 4Geeks Academy offers comprehensive training in Python, SQL, and machine learning algorithms, 
+        preparing you to become a professional Data Analyst and AI Machine Learning Engineer, with a focus on real-life projects and industry-standard tools.
+
+    - degree: BSc in Psychology
+      university: Salem State University
+      # optional
+      time: 2018 - 2020
+      details: |
+        BS in Psychology with a focus on Research Methods and Statistics.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cargo Ops Supervisor
+      time: 2022 - Present
+      company: Western Aviation Service Corporation, Puerto Rico
+      details: |
+          - Coordinated and executed the monthly import and export of 100,000 kilograms of international cargo, ensuring timely and efficient delivery.
+          - Established and maintained effective channels of communication with government agencies, ensuring compliance with all necessary procedures related to cargo handling.
+          - Demonstrated meticulous attention to detail in overseeing the proper handling and documentation of goods, consistently meeting IATA industry standards
+
+    - role: Sports Psychology Consultant
+      time: 2021 - 2022
+      company: UPAD Psicologia y Coaching, Spain
+      details: |
+          - Partnered with athletic staff to deliver psychological support, contributing to improved athletic performance and well-being
+          - Employed data analysis to interpretquestionnaire results, uncovering key trends that informed the development of tailored performance enhancement strategies.
+          - Conducted workshops aimed at developing psycological resilience and sills transferable to various life domains. 
+
+    - role: Remote Administrative Assistant
+      time: 2015 - 2022
+      company: Western Aviation Service Corporation, Puerto Rico
+      details: |
+          - Efficiently managed a high-volume inbox, processing and responding to an average of 60+ emails per day, ensuring timely communication and resolution of inquiries for senior management.
+          - Orchestrated the logistics for over 100+ annual meetings, including scheduling, venue selection, and material preparation, which streamlined the decision-making process and significantly increased meeting efficiency.
+          - Coordinated 12+ complex business travel itineraries annually, ensuring seamless alignment with executive schedules and preferences while maintaining compliance with corporate travel policies.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: SQL
+        level: 60%
+
+      - name: Sklearn
+        level: 50%
