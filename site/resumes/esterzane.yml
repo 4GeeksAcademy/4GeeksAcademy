@@ -1,0 +1,221 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Zane (Estere)
+    last_name: Gruntmane
+    
+    # Define yourself in 4-5 words
+    motto: surf into the flow 
+    
+    # Focus
+    focus: catalysing creative ideas into codes
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/141255754?v=4 
+
+    # Contact Information
+    email: zaneestere@gmail.com #optional
+    phone: +351 91353176 #optional
+    linkedin: https://www.linkedin.com/in/zane-estere-gruntmane/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: esterzane
+    
+    twitter: 'EsterZane' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Latvian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Studying (limited working capacity)
+
+    # Interests or hobbies
+    interests:
+      - item: Surfing (Surfskating) 
+
+      - item: Swimming
+
+      - item: Reading, Music 
+      
+      - item: Cultural experiences 
+
+      - item: Studing 
+
+# Your previous education
+education:
+    - degree: Study Course 
+      university: University of Latvia 
+      # optional
+      university_logo: https://www.lu.lv/templates/LU.LV/Public/Images/logo_100_white_en.svg 
+      time: 2015 - 2016
+      details: |
+        Studied Philosophy and History
+
+    - degree:  Master of Arts
+      university: Latvian Academy of Culture 
+      # optional
+      university_logo: https://lka.edu.lv/media/Logo-LV.svg
+      time: 2011 - 2014
+      details: |
+        Culture Management, including Marketing, intercultural relations, creative production and public relations. 
+
+          
+    - degree: Bachelor of Arts 
+      university: Latvian Academy of Culture 
+      # optional
+      university_logo: https://lka.edu.lv/media/Logo-LV.svg
+      time: 2006 - 2010 
+      details: |
+        Culture History and theory, including management. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Expert 
+      time: 2023 
+      company: European Commision 
+      # optional
+      company_logo: https://commission.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/positive/logo-ec--en.svg
+      details: |
+       Included expert in the Pool of Experts to the Panel of the European Capital of Culture action.
+       Selected expert for URBACT IV programme. Expertise in the design and delivery of (transnational) exchange and learning activities; Thematic expertise: Cultureç Methods and tools for integrated and particaptry approaches. Sustaining stakholder engagement and translating strategies into actions. 
+
+    - role: Associate 
+      time: 2022 -  present 
+      company: TFCC Europe (Portugal, Latvia)
+      # optional
+      company_logo: https://www.tfconsultancy.co.uk/images/logo.svg
+      details: |
+        Creative Consultancy (freelance based) for projects with a focus on research, (impact) evaluation and cultural and creative strategies for capacity building and local development. 
+
+    - role: Creative knowledge catalyst, Excternal consultant 
+      time: 2020 - 2023 
+      company: Municipality of Aveiro, Portugal
+      # optional
+      company_logo: https://www.cm-aveiro.pt/cmaveiro/layout/logo-aveiro.svg
+      details: |
+       External creative consultant in frame of the Aveiro 2027 - the city's candidacy towads the European Capital of Culture title. 
+       - creative knowledge consultancy for bidding application;
+       - responsible for European dimension (vision, content writing, strategy development);
+       - promoter of international relations, partnerships and networking activities;
+       - stakehoolder mapping, identification, mobilisation and mediation of international cultural dialogue;
+       - concept creation for artistic projects, capacity building activities; transveral approaches;
+       catalysing fundraising process for European cooperation projects. 
+
+    - role: Mentor 
+      time: March - June, 2022 (Remote )
+      company: Latvian Academy of Culture, Latvia 
+      # optional
+      company_logo: https://lka.edu.lv/media/Logo-LV.svg
+      details: |
+       Cooperation with students studying Creative Industries and Growth Management in order to support opportunities and knowledge in mastering specifics of the professions and their practices.(International Cooperation, culture-led city development).  
+
+    - role: Founder, Managing Director, Creative producer, Curator 
+      time: 2013 - 2022 
+      company: Pigeon-bridge (company is closed)
+      # optional
+      company_logo:  https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg 
+      details: |
+        NGO organization with the initial mission to be a creative production company, that later evolved into being an artistic platform, working with local and international contemporary art projects; creating the environment for successful networking and exchange of ideas between Latvian artists and artists in neighbouring countries and abroad.
+       
+    - role: Creative producer; Public relations consultant; Assistant Director 
+      time: 2009 - 2013
+      company: various 
+      # optional
+      company_logo:  https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg 
+      details: |
+        Nomadi (LV) Gertrudes Ielas teātris (LV) Like I Said (LV)
+        Theatre and music recording productions, fundraising, project management, branding, public relations, marketing. 
+
+    - role: Assitant Director, Cross-functional Team management, Production Assistant 
+      time: 2009 - 2013 / 2018 - 2019 
+      company: various
+        
+      # optional
+      company_logo:  https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg 
+      details: |
+        International interships:  
+        Amsterdam Fringe Festival - Amsterdam, The Netherlands
+        Brut Wien (International co-production house) - Vienna, Austria
+        Baltic Circle Theatre Festival - Helsinki, Finland  
+
+# Your project portfolio
+projects:
+    intro: >
+     The following sections will highlight some of my first works in catalysing creative coding.
+
+    assignments:
+      - title: Breath Wave Photo Feed  
+        # optional
+        project_logo: https://img.freepik.com/free-photo/surfer-big-blue-ocean-wave-ai-generative_123827-23867.jpg 
+        link: "#hook"
+        tagline: "Prework of 4Geeks Academy. Using CSS"
+
+      - title: Whale Waves
+        # optional
+        project_logo: https://northshorevisitor.com/wp-content/uploads/elementor/thumbs/4Apr23-StoneyPointWhaleBreach-M-Steltz-NSV-q4hbngoy1f06hwxikqutvzlptkcxiw5l534u44k8s0.jpg
+        link: "#"
+        tagline: "Firts work of part-time bootcamp. Using CSS and Fontawesome"
+
+      - title: Instagram Feed Bootstrap 
+        # optional
+        project_logo: https://i.pinimg.com/originals/f1/d8/3e/f1d83ee6fb18c702029408eef538d8e3.jpg 
+        link: "#"
+        tagline: "Mastering knowledge, use and application of Bootstarp. Instagram photo feed with interactions"
+
+      - title: Collaborative Website "One Page Wonder"
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "First teamwork building a collaborative website. Lead of the team and contributing to the sections Portfolio and Contact form" 
+
+      - title: Surfing into Coding 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "This is my next project, building a first portfolio - resume that higllights my experience in coding."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0 %
+
+      - name: JavaScript & jQuery
+        level: 30 % 
+
+      - name: Angular
+        level: 0 % 
+
+      - name: HTML5 & CSS
+        level: 30 % 
+
+      - name: Ruby on Rails
+        level: 0 % 
+
+      - name: Sketch & Photoshop
+        level:  10% 
