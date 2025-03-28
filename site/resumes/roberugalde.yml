@@ -1,0 +1,300 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 11 07:49:39 2024
+
+@author: rober ugalde
+"""
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Roberto 
+    last_name: Ugalde
+    motto: Machine Teacher and Data Science Developer
+    avatar: https://drive.google.com/file/d/1O5fOQfsE-WQHX-GF8fQjkyt-1SNTEgif/view?usp=drive_link
+    
+    summary: |
+      With a solid background in technology and engineering, 
+      I specialize in the design and deployment of LED Color
+       Test Stations and advanced Photospectrometry using 
+       Konica Minolta equipment. 
+       My hands-on experience with 
+       high-precision photometric and 
+       colorimetric systems allows me to 
+       ensure quality control in complex 
+       manufacturing environments. I have a 
+       passion for precision testing and leveraging 
+       data-driven insights, enhancing efficiency, 
+       and optimizing product quality across projects.
+        My GitHub showcases contributions to related fields 
+        and collaborative projects where my expertise in 
+        instrumentation and data analysis has driven 
+        innovative solutions.
+
+.
+    # Sidebar links
+    email: ugalde1401b@gmail.com
+    phone: +52.3331059834
+    github: RoberUgalde.yml
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      
+      - idiom: Spanish
+        level: Native
+        
+    - idiom: English
+          level: Professional
+          
+   - idiom: French
+         level: Professional       
+          
+
+    interests:
+      - item: Automotive Lighting - Exterior Front 
+      and Rear Lamps.
+
+      - item: Illumination Testing.
+
+see sample python program :
+  """
+Created on Wed Nov  6 21:49:35 2024
+
+@author: rober ugalde
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
+# Create a 3D tensor (array)
+x = np.random.uniform(0, 100, 100)
+y = np.random.uniform(0, 100, 100)
+z = np.random.uniform(0, 100, 100)
+
+# Create a 3D scatter plot
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+scatter = ax.scatter(x, y, z, c=z, cmap='hsv')
+ax.set_xlabel('Lightness (L)')
+ax.set_ylabel('Chroma (C)')
+ax.set_zlabel('Hue (h)')
+
+plt.colorbar(scatter)
+plt.show()
+
+
+
+
+
+      - item: Quality Testing
+
+https://drive.google.com/file/d/1y5d1Pnt6wlK48PnuBpoUZWDixReKq_kd/view?usp=drive_link
+
+
+
+education:
+    - degree: MSc in Operations Management and Manufacturing 
+    Systems.
+      university: University of Nottingham 
+      time: 2000 - 2012
+      details: |
+        MSc in Operations Management and Manufacturing Systems
+University of Nottingham | 2000 - 2012
+
+The MSc in Operations Management and Manufacturing Systems 
+at the University of Nottingham provided a comprehensive blend
+ of theoretical foundations and practical applications,
+  focusing on enhancing operational efficiency and 
+  manufacturing processes. Key coursework included 
+  supply chain management, process optimization, 
+  quality control, and advanced manufacturing techniques. Emphasis was placed on developing strategies for efficient resource management, lean manufacturing principles, and the integration of technology within production systems. The program was grounded in real-world case studies and industry practices, equipping graduates with skills in decision-making, project management, and analytical methods essential for leadership roles in manufacturing and operations..
+
+        
+
+    - degree: BSc in Electronic and Industrial Engineering
+      university: Tecnologico de Monterrey University
+      time: 1993 - 1998
+      details: |
+       The MSc in Operations Management and Manufacturing 
+       Systems at the University of Nottingham provided a 
+       comprehensive blend of theoretical foundations and 
+       practical applications, focusing on enhancing operational 
+       efficiency and manufacturing processes. Key coursework
+       included supply chain management, process optimization, 
+       quality control, and advanced manufacturing techniques.
+        Emphasis was placed on developing strategies for efficient 
+        resource management, lean manufacturing principles, and the
+         integration of technology within production systems. 
+         The program was grounded in real-world case studies and 
+         industry practices, equipping graduates with skills in 
+         decision-making, project management, and analytical methods
+          essential for leadership roles in manufacturing and operations.
+
+          - Instaling Intelligent Security Control and Energy Efficient Homes.
+
+    https://drive.google.com/drive/folders/12RxtviJOkUPHIlPxHvTb6alFfDcWTshU?usp=sharings-419
+
+
+          See pictures of location : Enquires at GitHub Hompage.
+
+https://drive.google.com/drive/folders/12RxtviJOkUPHIlPxHvTb6alFfDcWTshU?usp=sharing
+
+
+
+https://drive.google.com/drive/folders/12RxtviJOkUPHIlPxHvTb6alFfDcWTshU?usp=sharing
+
+experiences:
+    - role: Operations Manager Machine Teacher and Data Scintist Developer
+      time: 2024 - Present
+      company: StarCO, Guadalajara  a subsidity from
+
+https://supplierqtrack4.wordpress.com
+
+
+      details: |
+        Besides Test Benches Design - Launch and Services, we develop integral 
+        Manufacturing soft tools, that with the aid of A.I. and Python programs
+        allow you to take studied choices, when it comes to Logistics,
+        Sales, Distribution, Production, Forecasting, Customer Anaytics, and
+        any ammount of data to check, from internal KPis, either in financial or
+        any production Pillar you mention.  See World Class Manufacturing cataloge
+        for reference in the scope of our company.
+
+    - role: Quality And Kaizen Manager
+      time: 2016 - 2024
+      company: Trend Technologies,  Corporate.
+
+https://www.trendtechnologies.com/facility/elk-grove-illinois/
+
+
+      details: |
+        Photometer improvement measurement in the production line:
+
+          We have created state of the Art Quality Control Checkpoints, using
+          advanced Photometer Technologie. The device is developed by KONICA-MINOLTA
+          SEE:  https://sensing.konicaminolta.us/mx/products/cm-17d-espectrofotometro/
+          The device communicates in real time to a production workstation PC or laptop,
+          or even cellphone.
+
+          The Chart display after testing gives a Cylindrical Spectum Model that
+          ensures the part is being produced correctly, with correct R-G B and R parameters,
+          with correct clarity.
+
+          See Chart :
+
+            https://drive.google.com/file/d/1ee27JTx1MQHWsFc6peTM_NewLuZN1CVq/view?usp=sharing
+
+
+
+          See Program :
+
+          https://drive.google.com/file/d/1gW5FTziRSRuDnZpQY-zBPGpGcuXO8W1T/view?usp=sharing
+
+            """
+          Created on Wed Nov  6 21:49:35 2024
+
+          @author: rober ugalde
+          """
+
+          import numpy as np
+          import matplotlib.pyplot as plt
+          from mpl_toolkits.mplot3d import Axes3D
+
+          # Create a 3D tensor (array)
+          x = np.random.uniform(0, 100, 100)
+           y = np.random.uniform(0, 100, 100)
+          z = np.random.uniform(0, 100, 100)
+
+        # Create a 3D scatter plot
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+        scatter = ax.scatter(x, y, z, c=z, cmap='hsv')
+        ax.set_xlabel('Lightness (L)')
+        ax.set_ylabel('Chroma (C)')
+        ax.set_zlabel('Hue (h)')
+
+          plt.colorbar(scatter)
+          plt.show()
+
+
+
+
+
+    - 
+projects:
+    intro: >
+      Require to track special and very expensive components in production.
+      Need to see where they are all the times 100% no fails in count
+      Need to establish Mean Use and location of each component and interlock it
+      with final OEM platform ID number.
+
+https://github.com/rober12345/SupplierQTrack
+
+    assignments:
+      - title: WCM Management
+        link: "#hook"
+        tagline: "World Class Manufacturing (WCM) Methodology
+
+World Class Manufacturing (WCM) is a comprehensive management approach 
+focused on continuous improvement and waste reduction across all aspects
+ of manufacturing. Developed by Professor Hajime Yamashina in the 1980s, 
+ WCM combines principles from lean manufacturing, Six Sigma, and Total 
+ Quality Management (TQM) to create a holistic approach for optimizing 
+ production processes. This methodology emphasizes structured problem-solving 
+ and data-driven decision-making across ten technical pillars, including safety, 
+ quality control, cost optimization, logistics, and people development.
+
+By following WCM practices, companies strive to achieve operational excellence
+ through systematic elimination of inefficiencies, improvement in quality, 
+ reduction of downtime, and a commitment to environmental responsibility. 
+ WCM has been widely adopted by major manufacturing companies, including 
+  Chrysler Automobiles (now Stellantis) and Unilever, to increase productivity, 
+  reduce costs, and create a sustainable competitive advantage."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+        
+        
+        
+        
+        
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
