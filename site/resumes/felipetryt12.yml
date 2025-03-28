@@ -1,0 +1,105 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Felipe
+  last_name: Espinoza
+  motto: Ingeniero en Metalurgia y Ciencia de Materiales
+  focus: Ciencia de Datos y Machine Learning
+  summary: |
+    Ingeniero en Metalurgia y Ciencia de Materiales con experiencia en consultoría de seguridad industrial,
+    desarrollo web y formación reciente en ciencia de datos y machine learning. Busco contribuir en
+    proyectos de análisis de datos e inteligencia artificial aplicando técnicas avanzadas para la optimización de
+    modelos predictivos y clasificación.
+  email: "gelipetryt12@gmail.com"
+  phone: "+52 5529701881"
+  website: "https://feliwebdev.com"
+  linkedin: "https://www.linkedin.com/in/felipe-espinoza-48291a2a5/"
+  github: "felipetryt12"
+  twitter: "@gelipetryt"
+  stack-overflow: ""
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Profesional
+  interests:
+    - item: Desarrollo web
+    - item: Machine Learning
+    - item: Seguridad Industrial
+    - item: Viajar
+
+# Your previous education
+education:
+  - degree: Licenciatura en Ingeniería Metalúrgica y Ciencia de Materiales
+    university: Escuela Superior de Ingeniería Química e Industrias Extractivas (IPN)
+    university_logo: "" 
+    time: Mayo 2021
+    details: Formación en metalurgia, ciencia de materiales, y tecnologías avanzadas.
+
+  - degree: Bootcamp de Desarrollador Front End
+    university: freeCodeCamp
+    university_logo: ""  
+    time: Marzo 2023
+    details: Desarrollo de aplicaciones web front-end utilizando HTML, CSS, y JavaScript.
+
+  - degree: CS50 Ciencias de la Computación
+    university: Harvard vía edX
+    university_logo: "" 
+    time: Agosto 2023
+    details: Curso intensivo sobre fundamentos de ciencias de la computación.
+
+  - degree: Curso de Ciencia de Datos
+    university: 4Geeks Academy
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    time: Septiembre 2024
+    details: Formación intensiva en Python, Numpy, Pandas, Matplotlib, y machine learning.
+
+# Your previous job experiences or volunteer work
+experiences:
+  - company: S.I.M.A. S.A. de C.V.
+    company_logo: ""  
+    details: |
+      Desarrollo de procedimientos y diagnósticos de seguridad bajo normativas STPS. Consultoría en seguridad e higiene, manejo de no conformidades y auditorías internas.
+    role: Consultor Junior de Seguridad Industrial
+    time: Agosto 2023 - Presente
+
+  - company: SIMEC - Guadalajara
+    company_logo: ""  
+    details: |
+      Realización de inspecciones detalladas, control de procesos, pruebas y documentación para garantizar el cumplimiento de normas y especificaciones.
+    role: Interno de Calidad
+    time: Enero 2022 - Marzo 2023
+
+  - company: The FeliWebDev
+    company_logo: ""  
+    details: |
+      Desarrollo de sitios web utilizando HTML, CSS y JavaScript. Colaboración con clientes para crear presencia digital, gestionando todo el ciclo de vida de los proyectos.
+    role: Desarrollador Web Freelance
+    time: Enero 2024 - Presente
+
+# Your project portfolio
+projects:
+  intro: >
+    Aquí se listan algunos de los proyectos de ciencia de datos y desarrollo web que he completado. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Clasificación de Puntajes de Crédito
+      project_logo: ""  
+      link: "#"
+      tagline: "Implementación de un modelo de machine learning optimizado para clasificar puntajes de crédito, con una mejora del 15% en precisión."
+
+# Your skills
+skills:
+  toolset:
+    - name: Python & Django
+      level: 85%
+    - name: Numpy & Pandas
+      level: 80%
+    - name: Scikit-learn
+      level: 70%
+    - name: Matplotlib
+      level: 75%
+    - name: HTML, CSS & JavaScript
+      level: 90%
+    - name: SQL
+      level: 70%
