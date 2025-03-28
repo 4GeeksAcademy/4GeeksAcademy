@@ -1,0 +1,66 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Martínez Luján
+    
+    # Define yourself in 4-5 words
+    motto: Persona curiosa y autodidacta
+    
+    # Focus
+    focus: Ser programador
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/174732321?s=400&u=5a7b1ae8d62fc0537f7e64f90fbbcdb4e382dde5&v=4
+
+    # Contact Information
+    email: alejandrolujan1999@outlook.es #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alejandro99l
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Jugar videojuegos
+
+      - item: Viajar
+
+      - item: Comer
+
+# Your previous education
+education:
+    - degree: Técnico superior en administración de sistemas informáticos en red
+      university: I.E.S. Aljada
+      # optional
+      university_logo: https://www.murciaeduca.es/iesaljada/sitio/upload/img/logo_aljada_2015_color_pequeno.jpg
+      time: 2018 - 2020
+      details: |
+        - Administración de sistemas de red
+        - Diseño de páginas web
+        - Manejo y creación de bases de datos
+        - Administración e implantación de sistemas operativos
