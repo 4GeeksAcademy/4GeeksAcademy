@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julia
+    last_name: Gallardo
+    
+    # Define yourself in 4-5 words
+    motto: "A blend of curiosity, resilience, and a genuine passion for growth."
+    
+    # Focus
+    focus: "Killing Bad Boys"
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      A career grounded in both academic rigor and hands-on learning...
+      My journey combines theoretical insights with a solid understanding of real-world applications, 
+      I've gained teamwork, communication, and problem-solving skills through collaborative projects and industry-focused learning.
+      A blend of knowledge and experience made me well-prepared for roles requiring both strategic thinking and practical execution, 
+      positioning as a versatile and effective professional.
+
+      My experiences have shaped me into someone who values learning and approaches challenges with a problem-solving mindset.
+      And always try to bring out the best in team settings, with a balanced mix of empathy and determination.
+      Said this I’m driven not only by personal goals but also by a desire to contribute positively, whether in professional or personal endeavors.
+    
+    avatar: "https://static.wikia.nocookie.net/goofy-legends-gl/images/1/16/Shuffle393.png/revision/latest?cb=20230605074114"
+
+    # Contact Information
+    email: "juliaworkor@gmail.com" #optional
+    phone: "661 755 352" #optional
+    github: "jujugm" # This GitHub username will be used to generate your public profile URL
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: "Spanish"
+        level: "Native"
+
+      - idiom: "Korean"
+        level: "Intermediate"
+
+      - idiom: "English"
+        level: "Advanced"
+
+      - idiom: "Japanese"
+        level: "Beginner"
+
+    # Interests or hobbies
+    interests:
+      - item: "Reading"
+      - item: "Learning languages and skills"
+      - item: "Pilates"
+      - item: "Cooking"
+
+# Your previous education
+education:
+    - degree: "MSc in Digital Marketing and Business"
+      university: "EUSA"
+      university_logo: "https://international.eusa.es/wp-content/uploads/sites/3/2023/01/Diseno-sin-titulo-1.png"
+      time: "2020 - 2022"
+      details: |
+        In this university I learned valuable insight into the field, enhanced my confidence, 
+        and provided me with skills that felt directly relevant to the professional world.
+        Engaging in real-world projects where you applied theoretical knowledge directly to practical scenarios.
+        A blend of interactive classes and hands-on assignments, allowing you to understand complex concepts by working on them in-depth.
+        Perhaps collaborating with classmates on team projects helped to develop communication and problem-solving skills.
+
+    - degree: "Intermediate Technical Degree in Business Activities and Sales Operations"
+      university: "MEDAC / Cámara de Comercio de Sevilla"
+      university_logo: "https://play-lh.googleusercontent.com/dR9cHnd0An7Kliylgzqd-5y3JRq7Vc_5DanMARDF8XQ1ViDUnWcL-QNQ1T6Rwv74k-M"
+      time: "2018 - 2020"
+      details: |
+        I had a great experience studying this degree because it involves hands-on learning that closely mirrors real-world job scenarios.
+        Practical skills, with classes led by professionals who bring current industry insights.
+        We worked in teams on projects that simulate real work environments, enhancing both collaboration and practical know-how.
+        Due to working in collaborative settings with peers, you not only build practical knowledge but also develop teamwork skills 
+        that are essential in most careers and make you a better person in the future.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: "UI Developer, Sales and Marketing Manager"
+      time: "2020-2022"
+      company: "UnoComaSeis, Spain"
+      details: |
+        My work involved:
+        - Managing a high-performing team.
+        - Optimizing sales processes.
+        - Fostering strong relationships with key clients using different platforms.
+        - Shaping the company’s market position.
+        - Building strategic partnerships.
+        - Collaborating with cross-functional teams to create compelling campaigns that resonate with target audiences and align with business objectives.
+        - Expanding business opportunities.
+
+    - role: "Digital Marketing, Content Creator, and Sales Department"
+      time: "2024"
+      company: "StayShop, South Korea"
+      details: |
+        - Leading the creation of innovative marketing strategies that enhance brand visibility and customer loyalty.
+        - Social media tracking and content creation.
+        - Collaborating with sales, product, and customer support teams to create integrated marketing campaigns.
+        - Analyzing data and performance metrics to optimize marketing efforts and increase ROI.
+        - Overseeing digital marketing efforts, including content creation, social media, and paid advertising campaigns.
+
+    - role: "Assistant chef"
+      time: "2023"
+      company: "Plant, South Korea"
+      details: |
+        Even if it's outside my main career focus, can add some valuable skills and experiences that are surprisingly transferable to other fields such as:
+        -Time Management: In a fast-paced kitchen, timing is critical. As a chef assistant, you likely learned to manage multiple tasks efficiently, a skill useful in any job.
+        -Adaptability: Kitchens are dynamic, with sudden changes and high demands.
+        -Resilience Under Pressure: Kitchens can be intense, and learning to stay calm under pressure is a highly beneficial trait for all professional settings.
+        -Attention to Detail: Preparing food requires precision and accuracy, which sharpened my attention to detail.
+
+# Your project portfolio
+projects:
+    intro: >
+      I’m currently a student, so even if my projects are not very dense I keep improving 
+      and trying my best every day. I discovered the coding world and I’m very excited about what’s coming next!
+
+    assignments:
+      - title: "Instagram Post"
+        link: "#https://github.com/4GeeksAcademy/jujugm-exerciseinstagrampost"
+        tagline: "A responsive Instagram template."
+
+      - title: "Interactive Instagram Feed"
+        link: "#https://github.com/4GeeksAcademy/jujugm-exercises"
+        tagline: "A responsive Instagram template with different grid views."
+
+      - title: "HTML5-Bootstrap Form"
+        link: "#https://github.com/4GeeksAcademy/jujugm-htmlform"
+        tagline: "A form created only using HTML5 with no CSS, only Bootstrap."
+
+      - title: "Terminal Challenge"
+        link: "#https://github.com/4GeeksAcademy/jujugm-exercise-terminal-challenge"
+        tagline: "Guide on how to use different commands on the terminal."
+
+# Skills
+skills:
+    toolset:
+      - name: "Python & Django"
+        level: "98%"
+
+      - name: "JavaScript & jQuery"
+        level: "98%"
+
+      - name: "Moodle"
+        level: "98%"
+
+      - name: "HTML5 & CSS"
+        level: "95%"
+
+      - name: "Bootstrap"
+        level: "85%"
+
+      - name: "Sketch & Photoshop"
+        level: "70%"
