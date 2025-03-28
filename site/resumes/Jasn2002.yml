@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Alejandro
+    last_name: Sosa Nunez
+    
+    # Define yourself in 4-5 words
+    motto: I am a dreamer
+    
+    # Focus
+    focus: Artificial Intelligence in general
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Computer Science student for a couple years. Dropped out of college
+       in search of a better way of learning. Joined 4GeeksAcademy in 2024.
+       I usually do game development as a hobby.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D5635AQGesJg3-fTYPA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719448482400?e=1723852800&v=beta&t=kGz-5ON09gecTylbEU-VIxHJQxZ9YwAw7d9WP6pHpM0
+
+    # Contact Information
+    email: alejandro.sosa.yolo2002@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jasn2002
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Psychology
+
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: Universidad de las Ciencias Informaticas (Cuba)
+      # optional
+      university_logo: https://media.licdn.com/dms/image/v2/C4E0BAQFdOATxNNIpgg/company-logo_200_200/company-logo_200_200/0/1630631160607/universidad_de_las_ciencias_informticas_logo?e=1731542400&v=beta&t=8rQXVjz4h8IZCK5F5PUpGSA5F3EDMibqTe7qON2_Sa0
+      time: 2020 - 2022
+      details: |
+        I was introduced ti the basics of Computer Science, focusing mostly
+         in Java programming language and covering other subjects such as Calculus
+         and Algebra.
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python 
+        level: 65%
+
+      - name: JavaScript
+        level: 45%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: C#
+        level: 30%
+
+      - name: Java
+        level: 30%
