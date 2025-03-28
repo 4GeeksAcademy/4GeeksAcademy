@@ -1,0 +1,63 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Lucas
+    last_name: Serpillo
+    motto: University Student
+    avatar: ~
+    summary: |
+        Studying full-stack developer. Interested in Software Development, using Bootstrap, Python, Javascript and other tools. 
+         
+
+    # Sidebar links
+    email: lucasserpillo@hotmail.com
+    phone: 624173470
+    website: ~
+    linkedin: 
+    github: LucasSerpillo
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Web Development
+      - item: App Development
+      - item: Machine Learning
+
+education:
+    - degree: 
+      university: 
+      time: 2024-Currently
+
+experiences:
+
+projects:
+
+skills:
+    toolset:
+      - name: Python 
+        level: ~
+
+      - name: Java
+        level: ~
+
+      - name: Javascript
+        level: ~
+
+      - name: HTML5 & CSS
+        level: ~
+
+      - name: Bootstrap
+        level: ~
