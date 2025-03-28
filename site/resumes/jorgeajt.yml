@@ -1,0 +1,194 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jorge Antonio
+    last_name: Jiménez Trueba
+    
+    # Define yourself in 4-5 words
+    motto: Unstoppable, consistent and very focused person
+    
+    # Focus
+    focus: Be one of the best programmer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I studied a vocational training in telecommunications and computing. 
+      After a year I started a degree in Electronic Engineering. 
+      I have worked in many places but none of them related with my studies. 
+
+      In 2020, I started another vocational training in something 
+      I have always loved, fitness. Again I worked in things but
+      unluckily nothing related with all my studies.
+
+      Nowadays I'm working in a burger's shop and I'm studying
+      to be a full stack developer because I'd like to build
+      a good future as a developer and I like it.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: jorgeajtrueba@gmail.com #optional
+    phone: +34600291065 #optional
+    # website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/jorgejimeneztrueba/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JorgeAJT
+    
+    # twitter: 'webjeda' #optional
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Gym
+
+      - item: Playing videogames
+
+      - item: Boxing
+
+# Your previous education
+education:
+    - degree: Electronic Engineering
+      university: University of Cádiz
+      # optional
+      # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2016
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #   pretium quis, sem.
+
+      #     - Bullet point
+      #     - Bullet point
+
+    # - degree: BSc in Applied Mathematics
+    #   university: Bristol University
+    #   # optional
+    #   university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   time: 2007 - 2011
+    #   details: |
+    #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #     pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Chef's helper
+      time: 2023 - Present
+      company: Carl's Jr, Cádiz
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I prepare burgers and prepare the ingredients with certain protocols of cleanliness. 
+        Thanks to thisd job I have learnt how to work in under pressure's atmosphere, and
+        to work in team properly to coordinate all tasks in the most productive way.
+
+    - role: computer technician
+      time: 2016 - Present
+      company: none
+      # optional
+      # company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I assemble PCs from zero. Firtsly I help clients to buy compatible parts of a computer.
+        Secondly I assemble all of them and I configure it to a correct functioning.
+        I can fix software errors too.
+
+    # - role: UI Developer
+    #   time: 2012 - 2014
+    #   company: Amazon, London
+    #   # optional
+    #   company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   details: |
+    #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #     Cum sociis natoque penatibus et magnis dis parturient montes,
+    #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #     pellentesque eu, pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+# Your project portfolio
+projects:
+    # intro: >
+    #   You can list your side projects or open source libraries in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram post with Bootstrap
+        # optional
+        # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        # link: "#hook"
+        tagline: "A responsive website using bootstrap imitating typical social media like Instagram, with modals, dropwdowns, navtab and a navbar."
+
+      - title: HTML Form
+        # optional
+        # project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        # link: "#"
+        tagline: "A responsive typical form to pay something in a website."
+
+      # - title: Tempo
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      # - title: Atom
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      # - title: Delta
+      #   # optional
+      #   project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      # - name: HTML5 & CSS
+      #   level: 95%
+
+      # - name: Ruby on Rails
+      #   level: 85%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
