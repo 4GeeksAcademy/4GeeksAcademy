@@ -1,0 +1,88 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Ezequiel
+  last_name: Bellino
+  motto: Creo en seguir mis sentimientos
+  focus: Aprendizaje, crecimiento constante.
+  summary: >+
+    Soy una persona a la que le gusta aprender constantemente, crecer y
+    avanzar.
+
+    No me gustan los errores ortográficos y, si tengo las herramientas, me da placer resolver
+
+    diversos problemas. En el caso de no tenerlas, me gusta buscar la manera para llegar al 
+
+    mismo fin. Me gusta trabajar en equipo y el respeto entre compañeros/amigos. Soy muy sociable
+
+    y simpático, no te voy a fallar, voy a hacer todo lo que esté a mi alcance y más para que 
+
+    todo marche bien! ☻ 
+     
+  avatar: https://avatars.githubusercontent.com/u/85196913?s=400&u=b64ddbcfe1ad11c05333517ba846f315811fe5b5&v=4
+  email: ezequielbellino@gmail.com
+  phone: +54 2245 50 6008
+  website: zeqebellino.com
+  linkedin: https://www.linkedin.com/in/ezebellino/
+  github: ezebellino
+  twitter: https://x.com/EzequielBellin2
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional/B1.B2
+    - idiom: Deustch
+      level: A1.A2
+  interests:
+    - item: Aprender
+    - item: Deportes
+    - item: OCIO
+education:
+  - degree: Programación
+    university: Platzi, plataforma virtual
+    university_logo: https://th.bing.com/th/id/OIP.-D_f-bjw3wL917tBlKPrkgHaFU?rs=1&pid=ImgDetMain
+    time: 2020 - 2024
+    details: >
+      Plataforma donde aprendí de diversos temas referidos a la programación
+      y a la computación en 
+
+      general. Desde pensamiento lógico matemático hasta la utilziación de Frameworks de Python como
+
+      FastAPI, Django, Flask, Pandas, Numpy.
+
+        - Python
+        - Pensamiento Crítico
+experiences:
+  - role: Cajero de cobro
+    time: 2011 - 2019
+    company: AUBASA - Estación de Peaje km 240, RP11.
+    details: >
+      Puesto Temporario de cajero donde cobraba en cabina de peaje a los
+      usuarios.
+
+        - Atención y trato con los usuarios.
+  - role: Mantenimiento eléctrico y de Sistemas
+    time: 2019 - present
+    company: AUBASA - Estación de Peaje km 240, RP11.
+    details: >
+      Cambio de rol donde tuve mi primer acercamiento laboral a las
+      computadoras, 
+
+      producto por mi interés hacia ellas y mi buen desempeño dentro de la empresa.
+
+      Despues de capacitarme por mis medios pudo realizar el cambio de puesto de trabajo.
+
+      En dicho rol se realiza mantenimiento de computadores, como tambien de la electricidad 
+
+      de la estación de peaje. 
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript
+      level: 75%
+    - name: MySQL, SQLite, PostgreeSQL, AlchemySQL
+      level: 85%
+    - name: HTML5 & CSS
+      level: 95%
