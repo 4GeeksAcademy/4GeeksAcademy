@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+  # Your full name
+  first_name: Federico
+  last_name: Requena Muxí
+
+  # Define yourself in 4-5 words
+  motto: Information wants to be free
+
+  # Focus
+  focus: Lifehacking
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: 
+    I am currently learning and incorporating new knowledge in programming to start a work experience in IT.
+    Since 2012 I have developed as a community and social media manager comprehensively, covering managing and administrating different social networks for companies, SMEs, and entrepreneurs from diverse fields.
+
+  # Your profile picture URL
+  # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+  avatar: https://media.licdn.com/dms/image/v2/D4D35AQGHaU_2wrIB1A/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1724769794473?e=1726707600&v=beta&t=9JhKd0uyafdeZufWv95H4KymegrbGElmASmoJu496N4
+
+  # Contact Information
+  email: federico.requena@gmail.com #optional
+  phone: +598 97 719 416 #optional
+  website: linktr.ee/federicorequena #optional
+  linkedin: linkedin.com/in/federicorequena #optional
+
+  #
+  # ******** IMPORTANT *******
+  # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+  github: github.com/frqmx
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Intermediate
+
+    - idiom: Portuguese
+      level: Basic
+
+    - idiom: Spanish (UY)
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Music Producion
+
+    - item: Djin
+
+    - item: Cooking
+
+# Your previous education
+education:
+  - degree: Bachelor in Communication Studies 
+    university: Facultad de Información y Comunicación - UDELAR
+    # optional
+    university_logo: data:image/png;base64,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
+    time: 2002 - 2014
+    
+  
+# Your previous job experiences or volunteer
+experiences:
+  - role: Social Media Manager
+    time: 2017 - Present
+    company: Freelance
+    # optional
+    
+# Your project portfolio
+skills:
+  toolset:
+    - name: Sketch & Photoshop
+      level: 60%
+
+    - name: Adobe Audition 
+      level: 80%
+
+    - name: Adobe Premiere
+      level: 80%
+
+
+    
