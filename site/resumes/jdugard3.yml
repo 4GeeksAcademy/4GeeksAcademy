@@ -1,0 +1,151 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: James
+    last_name: Dugard
+    
+    # Define yourself in 4-5 words
+    motto: Catholic, Extroverted, Leader, Driven, Hardworking 
+    
+    # Focus
+    focus: To pivot from Real Estate into Tech career
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am an experienced loan officer looking to pivot into the tech industry. I have always had a passion for computers and tech but always saw it as too costly to go into since I did not graduate college with a degree in computer science. But here I am now, focusing on completing this full stack developer bootcamp! 
+
+      Some fun facts about me is that I am a husband and father, I love to play music (specially the guitar), and I love playing video games! 
+    
+    # Your profile picture URL
+    avatar: http://sep.breatheco.de/static/profile-images/IMG-5756.jpg
+
+    # Contact Information
+    email: jdugard3@gmail.com #optional
+    phone: 786 300 7374 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/james-d-dugard #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jdugard3
+    
+    twitter: 'https://twitter.com/Jdugard3' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Playing Guitar
+
+      - item: Video Games
+
+      - item: Exercising
+
+# Your previous education
+education:
+    - degree: BA in Phyiscal Education
+      university: Florida International University
+      # optional
+      university_logo: https://brand.fiu.edu/_assets/images/fiu-logo-vertical.png
+      time: 2015 - 2019
+      details: |
+        Learned many concepts of leadership, perseverance, and health.  
+
+          - Bullet point
+          - Bullet point
+
+    - degree: High School Diploma
+      university: Christopher Columbus High School
+      # optional
+      time: 2007 - 2011
+      details: |
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Loan Officer
+      time: 2023 - Present
+      company: Lending Spot LLC
+      # optional
+      company_logo: 
+      details: |
+        Calculated applicant's income, assets, & debt for pre-approval and application process. 
+        Followed the loan process and submitted need items in a timely manner in order to close the loan. 
+        Provided continuous communication to the borrower and all necessary parties. 
+
+          - Bullet point
+          - Bullet point
+
+    - role: IT Support Specialist 
+      time: 2023 - Present
+      company: Lending Spot LLC
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Administered user accounts, permissionsm and access controls, ensuring secure and appropiate levels of access for employees. 
+        Diagnosed and resolved hardware and software issures for users, ensuring efficient problem resolution. 
+        Stayed updated on mortgage industry trends and technologies for ongoing professional development. 
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Here is a list of the projects I have completed throughout the full stack developer bootcamp. 
+
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/jdugard3/exercise-postcard"
+        tagline: "My first coding project focusing on my knowledge of HTML & CSS. "
+
+      - title: Insta Photofeed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/jdugard3/jamesd-insta-photo-feed-bootstra"
+        tagline: "A instagram template utilizing bootstrap."
+
+      - title: Credit Card Form 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/jdugard3/jamesd-html5-forms"
+        tagline: "A responsive credit card page utilizing HTML Forms"
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
