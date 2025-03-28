@@ -1,0 +1,81 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Mauricio
+  last_name: Havliczek
+  motto: Comproetido apasionado, Metodico Chacotero
+  focus: Full Stack Developer
+  summary: >
+    Me gusta el deporte, por ahora no puedo hacer mucho, me gusta compartir
+    con mis gatos, Comer, me gusta poder solucionar problemas.
+  avatar: https://randomuser.me/api/portraits/men/9.jpg
+  email: mhavliczek@gmail.com
+  linkedin: https://www.linkedin.com/in/mhv007/
+  github: mhavliczek
+  languages:
+    - idiom: French
+      level: A1
+    - idiom: Spanish
+      level: Nativo
+  interests:
+    - item: Deporte en General
+    - item: Jugar con mis gatos
+education:
+  - degree: FullStack Web Developer
+    university: 4Geeks Academy
+    time: 2024
+    details: |
+      React Js, Html, Css, Bootstrap.
+      education:
+  - degree: Ingenicieria Civil Industrial
+    university: Udla
+    time: 2025
+    details: |
+      10 Semestres, promedio 6.1
+  - degree: Ingenieria en Maquinaria, vehiculos automotrices y sistemas electronicos.
+    university: INACAP
+    time: 2018
+    details: >
+      MCI, Bombas, Energia Libre, Autos electricos, Electronica del
+      automovil. 8 Semestres
+  - degree: Ingenieria Informatica
+    university: UST
+    time: 2012
+    details: |
+      8 Semestres
+experiences:
+  - role: Coordinador
+    time: 2012 - 2016
+    company: TECHO
+    company_logo: https://techo.org/wp-content/uploads/2024/03/Capa_1-1.svg
+    details: >
+      Gestionar la construccion de Viviendas para el terremoto, Gestionar
+      ayudas necesarias a nivel regional (V region), colaborar en mesa de ayuda
+      para personas de escasos recursos a obtener su vivienda propia.
+projects:
+  intro: |
+    Aqui algunos de mis proyectos.
+  assignments:
+    - title: Ready2help
+      link: https://github.com/mhavliczek/galeria-bootstrap-pt52
+      tagline: Construccion en Bootstrap Css Html
+    - title: Html CSS y Bootstrap
+      link: https://github.com/mhavliczek/HTML5-CSS-y-Bootstrap
+      tagline: Replica de un interfaz
+skills:
+  toolset:
+    - name: Base de Datos Oracle, Mysql, Postgress
+      level: 85%
+    - name: Python & Django
+      level: 20%
+    - name: Javascript & jQuery
+      level: 5%
+    - name: React js
+      level: 1%
+    - name: Bootstrap
+      level: 90%
+    - name: HTML5 & CSS
+      level: 85%
+    - name: GIT
+      level: 40%
