@@ -1,0 +1,61 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Karen
+  last_name: Rubio
+  motto: Keep Learning every day
+  focus: Full-stack
+  summary: >
+    As a junior developer, I bring a dynamic blend of passion,
+    adaptability, and a hunger for continual learning to the table.ll 
+
+
+    My ability to effectively collaborate within diverse teams, coupled with a knack for problem-solving and a keen eye for detail, has consistently enabled me to deliver high-quality solutions. I thrive in environments that encourage innovation and growth, constantly seeking out new challenges to expand my skill set and contribute meaningfully to impactful projects. With a commitment to staying abreast of emerging technologies and a relentless drive to refine my craft, I am poised to make a valuable and lasting impact as a junior developer.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: rubioruizkaren@gmail.com
+  phone: null
+  website: null
+  linkedin: karenrubio
+  github: karenrubio
+  languages:
+    - idiom: Espanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Cooking
+    - item: Baking
+    - item: Videogames
+education:
+  - degree: LIC. Administracion de Empresas Gastronomicas
+    university: UTEG
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2012 - 2015
+    details: |+
+      Learn about many topics like : Managment,Psicology,Marketing,Laws
+
+        
+experiences:
+  - role: jr Developer student
+    time: 2024 - Present
+    company: 4Geeks
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |+
+      Learning Fullstack development
+
+        - Python
+        - React
+
+
+        
+skills:
+  toolset:
+    - name: Python & Flask
+      level: 0%
+    - name: JavaScript & jQuery
+      level: 0%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Boostrap
+      level: 80%
