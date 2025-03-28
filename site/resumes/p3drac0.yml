@@ -1,0 +1,163 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pedro
+    last_name: González López
+    
+    # Define yourself in 4-5 words
+    motto: Tyical coffee adicted guy 
+    
+    # Focus
+    focus: Develop a videogame that makes me rich
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a mechanical engineer who discovered hi was not in the correct way. I realized that I hated cars and structures and I liked
+      science, people and software. I reconduced myself working as science teacher, and summer camp instructor, kids and teenagers are really funny. However my real goal was learning software 
+      so I can travel and work, so I'm here, in 4Geeks to acomplish this objective.
+.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: gonzalez.lopez.pedro1@gmail.com
+    phone: +34 698 154 189
+
+    
+    
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: p3drac0
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: German
+        level: A2
+
+      - idiom: Spanish
+        level: native
+        
+      - idiom: Galician
+        level: native
+
+    # Interests or hobbies
+    interests:
+      - item: videogame development
+
+      - item: running
+
+      - item: playing the guitar and singing
+
+# Your previous education
+education:
+    - degree: Mechanical Engineer
+      university: University of Vigo
+      # optional
+ 
+      time: 2015-2019
+      details: |
+        4 years learning about maths, physics, thermodynamics, structures, mechanism, CAD, fluids...
+
+    - degree: Industrial Engineer
+      university: University of Vigo
+      # optional
+    
+      time: 2019-2021
+      details: |
+        2 years learning non mechanical features about ndustrial engineering, like electricity, electronics, software ...
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Machine vision engineer
+      time: 2019 - 2020
+      company: FINSA, Santiago de Compostela
+
+    
+      details: |
+        Program machine vision cameras and processing images with deep learning algorythms to indentificate defects in wooden tables.
+
+
+    - role: Teacher
+      time: 2015
+      company: IES Castelao. Freelance
+ 
+      details: |
+        I worked as personal teacher and also as teacher in public centers.
+
+    - role: Summer camp instructor
+      time: summer of 2023
+      company: Aventeira. Spain
+      # optional
+     
+      details: |
+        Summer camps with more than 100 children.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Videogames developed by me and a team to participate in game jams
+    assignments:
+      - title: "Need for Slug"
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "slug race game"
+
+      - title: Ischemia
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline:" Creepy card game"
+
+      - title: Sleepy Fran
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Help fran destroying his evil toys"
+
+      - title: Color Duty
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Try your accuracy by shooting aims"
+
+      - title: Astro Throne: WC station
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Fix an WC station in the space so clients can keep doing their bussines"
+        
+      - title: Galvarino
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "You're an epic mapuche hero facing spanish conquerors"
+
+skills:
+    toolset:
+      - name: Godot
+        level: 80%
+
+      - name: html and CSS
+        level: 80%
+
+      - name: Javascript
+        level: 60%%
+
+      - name: python
+        level: 60%
