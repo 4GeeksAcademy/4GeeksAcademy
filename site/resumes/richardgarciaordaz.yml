@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Richard
+    last_name: García
+    
+    # Define yourself in 4-5 words
+    motto: Diseñador UX/UI con 3 años de experiencia
+    
+    # Focus
+    focus: Diseño centrado en el usuario
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: "¡Hola! Soy un Diseñador UX/UI con 3 años de experiencia. Mi enfoque se centra en el diseño centrado en el usuario y la creación de interfaces intuitivas y atractivas que mejoran la experiencia del usuario."
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: richard@example.com
+    phone: 234 2342 342
+    website: www.richardgarcia.com
+    linkedin: richardgarciaordaz
+    twitter: richardgarcia
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/richardgarciaordaz
+    github: richardgarciaordaz
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Diseño de Interfaz
+
+      - item: Experiencia del Usuario
+
+      - item: Investigación de Diseño
+
+# Your previous education
+education:
+    - degree: Ingeniero de Sistemas
+      university: I.U.P. "Santiago Mariño"
+      # optional
+    
+      time: 2015 - 2020
+      details: |
+        "Durante mi licenciatura, me enfoqué en el diseño de interfaces y adquirí una sólida comprensión de los principios del diseño. También participé en proyectos de diseño centrados en el usuario que me ayudaron a desarrollar mis habilidades en UX/UI."
+
+  
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñador UX/UI Jr
+      time: 2022 - Presente
+      company: Empresa dey, CDMX
+
+      details: |
+        "Como Diseñador UX/UI Jr, trabajo en colaboración con un equipo de diseño para crear interfaces de usuario intuitivas y atractivas. Participo en investigaciones de diseño, desarrollo de wireframes y prototipos, y mejora continua de la experiencia del usuario."
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      "A continuación, presento algunos de los proyectos en los que he trabajado. Estos proyectos reflejan mi enfoque en el diseño centrado en el usuario y la creación de interfaces intuitivas."
+
+    assignments:
+      - title: Proyecto "App Salary on Demand"
+  
+        link: "#proyecto-a"
+        tagline: "Diseño de una aplicación móvil para mejorar la experiencia del usuario."
+
+     
+skillss:
+    toolset:
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Figma & Photoshop
+        level: 90%
