@@ -1,0 +1,75 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+
+    first_name: Omar
+    last_name: Ramirez
+    
+    
+    motto: Dedication, learning, caring, helping, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer. 
+      I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
+      For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
+
+    
+   
+    avatar: https://media-exp1.licdn.com/dms/image/C4D03AQFWMVa6qahy5Q/profile-displayphoto-shrink_800_800/0/1596661064076?e=1617840000&v=beta&t=QGteJrxLl5jsPF79co8hcdmaHF24LK0Bl-O7cRRhY7g
+
+    
+    email: omarar@gmail.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: https://www.linkedin.com/in/mark-mulville-5a1b2a85/
+    
+    
+    github: omararcx
+    
+    twitter: 'omararcx' 
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: Native
+
+    
+    interests:
+      - item: Pulling out teeth
+
+      - item: Health & wellness
+
+      - item: Suring
+
+
+
+# education:
+#     - degree: Health Services Administration 
+#       university: Florida International University 
+#       # optional
+#       university_logo: https://www.vhv.rs/dpng/d/461-4617822_fiu-panther-logo-png-mascot-florida-international-university.png
+#       time: 2011 - 2015
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+
+#           - Bullet point
+#           - Bullet point
+
+
+experiences:
+    - role: Oral surgeon
+      time: 2010 - Present
+      company: Profile Racing
+    
+   
