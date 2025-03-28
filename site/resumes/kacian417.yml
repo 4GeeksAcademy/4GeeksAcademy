@@ -1,0 +1,97 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kennedy 
+    last_name: Lall
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack Developer in-training
+    
+    # Focus
+    focus: Productivity and Creativity
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I started my career in hospitality and have been progressing in the field for the past five years. I am currently trying to develop new skills to expand career opportunities.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: knicho4492@gmail.com
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kacian417
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelors in Psychology
+      university:
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018-2021
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Assistant General Manager
+      time: 2019 - Present
+      company: Hampton Inn by Hilton
+      # optional
+      company_logo: https://www.google.com/imgres?q=hampton%20inn%20logo&imgurl=https%3A%2F%2Ficonape.com%2Fwp-content%2Ffiles%2Fnd%2F268170%2Fsvg%2F268170.svg&imgrefurl=https%3A%2F%2Ficonape.com%2Fhampton-inn-by-hilton-logo-logo-icon-svg-png.html&docid=G3jJ0M0Yj_SRRM&tbnid=sPZjxLH68H2TtM&vet=12ahUKEwjX-O_Fk7yIAxVpL9AFHUa7KTsQM3oECBwQAA..i&w=661&h=498&hcb=2&ved=2ahUKEwjX-O_Fk7yIAxVpL9AFHUa7KTsQM3oECBwQAA
+      details: |
+        I assist the General Manager in daily Operations as well as cordinate with the front desk and housekeeping staff to ensure work is done in a timely and efficient manner.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: 
+
+     
+skills:
+    toolset:
+      - name:
+        level: 
