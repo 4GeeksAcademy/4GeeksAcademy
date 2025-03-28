@@ -1,0 +1,70 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Alfonso
+  last_name: Massaguer
+  motto: I like music very much.
+  focus: Learning
+  summary: >
+    Coding is what i am passionate about, i also have a degree in Sound
+    Technician.
+  email: alfonsomassaguer@gmail.com
+  phone: "(:"
+  linkedin: www.linkedin.com/in/alfonso-massaguer
+  github: Alfonso-wav
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: German
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Playing Guitar
+    - item: Exercicing
+    - item: Videogames
+education:
+  - degree: Associate Bussiness Administration
+    university: Millenia Atlantic University
+    time: 2018 - 2020
+  - degree: Systems Engeneering (5 semesters)
+    university: Universidad Santa Maria
+    time: 2009 - 2011
+experiences:
+  - role: Full stack developer assistant
+    time: 2019 - Present
+    company: Stable Factory, Miami
+    details: >
+      Soclubtv.com Platform Design and Platform Development: Helped develop a
+      social media platform with hundreds of concurrent users to engage with
+      regular influencer-made shows. It had a realtime chat, e-commerce
+      integration and more | Angular, NodeJS, MongoDB
+
+      RewardsWeb Platform Development Front end  Javascript/HTML/CSS 
+
+      Authentic Construction full website Front end  Javascript/HTML/CSS
+assignments:
+  - title: Instagram photo feed (bootstrap)
+    project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    link: "#hook"
+    tagline: A responsive website template designed to help startups promote, market
+      and sell their products.
+  - title: Excuse generator (javascript)
+    tagline: Randomly generate excuses using plain javascript and html
+skills:
+  toolset:
+    - name: HTML, CSS, Bootstrap
+      level: Intermediate
+    - name: Javascript
+      level: Intermediate
+    - name: React
+      level: Intermediate
+    - name: Python
+      level: Intermediate
+    - name: Flask
+      level: Intermediate
+    - name: Python
+      level: Intermediate
+    - name: MySql
+      level: Intermediate
