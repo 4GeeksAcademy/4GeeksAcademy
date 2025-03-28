@@ -1,0 +1,96 @@
+
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Domingo
+    last_name: Ramirez Morales
+    # Define yourself in 4-5 words
+    motto: Ganas por aprender insaciables
+    
+    # Focus
+    focus: En este momento formandome para ser un completo Full Stack Developer 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Aprender es mi pasion y ser desarrollador lo que he perseguido desde hace años. Como resusltado de este aprendizaje, formandome y creciendo en diversos lenguajes, como HTML5, CSS, JAVASCRIPT, GIT, PHYTON (en full-stsak). El pacer, 
+      vocacion y el interes por ejercer como desarrollador, esforzandome de manera cosistente y dedicada. 
+
+      Second paragraph if required.
+      Soy responsable, organizado, puntual y comprometido, dispuesto a trabajar de forma individual como en equipo,
+      espero poder colaborar y trabajar como developer seguir aprendiendo y creciendo como desarrollador.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQFo4k2duzLqBw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731113246207?e=1736380800&v=beta&t=F1d8su7esA0URj-dnF6NmxGdISyHvRvy0eZ2w3quygQ
+
+    # Contact Information
+    email: rzmsdo@gmail.com #optional
+    phone: n/d #optional
+    website: n/d #optional
+    linkedin: https://www.linkedin.com/in/domingo-ram%C3%ADrez-morales-9637a6255/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Rzmsdo
+    
+    twitter: '@direzmas' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: equivalente a B2
+
+    # Interests or hobbies
+    interests:
+      - item: Fotografia
+
+      - item: Viajar en moto
+
+      - item: Ver peliculas en cines
+
+# Your previous education
+education:
+    - degree: Bootcamp Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - hasta ahora
+      details: |
+        Curso intensivo 
+          - React JS
+          - Phyton
+          - Bootstram
+          - Html 5 & CSS
+          - JavaSript
+          
+
+    
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 15%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: lightroom
+        level: 60%
+
+      - name: Photoshop
+        level: 60%
+
+      - name: Davinci Resolve
+        level: 50%
