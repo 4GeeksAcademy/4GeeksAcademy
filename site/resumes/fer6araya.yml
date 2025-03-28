@@ -1,0 +1,56 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernanda
+    last_name: Araya
+    
+    # Define yourself in 4-5 words
+    motto: Motivated, quick learner
+    
+    # Focus
+    focus: Highly motivated
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Aspiring Full Stack Developer with a strong foundation in both front-end and back-end technologies, including HTML, CSS, JavaScript, React
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: marifer.araya6@gmail.com #optional
+    phone: 506 8560 1064 #optional
+    linkedin: www.linkedin.com/in/maria-fernanda-araya-89b0b917b #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fer6araya
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermediate
+
+    # Interests or hobbies
+    interests:
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Business Administration
+      university: Latin University of Costa Rica
+      # optional
+      time: 2023 - 2026 
+      
