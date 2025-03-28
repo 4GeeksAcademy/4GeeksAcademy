@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: I like practice boxing and math
+    
+    # Focus
+    focus: in the perfection of my activities
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      I studied commercial engineering at San Sebastian University with a specialty in finance, I also have an advanced level of English.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+
+    # Contact Information
+    email: andresgivenchy@gmail.com
+    phone: +569 5625 7753 
+    website: N/A 
+    linkedin: https://www.linkedin.com/in/fernando-gonzalez-romero-77b328140?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHXSs87FmRLe0KJi0uoSGhg%3D%3D
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GeFernando
+    
+    twitter: N/A #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: programming
+
+      - item: Math
+
+      - item: Boxing
+
+      - item: Chess
+
+# Your previous education
+education:
+    - degree: Commercial Engineer
+      university: San Sebastián University
+      # optional
+      university_logo: https://www.google.com/imgres?q=san%20sebastian%20universidad&imgurl=https%3A%2F%2Fchilestudia.com%2Fwp-content%2Fuploads%2F2021%2F06%2FLogo_USS.jpg&imgrefurl=https%3A%2F%2Fchilestudia.com%2Funiversidades%2Fuss%2F&docid=PkgG-IDTNIWN5M&tbnid=7Hm2akWoOhckrM&vet=12ahUKEwicq6Xnpq6GAxW4BLkGHXqJBzUQM3oECGQQAA..i&w=789&h=607&hcb=2&ved=2ahUKEwicq6Xnpq6GAxW4BLkGHXqJBzUQM3oECGQQAA
+      time: 2018 - 2023
+      details: I was a student at the Faculty of Economics and Business at the University of San Sebastian, in my academic preparation I was fortunate to learn from areas such as economics, accounting and finance, my monitoring and training was under the standards of the best professors except for the professor of capital markets, who was incredibly insipid.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Practicioner
+      time: 03/01/2023-01/06/2023
+      company: Edward Bank, Santiago
+      # optional
+      company_logo: https://www.google.com/imgres?q=banco%20edwards%20citi&imgurl=https%3A%2F%2Fportales.bancoedwards.cl%2Fuploads%2F000%2F012%2F274%2F5dee0c3c-94de-4c1d-b959-2203fe42814f%2Foriginal%2Flogo-banco-edwards.jpg&imgrefurl=https%3A%2F%2Fportales.bancoedwards.cl%2Fpersonas%2Fbeneficios&docid=o9rtjtMO4pN-yM&tbnid=pF3UOcsqKG-SIM&vet=12ahUKEwiR59DlqK6GAxWJL7kGHfM-BzAQM3oECGQQAA..i&w=252&h=118&hcb=2&ved=2ahUKEwiR59DlqK6GAxWJL7kGHfM-BzAQM3oECGQQAA
+
+# Your project portfolio
+projects:
+    intro: 
+      My most significant projects are those that I have chosen based on their applications and their contingency. It is worth mentioning that these projects meet needs for optimization and versatility.
+
+    assignments:
+      - title: Instagram Post Layout 
+        # optional
+        project_logo: 
+        link:
+        tagline: 
+
+      - title: Instagram Photo Feed with Bootstrap
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+      - title: Your first unit tests with Javascript's Jest Framework
+        # optional
+        project_logo:
+        link: 
+        tagline:
+
+      - title: Domain Name Generator
+        # optional
+        project_logo:
+        link: 
+        tagline:
+
+      - title: Simple Counter
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 35%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
