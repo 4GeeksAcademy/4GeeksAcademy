@@ -48,7 +48,7 @@
 
 ## Team
 
-4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friend's [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
+4Geeks Academy was founded by [Marcelo](https://www.linkedin.com/in/marcelo-ricigliano-32440379/) and [Alejandro](https://twitter.com/alesanchezr), best friends [since high school](https://www.4geeksacademy.co/4geeks-academy-history/).  
 You will fall in love with our teachers that work in top companies and have many years of experience.  
 Every location has a full hands on team with -almost- full independence:
 
