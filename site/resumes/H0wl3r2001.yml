@@ -1,0 +1,164 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+    first_name: Afonso
+    last_name: Monteiro
+    
+    motto: Making my short stay entertaining.
+    
+    focus: Making the best out of my oportunities.
+    
+    summary: |
+      I am an Informatics and Computing Enginnering master's student in the University of Oporto.
+      Have 1.5 years working experience as a DevOps in Natixis.
+
+      I think of myself as being tenatious, driven and motivated to do a good job.
+
+      I enjoy doing exercise, go to the gym, hang out with my friends.
+      But I also like playing in my computer (or talking with my friends from there) or ps5,
+      play DnD with my friends or learning more History.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/afonsoMonteiro.jpg
+
+    # Contact Information
+    email: afonso.dc.monteiro@outlook.pt #optional
+    phone: 234 2342 342 #optional
+    linkedin: https://www.linkedin.com/in/afonso-monteiro-3b9833224/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: H0wl3r2001
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish
+        level: Semi-Professional
+
+    # Interests or hobbies
+    interests:
+      - item: DnD
+
+      - item: History
+
+      - item: Cooking
+
+      - item: Video-games
+
+# Your previous education
+education:
+    - degree: Bachelors in Informatics and Computing Engineering
+      university: University of Oporto - Faculty of Engineering
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/d/d7/Logoup.jpg
+      time: 2019 - 2022
+      details: |
+        The Bachelor's Degree in Computer Engineering and Computing (B.EIC) is a program jointly offered by the Faculty of Engineering (FEUP) 
+        and the Faculty of Sciences (FCUP), as part of an initiative aimed at enhancing the provision of higher education in Computer Engineering at the University of Porto. 
+        This initiative seeks to address the evolving and impactful needs of society in this rapidly advancing field. 
+        The program is conducted at the facilities of FEUP.
+
+        The overarching goal of the B.EIC program is to foster excellence in the scientific and technical foundations of Computer Engineering and Computing (EIC). 
+        It equips graduates with the ability to pursue further studies at the master's level, 
+        enabling them to assume leadership and innovation roles in complex contexts or to enter the job market with the skills necessary 
+        for the development and operation of Information and Communication Technology (ICT)-based systems. 
+        To achieve this, the program offers comprehensive training that encompasses
+
+          - A rigorous foundation in fundamental engineering sciences, particularly Mathematics and Physics.
+          - A broad-based education in the major scientific and technical areas of EIC, including programming, algorithms, computer architecture, operating systems, 
+          computer networks, software engineering, databases, cybersecurity, computer graphics, interaction, and artificial intelligence. 
+          This education aligns with international best practices and recommendations, notably those of the ACM and IEEE.
+          - Flexible training in cross-cutting competencies.
+
+        In summary, the B.EIC program aims to provide a robust educational foundation in Computer Engineering and Computing, 
+        preparing graduates for advanced studies and leadership roles, 
+        as well as for employment in positions related to the development and operation of Information and Communication Technology systems.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Intern Developer
+      time: 2022 - 2023
+      company: Natixis, Porto
+      # optional
+      company_logo: https://companieslogo.com/img/orig/NBP.F_BIG-51034aad.png?t=1597581779
+      details: |
+        Initially an intership to do a simple course project, I was invited after 3 months to
+        have a 1-year internship program, via the portuguese IEFP program. During this year
+        I have done work ranging.
+
+          - Technical support
+          - Web Development
+          - DevOps
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Space Invaders
+        link: https://github.com/H0wl3r2001/LPOO
+        tagline: "The game was a recreation of the original game, using Object Oriented Programming knowledge."
+
+      - title: Route selector algorithm
+        link: https://github.com/H0wl3r2001/CAL
+        tagline: "This project consisted in developing an algorithm that helped selecting the most efficient route for delivering goods, 
+        regarding capacity per delivering vehicle, number of couriers and their time wasted on delivering, and also the cost of using roads (using graphs)."
+
+      - title: Operating system's comand and Inter-process communication
+        link: https://github.com/H0wl3r2001/SOPE
+        tagline: "This project had 2 parts. The first one was a recreation of the command chmod. 
+        The second one was developing a client that could communicate with a server, also developed,
+        dealing with multi-threading programs and inter-communication."
+
+      - title: Introductory AI projects
+        link: https://github.com/H0wl3r2001/Projects_Ia
+        tagline: "A repository with the work for both Iart (AI course) projects @FEUP"
+
+      - title: Disease simulation
+        link: https://github.com/H0wl3r2001/ASMA_sim
+        tagline: "Repository for the second Agent and Multi-Agent Sistems (ASMA) project: A disease simulation"
+
+skills:
+    toolset:
+      - name: Python & Scikit-learn
+        level: 90%
+
+      - name: C#
+        level: 85%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: C# & Blazor
+        level: 67%
+
+      - name: Angular
+        level: 67%
