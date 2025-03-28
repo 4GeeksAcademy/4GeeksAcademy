@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kevin Jose
+    last_name: Pacheco Abello
+    
+    # Define yourself in 4-5 words
+    motto:  Keep walking
+    
+    # Focus
+    focus: Front End
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante de programacion en formacion, arquitecto de profesion  y avido de la tecnologia, multidiciplinario
+      , con inclinacion por la parte artistica de este mundo del codigo.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: Kevinjp6@gmail.com #optional
+    phone: (+58 412 363 0321) #optional
+    website: asd.com #optional
+    linkedin: Kevin Pacheco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: speed92xmax
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: Intermedio
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: tecnologia
+
+      - item: Diseño
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Grado en arquitectura
+      university: Universidad Jose Maria Vargas
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2008 - 2015
+      details: Grado en arquitectura
+
+
+    - degree: Bachiller en Ciencias
+      university: Unidad Educativa Nuestra Señora del Camino
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2008
+      details: Bachiller en ciencias
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñador UX / UI
+      time: 2021 - 2022
+      company: Testic, Barcelona
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details:  Diseñador de interfases
+
+
+    - role: Freelance
+      time: 2021 - actualidad
+      company: Autonomo, Canarias
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details:  Autonomo como diseñador de interfases.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Testic
+        # optional
+        tagline: "Portal web / app para filtrar posibles candidatos en una empresa, dirigido al departamento de recursos humanos"
+
+      - title: Baiwy
+        # optional
+        tagline: "Portal Web / app De citas en linea"
+
+      - title: OrderIt
+        # optional
+        tagline: "App dirigido a al sector de la hosteleria, para realizar pedidos, gestionar comandas, etc"
+
+
+
+skills:
+    toolset:
+
+      - name: JavaScript
+        level: 30%
+
+      - name: React
+        level: 15%
+
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: Sketch & figma
+        level: 60%
