@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Resa
+    
+    # Define yourself in 4-5 words
+    motto: Serve the emperor
+    
+    # Focus
+    focus: Making a better world
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/9.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Intermediate
+        
+      - idiom: Chinese
+        level: Basic
+        
+    # Interests or hobbies
+    interests:
+      - item: Calisthenics
+
+      - item: Snowboarding
+
+      - item: Beer
+
+# Your previous education
+education:
+    - degree: MSc in Industrial engineering
+      university: University Carlos III
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_UC3M.svg
+      time: 2011 - 2014
+      details: |
+        Industrial engineering lectures.
+
+    - degree: BSc in Mechanical engineering
+      university: University Carlos III
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_UC3M.svg
+      time: 2007 - 2011
+      details: |
+        Mechanical engineering lectures.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Procurement manager
+      time: 2023 - Present
+      company: Cogen Energia España, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Procurement manager for OMS.In charge of the following tasks & responsabilities:
+
+          - Identifying the procurement needs of the entire organization.
+          - Managing direct procurement processes.
+          - Managing indirect procurement.
+          - Creating RFQs and overseeing competitive bidding cycles
+          - Managing procurement budgets, strategies, and payment processes
+          - Developing and implementing cost-effective procurement strategies and policies.
+          - Managing the procure-to-pay process, including requisitioning, purchasing, receiving, invoicing, and paying for goods and services.
+          - Evaluating and strategic sourcing of potential suppliers.
+          - Devising initiatives to drive procurement performance.
+          - Negotiating contracts with vendors to secure the best deals and terms.
+          - Maintaining advantageous relationships with suppliers and managing disputes.
+          - Monitoring supplier performance for optimal business operations performance.
+          - Ensuring the timeliness and effectiveness of goods and services.
+          - Forecasting to predict future demand for goods, services, and purchase requisitions.
+          - Collaborating with internal departments to ensure procurement needs are met.
+          - Finalizing purchase details and approving purchase requests and purchase orders.
+          - Tracking key metrics and KPIs to reduce costs.
+          - Analyzing procurement data, conducting spend analysis, and preparing reports.
+          - Optimizing workflows and automation processes to save time and money.
+          - Ensuring compliance with relevant regulations, standards, and laws.
+          - Incorporating new procurement software, e-procurement processes, and business processes.
+          - Developing and implementing risk mitigation strategies.
+          - Monitoring industry trends and developments.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      List of my side or regular proyects, includying open source libraries. 
+
+    assignments:
+      - title: Data science and machine learning bootcamp
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/BaronRouge-sudo
+        tagline: "Complete repository with all projects"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 85%
+
+      - name: Pandas & Numpy
+        level: 75%
+
+      - name: Matplotlib
+        level: 75%
+
+      - name: Scipy
+        level: 60%
+
