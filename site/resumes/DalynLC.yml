@@ -1,0 +1,128 @@
+# -*- coding: utf-8 -*-
+#  
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Dalyn Y
+    last_name: Lara Cortes
+    
+    # Define yourself in 4-5 words
+    motto: Be the change you wish to see in the world.
+    
+    # Focus
+    focus: Reading random things
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I like to learn and take on new challenges. I have participated in 
+      development projects in different roles, and I am currently in the 
+      QA Automation Testing area, where I have learned technical as well 
+      as leadership skills.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://thumb.ac-illust.com/3f/3f1d80b982ba420053c8d189ab3dd636_w.jpeg
+
+    # Contact Information
+    email: dalyn.ylc@gmail.com #optional
+    phone: +52 7713586411 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/dalyn-ylc/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DalynLC
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Listening music
+
+      - item: assemble 3D puzzles
+
+# Your previous education
+education:
+    - degree: Bachelor in Computer Science
+      university: Universidad Autónoma del Estado de Hidalgo
+      # optional
+      university_logo: https://seeklogo.com/images/U/uaeh-logo-80EBF92B78-seeklogo.com.png
+      time: 2016 - 2020
+      details: |
+        I attended the computer science program, whose focus was software 
+        development. During my stay I learned programming in different 
+        languages, databases as well as extra electives:
+
+          - Cryptography
+          - Data Mining
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: QA Automation Tester
+      time: 2022 - Present
+      company: Cognizant
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Playing the role of tester, I have participated in all testing 
+        phases, from planning to presenting results with clients. I have 
+        worked doing manual and automated functional testing. My main 
+        tasks in this role have been to train new team members in the 
+        use of tools and processes, creation of testing plans, execution 
+        of tests, generation of reports, defect management, and leadership 
+        of work teams. The tools I have become familiar with in this role 
+        are:
+        
+          - Jira
+          - qTest
+          - Cyara
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Real State Data Clean up
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/DalynLC/realestate-datacleanup-exercise"
+        tagline: "A repository with a series of exercises that show the process of transforming a set of data into Dataframes, using different operations"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+
+      - name: Java
+        level: 50%
+
+      - name: SQL
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 50%
