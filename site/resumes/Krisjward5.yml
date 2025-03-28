@@ -1,0 +1,94 @@
+template: "online-cv"
+skin: "green"
+basic_info: 
+  avatar: "hhttps://randomuser.me/api/portraits/men/36.jpg"
+  email: krisjward5@gmail.com
+  first_name: Kris
+  focus: "Learning to become a Full Stack Developer and growing my network within Green Bay, Wisconsin. Expaning my knowledge as much as possible to land a job in the tech sphere."
+  github: Krisjward5
+  interests: 
+    - 
+      item: "Magic the gathering/Music" 
+    - 
+      item: "Tech/Gaming"
+    - 
+      item: "Traveling/Food/playing with my Dog"
+  languages: 
+    - 
+      idiom: English
+      level: Native
+    - 
+  
+  last_name: Ward
+  linkedin: https://www.linkedin.com/in/kristofer-ward-aaa041191/
+  motto: "I'm ambitious, intelligent and fun."
+  phone: "857 303 0258"
+  stack-overflow: ~
+  summary: "I began to work in tech intially on the customer side. I was working for Lyft in safey and worked the chain to a Crisis Communications specialist. I have been interested in coding for a long time and finally decided to make the leap to change my career."
+  twitter: ~
+  website: ~
+education: 
+  - 
+    degree: "BS in Art"
+    details: "I started my college journey at Marquette in Milwaukee, Wisconsin however after a year I decided to persue music at the most prestigious contepmary music college in the world. I graduated from Berklee with a degree in songwriting and promply began to tour the US in my band that I started at the university."
+    time: "2012 - 2016"
+    university: "Berklee College of Music"
+experiences: 
+  - 
+    company: "Kasa"
+    details: "My primary repsonsibilities are to generate new business, and meet with the decision makers of companies to decide how best we can assist them in completing complex projects within Finance, Accounting, Audit and Tax."
+    role: "Senior Trust and Safety Specialist"
+    time: "2022 - 2024"
+  - 
+    company: "Hireology"
+    details: "I managed customer accounts and ensured they were onboarded correctly once they purchased the Hireology software."
+    role: "Integration Specialist"
+    time: "2021 - 2021"
+  - 
+    company: "Lyft"
+    details: "I first started as a Critical Response Line associate who handled all inbound calls that related to Safety at Lyft. I Worked the ladder at the compnay and ended up in a very escalated role of Crisis Communications specialist. My role was monitoring social media and world news for articles or posts that were related to Lyft. I would then notify key stakeholders of the situation and what Lyfts actions were that related to the situation."
+    role: "Crisis Communications Speicliast"
+    time: "2017 - 2021"
+projects: 
+  assignments: 
+    - 
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      title: Velocity
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+      title: DevStudio
+    - 
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+      title: Tempo
+    - 
+      link: "#"
+      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      title: Atom
+    - 
+      link: "#"
+      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      title: Delta
+  intro: N/A
+skills: 
+  toolset: 
+    - 
+      level: 0%
+      name: "Python & Django"
+    - 
+      level: 0%
+      name: "Javascript & jQuery"
+    - 
+      level: 25%
+      name: Angular
+    - 
+      level: 75%
+      name: "HTML5 & CSS"
+    - 
+      level: 0%
+      name: "Ruby on Rails"
+    - 
+      level: 0%
+      name: "Sketch & Photoshop"
