@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fermin
+    last_name: Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: trying to live as best as possible
+    
+    # Focus
+    focus: Learing code.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've been a vineyard worker most of my life. Doing labour as well as driving tractors.I got into Software Development
+      becuse i wanted to try something new as well as give my body a break from all the labour. That and i want to have a more reliable job.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://github.com/Rdrgzfermin
+
+    # Contact Information
+    email: rdrgzfermin@gmail.com
+    phone: 707-393-9978
+   
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Rdrgzfermin
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobbies
+    interests:
+      - item: Reading good books
+
+      - item: Playing Video games
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: High School deploma
+      High School: Montgomery High School
+      Time: 2004-2008
+      Details: its high school self exlapatory.
+    
+    - degree: 4geeksacademy
+      Bootcamp: certificate
+      Years: 2024
+      Details: helped to learn coding suck as HTML, CSS, Java, and others
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: irrigator
+      time: 2018-2024
+      company: Jackson Family Wines, Santa Rosa, CA
+      details: |
+        Had irrigation dutes, making sure that i got the water to the plants. I had other dutes that pertain
+        to the workings of the vineyard. I drove tractors during harvests, as well as helping mow grass. 
+
+# Your project portfolio
+projects:
+    intro: >
+        My projects that i've completed in my Bootcamp.
+
+    assignments:
+      - title: Instagram Feed
+        # optional
+        project_logo: 
+        link: "https://github.com/Rdrgzfermin/rdrgzfermin-inta-feed"
+        tagline: "A simple instagram feed."
+
+      - title: postcard
+        # optional
+        project_logo:
+        link: "https://github.com/Rdrgzfermin/exercise-postcard"
+        tagline: "a postcard that i made."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 30%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 60%
