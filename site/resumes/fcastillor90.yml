@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando
+    last_name: Castillo Rubilar    
+    # Define yourself in 4-5 words
+    motto: Nothing is impossible if you can dream it
+    
+    # Focus
+    focus: Learn new tecnologis and new skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I've been working in logistic for around 11 years, I'm a engineer in business administration, and now I'm a student of informatics engineer.
+
+      And  I'm also studying to be a developer in 4Geeks Academy.
+    
+
+      Now i'm looking for a growth opportunity as a developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://picsum.photos/100/100
+
+    # Contact Information
+    email: fer.castillorubilar@gmail.com
+    phone: +56 9 31860800
+    #website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/fernando-castillo-rubilar/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fcastillor90
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Learning
+
+      - item: Cooking
+
+
+# Your previous education
+education:
+    - degree: Engineer in Bussines Administration
+      university: Duoc Uc
+      # optional
+      time: 2017 - 2021
+      details: accounting  - administration
+
+    - degree: Informatics Engineer
+      university: Universidad Mayor
+      # optional
+      time: 2023 - now 
+      details: 
+        mySql - c# 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: warehouse manager 
+      time: 2012 - 2023
+      company: Transportes Orlando Castillo, Santiago, Chile
+      # optional
+      details: supervision, preparation, planning of transportation routes, vehicle loading and worker payrolls
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      For now I don't have a lot of proyect because im starting in this route, but, In time, this list will grow
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 1%
+
+      - name: JavaScript & jQuery
+        level: 15%
+
+      - name: React,js
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 55%
