@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Damiano
+    last_name: Dionori
+    
+    # Define yourself in 4-5 words
+    motto: The best is yet to come
+    
+    # Focus
+    focus: Problem solving
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a former Michelin Starred Restaurant Sommelier with close to a decade of experience.
+      Made a career shift sharing my passion for history and arts in my current job as a tour guide.
+      My next challenge is to learn as much as possible during the 4GeeksAcademy bootcamp to become a Full Stack Web Developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://app.gemoo.com/share/image-annotation/569006411617157120?codeId=PY4Jl6jmqBWaJ&origin=imageurlgenerator
+
+    # Contact Information
+    email: d.dionori@gmail.com #optional
+    phone: #optional
+    website: #optional
+    linkedin: damianodionori #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: damianodionori
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Italian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Basic
+
+      - idiom: French
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Archery
+
+      - item: Cooking
+      
+      - item: Geography
+      
+      - item: Languages
+
+# Your previous education
+education:
+    - degree: Bachelor's Degree in Languages and Modern Cultures
+      university: Università della Tuscia
+      # optional
+      time: 2018
+      details: |
+        I studied English, French and German plus a course of Russian.
+        Literatures and languages of each of the aforementioned ones.
+
+          - English
+          - German
+          -French
+          -Russian
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Tour Guide
+      time: 2022 - Present
+      company: Self Employed, London
+      # optional
+      details: |
+        Tour Guide in London, guiding outdoors and in the following museums:
+
+          - British Museum
+          - National Gallery
+          - Natural History Museum
+
+    - role: Sommelier
+      time: 2018 - 2022
+      company: Four Seasons, London
+      # optional
+      details: |
+        Sommelier in the Chateau Latour Private Club of the Ten Trinity Square Four Seasons Hotel.
+        Assisting customers in the different FB venues and taking care of the wine cellar and wine list.
+
+    - role: Head Sommelier
+      time: 2018
+      company: Danì Maison, Italy
+      # optional
+      details: |
+        Head Sommelier of Two Michelin Stars Restaurant Danì Maison in Ischia, Campania (Italy).
+        In charge of the wine list, wine cellar and wine service, managing the restaurant and reservations.
+
+    - role: Sommelier
+      time: 2018
+      company: Piazza Duomo, Italy
+      # optional
+      details: |
+        Sommelier of Three Michelin Stars Restaurant Piazza Duomo in Alba, Piemonte (Italy).
+        In charge of wine list, wine cellar and wine service.
+
+    - role: Head Sommelier
+      time: 2015 - 2017
+      company: Il Pellicano, Italy
+      # optional
+      details: |
+        Head Sommelier of One Michelin Stars Restaurant Il Pellicano in Monte Argentario, Toscana (Italy).
+        In charge of the wine list, wine cellar, wine service and suppliers for different outlets.
+
+# Your project portfolio
+projects:
+    intro: >
+      I did a few projects during the prework and I am currently working on a few more during the bootcamp.
+
+
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
