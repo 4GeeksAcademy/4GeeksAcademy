@@ -1,0 +1,161 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yohana
+    last_name: Alvarado
+    
+    # Define yourself in 4-5 words
+    motto: soy muy social
+    
+    # Focus
+    focus: Mi familia!!!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     soy una persona muy responsable,y comprometida con el trabajo, me encanta aprender, y emprender en nuevos proyectos. 
+     me gradue de la carrera de Marketing, actualmente soy estudiante de 4geeks academy, estoy estudiando fullstack developer.
+     espero aprender mucho, y lograr ser una excelente programadora. tengo habilidades para trabajar en equipo, debido a que 
+     soy una persona muy sociable. tambien soy una persona que le gusta estar en constante aprendizaje. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.vecteezy.com/system/resources/previews/014/212/681/original/female-user-profile-avatar-is-a-woman-a-character-for-a-screen-saver-with-emotions-for-website-and-mobile-app-design-illustration-on-a-white-isolated-background-vector.jpg
+
+    # Contact Information
+    email: manacima2019@gmail.com
+    phone: +34683524257
+    website: 
+    linkedin:
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yoalvarado25
+    
+    twitter: 
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: viajar y conocer nuevas culturas
+
+      - item: gastronomia
+
+      - item: leer
+
+# Your previous education
+education:
+    - degree: Licenciatura en Marketing
+      university: Universidad Nacional autonoma de Honduras
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2005 - 2010
+      details: |
+       Estudie una licenciatura en Marketing en la universidad publica de mi Pais, Honduras en America.
+       aprendi mucho sobre publicidad, ventas, desarrollo de productos, creacion de negocios, investigacion de mercados.
+       tambien aprendi sobre temas de administracion de un negocio.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Administradora de restaurante
+      time: 2022 - Presente
+      company: food valley Sula
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       Administracion de los recursos para el buen funcionamiento del restaurante.
+       hacer inventarios.
+       hacer pedidos a los proveedores.
+       hacer horarios.
+       Administracion del recurso humano.
+       campanas de venta y promociones.
+
+
+    - role: Administradorra de tienda
+      time: 2017-2021
+      company: Oscar Design Upholstery
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       hacer pedidos a los proveedores.
+       hacer inventarios.
+       hacer horarios.
+       hacer nominas.
+       facturacion.
+       Hacer archivos.
+       contabilidad.
+    
+    - role: Oficial administrativo
+      time: 2011-2016
+      company: Banco Ficohsa
+
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+       supervicion de personal.
+       resolucion de problemas con los clientes de tarjetas de credito y prestamos.
+       creacion de rutas de entrega de tarjetas de credito.
+       asignacion de viaticos.
+       trabajo en base a logro de metas de entrega de tarjetas de credito.
+
+
+# Your project portfolio
+projects:
+    intro: >
+     a continuacion listare algunos proyectos que he hecho, y su respectiva utilidad.
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: 
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline:
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python 
+        level: 
+
+      - name: JavaScript & jQuery
+        level: 
+
+      - name: HTML5 & CSS
+        level: 
