@@ -1,0 +1,156 @@
+
+
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Alvaro
+    last_name: Ponce
+    
+    
+    motto: Vive y deja vivir
+    
+    
+    focus: Aprender
+    
+    
+    summary: |
+      Mi nombre es Alvaro, soy de Valencia
+
+      Second paragraph if required.
+    
+  
+    
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+   
+    email: alvaroponemarin@gmail.com 
+    phone: 666164440 
+    website:  
+    linkedin: 
+    
+    
+    
+    github: superteclas
+    
+    twitter: 
+    stack-overflow: 
+
+    
+    languages:
+      - idiom: Castellano
+        level: Medio
+
+      - idiom: Inglés 
+        level: Medio
+
+      - idiom: Valenciano
+        level: Nativo
+
+    
+    interests:
+      - item: Informatica
+
+      - item: Sky
+
+      - item: Cooking
+
+
+education:
+    - degree: Interpretacion Piano Jazz
+      university: Conservatorio superior Valencia
+     
+      university_logo: https://www.csmvalencia.es/wp-content/uploads/2021/12/logo-csmv.svg
+      time: 2007 - 2023
+      details: |
+        Carrera de piano completa especialización en Jazz
+
+        
+
+    - degree: Full Stack Denveloper
+      university: 4GeeksAcademy
+     
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Actualmente
+      details: Fulls Stack Denveloper boot-camp
+        
+
+          
+
+
+experiences:
+    - role: Músico Profesional
+      time: 2004 - Present
+      company: Producciones Tribu
+      
+      company_logo: https://espectaculoslatribu.com/wp-content/uploads/2022/09/Captura-de-pantalla-64-1-e1665658641397.png
+      details: Empresa dedicada al mundo del espectaculo
+
+    - role: Musico de sesióm
+      time: 2014 - Actualidad
+      company: Hive Recording Studio
+    
+      company_logo: https://www.hiverecordingstudio.com/wp-content/uploads/2021/03/YELLOW_ALPHA_SOMBRA-94PX.png
+      details: Músico de sesión en grabaciones musicales.
+
+   
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 90%
+
