@@ -1,0 +1,131 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: Turning obstacles into opportunities.
+    
+    # Focus
+    focus: One day at a time.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Computer Science student at the National University of Quilmes with experience in customer service and quality control. 
+      I worked as a Customer Service Interpreter at Interpretia and participated in an internship at Naturgy, where I developed skills in quality management. 
+      Additionally, I have knowledge in PC repair and maintenance. I am seeking opportunities to continue learning and growing, both personally and professionally.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4E03AQHyimR-7WRCNg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619295316043?e=1743638400&v=beta&t=uhiqn5SIXetbdp_z4_2YIG2mWrWedhTkJRoTU7Q8B7Q
+
+    # Contact Information
+    email: santigonzalez110500@gmail.com #optional
+    phone: 541122521818
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/santiago-martin-gonzalez-223806210/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: SMartinGonzalez
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Video games
+
+      - item: music
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4geeks academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2025 (on-going)
+      details: |
+        Front end coding Java Script
+        Back end coding python
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Computer science
+      university: National University of Quilmes
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2024 (on-going)
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer Service Interpreter
+      time: 2024 - 2024
+      company: Interpretia
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Post
+        # optional
+        link: "https://github.com/SMartinGonzalez/SMartinGonzalez_Post_De_Instagram"
+        tagline: "Website template using HTML and CSS."
+
+      - title: Instagram Photo Feed Bootstrap
+        # optional
+        link: "https://github.com/4GeeksAcademy/SMartinGonzalez_Instagram_Photo_Feed_Bootstrap"
+        tagline: "Website template usning HTML , CSS and Bootstrap."
+
+      - title: HTML form
+        # optional
+        link: "https://github.com/4GeeksAcademy/SMartinGonzalez_Formulario_HTML5"
+        tagline: "Form template using HTMl and Bootstrap."
+
+
+skills:
+    toolset:
+      - name: C#
+        level: 30%
+
+      - name: JavaScript
+        level: 15%
+
+      - name: HTML5 & CSS
+        level: 30%
