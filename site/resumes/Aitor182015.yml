@@ -1,0 +1,175 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Aitor
+    last_name: Santos
+    
+    # Define yourself in 4-5 words
+    motto: Gaming as a lifestyle
+    
+    # Focus
+    focus: Daily improvement and personal growth.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Leading a team of 8 people and simultaneously managing the maintenance of two gyms, 
+      I have reached a point where I feel I have achieved my maximum professional development,
+       with no possibility of advancing further.
+
+      That is the main reason I have decided to shift my career, 
+      choosing a path that truly excites me, 
+      where I can turn my talent and passion into my profession.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/176413467?s=400&u=6e590691cd1c8d4dec18b342bd07d3289edc05ca&v=4
+
+    # Contact Information
+    email: aitorsantos90@gmail.com #optional
+    phone: Temporary private #optional
+    website: Temporary private #optional
+    linkedin: https://www.linkedin.com/in/aitor-santos-711646234/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Aitor182015
+    
+    twitter: Temporary private #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Motorbikes
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Superior Sound Technician
+      university: CP Villar
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2010 - 2012
+      details: |
+        In my higher-level degree as a Sound Technician for Audiovisuals and Shows,
+        I gained expertise in audio recording, editing, and mixing across different media formats. 
+        I learned how to set up and operate sound systems for live events, including handling microphones,
+        speakers, and mixing consoles. I also studied acoustics, signal processing, and soundproofing techniques.
+        Working with digital audio workstations (DAWs) became second nature, 
+        and I developed skills in sound design for film, TV, and theater. 
+        Additionally, I acquired the ability to manage audio for multimedia projects,
+        while adhering to safety protocols and industry standards.
+
+        - Mastery in ProTools
+        - Experiencie in Radio
+
+    - degree: Intermediate Degree in Electrical Equipment and Installations
+      university: IES-SEP Escola del Treball
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2006 - 2008
+      details: |
+        In my Intermediate Degree in Electrical Equipment and Installations, 
+        I learned how to install, maintain, and repair electrical systems in various environments.
+        I gained hands-on experience working with electrical circuits, wiring, and control systems,
+        ensuring they meet safety standards. The course also taught me to design and install lighting systems,
+        power distribution networks, and electrical panels. I became proficient in reading technical 
+        blueprints and using specialized tools for installation and diagnostics. Additionally,
+        I developed problem-solving skills for troubleshooting electrical faults and learned
+        the importance of following safety protocols in every project.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Maintenance Manager 
+      time: 2020 - Present
+      company: CEM Besòs, CEM Can Felipa
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSVIUi3tAmPCH1OORVXbklizBmS8EnUySmA&s
+      details: |
+        As the head of the maintenance department, my responsibility, in addition to leading and coordinating the team,
+         is to ensure that the facilities operate correctly in terms of plumbing, electrical systems, and aesthetics.
+          I also coordinate with external companies that cover areas beyond the reach of my team. 
+          Another one of my duties is to manage work schedules and address the needs of both users and the board of directors.
+
+    
+
+   
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
