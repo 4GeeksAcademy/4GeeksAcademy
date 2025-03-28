@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Nina
+    last_name: Forlini
+    motto: 
+    avatar: 
+    summary: |
+        Hi, I'm Nina 
+
+    # Sidebar links
+    email: ninaforlini1@gmail.com
+    phone: (724)554-6266
+    website: github.com/NForlini #do not add http://
+    linkedin: www.linkedin.com/in/nina-forlini-4b4563187/
+    github: github.com/NForlini
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Conversational
+
+    interests:
+      - item: Reading
+      - item: Anime
+      - item: Coding
+
+education:
+    - degree: BA in Anthropology
+      university: California University of Pennsylvania
+      time: completed
+
+experiences:
+    - role: Phlebotomist
+      time: 2021 - Present
+      company: Monongahela Valley Hospital
+      details: |
+        Professional Vampire
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Post
+        link: "Instagram-photofeed-nina-forlini"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Instagram Feed using Bootstrap
+        link: "BootstrapPhotoFeed-nina-forlini"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: HMTL 5 Form
+        link: "HTMLFormNinaForlini"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: Javascript
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Paint3D
+        level: 70%
+
+      - name: DiVinci Video Editor
+        level: 70%
