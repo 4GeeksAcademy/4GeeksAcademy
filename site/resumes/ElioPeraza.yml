@@ -1,0 +1,99 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Elio
+  last_name: Peraza
+  motto: Apacionado por la Tecnologia.
+  focus: Full Stact Developer
+  summary: TSU en Análisis y Programación Computacional con experiencia en soporte
+    técnico y gestión de cuentas. Altamente motivado, con habilidades en
+    comunicación, trabajo en equipo y resolución de problemas. En busca de una
+    oportunidad para aplicar y expandir mis conocimientos en desarrollo de
+    software en un entorno profesional.
+  avatar: null
+  email: perazaelio@gmail.com
+  phone: 56982908458
+  website: null
+  linkedin: null
+  github: https://github.com/ElioPeraza
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: B1
+  interests:
+    - item: Desarrollo
+    - item: Ciclismo
+    - item: Video Juegos
+education:
+  - degree: TSU en Analisis y Programacion
+    university: Instituto IACC Chile
+    university_logo: null
+    time: 2022 - 2024
+    details: Soy un analista programador con una sólida formación en el desarrollo
+      de software y análisis de sistemas. me especializo en la traducción de
+      requisitos técnicos en soluciones de software eficientes y funcionales. Mi
+      habilidad para colaborar con equipos multidisciplinarios me permite
+      diseñar y optimizar procesos, garantizando el alineamiento con los
+      objetivos empresariales. Tengo experiencia en lenguajes de programación
+      como Python , y en el uso de herramientas de desarrollo ágil para mejorar
+      la eficiencia y la calidad del software.
+experiences:
+  - role: Ejecutivo de Cuentas
+    time: 2017 -2023
+    company: Banco Santander Chile
+    company_logo: null
+    details:
+      - Mantener relaciones solidas con clientes,Entender necesidades
+        financieras de los clientes y dar soluciones,Asesoramiento sobre
+        productos financieros, inversiones , seguros ,créditos,Venta y promoción
+        de productos financieros,Desarrollo de habilidades de trabajo en equipo
+        y resolución de problemas.
+  - role: Soporte Tecnico
+    time: 2013 - 2016
+    company: Varper Technology
+    company_logo: null
+    details:
+      - Asistencia y soporte técnico a computadores,Manejo de consultas y quejas
+        de lo clientes,Diagnostico de problemas técnicos a
+        computadores,Mantenimiento y actualización de software
+  - role: Soporte Tecnico
+    time: 2012 - 2013
+    company: Clinica IDET Barquisimeto
+    company_logo: null
+    details: Asistencia y resolución de problemas técnicos, Instalación ,
+      configuración y mantenimiento de software y hardware,Respaldo y formateo
+      de equipos.
+projects:
+  intro: There are some of my github projects for the 4GeeksAcademy course!
+  assignments:
+    - title: Instagram Bootstrap
+      project_logo: null
+      link: https://github.com/ElioPeraza/Instagram-Feed-Bootstrap
+      tagline: A responsive Bootstrap website template created to display posts and
+        switch from grid to list view.   --
+    - title: Instagram Post
+      project_logo: null
+      link: https://github.com/ElioPeraza/Instagram-post
+      tagline: A responsive website template designed to input información on a
+        postcard.
+    - title: Formulario with HTML
+      project_logo: null
+      link: https://github.com/ElioPeraza/Formulario-with-HTML5
+      tagline: A responsive website template designed to input information on a
+        Formulary   --
+skills:
+  toolset:
+    - name: Python
+      level: 50%
+    - name: JavaScript
+      level: 0%
+    - name: Angular
+      level: 0%
+    - name: HTML5 & CSS
+      level: 70%
+    - name: Photoshop
+      level: 40%
