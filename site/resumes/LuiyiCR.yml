@@ -1,0 +1,165 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luiyi
+    last_name: Salazar
+    
+    # Define yourself in 4-5 words
+    motto: I believe!
+    
+    # Focus
+    focus: Coding my way to success!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I am a highly motivated professional with over 12 years of experience in project management, particularly in call and data center environments. I am eager to pivot my career toward software development and bring my strong work ethic, leadership abilities, and problem-solving skills to a new role. I am actively pursuing a career in software development through self-study and will be attending the 4 Geeks Academy Software Engineering Bootcamp in 2023 to further enhance my skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: luiyi_salazar@hotmail.com #optional
+    phone: (506) 70128577 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/luis-salazar-orozco-b783981a3 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: LuiyiCR
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+
+      - item: Chess
+
+      - item: Family 
+
+# Your previous education
+education:
+    - degree: Software Engineer 
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+        
+
+          
+
+    - degree: BS Business Administration 
+      university: UIA
+      # optional
+      university_logo: 
+      time: 2000-2004
+      details: |
+        
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Line-Manager
+      time: 2021 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        •	I oversee sensitive data transfers   
+
+          
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+       
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+       
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+      - title: Delta
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: 
+
+skills:
+    toolset:
+      - name: HTML
+        level: 90%
+
+      - name: CSS
+        level: 80%
+
+      - name: JavaScript
+        level: 60%
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
