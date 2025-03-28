@@ -1,0 +1,185 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Pablo
+    last_name: Teran
+    
+    # Define yourself in 4-5 words
+    motto: Disciplina, Resilencia y Sacrificio Perenne
+    
+    # Focus
+    focus: Ser más, para servir mejor
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Industrial con 12 años de experiencia, especializado en Gerencia de la Salud
+      Seguridad Ocupacional. Apasionado por la tecnología y los negocios,
+      actualmente me enfoco en ser un protagonista de la transformación digital en el sector salud,
+      impulsando innovaciones y soluciones tecnológicas para mejorar la gestión y el bienestar en entornos laborales.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ibb.co/D9VCM7c
+
+    # Contact Information
+    email: pablo_teran@hotmail.com #optional
+    phone: 593 0984 610 300 #optional
+    website: www.kairos.com #optional
+    linkedin: https://www.linkedin.com/in/pablo-andres-teran-merino-qhse/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: pabloteran
+    
+    twitter: 'none' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Triatlones
+
+      - item: Motocicletas
+
+      - item: Fútbol
+
+# Your previous education
+education:
+    - degree: Magister en Gerencia y Administración Instituciones de la Salud
+      university: Universidad de las Américas
+      # optional
+      university_logo: https://www.udla.edu.ec/admisiones-udla/
+      time: 2015 - 2016
+      details: |
+        Maestría enfocada en la gestión estratégica de instituciones de salud, 
+        con énfasis en liderazgo, administración de recursos y mejora de la calidad 
+        en los servicios sanitarios.
+        
+
+    - degree: Magister en Seguridad, Salud y Ambiente
+      university: Universidad San Francisco de Quito
+      # optional
+      university_logo: https://www.usfq.edu.ec/es
+      time: 2013 - 2015
+      details: |
+        Maestría orientada a la gestión integral de seguridad, 
+        salud ocupacional y medio ambiente, centrada en la prevención 
+        de riesgos, cumplimiento normativo y promoción de entornos 
+        laborales seguros y sostenibles.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Gerente General
+      time: 2022 - Present
+      company: Terplan Salud, Quito
+      # optional
+      company_logo: https://static.wixstatic.com/media/09e2ec_beb66f2bee7145448fbc235278b62065~mv2.png/v1/fill/w_84,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LOGO%20TERPLAN%20SALUD%20VIGENTE%202022.png
+      details: |
+          Lidero la estrategia y operación integral de la empresa, 
+          gestionando equipos multidisciplinarios y garantizando la 
+          calidad en servicios de salud ocupacional, diagnóstico clínico 
+          e imagenología. Mi enfoque está en la innovación tecnológica, 
+          optimización de procesos y cumplimiento de normativas, impulsando 
+          el crecimiento y la satisfacción de clientes empresariales.
+
+    - role: Jefe de Sistema de Gestión Integrado
+      time: 2012 - 2022
+      company: BIODIMED, Quito
+      # optional
+      company_logo: https://biodimed.com/wp-content/uploads/2021/03/logo_biodimed.png
+      details: |
+          Responsable de implementar y mantener sistemas bajo normas ISO en calidad, 
+          seguridad, salud ocupacional y medio ambiente. Lideré auditorías internas, 
+          optimicé procesos operativos y aseguré el cumplimiento regulatorio, 
+          promoviendo la mejora continua y el bienestar en la organización.
+
+    - role: Oficial de Riesgos y QHSE
+      time: 2011 - 2012
+      company: Tata Consultancy Services, Quito
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg
+      details: |
+          Gestioné la identificación, evaluación y mitigación de riesgos operativos 
+          y de seguridad. Implementé políticas de calidad, salud ocupacional, seguridad 
+          y medio ambiente (QHSE) bajo estándares internacionales, asegurando el 
+          cumplimiento normativo y fomentando prácticas seguras y sostenibles en los 
+          proyectos de la empresa.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos realizados
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: ISO 9001:2015
+        level: 98%
+
+      - name: ISO 45001:2018
+        level: 98%
+
+      - name: ISO 14001:2018
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ilustrator
+        level: 0%
+
+      - name: Autocad
+        level: 60%
