@@ -1,0 +1,162 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristian David 
+    last_name: Herrera Gómez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender sobre todo
+    
+    # Focus
+    focus: Estar en costante mejora para ser mejor todos los dias
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy profesionnal en administracion de empresas. tengo experiencia en finazas, contabilidad, un poco de vivienda, tambien un poco de planeacion financiera.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://static.wikia.nocookie.net/thekaratekid/images/9/9a/Miguel_Diaz.png/revision/latest?cb=20191020072502&path-prefix=es
+
+    # Contact Information
+    email: cristian.herrera9924@gmail.com
+    phone: 3002688127
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Cristian2499
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermedio
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Futbol
+
+      - item: Video games
+
+      - item: series de ciencia ficcion
+
+# Your previous education
+education:
+    - degree: Administracion de empresas
+      university: Universidad Militar Nueva Granada
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/c/c4/LOGO_UMNG.png
+      time: 2018 - 2022
+      details: |
+        Ser profesionles integros, con criterio, swer emprendores e innovadores. Ser capaces de adaptarse a todo tipo de organizaciones y dar el mayor resultado posible. 
+
+          
+  
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Practicante empresarial en la gerencia de credito constructor
+      time: 2022 - 2023
+      company: Banco de Bogotá, Bogotá
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Banco_de_Bogot%C3%A1_logo.svg/2560px-Banco_de_Bogot%C3%A1_logo.svg.png
+      details: |
+        Realizar proyecciones de los logros por alcanzar cada
+        semana, mantener registro de la evolución de los proyectos,
+        apoyar en la realización de presupuestos y en el estudio de
+        mercado de los posibles proyectos.
+
+    - role: Analista de contabilidad
+      time: 2023 - 2023
+      company: CCO Consultores, Bogotá
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Generar recibos de caja, facturas de compra y
+        comprobantes egreso
+
+
+    - role: Analista de S&OP
+      time: 2023 - 2023
+      company: Pernod Ricard Andina, Bogotá
+      # optional
+      company_logo: https://w7.pngwing.com/pngs/665/198/png-transparent-pernod-ricard-hd-logo.png
+      details: |
+        Supervisar del cumplimiento de objetivos, analizar la
+        planeación de ventas, apoyar en la optimización de la operación,
+        análisis de los datos recopilados.
+       
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
