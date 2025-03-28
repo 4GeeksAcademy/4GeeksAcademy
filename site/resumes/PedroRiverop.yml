@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: José Pedro
+    last_name: Rivero Peña
+    
+    # Define yourself in 4-5 words
+    motto: Artista del código, explorador de la web, aprendiz incansable.
+    
+    # Focus
+    focus: Transformar café en código, un pixel a la vez
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador junior, me gusta transformar ideas en realidad a través del código, creando páginas web interactivas y receptivas. Mi curiosidad y pasión por el aprendizaje me llevan a explorar diversas herramientas y tecnologías, siempre buscando formas de mejorar. ¡Estoy emocionado por lo que el futuro de la tecnología tiene reservado y estoy listo para enfrentar cualquier desafío que venga en mi camino!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4D03AQEd9aRpo8N2QQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1653970663251?e=1729728000&v=beta&t=vkey2xHPkgzGIObnhxfqe-9T1R-hAb_HFwXFcLqMASk
+
+    # Contact Information
+    email: josepedrorivero@gmail.com #optional
+    phone: 123 4567 891 #optional
+    website: asd.com #optional
+    linkedin: jpedro-rivero-peña #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: PedroRiverop
+    
+    twitter: '---' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: French
+        level: Delf C1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Swimming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Lic. Ing. Electromecanica
+      university: Universidad Mayor de San Simon
+      # optional
+      # university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2012 - 2019
+      # details: |
+        #Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #pretium quis, sem.
+
+         # - Bullet point
+         #- Bullet point
+
+    - degree: Postgrado, Educacion Superior
+      university: Universidad Mayor de San Simon
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      #details: |
+       # Describe your study here lorem ipsum dolor sit amet, consectetuer
+       # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+       # sociis natoque penatibus et magnis dis parturient montes, nascetur
+       # ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+       # pretium quis, sem.
+
+        #  - Bullet point
+        #  - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Project Manager
+      time: 2022 - 2023 
+      company: Thales Las France
+     
+projects:
+    intro: >
+     A lo largo de mi carrera como desarrollador frontend junior, he trabajado en una serie de proyectos interesantes y desafiantes.
+
+    assignments:
+      - title: Instagram Feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/PedroRiverop/JPedroriverop-Instagram-Feed-with-Bootstrap
+        tagline: "Un portafolio en línea para artistas digitales para mostrar su trabajo."
+
+     
+skills:
+    toolset:
+     
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
