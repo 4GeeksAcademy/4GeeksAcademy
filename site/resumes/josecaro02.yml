@@ -9,8 +9,8 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Jose David
-    last_name: Caro Cantor
+    first_name: Jose  
+    last_name: Caro
     
     # Define yourself in 4-5 words
     motto: I like saving the world
@@ -19,9 +19,7 @@ basic_info:
     focus: Killing Bad Boys
     
     # You have 1 paragraph to make a great impression, summarize your career
-
-    summary: 
-      Commit E
+    summary: |
       Summarize your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -35,9 +33,9 @@ basic_info:
 
     # Contact Information
     email: a@a.com #optional
-    phone: 6513681 #optional
-    website: josecaro.co #optional
-    linkedin: josecaro02 #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
