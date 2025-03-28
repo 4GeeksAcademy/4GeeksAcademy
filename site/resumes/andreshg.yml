@@ -1,0 +1,50 @@
+template: "online-cv"
+skin: "brown"
+
+basic_info:
+
+
+    first_name: Andres 
+    last_name: Hoyos
+    
+    
+    motto: Dedication, learning, active
+    
+    
+    focus: Learning everything I can about web development. 
+    
+    
+    summary: |
+      I am an active outdoorsy person who also enjoys being indoors and spending time on the computer. 
+      I was a professional bike rider for many years and after that, I have been an insurance adjuster for several years. 
+      For quite a while now, I have had an interest in web development. So I decided to jump in and take on web development head on. 
+
+    
+   
+    #avatar:
+
+    
+    email: andreshg9203@gmail.com
+    # phone: 954 297 3940 
+    # website: asd.com 
+    linkedin: linkedin.com/in/andres-felipe-hoyos-garzon-05836728a/
+    
+    
+    github: AndHoyosGarzon
+    
+     
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: Espanish
+        level: Native
+
+    
+    interests:
+      - item: Riding MTB
+
+      - item: Coding
+
+      - item: Trekking
+
