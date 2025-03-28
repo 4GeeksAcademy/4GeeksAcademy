@@ -1,0 +1,104 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Juan Manuel
+  last_name: Gámez Fernández
+  motto: Me gusta aprender cosas nuevas
+  focus: Killing Bad Boys
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: jmgf.1996@gmail.com
+  phone: 690231407
+  linkedin: https://www.linkedin.com/in/juan-manuel-g%C3%A1mez-fern%C3%A1ndez-734373210/
+  github: JuanmaGF
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Programación
+    - item: Cine
+    - item: Libros
+education:
+  - degree: Formacion Profesional de Grado Medio en Sistemas Microinformáticos y Redes
+    university: I.E.S Virgen del Carmen
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2013 - 2016
+    details: >
+      Aprendi sobre montaje y mantenimiento de equipos informáticos, redes,
+      sistemas operativos, aplicaciones ofimaticas y HTML/CSS 
+experiences:
+  - role: Técnico en Sistemas Microinformáticos
+    time: 2016
+    company: Giacomo Catalani Editore, Italy
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Estuve realizando las prácticas de la FP en Italia por un programa
+      Erasmus+,
+
+      en esta empresa realice montaje de equipos, montaje de instalaciones basicas de internet,
+
+      limpieza de archivos de servidor etc..
+  - role: Gestor Comercial
+    time: 2017 - 2020
+    company: Vodafone and Orange
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      En estas empresas realizaba o atendía llamadas comerciales de dichas
+      compañias
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
