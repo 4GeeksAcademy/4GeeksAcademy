@@ -1,0 +1,131 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Elianny 
+    last_name: Bello Manzo
+    
+    
+    # Focus
+    focus: Learn news skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+    I am currently in a training process in
+    mobile app development using React Native and
+    JavaScript. I am acquiring skills in creating interfaces
+    dynamic and efficient user interfaces, and in the integration of
+    complex functionalities within mobile applications. I'm
+    Committed to continuous learning and practical application of
+    this knowledge in real projects.
+    
+    # Contact Information
+    email: elibellomanzo@gmail.com
+    phone: +56954376261
+    linkedin: Elianny Bello Manzo
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Portuguese
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Hiking 
+
+      - item: Running
+
+# Your previous education
+education:
+    - degree: Técnico en Marketing Digital
+      Institute: Duoc UC  
+      # optional
+      time: 2022 - 2024
+      details: |
+        Digital Marketing Technician with a creative approach. I specialize in
+        the creation of digital value strategies that drive
+        brand growth. I use market analysis skills
+        to identify key opportunities that contribute to growth
+        financial. I continually seek to learn and develop solutions
+        effective, keeping up to date with the latest trends in the
+        digital marketing.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Sale Excutive
+      time: 2018-2024
+      company: Garmin Chile Limitada
+      # optional
+      details: |
+       I provided personalized advice tailored to the
+      individual needs of clients, ensuring solutions
+      effective for everyone.
+      I developed a deep knowledge of the products offered,
+      providing detailed and accurate information to customers to
+      increase trust in the brand. Additionally, I directed training
+      products for retail such as Falabella, Paris or sports stores
+      like Decathlon, sharing technical knowledge about
+      most common products and conflict resolutions.
+      In times of pandemic I worked in the service area
+      technical, I managed cases, emails, withdrawals and shipments of
+      products, ensuring customer satisfaction.
+      I also actively participated in Ecommerce where I guaranteed the
+      correct delivery of orders to recipients, managing
+      communications with clients in the event of a conflict.
+      I maintain a proactive approach to problem solving and
+      the continuous improvement of the customer experience where I reflect my
+      commitment to the brand.
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Instagram Feed 
+        # optional
+        link: https://instagram-feed-bootstrap.vercel.app/index.html
+
+      - title: Formulario con HTML5
+        # optional
+        link: https://formuario-html-5.vercel.app/
+       
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+        
+      - name: Sketch & Photoshop
+        level: 60%
