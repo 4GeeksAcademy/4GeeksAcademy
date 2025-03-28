@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Cristina
+    last_name: Machuca
+    
+    # Define yourself in 4-5 words
+    motto: Passionate and self-taught in Web development
+    
+    # Focus
+    focus: I want to be able to program anything I can imagine.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm currently immersed in a Full Stack Software Developer bootcamp to further expand my technical skills. Additionally, I hold a degree in Marketing and Market Research.
+      With over 10 years of experience in customer service in the telecommunications sector, I have developed strong communication and problem-solving skills. This unique combination of technical and business skills allows me to approach projects from a comprehensive perspective, ensuring that they not only meet technical requirements, but also customer expectations and market needs.
+
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/132057230?v=4
+
+    # Contact Information
+    email: cristinamachucam@gmail.com #optional
+    phone: +34 660800631 #optional
+    website: cristinamachuca.com #optional
+    linkedin: https://www.linkedin.com/in/cristina-machuca-mart%C3%ADnez-5636b2274/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CrisMachuca
+    
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Music
+
+      - item: Diy
+
+# Your previous education
+education:
+    - degree: Marketing and Market Research
+      university: University of Málaga
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/2/21/Universidad_de_M%C3%A1laga.jpg
+      time: 2018
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer service
+      time: 2014 - Present
+      company: Orange, España
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1200px-Orange_logo.svg.png
+      details: |
+        customer service and technical support. Solve incidents and manage customer requests.
+
+          - Effective communication skills
+          - Problem-solving abilities
+          - Empathy and understanding
+          
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: Boostrap
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Photoshop
+        level: 30%
