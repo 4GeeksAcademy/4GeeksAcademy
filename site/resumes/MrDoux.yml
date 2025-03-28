@@ -1,0 +1,66 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Douglas
+    last_name: Melendez
+    
+    # Define yourself in 4-5 words
+    motto: Poder ayudar a otros, es mi mayor felicidad 
+    
+    # Focus
+    focus: Mi familia
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy ingeniero de sitemas, actuamente estudio programacion en 4GeekAcademy, estoy forjando mi carrera en la creacion de soluciones innovadoras que transformen ideas en realidad digital. Mi pasión por el aprendizaje continuo y mi capacidad para adaptarme a las demandas cambiantes del mundo tecnológico me han motivado a mantenerme a la vanguardia de la industria, siempre buscando nuevas formas de utilizar la tecnología para resolver problemas y mejorar la vida de las personas.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ingdouglasmelendez@gmail.com #optional
+    phone: 602 48 59 63 #optional
+    website: #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: MrDoux
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Games
+
+      - item: Futbol
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingenieria de sistemas
+      university: Universidad Nacional Experimental Politecnica de las Fuerzas Armadas Nacional Bolivarianas de Venezuela
+      # optional
+      university_logo: 
+      time: 2011 - 2012
+      details: |
+        La ingeniería de sistemas es una disciplina que se centra en el diseño, desarrollo, implementación y mantenimiento de sistemas complejos que integran hardware, software, redes y procesos para resolver problemas y satisfacer las necesidades de las organizaciones. 
+
+ 
