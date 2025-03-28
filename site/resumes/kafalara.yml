@@ -1,0 +1,141 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "ceramic"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Karen
+    last_name: Larrosa
+    
+    # Define yourself in 4-5 words
+    motto: Full-stack Developer
+    
+    # Focus
+    focus: Study Full Stack and watch series
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am training as a Full-Stack Developer, acquiring advanced knowledge in technologies such as HTML5, 
+      CSS, JavaScript, React, Python, SQL and Git, among others. While I complete my training, I am looking for a job opportunity 
+      that allows me to continue developing, put into practice what I have learned and grow in the field of programming.
+      I am an organized, responsible and persevering person, with a strong orientation towards meeting deadlines and objectives. Additionally, I strive to foster an environment of 
+      collaborative and positive work, since I enjoy working as a team.
+      I have a great desire to continually learn, practice and continue evolving as a developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/88.jpg
+
+    # Contact Information
+    email: karen.larrosa@gmail.com #optional
+    phone: +598 092 653 900 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/karen-larrosa-0ab6b4139 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kafalara
+    
+    twitter: 'KarenLarrosa' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Essential
+
+      - idiom: Portugues
+        level: Essential  
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Skate
+
+      - item: Travel
+
+      - item: Listen to music
+
+# Your previous education
+education:
+    - degree: Construction School
+      university: IEC
+      # optional
+      university_logo: https://iec.utu.edu.uy/
+      time: 2003-2004
+      details: |
+       I learned everything about technical drawing and construction knowledge.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Team Manager
+      time: 2019-2024
+      company: PedidosYa
+      # optional
+      company_logo: https://www.pedidosya.com.uy/
+      details: |
+        In my work experience, I led a team of leaders, ensuring efficient management and clear communication. 
+        I was responsible for metrics and moderation of the social media team, managing 15 international markets. 
+        Additionally, I was in charge of reporting and data analysis using tools such as Tableau, Looker and Data Studio, 
+        which facilitated strategic decision making. As Operations TM, I managed the Risk Management team, focused on fraud prevention, 
+        customer account management and online payments. I also acted as a trainer, training the team in the use of defined tools and processes. 
+        Lastly, I planned projects and supervised compliance with established objectives and deadlines.
+
+
+
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      # optional
+      company_logo: https://4geeksacademy.com/es/inicio
+      details: |
+       Full-stack Developer
+        
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+
+        # Your project portfolio
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course!
+
+    assignments:
+      - title: Boostrap
+        # optional
+        link: "https://github.com/4GeeksAcademy/kafalara-bootstrap"
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view"
+
+      - title: Formulario 
+        # optional
+        link: "https://github.com/4GeeksAcademy/kafalara-formulario-HTML"
+        tagline: "Learn how to use and interact with HTML Forms"
+
+      - title: Post Instagram
+        # optional
+        link: "https://github.com/4GeeksAcademy/kafalara-post-instagram"
+        tagline: "Create files in HTML and CSS"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: JavaScript
+        level: 10%
+
+      - name: Boostrap
+        level: 50%
