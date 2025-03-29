@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Aristizábal
+    
+    # Define yourself in 4-5 words
+    motto: I like a chill life
+    
+    # Focus
+    focus: Learn and grow
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Software Engineer with experience in web development, system assistance, and a strong interest in
+      data engineering. Currently pursuing a Master’s in Data Science and Business Analytics. Passionate
+      about solving problems through technology and eager to apply skills in data management and
+      software development.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: aristi_4@hotmail.com #optional
+    phone: +593984394376 #optional
+    linkedin: https://www.linkedin.com/in/aristi95/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: aristi95
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Videogames
+
+      - item: Dogs
+
+# Your previous education
+education:
+    - degree: Information Technology Engineer
+      university: Yachay Tech University
+      # optional
+      time: 2014 - 2023
+        
+
+    - degree: Master in Data Science and Business Analytics
+      university: Rome Business School
+      # optional
+      time: 2024 - current
+        
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Web developer internship
+      time: 2019 - 2019
+      company: Empresa Pública Epicentro, Ecuador
+      # optional
+      details: |
+        - Developed a leveling website for university entrance exams.
+        - Created and uploaded mathematical exercises; implemented dropdown menus in JavaScript.
+
+    - role: Systems Assistant
+      time: 2023 - 2024
+      company: Execsistemas
+      # optional
+      details: |
+        - Assisted in access control, attendance systems, and hardware-software integration.
+        - Provided technical support for systems, networks, and PCs.
+
+
+skills:
+    toolset:
+      - name: Big Data Processing Technologies(Mongo DB, Kafka)
+        level: 98%
+
+      - name: BI tools and applications (Amazon AWS)
+        level: 98%
+
+      - name: Versioning tools (Git, Github)
+        level: 95%
+
+      - name: C, C++, Java, HTML, Javascript, Typescript, Python
+        level: 85%
