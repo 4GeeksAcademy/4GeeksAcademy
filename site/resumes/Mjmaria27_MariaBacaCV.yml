@@ -1,0 +1,63 @@
+
+template: "online-cv"
+skin: "dark red"
+
+# Informacion Personal
+basic_info:
+
+    # Your full name
+    first_name: Maria Paula
+    last_name: Baca Carrión 
+    
+    # Define yourself in 4-5 words
+    motto: Busco siempre mi paz interior
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudio diseño gráfico, el arte y la fotografía son mi mundo, 
+      me interesa crear con colores, formas y texturas todo lo que mi mente puede imaginar,
+      de esa manera al trabajar junto a la tecnología puedo conseguir increibles ideas para compartir al mundo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U08C60Y9ME0-33f395de24e6-512
+
+    # Contact Information
+    email: mariabaca2004@gmail.com
+  
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Mjmaria27
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Cocinar 
+
+      - item: Bailar
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: Titulo de Bachiller
+      university: Colegio Centro Educativo Cotopaxi CEC 
+      time: 2007 - 2023
+      details: |
+        Excelencia académica
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: Sketch & Photoshop
+        level: 75%
