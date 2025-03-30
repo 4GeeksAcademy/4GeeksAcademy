@@ -1,4 +1,4 @@
----
+
 template: online-cv
 skin: blue
 basic_info:
@@ -13,6 +13,8 @@ basic_info:
   phone: 229 118 9186
   linkedin: https://www.linkedin.com/in/emilio-yair-baruch-pio-96461a199/
   github: https://github.com/Soma31
+
+  stack-overflow:
   
   languages:
     - idiom: Spanish
