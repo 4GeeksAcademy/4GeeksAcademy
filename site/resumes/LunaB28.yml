@@ -1,0 +1,84 @@
+template: "online-cv"
+skin: "blue"
+
+# Información Personal
+basic_info:
+
+    # Tu nombre completo
+    first_name: Luna Rosa
+    last_name: Buendía Agudelo
+    
+    # Defínete en 4-5 palabras
+    motto: Aprendiendo a programar cada día
+    
+    # Enfoque
+    focus: Desarrollo Web y Automatización
+    
+    # Resumen de carrera
+    summary: |
+      Soy una estudiante apasionada por la tecnología y la creatividad, iniciando mi camino en la programación. Actualmente explorando desarrollo web y automatización con Python, con interés en expandir mis conocimientos a JavaScript y otras herramientas del ecosistema digital.
+    
+    # Foto de perfil
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Información de contacto
+    email: lunab2815@gmail.com
+    phone: 611-322-921
+    linkedin: #Opcional
+    github: LunaB28
+
+    # Idiomas
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Intermedio
+
+    # Intereses
+    interests:
+      - item: Programación
+      - item: Automatización de tareas
+      - item: Desarrollo web
+
+# Educación
+education:
+    - degree: Bachiller Académico
+      university: Colegio Virtual Moderno
+      time: 2024
+      details: |
+        Finalicé mis estudios de bachillerato con interés en la tecnología y la programación.
+
+# Experiencia
+experiences:
+    - role: Pasante en Gestión Cultural y Producción de Contenidos
+      time: 3 años
+      company: Cueros al Sol Teatro
+      details: |
+        Aunque mi enfoque fue más cultural, aprendí habilidades valiosas de gestión digital y producción de contenido que me han permitido explorar el desarrollo web y la automatización.
+
+# Proyectos
+projects:
+    intro: |
+      Aquí algunos proyectos que he explorado en mi aprendizaje de programación.
+    
+    assignments:
+      - title: html form
+        link: "https://github.com/4GeeksAcademy/Luna-HtmlForm.git"
+        tagline: "Un visual de una pantalla de pago"
+      
+      - title: photofeed
+        link: "https://github.com/4GeeksAcademy/Luna-photofeed.git"
+        tagline: "Explorando HTML y CSS en un proyecto personal."
+
+# Habilidades
+skills:
+    toolset:
+      - name: git (aprendiendo)
+        level: 20%
+
+      - name: HTML & CSS (aprendiendo)
+        level: 40%
+
+      - name: JavaScript (aprendiendo)
+        level: 20%
