@@ -1,0 +1,106 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: David
+  last_name: Querol Pallarés
+  motto: Edición y Postproducción Audiovisual
+  focus: Audiovisual & Sonido
+  summary: >
+    Profesional del sector audiovisual con experiencia en edición, postproducción, sonido y cámara.
+    He trabajado en proyectos para televisión, documentales históricos y retransmisiones en directo,
+    así como en el ámbito local e institucional.
+
+    Dominio de herramientas profesionales y experiencia como freelance en diferentes cadenas de televisión.
+  avatar: null
+  email: null
+  phone: null
+  website: null
+  linkedin: null
+  github: null
+  twitter: null
+  languages:
+    - idiom: Español
+      level: Nativo
+  interests:
+    - item: Cine documental
+    - item: Historia
+    - item: Tecnología audiovisual
+education:
+  - degree: Técnico Superior en Imagen y Sonido
+    university: IES Vila-Roja de Almazora
+    university_logo: null
+    time: null
+    details: |
+      Formación técnica en imagen y sonido para medios audiovisuales.
+  - degree: Bachillerato en Ciencias Sociales
+    university: IES Els Ports
+    university_logo: null
+    time: null
+    details: |
+      Formación previa con enfoque en ciencias sociales.
+experiences:
+  - role: Técnico de Sonido en Unidades Móviles
+    time: 2022 - 2023
+    company: À Punt Directe, CVMC
+    company_logo: null
+    details: |
+      Trabajo técnico en retransmisiones en directo para televisión autonómica.
+  - role: Edición y Postproducción
+    time: 2019 - 2022
+    company: Freelance
+    company_logo: null
+    details: |
+      Edición y postproducción para retransmisiones y contenido audiovisual variado.
+  - role: Cámara ENG y Técnico de Directos
+    time: 2018 - 2019
+    company: Grupo Secuoya CB Media
+    company_logo: null
+    details: |
+      Trabajo de cámara y técnico en directos para distintas producciones.
+  - role: Edición y Postproducción
+    time: 2014 - 2018
+    company: Primera Plana Producciones S.L.
+    company_logo: null
+    details: |
+      Edición de contenido para televisión y medios institucionales.
+  - role: Edición y Postproducción
+    time: 2007 - 2011
+    company: Comunicacions dels Ports S.A.
+    company_logo: null
+    details: |
+      Producción y edición de contenido audiovisual local.
+projects:
+  intro: >
+    Algunos de los proyectos destacados incluyen colaboraciones con canales de televisión histórica y de investigación.
+  assignments:
+    - title: DOCE, la historia desde las estrellas
+      project_logo: null
+      link: "#"
+      tagline: Documental para Canal Historia.
+    - title: Territorio Templario
+      project_logo: null
+      link: "#"
+      tagline: Producción histórica para Crimen + Investigación.
+    - title: Los Perfumes de la Historia
+      project_logo: null
+      link: "#"
+      tagline: Producción histórica para Canal Historia.
+    - title: Bomberos, Alcorcón
+      project_logo: null
+      link: "#"
+      tagline: Producción para Crimen + Investigación.
+    - title: Salvados por el miedo
+      project_logo: null
+      link: "#"
+      tagline: Documental para Canal Historia.
+skills:
+  toolset:
+    - name: Adobe After Effects, Premiere, Photoshop, Audition
+      level: 95%
+    - name: Final Cut Pro X
+      level: 85%
+    - name: Logic X
+      level: 80%
+    - name: DaVinci Resolve Studio
+      level: 85%
