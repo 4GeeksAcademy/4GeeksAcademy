@@ -1,0 +1,205 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo 
+    last_name: Cruz Bull
+    
+    # Define yourself in 4-5 words
+    motto: Resilient and hardworking person
+    
+    # Focus
+    focus: Learn as much as possible about the things around me
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Data Scientist with a background in Agronomy and a specialization in machine learning and data analysis.
+      I have developed and optimized clustering and data visualization models with Python based on financial data to generate strategic insights for a benchmarking project.
+      I am proficient in tools such as Python, Pandas, Scikit-Learn, Plotly, Tensorflow, SQL, Power BI, and Excel.
+      My passion is transforming complex data into strategic solutions.
+      I am currently learning and working in full-stack web development. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: gcruzbull2@gmail.com #optional
+    phone: +56 9 8730 2513 #optional
+    website: https://github.com/gcruzbull #optional
+    linkedin: https://www.linkedin.com/in/guillermo-cruz-bull/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gcruzbull
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Boxing, Swimming, Playing Tennis
+
+      - item: Draw
+
+      - item: Read
+
+# Your previous education
+education:
+    - degree: Full Stack Development Bootcamp
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2025
+      details: |
+        I learned about front-end and back-end web development, using tools like HTML, CSS, Bootstrap, JavaScript, Python, React, etc.
+        I create a final proyect appling the knowlege adquired in the Bootcamp.
+
+    - degree: Course "Tools for Programming Queries with SQL"
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo:
+      time: 2024 - 2024
+      details: |
+        Intermediate course about programming with SQL Server.
+        Use Joins, Sub-queries, Stored Procedures, Triggers, etc.
+
+    - degree: Data Science and IA Bootcamp
+      university: Universidad del Desarrollo
+      # optional
+      university_logo:
+      time: 2023 - 2024
+      details: |
+        I learned topics about Visualization Data, Machine Learning, Deep Learning, Exploratory Data Analys (EDA), Statistical Methods, etc.
+        I learned about Python, Plotly, Seaborn, Tensorflow, Pytorch, Scikit-learn, Scipy, Pandas, Numpy, Etc.
+        Deployment and development of APIs to put a machine learning model into production.
+
+    - degree: Course "Power BI Intermediate Tools for Data Analysis"
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo:
+      time: 2023 - 2023
+      details: |
+        Intermediate course about Microsoft Power BI.
+        Use DAX, Calculate, Measures, Power Query, etc.
+
+    - degree: Diploma in Planning and Cost Control
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo:
+      time: 2021 - 2022
+      details: |
+        Diploma about Project Management and the evaluation of the costs of his life cicle.
+        Costs estimation, costs management acounting, costs of process, EVA curve, etc.
+
+    - degree: Agricultural Engineer
+      university: Pontificia Universidad Católica de Chile
+      # optional
+      university_logo:
+      time: 2009 - 2014
+      details: |
+    
+# Your previous job experiences or volunteer
+experiences:
+    - role: Data Scientist and Full Stack Development.
+      time: 2024 - Present
+      company: MyWacc, Santiago, Chile
+      # optional
+      company_logo:
+      details: |
+        Non Supervised Model Optimization using A/B testing, creating clusters of companies in a benchmarking project.
+        I created advanced visualizations with plotly and seaborn based in a financial data set to obtain strategical insigths.
+        Web scraping of financial information and save it in a SQL data base using Selenium and BeautifulSoup.
+
+    - role: Analyst
+      time: 2025 - 2025
+      company: ""
+      # optional
+      company_logo: ""
+      details: |
+        Freelance work in the retail sector.
+        Data analysis and visualizations in Excel provided insights into pricing, products, and brand and category positioning on shelves, with the goal of optimizing the assortment and distribution strategy for the planning of a new convenience store.
+
+    - role: Agricultual Manager
+      time: 2022 - 2023
+      company: Agricola Eureka, Chimbarongo, Chile
+      # optional
+      company_logo:
+      details: |
+        Agricultural Manager in organic cherry orchard
+
+    - role: QA Inspector
+      time: 2021 - 2021
+      company: Decofrut SA, Philadelphia, USA
+      # optional
+      company_logo:
+      details: |
+        Quality Inspector of fresh fruit in the ports of Philadelphia and Delaware.
+
+    - role: Agricultual Manager
+      time: 2016 - 2020
+      company: Agricola Tres Puertas, Melipilla, Chile
+      # optional
+      company_logo:
+      details: |
+        Agricultural Manager in production Almond orchard.
+        Production of 1.200 kg/ha aprox. in trees at 5 years old.
+     
+# Your project portfolio
+projects:
+      - title: curriculum-vitae
+        # optional
+        project_logo: ""
+        link: https://github.com/gcruzbull/curriculum-vitae
+        tagline: "A basic HTML and CSS static page to show my CV in my GitHub repository"
+
+      - title: Proyect_7_Bootcamp_UDD
+        # optional
+        project_logo: ""
+        link: https://github.com/gcruzbull/Proyect_7_Bootcamp_UDD
+        tagline: "Deployment in production of supervised machine learning project with the goal of predict the rating of new apps in google store."
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: Flask
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Webscraping (Selenium, BeautifulSoup)
+        level: 50%
+
+      - name: Power BI
+        level: 70%
+
+      - name: SQL Server.
+        level: 70%
+
+      - name: Microsoft Azure.
+        level: 30%
+
+      - name: Excel.
+        level: 85%
