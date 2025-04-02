@@ -1,0 +1,51 @@
+# Personal Information
+basic_info:
+  full_name: Paula Andrea Orjuela Vera
+  motto: "Is Not Over Until I Win"
+  focus: "One Percent Better Every Day"
+  summary: |
+    Apasionada por el aprendizaje continuo y la optimización de procesos a través de datos y tecnología. 
+    Actualmente, estoy desarrollando una página web para una tienda de indumentaria para motos, combinando 
+    mi interés en la tecnología con el comercio digital. Me adapto con facilidad a nuevos entornos, disfruto 
+    trabajar en equipo y siempre busco mejorar mis habilidades para aportar valor en cada proyecto.
+  avatar: "" # Agrega el enlace si tienes una imagen de perfil.
+
+# Contact Information
+  email: "" # Agrega tu correo electrónico.
+  phone: "" # Agrega tu número de contacto.
+  website: "" # Agrega tu página web si tienes una.
+  linkedin: "" # Agrega tu perfil de LinkedIn.
+  github: "" # Agrega tu usuario de GitHub.
+  twitter: "" # Agrega tu usuario de Twitter.
+
+# Languages
+languages:
+  - idiom: "Español"
+    level: "Nativo"
+  - idiom: "Inglés"
+    level: "Profesional"
+
+# Interests and Hobbies
+interests:
+  - item: "Ciencia de datos"
+  - item: "Finanzas y análisis de datos"
+  - item: "Desarrollo web"
+  - item: "Aprender nuevas herramientas tecnológicas"
+  - item: "Trabajo en equipo y liderazgo"
+
+# Education
+education:
+  - degree: "Ingeniería Financiera"
+    university: "" # Agrega el nombre de tu universidad.
+    status: "En curso"
+    details: |
+      Adquiriendo conocimientos en mercados financieros, gestión de riesgos, análisis de inversiones 
+      y estrategias para la toma de decisiones basadas en datos.
+
+  - degree: "Diplomado en Data Science y Machine Learning"
+    institution: "" # Agrega el nombre de la institución.
+    status: "En progreso"
+    details: |
+      Desarrollo de habilidades en análisis de datos, modelado predictivo y herramientas como Power BI y Python. 
+      Enfocado en la aplicación de ciencia de datos en el sector financiero, con un enfoque en la optimización 
+      de procesos y la toma de decisiones estratégicas.
