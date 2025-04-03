@@ -1,0 +1,49 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maria
+    last_name: Carlucci
+    
+    # Define yourself in 4-5 words
+    motto: In continuous learning
+    
+    # Focus
+    focus: Seek well-being
+    
+        
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Maria-Carlucci
+    
+    twitter: @MariaACarlucci
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Italian
+        level: Basic
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Cooking
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
