@@ -1,0 +1,60 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Mauro
+    last_name: Procopio
+    motto: Work hard in silence and let your success make noise
+    focus: Coding fundamentals
+    summary: |
+      I am an IT professional with over 15 years of experience. 
+      From software development to system and network administration. 
+    avatar: https://i.namu.wiki/i/OaeG8pHyUHj90lsIQLfIC1ruYFUrdWxxC2IWciGFbzCoVMtnrcnXRSiDkOO_hJsTM-GfUls_ykyX72AcvXezrw.webp
+    website: sofltight.com.ar
+    linkedin: https://www.linkedin.com/in/itbuddy/?locale=en_US
+    github: mouleen
+    languages:
+        - idiom: English
+          level: Professional
+        - idiom: Spanish
+          level: Native
+    interests:
+        - item: Spinning
+        - item: Snowboarding
+education:
+    - degree: A lot of study
+      university: Un par
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: some time ago
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Developer
+      time: 2014 - Present
+      company: Softlight
+      company_logo: https://softlight.com.ar/images/logo-softlight-blanco.png
+      details: |
+        Tons of developments
+          - Tons of projects
+          - Great business
+skills:
+    toolset:
+        - name: Symfony & PHP
+          level: 85%
+        - name: JavaScript & jQuery
+          level: 80%
+        - name: Angular
+          level: 80%
+        - name: HTML5 & CSS
+          level: 95%
+        - name: Vue.js
+          level: 85%
+        - name: Docker & Git
+          level: 90%
