@@ -1,0 +1,119 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mauro
+    last_name: Procopio
+    
+    # Define yourself in 4-5 words
+    motto: Work hard in silence and let your success make noise    
+
+    # Focus
+    focus: Coding fundamentals
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am an IT professional with over 15 years of experience. 
+      From software development to system and network administration. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.namu.wiki/i/OaeG8pHyUHj90lsIQLfIC1ruYFUrdWxxC2IWciGFbzCoVMtnrcnXRSiDkOO_hJsTM-GfUls_ykyX72AcvXezrw.webp
+
+    # Contact Information
+    # email: limauropro@gmail.com #optional
+    # phone: 234 2342 342 #optional
+    website: sofltight.com.ar #optional
+    linkedin: https://www.linkedin.com/in/itbuddy/?locale=en_US
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/mouleen
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Spinning
+
+      - item: Snowboarding
+
+
+# Your previous education
+education:
+    - degree: A lot of study
+      university: Un par
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: some time ago
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Developer
+      time: 2014 - Present
+      company: Softlight
+      # optional
+      company_logo: https://softlight.com.ar/images/logo-softlight-blanco.png
+      details: |
+        Tons of developments
+          - Tons of projects
+          - Great business
+
+   
+skills:
+    toolset:
+      - name: Symfony & PHP
+        level: 85%
+
+      - name: JavaScript & jQuery
+        level: 80%
+
+      - name: Angular
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Vue.js 
+        level: 85%
+
+      - name: Docker & Git
+        level: 90%
