@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "gray"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: De Yavorsky
+    
+    # Define yourself in 4-5 words
+    motto: Alea Iacta Est.
+    
+    # Focus
+    focus: Learning Each Day a Little Bit More About The World That Surrounds Us.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Psychologist, turned Interpreter now turned Full-Stack Developer!
+      Can interpret languages, minds and codes!
+      Will be an amazing addition to your team!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://asset.brandfetch.io/idd_jh_3Hq/idhhtu8T9K.jpeg?updated=1687724356779
+
+    # Contact Information
+    email: traledeyavorsky@gmail.com #optional
+    phone: +34 613 502 876 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/alejandro-de-yavorsky/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Alexanderer159
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Billingual - C2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Hiking
+
+      - item: Movies/Series
+
+# Your previous education
+education:
+    - degree: B.A. Psychology w. Minor in educational Psychology
+      university: Universidad Metropolitana
+      # optional
+      university_logo: https://asovac.org/wp-content/uploads/2023/10/Logo-unimet-6.png
+      time: 2018 - 2022
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Interpreter
+      time: 2024 - 2025
+      company: Inter-American Global Solutions - Propio
+      # optional
+      company_logo: https://propio.com/wp-content/uploads/2022/12/Propio-Logo-2C-Navy-1500-x-456.png
+
+    - role: Manager
+      time: 2023 - 2024
+      company: BoxNCase
+      # optional
+      company_logo: https://storage.googleapis.com/mmstudio-images/gallery/IwMKyp4pNhectE5QE9BbhS41tgx2/1695191153434-0.jpeg
+      
+    - role: NASA (New Age Super Ads)
+      time: 2020 - 2025
+      company: Computer Technician
+
+# Your project portfolio
+projects:
+    intro: >
+      This is my road as a Full-stack developer
+      For more information, please check my github!
+
+    assignments:
+      - title: Landing Page - "Generus"
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Alexanderer159/Responsive-Landing-Page"
+        tagline: "A responsive website template of a fictional nightclub"
+
+skills:
+    toolset:
+      - name: HMTL5 & CSS
+        level: 60%
+
+      - name: JavaScript
+        level: 30%
