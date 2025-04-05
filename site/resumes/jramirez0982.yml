@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julian Andres
+    last_name: Ramirez Ramirez
+    
+    # Define yourself in 4-5 words
+    motto: Todo lo puedo en Dios, fe que todo llega
+    
+    # Focus
+    focus: faith - Belief
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy Ingeniero Electronico, magister en ciencias computacionales y telecomunicaciones.
+      Soy altamente responsable, proactivo, con capacidad de análisis y experiencia en liderazgo y motivación 
+      de equipos de trabajo; poseo alta capacidad de aprendizaje y habilidades de gestion basada en metodologías ágiles
+
+
+      Soy especialista en Project Management y especialista en automática. me apasiona la tecnologia y me 
+      preparo para los desafios profesionales que se avecinan 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/foto_1.jpg
+
+    # Contact Information
+    email: julian.ramirez2507@gmail.com #optional
+    phone: +57 3113770557 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/julian-andres-ramirez-ramirez-2b492053 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jramirez0982
+    
+    twitter: 'Julian_Ramirezr' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Intermedio B1
+
+         
+    # Interests or hobbies
+    interests:
+      - item: Tecnología
+
+      - item: Música
+
+      - item: Lectura
+
+# Your previous education
+education:
+    - degree: MSc en Ciencias Computacionales
+      university: Universidad Tecnologica Latinoamericana en Linea
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2023
+      details: |
+        Ciencias computacionales con enfoque en inteligencia artificial y computacion evolutiva.
+        Trabajo de grado en diseño de redes neuronales para analisis de señales Electroencefalográficas        
+
+    - degree: Especialista en automática
+      university: Universidad Pontificia Bolivariana
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2018
+      details: |
+        Estudio de postgrado enfocado en automatización de procesos usando algoritmos de logica difusa aplicada
+        a sistemas no lineales
+
+    - degree: Especialista en Gerencia de Proyectos
+      university: Institucion Universitaria Esumer
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+  
+    - degree: Ingeniero Electrónico
+      university: Universidad Nacional de Colombia
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2000 - 2005
+      details: |
+        Estudios de ingenieria electrónica con enfasis en procesamiento digital de señales
+          
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Jefe de Operaciones
+      time: 2023 - presente
+      company: Estilo Ingeniería, Colombia.
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Coordinar tecnica, administrativa y financieramente los procesos de mantenimiento y 
+        modernización técnologica de ascensores y escaleras electricas en las regiones de Antioquia y el eje cafetero
+        en Colombia
+
+          - Bullet point
+          - Bullet point
+
+    - role: Ingeniero de proyectos
+      time: 2019 - 2022
+      company: Aeronáutica Civil de Colombia
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Formulación y evaluación técnica y financiera diferentes proyectos 
+        orientados a mejorar la infraestructura tecnológica para la aeronavegación en el espacio aereo colombiano
+
+    - role: Superintendente Técnico
+      time: 2007-2019
+      company: Otis Elevator Company, Colombia
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Coordinar tecnica, administrativa y financieramente los procesos de mantenimiento y 
+        modernización técnologica de ascensores y escaleras electricas en las regiones de Antioquia y el eje cafetero
+        en Colombia.
+
+# Your project portfolio
+projects:
+    
+skills:
+    toolset:
+      - name: Python & Django
+        level: 15%
+
+      - name: JavaScript 
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 10%
+
+      - name: Matlab
+        level: 50%
+
+      - name: Agil methodologies
+        level: 60%
