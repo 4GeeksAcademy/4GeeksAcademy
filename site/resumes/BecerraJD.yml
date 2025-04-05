@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesús
+    last_name: Becerra
+    
+    # Define yourself in 4-5 words
+    motto: Soy Creativo, reflexivo y constantemente buscando retos
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un apasionado de la innovación y la creatividad. Con una sólida experiencia en programación, diseño y ventas, me encanta transformar ideas en proyectos únicos y funcionales. 
+      Me esfuerzo por encontrar enfoques frescos para cada desafío, combinando mis habilidades técnicas con una visión creativa. 
+      Busco anticipar las necesidades del cliente y crear soluciones que no solo sean efectivas, sino también innovadoras. 
+      Mi enfoque no solo busca resultados, sino también generar impacto, y siempre con el objetivo de mejorar tanto los productos como la experiencia del usuario.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/123646065?s=400&u=039dd3d1afd825026f57fdc51543adcc865c918a&v=4
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BecerraJD
+    
+    #twitter: 'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermediate
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Music
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor of Science in Natural Sciences
+      university: Instituto Educativo Humanitas
+      # optional
+      university_logo:
+      time: 2012 - 2018
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Seller
+      time: 2024 - Present
+      company: Southbay S.R.L - Nike, Argentina
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4D0BAQHCvUPd3RVdPA/company-logo_200_200/company-logo_200_200/0/1733502078649/southbay_arg_uru_logo?e=2147483647&v=beta&t=Es81iOOJOG8GyFhb96vSxiHmUu8BwaLCm6TvDWQOCNA
+      details: |
+        Atención al cliente, manejo de mercadería, recepción e ingreso de productos en Stock para la tienda. Mayormnete control de Depósito, procesando y controlando mercadería y cargando remitos a recibir en el local.
+        
+# Your project portfolio
+projects:
+    intro: >
+      A continuación presento un listado de algunos repositorios de proyectos realizados hasta la fecha.
+
+    assignments:
+      - title: Instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/Jesus-Becerra_instagram_photo_feed
+        tagline: "Feed Instagram."
+
+      #- title: DevStudio
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      #- title: Tempo
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      #- title: Atom
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      #- title: Delta
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#"
+        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 40%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      #- name: Angular
+        #level: 98%
+
+      - name: HTML5 & CSS
+        level: 55%
+
+      #- name: Ruby on Rails
+        #level: 85%
+
+      - name: Sketch & Photoshop
+        level: 70%
