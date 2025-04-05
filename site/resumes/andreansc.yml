@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andrea
+    last_name: Nolasco
+    
+    # Define yourself in 4-5 words
+    motto: I like to be curious, creative, adaptive, friendly.
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a passionate professional in software development and innovative technological solutions. Throughout my career, I have worked on high-impact projects, always aiming to optimize processes and deliver quality products. My focus is on creating exceptional user experiences and scalable solutions, working closely with multidisciplinary teams to achieve common goals. My goal is to continue growing, learning new technologies, and contributing my experience to challenging projects in a dynamic environment.
+    
+     # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ant.andreansc@gmail.com #optional
+    phone: 5564689593 #optional
+    linkedin: www.linkedin.com/in/andrea-nolasco #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AndreaNsc
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+      - idiom: French
+        level: Beginner
+
+    # Interests or hobbies
+    interests:
+      - item: Board games
+
+      - item: video games
+
+      - item: Runing
+# Your previous education
+education:
+    - degree: Full stack developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025
+      details: |
+        Intensive program covering both front-end and back-end development, focusing on building dynamic and scalable web applications.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Created a personal portfolio website to showcase projects, skills, and experience.
+
+    assignments:
+      - title: Digital Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/AndreaNsc/exercise-postcard.git"
+        tagline: "The project that was created in HTMl & CSS."
+
+      - title: Post Instragram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/AndreaNsc-Post-Instagram.git"
+        tagline: "The project that was created in HTMl & CSS."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 30%
