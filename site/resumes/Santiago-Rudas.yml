@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Santiago
+    last_name: Rudas
+    
+    # Define yourself in 4-5 words
+    motto: Apasionado, creativo, bromista, perseverante, comprometido.
+    
+    # Focus
+    focus: Learn to create amazing and impressive websites that break the mold and tradition.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona apasionada, creativa e ingeniosa, con formación en diseño gráfico y un nuevo enfoque en el desarrollo web full stack. 
+      Empecé en la programación buscando libertad, crecimiento profesional y estabilidad, pero terminé encontrando una verdadera
+      pasión por crear soluciones funcionales y bien pensadas desde cero.
+
+      Aunque mi carácter puede parecer serio, soy Bromista, con buen sentido del humor y muy comprometido/a cuando conecto con los demás. Me inspiran la música, el arte y los desafíos que requieren lógica. 
+      Hoy combino mi sensibilidad visual con pensamiento estructurado para construir experiencias digitales que sean tanto útiles como únicas.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: srudasramos@gmail.com #optional
+    phone: +507 6807 0424 #optional
+    website: https://santiago-rudas.github.io/web/ #optional
+    linkedin: santiagorudas #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Santiago-Rudas
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermediate
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Technology
+      
+      - item: Design
+
+      - item: Arte
+
+# Your previous education
+education:
+    - degree: Técnico Auxiliar en Desarrollo Web (Frontend y Backend)
+      university: Universidad Católica Santa María La Antigua
+      # optional
+      university_logo: https://i0.wp.com/usma.ac.pa/wp-content/uploads/2020/06/2019-NUEVO-COLOR-LOGO-VERTICAL-OFICIAL-ESCUDO-USMA.png?ssl=1
+      time: 2024 - 2024
+      details: |
+        Duración 520 horas de capacitación.
+        Objetivos:
+        •Aplicar conocimientos en HTML,CSS y Javascript.
+        •Uso de frameworks modernos y tecnico de diseño responsive.
+        •Manejo basico de servidores, base de datos y leguajes backend.
+        uso de tecnologias como typescrip, angular, nodejs, mongodb.
+        •Desarrollar habilidades para crear aplicaciones web completas (full stack).
+
+          - approved with A+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Diseñador gráfico
+      time:  March 2024 - March 2025
+      company: Printhub Panama
+      # optional
+      company_logo: 
+      details: |
+        me desempeñaba como Diseñador Gráfico en una empresa especializada en la impresión de vallas publicitarias. 
+        Mi función principal era diseñar y revisar los artes gráficos, asegurándome de que cumplieran con los requisitos 
+        establecidos por los clientes. Además, tenía la responsabilidad de supervisar todo el proceso de impresión, 
+        incluyendo la corrección de posibles problemas de color. En caso de que surgieran inconsistencias en la reproducción 
+        de los colores, me encargaba de realizar los ajustes necesarios tanto en el diseño como en los equipos, hasta alcanzar 
+        el tono exacto solicitado por el cliente.
+
+        Otra de mis responsabilidades era gestionar la correcta solicitud de materiales e insumos requeridos para los proyectos, 
+        garantizando que estuvieran disponibles en el momento adecuado. También era responsable del mantenimiento preventivo 
+        y calibración de los equipos de impresión, asegurando su óptimo funcionamiento para que cada proyecto se entregara con 
+        la más alta calidad.
+
+    - role: Diseñador gráfico
+      time: 1 years
+      company: HONGOS IMPRESIONES S.A
+      # optional
+      company_logo: 
+      details: |
+        Diseño Gráfico en general, publicitación, pre-prensa, preparar los artes de proyecto para cada departamento a 
+        ejecutarse (impresión plotter y offset, serigrafía, dimensionar para rotulaciones y packing)
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Portfolio
+        # optional
+        project_logo:
+        link: "https://github.com/Santiago-Rudas/web"
+        tagline: "A responsive website about me."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: junior
+
+      - name: JavaScript & jQuery
+        level: 50%
+
+      - name: Angular
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Bootstrap
+        level: 50%
+
+      - name: Ilustrator & Photoshop
+        level: 90%
