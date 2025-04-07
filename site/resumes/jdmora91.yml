@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose
+    last_name: Mora
+    
+    # Define yourself in 4-5 words
+    motto: A man is only as good as his word.
+    
+    # Focus
+    focus: someday be an Epic Game developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a passionate and hardworking full stack developer in training, with a strong foundation in cybersecurity, currently completing the Google Cybersecurity Certificate.
+
+      My journey has not been easy — I made the life-changing decision to move to the United States, leaving everything behind in my home country to pursue a better future. I’ve worked hard every day to improve not only my technical skills but also my English, my mindset, and my ability to adapt and thrive.
+
+      I’m driven by a deep love for technology, problem-solving, and creativity. My dream is to become an excellent developer and one day work at Epic Games, contributing to projects that inspire millions.
+
+      I bring with me determination, resilience, and a growth mindset. Whether I’m learning new technologies or pushing through challenges, I stay focused on my goal: to build secure, high-impact solutions and become a valuable part of any development team.
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: J.Donismora@gmail.com #optional
+    phone: 561 895 4849 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/jose-donis-mora-ramirez-870284321 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jdmora91
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: spanish
+        level: Native
+
+      - idiom: ENGLISH
+        level: Avanzado
+
+
+    # Interests or hobbies
+    interests:
+      - item: video games
+
+      - item: Soccer
+
+      - item: Cooking
+
+      - item: Traveling
+
+# Your previous education
+education:
+    - degree: FullStack Web Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2023
+      details: |
+        The Full Stack Developer program at 4Geeks Academy is an intensive, hands-on training course designed to equip students with the skills needed to build and maintain web applications. 
+        The curriculum covers both front-end and back-end development, including HTML, CSS, JavaScript, databases, and server-side programming. 
+        Students engage in real-world projects, collaborative coding, and problem-solving exercises to prepare for careers in software development. 
+        The program emphasizes practical experience, teamwork, and a deep understanding of the software development lifecycle. 
+# Your previous job experiences or volunteer
+experiences:
+    - role: Medical Record Technician
+      time: 2013 - 2022
+      company: CCSS Caja Costarricense de Seguro Social
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/a/a5/Logo-CCSS-CostaRica-negro.png
+      details: |
+        Responsible for organizing, updating, and safeguarding patient medical records.
+        Ensures accuracy, confidentiality, and compliance with health regulations.
+        Collaborates with medical staff to provide timely access to clinical information.
+        Manages both physical files and electronic health record (EHR) systems.
+
+
+
+    - role: asbeto remove construction
+      time: 2023 - 2025
+      company: EPS enviroment
+      # optional
+      company_logo:
+      details: |
+        Safely remove and dispose of asbestos-containing materials following state and federal regulations.
+        Set up containment areas to prevent contamination and ensure worker safety.
+        Use protective equipment (PPE) and specialized tools during removal processes.
+        Perform air monitoring and clean-up to meet environmental safety standards.
+        Follow OSHA, EPA, and Minnesota Department of Health guidelines strictly.
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: post-instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Jdmora91/jdmora91-post-instagram.git
+        tagline: "My first project, an Instagram post for 4Geeks. Very happy to accomplish it"
+
+
+skills:
+    toolset:
+      - name: Photogtraphy
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 35%
+
+     
