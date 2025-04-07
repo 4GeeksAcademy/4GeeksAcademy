@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Trinidad
+    last_name: Pinto
+    
+    # Define yourself in 4-5 words
+    motto: Construyendo mi camino profesional
+    
+    # Focus
+    focus: Aprendiendo desarrollo de software
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Soy una persona apasionada por la tecnología, siempre en busca de nuevos conocimientos y con la firme convicción de que el crecimiento profesional es un proceso continuo. Aunque no he trabajado formalmente en el sector, he completado proyectos usando tecnologías como HTML5, CSS3 y Bootstrap5, que he dominado rápidamente en mis estudios. También tengo experiencia en Python, que aprendí durante mi tiempo en la universidad. Mi objetivo es seguir desarrollándome como desarrolladora full stack y contribuir con soluciones innovadoras al mundo del software.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: trinidadpintoleon@gmail.com #optional
+    phone: 9 3123 1654 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: TrinidadPinto
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Profesional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+      - item: Cine
+
+      - item: Cocinar
+
+# Your previous education
+education:
+
+# Your previous job experiences or volunteer
+experiences:
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
