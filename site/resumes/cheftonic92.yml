@@ -1,0 +1,150 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Antonio
+    last_name: Barroso Sáez
+    
+    # Define yourself in 4-5 words
+    motto: And I'm Feeling Good
+    
+    # Focus
+    focus: Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Full Stack Developer with experience on JS, HTML, CSS, React, Kotlin and Jetpack Compose.
+      Improving my tech and soft skills. Looking to work on projects thath make me proud.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/chef_profile.jpg
+
+    # Contact Information
+    email: ab.saez.1992@gmail.com #optional
+    phone:  #optional
+    website: https://www.devtonic.es/ #optional
+    linkedin: https://www.linkedin.com/in/antonio-barroso-s%C3%A1ez-895811ba/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: cheftonic92
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: English
+        level: Native
+
+      - idiom: Portuguese
+        level: Basic
+
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Music
+
+      - item: Cine & TV
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: CFGS Desarrollo de Aplicaciones Multiplataforma
+      university: Ilerna
+      # optional
+      university_logo: 
+      time: 2022 - 2024
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Junior Full Stack Developer
+      time: 2024
+      company: Escape Campus
+      # optional
+      company_logo: 
+      details: |
+        Desarrollo de páginas y aplicaciones WEB. 
+        Apoyo en la creación, mantenimiento (HTML, CSS, Bootstrap, Javascript, React.js, React Native, PHP).  
+        UI/UX: Colaboración con el equipo de diseño en la creación de interfaces de usuario.  Creación de APIs en PHP. 
+        Creación de componentes en React.js 
+        Uso de Git y Github para manejar el control de versiones y el trabajo en equipo.
+
+    - role: Full Stack Developer
+      time: 2024 
+      company: Freelance
+      # optional
+      company_logo: 
+      details: |
+        Desarrollo de e-commerce para www.zialtcg.com. (Wordpress) 
+          - Esqueleto de la web con elementor y css.  
+          - Seguimiento del cliente. 
+          - Mantenimiento.
+
+    
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 68%
+
+      - name: bootstrap
+        level: 68%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: React
+        level: 65%
+
+      - name: Figma
+        level: 60%
