@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Carolina
+    last_name: Perez
+
+    motto: I like programming websites and video games
+
+    focus: Be a programmer
+
+    summary: |
+      I am passionate about building end-to-end solutions, combining my skills in both front-end and back-end development to create efficient, scalable applications that solve real-world problems and enhance user experiences.
+
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    email: carolina.peseca@gmail.com
+    phone: 234 2342 342
+    website: https://github.com/KarolFrame
+    linkedin: https://www.linkedin.com/in/carolina-p%C3%A9rez-segura?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+
+    github: KarolFrame
+
+    twitter: 'webjeda'
+    stack-overflow:
+
+    languages:
+      - idiom: English
+        level: Medium
+      - idiom: Spanish
+        level: Native
+
+    interests:
+      - item: Reading
+      - item: Sport
+      - item: Rubicks cubes
+
+education:
+    - degree: CFGS - 3D Animations, Video Games, and Interactive Environments
+      university: UDIT
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        A higher vocational education program focused on creating 3D art, animation, and interactive applications. Topics included modeling, texturing, animation, and scripting, with hands-on projects using Unity and 3DS Max.
+
+          - Learned industry-standard tools like 3DS Max and Unity.
+          - Developed interactive prototypes and video game environments.
+
+    - degree: Higher National Diploma in Video Game Design and Interactive Content
+      university: UDIT
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        A multidisciplinary program covering video game design, storytelling, and user experience. The program emphasized creativity and technical skills, including level design, game mechanics, and visual design.
+
+          - Created several design documents and game prototypes.
+          - Participated in collaborative development of interactive content.
+
+experiences:
+    - role: Lead Programmer & Game Designer
+      time: 2023 - Present
+      company: Colors Room
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Responsible for the design and programming of innovative video games such as VERONICA, Echoes of Night, and Golden Carrot, developed using Unity and Unreal Engine. Tasks include creating gameplay mechanics, optimizing game systems, and implementing tools to enhance user experience. Collaborates closely with multidisciplinary teams to plan and execute creative projects.
+
+    - role: 3D Artist
+      time: 2022 - 2022
+      company: Jump into Reality
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Responsible for creating 3D models for virtual environments using 3DS MAX. Specialized in modeling and texturing detailed elements for immersive applications, ensuring optimal visual quality for technologically advanced projects.
+
+    - role: Instructor and Methodology Coordinator
+      time: 2022 - Present
+      company: Amazon, London
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Coordinate teaching methodologies and provide technical instruction in programming and design. Mentor students and evaluate educational practices to improve learning outcomes.
+
+          - Designed and implemented interactive coding sessions.
+          - Organized team-based learning projects.
+
+projects:
+    intro: >
+      Below is a selection of projects I've developed, either independently or as part of a team. These projects reflect my passion for web development and game design.
+
+    assignments:
+      - title: Personal CV Website
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://carolina-perez-cv.netlify.app"
+        tagline: "A responsive personal website built with HTML, CSS, and JavaScript, showcasing my experience and projects."
+
+      - title: Game Portfolio Page
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://carolina-perez-portfolio.netlify.app/"
+        tagline: "A web page featuring detailed information and visuals from my indie video games, developed using HTML/CSS/JS."
+
+      - title: Echoes of Night
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://karolframe.itch.io/echoes-of-night"
+        tagline: "A 2D platformer developed in Unity with C#, set in a dark world where you collect star fragments to restore light."
+
+      - title: VERONICA
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://colorsroom.itch.io/veronica"
+        tagline: "A 3D horror game made in Unity with C#, featuring immersive environments and psychological suspense."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 98%
+      - name: CSS
+        level: 98%
+      - name: JS
+        level: 98%
+      - name: C#
+        level: 95%
+      - name: Unity
+        level: 100%
+      - name: Unreal
+        level: 80%
