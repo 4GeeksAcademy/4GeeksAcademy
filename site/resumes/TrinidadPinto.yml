@@ -1,0 +1,45 @@
+---
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Trinidad
+  last_name: Pinto
+  motto: Construyendo mi camino profesional
+  focus: Aprendiendo desarrollo de software
+  summary: >
+    Soy una persona apasionada por la tecnología, siempre en busca de
+    nuevos conocimientos y con la firme convicción de que el crecimiento
+    profesional es un proceso continuo. Aunque no he trabajado formalmente en el
+    sector, he completado proyectos usando tecnologías como HTML5, CSS3 y
+    Bootstrap5, que he dominado rápidamente en mis estudios. También tengo
+    experiencia en Python, que aprendí durante mi tiempo en la universidad. Mi
+    objetivo es seguir desarrollándome como desarrolladora full stack y
+    contribuir con soluciones innovadoras al mundo del software.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: trinidadpintoleon@gmail.com
+  phone: 9 3123 1654
+  github: TrinidadPinto
+
+education:
+    - degree: MSc in Computer Science
+      university: University of London
+      time: 2022 - 2023
+
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section.
+    assignments:
+      - title: Velocity
+        tagline: "blablabla" 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
