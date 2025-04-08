@@ -1,0 +1,17 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  name: Sergio Padilla
+  tagline: Full Stack Developer and Cybersecurity SOC Analist
+  
+  email: spadillam@gmail.com
+  phone: +34640635746
+  linkedin: www.linkedin.com/in/sergio-padilla-mogollón-775771295
+  github: padyy23
+
+  languages:
+
+  - idiom: Spanish
+    level: native
