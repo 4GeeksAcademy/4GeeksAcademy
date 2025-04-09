@@ -1,0 +1,39 @@
+---
+template: online-cv
+skin: black
+basic_info:
+  first_name: Andres
+  last_name: Moreno
+  motto: La curiosidad guia mi vida
+  focus: Completar el bootcamp para conseguir trabajo y luego parender cyberseguridad
+  summary: >
+    Me gustan los puzzles y los desafios. Por eso mismo tengo un muy grande
+    interes en la tecnologia, mi finalidad es aprender sobre cyberseguridad.    
+  email: pipesala0916@gmail.com
+  phone: 3023592946
+  website: null
+  linkedin: null
+  github: Blacklottus-09
+  twitter: null
+  stack-overflow: blacklottus
+  languages:
+    - idiom: Español
+      level: Native
+    - idiom: English
+      level: C1
+    - idiom: portugues
+      level: Medium
+  interests:
+    - item: video juegos
+    - item: acertijos y puzzles
+    - item: lectura
+education:
+  - degree: bachiller
+    university: Liceo Contadora
+experiences:
+  - role: Customer service associate
+    time: october 2024 - april 2025
+    company: Teleperformance
+  - role: Customer service associate
+    time: september 2023 - july 2024
+    company: Concentrix
