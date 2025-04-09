@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Albert
+    last_name: Cabrera
+    
+    # Define yourself in 4-5 words
+    motto: Disciplinado, alegre, creativo, analítico, aventurero. 
+    
+    # Focus
+    focus: Creando un mondo digital y sostenible
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Creativo con visión estratégica, especializado en planificación y resolución de problemas 
+      a través de ideas disruptivas e innovadoras. Empresario apasionado por las ideas que suman, 
+      transforman y mejoran el mundo. 
+
+      Lema: Analicemos más, comuniquemos mejor. 
+      Imaginación 360º con visión 20/20.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C4D03AQGUZYesSKkefA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1610882473717?e=1749686400&v=beta&t=KnIdsfpvKBJkrMB39MHNE2iSAfdpzKfogHK_httvWcA
+
+    # Contact Information
+    email: hello@elevacards.com #optional
+    phone: +584242074975 #optional
+    website: https://elevacards.com/ #optional
+    linkedin: albertdcm #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    Instagram: 'albertdcm' #optional
+    stack-overflow: https://www.instagram.com/albertdcm
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Intermedio
+
+    # Interests or hobbies
+    interests:
+      - item: Deportes
+
+      - item: Comida
+
+      - item: Peliculas
+
+# Your previous education
+education:
+    - degree: Publicidad y diseño gráfico
+      university: Universidad Alejandro de Humboldt
+      # optional
+      university_logo: https://www.unihumboldt.edu.ve/img/logo.png
+      time: 2011 - 2015
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: CEO Eleva
+      time: 2015 - Present
+      company: Startup Hubs, Caracas
+      # optional
+      company_logo: https://www.elevacards.com/uploads/settings/16/eleva_white.png
+      details: |
+        Empresa detecnología dedica a la elaboración de productos NFC + Qr, vinculados a una plataforma SaaS.
