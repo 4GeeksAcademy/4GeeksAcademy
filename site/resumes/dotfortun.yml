@@ -48,7 +48,6 @@ basic_info:
     # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
-        level: Native
 
       - idiom: French
         level: Professional
