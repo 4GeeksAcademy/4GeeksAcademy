@@ -1,0 +1,145 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Luis Enrique 
+  last_name: Perez Romero
+  motto: I will protect those who cannot protect themselves, Kaladin
+  focus: Journey before Destination
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+
+    Second paragraph if required.
+  avatar: data:image/jpeg;base64,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
+
+  email: thisisandemail@realemail.com
+  phone: 234 2342 342
+  website: https://nekoding.itch.io/dungeon-raiders
+  linkedin: work in progress
+  github: luper95
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Advanced    - 
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Game development
+    - item: Karate
+    - item: Foodie
+education:
+  - degree: work in progress
+    university: null
+    university_logo: https://static.cdn.cadena3.com/admin/playerswf/fotos/ARCHI_865584.png
+    time: null
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - degree: BSc in Applied Mathematics
+    university: Bristol University
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2007 - 2011
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+experiences:
+  - role: Lead Developer
+    time: 2020 - Present
+    company: Nekoding, Argentina
+    company_logo: https://cdn.vectorstock.com/i/500p/13/94/cat-cafe-logo-vector-29511394.jpg
+    details: |
+      We make broken games, someday we'll fix them.
+
+        - Broken games
+        - Work in progress
+        - Cat update coming soon
+  - role: Senior Software Engineer
+    time: 2014 - 2015
+    company: Google, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  - role: UI Developer
+    time: 2012 - 2014
+    company: Amazon, London
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Describe your role here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      Cum sociis natoque penatibus et magnis dis parturient montes,
+      nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      pellentesque eu, pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers
+        promote their mobile apps
+skills:
+  toolset:
+    - name: C#
+      level: 20%
+    - name: JavaScript 
+      level: 10%
+    - name: Angular
+      level: 1%
+    - name: HTML5 & CSS
+      level: 20%
+    - name: Ruby on Rails
+      level: 1%
+   
