@@ -1,0 +1,57 @@
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Sergio
+    last_name: Cortell Domingo
+
+    # Define yourself in 4-5 words
+    motto: Persona que le gusta la informatica
+
+    # Focus
+    focus: Aprendiendo constantemente todo tipo de ramas de la informatica
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Joven soporte N2 de redes en telefonica apasionado por seguir aprendiendo la mayor parte dentro de la informatica
+    
+    # Contact Information
+    email: scortelld1908@gmail.com #optional
+    phone: +34 645453214 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: SergioCortell
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+# Your previous education
+education:
+    - degree: Grado Medio TSMR
+      university: Universidad La Florida
+      # optional
+
+    - degree: Grado superior Redes
+      university: Universidad La Florida
+      # optional
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Soporte N2 de redes
+      time: 2023 - Present
+      company: Abai
+      # optional
+    - role: N1 de redes
+      time: abril 2022 - octubre 2023
+      company: Inelcom
+      # optional
