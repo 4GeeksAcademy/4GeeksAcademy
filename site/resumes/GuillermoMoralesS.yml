@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Guillermo 
+    last_name: Morales
+    
+    # Define yourself in 4-5 words
+    motto: Disciplina, constancia y perseverancia diaria.
+    
+    # Focus
+    focus: Mejorar día a día.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy graduado en Publicidad y Relaciones Públicas y cuento con un máster en Visitador Médico, con especial interés en el marketing, las ventas y la organización de eventos.
+      Mi trayectoria profesional ha estado marcada por la constancia y la perseverancia, desarrollándome en distintos sectores como la educación, la hostelería y los eventos.
+      Hablo francés con fluidez, tengo un nivel intermedio de inglés y manejo con soltura herramientas digitales. Me considero una persona organizada, resolutiva y con una fuerte orientación al trabajo en equipo.
+
+     
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: imagen fondo.jpg
+
+    # Contact Information
+    email: guillermorales2000@gmail.com #optional
+    phone: 682 388 267 #optional
+    linkedin: https://www.linkedin.com/in/guillermomoralessainz/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: GuillermoMOralesS
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Francés
+        level: Bilingüe
+
+      - idiom: Inglés
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Boxeo
+
+      - item: Natación
+
+      - item: Cocina
+
+# Your previous education
+education:
+    - degree: Master Visitador Médico 
+      university: Universidad Europea Miguel de Cervantes
+      # optional
+      
+      time: 2024
+      details: |
+        Cursé un máster en Visitador Médico en la Universidad Europea Miguel de Cervantes, donde adquirí conocimientos especializados en el sector farmacéutico, incluyendo técnicas de venta, comunicación con profesionales sanitarios y fundamentos del marketing farmacéutico. Esta formación me permitió fortalecer mis habilidades comerciales y mi enfoque estratégico en el ámbito de la salud.
+          - Bullet point
+          - Bullet point
+
+    - degree: Grado en Publicidad y Relaciones Públicas
+      university: Universidad Complutense de Madrid
+      # optional
+     
+      time: 2018 - 2023
+      details: Me gradué en Publicidad y Relaciones Públicas en la Universidad Complutense de Madrid, donde desarrollé una base sólida en comunicación, marketing y estrategias publicitarias. Durante mi formación, enfoqué mi Trabajo Final de Grado en el marketing farmacéutico en España, lo que marcó el inicio de mi interés por el sector salud y complementó mi perfil con una visión estratégica y especializada. |
+       
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Camarero
+      time: 2020 
+      company: Tommy Mel's
+      # optional
+      company_logo: 
+      details: |
+        Trabajé un año en el sector de la hoterlería.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Staff de sala en actuaciones musicales 
+      time: 2024-2025
+      company: Google, London
+      # optional
+      company_logo: 
+      details: |
+        Staff de sala en eventos y actuaciones musicales
+
+          - Bullet point
+          - Bullet point
+
+
+# Your project portfolio
+projects:
+    intro: >
+       Trabajando para ampliar mi porfolio.
+
+
+skills:
+  Resolución de problemas , Gestión eficiente del tiempo, Habilidades administrativas y organizativas
+  
+
+ 
