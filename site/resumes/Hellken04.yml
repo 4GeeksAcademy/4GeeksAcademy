@@ -1,0 +1,164 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Elkin
+    last_name: Rondon Amado
+    
+    # Define yourself in 4-5 words
+    motto: Patience and Balace
+    
+    # Focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My background in software engineering has allowed me to lead projects in the last 15 years,
+      in which the analysis of OTR (Mining and Construction) tire data very crucial,
+      to obtain its maximum performance through the study of the operating conditions of
+      customers and the meticulous monitoring of the life of each tire.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Foto_ERA.jpg
+
+    # Contact Information
+    email:  #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Hellken04
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Football Soccer
+
+      - item: Movies
+
+# Your previous education
+education:
+    - degree: Engineering Project Management Specialist
+      university: Universidad Distrital Francisco José de Caldas
+      # optional
+      university_logo: https://www.udistrital.edu.co/themes/custom/versh/logo.png
+      time: 2010 - 2011
+      details: |
+        Assessment and management of engineering projects, from the initial financial analysis, 
+        followed by the management of the projects in execution using project management tools 
+        such as MS Project, up to the final their final evaluation.
+
+    - degree: Software Engieneer
+      university: Universidad Distrital Francisco José de Caldas
+      # optional
+      university_logo: https://www.udistrital.edu.co/themes/custom/versh/logo.png
+      time: 2001 - 2009
+      details: |
+         Design and develop, software applications and data systems, using engineering principles and programming 
+         languages to create business applications that meets user needs. 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Technical Service Manager - Other Projects
+      time: 2017 - Present
+      company: CTLeo - Luis Estrada & Cia.
+      # optional
+      company_logo: https://www.ctleo.com.co/images/logo.png
+      details: |
+        Manage technical service activities and analyse OTR tires related data in mines like "FQM Minera Pamama", 
+        "Glencore Calenturitas and La Jagua Mines" and Sococo in Barrick Pueblo Viejo.
+
+        Additionally, taking advantage in my tire knowledge i was involved in the fine-tuning and final development
+        of ESTRADA software, which was developed to manage all the tire related data of the company. In this final stage,
+        we also developed several Power BI dashboards to ease the data analysis. 
+
+    - role: Service and Maintenance Contract Manager
+      time: 2015 - 2017
+      company: CTLeo - Luis Estrada & Cia.
+      # optional
+      company_logo: https://www.ctleo.com.co/images/logo.png
+      details: |
+        Manage OTR tires repair and maintenance contract in "Glencore's Cerrejon Mine", 
+        leading around 100 technicians to obtain the best performance of the tires. 
+        
+    - role: Data Analyst
+      time: 2012 - 2014
+      company: CTLeo - Luis Estrada & Cia.
+      # optional
+      company_logo: https://www.ctleo.com.co/images/logo.png
+      details: |
+        Analyse OTR tires related data (operational conditions, repairing and scrap data), 
+        in order to stablish strategies to improve tire performance in Glencore's Cerrejon Mine. 
+
+    - role: IT Manager / Full stack software developer
+      time: 2008 - 2012
+      company: CTLeo - Luis Estrada & Cia.
+      # optional
+      company_logo: https://www.ctleo.com.co/images/logo.png
+      details: |
+        Maintain all IT infractructure, and develop the Purchase Orders followup software (Order Track)
+        and CTLeo's first TMS (Tire Management System)
+
+# Your project portfolio
+projects:
+    intro: 
+      -Estrada Software (PHP, PBI and SQL)
+      -CTLeo TMS (Visual Studio.net C#, ASP.net, SQL Server, SQL2008 - Reporting Services)
+      -Order Track (Visual Studio.net, SQL Server)
+
+    assignments:
+      - title: Estrada Software
+        # optional
+        project_logo: https://www.ctleoestrada.com.co/estrada/principal/img/logofodors.png
+        link: "#hook"
+        tagline: "A responsive website designed to manage all data related to OTR Tires."
+
+      - title: CTLeo TMS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A Windows Mobile app, for manage OTR tire in Cerrejon Mine."
+
+      - title: Order Track
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Visual Studio.Net application for tracking all the orders made to Bridgestone OTR"
+
+skills:
+    toolset:
+      - name: PHP
+        level: 80%
+
+      - name: SQL
+        level: 90%
+
+      - name: Power Bi
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Visual Studio.Net
+        level: 80%
