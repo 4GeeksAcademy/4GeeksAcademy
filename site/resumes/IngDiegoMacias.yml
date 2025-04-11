@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego Fernando
+    last_name: Macías Mendoza
+    
+    # Define yourself in 4-5 words
+    motto: Persona apasasionada a los datos
+    
+    # Focus
+    focus: Aprendiendo constantemente en procesamiento de datos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Industrial con una base sólida en análisis de datos y gestión de recursos, complementada con experiencia en el seguimiento financiero y presupuestal de contratos. Demuestro gran dominio en ciencia de datos y machine learning, con enfoque desarrollo de aplicaciones prácticas de estas habilidades para la resolución de problemas, como en proyecto el proyecto "Home Humidity AI", del cual lideré la validación y evaluación del rendimiento del modelo predictivo, utilizando mis conocimientos en machine learning para dar recomendaciones para mejorar la calidad del aire en el hogar. Mi enfoque se centra en la aplicación de técnicas avanzadas de análisis de datos para la toma de decisiones estratégicas y la mejora de la eficiencia en proyectos innovadores. 
+    
+    # Contact Information
+    email: ing.diego.macias@hotmail.com #optional
+    phone: +57 3102080011 #optional
+    linkedin: https://www.linkedin.com/in/ingdiegomacias #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: IngDiegoMacias
+   
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+# Your previous education
+education:
+    - degree: Ingeniería Industrial
+      university: Escuela Colombiana de Ingeniería Julio Garavito
+      # optional
+      university_logo: https://www.escuelaing.edu.co/
+      time: 2005 - 2010
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ingeniero Industrial - Constratista ICBF
+      time: 2020 - Present
+      company: ICBF
+      # optional
+      company_logo: https://www.icbf.gov.co/
+      details: |
+          - Lideré el seguimiento financiero del contrato de Alimentos de Alto Valor Nutricional (AAVN), garantizando la correcta ejecución presupuestal y la identificación temprana de posibles desviaciones (minimizando la constitución de reservas), apoyo al proceso de supervición con los pagos.
+          - Implementé y monitoreé indicadores clave para la actualización de precios de los productos del contrato de AAVN.
+          - Analicé y reporté periódicamente el avance financiero y el cumplimiento de los indicadores del contrato de AAVN a la dirección, facilitando la toma de decisiones informada y la identificación de áreas de mejora.
+          - Verifiqué el cumplimiento de los términos y condiciones contractuales, así como la calidad de los productos y servicios relacionados con el contrato de AAVN para los informes de supervisión.
+          - Apoyé con la elaboración de informes detallados sobre el estado financiero y el desempeño del contrato de AAVN, proporcionando información clave para la evaluación y la toma de decisiones estratégicas.
+
+    - role: Líder Linea de Tecnología
+      time: 2018 - 2019
+      company: Google, London
+      # optional
+      company_logo: https://bam.com.co/
+      details: |
+        
+          - Lideré nueva línea de tecnología, gestionando el proyecto de desarrollo de una solución en la nube, desde la puesta en marcha hasta el seguimiento de pruebas piloto en fincas.
+          - Desarrollé la estrategia de venta para equipos agroambientales.
+          - Elaboré el presupuesto y ejecuté la venta de servicios y productos de la línea de tecnología.
+
+    - role: Gerente de Cuenta
+      time: 2015 - 2018
+      company: GaussSoft Colombia
+      # optional
+      company_logo: https://www.gausssoft.com/index.php/es.html
+      details: |
+        
+          - Manejo de cuentas y distribuidores, e implementación de proyectos de rentabilidad & costos, Inteligencia de negocios y seguimiento de pruebas piloto en software de análisis de inventarios.
+          - Mantenimiento y relacionamiento de cuentas y prospectos. Seguimiento a Contratos y Convenios.
+          - Gestión de Cartera y Facturación.
