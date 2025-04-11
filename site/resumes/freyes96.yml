@@ -1,0 +1,183 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco
+    last_name: Reyes
+    
+    # Define yourself in 4-5 words
+    motto: I like nature
+    
+    # Focus
+    focus: Living!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Consulting analyst with 2+ years of experience in operations, data analysis, and entrepreneurship. I’ve led projects in startups and multinational environments, combining a hands-on, analytical mindset with strong leadership and a people-first approach to problem-solving.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: franciscojosereyesa@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/freyes96
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Begginer casual
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking & Camping
+
+      - item: Snowboarding
+
+      - item: Football
+
+# Your previous education
+education:
+    - degree: Bachelor in Business Administration
+      university: IE University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2019
+      details: |
+        I hold a Bachelor’s degree in Business Administration from IE University, where I developed a strong foundation in management, strategy, and innovation. During my studies, I also led the varsity football team for three years, building leadership and teamwork skills through high-performance collaboration.
+
+    # - degree: BSc in Applied Mathematics
+    #   university: Bristol University
+    #   # optional
+    #   university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   time: 2007 - 2011
+    #   details: |
+    #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #     pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Industry X Analyst
+      time: 2022 - 2024
+      company: Accenture AG, Zürich
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Management Consulting Analyst in the Industry X practice, involved in projects across logistics, data analytics, and virtual experience platforms.
+
+        - Analyzed supply chain data for a multinational tobacco company to reduce costs and improve logistics
+        - Led project planning and requirement gathering for a virtual store launch, including a full video demo
+        - Contributed to sustainable development initiatives with focus on IoT, Big Data, and innovation
+        - Worked across the full value chain using agile and classic methodologies
+
+    - role: Head of Operations & Business Performance Excellence
+      time: 2020 - 2022
+      company: WOKI Consulting, Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Led business performance improvements and data-driven strategy initiatives at a consulting start-up.
+
+        - Managed a project with the largest bank in the Dominican Republic, leading a team of 3
+        - Built a digital tax automation tool using data from over 20 countries, resulting in up to 25% savings
+        - Redesigned internal processes to increase efficiency, simplify workflows, and scale capacity
+
+    - role: Co-Founder & Operations Director
+      time: 2019 - 2020
+      company: Phone Fix S.L., Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Founded and managed an electronics repair business, overseeing all aspects of daily operations and business development.
+
+        - Built and implemented a customer-focused franchising strategy
+        - Managed technicians, distribution, and customer service in a high-demand environment
+        - Developed strong supplier relationships to ensure quality and competitive pricing
+        - Created a calm and productive workspace to support technician efficiency
+
+# Your project portfolio
+# projects:
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         # optional
+#         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Data Analysis & Excel (incl. Visual Basic)
+      level: 90%
+
+    - name: Business Strategy & Operations
+      level: 85%
+
+    - name: Agile & Classic Project Management
+      level: 80%
+
+    - name: Python & SQL (Beginner)
+      level: 45%
+
+    - name: Communication & People Leadership
+      level: 85%
+
+    - name: Microsoft Office Suite
+      level: 95%
