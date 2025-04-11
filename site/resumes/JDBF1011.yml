@@ -13,56 +13,50 @@ basic_info:
     last_name: Baron Faura
     
     # Define yourself in 4-5 words
-    motto: Soy perseverante
+    motto: Soy perseverante, soy independiente, carismatico
     
     # Focus
     focus: ser un programador
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required.
+  
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: h
+    avatar: 
 
     # Contact Information
-    email: b@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: JDBF1011@Gmail.com #optional
+    phone: 524186722 #optional
+    website:  #optional
+    linkedin:  #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: https://github.com/JDBF1011/Diego-Baron-4GeeksAcademy-WF
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Español
         level: Native
-
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Jugar ajedrez
 
-      - item: Snowboarding
+      - item: Cocinar
 
-      - item: Cooking
+      - item: jugar videojuegos
 
 # Your previous education
 education:
@@ -81,20 +75,13 @@ education:
           - Bullet point
           - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: Bachiller Tecnico
+      university: Colegio Alberto Lleras Camargo 
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      time: 2005-2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        
 
 # Your previous job experiences or volunteer
 experiences:
@@ -185,22 +172,4 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-skills:
-    toolset:
-      - name: Python & Django
-        level: 98%
 
-      - name: JavaScript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
