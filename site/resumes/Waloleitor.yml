@@ -1,0 +1,101 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tomás
+    last_name: Sarciat Roch
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta aprender cosas nuevas cada día.
+    
+    # Focus
+    focus: Ahora mismo FullStack pero en un futuro me gustaría centrarme en Python.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Aunque mi trabajo principal ha sido siempre el de repartidor para una empresa del sector automotriz, 
+      desde hace un tiempo vengo dándole fuerte al mundo de la programación. Empecé estudiando Python por mi cuenta, con muchas horas delante de tutoriales, 
+      documentación y pequeños proyectos para ir entendiendo cómo funciona todo. Más adelante, fui organizando mejor mi aprendizaje y me metí de lleno en el desarrollo web 
+      fullstack. Siempre he sido bastante metódico, así que me monté un plan de estudio por etapas para avanzar con sentido, 
+      y me fui metiendo también en temas como el patrón MVC y otras buenas prácticas del desarrollo.
+
+      Ahora mismo estoy cursando un bootcamp de desarrollo fullstack en 4Geeks Academy, donde estoy profundizando en todo lo que ya venía trabajando, 
+      tanto en frontend como en backend. Lo mejor es que ahora estoy aplicando los conocimientos en proyectos reales y en equipo, que es justo lo que quería. 
+      Aunque vengo de un sector totalmente distinto, me está motivando mucho este cambio de rumbo y tengo claro que quiero seguir creciendo como desarrollador.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: fotoperfil.jpg
+
+    # Contact Information
+    linkedin: https://www.linkedin.com/in/tom%C3%A1s-sarciat-roch-5b2a78353/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Waloleitor
+    
+    stack-overflow: 29873614/tomás-sarciat-roch # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Bajo
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+      - item: Cocinar
+
+      - item: Baloncesto
+
+# Your previous education
+education:
+    - degree: SMR
+      university: IES Juan de Mairena
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2009 - 2011
+      details: |
+        Sistemas Microinformáticos y Redes, FP Grado medio
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Técnico Informático
+      time: 2005 - 2006
+      company: InfoRed Pro
+      details: |
+        Reparación de equipos informaticos y atención al cliente.
+
+    - role: Repartidor de recambios
+      time: 2022 - Actualidad
+      company: Gestora Comercial Internacional SA.
+      details: |
+        Conductor-repartidor de recambios para el grupo Stellantis através de la subcontrata Gecoinsa.
+
+
+# Your project portfolio
+projects:
+      Calculadora básica en Python
+
+skills:
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: JavaScript & jQuery
+        level: 2%
+
+      - name: HTML5 & CSS
+        level: 10%
