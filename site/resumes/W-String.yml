@@ -1,0 +1,82 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+  # Profile Information
+  name: Matheus Schramm
+  tagline: Full Stack Developer
+  avatar: Document Picture (2023).JPG
+
+  # Sidebar Links
+  address: 3300 NE 191st Street
+  phone: +1 (305) 491-6176
+  linkedin: Matheus Schramm
+  github: W-String
+  twitter: '@Matheus_Sch998'
+
+languages:
+
+    - idiom: Portuguese
+      level: native
+
+    - idiom: English
+      level: professional
+
+    - idiom: Spanish
+      level: intermediate
+
+    - idiom: Japanese
+      level: beginner
+
+interests:
+  - item: Cooking
+
+  - item: Music
+
+  - item: Science Fiction
+
+education:
+
+  - degree: Highschool Diploma
+    university: Michael M. Krop Senior High
+    time: 2016-2020
+  
+experiences:
+
+  - role: Sales Advisor
+    time: 2024-present
+    company: Best Buy
+
+  - role: Retail Merchandise Specialist
+    time: 2023=2023
+    company: Premium Retail Services
+
+  - role: Shipping and Receiving
+    time: 2019-2022
+    company: MHS USA Corp
+
+projects:
+  intro: I am still a beginner so I am still working on current school projects and, as I acquire more knowledge and experience, build my own personal projects from scratch.
+  
+  assignments:
+    - title: Instagram Post Layout
+
+      project_logo: Instagram Post Layout
+      link: "https://github.com/4GeeksAcademy/instagram-post-layout-matheusschramm-miami78"
+      tagline: "Replicating a Instagram Interface as a first project for a stufy cohort."
+
+    - title: DevStudio
+    
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "A responsive website template designed to help web developers/designers market their services."
+
+skills:
+
+  toolset:    
+  - skill: Adobe DreamweaverCS6
+    level: 70%
+
+  - skill: Adobe IllustratorCS6
+    level: 60%
