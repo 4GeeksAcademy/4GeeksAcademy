@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bruno
+    last_name: Nere
+    
+    # Define yourself in 4-5 words
+    motto: Estoy en constante crecimiento
+    
+    # Focus
+    focus: Para 2025, onvertirme en desarrollador y profundizar mis conocimientos de inglés.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      He trabajado en muchos trabajos pues empecé muy joven, pero desde los 18 años que tuve 
+      trabajos formales, trabajé como vendedor en tienda de ropa, teleoperador para bancos y 
+      compañías telefónicas. Cuando empecé la carrera de Derecho conseguí trabajo en un banco
+      como analista de servicio al cliente durante 10 años, después me convertí en tatuador y 
+      ahora estoy estudiando para ser desarrollador. 
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: bsnbsb@gmail.com #optional
+    phone: 674 89 38 81 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BrunoNere
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portugués
+        level: nativo
+
+      - idiom: Español
+        level: bilingue
+
+      - idiom: Inglés
+        level: basico
+
+    # Interests or hobbies
+    interests:
+      - item: Autocuidado
+
+      - item: Gimnásio
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Universitario
+      university: UNIP - Universidade de Sao Paulo - Brasil
+      # optional
+      university_logo: https://scontent.fmad20-1.fna.fbcdn.net/v/t39.30808-6/302185428_518355193624594_3615979934734640618_n.png?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=p79HReUnmscQ7kNvwFkdoEa&_nc_oc=Adn2uHJg3ujlrwQ2_dLANl0p9SZRUfrcT4gHa7NWtek-zoH_ufyb5ioaddJqM14DXgk&_nc_zt=23&_nc_ht=scontent.fmad20-1.fna&_nc_gid=VixQrAkVpBXs_X-HXf4_uA&oh=00_AfGQjXyJb7rs6ZmtLWLYMxkVyyB8SAaAQhfByGD-x1zzBw&oe=6801C9F4
+      time: 2008 - 2016
+      details: |
+        Ingresé a la universidad a través de una beca financiada por el 
+        gobierno federal, después de 1 año de estudiar intensamente. 
+        Fue y es un gran logro para mí, a pesar de no trabajar como 
+        abogado, aprendí mucho, se me abrieron muchas puertas y transformó
+        mi vida en muchos sentidos.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Teleoperador (portugués y castellano)
+      time: sep a dic de 2024
+      company: Atento, Madrid
+      # optional
+      company_logo: https://forbes.es/wp-content/uploads/2024/04/fotonoticia_20240402105403_1920.jpg
+      details: |
+        Tareas de atención y gestión al cliente para Renfe a través del canal
+        telefónico. Consultas relacionadas a viajes, venta de billetes, traducción
+        de respuestas de reclamaciones para el portugués.
+
+    - role: “Free lance” de auxiliar administrativo
+      time: Ene a jun de 2024
+      company: Europa Legal, Madrid
+      # optional
+      company_logo: https://scontent.fmad20-1.fna.fbcdn.net/v/t39.30808-6/300392286_523027646493935_988844608020603551_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-H4D5uFBYSwQ7kNvwHN_-m1&_nc_oc=Adlpnt8niIIJBj9qNxfsJiWm05ggdhXdjR3IweZpSOrS1n-KsxfuPIOs64hraqlUSkE&_nc_zt=23&_nc_ht=scontent.fmad20-1.fna&_nc_gid=ZO-BdGf8eh-1Ck-qAeljtg&oh=00_AfHB9Vj3v2jlHaBRKjeKneyuh3pe_9YOljUNrwJtlVNnTA&oe=680324B6
+      details: |
+        Atención al cliente, preparación de citas y cobros de tasas 
+        administrativas de trámites de extranjería.
+
+    - role: Analista de servicios al cliente.
+      time: Ago 2009 a mar 2019
+      company: COOPERFORTE - Cooperativa de Crédito - Brasília - Brasil
+      # optional
+      company_logo: https://scontent.fmad20-1.fna.fbcdn.net/v/t39.30808-6/486383155_991548506414643_3748048146799155968_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ovxHgYw1V6AQ7kNvwEkYcfy&_nc_oc=AdkYJrUPJ0N-5yb2IEvKvRS7_uZHrObwrIOoriPbnWgig-3TiNK-vhzqngtLssTmlzE&_nc_zt=23&_nc_ht=scontent.fmad20-1.fna&_nc_gid=uTlBQhBLOOK-EpxQlFPn_A&oh=00_AfHhkB30T7P-XxqKJvXY3b5sQG7kGa6PJUCwChJR_kCozg&oe=68031E9C
+      details: |
+        Atención al cliente, a través de diversos canales de atendimiento;
+        análisis, normas y procedimientos catastrales; indicación de 
+        soluciones financieras. Ventas y aclaración de dudas. Desarrollo 
+        de actividades relacionadas con la cobranza administrativa,
+        seguimiento de la recepción de cuotas y cobro de deudas pendientes; 
+        análisis de cuotas registradas en el Sistema de Pagos y Cobros.
+
+
+# Your project portfolio
+projects:
+    intro: >
+     Como programador, no tengo experiencia laboral. 
+     Soy estudiante y por lo tanto solo tengo unos 
+     pocos proyectos creados en clase.
+
+    assignments:
+      - title: Post de Instagram
+        # optional
+        link: "https://github.com/4GeeksAcademy/Bruno-Nere---Post-de-Instagram"
+        tagline: "Primer proyecto, una sola página de una foto con una descripción y iconos."
+
+      - title: Instagram Photo Feed con Bootstrap
+        # optional
+        link: "https://github.com/4GeeksAcademy/Bruno-Nere-Feed-con-Bootstrap"
+        tagline: "Segundo proyecto, simula una publicación de Instagram con algunas fotos, diferentes formas de ver las y un formulario de nueva publicación."
+
+      - title: Formulario HTML5
+        # optional
+        link: "https://github.com/4GeeksAcademy/BrunoNere-Crea-un-form-HTML5"
+        tagline: "Este proyecto es un formulario que ofrece algunos métodos de pago."
+
+
