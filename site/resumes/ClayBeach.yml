@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Clay
+    last_name: Beach
+    
+    # Define yourself in 4-5 words
+    motto: Make yourself uncomfortable as it is the only way to achieve your dreams and goals
+    
+    # Focus
+    focus: Coding for fun
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I have spent most of my adult life in service to the United States of America, first as an active duty enlisted U.S. Marine for a little over 8 years. 
+     In the Marine Corps my jobs was a Combat Videographer, thats a mean way of saying I shoot and edit video in mostly live situations, trained for combat, 
+     but I never went to combat. My last duty station in the Marine Corps was at Camp Johnson, NC where I learned how to write the back end for our multimedia
+     program there. I used Macromedia Director Lingo (an object oriented programming language) to write code to make the courseware interactive, meaning that 
+     it would allow you to take a test after watching a bunch of videos and animations that I also helped to produce, provide learning checks, test you on your
+     knowledge and then allow the instructor to see the test scores. 
+
+     After I got out of the Marine Corps, I landed a job at Camp Pendleton where I continued creating courses and interactive sites until one day the powers that 
+     be decided I would make a better print monkey than a coder and alas they put a chain on my leg and tied me to a printer where I made booklets and posters for 
+     about 12 years until I decided that I could no longer handle the 8-10 hour workdays and 2 hour one way commute with kids and responsibilities and I was ready for 
+     a change. I switched job after job, asking them if when I got there could I perform software development in my duties and they all said yes but I wasn't doing any of that. 
+
+      So after playing around for too long I decided to take the fork in the road DOGE buyout and go to school and learn how to do it anyways and hopefully find another job 
+      that allows me to become and do what it is I have wanted to do for so very long.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: clay@beachmultimedia.com #optional
+    phone: 954 405 0076 #optional
+    website: www.beachmultimedia.com #optional
+    linkedin: https://www.linkedin.com/in/clay-beach-91611079/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/CCDune
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobbies
+    interests:
+      - item: Guitar
+
+      - item: UFOs/UAP
+
+      - item: SciFi and Fantasy
+
+# Your previous education
+education:
+    - degree: BS in Business Marketing
+      university: University of Phoneix
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2013
+      details: |
+        I studied Business Management
+          - Statistical Analysis
+          - Marketing and Design
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Public Affairs Videographer
+      time: 2024 - 2025
+      company: Department of Defense
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Visual Information Specialist
+      time: 2019 - 2024
+      company: Department of Defense, Ramstien Germany
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Visual Information Specialist
+      time: 2015-2019
+      company: Department of Defense Fort Cavasos, Texas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    
+skills:
+    toolset:
+      - name: Python
+        level: 35%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Adobe Premiere & Photoshop
+        level: 92%
