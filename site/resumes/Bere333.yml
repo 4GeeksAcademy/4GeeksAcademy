@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Berenice
+    last_name: Ramos
+    
+    # Define yourself in 4-5 words
+    motto: I am very curious person
+    
+    # Focus
+    focus: Ciencia de Datos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am passionate about data science and technology, I have experience as a developer in the financial sector.
+      I am very curious person, which is why I have built my career around continuous learning.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: berenice.programmer3@gmail.com #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Bere333
+  
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Play the piano
+
+      - item: Drawing
+
+      - item: Terrarium maker
+
+# Your previous education
+education:
+
+    - degree: BSc in Mathematics
+      university: Universidad Abierta y a Distancia de México
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - actual
+      details: |
+          During my career as a mathematician I learn about applied mathematics like:
+
+          - Discrete Mathematics
+          - Programming Languages
+          - Linear Algebra
+          - Probability
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Software Associate Solutions Development
+      time: 2023 - 2025
+      company: BBVA, Mexico City
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In this job, I develop different project and test about bbva's app and used different tools like:
+
+          - Lit Element, Node, NPM, Javascript Vanilla
+          - Agile methods like scrum, kanban and Jira
+
+    - role: Front End Developer 
+      time: 2022 - 2023
+      company: Sngular, Mexico City
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        In this job, I develop different project and test about bbva's app and used different tools like:
+
+          - Lit Element, Node, NPM, Javascript Vanilla, Git, Bitbucket
+          - Agile methods like scrum, kanban and Jira
+
+    - role: Front End Developer
+      time: 2021 - 2021
+      company: Magno Technology, Mexico City
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        During this rol, I develop Claro Colombia Site. I used tools like:
+
+          - React.js, Redux.js, Node, NPM, Git, Bitbucket
+          - Agile Methods
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Random Variables
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Visualize probability and stats of data set."
+
+
+skills:
+    toolset:
+      - name: Python & Pandas & Matplotlib & Scipy
+        level: 70%
+
+      - name: JavaScript
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 95%
