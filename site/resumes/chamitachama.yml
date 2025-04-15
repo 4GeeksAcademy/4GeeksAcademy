@@ -1,0 +1,29 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Genesis
+  last_name: Quintero
+  motto: curious Mind
+  focus: finding rabitholes
+  summary: |
+    always learning something new
+  avatar: https://avatars.githubusercontent.com/u/95757215?v=4
+  email: genhatesales@gmail.com
+  phone: null
+  website: null
+  linkedin: chamitachama
+  github: chamitachama
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Catalan
+      level: Conversational
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Photography
+    - item: Snowboarding
+    - item: 3D modeling
