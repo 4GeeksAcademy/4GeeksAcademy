@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Edwin
+    last_name: González
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta entender como funciona el planeta y todos sus sistemas implicitos.
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy profesional en seguridad electrónica, ingeniero en telecomunicaciones, he tenido la oprtunidad de trabajar en desarrollo de hardware
+      programando en c++, actualmente profundizo mmi conocimiento como programador Full Stack
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: esgo.edwin@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: edslogia
+    
+    twitter: 'esgonzalezc' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Professional
+
+      - idiom: 
+        level: 
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+      - item: Videojuegos
+
+      - item: Caminar
+
+# Your previous education
+education:
+    - degree: Ingenieria en Telecomunicaciones
+      university: Universidad Distrital Francisco Jose de Caldas
+      # optional
+      university_logo: https://www.udistrital.edu.co/themes/custom/versh/logo.png
+      time: 2017 - 2025
+      details: |
+        Realice la carrera como tecnologo en electrónica industrial por ciclos propedeuticos, luego elegí la carrera de Ingeniera en Telecomonunicaciones
+        como pregrad.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coordinador de Seguridad Electrónica
+      time: 2018 - 2023
+      company: Defence Colombia SAS
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Coordinar personal en campo para instalaciones de sistemas de comunicación y seguridad electrónica.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python
+        level: 28%
+
+      - name: JavaScript
+        level: 28%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Bootstrap
+        level: 15%
