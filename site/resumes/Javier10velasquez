@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Javier
+    last_name: Velásquez
+    
+    motto: Growth, datos y automatización sin límites
+    
+    focus: Impulsar el crecimiento digital mediante marketing, IA y tecnología
+    
+    summary: |
+      Profesional en Marketing graduado en Francia, especializado en growth hacking, performance marketing y desarrollo de soluciones basadas en inteligencia artificial. Experiencia sólida en escalar e-commerce mediante estrategias de adquisición, SEO técnico, automatización de flujos y optimización de campañas publicitarias (Meta Ads, Google Ads). Desarrollo herramientas y soluciones usando Python, JavaScript, HTML, Bootstrap y Shopify, con un enfoque constante en la eficiencia operativa y el crecimiento sostenible basado en datos.
+
+    avatar:  # Aquí podrías poner un link a tu foto si quieres
+
+    email: javier.velasquez@example.com
+    phone: +56 9 12345678
+    website: javi-mera.dev
+    linkedin: javi-mera
+    github: javi-mera
+    
+    twitter:  # Opcional
+    stack-overflow:  # Opcional
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    interests:
+      - item: Inteligencia Artificial aplicada al marketing
+
+      - item: Crecimiento de negocios digitales
+
+      - item: Desarrollo de herramientas de automatización
+
+# Education
+education:
+    - degree: Licence en Marketing Digital
+      university: Université de [Tu Universidad] (Francia)
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg  # Puedes cambiarlo por el logo real de tu universidad
+      time: 2012 - 2015
+      details: |
+        Formación enfocada en estrategias de marketing digital, growth marketing, analítica de datos y comunicación digital. Profundización en tecnologías emergentes aplicadas al marketing de resultados.
+
+          - Estrategias de adquisición digital y branding
+          - Analítica avanzada y automatización de marketing
+          - Certificaciones en plataformas de publicidad online
+
+# Experiences
+experiences:
+    - role: Chief Marketing Officer (CMO) & Growth Hacker
+      time: 2020 - Presente
+      company: Agencia de Growth Marketing y E-commerce
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Diseño y ejecución de estrategias de crecimiento basado en datos, performance marketing y automatización avanzada para marcas de e-commerce y SaaS.
+
+          - Liderazgo en campañas de performance (Meta Ads, Google Ads)
+          - Implementación de funnels automatizados y analítica predictiva
+          - Integración de IA para optimizar la adquisición y la conversión
+
+    - role: Growth Marketing Specialist
+      time: 2017 - 2020
+      company: Startups de tecnología y e-commerce
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Desarrollo de estrategias de adquisición y retención mediante automatización, SEO técnico y optimización de UX en tiendas Shopify y plataformas SaaS.
+
+          - Optimización de conversiones y escalabilidad
+          - Automatización de flujos de remarketing y email marketing
+          - Análisis de datos y diseño de dashboards de métricas
+
+# Projects
+projects:
+    intro: >
+      Proyectos clave donde la innovación, el marketing y la tecnología convergen para crear crecimiento y eficiencia digital.
+
+    assignments:
+      - title: AI-Powered Acquisition Funnels
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Desarrollo de sistemas automatizados de adquisición y nurturing utilizando IA y analítica avanzada."
+
+      - title: Shopify Optimization Suite
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Optimización de tiendas Shopify combinando SEO técnico, CRO, automatización y performance marketing."
+
+      - title: Predictive Analytics Dashboard
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Plataforma de analítica predictiva para anticipar comportamientos de usuarios y maximizar ROAS."
+
+# Skills
+skills:
+    toolset:
+      - name: Python (automatización, data analysis)
+        level: 95%
+
+      - name: JavaScript (frontend, automatizaciones)
+        level: 90%
+
+      - name: HTML5, CSS, Bootstrap (desarrollo web rápido)
+        level: 90%
+
+      - name: Meta Ads & Google Ads (performance y optimización)
+        level: 95%
+
+      - name: SEO Técnico & Analítica Digital (GTM, GA4, Data Studio)
+        level: 92%
+
+      - name: Shopify (desarrollo y optimización)
+        level: 85%
+
+      - name: Inteligencia Artificial aplicada a Marketing (ChatGPT, OpenAI APIs)
+        level: 85%
+
