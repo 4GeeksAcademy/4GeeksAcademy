@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fermín
+    last_name: Luis
+    
+    # Define yourself in 4-5 words
+    motto: Pasión en todo lo que emprendo
+    
+    # Focus
+    focus: Saber a donde ir y llegar allí
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un profesional con +25 años de experiencia en administración de flotas vehiculares con gran potencial como desarrollador full stack.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ca.slack-edge.com/T0BFXMWMV-U08JJP2AJ2Z-20f64ef2b97f-512
+
+    # Contact Information
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fl-armable
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Comprensión de textos
+
+    # Interests or hobbies
+    interests:
+      - item: Cine
+
+      - item: Viajes
+
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Bootcamp
+      # optional
+      university_logo: https://4geeks.com/
+      time: 2025 - A la fecha
+      details: |
+        Desarrollador de software full stack:
+
+          - Frontend
+          - Backend
+          - Bases de datos
+
+    - degree: MBA
+      university: Escuela Bancaria y comercial
+      # optional
+      university_logo: https://www.ebc.mx/
+      time: 2010 - 2012
+      details: |
+        Administración de empresas con especialidad en finanzas:
+
+          - Liderazgo
+          - Desarrollo organizacional
+          - Planeación financiera
+          - Planeación estratégica
+
+    - degree: Ingeniero Mecánico
+      university: IPN
+      # optional
+      university_logo: https://www.ipn.mx/
+      time: 1996 - 2000
+      details: |
+        Especialidad en Energética:
+
+          - Maquinas hidráulicas
+          - Máquinas Térmicas
+          - Intercabiadores de calor
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Líder de Ingeniería Vehicular
+      time: 2022 - A la fecha
+      company: GEPP
+      # optional
+      company_logo: https://www.gepp.com.mx/
+      details: |
+        Responsable de nuevos desarrollos y tecnologías de flota:
+
+          - De la necesidad a la puesta en marcha de vehículos
+          - Soluciones de gestión de flota
+          - Evaluación de sistemas de gestión
+
+    - role: Gerente de mantenimiento vehicular
+      time: 2016 - 2019
+      company: Femsa Logística
+      # optional
+      company_logo: https://www.femsa.com/es/
+      details: |
+        Responsable nacional de los talleres de Mecánica Tek:
+
+          - Gestión de mantenimiento vehicular
+
+
+# Your project portfolio
+projects:
+    intro: >
+      A continuación enlisto mis últimos proyectos que he desarrollado en el bootcampa:
+
+    assignments:
+      - title: Ejercicio colaborativo HTML con Bootstrap
+        # optional
+        project_logo: https://github.com/fl-armable/exercise-collaborative-html-website
+        tagline: "Practice GIT doing a landing page"
+
+      - title: Crea un formulario
+        # optional
+        project_logo: https://github.com/fl-armable/crea-una-forma-HTML5
+        tagline: "Crea un formulario HTML/Bootstrap"
+
+      - title: Crea un feed de fotos como Instagram
+        # optional
+        project_logo: https://github.com/fl-armable/Instagram-photo-feed-with-bootstrap
+        link: "#"
+        tagline: "Emulando un feed de fotos responsivo como Instagram"
+
