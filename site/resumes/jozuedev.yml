@@ -1,0 +1,70 @@
+# Be aware that even a small syntax error here can lead to failures in output  
+#  
+
+template: "online-cv"  
+skin: "blue"  
+
+# Personal Information  
+basic_info:  
+    # Your full name  
+    first_name: Josue Eduardo  
+    last_name: Valenzuela Hernandez  
+    
+    # Define yourself in 4-5 words  
+    motto: "An optimistic person with clear goals."  
+    
+    # Focus  
+    focus: "Dedicated to learning and improving."  
+    
+    # You have 1 paragraph to make a great impression, summarize your career  
+    summary: |  
+      I am a beginner in the field of Data Science and Machine Learning. I am excited to acquire new skills and contribute to innovative projects while developing my knowledge in key technologies.  
+    
+    # Your profile picture URL  
+    avatar: "https://randomuser.me/api/portraits/women/24.jpg"  
+
+    # Contact Information  
+    email: "a@a.com" # optional  
+    phone: "234 2342 342" # optional  
+    website: "asd.com" # optional  
+    linkedin: "alandoe" # optional  
+    
+    #  
+    # ******** IMPORTANT *******  
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725  
+    github: "jozuedev"  
+    
+    twitter: "webjeda" # optional  
+    stack-overflow: # Number/Username, e.g. 123456/alandoe  
+
+    # Languages you speak, levels include: Native, Professional  
+    languages:  
+      - idiom: Spanish  
+        level: Native  
+
+      - idiom: English  
+        level: Professional  
+
+    # Interests or hobbies  
+    interests:  
+      - item: "Learning about Data Science"  
+
+      - item: "Exploring Machine Learning"  
+
+# Skills  
+skills:  
+    toolset:  
+      - name: "HTML"  
+        level: 60%  
+
+      - name: "CSS"  
+        level: 60%  
+
+      - name: "Data Science"  
+        level: Beginner  
+
+      - name: "Machine Learning"  
+        level: Beginner  
+
+      - name: "English"  
+        level: "In progress"  
