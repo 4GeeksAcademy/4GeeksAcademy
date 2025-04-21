@@ -26,13 +26,13 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://avatars.githubusercontent.com/u/194567730?v=4
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: 
+    phone: 
+    website: 
+    linkedin: 
     
     #
     # ******** IMPORTANT *******
@@ -44,14 +44,14 @@ basic_info:
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
-        level: Native
+      - idiom: 
+        level: 
 
-      - idiom: French
-        level: Professional
+      - idiom: 
+        level: 
 
       - idiom: Spanish
-        level: Professional
+        level: Nativo
 
     # Interests or hobbies
     interests:
