@@ -77,3 +77,6 @@ A) If you have python:
 ```py
 $ npm run build
 ```
+And then run: 
+
+$ npm run start
