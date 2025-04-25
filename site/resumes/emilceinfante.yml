@@ -1,0 +1,81 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+    
+    first_name: Emilce
+    last_name: Infante
+    
+    
+    motto: I like knowledge
+    
+    summary: |
+      Highly creative and results-oriented professional with experience in teaching at various levels and management. Expert in effective communication and problem-solving. Passionate about technological innovation and committed to excellence in the development of IT solutions.
+    
+        
+    email: emilceinfante@gmail.com 
+    phone: 549-3816402430 
+
+    linkedin: emilceinfante 
+    
+    
+    github: emilceinfante
+    
+    languages:
+      - idiom: English
+        level: basic
+ 
+      - idiom: Spanish
+        level: Native
+
+    
+    interests:
+          - item: Cooking
+
+
+education:
+    - degree: Information Systems Engineer
+      university: National Technological University (Argentina)
+      time: 1996 - 2003
+    - degree: Professor of Industrial Disciplines
+      university: National Technological University (Argentina)
+      time: 2011 - 2012
+      
+    - degree: CCAI (INSTRUCTOR CISCO NETWORKING ACADEMY)
+      university: Proydesa Foundation (Buenos Aires - Argentina)
+      time: 2007 - 2009
+      
+
+
+experiences:
+    - role: Computer Reference 
+      time: 2017 - 2023
+      company: Teacher Classification Board. Ministry of Education
+      
+        I administered and managed the computer system for managing the files of secondary school teachers in the province.
+
+    - role: Supervisor de TI
+      time: 2014 - 2015
+      company: Ministry of Education of Tucumán - Argentina
+      
+      details: |
+        I supervised courses taught in technical schools, vocational training centers, and penitentiary units, under an agreement between the Ministry of Education and the Ministry of Labor.
+    - role: Course instructor
+      time: 2004 - 2009
+      company: Cisco Networking Academy, Tucuman - Argentina
+      
+      details: |
+        I trained in LAN and WAN network systems administration, including installation.
+
+
+skills:
+    toolset:
+      - name: Interconexion de redes
+        level: 98%
+
+      - name: Resolucion de problemas de redes
+        level: 98%
+
+      
