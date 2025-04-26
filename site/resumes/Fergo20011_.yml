@@ -1,0 +1,67 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando
+    last_name: Gonzalez
+    
+    # Define yourself in 4-5 words
+    motto: Enthusiastic, ambitious, disciplined, charismatic, determined
+    
+    # Focus
+    focus: FinTech
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      My name is Fernando Gonzalez, I was born in Caracas Venezuela and went to school for college in UCF Orlando. 
+      I majored in Finance and now I am looking into developing my Data Science skills.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fergo20011
+    
+   
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Travel
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: B.S Finance
+      university: University of Central Florida
+      # optional
+      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ucf.edu%2Fbrand%2Fbrand-assets%2Flogo-identity-system%2F&psig=AOvVaw2b4XybpWfRB9eebnFOKWov&ust=1744827077083000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjir8nR2owDFQAAAAAdAAAAABAE
+      time: 2020 - 2023
+  
+skills:
+    toolset:
+      - name: Excel
+        level: 98%
+
+      - name: Python 
+        level: 50%
