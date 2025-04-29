@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Enrique
+    last_name: [Tu Apellido]
+    motto: Passionate about efficient code
+    focus: Optimizing database performance
+    summary: |
+      I am a methodical and resourceful software developer with a strong focus on 
+      database management, troubleshooting, and data visualization. Skilled in 
+      Python, SQLAlchemy, and secure credential handling.
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+    email: [Tu Email] #optional
+    phone: [Tu Teléfono] #optional
+    website: [Tu Sitio Web] #optional
+    linkedin: [Tu LinkedIn] #optional
+    github: enriquemx1  # Corregido para coincidir con tu usuario de GitHub
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+    interests:
+      - item: Database optimization
+      - item: Debugging complex systems
+      - item: Python development
+
+# Education
+education:
+    - degree: BSc in Computer Science
+      university: [Tu Universidad]
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: [Año Inicio - Año Fin]
+      details: |
+        Specialization in database management, secure credential handling, and 
+        data visualization.
+        - Developed Python scripts for efficient data querying
+        - Improved database security practices
+
+# Experience
+experiences:
+    - role: Backend Developer
+      time: [Año Inicio - Presente]
+      company: [Tu Empresa]
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Focused on optimizing database queries, improving security in credential 
+        management, and refining debugging techniques.
+        - Designed scalable database architectures
+        - Enhanced secure environment setup using `.env` configurations
+
+# Skills
+skills:
+    toolset:
+      - name: Python & SQLAlchemy
+        level: 98%
+      - name: SQLite & Data Visualization
+        level: 95%
+      - name: Secure Credential Management
+        level: 92%
+      - name: Debugging & Optimization
+        level: 90%
