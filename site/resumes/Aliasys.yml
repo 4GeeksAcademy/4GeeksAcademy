@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Be aware that even a small syntax error here can lead to failures in output
 #
 
 template: "online-cv"
@@ -13,55 +13,58 @@ basic_info:
     last_name: Yuste Ubeda
     
     # Define yourself in 4-5 words
-    motto: Organizada, versatil y con gran capacadad de adaptacion.
+    motto: Organizada, responsable y capaz de adaptarse a cualquier situación.
     
-    # focus
-    focus: trabajar a la vez que aumento mis conocimientos.
+    # Focus
+    focus: Divertirme, aumentando mis conocimientos mientras trabajo.
     
-    # You have 1 paragraph to make a great impression, summarize your career.
+    # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Tengo interés en la aplicación de manufactura esbelta para el mejoramiento de la productividad industrial.
-      Ademas, me gustan los proyectos, diseños y operaciones de sistemas productivos en plantas industriales.
-      Asimismo, busco  aumentar mi desempeño personal y profesional mediante un proceso constante de aprendizaje 
-      por medio de la proactividad, que permita al mismo tiempo mejorar mis habilidades y aumentar mis destrezas.
+      Persona responsable y trabajadora con experiencia en dirección de equipos multidisciplinarios
+       y mejora continua de operaciones. Me enfoco en la planificación estratégica, toma de 
+       decisiones y capacitación del personal para garantizar el éxito del área. Asimismo, busco  
+       aumentar mi desempeño personal y profesional mediante un proceso constante de aprendizaje 
+       por medio de la proactividad, que permita al mismo tiempo mejorar mis habilidades y aumentar
+       mis destrezas.
 
+       #
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://avatars0.githubusercontent.com/u/65094782?s=460&u=ed9c709985b95b82c40827e8079684ed52728139&v=4
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
     email: alia.yuste@gmail.com #optional
-    phone:  #optional
+    phone: 660 606 338 #optional
     website: #optional
     linkedin: https://www.linkedin.com/in/alia-yuste-ubeda-4266ab147/ #optional
     
     #
     # ******** IMPORTANT *******
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: https://github.com/Aliasys
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Aliasys
     
-    twitter: #optional
+    twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
-    # languages you speak, levels inculde: Native, Professional
+    # Languages you speak, levels include: Native, Professional
     languages:
       - idiom: English
         level: B1
 
       - idiom: French
-        level: A2
+        level: A1
 
       - idiom: Spanish
-        level: Nativo
+        level: Native
 
-    # Interests or hobies
+    # Interests or hobbies
     interests:
-      - item: Leer
+      - item: Lectura
 
-      - item: Pasear con mis perros
+      - item: Pasear a mis perros
 
-      - item: Natacion
+      - item: Natación
 
 # Your previous education
 education:
@@ -76,8 +79,10 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
+
           - Bullet point
           - Bullet point
+
     - degree: BSc in Applied Mathematics
       university: Bristol University
       # optional
@@ -89,9 +94,11 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
+
           - Bullet point
           - Bullet point
-# Your previous job experiences or voluntier
+
+# Your previous job experiences or volunteer
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -108,8 +115,10 @@ experiences:
         error sit voluptatem accusantium doloremque laudantium, totam rem
         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
         architecto beatae vitae dicta sunt explicabo.
+
           - Bullet point
           - Bullet point
+
     - role: Senior Software Engineer
       time: 2014 - 2015
       company: Google, London
@@ -121,8 +130,10 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
+
           - Bullet point
           - Bullet point
+
     - role: UI Developer
       time: 2012 - 2014
       company: Amazon, London
@@ -134,14 +145,17 @@ experiences:
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
         pellentesque eu, pretium quis, sem.
+
           - Bullet point
           - Bullet point
+
 # Your project portfolio
 projects:
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
       - title: Velocity
         # optional
@@ -178,7 +192,7 @@ skills:
       - name: Python & Django
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: JavaScript & jQuery
         level: 98%
 
       - name: Angular
