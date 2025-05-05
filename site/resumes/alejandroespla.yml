@@ -42,7 +42,7 @@ basic_info:
     github: alejandroespla
     
     twitter:  #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 
 
     # Languages you speak, levels include: Native, Professional
     languages:
