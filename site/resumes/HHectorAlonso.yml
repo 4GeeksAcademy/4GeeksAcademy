@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Hector
+    last_name: Alonso
+    
+    # Define yourself in 4-5 words
+    motto: Buscando lo que me motiva
+    
+    # Focus
+    focus:
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      actualmente estudiando el Bootcamp de 4geeks
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/204069197?s=400&u=bff00fe533d5f71df2599a8a1aaeff2c947b76a8&v=4
+
+    # Contact Information
+    email: 
+    phone: 6........
+    website: https://github.com/HHectorAlonso
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: HHectorAlonso
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: 
+        level: 
+
+      - idiom: 
+        level: 
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Tecnologia
+
+      - item: Viajar
+
+      - item:
+
+# Your previous education
+education:
+    - degree: Administracion y finanzas
+      estudios: formacion profesional grado superior
+      # optional
+      university_logo:
+      time: 
+      details: |
+
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Administrativo
+      time: 2024-presente
+      company: Madrid
+      
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+    skills:
+      toolset:
+      
