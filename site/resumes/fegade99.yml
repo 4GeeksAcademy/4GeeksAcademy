@@ -1,0 +1,118 @@
+
+
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Felipe
+    last_name: Garcia
+    
+    # Define yourself in 4-5 words
+    motto: I like going head-on into a project and push through the challenges until I see it completed
+    
+    # Focus
+    focus: AI and games
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Passionated about coding, eager to learn and always up for a new challenge.
+      Studied different coding languages and data science.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: fegdelicado@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/felipe-garcía-delicado/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fegade99
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Painting
+
+      - item: Cooking
+
+      - item: Climbing
+
+# Your previous education
+education:
+    - degree: Data science
+      university: 4Geeks
+      # optional
+      time: 2024 - 2025
+      details: |
+        Remote studies focused on analysing data, creating models and Machine Learning.
+
+    - degree: Software development
+      university: FESAC
+      # optional
+      time: 2021 - 2023
+      details: |
+        Two year onsite studies in which I learned how to code and manage databases, creating websites and apps
+        accessible and comprehensive for the users.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Software Developer
+      time: 2023
+      company: Unycop, Sevilla
+      # optional
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Alone
+        # optional
+        tagline: "A FPS game project."
+
+      - title: Diabetes predictor
+        # optional
+        tagline: "EDA and Machine Learning project to predict chances of diabetes based on health and social factors."
+
+skills:
+    toolset:
+      - name: Python
+
+      - name: C++
+      
+      - name: Java
+
+      - name: Bash
+
+      - name: Visual Basic
+
+      - name: JavaScript
+
+      - name: HTML5 & CSS
+
+      - name: Machine Learning
+
+      - name: SQL
