@@ -1,0 +1,128 @@
+
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Everson
+    last_name: Landaeta
+    
+    # Define yourself in 4-5 words
+    motto: I'm very etichal
+    
+    # Focus
+    focus: Businessman
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      A person with a great desire to learn every day, 
+      to grow and then promote what has been learned, 
+      responsible and logical for broad-based work.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/a/ACg8ocKrbqHQtsF7GdQV6XdHidv1u83eadyZbofLTL7WUcW969iOUMHN=s360-c-no
+
+    # Contact Information
+    email: yacksssmonkey@gmail.com #optional
+    phone: 654-844-634 #optional
+    website:  monkeyteak.sse.es#optional
+    linkedin: Yackselmonkey #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Yacksmonkey
+  
+    twitter: 'Elmandrill' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: intermedium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Diving
+
+      - item: sky
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: TSU Foreing trade
+      university: IUTA Caracas VNzl
+      time: 2016 - 2018
+      details: |
+        Commissioned study on international and national trade, by sea, land, and air, 
+        plus knowledge of tariffs and freight.
+
+    - degree: Traffic air control
+      university: IDAV Institut defend air venezolano.
+      time: 2019 - 2023
+      details: |
+    
+
+    - role: junior Software Developer
+      time: 2020 - 2022
+      company: Ebay, Spain
+      details: |
+        Website maintenance, platform troubleshooting
+
+    - role: Junior Developer
+      time: 2023 - 2024
+      company: Amazon, Madrid
+      details: |
+       Problem solving in code, generating functionality for pages
+
+# Your project portfolio
+projects:
+    intro: >
+      Some my proyects with 4GeeksAcademy.
+
+    assignments:
+      - title: Fede iG
+        
+        link: https://github.com/Yacksmonkey/Instagram-Feed-EversonLandaeta
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: postcard
+        link: https://github.com/Yacksmonkey/exercise-postcard
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Photo ig 
+        link: https://github.com/Yacksmonkey/Instagram-photo-EversonLandaeta
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
