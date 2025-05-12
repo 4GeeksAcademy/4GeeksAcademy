@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yoli
+    last_name: Dipe
+    
+    # Define yourself in 4-5 words
+    motto: Si va a ser mejor, hazlo mañana.
+    
+    # Focus
+    focus: Estudiar y trabajar, eterno rol.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: Actualmente trabajo para los y las trabajadores y trabajadoras de España. Defiendo a mi país Galicia y salir de cañas con mi amigo Pedro.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://www.lamoncloa.gob.es/gobierno/PublishingImages/xv-legislatura/biografias/ministra_yolanda_diaz.jpg
+
+    # Contact Information
+    email: socializar@sobrevalorado.com #optional
+    phone: 666 666 666 #optional
+    website: estoyreunida.com #optional
+    linkedin: YoliDipe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Silvia-LC
+    
+    twitter: Yoli Dipe #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Gallego
+        level: Nativo
+
+      - idiom: Ingles
+        level: A2 
+
+    # Interests or hobbies
+    interests:
+      - item: Trabajadores y Sindicatos
+ 
+      - item: Hablar
+
+      - item: Galicia
+
+# Your previous education
+education:
+    - degree: Diplomacia y asuntos charlatanes 
+      university: Universidad de Vigo
+      # optional
+      university_logo: https://onlinecentrodeformacion.es/wp-content/uploads/2022/07/Universidad-de-corun%CC%83a.png
+      time: 2000 - 2005
+      details: aprendí a hablar lento y mucho. Me dijeron que no gritara y desde entonces no se me oye.       
+
+          
+    - degree: Master en Sindicatos
+      university: Universidad de Lugo
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1535170732069638144/VDdKHnRg_400x400.jpg
+      time: 2005 - 2007
+      details: |
+       En este master aprendí a hablar con los sindcatos para aprender a pactar con ellos. También para hablar con los empresarios. Eso lo llevo a cabo hoy en día.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Consorcio galego
+      time: 2015 - 2020
+      company: Consorcio galego
+      # optional
+      company_logo: https://politicasocial.xunta.gal/sites/w_polso/files/img/consorcio-logotipo.png
+      details: Aporté mi granito de arena a mi país que se llama Galicia, que es calidade (y eso es verdad)
+
+projects:
+    intro: >
+     Vicepresi de España
+
+    assignments:
+      - title: Llegar a acuerdos
+        # optional
+
+skills:
+    toolset:
+      - name: Charlar
+        level: 98%
+
+      - name: Pactar
+        level: 98%
+
+      - name: Sumarme cosas que he jodido
+        level: 100%
