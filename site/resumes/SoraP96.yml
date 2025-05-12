@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marlon
+    last_name: Pons
+    
+    # Define yourself in 4-5 words
+    motto: I would like to work in a big company as a Full-Stack Developer
+    
+    # Focus
+    focus: Programming all days
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: mapachestropicales@gmail.com #optional
+    phone: 614 42 14 07 #optional
+    website:  #optional
+    linkedin: www.linkedin.com/in/mapons96 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: SoraP96
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Cycling
+
+      - item: Running
+
+      - item: Learning
+
+# Your previous education
+education:
+    - degree: Ingenieering in Automation 
+      university: Universidad Politecnica de la Habana (CUJAE)
+      # optional
+      university_logo: https://www.bing.com/images/search?view=detailV2&ccid=QyOHtDI1&id=C4BFDF7F692B06460D108D1D8B473FEC3D4D8C73&thid=OIP.QyOHtDI1NlPBIOGBkBDhrQHaDz&mediaurl=https%3a%2f%2fwww.grupolarabida.org%2fwp-content%2fuploads%2f2020%2f10%2fCuba_UniversidadTecnologicadeLaHabanaJoseAntonioEcheverria_CUJAE_28_.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.432387b432353653c120e1819010e1ad%3frik%3dc4xNPew%252fR4sdjQ%26pid%3dImgRaw%26r%3d0&exph=360&expw=700&q=Logo+De+La+Cujae&simid=607986710996866689&FORM=IRPRST&ck=180B0CFA8824989DA96D1D72C6CDE1A6&selectedIndex=2&itb=0
+      time: 2015 - 2024
+      details: | 
+        "Professional with a strong background in automation and process control, 
+        consolidating my experience as a Control Engineer at ICIDCA. Specialized in 
+        PLC programming and industrial automation systems, with proficiency in languages 
+        such as C/C++. My profile combines advanced technical knowledge with analytical 
+        skills to solve complex challenges in the field of automation. I am looking for 
+        opportunities to continue developing professionally in the industrial sector.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+
+
+skills:
+    toolset:
+      - name: C/C++
+        level: 98%
+
+      - name: POO
+        level: 100%
+
+      - name: Analogic and Digital Electronic
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Assambly language
+        level: 85%
+
+      - name: Industrial Automation
+        level: 90%
