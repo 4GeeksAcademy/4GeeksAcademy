@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Manuel Alejandro
+    last_name: Afonseca Romero
+
+    # Define yourself in 4-5 words
+    motto: Me gusta Programar
+
+    # Focus
+    focus: Full Stack Developer
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Apasionado por la tecnología con experiencia previa como auxiliar administrativo, técnico de soporte en hardware y software, y dependiente de tienda. Actualmente en formación como desarrollador full stack, con fuertes habilidades en programación y un profundo conocimiento del hardware de PC. Destaco por mi capacidad de aprendizaje, resolución de problemas técnicos y compromiso con la mejora continua en el área tecnológica.
+
+    # Your profile picture URL
+    avatar: https://avatars.githubusercontent.com/u/150485515?v=4
+
+    # Contact Information
+    email: mafonsecaromero@gmail.com
+    phone: +34 613 46 22 00
+    github: manuelp700
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    # Interests or hobbies
+    interests:
+      - item: Musica
+
+      - item: Gamer
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Bachillerato
+      Institute: Colegio Calasanz Norte
+      university: Colegio Calasanz Norte # Aquí agregué el nombre de la universidad
+      university_logo: https://www.colegiocalasanzvalencia.com/wp-content/uploads/2023/05/logo_calasanz.jpeg
+      time: 2012 - 2017
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Auxiliar administrativo
+      time: 2024 - 2025
+      company: Escuela Superior de Tecnicas Parasanitarias
+      details: |
+        Recepcionista  
+        Atencion al Cliente  
+        Recepcion de llamadas  
+        Venta cruzada  
+        Asesoría
+
+    - role: Helpdesk Lv 1
+      time: 2019 - 2021
+      company: TQ Tecniaquas
+      details: |
+        Asistencia técnica de software  
+        Servicio técnico de hardware  
+        Ticketing  
+        Atención al cliente
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Microsoft office
+        level: 98%
+
+      - name: Outlook
+        level: 98%
+
+      - name: Windows
+        level: 100%
+
+      - name: HTML5 & CSS
+        level: 100%
+
+      - name: Atencion al cliente
+        level: 100%
