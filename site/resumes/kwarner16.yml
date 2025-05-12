@@ -1,0 +1,100 @@
+---
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kyle
+    last_name: Warner
+    
+    # Define yourself in 4-5 words
+    motto: Genius, billionaire, playboy, philanthropist.
+    
+    # Focus
+    focus: Bringing the future to us one project at a time.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Graduated college at 17. Obtained Machine Learning and Data Science certificate at 18.
+      Will attend Embry-Riddle to learn robotics and electrical engineering at 19. Will eventually 
+      build an innovative tech startup focused on unique technological advancements.
+    
+    # Your profile picture URL
+    avatar: https://sigmawire.net/i/03/PuGkHb.jpg
+
+    # Contact Information
+    email: ڪمkwarner16@gmail.com #optional
+    phone: (352)-598-1487 #optional
+    website: asd.com #optional
+    linkedin: Kyle Warner #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kwarner16
+    
+    twitter: KyleWarner_ #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Mandarin
+        level: Professional
+
+      - idiom: ASL
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Basketball
+
+      - item: Coding
+
+      - item: Robotics
+
+# Your previous education
+education:
+    - degree: Associate in Arts
+      university: College of Central Florida
+      # optional
+      university_logo: https://th.bing.com/th/id/OIP.8X4IoyCaJj94LDJWMLC1NQHaHa?w=174&h=180&c=7&r=0&o=5&pid=1.7
+      time: 2022 - 2024
+      details: |
+        Started in 2022 and aimed mainly towards computer-
+        based classes. Graduated with my AA in 2024. Was invited
+        to Phi Theta Kappa, but didn't join due to financial reasons.
+
+# Your project portfolio
+projects:
+    intro: >
+      Eternity AI is a fun side project I have been
+      working on. It is inspired fully by JARIVS from
+      the movie Iron Man. 
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: C#
+        level: 56%
+
+      - name: TensorFlow
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: PyTorch
+        level: 85%
+
+      - name: Numpy
+        level: 90%
