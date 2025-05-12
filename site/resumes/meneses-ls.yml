@@ -1,0 +1,64 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Luis J.
+    last_name: Meneses R.
+    
+    motto: Discipline and Control are Vital.
+    
+    focus: I want to make things that are more easy to understand.
+    
+    summary: |
+      From high school through college and all of my personal life, I've always used control to structure my life and some other academic aspects, I'm young so I don't have a career, nevertheless, I look forward to build a successful one.
+    
+    avatar: ...\site\static\profile-images\meneses-ls.jpg
+
+    email: louismenesas@gmail.com
+    phone: +58-0424-222-7913
+    
+    github: meneses-ls
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C1
+
+    interests:
+      - item: Videogames
+
+      - item: Calisthenics
+
+      - item: Cinema
+
+education:
+    - degree: Currently studying Electronic Engineering
+      university: Central University of Venezuela
+      time: 2023 - Present
+
+    - degree: High School Diploma
+      university: Colegio San Agustín El Paraíso
+      time: 2007 - 2011
+
+projects:
+    intro: >
+      I'm just getting started, I'll grow it for the future.
+
+    assignments:
+      - title: 1-Proyecto-Real-Estate-Data-Cleanup
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/meneses-ls/1-Proyecto-Real-Estate-Data-Cleanup"
+        tagline: "1° Project From: Data Science And Machine Learning - 16 Wks"
+
+      - title: 2-calculus-and-algebra-problems-with-python
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/meneses-ls/2-calculus-and-algebra-problems-with-python"
+        tagline: "2° Project From: Data Science And Machine Learning - 16 Wks"
+
+skills:
+    toolset:
+      - name: Python & C++
+        level: 75%
