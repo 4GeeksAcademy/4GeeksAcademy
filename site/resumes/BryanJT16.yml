@@ -1,0 +1,127 @@
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Bryan
+    last_name: Jumbo
+    
+    # Define yourself in 4-5 words
+    motto: Full-stack Developer
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudios de desarrollo de aplicaciones multoplataforma utilizando Java, Flutter, SQL, etc.
+      Posteriormente realice un ciclo formativo de grado superior sobre
+      Animacion 2D, 3D y Entornos interactivos centrado en animaciones 2D y modelado y animacion 3D
+      usando Maya y Blender, además de desarrollo de videojuegos en Unity usando C#
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/143851904?v=4
+
+    # Contact Information
+    email: bryanjumbotorres@gmail.com #optional
+    phone: 651 49 56 58 #optional
+    linkedin: bryan jumbo torres #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: BryanJT16
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Drawing
+
+      - item: Animate in 2D and 3D
+
+      - item: Videogames
+
+# Your previous education
+education:
+    - degree: CFGS Desarrollo de Aplicaciones Multiplataforma
+      university: PAU Casesnoves
+      # optional
+      university_logo: https://pbs.twimg.com/profile_images/1244570611722133505/wrP0ktTH_400x400.jpg
+      time: 2020 - 2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Programmer
+      time: 2024
+      company: Mansion Studios
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Programación de elementos y entornos de videojuegos
+        - Testeo de niveles
+        - Creación de Maquina de Estaod para jefe de videojuegos
+        - Mecanicas de enemigos y personaje
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 25%
+
+      - name: SQL
+        level: 50%
+
+      - name: Java
+        level: 9%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: C#
+        level: 35%
+
+      - name: Blender & Photoshop
+        level: 60%
