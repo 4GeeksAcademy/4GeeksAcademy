@@ -1,0 +1,41 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  name: Ángela Montoya
+  tagline: Full Stack Developer
+  avatar: https://github.com/angelamm98.png
+  phone: "+57 3206647413"
+  email: angelammontoyar98@gmail.com
+  linkedin: https://www.linkedin.com/in/angela-maria-montoya-rivera-a20a95272/
+  github: angelamm98
+
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+
+education:
+  - degree: Full Stack Developer Bootcamp
+    university: 4Geeks Academy
+    time: 2024 - 2025
+
+experiences:
+  - role: Customer Service 
+    time: 2017 - 2024
+    company: Nintendo, Flex, Fuse, VirtuaGym
+
+projects:
+  - name: TattooMatch - Proyecto Final
+    description: Plataforma para que tatuadores expongan sus trabajos y reciban mensajes.
+    technologies: React, Flask, PostgreSQL
+    github: https://github.com/Milechan/proyecto-tattoo
+
+skills:
+  - name: HTML & CSS
+    level: 90%
+  - name: React
+    level: 80%
+  - name: Python & Flask
+    level: 75%
