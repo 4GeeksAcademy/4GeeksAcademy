@@ -1,0 +1,154 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Frank
+    last_name: Perez
+    
+    # Define yourself in 4-5 words
+    motto: I need more Lego
+    
+    # Focus
+    focus: Lego
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Former ASE Certified Master Automotive Technician with over a decade of experience in Honda and Ford. While 
+      I’m no longer under the hood, the problem-solving mindset from my automotive days still drives my work today.
+      I now focus on SQL, data analysis, and full-stack software development. Adding to my Bachelor of Science in 
+      Information Technology from Florida State University, I’m currently expanding my technical skill set through 
+      the Fullstack Software Developer bootcamp at 4Geeks Academy. Avid Lego aficionado.
+        
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/474x/16/15/f3/1615f3d00fa18a74a6df1c569c9350c7.jpg
+
+    # Contact Information
+    email: franciscoperez028@gmail.com
+    linkedin: https://www.linkedin.com/in/franciscoaperez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fperez028
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness
+
+      - item: Lego
+
+      - item: Gaming
+
+# Your previous education
+education:
+    - degree: BS in Information Technology
+      university: Florida State University
+      # optional
+      university_logo: https://logos-world.net/wp-content/uploads/2021/08/FSU-Florida-State-University-Logo.png
+      time: 2012 - 2014
+      details: |
+        Completed the undergraduate curriculum with a focus on Databases and Networking.
+        Also had supplemental coursework covering UX Design, Research & Data Analysis, and
+        Health Informatics. Awareded Dean's List & President's List. Graduated Cum Laude. 
+        Member of the Society of Information Technology Professionals.
+
+    - degree: AA in General Studies
+      university: Tallahassee State College
+      # optional
+      university_logo: https://yt3.googleusercontent.com/uPxIFboCIskxtQZSO2Z-YTrDX1LFna5ZGxTq2Vp1Uf_iI8kkPuaKkQV9XbO0XrIC3tWK68FY=s900-c-k-c0x00ffffff-no-rj
+      time: 2010 - 2012
+      details: |
+        General studies for transfer to FSU. Awarded Dean's List. Member of 
+        Phi Theta Kappa Honor Society
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Integration Systems Analyst
+      time: 2023-2025
+      company: Opus IVS - US
+      # optional
+
+    - role: Operations
+      time: 2020 - 2023
+      company: Plusco Supply & Tidy Ice
+      # optional
+
+    - role: Technical Support Analyst & Escalated Support - Lincoln
+      time: 2017 - 2019
+      company: Ford Motor Company
+      # optional
+
+# Your project portfolio
+projects:
+    intro: >
+      Eventually, I'll have some projects to list here.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: SQL & Data Analysis
+        level: 80%
+
+      - name: Python
+        level: 60%
+
+      - name: Database Administration
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Ruby on Rails
+        level: 00%
+
+      - name: Sketch & Photoshop
+        level: 00%
