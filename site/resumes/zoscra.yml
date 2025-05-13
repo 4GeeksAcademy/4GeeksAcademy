@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose Manuel
+    last_name: Reguera Gutiérrez
+    
+    # Define yourself in 4-5 words
+    motto: mejor vida.
+    
+    # Focus
+    focus: Aprender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Not started
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: +34 693 675 692 #optional
+    website: https://github.com/zoscra #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/zoscra
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: ICPC
+
+      - item: Videogames
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bootcamp Developer Full Stack
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 03/2025-07/2025
+      details: Increible curso de Developer que me ha ayudado a aprender muchisimas cosas. PD:Subanle el sueldo a hori sergio y javier. LIbertat presus politics.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role:
+      time:
+      company:
+      # optional
+      company_logo: 
+      details: |
+
+# Your project portfolio
+projects:
+    intro: >
+
+
+    assignments:
+      - title: Boostrap-JMRG
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#https://github.com/4GeeksAcademy/Boostrap-JMRG"
+        tagline: "Una interpretación minimalista de instagram"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 5%
+
+      - name: JavaScript & jQuery
+        level: 15%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 35%%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 30%
