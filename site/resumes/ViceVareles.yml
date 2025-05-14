@@ -9,14 +9,14 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: José
+    last_name: Vareles
     
     # Define yourself in 4-5 words
     motto: I like saving the world
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Aprender programación
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,7 +32,7 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: vicente_vareles@hotmail.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
