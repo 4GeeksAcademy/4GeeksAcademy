@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ulla
+    last_name: Aller
+    
+    # Define yourself in 4-5 words
+    motto: I love learning
+    
+    # Focus
+    focus: smile and enjoy every day
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I'm sociologist by training and vocation. 
+     I enjoy analyzing and understanding my surroundings. 
+     That's what led me to study Data Science
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: ullaallerlopez@gmail.com #optional
+    linkedin: www.linkedin.com/in/ulla-aller-lópez/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/ullaom
+    
+
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: First Certificate
+
+      - idiom: Portuguese
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: yoga
+
+      - item: read
+
+      - item: travel
+
+# Your previous education
+education:
+    - degree: Sociology
+      university: UAB
+      # optional
+      university_logo: https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467950436.html
+      time: 2002 - 2006
+      details: Degree in sociology
+       
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: commercial analyst
+      time: 2023 - Present
+      company: Cargobici, Barcelona
+      # optional
+      company_logo: https://cargobici.es/
+      details: |
+        
+
+    - role: Front of house Manager
+      time: 2017-2023
+      company: El menjador de la Beckett
+     
+    - role: Shift Manager
+      time: 2013-2017
+      company: Hotel Pulitzer
+      company_logo: https://www.hotelpulitzer.es/es    
+     
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 50%
+
+     
