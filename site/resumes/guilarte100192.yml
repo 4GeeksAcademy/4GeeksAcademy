@@ -1,0 +1,108 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro
+    last_name: Guilarte
+
+    # Define yourself in 4-5 words
+    motto: Competitivo Capaz nervioso divertido esforzado
+
+    # focus
+    focus: ser buena persona, buen padre y muy audaz en lo que me proponga.
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Soy Operado de montacargas (toro), en mis noches y tiempo libre son Dj me encanta la musica y con muchas metas claras,
+      como una de ella es convertime en un exelente desarrollado web.
+      
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/128685565?s=400&u=24ae0175c2ae1e2d6ef2280171206621b9543ebb&v=4
+
+    # Contact Information
+    email: MiCorreoElectronico@hotmail.com #optional
+    phone: 999 999 999 #optional
+    website:  #optional
+    linkedin: Aqui estaria mi Linkedin Proximamente
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: guilarte100192
+
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: medio
+
+    # Interests or hobies
+    interests:
+      - item: musica
+
+      - item: comida
+
+      - item: aprendizaje
+
+      - item: coches
+
+      - item: video Juegos
+
+# Your previous education
+education:
+    - degree: Licenciado en Comercio Internacional
+      university: Universidad Alejandro De humboldt Caracas, Venezuela
+      # optional
+      time: 2013 - 2017
+      details: |
+       Controles Aduanales, aranceles, marketing, ventas, divisas.
+
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Mecanico.
+      time: 2023 - 2024
+      company: Talleres Moreno S.A
+      # optional
+      company_logo:
+      details: |
+        servicio y mantenimiento de coches, cambio de neumaticos, frenos, paralelo y reparaciones
+    - role: cocinero, encargado
+      time: 2018 - 2021
+      company: Burger King
+      # optional
+      details: |
+        Cara al publico orden y limpieza de cocina, Armado y entrega de hamburguesas, contacto como provedores de ingredientes y productos de la franquisia.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Esto son mis pequeños Proyecto que he realizado hasta los momento
+    assignments:
+      - title: Generador de Excusas
+        link: https://github.com/guilarte100192/GenerateExcuse/tree/main
+        tagline: Generar una Excusa aleatoria al actualizar la pagina o precionando en boton para que cada 4segundo se genere una nueva excusa automaticamente.
+
+
+skills:
+    toolset:
+
+      - name: Javascript
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: React
+        level: 0%
