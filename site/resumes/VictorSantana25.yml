@@ -1,0 +1,135 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Victor
+    last_name: Santana
+    
+    # Define yourself in 4-5 words
+    motto: Soluciono problemas con buen humor
+    
+    # Focus
+    focus: Cazador de bugs profesional
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador MERN en formación, con sólidos conocimientos en JavaScript, React, Node.js, Express y MongoDB. Me apasiona crear aplicaciones web funcionales y aprender constantemente sobre buenas prácticas de desarrollo y arquitectura de software.
+
+      Actualmente busco oportunidades para seguir creciendo en un entorno profesional, aportar con entusiasmo y seguir mejorando mis habilidades técnicas trabajando en proyectos reales y colaborativos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/42.jpg
+
+    # Contact Information
+    email: drake.santana25@outlook.es #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: VictorSantana25
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: English
+        level: intermedio
+
+
+    # Interests or hobbies
+    interests:
+      - item: Motocross
+
+      - item: Videojuegos
+
+      - item: Cooking
+
+# Educación previa
+education:
+  - degree: Curso Full Stack Developer (MERN)
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024
+    details: |
+      Formación intensiva orientada al desarrollo web full stack con enfoque en el stack MERN (MongoDB, Express, React y Node.js). Adquirí habilidades prácticas a través de proyectos reales y ejercicios colaborativos, incluyendo buenas prácticas de desarrollo, control de versiones con Git y trabajo en equipo ágil.
+
+        - Desarrollo de APIs REST con Node.js y Express
+        - Creación de interfaces dinámicas con React y manejo de estados
+
+# Experiencia previa o voluntariado
+experiences:
+  - role: Desarrollador web Jr. (proyecto académico)
+    time: 2024
+    company: Proyecto final de bootcamp
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Participé en el desarrollo de una aplicación full stack en equipo, siguiendo un flujo de trabajo colaborativo basado en Git y metodologías ágiles. Me encargué principalmente del frontend con React y del consumo de una API propia desarrollada en Node.js.
+
+        - Integración de componentes React con estilos responsivos
+        - Comunicación con backend usando Axios y manejo de rutas con React Router
+
+  - role: Voluntario en soporte técnico
+    time: 2023
+    company: ONG Local - Taller Digital
+    details: |
+      Brindé apoyo básico en mantenimiento de equipos y sitios web a organizaciones comunitarias. Esta experiencia fortaleció mis habilidades de trabajo en equipo, responsabilidad y resolución de problemas técnicos.
+
+        - Asistencia en el mantenimiento de una web en WordPress
+        - Configuración de equipos y entornos de desarrollo local
+
+# Portafolio de proyectos
+projects:
+  intro: >
+    Aquí presento algunos proyectos que he desarrollado durante mi proceso de formación como desarrollador MERN. En cada uno he puesto en práctica distintas tecnologías y enfoques de desarrollo que refuerzan mis habilidades técnicas y de colaboración.
+
+  assignments:
+    - title: TaskHub
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Gestor de tareas colaborativo con autenticación, desarrollado con React, Node.js y MongoDB."
+
+    - title: DevNotes
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "App para tomar notas enfocada en desarrolladores, con guardado persistente y diseño responsivo."
+
+    - title: MovieFinder
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: "Buscador de películas que consume la API de OMDB, desarrollado con React y Bootstrap."
+
+# Habilidades técnicas
+skills:
+  toolset:
+    - name: JavaScript (ES6+)
+      level: 55%
+
+    - name: React
+      level: 50%
+
+    - name: Node.js & Express
+      level: 45%
+
+    - name: MongoDB
+      level: 35%
+
+    - name: HTML5 & CSS3
+      level: 70%
+
+    - name: Git & GitHub
+      level: 60%
