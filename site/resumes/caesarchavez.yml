@@ -1,0 +1,119 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+    # Profile information
+    first_name: Cesar
+    last_name: Chavez
+    motto: Get better every day 
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQFLOOdS6_3Njg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683223063607?e=1753315200&v=beta&t=zSsXv7rwQi_-bNalJeTBvj6DAB2M8sYEmbvQODxK298
+    summary: |
+        IT technician with over 8 years of experience in the tech industry, working with various technology companies. 
+        
+        Skilled in customer-oriented service with a focus on delivering fast and satisfactory response times.
+        
+        Experienced in project implementation, collaborating across different departments and implementing new technologies.
+
+    # Sidebar links
+    email: cesar.chavez96@icloud.com
+    phone: +56 9 4934 7912
+    website: 
+    linkedin: cesararraizchavez
+    github: caesarchavez
+    twitter: '@Caaesarchavez'
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Bilingual
+
+    interests:
+      - item: Videogames
+      - item: Fitness
+      - item: AI
+
+education:
+    - degree: TSU in Computer Science
+      university: UPT Aragua
+      time: 2014 - 2017
+
+experiences:
+    - role: System Engineer
+      time: 2024 - Present
+      company: Peek
+      details: |
+        Responsible for maintaining and updating the support department's ticketing tool.
+        Also in charge of manual QA for bugs and issues within Peek Pro, reported internally by various company departments.
+
+          - Rebuilt the process and format for handling bugs reported by internal teams.
+          - Improved communication between support and engineering departments.
+          - Collaborated with external vendors on API development.
+          - Managed simultaneous projects between support and engineering.
+          - Implementation of Gen AI on all customer facing channels (phone, chat, email).
+
+    - role: Junior QA Engineer
+      time: 2021 - 2023
+      company: Peek
+      details: |
+        QA lead in charge of customer facing reports coming from internal teams.
+
+          - Improved communication between support and engineering departments.
+          - Documented the internal flow of FR and Bugs process.
+          - Managed meetings between engineering and support to prioritize various reported requests.
+
+    - role: IT Support
+      time: 2021 - 2021
+      company: Peek
+      details: |
+        Customer facing IT Support
+
+          - Handled 3000+ tickets in a 6 month period over 3 different channels.
+
+    - role: Head of IT department
+      time: 2021 - 2021
+      company: REDcol S.A
+      details: |
+    
+    - role: IT Supervisor
+      time: 2018 - 2021
+      company: REDcol S.A
+      details: |
+        Responsible for supervising performance and coordination of the technical support team.
+
+          - Ensured SLA compliance, monitored technician development and task execution.
+          - Managed performance reporting and monitored task completion.
+          - Managed R&D for new technologies.
+
+    - role: IT technician
+      time: 2017 - 2018
+      company: REDcol S.A
+      details: |  
+        Customer facing IT Support
+
+          - Worked and maintained IT systems for more than 20 companies.
+          - Implementation of CCTV. 
+          - Design,implemetation and configuration of networks.
+          - Data center maintanence. 
+          - Implementation of VoIP cental units, servers and technologies.
+        
+
+skills:
+    toolset:
+      - name: Zendesk
+        level: 90%
+
+      - name: Manual QA
+        level: 90%
+
+      - name: R&D
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
