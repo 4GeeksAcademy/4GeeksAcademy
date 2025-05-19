@@ -9,38 +9,33 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Paulo
+    last_name: Maracara
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: San Isidro, Maracay, Estado Aragua, Venezuela Nacionalidad: Venezolana - Italiana
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Psicologo
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Graduado como psicólogo clínico, me especialicé laboralmente en el área de marketing, desempeñando roles de gerencia estratégica y operativa, así como áreas de gestión de proyectos y análisis de datos.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
+    email: pauloale99@gmail.com
+    phone: 04243296798
+    website: www.paulo.com.ve
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: https://github.com/pauloams99
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
