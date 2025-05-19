@@ -3,20 +3,20 @@
 #
 
 template: "online-cv"
-skin: "blue"
+skin: "berry"
 
 # Personal Information
 basic_info:
 
     # Your full name
-    first_name: Simón
-    last_name: Pin Toro
+    first_name: Carmen 
+    last_name: Ger
     
     # Define yourself in 4-5 words
-    motto: I like dogs more than person
+    motto: I like saving the world
     
     # Focus
-    focus: Be a great programmer
+    focus: Justice
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,36 +32,37 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
+    email: gercanepacarmen@gmail.com #optional
+    phone: 935 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
+    github: cgerc
     
     twitter: 'webjeda' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: Spanish
+      - idiom: German
         level: Native
 
-      
+      - idiom: Spanish
+        level: Professional
 
-      - idiom: English
+      - idiom: Spanish
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Martial arts
+      - item: Climbing
 
-      - item: Artificial intelligence
+      - item: Painting
 
-      - item: Technology
+      - item: Cooking
 
 # Your previous education
 education:
@@ -81,7 +82,7 @@ education:
           - Bullet point
 
     - degree: BSc in Applied Mathematics
-      university: Bristol University
+      university: Universidad de Lima
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2007 - 2011
