@@ -1,0 +1,156 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Nicolas
+    last_name: Winocur
+    
+    # Define yourself in 4-5 words
+    motto: Software Engineer
+    
+    # Focus
+    focus: Systems Engineering, Quality Assurance, DevOps, Scrum, Process Compliance
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      I am an accomplished QA Lead and software engineer with 14+ years of experience spanning from nuclear submarines, to multifamily IoT, to AI applied to HR SaaS. I am best recognized for an ability to leverage my technical expertise in object-oriented programming, DevOps, test automation, and coaching/leading agile teams as a scrum master. My recent employment as a Software QA Test Engineer and prior volunteer work have demonstrated my leadership capabilities, both able to perform as an individual contributor and ready to step into team management responsibilities where needed. Strongly prefer continuously-improving & collaborative work cultures, roles that nurture a growth mindset with ample opportunities to both learn and teach, and automation.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4E03AQFn5bxvGoYIeQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1721148470170?e=1748476800&v=beta&t=kp_KdUOsfsgM3Q6fsnFTc9HVyITEKYc00OhoVQdaLok
+
+    # Contact Information
+    email: JobInquiries@NicolasWinocur.com #optional
+    phone:  #optional
+    website: https://nicolaswinocur.com #optional
+    linkedin: Nicolas-Winocur #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: NWinocur
+    
+    twitter: '' #optional
+    stack-overflow: 3858708/nwinocur
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Intermediate
+
+      - idiom: Mandarin
+        level: Beginner
+
+    # Interests or hobbies
+    interests:
+      - item: Photography
+
+      - item: Dance
+
+      - item: Board gaming / RPGs
+
+# Your previous education
+education:
+    - degree: MS in Systems Engineering
+      university: Worcester Polytechnic Institute
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/WPI_logo.svg/220px-WPI_logo.svg.png
+      time: 2012 - 2015
+      details: |
+        Earned 4.0 GPA, taking courses part-time while employed at General Dynamics Electric Boat.
+
+    - degree: BSc in Computer Engineering
+      university: Georgia Institute of Technology
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Georgia_Tech_seal.svg/150px-Georgia_Tech_seal.svg.png
+      time: 2004 - 2009
+      details: |
+        Includes study abroad term in Shanghai Jiao Tong University
+ 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Senior Software QA Engineer
+      time: 2023 - 2024
+      company: Ultimate Kronos Group, Inc. (UKG)
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Enabled on-schedule, interactive, non-recorded demonstration of industry-leading Bryte AI platform at market analyst day by developing pair of agile teams’ first NodeJS / Mocha tests.
+        - Ensured releases’ readiness by developing GitHub Actions pipelines for REST API-based AI or LLM microservices running on-prem or on Google Cloud to quality-gate CI/CD.
+        - Relieved days of effort for engineers corporation-wide by developing and sharing Python script to bulk-modify GitHub repositories during BitBucket to GitHub Enterprise migration.
+        - Acted as or taught/guided scrum master for each of three teams met daily, relieving approximately 2/3 of manager’s scrum master responsibilities for those teams.Describe your role here lorem ipsum dolor sit amet, consectetuer
+
+    - role: Quality Assurance Lead
+      time: 2021 - 2023
+      company: iApartments, Inc.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Reduced percentage of story points per sprint spent on bugs/rework by better than half by identifying threats to process scalability, then planning and leading process improvement.
+        - Closed process loopholes by migrating iApts from spreadsheet test plans to Xray for Jira.
+        - Uplifted company from infrequent, exclusively manually-tested releases towards CI/CD by training teammates towards Katalon (Selenium/Appium), Postman, or Python-based tests.
+        - Verified/validated multi-target IoT system, including mobile apps on iOS and Android, AWS serverless portal, and embedded devices using Wi-Fi, LTE, MQTT, and Z-Wave
+
+    - role: Senior Software Development Engineer in Test 
+      time: 2018-2021
+      company: iDevices at Hubbell, Inc.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Reduced human effort per test run from 1 to 3 hours of execution down to ~15 minutes of report or log analysis. Automating tests enabled running priority test suite 2+ times daily.
+        - From scratch, designed and implemented test framework allowing Python and pytest to interact with Alexa-enabled target over multiple interfaces: UART, digital I/O, speaker/microphone, and Appium-driven iOS or Android phone.
+        - Developed Jenkins pipelines to build and internally publish system as modular pip-installable Python packages, allowing addition of support for next product line in ~2 months vs. original 1-2 years of from-scratch development.
+        - Designed sound-insulated, portable, affordably-replicable test stations to house products under test, featuring a Raspberry Pi in each as a Jenkins agent, at ~9% lower cost and half the cubic footage volume vs. the original proposal.
+
+    - role: Senior Embedded Software Engineer
+      time: 2010-2018
+      company: General Dynamics Electric Boat
+
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Awarded by Electric Boat internally for presentation on imaging spectroscopy. Authored 100+ page follow-up report detailing its implications on camouflage and manufacturing.
+        - Developed Java, C, and Ada tactical software for Ship Control and Combat Launch Control.
+        - Ensured project conformance with Navy Fly-By-Wire and SUBSAFE special emphasis programs, including authorship and review of specifications per CMMI level 3 processes.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Assignment 1 Title
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A brief description of Assignment 1"
+
+      - title: Assignment 2 Title
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A brief description of assignment 2"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 60%
+        
+      - name: Numpy, Pandas, Matplotlib
+        level: 10%
+
+      - name: Java
+        level: 30%
+
