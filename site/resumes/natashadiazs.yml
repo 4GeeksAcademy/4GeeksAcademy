@@ -1,0 +1,160 @@
+
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Natasha
+    last_name: Diaz
+    motto: Persevering, perfectionist, meticulous, ambitious and curious.
+    
+    # Focus
+    focus: be happy
+    summary: |
+      I'm an Electronic Engineer with mention in Mechatronics and 3D designer of robotic mechanisms, 
+      but mainly a fan of learning new things and challenge myself, the more difficult something is to understand, 
+      the more I want to learn it and that's why I became passionate about creating game development and web development.
+    
+    # Your profile picture URL
+    avatar: https://drive.google.com/file/d/1uz0PN8tbmhCYwBZVYCYwKAPtDJ7CJ2LI/view?usp=drive_link
+
+    # Contact Information
+    email: natashadiazs05@gmail.com 
+    linkedin: https://www.linkedin.com/in/natasha-diaz/ 
+    github: NatashaDiazs
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: intermediate
+
+      - idiom: French
+        level: intermediate
+
+      - idiom: German
+        level: basics
+
+      - idiom: Chinese
+        level: basics
+
+    # Interests or hobbies
+    interests and hobbies:
+      - item: Fencing
+      - item: Piano, art, and poetry
+      - item: Learn languages 
+      - item: carpentry
+      - item: 3D modeling and design
+      - item: Photography and video editing
+
+# Your previous education
+education:
+    - degree: Electronic engineer with mention in mechatronics
+      university: Universidad Arturo Michelena
+      # optional
+      university_logo: https://images.seeklogo.com/logo-png/22/1/universidad-arturo-michelena-logo-png_seeklogo-227013.png
+      time: 2015 - 2020
+      details: |
+        ...
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 3D Designer
+      time: 2021 - Present
+      company: Fiverr, remote
+      # optional
+      company_logo: 
+      details: |
+        - Design of robotic prototypes and 3D printing parts.
+        - Calculations of movements and functionality of industrial assemblies.
+        - Scenario modeling with Blender for videogames.
+
+    - role: Electrical Designer 
+      time: 2022 - 2023
+      company: Tri-City Electric Co., Inc., Miami
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/C4E0BAQF8xQJySfOnLw/company-logo_200_200/company-logo_200_200/0/1631321646583?e=2147483647&v=beta&t=coYOTS8noo6XU8isHTotJzsFD9orDQcxE-lyed2h0tk
+      details: |
+        - Design of electrical system connections in walls. 
+        - QA/QC of design work packages (inwall and headwall).
+        - Reading of civil construction plans for electrical, telecommunications and fire systems. 
+        - Measurement and verification of piping and electrical boxes inclinations.
+      
+    - role: Electronic Engineer
+      time: 2021 - 2022
+      company: RE-TEC, Venezuela
+      # optional
+      company_logo: https://instagram.fccs9-1.fna.fbcdn.net/v/t51.2885-19/217881492_845663772712535_394655653872652783_n.jpg?stp=dst-jpg_s320x320_tt6&_nc_ht=instagram.fccs9-1.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QFsJN5EoUUMwEgEtpeiGGKdx-y3VcamiQNZSnx4uW2RVtBkSkavu7AYwP_7OFvbnHk&_nc_ohc=14XcDVb51kIQ7kNvwHpMQn7&_nc_gid=aVzg5vwwpBOKNIZgGsXfWA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfKh89k1Mr-3E7KoKBxFedQF9DR7QMkqh69UyHF25TndIw&oe=6832E27E&_nc_sid=8b3546
+      details: |
+        - Engineer in responsible for the repair of equipment of the electronic, medical, and ASIC type.
+        - Reading electronic diagrams.
+        - PLC automation.
+        - Programming of robotic projects with Arduino.
+
+# Your project portfolio
+projects:
+    intro: >
+      (Some projects are not finished or are not published on github)
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    assignments:
+      - title: Interactive game in Unity
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "simple game for unity with c# to move balls and remove obstacles"
+
+      - title: cinema website
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "website made in visual Basic of a movie theater to buy candy and movie tickets."
+
+      - title: post-Instagram
+        # optional
+        project_logo:
+        link: "https://github.com/NatashaDiazs/Natasha-Diaz-my-project-name"
+        tagline: "Simple instagram post made in HTML and CSS, *not responsive*."
+
+      - title: Instagram-Photo-Feed-con-HTML-CSS
+        # optional
+        project_logo: 
+        link: "https://github.com/NatashaDiazs/Instagram-Photo-Feed-con-HTML-CSS"
+        tagline: "Instagram feed with new posts"
+
+      - title: Tribute page
+        # optional
+        project_logo: 
+        link: "#"
+        tagline: "Celebrity biographical website"
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: JavaScript
+        level: 20%
+
+      - name: Python
+        level: 40%
+
+      - name: C#
+        level: 40%
+        
+      - name: Unity & Unreal
+        level: 30%
+
+      - name: Figma
+        level: 40%
+
+      - name: Visual Basic & assembler language
+        level: 35%
+
