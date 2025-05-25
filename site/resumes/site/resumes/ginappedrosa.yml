@@ -1,0 +1,93 @@
+template: "online-cv"
+skin: "pink"
+
+basic_info:
+    first_name: Gina
+    last_name: Pedrosa Rodríguez
+    motto: Transforming ideas into impact
+    focus: Business Intelligence & Strategic alignment
+    summary: |
+      Strong background in business strategy, process optimization and cross-functional project management. Specialized in unifying workflows, reports and tools across multinational environments.
+
+      Known for a sharp sense of organization, clarity in communication, and the ability to align diverse teams toward a shared goal. Passionate about technology, continuous improvement and working across cultures.
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    email: ginappedrosa@gmail.com
+    phone: "+34 623 979 500"
+    github: ginappedrosa
+
+    languages:
+      - idiom: English
+        level: High
+
+      - idiom: French
+        level: High
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+    interests:
+      - item: Music
+      - item: Sustainable innovation
+      - item: Writing and storytelling
+      - item: Nature
+
+education:
+    - degree: Law Degree
+      university: UAB
+      details: |
+        Focused on international and administrative law. Participated in exchange programs.
+
+    - degree: Online studies in Business Intelligence & Data Visualization
+      university: Multiple platforms (Coursera, edX, others)
+      time: 2021 - Present
+      details: |
+        Courses on Power BI, data modeling, dashboard design and analytics for business decision-making.
+
+experiences:
+    - role: Business Strategy & Operations Coordinator
+      time: 2021 - Present
+      company: Confidential
+      details: |
+        Coordinated projects between multiple countries, including reporting unification, digital product launches and internal communication workflows.
+
+          - Defined and tracked KPIs across business units.
+          - Designed collaborative tools to align sales, marketing, and operations.
+          - Organized international fairs and product presentations.
+
+    - role: Project & Process Manager
+      time: 2017 - 2021
+      company: Confidential
+      details: |
+        Led internal improvement projects, created Excel-based dashboards and supported executives in decision-making processes.
+
+          - Managed weekly performance reports for multiple departments.
+          - Simplified interdepartmental communication through new tools and templates.
+          - Trained teams in task tracking and reporting practices.
+
+projects:
+    - name: Unification of Internal reporting tools
+      description: |
+        Standardized KPI dashboards across departments. 
+
+    - name: App Integration & Digital Workspace Coordination
+      description: |
+        Project-managed the unification of various digital apps into a central internal platform, increasing team efficiency and reducing redundant workflows.
+
+skills:
+    - name: Strategic Planning & Execution
+      level: 90%
+
+    - name: Process Optimization
+      level: 85%
+
+    - name: Communication & Coordination
+      level: 95%
+
+    - name: Reporting & Business Intelligence
+      level: 85%
+
+    - name: Team Enablement & Training
+      level: 80%
