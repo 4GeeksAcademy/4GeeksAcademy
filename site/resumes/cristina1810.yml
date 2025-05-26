@@ -1,0 +1,80 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+  # Your full name
+  first_name: Khrystyna
+  last_name: Pavlusiv
+
+  # Define yourself in 4-5 words
+  motto: It's never too late.
+
+  # Focus
+  focus: Growth
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    I'm a multiplatform developer with experience in Java, .NET, web, and Android development. I’m currently expanding my skills in JavaScript, React, and Python through a Full Stack Bootcamp.
+    I’m detail-oriented, organized, and passionate about creating clean, well-documented, and efficient code.
+
+  # Contact Information
+  email: cristina.pavlusiv@gmail.com
+  phone: 652168428
+  linkedin: cristina-pavlusiv
+  github: cristina1810
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: Professional
+
+    - idiom: Spanish
+      level: Native
+
+    - idiom: Ukrainian
+      level: Native
+
+  # Interests or hobbies
+  interests:
+    - item: Digital Design
+    - item: Learning
+    - item: Gym
+
+  # Your previous education
+  education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2025
+      details:
+
+    - degree: Desarrollo de Aplicaciones Multiplataforma (Bilingüe)
+      university: IES Islas Filipinas
+      time: 2020 - 2023
+      details:
+
+  # Your previous job experiences or volunteer
+  experiences:
+    - role: Internship Developer
+      time: 2023 - 2023
+      company: Indra, Madrid
+
+  # Skills
+  skills:
+    toolset:
+      - name: Java
+        level: 80%
+
+      - name: JavaScript
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: .NET
+        level: 50%
+
+      - name: Photoshop
+        level: 60%
