@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tito Julio
+    last_name: Gonzalez Padial
+    
+    # Define yourself in 4-5 words
+    motto: I'm in constant evolution
+    
+    # Focus
+    focus: To be as independent as I can
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have finished my Computer Science college degree, in the Software Engineering
+      specialization. My main quality is my problem resolution, adaptability and resilience
+      which allow me to do any job I'm asked for.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQGYEERZJhEVrA/profile-displayphoto-shrink_200_200/B4DZXRpYulHsAY-/0/1742979042592?e=1753315200&v=beta&t=Wn7NQFgmthTIEQexES-KZkl7IsMsIrpbqVY71to_rro
+
+    # Contact Information
+    email: titojuliogonzalez@gmail.com #optional
+    phone: +34672166641 #optional
+    website: "" #optional
+    linkedin: https://www.linkedin.com/in/tito-julio-gonzalez-padial-7b7292330/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: tgp034
+    
+    twitter: "" #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Dancing / Music
+
+      - item: Sports
+
+      - item: Machine Learning / Automation / AI
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2025
+      details: |
+        An intensive bootcamp to be more familiar with the technologies used nowadays in
+        software development. Focusing mainly in HTML, CSS and JS.
+
+    - degree: Bachelor Degree in Computer Science
+      university: University of Almeria
+      # optional
+      university_logo: https://www.ual.es/application/files/6616/1665/9040/01_Logotipo.png
+      time: 2019-2024
+      details: |
+        I learnt different coding languajes like Java, JS, C and C#, different algorithms
+        and data structures. I also learnt about databases with SQL, project version control 
+        with Git, and different development methodologies. I devloped useful abilities such as
+        teamwork, problem resolution, resilience and adaptability.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Head of IT department
+      time: 2023 - 2024
+      company: FILEX Center
+      # optional
+      company_logo: https://www.elabogado.com/imagenes/12514/filex-abogados-500x500.webp?m=1746050703000
+      details: |
+        I was focused on automating different company processes to increase 
+        efficiency in the tasks performed by employees, as well as improvements 
+        to company websites and search engine positioning (SEO).
+
+# Your project portfolio
+projects:
+    intro: >
+      I have participated in different group projects and created some projects on my own
+
+    assignments:
+      - title: Playtopus
+        link: "https://github.com/ruth-mrs/Playtopus"
+        tagline: "A social network style web project simulating TikTok"
+
+      - title: RickQuiziados
+        link: "https://github.com/ualdra/rickquiziados"
+        tagline: "A quiz game about Rick and Morty"
+
+      - title: Implementation and study of 2 ML algorithms and their integration in a 2D platform game developed in Unity
+        link: "https://github.com/tgp034/TFG"
+        tagline: ""
+
+skills:
+    toolset:
+      - name: Python
+        level: 50%
+
+      - name: JavaScript
+        level: 85%
+
+      - name: Angular
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Git
+        level: 85%
+
+      - name: Java and Spring
+        level: 80%
+
+      - name: SQL
+        level: 75%
+      
+      - name: C#
+        level: 80%
