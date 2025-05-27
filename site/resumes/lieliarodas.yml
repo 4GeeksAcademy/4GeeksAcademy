@@ -1,0 +1,128 @@
+template: "online-cv"
+skin: "light blue"
+
+
+basic_info:
+
+    first_name: Lielia
+    last_name: Rodas
+    
+    
+    motto: Fail, Fail again, Fail better.
+    
+    
+    focus: Connect with the nature
+    
+    
+    summary: |
+      I'm a digital marketing strategist who thrives on blending 
+      creativity with data. From crafting compelling campaigns to 
+      diving into analytics, I enjoy the full spectrum of digital marketing.
+
+      With a background in design and a knack for data tools, I bring a 
+      holistic approach to every project. Collaborating with diverse teams 
+      and navigating the ever-evolving digital landscape keeps me energized.
+
+      🌎 Bilingual in Spanish and English , I thrive in multicultural, 
+      remote-first teams and love connecting with like-minded professionals 
+      in tech, marketing, and design.
+    
+   
+    avatar: https://shorturl.at/ORy87
+
+    linkedin: https://www.linkedin.com/in/lieliarodas
+    
+    github: https://github.com/lieliarodas
+
+    
+    languages:
+      - idiom: English
+        level: Fluent C2 
+
+      - idiom: Spanish
+        level: Native
+
+
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+education:
+    - degree: Graphic Design
+      university: University of Belgrano
+      time: 2013 - 2017
+
+      details: |
+      
+          - Strategic planning and execution of visual communication projects across various fields.
+          - Expertise in diagnosing, supervising, and evaluating visual communication processes.
+          - Managing projects and businesses in visual, graphic, and digital communication.
+          - Adapting to evolving scenarios in the field of visual communication through knowledge of emerging
+          technologies.
+
+    - course: Digital Marketing & Growht Marketing
+      institution: Coder House 
+      time: 2021 - 2021
+      
+      details: |
+
+          - Development of content strategies and moderation for social media platforms
+          - Creation and management of paid advertising campaigns from scratch on Meta
+          (Facebook/Instagram), Google, and their search partners.
+          - Deep understanding of ad targeting, optimization, and performance analysis.
+          - Measurement and analysis of KPIs to evaluate campaign success.
+          - Application of growth marketing techniques used by leading companies for user acquisition and
+          retention.
+
+    - certifications: .
+
+        Google Ads Certifications
+          - Google Ads Search Certification
+          - Google Ads Display Certification
+        
+        Google Analytics Certification
+
+        Soft Skills - Accenture Certification
+          - Master Communication 
+          - Self-Confidence
+          - Teamwork
+          - Flexibility Training
+
+
+experiences:
+    - role: Marketing Strategic
+      time: 2020 - Present
+      company: AEOS, Argentina
+      
+      details: |
+        Developed and executed comprehensive digital marketing strategies, 
+        aligned with business goals, for clients in various industries.
+
+          - Ability to manage multiple campaigns simultaneously, ensuring 
+          timely delivery within budget, while maximizing ROI.
+          - Utilized data insights to predict customer behavior and sales 
+          patterns, allowing for proactive strategy adjustments and improved 
+          campaign performance.
+
+skills:
+    toolset:
+      - name: Adobe Illustrator
+        level: 98%
+
+      - name: Adobe Photoshop
+        level: 90%
+
+      - name: Google Display Ads
+        level: 89%
+
+      - name: Google Search Ads
+        level: 95%
+
+      - name: Google Analytics
+        level: 85%
+
+      - name: Microsoft Excel
+        level: 79%
