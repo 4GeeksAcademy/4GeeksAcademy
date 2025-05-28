@@ -1,0 +1,113 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Raphael Schihab
+    last_name: Kunstmann
+    
+    # Define yourself in 4-5 words
+    motto: Focused, analytical, and results-driven
+    
+    # Focus
+    focus: Blending aesthetics with function
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Passionate about merging creativity with technical precision, 
+      I specialize in designing and building immersive, detail-rich aesthetic tech solutions. 
+      With a strong foundation in self-directed learning and problem-solving. I bring discipline, innovation, and a sharp eye for detail to every endeavor. 
+      My work reflects a commitment to quality, originality, and continuous improvement, making me a valuable asset in roles that demand both imagination and execution.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://yt3.googleusercontent.com/KyfceoRnA3LiNeIDY2aKUAn2TrtvqTRz-TybjcMHzc2dPSHy5wA5YOVnc1Mrmqt7V4TxKp4R=s900-c-k-c0x00ffffff-no-rj
+
+    # Contact Information
+    email: raphaelkunstmann@gmail.com #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ThatRapho
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: German
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: 3D printing
+
+      - item: Baking
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Graphic Design
+      university: NaturalFormacion, Elche
+      # optional
+      time: 2011 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Practicing full-stack web development.
+      
+projects:
+    intro: >
+      There are some of my github projects for the 4GeeksAcademy course:
+    
+    assignments:
+      - title: Instagram Feed using Bootstrap
+        link: https://github.com/4GeeksAcademy/Instagram-Photo-Feed-con-Bootstrap-ThatRapho
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view."
+
+      - title: Excuse Generator
+        link: https://github.com/4GeeksAcademy/Excuse-Generator-in-JavaScript-NotRapho
+        tagline: "A random excuse generator using JavaScript."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
