@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tomás
+    last_name: Uhía Otero
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta programar
+    
+    # Focus
+    focus: Aprendizaje y desarrollo
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Mi nombre es Tomás, durante mis estudios he estado en contacto con diferentes tecnologias tales como; 
+      HTML5, CSS3, JAVA, JavaScript, PHP, MySql, Python, C#, Bootstrap5, React, SQL, BBDD relacionales etc... 
+      además de manejar diferentes programas como; Android Studio, Visual Studio, Visual Studio Code, Wordpress, PhpMyAdmin, Oracle IDE etc...
+      Mis estudios se basaron tanto en la programacion web como para dispositivos móviles y aplicaciones de escritorio.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: tomasuhiaotero@gmail.com #optional
+    phone: 698207375 #optional
+    linkedin: www.linkedin.com/in/tomás-uhía-otero-b10748345 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: TomasUhiaOtero
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Inglés
+        level: Professional
+
+      - idiom: Gallego
+        level: Nativo
+
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Música
+
+      - item: Videojuegos
+
+      - item: Cine
+
+# Your previous education
+education:
+    - degree: Grado superior DAM
+      university: Tesdai, Santiago de Compostela
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2024
+      details: |
+        durante mis estudios he estado en contacto con diferentes tecnologias tales como; HTML5, CSS3, JAVA, JavaScript, PHP, MySql, Python, C#, Bootstrap5, React, SQL, BBDD relacionales etc... 
+        además de manejar diferentes programas como; Android Studio, Visual Studio, Visual Studio Code, Wordpress, PhpMyAdmin, Oracle IDE etc... 
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Programador Junior
+      time: 2024 - 2025
+      company: LoggForSport
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        He trabajado creando una web corporativa para la empresa desde un benchmarking inicial hasta la creacion de la propia pagina desde cero.
+
+
+    
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: TopMusic
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#http://topmusic.mypressonline.com/"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 40%
+
+      - name: JavaScript & jQuery
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Java
+        level: 65%
