@@ -1,0 +1,57 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+  # Your full name
+  first_name: Sofia
+  last_name: Casquinha
+  github: sofiacasquinha
+
+  # Define yourself in 4-5 words
+  motto: Be the change you want to see in the world
+
+  # Focus
+  focus: Humanitarian rights
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: >
+    I'm a language and communication graduate transitioning into the world of coding and data science.
+    With a strong foundation in intercultural communication and analytical thinking, I bring a human-centred
+    approach to problem solving.
+
+  # Contact Information
+  email: sofia.casquinha1@gmail.com
+
+  # Languages you speak, levels include: Native, Professional
+  languages:
+    - idiom: English
+      level: C2
+
+    - idiom: Spanish
+      level: C1
+
+    - idiom: Japanese
+      level: A3
+
+  # Interests or hobbies
+  interests:
+    - item: Roller Skating
+    - item: Eurovision
+
+# Your previous education
+education:
+  - degree: Bachelors in Applied Languages to Business
+    university: University of Porto
+    time: 2021 - 2024
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Translator
+    time: 2024
+    company: WSDti, Lisbon
+
+  - role: Volunteer
+    time: 2022 
+    company: TransEuropa Festival
