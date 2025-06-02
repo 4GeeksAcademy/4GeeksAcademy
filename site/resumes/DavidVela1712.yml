@@ -1,0 +1,131 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Vela
+    
+    # Define yourself in 4-5 words
+    motto: Soy alguien organizado y decidido
+    
+    # Focus
+    focus: Programar y hacer deporte
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Hice el Grado Medio de Sistemas Microinformáticos y redes, 
+      después hice el Grado Superior de Desrrollo de Aplicaciones Multiplataforma, estuve haciendo
+      formación dual en la empresa KPMG y después trabaje de becario como programador en alguna
+      empresa, actualmente me encuentro trabajando como técnico de IT y quiero volver al mundo de la programacón.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: ../src/static/4g-logo-negro-01.png
+
+    # Contact Information
+    email: davidvela1712@gmail.com #optional
+    phone: 640649133 #optional
+    website: asd.com #optional
+    linkedin: david-vela-28373a227 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DavidVela1712
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Medio
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: GM Sistemas Microinformáticos y redes
+      university: Salesianos
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2020
+      details: |
+        Redes, software, hardware y un poco de programación.
+
+    - degree: GS Desarrrollo de Aplicaciones Multiplataforma
+      university: Salesianos
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2022
+      details: |
+        HTML, Java, JavaScript, CSS, C+, SQL, Angular.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Becario
+      time: 2021 - 2022
+      company: KPMG
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Business Central
+
+    - role: Becario
+      time: 2023 - 2023
+      company: Grupo Oesía
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Angular
+
+    - role: Becario
+      time: 2023 - 2024
+      company: Grupo Oesía
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Angular, Java.
+
+# Your project portfolio
+projects:
+    intro: >
+      Estos son mis proyectos
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://github.com/4GeeksAcademy/DavidVela1712-4GeeksAcademy
+        link: "#hook"
+        tagline: "Información sobre mí"
+
+skills:
+    toolset:
+      - name: Java
+        level: 80%
+
+      - name: JavaScript & jQuery
+        level: 60%
+
+      - name: Angular
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: SQL
+        level: 50%
