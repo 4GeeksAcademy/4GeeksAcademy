@@ -144,7 +144,7 @@ projects:
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile app"
 
 skills:
     toolset:
