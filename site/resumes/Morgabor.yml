@@ -1,0 +1,167 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jacob
+    last_name: Randall
+    
+    # Define yourself in 4-5 words
+    motto: I'm going to build the world
+    
+    # Focus
+    focus: Creation
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+     I grew up on coding games with unity using c++. I always enjoyed programing but as I got older 
+     I started enjoing more of the techinal parts of coding instead of making games look good,
+      and or artistic parts of games.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: Jarandall103@gmail.com #optional
+    phone: 749 937 5038 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Morgabor
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: lifting
+
+      - item: soccer
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: highschool
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: 
+        Yeah I completed high school
+
+    - degree: 4geeks
+      university: N/A
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: 
+        You guys
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Burr hand
+      time: 2024 - Present
+      company: Steel shop
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        I debur hard steel, laser engrave, deliver and help out in the hsop
+
+    - role: RCA Post office
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        I would deliver mail 
+
+    - role: Planet fitness overnight
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: 
+        Helped people work out and maintained the gym
+
+# Your project portfolio
+projects:
+    intro: 
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Clicker Game
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "I made a fully developed 2d clicker game with upgrades, mechanics, and art"
+
+      - title: 2D rogue like
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A procedurally generated game that spawns rooms with monsters you fight"
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile app"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 50%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 49%
+
+      - name: HTML5 & CSS
+        level: 99%
+
+      - name: Ruby on Rails
+        level: 32%
+
+      - name: Sketch & Photoshop
+        level: 86%
