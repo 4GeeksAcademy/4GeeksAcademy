@@ -19,7 +19,7 @@ basic_info:
     focus: Creation
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
+    summary: 
      I grew up on coding games with unity using c++. I always enjoyed programing but as I got older 
      I started enjoing more of the techinal parts of coding instead of making games look good,
       and or artistic parts of games.
@@ -68,7 +68,7 @@ education:
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2011 - 2012
-      details: |
+      details: 
         Yeah I completed high school
 
     - degree: 4geeks
@@ -76,7 +76,7 @@ education:
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2007 - 2011
-      details: |
+      details: 
         You guys
 
           - Bullet point
@@ -89,7 +89,7 @@ experiences:
       company: Steel shop
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      details: 
         I debur hard steel, laser engrave, deliver and help out in the hsop
 
     - role: RCA Post office
@@ -97,7 +97,7 @@ experiences:
       company: Google, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      details: 
         I would deliver mail 
 
     - role: Planet fitness overnight
@@ -105,12 +105,12 @@ experiences:
       company: Amazon, London
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
+      details: 
         Helped people work out and maintained the gym
 
 # Your project portfolio
 projects:
-    intro: >
+    intro: 
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
