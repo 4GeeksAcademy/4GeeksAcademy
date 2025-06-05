@@ -1,0 +1,98 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Camilo Esteban
+  last_name: Peña Castañeda
+  motto: Mejor estar solo y en paz
+  focus: Esforzarme para ser de los mejores programadores
+  summary: 
+    Mi enfoque esta en poder trabajar en grandes empresas ya sea Microsoft,
+    Google, Meta, Apple, etc. Ser dearrollador full-stack,
+
+    al principio no va a ser facil, pero todo con esfuerzo y perseverancia es posible, a demas que para trabajar en equipo, es algo
+
+    que se me da muy bien, puedo aportar ideas como resolver problemas si la situacion lo amerita.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: millow98originals@gmail.com
+  phone: +34 662 39 00 26
+  website: asd.com
+  linkedin: alandoe
+  github: MillowCast
+  twitter: ""
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Basic
+  interests:
+    - item: Poetry
+    - item: Videogames
+    - item: Football
+  degree: 
+    university: I.E.D Bravo Paez
+    university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F189217674%40N02%2F&psig=AOvVaw29Eq4JrHxDkxs5gkkIlCVB&ust=1746295004148000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODspIGuhY0DFQAAAAAdAAAAABAE
+    time: 2011 - 2017
+    details: Realice desde el ultimo grado de primaria hadsta la finalizacion del
+      bachillerato
+  university: Instituto San Ignacio De Loyola
+    university_logo:https://i0.wp.com/www.conaced-bogota.org/wp-content/uploads/2018/10/colegio-san-ingnacio-del-loyola.jpg?fit=1140%2C760&ssl=1
+    time:2009 - 2010
+    details:|
+      Realice cuarto y quinto de primaria
+experiences:
+  - role: Asesor
+    time: 2015 - 2017
+    company: KMB, Bogotá, Colombia
+    company_logo: https://www.tiendaskmb.com/
+    details: 
+      Realice la labor de Vendedor por las epocas de diciembre y remplazos de
+      fin de semana de esos años.
+  - role: Asesor
+    time: 2020 - 2022
+    company: KMB, Bogotá, Colombia
+    company_logo: https://www.tiendaskmb.com/
+    details: 
+      Realice la labor de Vendedor por el tiempo de trabajo reglamentario,
+      llegando a tener la oportunidad de ascender a jefe de tienda.
+projects:
+  intro: 
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Post instagram
+      project_logo: 
+      link: "https://github.com/4GeeksAcademy/intagram-Millow"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: Instagram Whit Bootstrap
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/4GeeksAcademy/html-hello-Millow/blob/main/index.html"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Form HTML5
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "http://github.com/4GeeksAcademy/Formulario-HTML5-Millow"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Perfil Conditional
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/MillowCast/exercise-conditional-profile-card"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
