@@ -6,7 +6,7 @@ basic_info:
   last_name: Peña Castañeda
   motto: Mejor estar solo y en paz
   focus: Esforzarme para ser de los mejores programadores
-  summary: >
+  summary: 
     Mi enfoque esta en poder trabajar en grandes empresas ya sea Microsoft,
     Google, Meta, Apple, etc. Ser dearrollador full-stack,
 
@@ -46,18 +46,18 @@ experiences:
     time: 2015 - 2017
     company: KMB, Bogotá, Colombia
     company_logo: https://www.tiendaskmb.com/
-    details: >
+    details: 
       Realice la labor de Vendedor por las epocas de diciembre y remplazos de
       fin de semana de esos años.
   - role: Asesor
     time: 2020 - 2022
     company: KMB, Bogotá, Colombia
     company_logo: https://www.tiendaskmb.com/
-    details: |
+    details: 
       Realice la labor de Vendedor por el tiempo de trabajo reglamentario,
       llegando a tener la oportunidad de ascender a jefe de tienda.
 projects:
-  intro: >
+  intro: 
     You can list your side projects or open source libraries in this section.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
     ligula in nunc bibendum fringilla a eu lectus.
