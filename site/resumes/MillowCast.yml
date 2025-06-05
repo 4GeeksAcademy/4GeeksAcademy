@@ -62,31 +62,26 @@ projects:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
     ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Velocity
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#hook"
+    - title: Post instagram
+      project_logo: 
+      link: "https://github.com/4GeeksAcademy/intagram-Millow"
       tagline: A responsive website template designed to help startups promote, market
         and sell their products.
-    - title: DevStudio
+    - title: Instagram Whit Bootstrap
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
+      link: "https://github.com/4GeeksAcademy/html-hello-Millow/blob/main/index.html"
       tagline: A responsive website template designed to help web developers/designers
         market their services.
-    - title: Tempo
+    - title: Form HTML5
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
+      link: "http://github.com/4GeeksAcademy/Formulario-HTML5-Millow"
       tagline: A responsive website template designed to help startups promote their
         products or services and to attract users &amp; investors
-    - title: Atom
+    - title: Perfil Conditional
       project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
+      link: "https://github.com/MillowCast/exercise-conditional-profile-card"
       tagline: A comprehensive website template solution for startups/developers to
         market their mobile apps.
-    - title: Delta
-      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      link: "#"
-      tagline: A responsive Bootstrap one page theme designed to help app developers
-        promote their mobile apps
 skills:
   toolset:
     - name: Python & Django
