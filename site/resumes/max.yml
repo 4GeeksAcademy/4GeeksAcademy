@@ -1,0 +1,87 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Max
+  last_name: Ihnen
+  motto: Problem Solver and Full Stack dev.
+  focus: Better every day
+  summary: >
+    Flexible and energetic leader with a strong project and program
+    management background. Proven record of success in driving key initiatives
+    from planning through implementation, achieving positive and measurable
+    organizational impact. Combine analytical knowledge, leadership abilities,
+    and relationship building skills to engage stakeholders at all levels and
+    enable data-driven decision-making. Excel at defining and executing an
+    overall program concept and direction as well as identifying areas of
+    improvement to ensure high level of efficiency and excellence. Communicate
+    seamlessly across all areas of the company. Currently learning to code.
+  avatar: https://media.bio.site/sites/6111c3a2-e30f-4916-bf51-794192975051/ufiDD2LXeMAWYBqwtdgyoi.jpg
+  website: www.maxdenuevo.com
+  linkedin: https://www.linkedin.com/in/ihnen/
+  github: https://github.com/maxdenuevo
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Hiking
+    - item: Films
+    - item: Cooking
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2024
+    details: >
+      Nothing is more annoying than a PM without coding skills. That's not
+      going to be me anymore!
+
+        - Bullet point
+        - Bullet point
+  - degree: Dropout, Law and Philosophy
+    university: Universidad de los Andes
+    university_logo: https://media.licdn.com/dms/image/v2/C510BAQHnAHUoih6aMw/company-logo_100_100/company-logo_100_100/0/1631407000419?e=1730332800&v=beta&t=0WJLRIXTZNsAc-eok9dIPQhT_Vno0PPtB1OFJ8aAScM
+    time: 2010 - 2014
+    details: ""
+experiences:
+  - role: Program Coordinator
+    time: 2022 - 2024
+    company: Uber, Chile
+    company_logo: https://media.licdn.com/dms/image/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/0/1630552741617/uber_com_logo?e=1730332800&v=beta&t=1Y-FpL7Hn70K_OsMWcKlaQXCO5n4WUTOVzeOMVH-WoY
+    details: >
+      Strategically planned and executed screening programs across diverse
+      Latin American markets, ensuring strict adherence to safety policies and
+      compliant solutions.
+
+      Collaborated extensively with cross-functional teams encompassing Ops, Product, Devs, Business Development, and Legal to formulate and implement effective strategies.
+
+        - Strategy
+        - Agile
+  - role: Screenings Lead Latam
+    time: 2020 - 2022
+    company: Cornershop by Uber, Chile
+    company_logo: https://media.licdn.com/dms/image/C4D0BAQHJR9kTj10aHg/company-logo_100_100/0/1631308765083?e=1730332800&v=beta&t=0etAHJzPc3QIHgh4svrH8_e3Vg3GsfhXrkH0qQUcFZA
+    details: >
+      Led the Screenings program for Latin America's biggest grocery delivery
+      platform. Kept the Platform Safe while improving earners’ conversion.
+
+      Scope: Brazil, Mexico, Chile, Colombia, Costa Rica and Peru.
+  - role: Head of Logistics and Customer Care
+    time: 2018 - 2020
+    company: Waiwai Technologies, Chile
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Start-up providing secure payments and dispatches for second-hand
+      goods. It has its own app.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 40%
+    - name: JavaScript & jQuery
+      level: 90%
+    - name: React.js
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
