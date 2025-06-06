@@ -1,0 +1,54 @@
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fina
+    last_name: Rosalina
+    
+    # Define yourself in 4-5 words
+    motto: The world is not enought
+    
+    # Focus
+    focus: start nomade life
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Chemistry degree, Senior Quality Manager, and Product owner since the world exist.
+      Now i am trying my new 5.0 version, learnig data Science.
+      One day without learning its a day not lived
+
+      Almost ready to work from wherever with my new and big motorhome.
+    
+    
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://ntvb.tmsimg.com/assets/p22650_v_h10_af.jpg?w=1280&h=720.jpg
+
+    # Contact Information
+    email: finarosalinabarbaz@gmail.com #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Finarolasina
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Nativa
+
+    # Interests or hobbies
+    interests:
+      - item: Traveling
+
+      - item: Movies
+
+      - item: Cooking
