@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Jesús
+    last_name: Garland
+
+    motto: Frontend dev. apasionado
+    focus: React, UX/UI, rendimiento
+
+    summary: |
+      Desarrollador Frontend con experiencia en React.js, JavaScript y desarrollo web. Me enfoco en construir aplicaciones escalables, responsivas y optimizadas para un alto rendimiento, priorizando la experiencia del usuario y las buenas prácticas en diseño. 
+
+      Manejo estructuras de datos, Git, metodologías ágiles y me apasiona la mejora continua. También tengo conocimientos en backend con Java Spring Boot, Node.js y Python, así como manejo de bases de datos SQL.
+
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    email: jgarlandh@gmail.com
+    phone: +569 3873 1222
+    website: # opcional
+    linkedin: jgarlandh
+    github: jgarlandh
+    twitter: # opcional
+    stack-overflow:
+
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Profesional
+
+    interests:
+      - item: Tecnología
+      - item: Lectura
+      - item: Aprendizaje continuo
+
+education:
+    - degree: Jr. Full Stack Developer (Certificación)
+      university: Generation.org
+      time: 2023
+      details: |
+        Programa intensivo centrado en el desarrollo fullstack, destacando habilidades en React, Node.js, y metodologías ágiles como Scrum.
+
+    - degree: JS Challenge (Certificación)
+      university: Platzi
+      time: 2022
+      details: |
+        Curso práctico de resolución de desafíos en JavaScript, fortaleciendo el dominio de estructuras y lógica de programación.
+
+    - degree: Jr. Java Developer (Certificación)
+      university: Universidad de Chile, FCFM / Accenture
+      time: 2017
+      details: |
+        Formación enfocada en desarrollo backend con Java y fundamentos sólidos de programación orientada a objetos.
+
+    - degree: Ingeniería en Informática (congelado)
+      university: Universidad Tecnológica de Chile INACAP
+      time: 2013 - 2015
+      details: |
+        Formación técnica en informática con bases en desarrollo, redes y gestión de sistemas.
+
+experiences:
+    - role: Desarrollador Frontend
+      time: Septiembre 2021 - Presente
+      company: Freelance
+      details: |
+        - Desarrollo y mantenimiento de aplicaciones web responsivas con React.js y JavaScript.
+        - Pruebas unitarias para asegurar calidad y confiabilidad del código.
+        - Uso de Git y GitHub para control de versiones.
+        - Optimización de experiencia de usuario y rendimiento con buenas prácticas UX/UI.
+
+    - role: Técnico de Soporte y Administrador de Plataformas TI
+      time: Diciembre 2019 - Noviembre 2022
+      company: UH & C Asesorías Jurídicas
+      details: |
+        - Gestión de infraestructura TI y mantenimiento de hardware/software.
+        - Implementación de soluciones cloud, administración de Office365 y hosting.
+        - Apoyo en gestión de proyectos tecnológicos asegurando eficiencia operativa.
+
+    - role: Líder Técnico de Soporte
+      time: Enero 2018 - Octubre 2018
+      company: Colgram S.A.
+      details: |
+        - Coordinación de soporte técnico para más de 100 tiendas a nivel nacional.
+        - Gestión de equipos y mantenimiento preventivo.
+        - Mejoras tecnológicas en sistemas de soporte y operación.
+
+projects:
+    intro: >
+      A lo largo de mi carrera he participado en proyectos freelance, retos de programación y colaboraciones en GitHub, enfocándome en interfaces eficientes, responsivas y con buen rendimiento.
+
+    assignments:
+      - title: Portafolio Personal
+        link: "#"
+        tagline: "Aplicación web construida con React y Vite para mostrar proyectos, habilidades y contacto."
+
+      - title: Admin Dashboard
+        link: "#"
+        tagline: "Panel de administración en React con autenticación, gráficas y control de usuarios."
+
+      - title: Challenge JS
+        link: "#"
+        tagline: "Colección de retos JavaScript resueltos y publicados en GitHub para reforzar lógica."
+
+skills:
+    toolset:
+      - name: React.js & JavaScript ES6+
+        level: 95%
+
+      - name: HTML5 & CSS3 / Bootstrap
+        level: 90%
+
+      - name: Git & GitHub
+        level: 90%
+
+      - name: Node.js & Express
+        level: 70%
+
+      - name: Java Spring Boot
+        level: 60%
+
+      - name: Python
+        level: 60%
+
+      - name: SQL (bases de datos relacionales)
+        level: 65%
+
+      - name: Scrum / Trabajo en equipo
+        level: 85%
