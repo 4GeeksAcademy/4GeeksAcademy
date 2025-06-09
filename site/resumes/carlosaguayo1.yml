@@ -1,0 +1,182 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos
+    last_name: Ibañez Aguayo
+    
+    # Define yourself in 4-5 words
+    motto: hardworking, creative and passionate
+    
+    # Focus
+    focus: learning development and programing languages.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     I am a dynamic and adaptable professional with solid experience in sales development, customer service, and an academic background in marketing and finance. Throughout my career, I have honed my skills in communication, relationship management, and problem-solving, excelling in international and multicultural environments.
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/C5603AQHlifuimWbtbw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1586470149735?e=1752105600&v=beta&t=-dP7fWCh9OdvzA8lhftfPyy7lIUADvyfziuejFGgiMI
+
+    # Contact Information
+    email: carlosibanezaguayo@gmail.com #optional
+    phone: 664510836 #optional
+    linkedin: www.linkedin.com/in/carlos-ibañez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: CarlosAguayo1
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Martial Arts
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Full Stack Developer
+      university: 4Geeksacademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: february 2025 - in process
+      details: |
+        Developing full web applications with React (frontend) and Node.js/Express (backend).
+        Managing databases (MongoDB, SQL) and creating RESTful APIs.
+        Deploying applications to cloud platforms (Heroku, Netlify).
+
+        
+      
+
+   
+    - degree: Marketing and Communication 
+      university: Australian Pacific College
+      # optional
+      time: July 2023 - June 2024
+      details: |
+        Design and execution of digital/traditional marketing strategies and campaigns.
+        Audience analysis, consumer trends, and public relations management.
+        Coordination of promotional events and internal/external communication plans.
+
+
+
+
+
+    - degree: Finances 
+      university: Gredos San Diego
+      # optional
+      time: september 2018 - June 2020
+      details: |
+        Comprehensive management of human, financial, and operational resources.
+        Analysis of financial statements, budgets, and process optimization.
+        Knowledge of business legislation and use of ERP/CRM tools.
+
+
+
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Export Agent
+      time: October 2024 - February 2025
+      company: DHL
+      # optional
+      details: |
+        Managed international logistics and documentation, ensuring compliance with regulations and deadlines.
+        Coordinated with clients and suppliers to resolve issues, optimizing shipping processes.
+        Ensured accuracy in legal documents (certificates of origin, commercial invoices).
+
+    - role: Bilingual Customer Support Representative
+      time: October 2023 - August 2024
+      company: Pacific Hunter
+      # optional
+      details: |
+        Handled 50+ inquiries per month in English/Spanish (phone, email, chat) with 95% customer satisfaction.
+        Documented and classified issues in CRM, reducing response time by 20%.
+        Collaborated with sales/logistics teams to implement process improvements.
+
+    - role: Mortgage Advisor
+      time: September 2021 - January 2022
+      company: Grupo BC
+      # optional
+      details: |
+        Advised 80+ clients on mortgage products, tailoring solutions to their financial profiles.
+        Managed the entire process (documentation, bank negotiations, signing).
+        Negotiated competitive conditions, achieving an approval rate of 85%.
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
