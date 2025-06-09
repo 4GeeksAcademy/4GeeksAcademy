@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kenia
+    last_name: Solorzano
+    
+    # Define yourself in 4-5 words
+    motto: Creativa, divertida, valiente, curiosa, soñadora
+    
+    # Focus
+    focus: Crear soluciones, aprender sin límites
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me gradué en Administración de Empresas, pero mi espíritu curioso y mi amor por los desafíos me llevaron a darle un giro total a mi camino: hoy estoy inmersa en el mundo de la programación. Siempre me ha encantado crear cosas, aprender algo nuevo cada día y convertir ideas en realidad. Mi enfoque actual es explorar el universo de la tecnología con mente abierta y muchas ganas, construyendo soluciones que realmente marquen la diferencia. Porque para mí, cada reto es una nueva oportunidad de crecer y disfrutar el viaje.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/194567730?v=4
+
+    # Contact Information
+    email: kmsolorzano30@gmail.com
+    phone: 03943823
+    website: 
+    linkedin: https://www.linkedin.com/in/kenia-solorzano/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: kmsolorzano
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: 
+        level: 
+
+      - idiom: 
+        level: 
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Desarrollo personal 
+
+      - item: Emprendimiento y negocios
+
+      - item: Inspirar y motivar a otros
+
+# Your previous education
+education:
+    - degree: Administracion de Empresas
+      university: Universidad Tecnica de Manabi
+      # optional
+      university_logo: 
+      time: 2017 - 2022
+      details: |
+        Durante cinco años me formé en áreas clave como finanzas, recursos humanos, marketing, contabilidad y gestión estratégica. Aprendí a analizar entornos empresariales, tomar decisiones efectivas y liderar equipos con enfoque en resultados.
+
+        - Participé en proyectos de análisis de mercado y planes de negocio.
+        - Desarrollé habilidades en liderazgo, trabajo en equipo y resolución de problemas.
+        - Adquirí sólidos conocimientos en administración financiera y gestión de recursos.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Asistente de Gerencia
+      time: 2022-2023
+      company: SalesBox360
+      # optional
+      company_logo: 
+      details: |
+          - Prospección, contacto, apertura de negocios y seguimiento a los clientes.
+          • Creación de contenido para redes sociales, con especial enfoque en LinkedIn.
+          • Manejo de la herramienta CRM para una gestión eficiente de datos.
+          • Asistencia a la gerencia en tareas administrativas y estratégicas.
+          • Participación en la presentación de propuestas y cotizaciones.
+          
+
+    - role: Secretaria 
+      time: 2021 - 2022
+      company: FUNDACIÓN CRISTIANA “COMPASSION”,
+      # optional
+      company_logo: 
+      details: |
+        
+
+          - Coordinación y manejo de plataformas especializadas (SIIDEN y CONNECT GLOBAL) para
+            garantizar el registro y la actualización precisa de la información de los niños patrocinados.
+          • Supervisión del estatus y progreso de los participantes, garantizando un seguimiento minucioso y
+          oportuno.
+          • Organización de cursos y redacción de actas para las reuniones de equipos de trabajo, asegurando
+          una comunicación clara y eficaz.
+          • Administración eficiente de archivos y documentos, manteniendo un sistema ordenado y accesible
+          para el equipo.
+          • Realización de evaluaciones integrales de los participantes en áreas clave como lo espiritual, físico,
+          socioemocional y cognitivo, proporcionando información valiosa para la mejora continua de los
+          programas de la fundación.
+          
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline:
+
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name:  
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
