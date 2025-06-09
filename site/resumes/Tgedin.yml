@@ -1,0 +1,171 @@
+
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Théo
+    last_name: Gédin
+    
+    # Define yourself in 4-5 words
+    motto: Learner, analyst, builder, planner, optimist.
+    
+    # focus
+    focus: Urban development, machine learning, and programming.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm transitioning from real estate project management to data science and machine learning, 
+      seeking to combine both fields to create innovative solutions for urban development challenges. 
+      I enjoy working with interdisciplinary teams and applying data-driven approaches to optimize 
+      planning and resource allocation. Currently based in Valencia, I'm developing my technical 
+      skills while leveraging my background in real estate and urban planning.
+    
+    # Your profile picture URL
+    avatar: 
+
+    # Contact Information
+    email: gedin.th@gmail.com
+    phone: 06 46 50 12 99
+    website: tgedin-blog.vercel.app
+    linkedin: théogédin-4a4365226
+    
+    github: Tgedin
+    
+    twitter: 
+    stack-overflow: 
+
+    # languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: French
+        level: Native
+
+      - idiom: English
+        level: Proficient (C1)
+
+      - idiom: Spanish
+        level: Proficient
+
+    # Interests or hobbies
+    interests:
+      - item: Data-driven urban development
+
+      - item: Sustainable technology solutions
+
+      - item: Programming and innovation
+
+# Your previous education
+education:
+    - degree: Data Science & Machine Learning Program
+      university: 4Geeks Academy
+      university_logo: 
+      time: 2025 - Present
+      details: |
+        Currently developing skills in Python programming, data analysis, 
+        visualization, and machine learning fundamentals with practical 
+        applications relevant to real estate and urban planning challenges.
+          - Python for data analysis
+          - Machine learning fundamentals
+          - Data visualization techniques
+
+    - degree: RNCP Level 6 - Real Estate Development
+      university: EFAB Paris
+      university_logo: 
+      time: 2022 - 2024
+      details: |
+        Completed a 2-year apprenticeship with Nexity, specializing in 
+        real estate development with a focus on territorial analysis, 
+        feasibility studies, and stakeholder management.
+          - Feasibility studies
+          - Property negotiations
+          - Project planning and execution
+
+    - degree: Master in Urban Planning
+      university: Polytech Tours - Engineering School
+      university_logo: 
+      time: 2019 - 2022
+      details: |
+        Studied comprehensive approaches to urban development, planning 
+        methodologies, and sustainable design principles for creating 
+        functional and livable spaces at this prestigious engineering school.
+          - Urban development fundamentals
+          - Spatial planning techniques
+          - Regulatory frameworks
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Real Estate Project Manager
+      time: August 2024 - February 2025
+      company: EXIA Aménagement
+      company_logo: 
+      details: |
+        Managed real estate projects from conception to delivery, coordinating 
+        with various stakeholders and ensuring timely completion within budget. 
+        Applied data analysis to optimize planning and resource allocation.
+          - Led interdisciplinary teams
+          - Developed project budgets and timelines
+          - Applied data analysis to optimize resources
+
+    - role: Development Manager (Apprenticeship)
+      time: September 2022 - August 2024
+      company: Nexity Transformation des Territoires
+      company_logo: 
+      details: |
+        Supported real estate development projects through territorial analysis, 
+        feasibility studies, and stakeholder management. Gained practical 
+        experience in property negotiations and regulatory compliance.
+          - Conducted territorial analysis
+          - Created feasibility studies
+          - Managed stakeholder relationships
+
+# Your project portfolio
+projects:
+    intro: >
+      This section will showcase future projects as I develop my skills in the
+      Data Science and Machine Learning bootcamp at 4Geeks Academy.
+    assignments:
+
+skills:
+    toolset:
+      - name: Real Estate Development
+        level: 100%
+
+      - name: Project Management
+        level: 100%
+
+      - name: Urban Planning
+        level: 100%
+
+      - name: Financial Modeling
+        level: 80%
+
+      - name: Data Analysis
+        level: 80%
+
+      # Skills to be developed in the 4Geeks Academy bootcamp
+      - name: Python Programming
+        level: To come
+
+      - name: Data Science Fundamentals
+        level: To come
+        
+      - name: Machine Learning
+        level: To come
+        
+      - name: Data Visualization
+        level: To come
+        
+      - name: SQL & Database Management
+        level: To come
+        
+      - name: Statistical Analysis
+        level: To come
+
+      - name: React & Next.js
+        level: 60%
