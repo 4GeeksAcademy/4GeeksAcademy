@@ -1,0 +1,97 @@
+# Be aware that even a small syntax error here can lead to failures in output
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    first_name: Samuel David
+    last_name: González Martínez
+    motto: Técnico Informático Computacional
+    focus: Soporte técnico y desarrollo con Python/Django
+    summary: |
+      Técnico informático con 5+ años de experiencia en soporte computacional, redes y gestión de sistemas. 
+      Especializado en resolver problemas técnicos en entornos empresariales y gubernamentales. 
+      Dominio de Python, Django, MySQL y administración de redes.
+
+    avatar: https://randomuser.me/api/portraits/men/3.jpg 
+    email: samuel7123@gmail.com
+    phone: +56 941751067
+    website: 
+    linkedin: 
+    github: DementalTroll
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Español
+        level: Native
+      - idiom: Inglés
+        level: Intermedio
+
+    interests:
+      - item: Tecnología
+      - item: Desarrollo web
+      - item: Redes computacionales
+
+# Education
+education:
+    - degree: Técnico Superior en Computación
+      university: Universidad José Antonio Páez
+      time: 2015
+      details: |
+        Formación en informática computacional con enfoque en soporte técnico y programación básica.
+
+# Work Experience
+experiences:
+    - role: Soporte Técnico Computacional Residente
+      company: Municipalidad de Lo Barnechea (Chile)
+      time: 2022 - 2024
+      details: |
+        Soporte técnico avanzado para sistemas municipales:
+          - Gestión de proyectos informáticos
+          - Continuidad operacional
+          - Soporte multidepartamental
+
+    - role: Soporte Técnico Computacional
+      company: Juzt-Service (Chile)
+      time: 2021 - 2021
+      details: |
+        Soporte en terreno para empresas públicas y privadas:
+          - Resolución de problemas en redes y hardware
+          - Migraciones masivas
+          - Clientes destacados: Falabella, Fiscalía de Chile, Registro Civil
+
+    - role: Soporte Técnico en Mesa de Ayuda
+      company: Advicom (Chile)
+      time: 2021 - 2021
+      details: |
+        Soporte especializado:
+          - Manejo de MySQL para solución de errores
+          - Administración de servidores y redes
+          - Instalación de sistemas empresariales
+
+    - role: Encargado Informático
+      company: Calidad Infinita SPA (Chile)
+      time: 2020 - 2020
+      details: |
+        Responsable de sistemas computacionales:
+          - Implementación de sistemas de gestión
+          - Organización documental
+          - Soporte técnico integral
+
+# Skills
+skills:
+    toolset:
+      - name: Python & Django
+        level: 85%
+      - name: MySQL
+        level: 80%
+      - name: Soporte Técnico Avanzado
+        level: 95%
+      - name: Redes Computacionales
+        level: 90%
+      - name: Sistemas ERP
+        level: 75%
+      - name: Microsoft Office
+        level: 80%
