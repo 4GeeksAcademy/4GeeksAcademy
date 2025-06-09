@@ -1,0 +1,79 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    Nombre: Pedro
+    Apellido: Sanchez
+    
+    # Define yourself in 4-5 words
+    Lema: Soy muy optimista
+    
+    # Focus
+    enfocar: Programar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    Resumen: |
+      Estuve trabajando durante 4 años en la empresa Facebook. Luego entre en un proyecto secreto de los Estados Unidos en el cual trabaje durante 20 años con los mejores programadores del mundo. Actualmente me dedico a crear paginas web a grandes empresas del mundo.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiN-ynfkrKooEx93FT7kgMXc7fm0B0dhjnirlIgbNf2d_JXCCE
+
+    # Contact Information
+    email: Pedro_Moncloa@gmail.com#optional
+    teléfono: 674 547 952 #optional
+    website: https://www.lamoncloa.gob.es/ #optional
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AdrianBene
+    
+    
+   
+
+    # Languages you speak, levels include: Native, Professional
+    Idiomas:
+      - idioma: English
+        nivel: Native
+
+      - idioma: Spanish
+        nivel: Professional
+
+    # Interests or hobbies
+    intereses:
+      - artículo: Paracaidismo 
+
+      - artículo: Running
+
+
+# Your previous education
+Educación:
+    - grado: Ciencias Politicas
+      universidad: Universidad Politecnica de Madrid
+      # optional
+      
+      Periodo: 2011 - 2018
+      Detalles: |
+        Estudiar el comportamiento de la sociedad Española
+         
+    
+# Your previous job experiences or volunteer
+Experiencia:
+    - role: Presidente de España
+      Periodo: 2019 - Present
+      compañia: Gobierno de España
+     
+
+   
+
+
+
