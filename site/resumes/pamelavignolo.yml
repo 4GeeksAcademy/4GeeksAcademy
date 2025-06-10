@@ -1,0 +1,66 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: "Pamela"
+  last_name: "Vignolo"
+  motto: "Apasionada por la creatividad digital y el aprendizaje constante."
+  email: "pamela_vignolo@hotmail.com"
+  phone: "+5491169785500"
+  linkedin: "www.linkedin.com/in/pamela-vignolo-058905127"
+  github: "pamela-vignolo"
+  languages:
+    - language: "Español"
+      level: "Nativo"
+    - language: "Inglés"
+      level: "Intermedio alto"
+  interests:
+    - "Tecnología"
+    - "Creatividad"
+    - "Escritura"
+    - "Inteligencia Artificial"
+    - "Marketing Digital"
+
+education:
+  - degree: "Licenciatura en Comunicación Social (incompleta)"
+    university: "Universidad de Buenos Aires"
+    time: "2010 - 2014"
+    details: "Cursada parcialmente. Foco en medios digitales y comunicación institucional."
+
+experiences:
+  - role: "Social Media Manager"
+    time: "2020 - Presente"
+    company: "Freelance"
+    details: |
+      Manejo de cuentas de Instagram, Facebook y TikTok para marcas personales y emprendimientos.
+      Creación de contenido, estrategia de engagement, campañas pagas, y reportes de performance.
+
+  - role: "Asistente de Marketing Digital"
+    time: "2018 - 2020"
+    company: "Agencia Creativa XYZ"
+    details: |
+      Apoyo en campañas de email marketing, manejo de bases de datos, y análisis de métricas.
+      Generación de contenido para redes y blogs.
+
+projects:
+  - name: "FiestaBA"
+    description: "App para descubrir fiestas electrónicas y eventos culturales en Buenos Aires."
+    url: "https://github.com/pamela-vignolo/fiestaba"
+
+  - name: "Realidad Expandida"
+    description: "Blog personal sobre metafísica, astrología y desarrollo espiritual."
+    url: "https://github.com/pamela-vignolo/realidad-expandida"
+
+skills:
+  - name: "Marketing en redes sociales"
+    level: 90
+  - name: "Copywriting"
+    level: 80
+  - name: "Diseño en Canva"
+    level: 85
+  - name: "HTML/CSS"
+    level: 60
+  - name: "JavaScript"
+    level: 40
+  - name: "React"
+    level: 30
