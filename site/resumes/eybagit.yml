@@ -1,0 +1,73 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Elkin
+  last_name: Botero
+  motto: Crear e iterar hasta la perfección
+  focus: Desarrollo de software
+  summary: >
+    Estudiante de ingeniería informatica UCAB (3 años) & Full Stack
+    Developer en (4GeeksAcademy).
+     Enfocado en la tecnología, la innovación y la optimización de procesos digitales para empresas y Startups.
+     Siempre con un enfoque en la calidad y la eficiencia.
+  avatar: https://avatars.githubusercontent.com/u/147097939?v=4
+  email: elkinboterooficial@gmail.com
+  phone: +57 313-883-0241
+  website: https://eybagit.github.io/
+  linkedin: https://www.linkedin.com/in/elkinbotero/
+  github: eybagit
+  twitter: https://x.com/ElkinBoteroOFC
+  stack-overflow: https://stackoverflow.com/users/30507439/elkin-botero
+  languages:
+    - idiom: Español
+      level: Nativo
+    - idiom: Inglés
+      level: Basico
+  interests:
+    - item: Tecnologia
+    - item: Lectura
+    - item: Ajedrez
+education:
+  - degree: Pregrado en Ingeniería Informática (3 años cursados)
+    university: Universidad Catolica Andres Bello UCAB
+    university_logo: https://dstvqyil45ir9.cloudfront.net/wp-content/uploads/2019/07/Logo_UCAB_negro_3.png
+    time: 2015 - 2019
+    details: |
+      Estudio orientado al desarrollo de software escalable. 
+      - Participación en conferencias nacionales e internacionales.
+experiences:
+  - role: En construcción del perfil
+    time: 2015 - Presente
+    company: Ucab/platzi/4GeeksAcademy
+    company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Ewh1sQ9HUZUvDJX4muswVFIp2hNxmPzgVw&s
+    details: |
+      Iterando hasta lo mas cercano a lo perfecto.
+projects:
+  intro: Aquí se muestran algunos de los proyectos personales y colaborativos
+    destacados, abarcando distintos ámbitos del desarrollo web y la innovación
+    tecnológica.
+  assignments:
+    - title: Formulario de Pago
+      project_logo: https://storage.googleapis.com/breathecode-asset-images/b1dce6958cdd29b72248a6db2e6450994eedbaeae3f9086b5bc78a30cfa2d15c.png?raw=true
+      link: https://eybagit.github.io/eybagit-formulario-html5-pt55/
+      tagline: Formulario de pago para implementar en E-commerce
+    - title: Feed De Instagram
+      project_logo: https://github.com/breatheco-de/exercise-instagram-feed-bootstrap/blob/master/assets/preview.gif?raw=true
+      link: https://eybagit.github.io/eybagit-Instagram-photo-feed-con-bootstrap-pt55/
+      tagline: Maquetación de una simulación IG aplicando los conocimientos aprendidos
+        en 4Geeks Academy
+skills:
+  toolset:
+    - name: Python & Django
+      level: 80%
+    - name: JavaScript, HTML5 & CSS3
+      level: 90%
+    - name: React & Redux
+      level: 80%
+    - name: SQL & NoSQL
+      level: 75%
+    - name: Docker & Kubernetes
+      level: 75%
+    - name: Git & GitHub
+      level: 95%
