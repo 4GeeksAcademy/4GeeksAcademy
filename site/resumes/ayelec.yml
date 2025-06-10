@@ -1,0 +1,165 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Ayelen
+  last_name: Lecman
+  motto: Turning problems into possibilities.
+  focus: Applying intelligence (human and artificial) for progress.
+  summary: >
+    With over 10 years of experience as a criminal lawyer, I am currently
+    undergoing a professional reinvention, integrating emerging technologies
+    such as artificial intelligence, data analytics, and fullstack development.
+    This transition is not merely about acquiring new tools—it's a commitment to
+    rethinking the professional role and designing innovative solutions that
+    blend logic, efficiency, and purpose.
+  avatar: https://media.licdn.com/dms/image/v2/D4D03AQECbKEIWZL8Gw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727121504316?e=1755129600&v=beta&t=kNgl-PHxj7RSTC2lZ0Kg0AbSTjfbBdSNrxAAq_jAlro
+  email: ayelenlecman@gmail.com
+  phone: 541140278409
+  website: https://www.linkedin.com/in/ayelecman/
+  linkedin: https://www.linkedin.com/in/ayelecman/
+  github: AyeLec
+  twitter:
+    - null
+  stack-overflow:
+    - null
+  languages:
+    - idiom: English
+      level: Advance
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Reading
+    - item: Origami
+    - item: Cooking
+education:
+  - degree: Data Science Bootcamp
+    university: IDSA - Instituto Data Science Argentina / UTN - Universidad
+      Tecnológica Argentina
+    university_logo: https://institutodatascience.org/wp-content/uploads/2023/05/Logo-instituto-data-science-e1684401034692.png.webp
+    time: 2024 - en curso
+    details: >
+      Intensive training in Python, data analysis, machine learning, and AI
+      tools.
+  - degree: Master’s in Criminal Law
+    university: Universidad de San Andrés
+    university_logo: https://udesa.edu.ar/logo/logo-type2.svg
+    time: 2018 - 2020
+    details: >
+      Advanced training in criminal law, legal reasoning, and system reform.
+      Thesis: Reasonable Timeframe in the Execution of Sentences: A Study on the
+      Right to Meaningful Access to Progression
+  - degree: Law Degree
+    university: Universidad de Buenos Aires
+    university_logo: http://www.derecho.uba.ar/img/logo-header.png
+    time: 2009 - 2014
+    details: >
+      Comprehensive legal education with specialization in criminal law and
+      penal system practice.
+experiences:
+  - role: Criminal Lawyer
+    time: 2018 - Present
+    company: Institutional Violence Prosecutor's Office (Procuvin)
+    company_logo: https://recursos.mpf.gov.ar/StaticContent/logos/mpf-gob-ar/logo-mpf-nuevo-2018.png?v=202210121400
+    details: Led and monitored legal proceedings related to the federal prison
+      system, ensuring compliance with legal procedures. Conducted inspections
+      and evaluations of federal penitentiary facilities to verify detention
+      conditions and regulatory compliance. Drafted detailed inspection reports
+      with actionable recommendations for prison condition improvement.
+      Developed legal studies and research on criminal law and human rights
+      jurisprudence. Provided legal counsel to detainees and their families,
+      facilitating access to justice. Coordinated with judicial and penitentiary
+      authorities to implement corrective measures. Reviewed and updated
+      regulations concerning prison management and inmates' rights. - Legal case
+      analysis and monitoring - Human rights compliance inspections
+  - role: General Director
+    time: 2014 - 2018
+    company: Furia. Espacio de Arte
+    company_logo:
+      - null
+    details: Directed and managed a creative co-working space for artists and
+      cultural initiatives. Curated exhibitions, organized events and workshops,
+      and built strategic partnerships. Oversaw budgets, coordinated logistics,
+      and implemented systems to optimize space usage. - Project coordination
+      and artistic curation - Strategic partnerships and budget management
+  - role: Administrative Assistant
+    time: 2013 - 2014
+    company: Ministry of Foreign Affairs and Worship of Argentina
+    company_logo:
+      - null
+    details: Managed legal and administrative files, tracked deadlines, and
+      coordinated document processing. Assisted in preparing international legal
+      documents and maintained communication with embassies. Organized official
+      correspondence and supported planning for meetings and briefings. - Legal
+      documentation and diplomatic coordination - Workflow and file management
+  - role: Legal Assistant
+    time: 2011 - 2013
+    company: Paul Warszawsky Law Firm
+    company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Law_scale_icon.svg/512px-Law_scale_icon.svg.png
+    details: Filed legal documents in commercial and family courts, tracked cases
+      through all stages of litigation. Managed judicial deadlines, reviewed
+      court decisions, and supported attorneys in case preparation. - Court
+      document handling and tracking - Case monitoring and legal support
+  - role: Secretary
+    time: 2010 - 2011
+    company: Cooperativa de Crédito, Vivienda y Consumo Ltda. Tercer Milenio
+    company_logo:
+      - null
+    details: Performed administrative tasks and customer service duties both
+      in-person and via phone. Organized and managed documentation and internal
+      processes. - Administrative support and client service - Documentation
+      management
+projects:
+  intro: >
+    Projects developed using R, focused on data analysis, machine learning,
+    and AI applications for social and institutional impact. These include ETL
+    processes, predictive modeling, decision tree interpretation, and applied
+    analytics for justice-related issues.
+  assignments:
+    - title: Random Forest & Logistic Regression
+      project_logo:
+        - null
+      link: "#"
+      tagline: Comparative analysis of classification performance using Random Forest
+        and Logistic Regression models applied to satisfaction prediction.
+        Includes accuracy metrics, confusion matrices, and model optimization.
+    - title: Decision Trees
+      project_logo:
+        - null
+      link: "#"
+      tagline: Visual and practical exploration of decision tree models using R. Focus
+        on explainability, model tuning, and interpretation of splits for
+        transparent decision-making.
+    - title: ETL Automation in R
+      project_logo:
+        - null
+      link: "#"
+      tagline: Complete ETL pipeline using R. Loading, transforming, cleaning, and
+        merging large datasets. Emphasis on reproducibility, data integrity, and
+        preparing inputs for machine learning models.
+    - title: Monte Carlo Simulator App
+      project_logo:
+        - null
+      link: "#"
+      tagline: Web application simulating Monte Carlo experiments built in R. Includes
+        interactive interface and visualizations to illustrate probabilistic
+        outcomes and statistical distributions.
+    - title: Unsupervised Clustering
+      project_logo:
+        - null
+      link: "#"
+      tagline: Video explanation of unsupervised machine learning techniques applied
+        to real data. Includes k-means clustering and interpretation of group
+        segmentation patterns.
+skills:
+  toolset:
+    - name: R
+      level: 50%
+    - name: Phyton
+      level: 20%
+    - name: HTML5 & CSS
+      level: 20%
+    - name: Bootstrap
+      level: 20%
+    - name: Git & Github
+      level: 20%
