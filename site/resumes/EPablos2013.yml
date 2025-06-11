@@ -1,0 +1,64 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+
+template: "online-cv"
+skin: "blue"
+
+
+# Personal Information
+basic_info:
+
+
+    # Your full name
+    first_name: Erika
+    last_name: Pablos
+   
+    # Define yourself in 4-5 words
+    motto: From clicks to code. Always curious.
+   
+    # Focus
+    focus: Turning Curiosity Into Code
+   
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Digital Marketing professional transitioning into data science, with a strong background in digital strategy and a keen focus on data-driven decision-making. Experienced in using analytics to optimise campaigns, understand user behaviour, and drive growth. Now expanding my skill set in statistical analysis, machine learning, and data visualisation to solve complex problems and deliver actionable insights.
+
+
+
+
+
+
+    # Contact Information
+    email: epablos8@gmail.com #optional
+    phone: +34 722 57 57 99 #optional
+    linkedin: https://www.linkedin.com/in/erika-pablos-29396a335/ #optional
+   
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: EPablos2013
+   
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+
+      - idiom: English
+        level: Professional
+        
+      - idiom: Italian
+        level: Fluent
+
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+
+      - item: Yoga
+
