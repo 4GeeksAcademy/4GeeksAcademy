@@ -1,0 +1,154 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Miguel Valenciano
+    
+    # Define yourself in 4-5 words
+    motto: Curios mind, strong team spirit.
+    
+    # Focus
+    focus: Leveling up as a developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a game and software programmer with strong C++ and C# skills, now expanding into full-stack development. 
+      Passionate about tech and teamwork, I've worked on projects using Unity and Unreal Engine, 
+      including a Steam-published game. I'm eager to keep learning and contribute to innovative tech teams.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/194428748?v=4
+
+    # Contact Information
+    email: jvi96miguel@gmail.com #optional
+    phone: +34 637 20 33 85 #optional
+    website: https://sites.google.com/view/jmdev/jm_dev #optional
+    linkedin: https://www.linkedin.com/in/javier-miguel-valenciano-896336107/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jmvdev
+    
+    twitter: 'https://x.com/jm_vgdev' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium
+
+      - idiom: Valenciano
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Music
+
+      - item: Cooking
+
+      - item: Friends
+
+      - item: Sports
+
+# Your previous education
+education:
+    - degree: Technician in Microcomputer Systems and Networks
+      university: IES Sant Vicent Ferrer
+      # optional
+      university_logo: https://portal.edu.gva.es/iessantvicent/wp-content/uploads/sites/199/2019/09/1-2.png
+      time: 2014 - 2016
+      details: |
+
+    - degree: Higher Technician in Systems and Network Administration
+      university: IES Sant Vicent Ferrer
+      # optional
+      university_logo: https://portal.edu.gva.es/iessantvicent/wp-content/uploads/sites/199/2019/09/1-2.png
+      time: 2016 - 2018
+      details: |
+
+    - degree: Higher National Diploma in Videogames Programming
+      university: ESAT (Escuela Superior de Arte y Tecnologia)
+      # optional
+      university_logo: https://www.esat.es/wp-content/uploads/logo-esat-160h.gif
+      time: 2018 - 2021
+      details: |
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Informatic Technician
+      time: 2016 - 2017
+      company: Click Informatica
+      # optional
+      company_logo: 
+      details: |
+        Performing computer maintenance and repair
+        
+
+    - role: Informatic Technician
+      time: 2018 - 2018
+      company: Gestamp Levante
+      # optional
+      company_logo: https://appi-a.com/wp-content/uploads/2016/12/logogestamp.gif
+      details: |
+        Dual FP Internship, carrying out computer
+        maintenance and repair tasks, management and problem solving in operating systems and
+        network control
+
+# Your project portfolio
+projects:
+    intro: >
+      My personal projects like a Graphics Engine made from nothing and 
+      a game made in Unreal Engine 4 and published on steam with a team of programmers, 
+      artists and designers, there are more in my Portfolio Online.
+
+    assignments:
+      - title: Omnia engine
+        # optional
+        project_logo: https://lh3.googleusercontent.com/F-V-Uxr1t3iVxKGB86uhZVtLFWMvryQZqUhce6JuiQpbsE8RxN8R-sdlV2TXIEsKeYvW5r7wAAWSEgG7hLdlcNREtd0LLlQ_RB8Bz6yK_OJRxUkhWv66-Wj6MvtahliDfy39tHzyJwfESYOTdWpXTfQ_xdjsHwBROIY3tfjzYdHAeuWcJqUZ=w1280
+        link: "https://sites.google.com/view/jmdev-en/projects/omnia-engine"
+        tagline: "OMNIA is a graphics engine that uses the OpenGL, Vulkan and PS4 graphics libraries, it is multithreaded and is made with the C/C++ language and uses Lua for the scripting part."
+
+      - title: nerthus einar's fate
+        # optional
+        project_logo: https://lh3.googleusercontent.com/iUSvVhgjfvHD_MWzxoGCl30D2Bsc0898yHI-FZilACKo0mURSe4V-j07EoRmPuPNJKtN0bM89x4MkA1lpcBSOpXxNDKlCgSLfchHr9SvKVXBkkz0jljlYglvbnaE_jsbGABjxz-gr4ycfNy4AvJwyhJMm0q49tcokY4bFZ_DUg39yRqy-o6-bg=w1280
+        link: "https://sites.google.com/view/jmdev-en/projects/nerthus"
+        tagline: "Nerthus is a frenetic third-person combat game developed in Unreal Engine 4 by a multidisciplinary team of designers, artists, and developers. The game was released on Steam as part of a collaborative student project."
+
+
+skills:
+    toolset:
+      - name: C++
+        level: 89%
+
+      - name: C#
+        level: 70%
+
+      - name: Python
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 25%
+
+      - name: Lua
+        level: 55%
+
+      - name: OpenGL
+        level: 70%
+
+      - name: Vulkan
+        level: 60%
