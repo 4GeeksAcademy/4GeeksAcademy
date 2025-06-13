@@ -26,7 +26,7 @@ basic_info:
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://imgs.search.brave.com/e67blAsPNKzxYatVb_I9DONUCoCjwSGTg6ugAItCSpo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvcHJv/ZmlsZS1waWN0dXJl/LWdhNjlqYTN1dXdu/NjNpNWkuanBn
+    avatar: https://photos.fife.usercontent.google.com/pw/AP1GczNJQ_0_HA3mMMwhl-i0t7lK8yx6CS4OSmlenYHJKiQXc33hVdt-3JFF=w605-h1311-s-no-gm?authuser=0
 
     # Contact Information
     email: arturoalexduarte@gmail.com #optional
