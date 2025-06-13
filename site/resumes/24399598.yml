@@ -101,18 +101,8 @@ experiences:
       # optional
       company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-
-          - Bullet point
-          - Bullet point
+        Me encargaba de gestionar el personal dentro de la cocina, controlar las mermas, hacer los pedidos,
+        gestionar a los proveedores, etc.
 
     - role: Senior Software Engineer
       time: 2014 - 2015
@@ -185,19 +175,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 0%
 
       - name: JavaScript & jQuery
-        level: 98%
+        level: 20%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 20%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 0%
