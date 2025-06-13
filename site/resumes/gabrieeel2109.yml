@@ -1,0 +1,116 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gabriel
+    last_name: De Oliveira
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta dormir
+    
+    # Focus
+    focus: Jugar futbol
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me gustan los deportes,dormir,ver anime (estoy al dia con one piece y la he visto 2 veces enteras),
+      me gusta aprender de todo y leer, me gustan los idiomas.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/203250407?v=4
+
+    # Contact Information
+    email: gabrielof219@icloud.com #optional
+    phone: +34 600261929 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: gabrieeel2109
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: english
+        level: intermediate
+
+      - idiom: Italian
+        level: Professional
+
+      - idiom: portuguese
+        level: intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: futbol
+
+      - item: beisbol
+
+      - item: ver anime
+
+# Your previous education
+education:
+    - degree: bachillerato y dos año en la universidad
+      university: universidad metropolitana
+      # optional
+      university_logo: data:image/png;base64,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
+      time: 2022-2024
+      details: |
+        fue divertido pero pienso que estar 5 años en una universidad
+        sentado y matandote a estudiar esta muy sobrevalorado ya que luego 
+        a la hora de conseguir trabajo muchas de las cosas que vas a necesitar
+        hacer en el ambito laboral ya se te olvidaron o no te las dieron.
+
+          - Las fiestas jajaja
+          - las mujeres
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: carnicero
+      time: 2025
+      company: ahorramas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        aprendi a como deshuesar muchos tipo de animales, a tratar con la gente cara al publico
+        recetas de cocina.
+
+          - no me morire de hambre en un apocalipsis
+
+# Your 
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
