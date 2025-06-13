@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Constantin
+    last_name: Súrin
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta estudiar, programar, pasear con mis perros y pasar el tiempo en familia.
+    
+    # Focus
+    focus: Trabajar y estudiar para llegar a algo más!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Durante mi vida me he dedicado a estudiar distinas disciplinas, tales como:
+      Lenguas y sus literaturas, con la especialidad de inglés, español y ruso.
+      Lo cual me llevo a trabajar en la enseñanza de idiomas. 
+      Después de lo cual quise ser traductor, e hice un Máster en traducción e interpretación de ruso/español.
+      Tras lograrlo, estuve trabajando en los juzgados de Huelva, policía nacional e instituciones públicas de esta ciudad.
+      También estuve trabajando anteriormente como traductor en las mismas.
+      A día de hoy estoy con un doctorado en ciencias de la computación en la universidad de UNIR. Y gracias a este curso quiero pensar que lo voy a conseguir.
+
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQH5X9A_lfyE1w/profile-displayphoto-shrink_800_800/B4DZWR.yTLHYAk-/0/1741910910576?e=1755129600&v=beta&t=_ZcAFpnYgO73jOSYa9daz3VNrYEuRENeoAWvb5OGBWs
+
+    # Contact Information
+    email: consvpr@outlook.es #optional
+    phone: +34 691 37 00 41  #optional
+    website: www.linkedin.com/in/constantin-súrin-631331270 #optional
+    linkedin: www.linkedin.com/in/constantin-súrin-631331270 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/trivmvirat
+    
+    twitter: 'notengo.com' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Russian
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming(jugar)
+
+      - item: Beach(playeo)
+
+      - item: Photo(fotografía)
+
+# Your previous education
+education:
+    - degree: Master en tranducción e interpretación
+      university: Universidad de Alcalá de Henares
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021 - 2022
+      details: |
+        Máster que habilita trabajar en instituciones públicas del estado.
+        Entre ellas: policia nacional, diputaciones, hospitales, alcaldías.
+
+    - degree: Grado en lenguas modernas
+      university: Universidad de Granada
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 14-19
+      details: |
+        Grado en lenguas modernas y sus literatuas: Especialidad ruso-español-inglés
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Recepcion
+      time: 2022 - 2025
+      company: Hotel
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Recepción de los clientes, facturas, reservas, bienvenidos, tarifas.
+
+    - role: Traductor
+      time: 2015 - 2025
+      company: Ofilingua S.L.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Prestación de servicios de traducción e interpretación en las organizaciones públicas.
+
+    - role: Maestro de lenguas extranjeras
+      time: 2020 - 2022
+      company: Academia de Pushkin en Madrid
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Enseñanza de ruso como lengua extranjera para nativos españoles a distintos niveles desde A1 a C2
+
+# Your project portfolio
+projects:
+    intro: >
+      Actualmente estoy aprendiendo a programar y apenas tengo proyectos.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 0%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 15%
