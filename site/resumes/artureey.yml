@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Arturo Alexander
+    last_name: Duarte Navas
+    
+    # Define yourself in 4-5 words
+    motto: Gamer, Driver, Developer Skills loading. 
+    
+    # Focus
+    focus: Proffesional Driver
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona honesta, interesado y que le fascina la tecnología que quiere aportar algo al mundo tecnologico de ser posible que deje huella en el planeta
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgs.search.brave.com/e67blAsPNKzxYatVb_I9DONUCoCjwSGTg6ugAItCSpo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvcHJv/ZmlsZS1waWN0dXJl/LWdhNjlqYTN1dXdu/NjNpNWkuanBn
+
+    # Contact Information
+    email: arturoalexduarte@gmail.com #optional
+    phone: 647199497 #optional
+    website:  #optional
+    linkedin: artureey #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: artureey
+    
+    twitter: 'arturey_' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+      - idiom: Portuguese
+        level: Amateur
+
+    # Interests or hobbies
+    interests:
+      - item: Play Videogames 
+
+      - item: Drive
+
+      - item: Cooking
+    
+      - item: Tech House Music
+
+# Your previous education
+education:
+    - degree: Ingeniería Civil
+      university: Universidad Catolica Andres Bello
+      # optional
+      university_logo: https://imgs.search.brave.com/ac0awRv_df7Yzy62pPn07UzA35il9INn_g0ciu9vfKE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E1Lzdi/Lzg4L2E1N2I4ODcz/YjBmZTczMjE4ZTM4/YzE0YzdlNzc3Mzhh/LmpwZw
+      time: 2012 - 2015
+      details: |
+        Hice 6 semestres completos de ingenieria civil, luego por la situación país tuve que irme de Venezuela y de allí no tuve la oportunidad de terminar la carrera.
+
+
+    - degree: Full Stack Developer
+      university: 4Geeks-Academy
+      # optional
+      university_logo: https://imgs.search.brave.com/S2d5Kz971V0YcJ6jVPE8EGQWlh6p-oCovB-iVMh4lpY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90ZWNo/aHVic291dGhmbG9y/aWRhLm9yZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8xMi80/R2Vla3MtNzY4eDc2/OC5wbmc
+      time: 2025 - current
+      details: |
+        Estudio actualmente el curso intensivo en la academia para convertirme en desarrollador.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Delivery
+      time: 2016 - 2022
+      company: Glovo, Appetito24, Cornershop.
+      # optional
+      company_logo: https://imgs.search.brave.com/Nc6eaOEK38cq7HFTro7nGBmi6-rBa1g06fHFeM5ZA5I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS1zZXJ2aWNlLmxl/YWRpcS5jb20vY29t/cGFueWxvZ28_bGlu/a2VkaW5JZD0xMDAx/NTY3Mw
+      details: |
+        repartidor de comida a domicilio y/o supermercados!
