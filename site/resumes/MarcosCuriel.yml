@@ -1,0 +1,206 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcos
+    last_name: Curiel
+    
+    # Define yourself in 4-5 words
+    motto: Me encanta pasar horas programando.
+    
+    # Focus
+    focus: Ser un progamador con buenos habitos.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: data:image/png;base64,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
+
+    # Contact Information
+    email: marcoscuriel@hotmail.com #optional
+    phone: 677897845 #optional
+    website: marcoscuriel.com #optional
+    linkedin: Marcos Curiel #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Marcos Curiel
+    
+    twitter: 'Curiel' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Deutsch
+        level: A2
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Coleccionar perfumes
+
+      - item: Snowboarding
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Full stack developer
+      university: University 4geeks academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2021-2022
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - degree: BSc in Applied Mathematics
+      university: Bristol University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
