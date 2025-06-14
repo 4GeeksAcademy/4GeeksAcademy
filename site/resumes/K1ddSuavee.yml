@@ -1,0 +1,161 @@
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Kelvin
+  last_name: Lawler
+
+  motto: To Make the Best better..
+
+  focus: Presence
+
+  summary: 
+          My journey into programming began with a lifelong passion for video games. 
+          I was always fascinated by how games were built—the logic behind the gameplay, the design of the systems, and the code that brought it all to life. 
+          That curiosity gradually led me to explore programming, and once I began writing code myself, I discovered a deep passion for problem-solving and digital creation.
+          
+          What started as a hobby quickly evolved into a clear career path. I realized that programming combined both the technical challenge and creative freedom I had been searching for. 
+          Motivated by this realization, I made the difficult but purposeful decision to leave college and dedicate myself fully to becoming a software developer. 
+          It was a bold step, but one that allowed me to focus entirely on mastering the skills I needed to build the kind of technology—and games—I had always admired.
+          
+          I enjoy programming because it allows me to think critically, build creatively, and continuously improve. 
+          Whether developing software, designing systems, or solving complex problems, I find great satisfaction in turning ideas into functional, efficient solutions. 
+          Programming has become more than a profession—it's the career that aligns with both my interests and long-term goals.
+
+  avatar: https://www.thetonyrobbinsfoundation.org/wp-content/uploads/2017/09/Cool-avatars-anonymous-avatar.jpg
+
+  email: Kelvinlawler96@icloud.com
+  phone: (786) 441-7758
+  website: TBA
+  linkedin: www.linkedin.com/in/kelvin-lawler-515956366
+
+  github: K1ddSuavee
+
+  twitter: TBA
+  stack-overflow: https://stackoverflow.com/users/30725799/kelvin-lawler
+
+  languages:
+    - idiom: English
+      level: Native
+
+    - idiom: Spanish
+      level: Some Spanish
+
+  interests:
+    - item: Gaming
+
+    - item: Learning
+
+    - item: Cooking
+
+education:
+  - degree: Some-College
+    university: Miami-Dade College School of Nursing
+    university_logo: https://www.mdc.edu/enroll/vid/learn-and-earn.jpeg
+    time: 2020-2023
+    details: Prerequisites courses completed as listed below
+      - Intro to Philosophy
+      - College Algebra
+      - Human Anatomy and Physiology
+      - History of the US since
+      - American Federal Government
+      - Introduction to Computer Technology & Application
+      - Human Anatomy and Physiology 1
+      - Human Anatomy and Physiology 2
+      - Microbiology
+      - Human Anatomy and Physiology Lab 2
+      - Chemistry for Health Science
+      - Chemistry for Health Sciences Lab
+
+  - degree: Full Stack Developer
+    university: 4Geeks
+    university_logo: https://avatars.githubusercontent.com/u/16607406?s=280&v=4
+    time: 2025-2025
+    details: Skills obtained as listed below
+      - Layout Construction (HTMl and CSS Knowledge)
+      - JavaScript Practices
+      - Think like a computer (HTML5, CSS3, Bootstrap, GitHub, Git, JavaScript, Command line / Terminal)
+      - Web Development (HTML5, CSS3, Bootstrap, GitHub, Git, JavaScript, Command line / Terminal, React.js, JSON, DOM, SQL, Jest)
+      - API Development (GitHub, Git, SQL, React.js, Python, Flask, Databases, APIs)
+      - WebApp Development (Python, Flask, REST API s Databases, SQL, MVC, React.js, Github, Git)
+
+# experiences:
+  # - role: Lead Developer
+  #   time: 2015 - Present
+   #  company: Startup Hubs, San Francisco
+    # optional
+   #  company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+   #  details: |
+    #  Describe your role here lorem ipsum dolor sit amet, consectetuer
+     # adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #  Cum sociis natoque penatibus et magnis dis parturient montes,
+    #  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #  pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+    #  enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+     # error sit voluptatem accusantium doloremque laudantium, totam rem
+    #  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+     # architecto beatae vitae dicta sunt explicabo.
+      #  - Bullet point
+      #  - Bullet point
+  #- role: Senior Software Engineer
+  #  time: 2014 - 2015
+  #  company: Google, London
+    # optional
+  #  company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+  #  details: |
+  #    Describe your role here lorem ipsum dolor sit amet, consectetuer
+   #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+   #   Cum sociis natoque penatibus et magnis dis parturient montes,
+   #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+   #   pellentesque eu, pretium quis, sem.
+     #   - Bullet point
+    #    - Bullet point
+
+ # - role: UI Developer
+ #   time: 2012 - 2014
+ #   company: Amazon, London
+    # optional
+ #   company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+  #  details: |
+ #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+   #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+   #   Cum sociis natoque penatibus et magnis dis parturient montes,
+   #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #  pellentesque eu, pretium quis, sem.
+     #   - Bullet point
+      #  - Bullet point
+# Your project portfolio
+projects:
+  intro: Listed below are some examples of the products done in class.. but for more projects please visit my github here, 
+           https://github.com/K1ddSuavee
+  assignments:
+    - title: Domain Generator
+      project_logo:
+      link: https://github.com/4GeeksAcademy/KL-PT82-DomainGenerator
+      tagline: Production of a domain name generator using Js
+
+    - title: Excuse Generator
+      project_logo:
+      link: https://github.com/4GeeksAcademy/KL-PT82-Excuse-generator
+      tagline: Product of a Excuse generator using Js
+
+# skills:
+  # toolset:
+    # - name: Python & Django
+     #  level: 98%
+
+   #  - name: JavaScript & jQuery
+      # level: 98%
+
+   # - name: Angular
+      # level: 98%
+
+   #  - name: HTML5 & CSS
+      # level: 95%
+
+    # - name: Ruby on Rails
+      # level: 85%
+
+    # - name: Sketch & Photoshop
+      # level: 60%
