@@ -13,10 +13,10 @@ basic_info:
     last_name: Andujar
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Me encantan los retos
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Aprender a programar
     
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
@@ -32,7 +32,7 @@ basic_info:
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: enock8876@gmail.com #optional
     phone: 234 2342 342 #optional
     website: asd.com #optional
     linkedin: alandoe #optional
@@ -43,7 +43,7 @@ basic_info:
     github: Angelandujar
     
     twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: null # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
