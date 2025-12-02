@@ -1,0 +1,123 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    nombre: Enrique 
+    apellido: Sucre
+    
+    # Define yourself in 4-5 words
+    sobre_mi: Me encanta la innovacion y la tecnologia.
+    
+    # Meta
+    Meta: Convertirme en un buen desarrollador y Data Scientist, que se que lo puedo hacer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    carrera: |
+      Durante mi tiempo trabajando he tenido 2 trabajos, el primero fue en AG Joyeria, 
+      una joyeria y distribuidora oficial de varias marcas de relojes de lujo como Rolex,
+      Tudor, entre otras. Mi segundo trabajo fue en Farmatodo C.A, una cadena de farmacias
+      multinacional con sede en Caracas, Venezuela, donde estuve en el departamento de 
+      IT e innovacion.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: \myAvatar.png
+
+    # Contact Information
+    email: enrique.sucre.2002@outlook.com #optional
+    phone: +58 424 122 0511 #optional
+    linkedin: Enrique Sucre #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: esucre02
+    stack-overflow: Enrique Sucre
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingenieria Informatica (No Terminado)
+      university: Universidad Catolica Andres Bello 
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/6/60/Universidad_Cat%C3%B3lica_Andr%C3%A9s_Bello_logo.png
+      time: 2022-2025
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Director de Proyecto de Tecnologia
+      time: 2024-2025
+      company: AG Joyeria, Caracas, Venezuela
+      # optional
+      company_logo: https://www.agjoyeria.com/wp-content/uploads/2024/11/LogoAG2024-Blue.png
+      details: |
+        Durante mi tiempo en AG Joyeria, uno de los distribuidores oficiales de rolex en
+        Venezuela, estuve encargado de un proyecto de tecnologia, este consistió en montar
+        un sistema de inventario con tecnologia RFID y que el inventario de las 2 tiendas
+        (Caracas y Barquisimeto), estuviesen sincronizados a tiempo real.
+
+    - role: Pasantia (Full Time)(Departamento de IT e Innovación)
+      time: Agosto 2025 - Noviembre 2025
+      company: Farmatodo C.A, Caracas, Venezuela
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/C4D0BAQGoZcwpN-dZ4Q/company-logo_200_200/company-logo_200_200/0/1630536834715/farmatodo_logo?e=2147483647&v=beta&t=OVlQDexlnxYSHQ7pOwucamcJXLClDUdF9W91p25-RPM
+      details: |
+        Durante mi tiempo en Faramatodo C.A, una de las empresas más grandes de Venezuela.
+        Estuve en el Departamento de IT e Innovación, me encargue de desarrollar una aplicación
+        con TypeScript, Angular y Firebase, para que el Departamento Legal pudiese mantener un rastro
+        sobre los permisos legáales de las tiendas y las oficinas. Esta aplicacion consistió en que el
+        Departamento Legal pudiese subir, borrar, editar y crear los permisos legales para cada tienda.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      A continuacion se van a encontrar los links para proyectos que he realizado y se encuentran
+      en mi portafolio.
+
+    assignments:
+      - title: Portal IDE
+        link: "https://github.com/esucre02/Portal.git"
+        tagline: "Un IDE diseñado para utilizarse en iPadOS y tomar ventaja de el procesador de este,
+                  haciendo el iPad más que solo una herramiento"
+
+
+skills:
+    toolset:
+      - name: Python 
+        level: 98%
+
+      - name: TypeScript
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: React
+        level: 85%
