@@ -1,0 +1,129 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Enrique
+    last_name: Sucre
+    
+    # Define yourself in 4-5 words
+    myself: I like STEM, Martial Arts and Anime
+    
+    # Focus
+    focus: Become a great Data Scientist and Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Director de proyectos de sistemas en AG Joyeria, Pasantia en Farmatodo C.A.
+      Fundador de un startup de fintech desarrollado en TypeScript y React.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: enrique.sucre.2002@outlook.com #optional
+    phone: +58 4241220511 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    github: 'esucre02' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Martial Arts
+
+      - item: Anime
+
+      - item: Vibe Coding
+
+# Your previous education
+education:
+    - degree(not finished): BSc in Computer Science
+      university: Univesidad Catolica Andres Bello
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2025
+      details: |
+        Experiencia universitaria unica donde aprendi como estructurar mi progrma, cibersiguridad, las bases
+        de la ingenieria. Entre otras cosas
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: FullStack Project Developer
+      time: August 2025 - November 2025
+      company: Farmatodo C.A, Caracas, Venezuela
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        En Farmatodo C.A, estuve en el area de tecnologia e innovacion donde desarrolle un programa
+        para el departamento legal, el programa consistia en poder ver, editar, crear, subir y eliminar
+        los documentos legales requeridos de cada tienda.
+        Desarrollado en:
+        - TypeScript
+        - Angular
+        - Google Firebase
+
+    - role: Lead Project Software Engineer
+      time: 2024-2025
+      company: AG Joyeria, Caracas, Venezuela
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        En AG Joyeria, estuve encargado de desarrollar un programa para inventario, este se 
+        puede sincronizar con sensores, computadoras y barcode scanners para mantener el 
+        inventario a tiempo real.
+
+# Your project portfolio
+projects:
+    intro: >
+      Mis proyectos de mi portafolio son los siguientes:
+
+    assignments:
+      - title: Space
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A full fledge IDE designed to be able to code on iPad OS."
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: TypeScript
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Vibe Coding with AI
+        level: 96%
