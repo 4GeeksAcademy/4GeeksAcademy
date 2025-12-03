@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Isgideon
+    last_name: RTX
+    
+    # Define yourself in 4-5 words
+    motto: Full Stack Developer
+    
+    # Focus
+    focus: focus
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/228636832?v=4
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: isgideon
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sleeping
+
+      - item: Playing Video Games
+
+      - item: Listening to Music
+
+# Your previous education
+education:
+    - degree: FP in SMR: Sistemas Microinformáticos y Redes
+      # optional
+      time: 2011 - 2012
+
+
+# Your project portfolio
+
+
+skills:
+    toolset:
+      - name: JavaScript
+        level: 20%
+
+      - name: Lua
+        level: 10%
+
+      - name: HTML5 & CSS
+        level: 10%
+
