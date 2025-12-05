@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Santiago Arturo
+    last_name: Nones González
+    motto: Full Stack Developer
+    focus: Building creative digital solutions
+    summary: |
+        Junior Full Stack Developer with a background in psychology and music production. 
+        I bring a creative mindset and analytical thinking to software development, 
+        combining technical skills with a passion for building meaningful digital experiences.
+    email: santiagonones@gmail.com
+    phone: 
+    website: 
+    linkedin: santiago-nones
+    github: SantiNones
+    twitter: 
+    stack-overflow:
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+      - idiom: French
+        level: Intermediate
+    interests:
+      - item: Music Production
+      - item: Technology
+      - item: Software Development
+
+education:
+    - degree: Full Stack Developer
+      university: 4Geeks Academy
+      time: 2025
+      details: |
+        Intensive bootcamp focused on modern web development technologies 
+        including React, Python, Flask, and SQL.
+
+    - degree: Music Production
+      university: SAE Institute Barcelona
+      time: 2018
+      details: |
+        Professional training in music production, composition, recording, and mixing.
+
+    - degree: French Language & Culture
+      university: Université Catholique de Lyon
+      time: 
+      details: |
+        French language and culture studies.
+
+    - degree: Psychology
+      university: Universidad Rafael Urdaneta
+      time: 
+      details: |
+        Bachelor's degree in Psychology, developing analytical and research skills.
+
+experiences:
+    - role: NGO Recruiter
+      time: Aug 2025 - Present
+      company: Wesser International
+      location: Barcelona, Spain
+      details: |
+        Recruitment and fundraising for non-profit organizations.
+
+    - role: Digital Trust and Safety Analyst
+      time: Nov 2024 - May 2025
+      company: TELUS Digital
+      location: Barcelona, Spain
+      details: |
+        Content moderation on international platforms. 
+        Recognition for outstanding quality and performance metrics.
+        Application of technical and ethical criteria to ensure safe digital environments.
+
+    - role: English Camps Monitor
+      time: Mar 2023 - Oct 2024
+      company: Fundesplai
+      location: Barcelona, Spain
+      details: |
+        Design and execution of educational activities focused on English language learning.
+        Group management and pedagogical planning in multicultural environments.
+        Implementation of digital tools for educational support.
+
+    - role: Music Producer
+      time: Jan 2018 - Present
+      company: Freelance
+      location: Barcelona, Spain
+      details: |
+        Production, composition, recording, and mixing of music and sound content 
+        for clients and personal projects.
+
+    - role: Human Resources Intern
+      time: Jul 2021 - Jan 2023
+      company: Laboratorio IZERH
+      location: Maracaibo, Venezuela
+      details: |
+        Administrative and operational support in the HR department.
+        Documentation organization, selection process support, and database management.
+
+projects:
+    - title: Star Wars REST API
+      tagline: A Flask-based REST API for managing Star Wars characters, planets, and user favorites.
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 85%
+      - name: CSS3
+        level: 80%
+      - name: JavaScript
+        level: 75%
+      - name: React
+        level: 70%
+      - name: Python
+        level: 75%
+      - name: Flask
+        level: 70%
+      - name: SQL
+        level: 70%
+      - name: Bootstrap
+        level: 80%
+      - name: Git & GitHub
+        level: 75%
