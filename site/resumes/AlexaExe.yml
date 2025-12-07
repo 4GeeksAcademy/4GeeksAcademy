@@ -1,0 +1,132 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alexandra
+    last_name: Exebio
+    
+    # Define yourself in 4-5 words
+    motto: programming dreams, loving without limits.
+    
+    # Focus
+    focus: working
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Industrial Engineer with experience in B2B sales, customer service, and project management. 
+      I define myself as a dynamic, empathetic, and results-oriented professional with a proven ability 
+      to lead teams, optimize processes, and close key deals. Currently transitioning to the tech world 
+      as a Junior Developer, focused on Python programming, web development, and automation. 
+      I aspire to evolve into a Full Stack Developer, integrating strategic vision and digital skills 
+      to drive innovative solutions with a positive impact.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQHMWjb1DynO2w/profile-displayphoto-crop_800_800/B4DZpYYUUMGwAM-/0/1762419362037?e=1766016000&v=beta&t=tyAxq33f1uZ4H38733EtWDtKeMhpJk2pwQz7FhX0_5A
+
+    # Contact Information
+    email: alexa.exebio@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: https://github.com/AlexaExe #optional
+    linkedin: https://www.linkedin.com/in/alexandra-exebio-de-la-cruz-864224152/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AlexaExe
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: intermediate- advanced
+
+      - idiom: French
+        level: basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: singing
+
+      - item: Vibe coding
+
+      - item: Watching thriller moovies
+
+# Your previous education
+education:
+    - degree: Industrial engineer
+      university: University Private of north, Peru
+      # optional
+      university_logo: https://es.wikipedia.org/wiki/Archivo:Universidad_Privada_del_Norte_UPN.png
+      time: 2017 - 2022
+      details: |
+        degree and Bachelor in indsutrial engineer
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cloud Sales Especialist
+      time: 2025 - present
+      company: Ingram micro S.L.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Mission: To lead the customer base growth strategy in the indirect ecosystem (SureStep Program), 
+        focused on developing new business opportunities and accelerating the adoption of Microsoft 365.
+
+Key Strategic Objectives:
+
+- Customer Acceleration: Achieve monthly Customer Add targets with key partners, driving the migration 
+                        of Windows, SQL, and Linux to the cloud (cohort "Migrate and Secure").
+
+- Partner Development: Implement and monitor business plans with growing partners and new recruits, 
+                      ensuring the adoption of Microsoft programs (AMM, DCO, Migration Factory).
+
+- Resource Efficiency: Optimize the use of targeting tools (Cloud Ascent) and Co-op funds to maximize 
+                      ROI and market execution success (GTM Execution).
+
+- Business Focus: Results, sales dynamics, and a deep understanding of the Microsoft 
+                  Partner ecosystem and value proposition.
+
+# Your project portfolio
+projects:
+    intro: >
+      Here some of my projects made in 4geeks Academy while I learning programming
+
+    assignments:
+      - title: Velocity
+        # optional
+        link: https://github.com/4GeeksAcademy/Alexa.Exe_javascript_generador_de_excusas
+        tagline: Generador de excusas proyecto de JavaScript, usando acentos graves para la concatenación
+      
+      - title: Piedra, papel, tijera, lagarto.. y más 
+        # optional
+        link: https://github.com/4GeeksAcademy/Alexa.Exe_piedra_papel_tijera_FS_128
+        tagline: Dos tipos de formas de como generar un juego, en la consola y en web, la segunda es más interactiva.
+        
+      - title: PostCard
+        # optional
+        link: https://github.com/AlexaExe/exercise-postcard
+        tagline: Uno de los primeros proyectos con HTML y CSS.
+skills:
+    toolset:
+      - name: Python
+      
+        level: 20%
+
+      - name: JavaScript 
+        level: 50%
+
+      - name: HTML5 & CSS 
+        level: 80%
