@@ -1,0 +1,109 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Manuel
+    last_name: Losada
+
+    # Define yourself in 4-5 words
+    motto: Junior Developer in Progress
+
+    # focus
+    focus: Improving my coding skills and learning new technologies.
+
+    # Summary
+    summary: |
+      Soy un estudiante universitario de 18 años con un nivel de programación intermedio
+      y un interés creciente en el desarrollo web. Actualmente trabajo en fortalecer mis
+      habilidades en HTML, CSS, JavaScript y Git, mientras aprendo nuevas tecnologías
+      a través de proyectos personales y ejercicios prácticos. Me gusta crear soluciones
+      útiles, experimentar con código y mejorar día a día como desarrollador.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/22.jpg
+
+    # Contact Information
+    email: manuellosadat2@gmail.com
+    phone: 04241795788
+
+    # GitHub username (important)
+    github: manuellosadat2-a11y
+
+    # languages you speak
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B1
+
+    # Interests or hobies
+    interests:
+      - item: Coding
+      - item: Video Games
+      - item: Music
+      - item: Learning new technologies
+
+# Your education
+education:
+    - degree: Estudios Universitarios (Actualmente Cursando)
+      university: Universidad (No especificada)
+      time: 2024 - Presente
+      details: |
+        Estudiante universitario enfocado en desarrollar habilidades en programación
+        y tecnologías web. En proceso de formación para convertirme en desarrollador
+        full stack.
+
+# Your previous job experiences or voluntary work
+experiences:
+    - role: Frontend Developer (Proyecto Personal)
+      time: 2024
+      company: Ninalazos (Emprendimiento Familiar)
+      details: |
+        Desarrollo de un mini proyecto web para el emprendimiento de mi madre.
+        Implementación de diseño, estructura y componentes visuales utilizando HTML,
+        CSS y JavaScript.
+          - Creación de una interfaz limpia y funcional
+          - Organización del contenido del negocio
+          - Control de versiones con Git y GitHub
+      link: "https://github.com/manuellosadat2-a11y/manuellosadat2-draw-laptop-lt67"
+
+    - role: Student Developer (Proyectos de Aprendizaje)
+      time: 2024 - 2025
+      company: 4Geeks Academy
+      details: |
+        Práctica constante de fundamentos de programación y desarrollo web mediante
+        ejercicios guiados y mini proyectos.
+          - Tarjeta postal
+          - Generador de excusas
+          - Post de Instagram (clon simple)
+      link: "https://github.com/manuellosadat2-a11y"
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí se encuentran algunos de mis proyectos personales y académicos realizados
+      mientras aprendo desarrollo web y practico mis habilidades.
+
+    assignments:
+      - title: Ninalazos Website Mini Project
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/manuellosadat2-a11y/manuellosadat2-draw-laptop-lt67"
+        tagline: "Mini proyecto creado para el emprendimiento familiar usando HTML, CSS y JS."
+
+# Your skills
+skills:
+    toolset:
+      - name: HTML
+        level: 65%
+      - name: CSS
+        level: 70%
+      - name: JavaScript
+        level: 50%
+      - name: Git
+        level: 40%
+      - name: Python
+        level: 40%
