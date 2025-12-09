@@ -1,0 +1,127 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Manuel
+    last_name: San Cristobal
+    
+    # Define yourself in 4-5 words
+    motto: With the mind in the game
+    
+    # Focus
+    focus: Getting better everyday
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm a college student learning to develop software, with the main goal of making a career out of it.
+      I've been working on retail for some time now, and a couple of years ago y decided to go back to college.
+      Now, i'm focusing on developing skills useful for the tech market, in order to be able to affor my studies.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgur.com/a/1QFSrWC
+
+    # Contact Information
+    email: juansancristobal10@gmail.com #optional
+    phone: +543624814799 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: juan-mscc
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: C2
+
+    # Interests or hobbies
+    interests:
+      - item: VideoGames
+
+      - item: Basketball
+
+      - item: Science
+
+# Your previous education
+education:
+    - degree: Systems Engineering
+      university: Universidad Tecnologica Nacional Resistencia (UTN FRRe)
+      status: not finished
+      # optional
+      university_logo: 
+      time: 2015 - 2016
+      details: |
+        Started fresh out of high school. I learned the basics of prgramming and math.
+          - Algorithms & Data Structures
+          - C programming language
+          - Calculus
+          - Algebra
+
+    - degree: BSc in Physics
+      university: Universidad Nacional del Nordeste
+      # optional
+      university_logo:
+      time: 2025
+      status: ongoing
+      details: |
+        Started in 2025, after years focusing on work. I'm learning basic college math & Physics
+        while also using some programming knowledge for diong simulations and dealing with data.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Retailer
+      time: 2016 - Present
+      company: Contalcon SRL, Resistencia, Chaco
+      # optional
+      company_logo: 
+      details: |
+        My main focus is on dealing with client requests directly. Helping them decide wich information is important
+        enough to be saved in the company books.
+
+# Your project portfolio
+projects:
+    intro: >
+
+    assignments:
+      - title: none
+        # optional
+        project_logo: 
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 50%
+
+      - name: CSS
+        level: 30%
+
+      - name: JavaScript
+        level: 10%
+
+      - name: Bootstrap
+        level: 40%
+
+      - name: Git & GitHub
+        level: 35%
+
+      - name: Python
+        level: 5%
