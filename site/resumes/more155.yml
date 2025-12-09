@@ -1,0 +1,88 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Your full name
+    first_name: Morena
+    last_name: Nicora
+    
+    # Define yourself in 4-5 words
+    motto: Desarrollo fullstack y ciberseguridad
+    # Focus
+    focus: Ser cada vez mejor.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Cuento con experiencia laboral en la organización de eventos, la enseñanza de inglés y el acompañamiento terapéutico. Ademas de estudios en desarrollo FrontEnd y ciberseguridad.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: More155
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Italian
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Pole sport
+
+      - item: Playing instruments
+
+      - item: Skiing
+
+# Your previous education
+education:
+    - degree: Certificado Universitario en Hacking Etico 
+      university: UTN
+    
+
+    - degree: FrontEnd Development
+      university: CoderHouse
+
+
+
+# Your project portfolio
+projects:
+    
+    - IG photo feed:
+      url:  https://github.com/4GeeksAcademy/More155-photoFeed-lt64
+
+    - HTML5 form:
+      url:  https://github.com/4GeeksAcademy/More155-Html5form-lt67
+   
+skills:
+    toolset:
+      - name: Python 
+        level: 20%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Bootstrap
+        level: 70%
