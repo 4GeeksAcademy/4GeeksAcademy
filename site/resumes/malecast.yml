@@ -1,0 +1,71 @@
+---
+template: online-cv
+skin: ceramic
+
+basic_info:
+  first_name: María Alejandra
+  last_name: Castaño
+
+
+  motto: No son nuestras habilidades las que muestran lo que realmente somos, sino
+    nuestras elecciones
+
+  summary: >
+    Desarrolladora junior en formación en 4Geeks Academy. Aunque estoy
+    iniciando mi camino profesional, ya he trabajado en proyectos académicos donde he podido aplicar
+    HTML, CSS, JavaScript y otras herramientas del ecosistema web. Me encanta seguir aprendiendo y aportar dedicación y creatividad.
+
+  email: malecast.12@gmail.com
+  phone: +57 3229023866
+  github: malecast
+
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Upper-Intermediate
+
+
+  interests:
+    - item: Gaming
+    - item: Crochet
+    - item: Cinema and music
+
+
+experiences:
+  - role: Student
+    time: Currently
+    company: 4Geeks Academy
+    details: Practicing with javascript!
+
+  - role: small business owner
+    time: 2024 - Currently
+    company: La madeja de Aleja
+    details: My own online store for crochet accessories and amigurumi
+
+projects:
+  intro: |
+    There are some of my github projects for the 4GeeksAcademy course!
+  assignments:
+    - title: Excuse Generator
+      link: https://github.com/malecast/excuse-generator-malecast
+      tagline: "A fun exercise to practice JavaScript functions "
+    - title: HTML5 Form
+      link: https://github.com/malecast/form-html5-ale
+      tagline: A little practice of a form using HTML5 and Boootstrap.
+    - title: Instagram Bootstrap
+      link: https://github.com/malecast/Instagram-Photo-Feed-Ale
+      tagline: A responsive Bootstrap website template created to display posts and
+        switch from grid to list view.   --
+    - title: Postcard
+      link: https://github.com/malecast/exercise-postcard
+      tagline: A responsive website template designed to input information on a
+        postcard.
+skills:
+  toolset:
+    - name: Javascript
+      level: 25%
+    - name: HTML5 & CSS
+      level: 45%
