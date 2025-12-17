@@ -1,0 +1,130 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Andres Eduardo
+    last_name: Palencia Rojas
+    
+    # Define yourself in 4-5 words
+    motto: Me Gusta Hacer las Cosas Bien
+    
+    # Focus
+    focus: Desarrollador FullStack Jr.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Soy Andrés Eduardo Palencia, desarrollador junior FullStack enfocado en el desarrollo web. 
+     Trabajo con JavaScript, TypeScript y PHP, usando frameworks como Angular y Laravel. 
+     En el frontend también tengo experiencia con CSS, Bootstrap y conocimientos básicos en Adobe Illustrator, 
+      lo que me permite cuidar tanto la funcionalidad como el diseño visual de los proyectos.
+      
+      En el backend, además de PHP, he trabajado con Blazor y el stack .NET usando C#, lo que me ha dado una base sólida para construir aplicaciones más estructuradas y escalables. También tengo conocimientos básicos de Azure (certificación AZ-900), y cuento con certificación Oxford en inglés (nivel B1/B2 leído), lo que facilita mi comunicación y aprendizaje en contextos técnicos internacionales.
+      Me considero una persona curiosa, autodidacta y con muchas ganas de aportar.
+      Te invito a revisar mi CV online, donde podrás ver más a fondo mis aptitudes, actitudes y experiencias profesionales.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/52213160?v=4
+
+    # Contact Information
+    email: eduardoandresp94@gmail.com #optional
+    phone: +34 672 20 00 48 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/andres-palencia-51770b249/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: andrupax94
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: VideoJuegos
+
+      - item: Guitarra
+
+      - item: Futbol
+
+# Your previous education
+education:
+    - degree: Ing. De Sistemas
+      university: I.U.P Santiago Mariño Maracay
+      # optional
+      university_logo: https://th.bing.com/th/id/R.dd5093594080e0b1304b5cb0ebe60145?rik=%2b05sMpR7kLfMow&riu=http%3a%2f%2f2.bp.blogspot.com%2f_O2AeDEhCLSE%2fSCnwXN2q1fI%2fAAAAAAAAAIY%2fCFlTFm1c0do%2fw1200-h630-p-k-no-nu%2fPSM%2bPNG.png&ehk=E%2buEOcXV27qmcQtX3kEGbo%2bI44B%2btlMiW6uXmr8NxWA%3d&risl=&pid=ImgRaw&r=0
+      time: 2011 - 2019
+      details: |
+        "La ingeniería de sistemas es una disciplina que se enfoca en diseñar, integrar y gestionar sistemas complejos 
+        combinando hardware, software, datos, procesos y personas para resolver problemas de manera eficiente. 
+        Abarca desde el análisis de necesidades y la arquitectura de soluciones tecnológicas hasta la implementación, 
+        optimización y mantenimiento de plataformas informáticas, redes, bases de datos y servicios digitales. 
+        Su objetivo es crear sistemas robustos, escalables y confiables que apoyen el funcionamiento de organizaciones modernas 
+        y faciliten la toma de decisiones en entornos cada vez más interconectados."
+
+
+
+
+skills:
+    toolset:
+    - name: HTML
+      level: 85%
+
+    - name: PHP
+      level: 76%
+
+    - name: JavaScript
+      level: 81%
+
+    - name: CSS
+      level: 81%
+
+    - name: TypeScript
+      level: 72%
+
+    - name: Bootstrap
+      level: 76%
+
+    - name: AngularTS
+      level: 67%
+
+    - name: Blazor
+      level: 54%
+
+    - name: Laravel
+      level: 72%
+
+    - name: MySQL
+      level: 76%
+
+    - name: C#
+      level: 63%
+
+    - name: Azure
+      level: 58%
+
+    - name: Networking
+      level: 63%
+
+    - name: Windows OS
+      level: 72%
+
+    - name: Adobe Illustrator
+      level: 54%
