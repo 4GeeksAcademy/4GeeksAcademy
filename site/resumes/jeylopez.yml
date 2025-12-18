@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    first_name: Jeanmary
+    last_name: López Galvis
+
+    motto: Desarrolladora web junior en constante aprendizaje
+
+    focus: Frontend y diseño web
+
+    summary: 
+      Soy desarrolladora web junior en proceso de formación, con mayor enfoque en frontend y diseño web.
+      Me encuentro fortaleciendo mis habilidades en tecnologías como HTML, CSS, JavaScript y React,
+      mientras continúo aprendiendo backend a nivel básico. Me caracterizo por ser responsable,
+      comprometida y con muchas ganas de seguir aprendiendo y creciendo profesionalmente.
+
+  
+    email: lopezgalvisjeanmary@gmail.com
+    phone: +56 9 7556 0375
+    linkedin: Jeanmary López Galvis
+    github: Jeylopez
+
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Básico
+
+    interests:
+      - item: Programar
+      - item: Ejercicio
+      - item: Diseño web
+
+# Education
+education:
+    - degree: Desarrolladora Web Full-Stack
+      university: 4Geeks Academy
+      time: 2025
+      details: 
+        Formación online en desarrollo web full-stack, con proyectos realizados en equipo.
+        Mayor enfoque en el desarrollo frontend y diseño de interfaces, utilizando tecnologías
+        modernas del ecosistema web. El aprendizaje en backend se encuentra actualmente
+        en proceso de fortalecimiento.
+
+          - Desarrollo de interfaces web responsivas
+          - Trabajo en equipo bajo metodología colaborativa
+          - Enfoque principal en frontend
+
+# Experience
+experiences:
+    - role: Atención al Cliente
+      time: Experiencia previa
+      company: —
+      details: |
+        - Atención directa a clientes.
+        - Resolución de dudas y gestión de solicitudes.
+        - Comunicación clara y empática.
+        - Trabajo en equipo y orientación al usuario final.
+
+# Projects
+projects:
+    intro: >
+      Proyectos académicos desarrollados durante la formación como desarrolladora web,
+      enfocados principalmente en el frontend y el trabajo colaborativo.
+
+    assignments:
+      - title: Proyectos Full-Stack Académicos
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Aplicaciones web desarrolladas en equipo con enfoque en frontend."
+
+# Skills
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: JavaScript
+        level: 85%
+
+      - name: React
+        level: 80%
+
+      - name: Bootstrap
+        level: 75%
+
+      - name: Python
+        level: 60%
+
+      - name: Flask
+        level: 50%
