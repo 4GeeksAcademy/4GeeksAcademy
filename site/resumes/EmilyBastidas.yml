@@ -1,4 +1,3 @@
-#
 # Be aware that even a small syntax error here can lead to failures in output
 #
 
@@ -182,7 +181,7 @@ projects:
 skills:
     toolset:
       - name: JavaScript (ES6+)
-        level: 60%
+        level: 50%
 
       - name: React & React Hooks
         level: 60%
@@ -208,5 +207,3 @@ skills:
       - name: Effective Communication
         level: 95%
 
-      - name: Problem Solving
-        level: 95%
