@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Oliver
+    last_name: Simkovsky
+    
+    # Define yourself in 4-5 words
+    motto: I love creating and solving problems. My interests range from VFX to computer science.
+    
+    # Focus
+    focus: Animation and Full Stack Development
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have an associates degree in video game art, a bachelor's degree in animation, and three years of work experience in VFX.
+      I'm currently pivoting my career into teck, hence why I'm taking this course!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: osimkovsky@gmail.com 
+    phone: 236 988 3701
+    website: https://oliversimkovsky.com/#optional
+    linkedin: https://www.linkedin.com/ 
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fluffbutt1
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: French
+        level: Learning
+
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Bachelor's of Fine Arts in Animation
+      university: Savannah College of Art and Design
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2012
+      details: |
+        Studied animation principles and acting for animition. Course work includes animation principles, body mechanics, and collaborative projects.
+
+    - degree: Associates of Science in Video Game Art
+      university: Miami-Dade College
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Studied video game art for video games. Course work includes programming in C#, 3D art in Maya, how to use Unity and collaborative work.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Intermediate Technical Animator
+      time: 2022-2025
+      company: ICON Creative Studio
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Worked as a CFX artist for multiple children shows streamed on Disney Plus. Specifically worked on groom and cloth.
+
+# Your project portfolio
+projects:
+    intro: >
+      Just a few side projects that portray what I'm capable of doing.
+
+    assignments:
+      - title: Instagram photo layout with HTML
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Just a quick instagram post done entirely done in HTML for the sake of practice."
+
+      - title: Instagram photo feed with Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive layout of an Instagram feed for the purpose of learning Bootstrap."
+
+skills:
+    toolset:
+      - name: HTML
+        level: 98%
+
+      - name:  CSS
+        level: 98%
+
+      - name: JavaScript
+        level: 98%
+
+      - name: Python
+        level: 95%
+
+      - name: SQL
+        level: 85%
+
+      - name: React
+        level: 60%
