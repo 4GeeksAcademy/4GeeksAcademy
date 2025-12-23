@@ -1,0 +1,214 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alessandra
+    last_name: Mantellini
+    
+    # Define yourself in 4-5 words
+    motto: I refine language to make AI sound human.
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As an audiovisual translator and subtitling expert, I bring over five years of experience 
+      working with English and Spanish (LATAM/European) to deliver high-quality translations 
+      and audiovisual content.
+      My passion for bridging cultures through language drives my dedication 
+      to ensuring that every project meets linguistic and technical standards.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/249475018?v=4
+
+    # Contact Information
+    email: mantellinialessandra13@gmail.com
+    website: https://insightfulalemantellini.wordpress.com/
+    linkedin: https://www.linkedin.com/in/alessandra-mantellini-lucas/
+    subtle_portfolio: https://subtle-subtitlers.org.uk/author/Alessandra/
+    ted_portfolio: https://www.ted.com/profiles/31184490/translator
+        
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: alemantellini
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - language: Spanish
+        level: Native (C2)
+
+      - language: English
+        level: Native (C2)
+
+      - language: French
+        level: B1.4
+
+      - language: Italian
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Playing guitar
+
+      - item: Playing video games
+
+      - item: Cross-stitching
+
+# Your previous education
+education:
+    - degree: M.A. in Bilingual Education
+      university: Universidad Europea de Madrid
+      # optional
+      university_logo: https://actualidad.fundacionasisa.org/wp-content/uploads/2021/01/UEM-Logo.png
+      time: 2023 - 2024
+      details: |
+        A professional postgraduate program that trains teachers to teach non-language subjects 
+        (such as History or Science) in English at all educational levels,
+        using active methodologies to develop advanced digital 
+        and linguistic competence (level C1) in an immersive environment.
+        
+    - degree: M.A. in Audiovisual Translation (Localization, Subtitling & Dubbing)
+      university: ISTRAD (Instituto Superior de Estudios Lingüísticos y Traducción)
+      # optional
+      university_logo: https://www.tradumarketing.com/build/img/istrad_lila.png
+      time: 2020 - 2022
+      details: |
+        Focused on training professionals for today's film, TV, and video game market, 
+        covering subtitling, dubbing, closed captioning, and audio description, 
+        using specialized software and emerging technologies such as AI, 
+        with a strong practical component.
+        
+    - degree: B.A. in English Studies
+      university: Universidad Complutense de Madrid
+      # optional
+      university_logo: https://www.ucm.es/data/cont/docs/3-2016-07-21-EscudoUCMTransparenteBig.png
+      time: 2018 - 2020
+      details: |
+        My degree offers comprehensive training in the English language,
+        Linguistics, Literature (British, American, and Postcolonial), 
+        and the cultures of English-speaking countries. I am qualified for critical analysis, 
+        research, and fields such as teaching, translation, and publishing.
+          - Ranked 14/30 in the 2021 National Ranking of SEDEA (Spanish Society of Academic Excellence)
+        
+# Your previous job experiences or volunteer
+experiences:
+    - role: Language Data Annotator (Spanish)
+      time: 2025 - Present
+      company: TransPerfect, Madrid
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/4/42/TransPerfect-logo.png
+      details: |
+          - Consistently met daily Key Performance Indicators (KPIs) as defined by management, adapting to evolving procedures.
+          - Contributed to the improvement of AI speech recognition accuracy through high-quality linguistic annotations.
+          - Analyzed, classified, and labelled linguistic data while ensuring quality, consistency, and compliance with client standards.
+          - Identified and corrected inaccuracies in language data through research, spelling/grammar verification, and terminology validation.
+          - Supported project coordination and collaborated with engineering and testing teams to enhance workflows and outcomes.
+
+    - role: Latin American Spanish Transcriber
+      time: 2024 - Present
+      company: Deluxe
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Deluxe_Logo_2016_Red.png/1200px-Deluxe_Logo_2016_Red.png
+      details: |
+          - Create impeccable verbatim audio transcriptions (of dialogue and nonverbal elements) that accurately represent the content and nature of the project.
+          - Provide descriptive and context-based annotations to ensure proper translation.
+          - Identify the people or characters who narrate or recite dialogues in different projects.
+          - Timecode that shows where these elements appear in the film.
+          - Proofreading Latin American Spanish subtitle templates and dubbing scripts.
+
+    - role: ENG<>ESP Translator and linguist 
+      time: 2023 - Present
+      company: RWS Group
+      # optional
+      company_logo: https://slator.com/assets/2025/09/RWS-Logo-2025-900x600-1.png
+      details: |
+          - Translate all types of content from English to Spanish, guaranteeing high quality.
+          - Post-edit and optimize machine translation output (MPTE) to deliver natural, polished, and human-like translations.
+          - Ensure all assigned files meet technical standards while maintaining consistency, formatting, and style guidelines.
+
+    - role: Spanish Language supervisor
+      time: 2021 - Present
+      company: TED Talks
+      # optional
+      company_logo: https://logos-world.net/wp-content/uploads/2022/07/TED-Logo.png
+      details: |
+          - Supervise and mentor new TED translators and platform collaborators, ensuring quality and alignment with content specifications.
+          - Translate and subtitle 100+ TED Talks and metadata into Spanish; performed final QA for public release.
+          - Conduct transcription, timing, and quality control for subtitling projects.
+
+    - role: Linguist / subtitle editor / translator / reviewer
+      time: 2020 - Present
+      company: Freelance
+      # optional
+      company_logo: https://insightfulalemantellini.wordpress.com/
+      details: |
+          - Provide high-quality subtitling and translation services, with expertise in audiovisual content.
+          - English<>Spanish (European / LATAM) subtitle template creation and subtitle edition.
+          - Transcribe, translate, and review learning materials and media for linguistic accuracy and clarity.
+          - Perform quality checks (QA) to ensure that files align with clients’ standards.
+
+    - role: English>Spanish Subtitles Assistant
+      time: 2021
+      company: Transperfect
+      # optional
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/4/42/TransPerfect-logo.png
+      details: |
+          - Create, translate, and QA-review subtitle templates for streaming, education, and media content.
+          - Translate and review metadata, dialogues, and scripts with a strong focus on content accuracy.
+          - Proofreading subtitles, audio description files, and dubbing scripts.
+          - Perform quality checks (QA) to ensure that files meet the client's specifications.
+          
+# Your project portfolio
+projects:
+    intro: >
+      Side projects or open source libraries.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Trados Studio
+        level: 100%
+      
+      - name: Excel
+        level: 90%
+        
+      - name: Python
+        level: 30%
+        
+      - name: JavaScript
+        level: 10%
