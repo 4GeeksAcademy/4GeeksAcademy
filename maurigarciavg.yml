@@ -1,0 +1,171 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: 
+
+  # Your full name
+  first_name: Mauricio
+  last_name: García-Valdecasas Gámez
+
+  # Define yourself in 4-5 words
+  motto: Tech enthusiast & problem solver
+
+  # Focus
+  focus: Full Stack Developer
+
+  # You have 1 paragraph to make a great impression, summarize your career
+  summary: |
+    Customer Support Specialist transitioning into Full Stack Development.  
+    Tras varios años trabajando en atención al cliente técnico en entornos internacionales, he desarrollado una fuerte capacidad para resolver problemas, comunicar soluciones complejas de forma clara y trabajar bajo presión.  
+    Actualmente estoy formándome como Full Stack Developer en 4Geeks Academy, donde estoy construyendo proyectos reales con HTML, CSS, JavaScript y Python, aplicando buenas prácticas, control de versiones y metodologías ágiles.  
+    Mi objetivo es combinar mi experiencia en soporte técnico con mis nuevas habilidades de desarrollo para crear productos útiles, accesibles y bien construidos.
+
+  avatar: https://avatars.githubusercontent.com/u/63955780?v=4
+
+  # Contact Information
+  email: maugvg88@hotmail.com
+  phone: +34 677 06 05 83
+  website: https://maurigavaga.wordpress.com/
+  linkedin: www.linkedin.com/in/mauricio-garcia-valdecasas/
+  github: github.com/maurigarciavg
+
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: French
+      level: Basic
+    - idiom: Slovak
+      level: Basic
+
+  interests:
+    - item: Technology & gadgets
+    - item: Space & science
+    - item: Videogames
+
+# Your previous education
+education:
+  - degree: Full Stack Developer Bootcamp
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - 2026
+    details: |
+      Formación intensiva en desarrollo web full stack:
+        - HTML, CSS, Flexbox, Bootstrap
+        - JavaScript, DOM, APIs
+        - Python, Flask
+        - Git, GitHub, Codespaces
+        - Desarrollo de proyectos reales
+
+  - degree: Máster en Innovación Turística
+    university: Escuela Superior de Comunicación
+    time: 2012 - 2013
+    details: |
+      Especialización en innovación, gestión de proyectos y experiencia de usuario en el sector turístico.
+
+  - degree: Grado en Turismo
+    university: Universidad de Granada
+    time: 2007 - 2011
+    details: |
+      Formación en gestión turística, comunicación, atención al cliente y administración.
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Customer Support Specialist (Remote)
+    time: 2021 - Present
+    company: Muziker
+    details: |
+      Atención al cliente técnico en un entorno internacional, resolviendo incidencias relacionadas con productos electrónicos, música, deporte y tecnología.
+        - Diagnóstico y resolución de problemas técnicos.
+        - Comunicación clara y eficiente con clientes de distintos países.
+        - Gestión de tickets, devoluciones y soporte postventa.
+
+  - role: Hotel Management & Front Office Leadership
+    time: 2011 - 2021
+    company: Hoteles y alojamientos turísticos (España, Reino Unido)
+    details: |
+      Experiencia progresiva en gestión hotelera, liderando equipos y operaciones en entornos internacionales.
+        - Recepcionista, Supervisor y Jefe de Recepción en hoteles de Brighton (Reino Unido).
+        - Director de Hotel en Fuengirola, gestionando operaciones diarias, personal y atención al cliente.
+        - Ayudante de Dirección en un camping en Motril, coordinando áreas operativas y de servicio.
+        - Gestión de equipos, resolución de incidencias complejas y optimización de procesos.
+        - Trabajo en entornos multiculturales con alto volumen de clientes.
+
+  - role: Event Assistant & Congress Coordinator
+    time: 2013 - 2015
+    company: Palacio de Congresos de Granada
+    details: |
+      Organización y ejecución de eventos y congresos internacionales, FLECOS (Festival Internacional de la Lengua Española la Cultura y el Ocio)
+        - Gestión de eventos, logística y atención a participantes.
+        - Coordinación operativa de dos ediciones del congreso FLECOS.
+        - Gestión de proveedores, salas, acreditaciones y cronogramas.
+
+  - role: Travel Consultant & Customer Service
+    time: 2007 - 2012
+    company: Viajes El Corte Inglés
+    details: |
+      Gestión integral de viajes y atención al cliente en una de las agencias líderes del sector.
+        - Asesoramiento personalizado y venta de paquetes turísticos, vuelos y alojamientos.
+        - Resolución de incidencias y coordinación con proveedores.
+        - Manejo de sistemas de reservas y herramientas internas.
+        - Atención al cliente presencial y telefónica en entornos de alta demanda.
+
+# Your project portfolio
+projects:
+  intro: >
+    Aquí puedes ver algunos de mis proyectos desarrollados durante el bootcamp de 4Geeks Academy,
+    enfocados en HTML, CSS, JavaScript y Python.
+
+  assignments:
+    - title: Instagram Feed (HTML/CSS)
+      link: "https://github.com/maurigarciavg/instagram-feed"
+      tagline: "Recreación de un feed de Instagram utilizando HTML y CSS, enfocada en maquetación y estilos."
+
+    - title: Instagram Feed con Bootstrap
+      link: "https://github.com/maurigarciavg/instagram-bootstrap"
+      tagline: "Versión del feed de Instagram implementada con Bootstrap para practicar componentes y responsive design."
+
+    - title: Generador de Excusas
+      link: "https://github.com/maurigarciavg/generador-excusas-javascript-maurigv"
+      tagline: "Aplicación simple en JavaScript que genera excusas aleatorias dinámicamente."
+
+    - title: Exercise Postcard
+      link: "https://github.com/maurigarciavg/exercise-postcard"
+      tagline: "Tarjeta postal creada con HTML y CSS para practicar maquetación y estilos."
+
+    - title: HTML Forms Exercises
+      link: "https://github.com/maurigarciavg/html-forms-tutorial-exercises-maurigv"
+      tagline: "Colección de ejercicios centrados en formularios HTML y validación básica."
+
+    - title: Terminal Challenge
+      link: "https://github.com/maurigarciavg/exercise-terminal-challenge-maurigv"
+      tagline: "Juego interactivo para aprender comandos básicos de terminal."
+
+    - title: CyberCafe129
+      link: "https://github.com/maurigarciavg/CyberCafe129-maurigv"
+      tagline: "Página web de práctica desarrollada junto a alumnos, utilizando HTML, CSS y JavaScript."
+
+skills:
+  toolset:
+    - name: HTML5 & CSS3
+      level: Beginner / Intermediate
+
+    - name: JavaScript (ES6)
+      level: Beginner
+
+    - name: Python
+      level: Learning soon
+
+    - name: Git & GitHub
+      level: Beginner
+
+    - name: Video Editing
+      level: Intermediate
+
+    - name: Customer Support Tools
+      level: Advanced
+
+    - name: Problem Solving
+      level: Advanced
