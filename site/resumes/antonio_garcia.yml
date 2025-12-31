@@ -1,0 +1,128 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: 
+
+    # Your full name
+    first_name: Antonio Gerardo
+    last_name: Garcia 
+    
+    # Define yourself in 4-5 words
+    motto: apprentice of new technologies
+    
+    # Focus
+    focus: Learn new technologies that will help me develop efficient learning skills to prepare me for the challenges the future holds.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary:  I am a Systems Engineering student with a strong interest in software development and problem-solving. I enjoy learning by building projects, strengthening my programming fundamentals, and continuously improving my technical skills to grow as a developer and contribute effectively to a professional team.
+
+    
+  
+    # Contact Information
+    email: antoniogarcia271294@gmail.com #optional
+    phone: 5574679297  #optional
+    linkedin: https://www.linkedin.com/in/antonio-garc%C3%ADa-6254a2263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Antonio-garcia-2025
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: intermediate
+
+
+    # Interests or hobbies
+    interests:
+      - item: read philosophy
+
+      - item: learn mathematics
+
+      - item: walk
+
+# Your previous education
+education:
+    - degree: systems engineering
+      university: Universidad Tecnológica Latinoamericana en Línea
+    
+      time: 2023 - 2025
+      details: Systems Engineering / Computer Systems Engineering prepares professionals to design, develop, and maintain software, computer systems, and technological solutions. The program combines programming, databases, networks, system analysis, and problem-solving skills, enabling graduates to adapt to new technologies and work effectively in professional and collaborative environments.
+
+    - degree: network technician
+      university: Centro de Bachillerato Tecnológico Industrial y de Servicios No. 227 “Otilio Eduardo Montaño Sánchez”
+      # optional
+     
+      time: 2009 - 2015
+      details: The Computer Networks Technician program prepares students to install, configure, and maintain computer networks and communication systems. It focuses on networking fundamentals, hardware, cabling, network security, and troubleshooting, developing practical skills to support and manage network infrastructures in educational and professional environments.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: customer service agent
+      time: 2025 - Present
+      company: Atento
+      # optional
+      
+      details: The Customer Service Advisor at Alsea Mexico is responsible for providing support and follow-up to customers through different communication channels, resolving inquiries, complaints, and service-related issues regarding orders, products, and promotions. The role requires strong communication skills, empathy, system handling, and a customer-focused approach while meeting performance metrics and representing well-known brands professionally.
+
+    - role: store manager
+      time: 2008 - 2025
+      company: Nutrisa SA DE CV
+     
+      details: A store manager at Nutrisa oversees daily store operations, ensures excellent customer service, manages and supervises staff, controls inventory, and ensures compliance with quality and hygiene standards. The role also involves meeting sales goals, handling issues, scheduling shifts, and maintaining an organized and efficient work environment.
+
+
+# Your project portfolio
+projects:
+    intro: >
+
+
+    assignments:
+      
+      - title:  calculadora funcional con html, css, JavaScript
+        # optional
+        link: "https://github.com/GuerreroAntonio/proyecto.git"
+        tagline: "introduccion a programacion orientada a objetos(front end)"
+
+      - title:  reloj mundial con html, css, JavaScript
+        link: "https://github.com/GuerreroAntonio/proyecto.git"
+        tagline: "introduccion a programacion orientada a objetos(front end)"
+
+      - title:  menu interactivo de un restaurante con html, css, JavaScript
+        link: "https://github.com/GuerreroAntonio/proyecto.git"
+        tagline: "introduccion a programacion orientada a objetos(front end)"
+
+      - title:  youtube clone con html, css, JavaScript
+        link: "https://github.com/GuerreroAntonio/proyecto.git"
+        tagline: "introduccion a programacion orientada a objetos(front end)"
+
+     
+skills:
+    toolset:
+      - name: html & css 
+        level: 70%
+
+      - name: JavaScript & jQuery
+        level: 30%
+
+      - name: Ruby on Rails
+        level: 25%
+
+      - name: Python
+        level: 30%
+
+      - name: Excel
+        level: 75%
+    
+
+    
