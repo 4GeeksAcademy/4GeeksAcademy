@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Maximo
+    last_name: Bandoni
+    
+    # Define yourself in 4-5 words
+    motto: A truly committed professional
+    
+    # Focus
+    focus: Data Science analyzer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Analyst with knowledge in planning, organization, and software management who performs and develops interfaces;
+      that collect, process, modelate and visualize data to indentify patterns and trends.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.postimg.cc/fTg9g8ZB/Maximo1988.jpg
+
+    # Contact Information
+    email: maxila88@gmail.com #optional
+    phone: 5545344147 #optional
+    website: https://github.com/Maximo1988 #optional
+    linkedin: https://www.linkedin.com/in/máximo-andrés-bandoni-dress-01b9b7227 #optional
+    youtube: https://www.youtube.com/@maxcode88
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Maximo1988
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Being a parent!
+      - item: Gym
+      - item: Space
+
+education:
+    - degree: Full Stack Software Development
+      university: 4Geeks Academy
+      time: 2021 - 2022
+      details: Comprehensive software development across diverse languages and platforms. Focused on building scalable web
+        and mobile environments with seamless back-end integration and robust server-side logic.
+
+    - degree: BD in Business Administrator
+      university: Universidad Latinoamericana
+      time: 2013 - 2016
+      details: Specialist in organizational efficiency and strategic planning. Focused on optimizing business processes
+        and leading teams to achieve sustainable growth within competitive urban markets.
+
+    - degree: Leadership
+      university: Edutin Academy
+      time: 2026
+      details: Strategic leader capable of architecting high-performance organizational cultures by synthesizing emotional intelligence for team management with analytical rigor for data-driven decision-making in challenging corporate landscapes.
+
+    - degree: Power BI
+      university: Santander Open Academy
+      time: 2025
+      details: Advanced proficiency in data visualization and business analytics, demonstrating the ability to architect complex data models and design interactive Power BI dashboards that facilitate data-driven strategic decision-making.
+
+experiences:
+
+    - role: Senior Analyst
+      time: 2023 - Present
+      company: HCL TECHNOLOGIES
+      details: Code analyst for companies that request Google Maps for visualization.
+
+    - role: Operational Manager
+      time: 2022
+      company: BMC Strategic Innovation
+      details: Leading cross-functional teams of 15+ members and developing long-term business plans, specializing in budget allocation, vendor lifecycle management, and the coordination of project viability to ensure alignment with executive-level financial and sustainability goals.
+
+    - role: Operational and Administrator Manager
+      time: 2016 - 2021
+      company: ECO Agency, BTL promotions
+      details: Reporting to Senior Management, Branding, and Accounting. Managing sales, inventory, orders, contracts,
+        training, and incidents. Product and service management using a Work Operating System.
+
+projects:
+
+    assignments:
+      - title: Web Development
+        link: https://github.com/Maximo1988/Dadivapp
+        tagline: Responsible for designing, coding, and modifying React applications and Python APIs from layouts to wireframes with team and client specifications. Reviewing user interface for encrypting passwords and unit testing issues.
+
+      - title: Data Analyst
+        link: https://github.com/Maximo1988/realestate-datacleanup-exercise/blob/663bb80ff9b497b2809f74307776cf5da424d13d/project.es.ipynb
+        tagline: EDA focused on price and cost resources to achieve better earnings and possible decision tree making.
+
+      - title: Star Wars Blog Reading List
+        link: https://github.com/Maximo1988/Starwars-Blog-Reading-List
+        tagline: Database using JavaScript and Python, with unique design and testing results with a time management sphere.
+
+      - title: Algorithm Optimization with Python
+        link: https://github.com/Maximo1988/algorithm-optimization-project-machine-learning/blob/main/notebook/Algorithm_Optimization.ipynb
+        tagline: Enhancing predictive performance by executing a rigorous hyperparameter optimization pipeline, utilizing cross-validation frameworks to mitigate overfitting and ensure the statistical robustness of model generalizations.
+
+skills:
+    toolset:
+      - name: Python
+        level: 80%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: Pandas
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: SQL
+        level: 80%
+
+      - name: React
+        level: 70%
