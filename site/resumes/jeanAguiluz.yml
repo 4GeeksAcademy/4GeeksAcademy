@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: online-cv
+skin: blue
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jean
+    last_name: Aguiluz
+    
+    # Define yourself in 4-5 words
+    motto: me gusta aprender,nunca es demasiado tarde.
+    
+    # Focus
+    focus: Aprender lo que mas pueda de Desarrollo Web
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante de desarrollo web full stack, enfocado en crear soluciones funcionales y bien estructuradas. Apasionado por el aprendizaje continuo, la resolución de problemas y la construcción de experiencias digitales de calidad.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/11.jpg
+
+    # Contact Information
+    email: jeanaguiluz@gmail.com #optional
+    phone: +56 975829678 #optional
+    website: --- #optional
+    linkedin: jean-aguiluz-874a8b398 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    basic_info:
+    github: jeanAguiluz
+
+    
+    twitter: '---' #optional
+    stack-overflow: --- # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: jardineria
+
+      - item: ciclismo
+
+      - item: Cocinar
+
+# Your previous education
+education:
+    - degree: Desarrollador Web Full Stack
+      university: 4 Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025-present
+      details: |
+       Actualmente estudio desarrollo web full stack en 4Geeks Academy, donde adquiero experiencia práctica en la creación de aplicaciones web utilizando HTML5, CSS, JavaScript y otras tecnologías del ecosistema moderno. Me enfoco en aplicar buenas prácticas, fortalecer mis habilidades técnicas y aportar valor real en entornos de trabajo colaborativos.
+# Your previous job experiences or volunteer
+experiences: []
+
+# Your project portfolio
+projects:
+    intro: >
+      A continuación se presentan algunos de mis proyectos, desarrollados como parte de mi formación en desarrollo web full stack, donde aplico mis conocimientos técnicos, buenas prácticas de programación y enfoque en la resolución de problemas mediante soluciones funcionales y escalables.
+
+    assignments:
+      - title: HTML/CSS
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/jeanAguiluz/jeanAguiluz-Feed-simple-de-Instagram-jeanA.git"
+        tagline: "Plantilla web adaptable desarrollada con HTML5 y CSS que simula un post de Instagram."
+
+      - title: Bootstrap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/jeanAguiluz/FINALIZADO-Instagram-Photo-Feed-con-Bootstrap-jeanAguiluz.git"
+        tagline: "Plantilla web adaptable desarrollada con Bootstrap que simula un post de Instagram."
+
+      - title: HTML Form 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/jeanAguiluz/jeanAguiluz-Form-con-bootstrap.git"
+        tagline: "Formulario web adaptable desarrollado con Bootstrap, enfocado en una estructura clara y funcional."
+
+      - title: GIT 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/jeanAguiluz/exercise-collaborative-html-website-jeanAguiluz.git"
+        tagline: "Proyecto colaborativo desarrollado con Git, enfocado en el trabajo en equipo, control de versiones y buenas prácticas de desarrollo."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Bootstrap
+        level: 98%
+
+      - name: GIT
+        level: 90%
