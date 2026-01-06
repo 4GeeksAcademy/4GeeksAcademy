@@ -1,0 +1,21 @@
+dragcess1998.yml 
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Franchesco
+  last_name: Stabile
+  role: Student data science
+  github: dragcess1998
+
+education:
+  - degree: Desarrollo de Aplicaciones Web
+    university: 4Geeks Academy
+    time: 2025 - Present
+
+skills:
+  - skill: HTML
+    level: 30
+  - skill: CSS
+    level: 30
+
