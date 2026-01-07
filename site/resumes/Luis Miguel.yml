@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Luis Miguel
+    last_name: Rojas Chávez
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta ver películas y series
+    
+    # Focus
+    focus: Crecimiento personal y profesional
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Conocimientos en ofimática y paquete microsoft a nivel intermedio.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: /static/Imagen 1
+
+    # Contact Information
+    email: luismiguelrc312004@gmail.com #optional
+    phone: 682 52 50 54 #optional
+    linkedin: Luis Miguel Rojas Chávez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Luis Miguel
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+        
+      - idiom: English
+        level: Intermedio
+
+      - idiom: French
+        level: Principiante
+        
+      - idiom: Italian
+        level: Principiante
+
+      - idiom: Japanese
+        level: Principiante
+        
+    # Interests or hobbies
+    interests:
+      - item: Baloncesto
+
+      - item: Estudiar idiomas
+
+      - item: Manualidades
+
+# Your previous education
+education:
+    - degree: Estudiante
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - Presente
+      details: |
+        Aprendiendo Full-Stack Software Development desde cero, adquiriendo los conocimientos que se necesitan paso a paso.  
+
+          - Bullet point
+          - Bullet point
+
+    - degree: Auxiliar de Odontología
+      university: Essae Formación
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+        Aprendí a como se debe asistir al doctor. La preparación del gabinete antes de cada paciente y toma de radiografías.
+
+          - Bullet point
+          - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Auxiliar de odontología
+      time: Septiembre 2024 - Diciembre 2024
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Mis funciones principales eran las siguientes: esterilización del material, preparación de cada gabinete, organización de la agenda de pacientes,
+        dar paso al cliente para cada gabinete y su debida preparación con respecto a la agenda, asistencia al doctor, toma de radiografías y control del almacen.
+        
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Algunos de los preyectos donde aprendí desde cero.
+
+    assignments:
+      - title: Formulario-html-bootstrap-Luis-Miguel
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/luismiguelrc312004/Formulario-html-bootstrap-Luis-Miguel
+        tagline: "Aprendiendo a utilizar bootstrap con html"
+        
+      - title: Post-de-instagram-con-bootstrap-Luis-Miguel
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/luismiguelrc312004/Post-de-instagram-con-bootstrap-Luis-Miguel
+        tagline: "Creando un post de instagram solo con bootstrap y html"
+
+      - title: luis-miguel-Generador-de-excusas-en-Javascript
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/luismiguelrc312004/luis-miguel-Generador-de-excusas-en-Javascript
+        tagline: "Aprediendo JavaScript desde cero con ejercicios"
+
+skills:
+    toolset:
+      - name: Microsoft Office
+        level: 65%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: HTML & CSS
+        level: 60%
+
+      - name: Photoshop
+        level: 55%
