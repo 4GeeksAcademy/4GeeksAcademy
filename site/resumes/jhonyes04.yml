@@ -1,0 +1,159 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: 'online-cv'
+skin: 'blue'
+
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Juan Manuel
+    last_name: España Redondo
+
+    # Define yourself in 4-5 words
+    motto: Dinámico, autodidacta, extrovertido y apasionado
+
+    # Focus
+    focus: Full Stack Developer
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        Agente de Innovación Local con amplia experiencia en alfabetización digital, creación de proyectos y trabajo en grupo. 
+        Programador y consultor en diversas tecnologías y lenguajes de programación. 
+        Poseo habilidades avanzadas en administración de sistemas y desarrollo de aplicaciones de escritorio.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/184973221?v=4
+
+    # Contact Information
+    email: jhonyes@hotmail.com #optional
+    phone: +34687653970 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/jhonyes04 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jhonyes04
+
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+        - idiom: Español
+          level: Native
+
+        - idiom: English
+          level: Medio/Bajo
+
+    # Interests or hobbies
+    interests:
+        - item: Diseño e impresión 3D
+
+        - item: Robótica
+
+        - item: Vuelo de Drones
+
+# Your previous education
+education:
+    - degree: Técnico Superior en Adminsitración de Sistemas Informáticos en Red
+      institute: I.E.S. Juan de la Cierva - Vélez-Málaga
+      time: 2014
+      details: |
+          Especialización en la configuración, administración y mantenimiento de sistemas informáticos y redes. 
+          Capacitación avanzada para garantizar la funcionalidad, integridad y seguridad de los recursos y servicios del sistema.
+          Administración de sistemas operativos de servidor (Windows y Linux)
+          Gestión de infraestructuras de red y servicios de Internet.
+          Implantación y gestión de base de datos y seguridad informática.
+          Configuración de servicios de red y entornos virtualizados.
+
+    - degree: Técnico Superior en Administración de Sistemas Informáticos
+      insitute: I.E.S. Juan de la Cierva - Vélez-Málaga
+      time: 2001 - 2003
+      details: |
+          Formación fundamental en la gestión integral de recursos informáticos en entornos multiusuario, 
+          asegurando la operatividad de los sistemas y la asistencia técnica a usuarios.
+
+            - Instalación, configuración y mantenimiento de sistemas operativos monopuesto y en red.
+            - Gestión de bases de datos relacionales y diseño de estructuras de datos.
+            - Análisis y desarrollo de aplicaciones de gestión utilizando lenguajes de programación estructurada.
+            - Mantenimiento preventivo y correctivo de hardware y periféricos.
+
+    - degree: Ténico Especialista en Informática de Gestión
+      insitute: I.E.S. Juan de la Cierva - Vélez-Málaga
+      time: 1998 - 2001
+      details: |
+          Especialización enfocada en el desarrollo de aplicaciones para la gestión empresarial, el análisis de sistemas y la automatización de procesos administrativos.
+
+            - Desarrollo de software de gestión y bases de datos aplicadas a la administración.
+            - Programación en lenguajes estructurados para la resolución de problemas lógicos empresariales.
+            - Gestión de sistemas de información, contabilidad y flujos de datos.
+            - Implementación y mantenimiento de herramientas ofimáticas avanzadas.
+
+    - degree: Ténico Auxiliar Administrativo
+      insitute: I.E.S. Juan de la Cierva - Vélez-Málaga
+      time: 1996 - 1998
+      details: |
+          Formación básica en la gestión administrativa y comercial, proporcionando las capacidades necesarias para el soporte operativo en entornos de oficina y atención al cliente.
+
+            - Elaboración, tratamiento y archivo de documentos administrativos y comerciales.
+            - Técnicas de comunicación y atención al cliente en el ámbito comercial.
+            - Gestión de correspondencia y tareas auxiliares de oficina.
+            - Introducción a la ofimática y herramientas de gestión de datos.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Agente de Innovación Local - Dinamizador Tecnológico (Puntos Vuela)
+      time: 2005 - Presente
+      company: Ayuntamiento de Almáchar
+      details: |
+          Responsable de liderar la transformación digital y social del municipio a través de la gestión del centro Punto Vuela, centrándome en reducir la brecha digital y fomentar la innovación tecnológica en la ciudadanía y el tejido empresarial local.
+
+            - Planificación y ejecución de programas de alfabetización digital y capacitación en competencias digitales avanzadas.
+            - Gestión de proyectos de innovación tecnológica: diseño e impresión 3D, robótica educativa y pilotaje de drones.
+            - Dinamización de grupos y fomento del trabajo colaborativo para el desarrollo de proyectos comunitarios.
+            - Asesoramiento técnico y consultoría en administración electrónica y nuevas herramientas de comunicación.
+
+    - role: Programador Junio
+      time: 2005
+      company: Coritel BMP
+      details: |
+          Desarrollo de proyectos de programación. Parte del equipo de homogeneización de base de datos de productos para una gran compañía automovilística a nivel Internacional.
+
+    - role: Programador y Mantenimiento
+      time: 2003
+      company: Colegio Oficial de Arquitectos de Málaga.
+
+      details: |
+          Desarrollo de aplicaciones para arquitectos y mantenimiento, seguridad y actualización de equipos informáticos.
+
+# Your project portfolio
+projects:
+    intro: >
+        You can list your side projects or open source libraries in this
+        section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+        - title: Velocity
+          # optional
+          project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+          link: '#hook'
+          tagline: 'A responsive website template designed to help startups promote, market and sell their products.'
+
+skills:
+    toolset:
+        - name: HTML5 & CSS
+          level: 75%
+
+        - name: JavaScript
+          level: 50%
+
+        - name: React
+          level: 25%
+
+        - name: Python & Django
+          level: 25%
