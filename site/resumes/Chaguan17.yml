@@ -1,0 +1,30 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jesús
+  last_name: Gómez Chaguan
+  motto: Terminar mi preparacion como desarrolladora web
+  summary: >
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Donec quam felis, ultricies nec, pellentesque eu.
+
+
+    Second paragraph if required.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: jchaguan99@gmail.com
+  github: Chaguan17
+  languages:
+    - idiom: English
+      level: Intermediate
+    - idiom: Spanish
+      level: Native
+  interests:
+    - item: Gaming
+    - item: Sleep
+    - item: Learn
