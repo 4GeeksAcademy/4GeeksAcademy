@@ -1,0 +1,89 @@
+template: online-cv
+skin: blue
+github: genesisfalcon15-alt
+basic_info:
+  first_name: Génesis
+  last_name: Falcón
+  motto: Sentir miedo, es estar bien de la cabeza.
+  focus: Aunque los miedos esten, la perseverancia y disciplina nos llevaran a la
+    cima del éxito.
+avatar: https://randomuser.me/api/portraits/women/24.jpg
+email: genesisfalcon15@gmail.com
+phone: null
+website: null
+linkedin: genesisfalcon
+twitter: webjedagithub
+stack-overflow:
+  languages:
+    - idiom: Español
+      level: Native
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Deporte
+    - item: Leer
+    - item: Viajar
+education:
+  - degree: null
+    university: null
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: null
+    details: ""
+  - degree: null
+    university: null
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: null
+    details: null
+experiences:
+  - role: null
+    time: null
+    company: null
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: ""
+  - role: null
+    time: null
+    company: null
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: ""
+  - role: null
+    time: null
+    company: null
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: ""
+projects:
+  intro: ""
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: null
+      tagline: null
+    - title: null
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: null
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: null
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: null
+      tagline: null
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: null
+      tagline: null
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+    - name: JavaScript & jQuery
+      level: 98%
+    - name: Angular
+      level: 98%
+    - name: HTML5 & CSS
+      level: 95%
+    - name: Ruby on Rails
+      level: 85%
+    - name: Sketch & Photoshop
+      level: 60%
