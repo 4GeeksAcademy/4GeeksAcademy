@@ -1,0 +1,127 @@
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ignacio
+    last_name: Pinto Cobos
+    
+    # Define yourself in 4-5 words
+    motto: I believe in freedom, sciences, Mathematics, values and hardwork
+    
+    # Focus
+    focus: Always Learning and developing new skills
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a 34-year-old professional from Venezuela with a background in Civil Engineering, currently evolving into a Front-End Developer. As a bilingual remote worker (fluent in Spanish and English), I combine technical precision with a passion for modern web technologies. My daily routine is fueled by a commitment to constant growth—whether I'm writing code, pushing my limits at the gym, or learning something new. Outside of work, I value the balance of a dedicated career and quality time spent with my girlfriend, striving to bring discipline and curiosity to everything I do every single day.
+
+
+
+        I am dedicated to excellence and the pursuit of new technical skills through specialized courses and practical projects.
+         My current studies encompass HTML, CSS, JavaScript, and I am becoming acquainted with modern frameworks and server-side languages 
+         such as Node.js and Python.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.pinimg.com/280x280_RS/dd/53/63/dd5363129e8973e93327b910e9a9ecdb.jpg
+
+    # Contact Information
+    email: ignaciopintoWebdeveloper@gmail.com #optional
+    phone: +58424000000 #optional
+    website: "https://pinto2291.github.io/ignacio_website/" #optional
+    linkedin: "https://www.linkedin.com/in/ignacio-pinto-04a010172" #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: ignaciopinto
+    
+    twitter: '-' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: none
+        level: none
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness gym / training with weights
+
+      - item: Technology / movies
+
+      - item: Cooking
+
+# Your previous education
+education:
+  - degree: Civil Engineering
+    university: UNEFA
+    university_logo: "" 
+    time: 2008 - 2014
+    details: |
+      A Civil Engineer is a broader professional responsible for the conception, design, and structural integrity of the entire project. While a coordinator worries about the pour, the engineer worries about whether the structure can hold the weight it’s designed for over the next 50 years.
+
+    Key Responsibilities:
+
+        Design & Calculation: They use physics and advanced math to determine the required thickness of slabs, the amount of rebar needed, and the specific grade of concrete required.
+
+        Planning & Permitting: They analyze soil reports, environmental impacts, and local building codes to ensure the project is legal and safe.
+
+        Project Lifecycle: They are involved from the initial survey and CAD drafting (similar to your front-end wireframing) to the final inspection.
+
+        Problem Solving: If a coordinator finds a mistake on-site, the Civil Engineer is the one who must calculate a technical solution to fix it.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer service rep and virtual assistant
+      time: 2021 - current
+      company: Superior virtual solutions
+      # optional
+      company_logo: ""
+      details: |
+          At the forefront of legal and financial content management, I enhanced operational efficiencies in mortgage documentation 
+          and improved the execution of executive lawsuits. My role required a deep understanding of legal frameworks and financial 
+          operations, ensuring accuracy and compliance in all processes.
+
+          - Pioneered content creation and editing strategies for legal and financial documents.
+          - Streamlined legal procedures for mortgages and sales contracts, enhancing process efficiency.
+
+    - role: Precenca
+      time: 2013 - 2018
+      company: Concrete pour coordinator
+      # optional
+      company_logo: ""
+      details: |
+          This is a highly specialized, logistics-heavy role focused on the "critical window" of a concrete placement. Because concrete is a perishable material that begins to chemically react and harden the moment it is mixed, the coordinator ensures nothing goes wrong during that multi-hour window.
+
+      Key Responsibilities:
+
+      Logistics & Timing: They manage the "staging" of concrete mixer trucks, ensuring a steady flow so the pour doesn't stop (which creates "cold joints" that weaken the structure).
+
+      Quality Control: They oversee on-site testing, such as slump tests (measuring consistency) and the collection of test cylinders (to verify strength later in a lab).
+
+      Crew Management: They act as the "air traffic controller" between the pump operators, the finishers, and the truck drivers.
+
+      Safety & Compliance: Ensuring the formwork and rebar (the "skeleton") are clean and correctly positioned before the first drop of concrete hits the ground.
+
+
+skills:
+    toolset:
+      - name: HTML, CSS, Javascript, React, Git, Github, node, python
+        level: 65%
+
+      - name: JavaScript & jQuery
+        level: 60%
