@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Frank
+    last_name: Padilla
+    
+    # Define yourself in 4-5 words
+    motto: Apasionado por crear soluciones digitales.
+    
+    # Focus
+    focus: Full Stack Developer Student
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante entusiasta de desarrollo Full Stack con un fuerte enfoque en aprender 
+      tecnologías modernas como React, Python y SQL. Me motiva resolver problemas complejos 
+      mediante el código y estoy comprometido con el crecimiento continuo en el mundo del 
+      software. Actualmente enfocado en construir bases sólidas en el desarrollo web.
+    
+    # Your profile picture URL
+    avatar: https://github.com/FrankGre.png
+
+    # Contact Information
+    email: frankgre700@gmail.com
+    phone: 4242600964
+    website: https://github.com/FrankGre
+    linkedin: frank-padilla
+    
+    # ******** IMPORTANT *******
+    # Este debe coincidir exactamente con el nombre de tu archivo (fpadilla.yml)
+    github: fpadilla
+    
+    twitter: 'webjeda'
+    stack-overflow: 
+
+    # Languages you speak
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Videojuegos
+      - item: Tecnología
+      - item: Aprendizaje continuo
+
+# Your previous education
+education:
+    - degree: Full Stack Software Development
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - Present
+      details: |
+        Programa intensivo centrado en el desarrollo web moderno, abarcando desde el diseño 
+        de interfaces de usuario hasta la arquitectura del lado del servidor y bases de datos.
+
+# Your previous job experiences
+experiences:
+    - role: Junior Developer en formación
+      time: 2025 - Present
+      company: Proyectos Personales / 4Geeks
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Desarrollo de diversos proyectos académicos aplicando metodologías ágiles y control 
+        de versiones con Git. Enfocado en la creación de aplicaciones web funcionales.
+
+# Your project portfolio
+projects:
+    intro: >
+      Esta es una selección de los proyectos que he desarrollado durante mi formación 
+      como programador, donde aplico mis conocimientos en Frontend y Backend.
+
+    assignments:
+      - title: Star Wars Blog Reading List
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/FrankGre"
+        tagline: "Una aplicación construida con React que permite explorar personajes y planetas de Star Wars."
+
+      - title: Todo List App
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/FrankGre"
+        tagline: "Gestor de tareas sencillo y eficaz creado con JavaScript y manipulación del DOM."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 90%
+
+      - name: JavaScript (ES6+)
+        level: 80%
+
+      - name: React.js
+        level: 75%
+
+      - name: Python
+        level: 70%
+
+      - name: Git & GitHub
+        level: 85%
