@@ -1,0 +1,85 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jhon
+    last_name: Gomez
+
+    # Define yourself in 4-5 words
+    motto: I live in the present moment.
+
+    # focus
+    focus: developer full stack
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: 
+
+     I am an accountant with a postgraduate degree in Taxation and over 20 years of experience, and I am passionate about learning different programming languages ​​and using this new knowledge to start my own business and work independently, offering my services to clients.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/176352233?v=4
+
+    # Contact Information
+    email: jhongomez191219@gmail.com
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Neo1917
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B1
+      
+
+    # Interests or hobbies
+    interests:
+      - item: play basketball
+      - item: go to the beach and cinema
+      - item: go to the gym
+
+# Your previous education
+education:
+    - degree: Accountant
+      university: Santa Maria University (Caracas - Venezuela)
+      # optional
+      time: 1996 - 2001
+    - degree: Master taxes
+      university: Jose Maria vargas University (Caracas - Venezuela)
+    
+  
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Accountant - Taxation
+      time: 2021 - Present
+      company: solution taxes
+      # optional
+      details:
+        Preparing taxes for individuals and businesses. Company formation. Performing monthly accounting closings. Entering invoices and purchase and sales orders into the system. Analyzing accounts payable and receivable and performing bank reconciliations. Printing balance sheets and profit and loss statements. Calculating employee hours.
+      time: 2018-2021
+      company: Pricesmart S.A
+      # optional
+      details:
+        Auditing and preparation and review of taxes for the 7 regional offices.
+skills:
+    toolset:
+      - name: Javascript
+        level: 25%
+      - name: HTML5 & CSS
+        level: 25%
+      - name: Bootstrap
+        level: 25%
+      - name: Canva 
+        level: 100%
