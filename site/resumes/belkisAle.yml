@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Belkis
+  last_name: Marquez
+  motto: A dentist learning about technology
+  focus: Junior Full Stack Web Developer
+  summary: >
+    Dentist by training with a strong motivation for technology and
+    software development. 
+
+    Currently in the process of training as a Full Stack developer, acquiring skills 
+
+    in frontend and backend web development.
+
+    I am characterized by my discipline, commitment to continuous learning, and ability to adapt to new professional challenges.
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: belkismarquezblanco@gmail.com
+  phone: 689818559
+  website:
+    - null
+  linkedin:
+    - null
+  github: belkisAle
+  twitter:
+    - null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Junior
+  interests:
+    - item: Swimming
+    - item: Read romantic comedy
+    - item: My pets
+    - item: Web development
+education:
+  - degree: Full Stack Developer Training
+    university: Bootcamp / Online Training
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - 2026
+    details: Training focused on developing modern web applications, acquiring solid
+      foundations in frontend and backend.
+  - degree: Dentistry
+    university: Central University of Venezuela (UCV)
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011-2018
+    details: |
+      Vocational training in the healthcare field, developing
+      analytical skills, attention to detail, and patient care.
+
+      - Ability to work under pressure
+      - Professional responsibility
+      - Effective communication
+experiences:
+  - role: Full Stack Developer in training
+    time: 2025-2026
+    company: Academic and personal projects
+    details: |
+      Development of practical projects as part of the training process
+      in web development.
+
+      - Website layout
+      - Basic logic with JavaScript
+      - Use of Git and GitHub for version control
+projects:
+  intro: >
+    Projects developed during the learning process, focused on reinforcing
+    the fundamentals of programming and web development.
+  assignments:
+    - title: InstagramPost
+      link: https://github.com/4GeeksAcademy/PostInstagramBelkisMFsPt130
+      tagline: A website with CSS and HTML that imitates the aesthetic features of
+        Instagram.
+    - title: PostCard
+      link: "#"
+      tagline: postcard using CSS and HTML tools
+    - title: Excuses generated
+      link: https://github.com/belkisAle/generador-de-excusas-belkis
+      tagline: website that generates different excuses once you refresh it whit JS,
+        html and CSS
+    - title: Form
+      link: https://github.com/4GeeksAcademy/Formulario-Belkis
+      tagline: form with HTML elements and Bootstrap
+    - title: PhotoFeed
+      link: https://github.com/4GeeksAcademy/instagram-photofeed-bootstrap-BelkisMarquez-fspt130
+      tagline: Instagram-like website with Bootstrap tools
+skills:
+  toolset:
+    - name: JavaScript
+      level: 20%
+    - name: Angular
+      level: null
+    - name: HTML5 & CSS
+      level: 60%
+    - name: Reac
+      level: null
+    - name: Phyton
+      level: null
+    - name: open-source CSS framework (Bootstrap)
+      level: 30%
