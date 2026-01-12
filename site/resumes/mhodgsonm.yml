@@ -1,0 +1,157 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marlon
+    last_name: Hodgson
+    
+    # Define yourself in 4-5 words
+    motto: Software Marketing Engineer AI-First Automation
+    
+    # Focus
+    focus: Revenue System Engineer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        I’m a Software Marketing Engineer focused on AI-first automation and revenue systems engineering. I design and build end-to-end growth systems that connect acquisition, nurture, and conversion through clean funnel architecture, lifecycle messaging, CRM workflows, and measurable analytics. My work blends marketing strategy with a builder mindset—using automation, data, and lightweight code to turn scattered efforts into repeatable processes that scale. I thrive in high-trust environments where clarity and accuracy matter, translating complex ideas into simple systems that teams can actually run.
+
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://s7.ezgif.com/tmp/ezgif-7593da9803c845e7.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: mhodgsonm
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mhodgsonm
+    
+    twitter: mhodgsonm1
+    stack-overflow: 27649066/marlon-hodgson
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading about Digital Marketing, Growth Hacking, AI and Technology
+
+      - item: Coding side projects
+
+      - item: Building automation workflows
+      
+      - item: Learning AI tools and new technologies
+
+      - item: Podcasting and content production
+
+      - item: Explore new tech tools to improve productivity
+
+# Your previous education
+education:
+  - degree: Master’s Degree in Criminal Law
+    university: UPOLI (Universidad Politécnica de Nicaragua), Nicaragua
+    time: Completed
+    details: |
+      Graduate-level training in criminal law with a strong foundation in analysis, precision, and structured argumentation.
+
+        - Legal research and writing
+        - Evidence, procedure, and case strategy
+        - Clear communication under high-stakes contexts
+
+  - degree: Digital Marketing (Continuous Professional Education)
+    university: Multiple programs (courses, diplomas, and graduate-level studies)
+    time: 2019 - Present
+    details: |
+      Career transition into digital marketing with ongoing training to stay current across platforms, strategy, and performance.
+
+        - Content, social media, and community strategy
+        - Email marketing and lifecycle messaging
+        - Ads fundamentals and campaign optimization
+        - Analytics, reporting, and marketing automation mindset
+
+  - degree: Full-Stack Development & AI (Bootcamp + Structured Self-Study)
+    university: 4GeeksAcademy (Bootcamp) + Codecademy + freeCodeCamp + YouTube
+    time: 2024 - Present
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Formal upskilling toward full-stack development and AI, combining structured platforms with project-based practice.
+
+        - Full-stack foundations (web development and modern tooling)
+        - Systems thinking for automation and scalable workflows
+        - Building practical projects to connect code + growth
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
