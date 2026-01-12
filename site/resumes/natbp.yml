@@ -1,0 +1,151 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Natalia Andrea
+    last_name: Bayona Perez
+    
+    # Define yourself in 4-5 words
+    motto: Tecnología con enfoque en ciberseguridad
+    
+    # Focus
+    focus: Software Development & Cybersecurity
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+       Tecnóloga en Desarrollo de Software y Aplicativos Móviles, Técnica en
+        Programación de Software del SENA y Máster en Ciberseguridad (MCIS).
+        Interesada en el desarrollo de software con enfoque en ciberseguridad,
+        investigación y soluciones tecnológicas eficientes.
+  
+        Destaco por mis habilidades interpersonales, orientación a resultados
+        y motivación constante por adquirir nuevos conocimientos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: nat.2112.perez@gmail.com #optional
+    phone: +57 304 244 1429 #optional
+    linkedin: natalia-bayona-perez-846321186 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: natbp
+    
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Desarrollo de software
+
+      - item: Ciberseguridad
+
+      - item: Investigación tecnológica
+
+# Your previous education
+education:
+    - degree: Tecnología en Desarrollo de Software y Aplicativos Móviles
+      university: Politécnico Internacional
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024
+      details: |
+        Formación orientada al desarrollo de aplicaciones de software y móviles,
+        con enfoque práctico y uso de tecnologías modernas.
+
+    - degree: MCIS - Máster en Ciberseguridad
+      university: Centro Europeo de Postgrado (CEUPE)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023
+      details: |
+        Estudios avanzados en ciberseguridad, auditoría, gestión de riesgos
+        y protección de la información.
+
+    - degree: Técnico en Programación de Software
+      university: Servicio Nacional de Aprendizaje (SENA)
+      time: 2020
+      details: |
+        Trabajo de grado: “Wisdom Robot Industry”.
+        Formación en fundamentos de programación y desarrollo de software.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Python Tutor
+      time: 2024 - Present
+      company: Kodland
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Tutoría en Python para estudiantes en LATAM, apoyando el aprendizaje
+        de fundamentos de programación y pensamiento lógico.
+
+    - role: Tech Intern
+      time: 2023 - 2024
+      company: Adidas - Tech Hub Bogotá
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Práctica laboral apoyando procesos tecnológicos y desarrollo de
+        soluciones internas.
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos académicos y prácticas desarrolladas durante la formación
+      técnica, tecnológica y de posgrado.
+
+    assignments:
+      - title: Wisdom Robot Industry
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "Proyecto de grado enfocado a la enseñanza del ingles como segunda lengua para niños."
+
+      - title: EcoSwap
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Proyecto en focado en impulsar la economia circular por medio de un red de intercambios"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 80%
+
+      - name: CSS
+        level: 80%
+
+      - name: Java
+        level: 70%
+
+      - name: C#
+        level: 65%
+
+      - name: Python
+        level: 75%
+
+      - name: PHP
+        level: 65%
+
+      - name: MySQL
+        level: 70%
+
+      - name: SQL Server
+        level: 70%
