@@ -1,0 +1,43 @@
+basic_info:
+  first_name: Omar
+  last_name: Bautista Bazán
+  role: Director de Contraloría Financiera | Full Stack Student
+  city: Mexico City
+  country: Mexico
+  github: jaseff2805
+  linkedin: https://www.linkedin.com/in/omar-jaseff-bautista-baz%C3%A1n-35a6a1244/
+
+education:
+  - degree: Bachelor in Accounting
+    university: Universidad
+    time: "2008-2012"
+
+experiences:
+  - role: Director of Financial Control
+    company: Endemol Shine Boomdog
+    time: "2018 - Present"
+    description: >
+      Financial control, IFRS reporting, budgeting, forecasting,
+      and financial automation using SQL and BI tools.
+
+projects:
+  - name: Open Source Contribution
+    description: >
+      Submitted a Pull Request to fix a documentation typo
+      in an official 4Geeks Academy repository.
+    link: https://github.com/breatheco-de/content/pull/3083
+
+skills:
+  - name: SQL
+    level: 90
+  - name: Python
+    level: 75
+  - name: JavaScript
+    level: 60
+  - name: Git & GitHub
+    level: 70
+  - name: Financial Reporting (IFRS)
+    level: 95
+
+template: "online-cv"
+skin: "blue"
