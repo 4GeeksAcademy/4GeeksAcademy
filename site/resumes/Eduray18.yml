@@ -1,0 +1,49 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Raymon Eduardo
+    last_name: Burgos Villamizar
+    motto: Hasta que sea asombroso.
+    focus: Full Stack Developer
+    summary: |
+      Ingeniero Ambiental egresado de la Universidad Nacional Experimental del Táchira (UNET) con experiencia en supervisión de plantas de tratamiento. Estoy aplicando mi capacidad analítica para construir herramientas digitales y soluciones tecnológicas asombrosas.
+    avatar: https://github.com/Eduray18.png
+    email: eduray28@gmail.com
+    github: Eduray18
+    languages:
+      - idiom: Español
+        level: Nativo
+      - idiom: Inglés
+        level: Intermedio
+
+education:
+    - degree: Ingeniería Ambiental
+      university: Universidad Nacional Experimental del Táchira (UNET)
+      time: 2018 - 2023
+      details: |
+        Formación integral en gestión de recursos hídricos y supervisión técnica de procesos en plantas de tratamiento (PTAR/PTAP).
+
+experiences:
+    - role: Desarrollador Web en formación
+      time: 2026 - Presente
+      company: 4Geeks Academy
+      details: |
+        - Creación de formularios de pago con validación en HTML5.
+        - Desarrollo de Instagram Photo Feed utilizando Bootstrap.
+        - Implementación de posts de Instagram responsivos.
+
+    - role: Supervisor de Plantas de Tratamiento
+      time: 2024 - 2025
+      company: Gestión Ambiental
+      details: |
+        Responsable de la supervisión operativa de procesos de tratamiento de agua, asegurando estándares de calidad y normativas ambientales.
+
+skills:
+    toolset:
+      - name: Tecnologías Web (HTML/CSS/Bootstrap)
+        level: 45%
+      - name: Ingeniería y Supervisión (UNET)
+        level: 90%
+      - name: Resolución de Problemas
+        level: 95%
