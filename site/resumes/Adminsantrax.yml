@@ -1,0 +1,39 @@
+skin: turquoise
+template: online-cv
+
+basic_info:
+  nombre: Jairo Martinez Tello
+  ubicacion: Granada, Andalucía, España
+  perfil: Estudiante de desarrollo web con experiencia previa en cocina y liderazgo de equipos.
+  github: Adminsantrax
+
+
+
+experiences:
+  - role: Cook
+    company: Fuego, Fenwick (Bracknell)
+    time: 2015 - 2016
+    description: One year working as a cook at Fuego, the restaurant inside the Fenwick mall in Bracknell, in a busy commercial environment.
+
+  - role: Cook / Sous chef
+    company: Coppa Club
+    time: 2016 - 2022
+    description: Started as a cook and progressed to sous chef at Coppa Club, handling different sections, supporting the head chef, and ensuring quality and consistency during busy services.
+
+  - role: Sous chef
+    company: Hospitality staffing company (UK-wide)
+    time: 2022 - 2025
+    description: Worked as a sous chef in different restaurants across the United Kingdom, supporting head chefs, organizing the kitchen, and adapting quickly to new teams and menus.
+
+projects:
+  - Proyectos de práctica de desarrollo web usando HTML, CSS, JavaScript y Bootstrap
+  - Ejercicios y pequeños proyectos en GitHub relacionados con maquetación, DOM y lógica básica en JavaScript
+
+skills:
+  English: 90%
+  HTML: 20%
+  CSS: 18%
+  JavaScript: 15%
+  Bootstrap: 15%
+  Linea_de_comandos_Terminal: 15%
+  Git_y_GitHub: 18%
