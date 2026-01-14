@@ -1,0 +1,84 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joel  
+    last_name: Maya
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta Programar.
+    
+    # focus
+    focus: 
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Profesional de 23 años con experiencia en diversos sectores (hostelería, automoción) 
+      y una vocación consolidada en programación. Apasionado por la tecnología desde temprana 
+      edad, he complementado mi experiencia laboral con formación en diseño UX/UI y desarrollo 
+      de software. Destaco por mi responsabilidad, puntualidad y capacidad de adaptación a nuevos 
+      entornos, con un enfoque práctico y orientado a resultados.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://lh3.googleusercontent.com/a/ACg8ocK3Dh5AAS0dv_1Sx4Id8NI-VUimmArfyWjcO-3GU2BGRMEMhKkN=s288-c-no
+
+    # Contact Information
+    email: joelmayacastillo123@gmail.com #optional
+    phone:  #optional
+    website:  #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JMaya2002
+    
+    twitter: '400demonios' #optional
+    stack-overflow:  # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Nativo
+
+      - idiom: Catalán
+        level: Nativo
+        
+      - idiom: English
+        level: Intermedio
+
+
+
+    # Interests or hobies
+    interests:
+      - item: FPS Shooters
+
+      - item: Programar
+
+      - item: Boxeo
+
+# Your previous education
+# Your project portfolio
+#Lo siento Sergio me ha dado muchísima pereza buscar todos los datos y
+#tampoco quiero ponerlos aquí D:
+
+
+skills:
+    toolset:
+      - name: HTML5 - CSS & Bootstrap
+        level: 100%
+
+      - name: Javascript, React, Vue...
+        level: 75%
+        
+      - name: Photoshop
+        level: 35%
