@@ -1,0 +1,50 @@
+template: "online-cv"
+skin: "berry"
+
+basic_info:
+  first_name: Mickenzie
+  last_name: Roach
+  motto: Fidelity of code outlasts the vanity of success.
+  avatar: https://github.com/Morvyr.png
+  summary: |
+    Building toward something larger than code alone. Data Science and ML are tools,
+    not destinations - pieces of a more ambitious architecture. The work is methodical.
+    The vision is patient.
+    
+  email: Mickennwolf@proton.me
+  github: Morvyr
+  
+  profiles:
+    - network: GitHub
+      username: Morvyr
+      url: https://github.com/Morvyr
+
+    - network: X
+      username: MorvyrWinds
+      url: https://x.com/MorvyrWinds
+
+education:
+  - degree: Data Science & Machine Learning Bootcamp
+    university: 4Geeks Academy
+    time: 2025 - Present
+    details: |
+      Intensive bootcamp covering Python, machine learning algorithms, 
+      data analysis, and model deployment.
+
+projects:
+  - title: My First Git Project
+    link: "https://github.com/Morvyr/my-first-git-project"
+    tagline: "Learning Git fundamentals through hands-on practice"
+
+skills:
+  - skill: Python
+    value: 25
+
+  - skill: Git & GitHub
+    value: 30
+
+  - skill: Machine Learning
+    value: 10
+
+  - skill: Prompt Engineering
+    value: 75
