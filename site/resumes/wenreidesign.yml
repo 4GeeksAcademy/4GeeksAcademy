@@ -1,0 +1,113 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Ramón
+  last_name: Camacho
+  motto: Product Designer | DS & A11Y Specialist
+  focus: null
+  summary: >
+    “UX/UI Designer and Digital Accessibility Specialist with experience
+    designing inclusive, scalable and WCAG-compliant interfaces (WCAG 2.2
+    AA/AAA). Strong background in auditing accessibility, improving semantic
+    structure, validating designs with assistive technologies, and advising
+    multidisciplinary teams on accessibility best practices. Skilled in
+    transforming complex flows into usable, barrier-free experiences and
+    adapting Design Systems to meet accessibility standards.”
+  avatar: /static/ramon-camacho.jpg
+  email: wenreidesign@gmail.com
+  phone: +34 627170268
+  website: https://wenreidesign.super.site/
+  linkedin: https://www.linkedin.com/in/ramon-camacho-rojas/
+  github: wenreidesign
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+    - idiom: null
+      level: null
+  interests:
+    - item: Professional photography
+    - item: Swimming
+    - item: Cooking
+education:
+  - degree: Specialization in Digital Accessibility; ARIA, WCAG 2.2 (AA & AAA),
+      Design Systems
+    university: Instituto de Accesibilidad, Somos Edison, weAAAre
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2024 - 2025
+    details: null
+  - degree: Master’s Degree in Design and Management of UX and Digital Services
+    university: ELISAVA
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2017 - 2018
+    details: null
+experiences:
+  - role: Studio Senior
+    time: 2023 - 2024
+    company: Deloitte Digital
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      - Redesigned the digital experience for public administration
+      procedures using heuristic evaluation and interviews, reducing abandonment
+      by 80% and increasing completion rates by 32%.
+
+      - Developed an interactive prototype for IMAGIN validated through usability testing, increasing the estimated conversion rate from 5% to 12% and reducing the application process time by 47%.
+
+      - Designed and implemented new icons and improvements for SEAT and CUPRA’s Design Systems, ensuring visual and functional consistency across digital platforms.
+
+      - Produced and edited promotional videos, adapted advertising pieces for TMB, created newsletters for RACC, and developed marketing assets for IFEMA.
+  - role: Product Designer - web SEAT & CUPRA
+    time: 2022 - 2023
+    company: C14torce Agency
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      - Designed and optimized 15+ key features through responsive wireframes
+      following mobile-first principles, increasing lead generation by 20% and
+      conversions by 15%.
+
+      - Conducted usability testing and hypothesis validation using interactive prototypes, improving conversion rates by 10%.
+
+      - Redesigned the FAQs section architecture based on UX and SEO criteria, increasing organic traffic by 25%.
+
+      - Designed, standardized and maintained components and icons within the Design System to ensure UI consistency.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#hook"
+      tagline: A responsive website template designed to help startups promote, market
+        and sell their products.
+    - title: DevStudio
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help web developers/designers
+        market their services.
+    - title: Tempo
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive website template designed to help startups promote their
+        products or services and to attract users &amp; investors
+    - title: Atom
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A comprehensive website template solution for startups/developers to
+        market their mobile apps.
+    - title: Delta
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: A responsive Bootstrap one page theme designed to help app developers promote their mobile apps
+      
+skills:
+  toolset:
+    - name: JavaScript & jQuery
+      level: 20%
+    - name: HTML5 & CSS
+      level: 50%
