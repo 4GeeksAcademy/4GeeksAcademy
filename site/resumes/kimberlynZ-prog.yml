@@ -1,0 +1,110 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Kimberlyn
+    last_name: Zerpa
+    
+    # Define yourself in 4-5 words
+    motto:  Desarrolladora web junior
+    
+    # Focus
+    focus: Aprender y crear aplicaciones web
+
+    github: kimberlynZ-prog
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrolladora web junior en formación, con interés en el desarrollo frontend
+      y en las tecnologías web modernas. Actualmente me estoy formando en HTML,
+      CSS, JavaScript y Git, creando proyectos prácticos y aplicando buenas prácticas
+      de desarrollo.
+
+      Me gusta aprender de forma constante, resolver problemas paso a paso y
+      mejorar mis habilidades mediante la práctica y el trabajo colaborativo..
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Basico
+
+    # Interests or hobbies
+    interests:
+      - item: Senderismo
+
+      - item: Leer libros
+
+      - item: Nadar
+
+# Your previous education
+education:
+  - degree: Bootcamp Full Stack Developer
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025 - Presente
+    details: |
+      Formación intensiva enfocada en el desarrollo web y buenas prácticas.
+
+        - HTML, CSS y JavaScript
+        - Git y GitHub
+        - Fundamentos de backend
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Desarrolladora en formación
+    time: 2024 - Presente
+    company: Proyectos personales
+    details: |
+      Desarrollo de proyectos prácticos como parte del proceso de aprendizaje.
+
+        - Creación de interfaces web responsivas
+        - Uso de Git para control de versiones
+        - Escritura de código limpio y ordenado
+
+# Your project portfolio
+projects:
+  intro: >
+    A continuación se muestran algunos de los proyectos realizados durante
+    mi formación y práctica personal como desarrolladora web junior.
+
+  assignments:
+    - title: Formulario HTML
+      link: "#"
+      tagline: "Formulario básico en HTML enfocado en estructura y accesibilidad."
+
+    - title: Feed de Instagram
+      link: "#"
+      tagline: "Maquetación tipo Instagram usando HTML y CSS."
+
+    - title: Generador de excusas en JavaScript
+      link: "#"
+      tagline: "Aplicación sencilla que genera excusas aleatorias con JavaScript."
+
+skills:
+  toolset:
+    - name: HTML5 & CSS
+      level: 60%
+
+    - name: JavaScript
+      level: 20%
+
+    - name: Git & GitHub
+      level: 40%
+
+    - name: Bootstrap
+      level: 45%
