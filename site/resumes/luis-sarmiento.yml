@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Luis
+    last_name: Sarmiento
+
+    motto: Finance & data, hands-on execution
+    focus: Management control and reporting
+
+    summary: |
+      Finance and data professional with hands-on experience in operational controlling (treasury, invoicing control, bank reconciliations, AR/AP follow-up) and process improvement. Used to working in fast-paced environments with high operational load, ensuring data/document traceability, consistency and deadlines.
+      Strong command of Excel and business reporting; able to support decision-making through dashboards and structured financial reporting. English C1 for multinational environments; focused on growing into management control and financial planning (budgeting/forecasting/variance analysis).
+
+    # If you don't have it, leave it blank or use a placeholder URL
+    avatar:
+
+    # Contact Information
+    email:
+    phone:
+    website:
+    linkedin:
+
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL
+    github: luis-sarmiento
+
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Financial reporting
+      - item: Process improvement
+      - item: Data analysis
+
+education:
+    - degree:
+      university:
+      university_logo:
+      time:
+      details: |
+        -
+
+experiences:
+    - role: Finance / Operations Control
+      time:
+      company:
+      company_logo:
+      details: |
+        Treasury & Working Capital: cash in/out follow-up, AR/AP control, debt follow-up, due dates management
+        Accounting support & documentation: invoice review/control (issued/received), supporting documents, filing and traceability
+        Bank reconciliations: reconciliation, discrepancy investigation and resolution
+        Reporting: monthly/annual reporting of income/expenses; variance explanations and management support
+        Process improvement: standardization, checklists, validation controls, reducing errors and rework
+        Data & BI: Excel advanced; Power BI reporting; SQL/Python (pandas) for ad-hoc analysis/ETL when required
+        Stakeholder coordination: work with external advisory (tax/labor) and internal teams
+
+projects:
+    intro: >
+      Optional section for side projects, dashboards, automation, or analytics work.
+    assignments:
+      - title:
+        project_logo:
+        link:
+        tagline:
+
+skills:
+    toolset:
+      - name: Excel (advanced) / Reporting
+        level: 90%
+      - name: Power BI
+        level: 75%
+      - name: SQL
+        level: 70%
+      - name: Python (pandas)
+        level: 65%
