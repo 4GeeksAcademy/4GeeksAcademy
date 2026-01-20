@@ -1,0 +1,153 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yussef
+    last_name: Nesme 
+    
+    # Define yourself in 4-5 words
+    motto: sportsman, friendly, supportive, ambicious 
+    
+    # Focus
+    focus: Family and money
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am from México, i look to improve myself everyday and I want to work in a data science job 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/224889842?s=400&u=5884aec045e2ab78812dc2a5d6a3b3fcf32f32d5&v=4
+
+    # Contact Information
+    email: yussefnesme6@gmail.com
+    phone: 2721421749 
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/yussef-nesme-oceguera/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yussefnesme
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: Professional
+
+      - idiom: French
+        level: Amateur
+
+    # Interests or hobbies
+    interests:
+      - item: Soccer
+
+      - item: Videogames
+
+      - item: Music 
+
+# Your previous education
+education:
+    - degree: 
+      university: Instituto Tecnológico de Orizaba
+      # optional
+      university_logo: https://imgs.search.brave.com/TjNK6fdNsMzXA0klXZvSM-Jmx1oH5UD_CmtXaiPd7Io/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91bml2/ZXJzaWRhZGVzZGVt/ZXhpY28ubXgvbG9n/b3Mvb3JpZ2luYWwv/bG9nby1pbnN0aXR1/dG8tdGVjbm9sb2dp/Y28tZGUtb3JpemFi/YS53ZWJw
+      time: 2024 - 2025
+      details: |
+        Industrial Engineering
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: |
+ 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Maintenance Staff
+      time: May - July 2025
+      company: Camp kostopulos 
+      # optional
+      company_logo: https://imgs.search.brave.com/XKJF7JCo2zLQ2XVPBcaBgwhzcN2n1E6qmvJr431TMRA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMWhi/cHIwOXB3ejBzay5j/bG91ZGZyb250Lm5l/dC9sb2dvX3VybC9r/b3N0b3B1bG9zLWRy/ZWFtLWZvdW5kYXRp/b24tY2FtcC1rb3N0/b3B1bG9zLWY5YTkx/Y2E2
+      details: |
+       Maintenance and restoration of green areas and recreational places within the camp
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+  
+
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+       
+
+# Your project portfolio
+projects:
+    intro: >
+     
+
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title:
+        # optional
+        project_logo: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+skills:
+    toolset:
+      - name: Python 
+        level: 70%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: Angular
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 20%
+
+      - name: Ruby on Rails
+        level: 10%
+
+      - name: Sketch & Photoshop
+        level: 30%
