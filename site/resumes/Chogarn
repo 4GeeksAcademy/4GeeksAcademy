@@ -1,0 +1,117 @@
+template: "online-cv"
+skin: "green"
+
+basic_info:
+
+    first_name: Bruno
+    last_name: Muzzio
+    
+    motto: Quiero Salvar a las Plantas y los Animales
+        
+    focus: Evitar la tala de arboles de las veredas
+    
+    summary: |
+      Profesional de la hospitalidad con formación de grado en Administración Hotelera y Gastronómica. Con experiencia en hoteles de lujo (Park Hyatt) y gestión operativa
+      de locales gastronómicos, me destaco en el control de inventarios, cierre de cajas y atención al cliente premium. Poseo una visión integral del negocio gracias a mi 
+      sólida experiencia previa en el área contable. 
+    
+    avatar: 
+
+    email: azuma_bruno@hotmail.com 
+    phone: +34 657 39 40 23
+    linkedin:    
+
+    github: https://github.com/Chogarn
+
+    twitter:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    interests:
+      - item: Training, Yoga
+
+      - item: Gaming
+
+      - item: Cooking
+
+education:
+    - degree: Licenciado en Administración de Empresas Hoteleras y Gastronómicas
+      university: U.N.S.A.M. (Universidad Nacional de San Martín)
+      time: 2009
+      details: |
+        Formación integral en gestión, administración y operación de establecimientos del sector hospitalidad.
+
+    - degree: Técnico Mecánico Electricista
+      university: E.N.E.T. Nº 2 “Francisco Ramírez”
+      time: 2005
+      details: |
+        Título técnico de base con formación en sistemas eléctricos y mecánica general.
+
+    - degree: Barista Foundation (Certificación SCA)
+      university: Specialty Coffee Association (SCA)
+      time: Mayo 2024
+      details: |
+        Formación especializada en preparación de café, calibración de molinos y técnicas de barismo.
+
+    - degree: Protocolo y Ceremonial
+      university: UBA (Universidad de Buenos Aires)
+      time: Junio 2010
+      details: |
+        Capacitación en normas de etiqueta, organización de eventos y relaciones institucionales.
+
+experiences:
+    - role: Camarero
+      time: Julio 2024 - Actualidad
+      company: La Tasquita de en Medio
+      details: |
+        - Atención personalizada de mesas y asesoramiento gastronómico.
+        - Despacho de bebidas en barra y gestión de pedidos.
+        - Facturación, control de cobros y cierre de caja diario.
+
+    - role: Camarero
+      time: Septiembre 2023 – Junio 2024
+      company: Da Mimi
+      details: |
+        - Servicio al cliente y despacho eficiente de barra.
+        - Gestión de facturación y mantenimiento de estándares de limpieza en el salón.
+
+    - role: Encargado / Camarero
+      time: Febrero 2021 - Agosto 2023
+      company: Flora Casa de Té
+      details: |
+        - Responsable de la gestión operativa: control de inventario y compra de insumos.
+        - Supervisión de cierre de caja y facturación.
+        - Garantía de calidad en el servicio y atención al público.
+
+    - role: Empleado Administrativo
+      time: Mayo 2014 - Agosto 2023
+      company: Estudio Contable “Claudia Ferrazzi”
+      details: |
+        - Gestión administrativa integral y soporte contable.
+        - Liquidación y pago de impuestos nacionales y provinciales.
+        - Procesamiento de sueldos y cargas sociales.
+        - Confección y análisis de balances contables.
+
+    - role: Bellboy (Botones)
+      time: Noviembre 2010 - Abril 2014
+      company: Palacio Duhau Park Hyatt Buenos Aires
+      details: |
+        - Recepción de huéspedes bajo estándares de lujo internacional.
+        - Manejo y custodia de equipaje.
+        - Asesoramiento integral al huésped sobre servicios del hotel y la ciudad.
+
+skills:
+    toolset:
+      - name: Administración y Contabilidad
+        level: 90%
+      - name: Servicio al Cliente (Hospitalidad)
+        level: 100%
+      - name: Gestión de Inventarios
+        level: 90%
+      - name: Office / Software Contable
+        level: 90%
