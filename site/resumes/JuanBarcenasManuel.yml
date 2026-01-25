@@ -1,0 +1,26 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: "Juan Manuel"
+  last_name: "Barcenas"
+  motto: "Data Science Student & Sales Analyst"
+  title: "Data Scientist Junior"
+  email: "Juanbarcenass18@gmail.com" # Cambia esto por tu correo
+  linkedin: "linkedin.com/in/juan-manuel-de-jesus-barcenas-diaz-285171172" # Cambia esto
+  github: "https://github.com/JuanBarcenasManuel"
+  summary: "Estudiante de Data Science apasionado por el análisis de series temporales y la optimización de negocios cárnicos."
+
+projects:
+  - title: "Forecast: Ventas de Carne y Pollo"
+    description: "Modelo predictivo basado en SARIMA para pronosticar la demanda mensual. Superé desafíos de falta de datos históricos aplicando correcciones de tendencia."
+    tech_stack: "Python, Pandas, ARIMA, Matplotlib"
+    link: "https://github.com/JuanBarcenasManuel/machine-learning-python-template"
+
+skills:
+  - name: "Python"
+    percentage: 85
+  - name: "Time Series Analysis"
+    percentage: 80
+  - name: "Git & GitHub"
+    percentage: 90
