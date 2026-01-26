@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "white"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Matthew
+    last_name: Kane
+    
+    # Define yourself in 4-5 words
+    motto: I want to reach the singularity
+    
+    # Focus
+    focus: Serving Jesus Christ
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I graduated from CU Boulder with a BA in Mathematics. Afterwords, I worked for three years doing PEGA and SQL work for Truist bank in North Carolina.
+      I am very much looking forward to expanding my skills in the areas of Python and SQL and Machine Learning (which requires lots of math - which I already 
+      have a very good foundation in.)
+
+    # URL of Profile Picture
+    picture: https://imgur.com/a/Lhrzdi3
+
+    # Contact Information
+    email: maka8347@colorado.edu
+    phone: 303-246-4563
+    website: N/A
+    linkedin: N/A
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: example
+    
+    twitter: N/A
+    stack-overflow: N/A
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: German
+        level: Student
+
+      - idiom: Spanish
+        level: Student
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Video Games
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BA in Mathematics
+      university: University of Colorado Boulder
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2021
+      details: |
+        I originally started off doing a Math/Physics double major but after taking a few upper-level physics courses, I decided to focus soley 
+        on the mathematics. I took some very interesting courses during my time at college including PDE's, Advanced Calculus, and Linear Algebra. 
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Team Member (Junior Developer)
+      time: 2022 - 2025
+      company: Truist Bank, North Carolina
+      # optional
+
+      details: |
+        During my time at Truist bank, I worked primarily with the PEGA PRPC technology in the capacity as a production support speacialist. 
+        I was able to learn alot about the PEGA landscape, and I also gained insight into other technologies like SQL, Dynatrace (for continuous monitoring),
+        Splunk, Microsoft Suite (including teams).
+
+    - 
+
+# Your project portfolio
+projects:
+    intro: >
+      Currently don't have any projects outside of this one, but I'm sure that will change Soon!
