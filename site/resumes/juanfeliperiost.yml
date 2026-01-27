@@ -11,90 +11,86 @@ basic_info:
     # Your full name
     first_name: Juan Felipe
     last_name: Rios Torres
-    
+
     # Define yourself in 4-5 words
-    motto: I like saving the world
-    
+    motto: Petroleum & Chemical Engineer | Data & Software
+
     # Focus
-    focus: Killing Bad Boys
-    
+    focus: Production Operations, Data Analytics & Software Development
+
     # You have 1 paragraph to make a great impression, summarize your career
     summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+      Petroleum Engineer and Chemical Engineer with hands-on experience in field operations (Well Services, Workover with Coiled Tubing, and drilling support), chemical treatments, and production optimization. Strong capability in coordinating operations, controlling costs, and reporting KPIs to support decision-making in fast-paced environments.
 
-      Second paragraph if required.
-    
+      Currently strengthening my software development and data capabilities through intensive training, building API and web projects, automating workflows, and applying analytics to operational problems. I bring a practical, results-oriented mindset that connects engineering execution with continuous improvement and digital solutions.
+
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: https://4geeks.co/wp-content/uploads/2022/03/4geeks-logo.png
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
-    
+    email: juanfeliperiost@gmail.com #optional
+    phone: +57 316 748 4813 #optional
+    website: linkedin.com/in/juanfeliperiostorres #optional
+    linkedin: juanfeliperiostorres #optional
+
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
-    github: example
-    
-    twitter: 'webjeda' #optional
+    github: juanfeliperiostorres
+
+    twitter: #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     # Interests or hobbies
     interests:
-      - item: Climbing
-
-      - item: Snowboarding
-
-      - item: Cooking
+      - item: Data & tech projects
+      - item: Process improvement
+      - item: Fitness / outdoors
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Software Development Bootcamp
+      university: 4Geeks Academy
       # optional
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
+      time: 2025 - Present
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Training focused on full-stack development and API design, including:
+          - Python, Flask, REST APIs
+          - JavaScript, React
+          - SQL & databases
+          - Git/GitHub and collaborative workflows
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
+    - degree: BEng in Petroleum Engineering
+      university: Universidad (add your university)
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Universidad.svg/512px-Universidad.svg.png
+      time: YYYY - YYYY
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Core focus in production, drilling fundamentals, and field operations.
+          - Production systems and optimization
+          - Well intervention / workover fundamentals
+          - HSE and operational reporting
 
-          - Bullet point
-          - Bullet point
+    - degree: BEng in Chemical Engineering
+      university: Universidad (add your university)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Universidad.svg/512px-Universidad.svg.png
+      time: YYYY - YYYY
+      details: |
+        Background in chemical processes and treatment selection for operations.
+          - Chemical treatments and process analysis
+          - QA/QC mindset and documentation
+          - Data-driven decision making
 
 # Your previous job experiences or volunteer
 experiences:
@@ -136,7 +132,7 @@ experiences:
       time: 2012 - 2014
       company: Amazon, London
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://4geeks.co/wp-content/themes/4geeks-academy.svg
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -150,57 +146,50 @@ experiences:
 # Your project portfolio
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects focused on applying software and data to real operational challenges,
+      including APIs, dashboards, and automation tools.
 
     assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Star Wars REST API (Flask + SQLAlchemy)
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Backend REST API with relational models, authentication flow, and endpoints for users and favorites."
 
-      - title: Tempo
+      - title: Academic Platform Backend (Flask + PostgreSQL)
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "Role-based system (Student/Teacher/Admin) with schedules, attendance, grades, and payments."
 
-      - title: Atom
+      - title: Data Science Projects (EDA + ML)
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "Modeling workflows including feature engineering, pipelines, evaluation metrics, and interpretability (e.g., SHAP)."
 
-      - title: Delta
+      - title: Operational Analytics Toolkit
         # optional
         project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Small utilities to standardize KPI reporting, cost tracking, and operational data cleaning."
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python (Flask, pandas)
+        level: 90%
 
-      - name: JavaScript & jQuery
-        level: 98%
+      - name: JavaScript (React)
+        level: 80%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
+      - name: SQL (PostgreSQL) & Data Modeling
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Git/GitHub & Collaboration
+        level: 85%
+
+      - name: Data Analytics (KPIs, dashboards)
+        level: 80%
+
+      - name: Oil & Gas Operations (Production/Workover/Well Services)
+        level: 90%
