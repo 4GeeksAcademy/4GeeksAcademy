@@ -1,0 +1,195 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Felipe
+    last_name: Rios Torres
+
+    # Define yourself in 4-5 words
+    motto: Petroleum & Chemical Engineer | Data & Software
+
+    # Focus
+    focus: Production Operations, Data Analytics & Software Development
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Petroleum Engineer and Chemical Engineer with hands-on experience in field operations (Well Services, Workover with Coiled Tubing, and drilling support), chemical treatments, and production optimization. Strong capability in coordinating operations, controlling costs, and reporting KPIs to support decision-making in fast-paced environments.
+
+      Currently strengthening my software development and data capabilities through intensive training, building API and web projects, automating workflows, and applying analytics to operational problems. I bring a practical, results-oriented mindset that connects engineering execution with continuous improvement and digital solutions.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://4geeks.co/wp-content/uploads/2022/03/4geeks-logo.png
+
+    # Contact Information
+    email: juanfeliperiost@gmail.com #optional
+    phone: +57 316 748 4813 #optional
+    website: linkedin.com/in/juanfeliperiostorres #optional
+    linkedin: juanfeliperiostorres #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: juanfeliperiostorres
+
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Data & tech projects
+      - item: Process improvement
+      - item: Fitness / outdoors
+
+# Your previous education
+education:
+    - degree: Software Development Bootcamp
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - Present
+      details: |
+        Training focused on full-stack development and API design, including:
+          - Python, Flask, REST APIs
+          - JavaScript, React
+          - SQL & databases
+          - Git/GitHub and collaborative workflows
+
+    - degree: BEng in Petroleum Engineering
+      university: Universidad (add your university)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Universidad.svg/512px-Universidad.svg.png
+      time: YYYY - YYYY
+      details: |
+        Core focus in production, drilling fundamentals, and field operations.
+          - Production systems and optimization
+          - Well intervention / workover fundamentals
+          - HSE and operational reporting
+
+    - degree: BEng in Chemical Engineering
+      university: Universidad (add your university)
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Universidad.svg/512px-Universidad.svg.png
+      time: YYYY - YYYY
+      details: |
+        Background in chemical processes and treatment selection for operations.
+          - Chemical treatments and process analysis
+          - QA/QC mindset and documentation
+          - Data-driven decision making
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2015 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Bullet point
+          - Bullet point
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks-academy.svg
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects focused on applying software and data to real operational challenges,
+      including APIs, dashboards, and automation tools.
+
+    assignments:
+      - title: Star Wars REST API (Flask + SQLAlchemy)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Backend REST API with relational models, authentication flow, and endpoints for users and favorites."
+
+      - title: Academic Platform Backend (Flask + PostgreSQL)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Role-based system (Student/Teacher/Admin) with schedules, attendance, grades, and payments."
+
+      - title: Data Science Projects (EDA + ML)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Modeling workflows including feature engineering, pipelines, evaluation metrics, and interpretability (e.g., SHAP)."
+
+      - title: Operational Analytics Toolkit
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Small utilities to standardize KPI reporting, cost tracking, and operational data cleaning."
+
+skills:
+    toolset:
+      - name: Python (Flask, pandas)
+        level: 90%
+
+      - name: JavaScript (React)
+        level: 80%
+
+      - name: SQL (PostgreSQL) & Data Modeling
+        level: 85%
+
+      - name: Git/GitHub & Collaboration
+        level: 85%
+
+      - name: Data Analytics (KPIs, dashboards)
+        level: 80%
+
+      - name: Oil & Gas Operations (Production/Workover/Well Services)
+        level: 90%
