@@ -1,0 +1,185 @@
+ #
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Tomeka 
+    last_name: Lockhart German
+    
+    # Define yourself in 4-5 words
+    motto: I like serving people and getting the job done. 
+    
+    # Focus
+    focus: Providing quality code and high level service. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have over 15 years of experience in the Tech industry and enjoy keeping up with new technological trends.  As such, I am dedicated constant preparation of the future in tech.  
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: npgconsultingllc@gmail.com
+    phone: 334-220-0228
+    website: 
+    linkedin: 
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: tomekagerman
+    
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: 
+        level:  
+
+      - idiom:          
+      - level:  
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Cooking
+
+      - item: Spending time in nature
+
+# Your previous education
+education:
+    - degree: Graduate Certificate Cybersecurity Management
+      university: Auburn University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2023
+      details: |
+        Completed Graduate Certificate in Cybersecurity Management from Auburn University, specializing in risk assessment, IT auditing, and the development of enterprise-wide security contingency plans.
+        Core Competencies: Information Risk Analysis, IT Auditing, and Security/Information Assurance. Key Skills: Evaluating organizational exposure, developing risk mitigation strategies, and designing business-focused security policies.
+        Exam Preparation: Coursework aligned with the body of knowledge for CISSP, CRISC, and CISA professional certifications.
+
+    - degree: MS Adult Education - Instructional Technology
+      university: Troy University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2013 - 2015
+      details: |
+        Core Focus: Specialized in adult learning theory, 
+        instructional systems design (ISD), 
+        and the integration of emerging technologies in educational settings.
+
+          - Key Projects: Completed a Capstone Portfolio demonstrating mastery in eLearning development, instructional evaluation, and pedagogical strategies for adult learners.Bullet point
+          - Technical Skills: E-Learning Design, Multimedia Production for Instruction, Research Methodology, and Educational Program Evaluation.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Software Developer
+      time: 2019 - Present
+      company: Alabama State Department of Education, Montgomery, AL
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Combine traditional software development responsibilities with a focus on secure coding practices, database protection, and safeguarding user data and requests against common threats. 
+        Conduct complex information technology assessments and needs analyses.
+        Develop, test, and maintain secure, scalable, and efficient software applications and organizational databases as needed for the client.
+        Provide support and maintenance for existing client software applications.
+        Implement cybersecurity best practices throughout the software development lifecycle and, secure APIs, web services, and user input to prevent vulnerabilities.
+        Manage risk identification and risk mitigation strategies.
+        Provide end-user training on complex information technology systems.
+        Prepare and conduct technical presentations for the client.
+        Prepare internal training documentation. 
+        Provide Tier 3 level support for Teacher Certification related Service Desk requests – when needed. 
+
+    - role: IT Consultant - Web Business Analyst
+      time: 2019 - 2019
+      company: CGI Technologies, Birmingham, AL 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        By means of user facing content and back-end processing, assisting client in defining and managing the development of new applications and enhancements to existing ones. 
+        Engaging with scrum team members including IT, business owners, developers, and quality assurance staff.
+        Serving as an integral role in the SDLC (System Development Life Cycle); accountable for analyzing requirements, constructing workflow charts and diagrams, understanding system capabilities, and writing specifications.
+        Providing analytical skills to bridge the business processes with either existing software applications or potential new purchases.
+
+    - role: Programmer Analyst/SharePoint Developer
+      time: 2015 - 2018
+      company: Alabama Department of Corrections, Montgomery, AL
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a team of three, developed a prototype Inmate Management System in C# and MVC 
+        Consulted with commissioners, directors, colleagues and other subject matter experts to discuss risks, determine needs, identify and recommend existing options, and architect and develop innovative solutions 
+        Designed, developed, and maintained custom components (master pages, user controls, web  parts and server-side code) for SharePoint Online using ASP.Net. 
+        As a project team lead, I wrote testing plans and user test scripts for the SharePoint OnPrem to SharePoint Online migration. 
+        Created Workflows and InfoPath forms using SharePoint Designer 2013 
+        Managed training of State employees in SharePoint Online and O365.  
+
+# Your project portfolio
+projects:
+    intro: >
+      
+
+    assignments:
+      - title:  Web Scraping
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "."
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "."
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: 
+        tagline: "."
+
+      - title: 
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "."
+
+      - title:  
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 
+
+      - name: JavaScript & jQuery
+        level: 
+
+      - name: 
+        level: 
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
