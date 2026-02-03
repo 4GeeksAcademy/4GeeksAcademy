@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María Gabriela 
+    last_name: Figuera M.
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta transformar realidades
+    
+    # Focus
+    focus: Organizando el caos en orden
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Coordinadora de Logística e Inventario con más de 15 años de experiencia en gestión de inventarios,
+      distribución y control de operaciones. He liderado procesos de migración de sistemas como Odoo,
+      Profit Plus, ICG Manager, SAC, Lotus Notes y WIS, asegurando eficiencia en compras, ventas e inventarios.
+      Actualmente me desempeño en Noordze Fantasie Venezuela C.A, donde elaboro dashboards, reportes KPI y
+      análisis de bases de datos para la toma de decisiones estratégicas. Mi trayectoria combina liderazgo,
+      organización y capacidad analítica, y estoy ampliando mis competencias técnicas con estudios en Data
+      Analysis en 4Geeks Academy para transformar datos en soluciones de valor.
+
+    
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: m.gabrielafiguera@gmail.com
+    phone: 0424 276 3500
+    website: null
+    linkedin: https://www.linkedin.com/in/mgabrielafiguera
+    
+    # GitHub username
+    github: mgabrielafiguera-pixel
+    
+    twitter: null
+    stack-overflow: null
+
+    # Languages you speak
+    languages:
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Leer
+
+# Your previous education
+education:
+    - degree: Contaduria Publica
+      university: Instituto Universitario de Nuevas Profesiones
+      university_logo: https://www.iunp.edu.ve/
+      time: 2008
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Coordinadora de Logística e Inventario
+      time: 2023 - Present
+      company: Noordze Fantasie Venezuela C.A
+      company_logo: null
+      details: |
+        Responsable de la carga de compras en sistema, toma y ajuste de inventarios,
+        traslados, auditorías y entrega de reportes mensuales de KPIs. Elaboración de dashboards
+        y análisis de bases de datos para la toma de decisiones. Participación en la migración
+        al sistema Odoo.
+
+    - role: Coordinadora de Logística e Inventario
+      time: 2021 - 2023
+      company: Almacenes Espacio y Diseño, 123 C.A. Minuetto
+      company_logo: https://shopminuetto.com/
+      details: |
+        Implementación de planes para optimizar costos de inventario y metas de servicio al cliente.
+        Responsable de pronósticos, despliegue de productos, informes de rendimiento y resolución
+        de discrepancias. Apoyo en facturación y cierre de cajas.
+        
+assignments:
+    - title: Dashboard y Reportes KPI
+      project_logo: null
+      link: "#hook"
+      tagline: "Elaboración de dashboards y reportes para seguimiento de indicadores clave de desempeño."
+
+skills:
+    toolset:
+      - name: Python 
+        level: 40%
+
+      - name: SQL
+        level: 50%
+
+      - name: SISTEMA ODOO MIGRACION Y GESTION DE INVENATRIO
+        level: 70%
+
+      - name: SISTEMA ICG MANAGER MIGRACION GESTION D EINVENTARIO
+        level: 100%
+
+      - name: PROFIT PLUS MODULOS COMPRAS VENTAS STOCK
+        level: 85%
+
+      - name: SISTEMA SACS MODULO INVENTARIO
+        level: 60%
