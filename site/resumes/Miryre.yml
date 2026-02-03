@@ -1,0 +1,166 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Elizabeth (Elysa)
+  last_name: Reynolds
+  motto: Simply Human • Purely Visual
+  focus: UX/UI Design & Creative Technology
+  summary: >
+    Creative Technologist with a unique blend of UX/UI design expertise
+    and 
+
+    front-end development skills. I create user-centered digital experiences 
+
+    that bridge aesthetics and functionality, specializing in minimalist design 
+
+    with a Japanese-inspired aesthetic. My approach combines strategic thinking, 
+
+    visual design, and technical implementation to deliver meaningful solutions.
+
+
+    With formal training in graphic design, UX/UI certification from Bryan University, 
+
+    and full-stack development from 4Geeks Academy, I bring a comprehensive toolkit 
+
+    to every project—from research and wireframing through responsive front-end development.
+  avatar: https://images.squarespace-cdn.com/content/v1/6950060fd4453464a61133fb/31545506-181c-4465-880b-f2de790bd646/Elizabeth+Reynolds?format=1000w
+  email: elizabeth@eranovadesign.com
+  phone: 000 000 0000
+  website: eranovadesign.com
+  linkedin: https://www.linkedin.com/in/elizabethdreynolds/
+  github: Miryre
+  twitter: your-twitter
+  stack-overflow: null
+  languages:
+    - idiom: English
+      level: Native
+    - idiom: Japanese
+      level: Learning
+  interests:
+    - item: Japanese Language & Culture
+    - item: Minimalist Design
+    - item: Poetry Writing
+    - item: Digital Art
+education:
+  - degree: UX/UI Design Certification
+    university: Bryan University
+    university_logo: https://consent.trustarc.com/v2/asset/18:09:02.3992g7xif_bu_seal_dark.jpg
+    time: 2024
+    details: >
+      Completed comprehensive UX/UI design certification covering user
+      research, 
+
+      information architecture, wireframing, prototyping, and user testing. 
+
+      Focused on creating intuitive, accessible, and visually compelling interfaces 
+
+      that prioritize user needs and business goals.
+
+        - User-centered design methodology
+        - Prototyping and user testing
+        - Information architecture and interaction design
+  - degree: Full-Stack Development Training
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2025
+    details: >
+      Intensive full-stack development program covering modern web
+      technologies 
+
+      and development practices. Built projects including authentication systems, 
+
+      APIs, and responsive web applications using React, Flask, and Python.
+
+        - React and modern JavaScript frameworks
+        - Python and Flask backend development
+        - RESTful API design and implementation
+  - degree: Graphic Design Degree
+    university: Bryan University
+    university_logo: https://consent.trustarc.com/v2/asset/18:09:02.3992g7xif_bu_seal_dark.jpg
+    time: 2025
+    details: |
+      Foundation in visual design principles, typography, color theory, and 
+      composition. Developed skills in creating cohesive brand identities and 
+      visual communication strategies.
+
+        - Visual design and composition
+        - Brand identity development
+        - Typography and color theory
+experiences:
+  - role: Independent Social Media Content Creator
+    time: 02/2022 - current
+    company: Besha Inc.
+    company_logo: https://beshainc.com/cdn/shop/files/Logo_No_Background_220x.png?v=1613521806
+    details: >
+      Developed and executed digital content strategies for collagen brand,
+      producing 
+
+      high volume of engaging assets and e-commerce visuals aligned with brand aesthetics. 
+
+      Directed end-to-end creative projects independently.
+
+        - Produced over 480 interactive polls with custom templates designed in Adobe Suite
+        - Created 10 high-quality product display images for Amazon product pages
+        - Analyzed user engagement data to iterate on content strategies and grow audience connection
+        - Managed creative projects from concept through final delivery
+  - role: Print & Marketing Supervisor
+    time: 05/2021 - 09/2022
+    company: Staples, Dallas TX
+    company_logo: data:image/png;base64,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
+    details: >
+      Managed daily production queue and led team of 5, streamlining
+      workflows and 
+
+      implementing training programs. Leveraged Salesforce to manage complex projects 
+
+      from concept to final production, delivering polished marketing materials.
+
+        - Managed ~30 daily production tickets and enhanced project delivery efficiency
+        - Optimized processes through iterative feedback loops and strategic client engagement
+        - Provided technical support using Adobe Illustrator to prepare print-ready files
+        - Delivered diverse marketing materials including booklets, business cards, and posters
+projects:
+  intro: >
+    A selection of projects showcasing my ability to blend design thinking
+    with  technical implementation. Each project demonstrates user-centered
+    design  principles and attention to detail in both aesthetics and
+    functionality.
+  assignments:
+    - title: Econique
+      project_logo: null
+      link: https://www.eranovadesign.com/econique
+      tagline: "E-commerce UX/UI Design: Designed a 9-page e-commerce platform with a
+        scalable design system, conversion-focused user flows, and inclusive
+        design solutions emphasizing accessibility and strategic information
+        hierarchy."
+    - title: Charity Directory
+      project_logo: null
+      link: https://github.com/salemmohdmohd/charity_directory
+      tagline: "Full Website Design: Developed a responsive web platform to connect
+        users with local charities. Engineered key front-end features using
+        React, Bootstrap, and CSS, ensuring responsive and accessible design
+        with optimized performance."
+    - title: Bare Truth Inc
+      project_logo: null
+      link: https://baretruthinc.org/
+      tagline: "Website Redesign: Redesigned and optimized the nonprofit's website to
+        improve usability and visual appeal. Streamlined navigation, ensured all
+        interactive elements were functional, and updated content to reflect
+        current mission."
+skills:
+  toolset:
+    - name: Figma & Adobe XD
+      level: 95%
+    - name: UX/UI Design & Responsive Web Design
+      level: 95%
+    - name: HTML5 & CSS
+      level: 90%
+    - name: React & JavaScript
+      level: 85%
+    - name: Adobe Creative Suite
+      level: 90%
+    - name: Squarespace
+      level: 85%
+    - name: Salesforce & Project Management Tools
+      level: 80%
