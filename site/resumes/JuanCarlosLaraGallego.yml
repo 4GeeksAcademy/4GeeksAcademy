@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Carlos
+    last_name: Lara Gallego
+    
+    # Define yourself in 4-5 words
+    motto: Estudiante principiante de Data Science
+    
+    # Focus
+    focus: Aprender a programar después de los 40
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy un profesional de las finanzas y la economía con una sólida trayectoria en diversos sectores. Mi pasión radica en traducir los datos financieros en información estratégica que impulse la toma de decisiones informadas. Con una amplia experiencia en Inteligencia de Negocios y Análisis de Negocios, he trabajado en proyectos de control financiero y costes ABC que han optimizado recursos y eficiencia en varias organizaciones.
+      Mi enfoque se centra en realizar análisis exhaustivos para impulsar la rentabilidad y el crecimiento sostenible. Como experto en Control de Gestión, he implementado procesos y herramientas que permiten una gestión financiera efectiva y una visión clara del rendimiento empresarial.
+      Estoy comprometido a utilizar mi experiencia y habilidades para contribuir al éxito de las organizaciones optimizando los recursos financieros. Siempre estoy buscando oportunidades para aprender y crecer, y estoy emocionado por las posibilidades que el mundo de las finanzas y la economía tiene para ofrecer.
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://gravatar.com/monoauralinc
+    # Contact Information
+    email: juancarloslara@protonmail.com #optional
+    linkedin: https://www.linkedin.com/in/juancarloslaragallego/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JuanCarlosLaraGallego
+    
+    twitter: avicus #optional
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate
+    
+      - idiom: Spanish
+        level: Professional / Native
+
+    # Interests or hobbies
+    interests:
+      - item: Mountainbiking
+
+      - item: Kettlebells
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Business Administration
+      university: UCLA
+      # optional
+     
+      time: 1999 - 2005
+      details: |
+        Degree in Management & Business Administration and Accounting
+
+    - degree: BSc Management Costs 
+      university: UCLA
+      # optional
+    
+      time: 2011 - 2012
+      details: |
+        Certified cost controlling
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Business Analyst
+      time: 2017 - Present
+      company: Atenzia
+      # optional
+      company_logo: 
+      details: |
+        Análisis de datos para identificar tendencias y patrones que impulsen la toma de decisiones estratégicas.
+        Desarrollo y mantenimiento de modelos predictivos y análisis de riesgos para respaldar la planificación empresarial.
+        Colaboración con equipos interdisciplinarios para definir los requisitos empresariales y funcionales de los proyectos tecnológicos.
+        Evaluación de los indicadores clave de rendimiento (KPI) y preparación de informes detallados para la alta dirección.
+        Participación en la creación y optimización de procesos empresariales para aumentar la eficiencia operativa.
+        Identificación de oportunidades de mejora en los flujos de trabajo y recomendación de soluciones innovadoras.
+        Gestión de la comunicación entre las partes interesadas para garantizar la alineación de los objetivos empresariales.
+        Implementación y supervisión de iniciativas de mejora continua basadas en el análisis de datos.
+        Uso de herramientas avanzadas de visualización de datos para presentar eficazmente los resultados.
+        Colaboración en la planificación y ejecución de proyectos de transformación digital para impulsar la competitividad empresarial.
+
+    # Your project portfolio
+assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+        
+skills:
+    toolset:
+      - name: PowerBI
+        level: 90%
+
+      - name: Power Automate
+        level: 85%
+
+      - name: Python
+        level: 15%
+
+      - name: Sketch & Photoshop
+        level: 60%
