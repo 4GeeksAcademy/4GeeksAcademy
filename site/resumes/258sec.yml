@@ -1,0 +1,94 @@
+---
+template: online-cv
+skin: orange
+basic_info:
+  first_name: Javier
+  last_name: Ulla Gonzalez
+  motto: Full Stack Developer & Cybersecurity Enthusiast
+  avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+  summary: I am 21 years old, passionate about programming, cybersecurity, and web
+    development. I have worked in sales, telemarketing, real estate, and
+    electronics retail. In my free time, I practice kickboxing, running, and
+    calisthenics. I enjoy coding and learning about cyber defense.
+  email: jullg@ymail.com
+  phone: 7868593806
+  website: javierulla.dev
+  linkedin: https://www.linkedin.com/in/julla-gon--12678a85
+  github: 258sec
+  twitter: "@258sec"
+  stack-overflow: 123456/258sec
+  languages:
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Native
+    - idiom: Portuguese
+      level: Professional
+  interests:
+    - Kickboxing
+    - Running
+    - Coding
+    - Cybersecurity
+    - Tennis
+education:
+  - degree: FullStack Web Developer
+    university: 4Geeks Academy
+    time: 2019 - 2019
+    details:
+      - Real Senior Mentoring
+      - Top-notch Tech Stack
+      - Part-time flexible program
+experiences:
+  - role: Shop Assistant
+    time: 2015 - 2018
+    company: Electronics World, Miami
+    details:
+      - Assisted 50+ customers daily
+      - Managed inventory and displays
+      - Troubleshot basic electronics
+  - role: Telemarketing Specialist
+    time: 2018 - 2019
+    company: CallFast Agency, Miami
+    details:
+      - Exceeded monthly sales targets
+      - Coordinated marketing campaigns
+      - Maintained client database
+  - role: Junior Developer Intern
+    time: 2020 - 2021
+    company: Startup Hubs, San Francisco
+    details:
+      - Developed Python and JS scripts
+      - Maintained website functionality
+      - Learned cybersecurity basics
+projects:
+  intro: Personal projects and coding experiments.
+  assignments:
+    - title: Personal Portfolio Website
+      link: https://258sec.github.io
+      tagline: Showcasing projects and CV online.
+    - title: Cybersecurity Scripts Lab
+      link: "#"
+      tagline: Collection of scripts for penetration testing and automation.
+    - title: Flask Web Apps
+      link: "#"
+      tagline: Small backend projects using Python and Flask.
+    - title: Kickboxing Tracker App
+      link: "#"
+      tagline: Track workouts and progress in sports.
+    - title: Open Source Contributions
+      link: "#"
+      tagline: Contributions to open-source libraries.
+skills:
+  toolset:
+    - name: Python & Django
+      level: 70%
+    - name: Javascript & jQuery
+      level: 60%
+    - name: Angular
+      level: 40%
+    - name: HTML5 & CSS
+      level: 80%
+    - name: Ruby on Rails
+      level: 30%
+    - name: Sketch & Photoshop
+      level: 25%
