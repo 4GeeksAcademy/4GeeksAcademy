@@ -1,51 +1,46 @@
-
 template: "online-cv"
 skin: "blue"
 
 basic_info:
+    first_name: Javier
+    last_name: Ulla Gonzalez
+    
+    motto: I am a curious person who has loved computers and technology since I was a kid
+    
+    focus: Programming and Cybersecurity
+    
+    summary: >
+        I am 21 years old. In the past, I have worked as a shop assistant in electronic stores, 
+        in real estate agencies, in telemarketing, and other sales and marketing roles. 
+        In my free time, I practice kickboxing (since I was 12), running, and calisthenics, 
+        and I enjoy learning about coding, scripting, and cybersecurity using tools like Kali Linux. 
+        I am a soldier and I am interested in cyber defense. I am here to improve my knowledge in coding, 
+        web backend processes, and cybersecurity.
 
-    first_name:  Javier
-    last_name:  Ulla Gonzalez
-    
-    motto: I am so curious person who likes the informatic and the pcs since I was a kid
-    
-    focus: Programming and cybersecurity 
-    
-    summary:  Im 21 years old, in the past i have work like shop assistant at electronic shops, real state agency, telemarketing, and more sell and marketing sector jobs. In my free time 
-             I used to do sport(kickboxing since i was 12) and running or calistenich, and learn about code, scripting, kali linux, etc. I am soldier and i am interested to work in
-               cyberdefense. Is for that i am here, to improve my  knowledge at coding, web backend processes etc. 
-    
-    # Your profile picture URL
-    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
 
-    email: jullg@ymail.com 
-    phone: 786 859 3806 
-    website: 
+    email: jullg@ymail.com
+    phone: 7868593806
+    website: "https://258sec.github.io"
     linkedin: www.linkedin.com/in/julla-gon--12678a85
-    
-    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: 258sec
-    
-    twitter: 
-    stack-overflow: 
+    twitter: "https://twitter.com/258sec"
+    stack-overflow: "https://stackoverflow.com/users/258sec"
 
     languages:
       - idiom: English
         level: Professional
-
       - idiom: Spanish
         level: Professional
-
       - idiom: Portuguese
         level: Native
 
     interests:
       - item: Tennis
-
       - item: Snowboarding
-
       - item: Cooking
+      - item: Cybersecurity Challenges
+      - item: Coding Side Projects
 
 education:
     - degree: FullStack Web Developer
@@ -53,69 +48,71 @@ education:
       university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
       time: 2019 - 2019
       details:
-          -Real “Senior” Mentoring
-          All of our staff has 10+ years coding and holds senior possitions in Miami's tech industry.
-          -Top-notch Technology Stack
-          The world of Coding grows and changes EVERY DAY. Learn the newest and most demanded languages and frameworks in the current market. Your potential employers will LOVE IT.
-          -Really Part-time
-          It is not about teaching on after-hours, it requires much more! This program is meant for employed professionals. We have designed the perfect method for both flexible and blended learning in an “after-hours” setting.
+          - Real “Senior” Mentoring: All staff has 10+ years coding and senior positions in Miami's tech industry.
+          - Top-notch Technology Stack: Learn the newest and most in-demand languages and frameworks.
+          - Really Part-time: Designed for employed professionals in an after-hours blended learning format.
 
-# Your previous job experiences or voluntier
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    - role: Shop Assistant
+      time: 2015 - 2018
+      company: Electronics World, Miami
+      company_logo: ""
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer 
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        Worked in customer support, sales, and inventory management for electronics.
+          - Assisted up to 50 customers daily
+          - Managed stock and product displays
+          - Provided technical explanations about products
 
-# Your project portfolio
+    - role: Telemarketing Specialist
+      time: 2018 - 2019
+      company: CallFast Agency, Miami
+      company_logo: ""
+      details: |
+        Reached potential clients and managed campaigns for multiple products.
+          - Achieved 120% of monthly sales targets
+          - Coordinated with marketing team for promotions
+
+    - role: Junior Developer Intern
+      time: 2020 - 2021
+      company: Startup Hubs, San Francisco
+      company_logo: ""
+      details: |
+        Assisted in web development and backend scripting.
+          - Developed small Python and JS scripts
+          - Maintained website functionality and testing
+          - Learned basic cybersecurity practices
+
 projects:
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some personal projects where I applied my coding and web development skills:
     assignments:
-      - title: Velocity
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Personal Portfolio Website
+        project_logo: ""
+        link: "https://258sec.github.io"
+        tagline: "My personal website showcasing projects, coding experiments, and resume."
 
-      - title: DevStudio
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      - title: Cyber Lab Scripts
+        project_logo: ""
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Collection of scripts for learning cybersecurity tasks, penetration testing, and automation."
 
+      - title: Web Backend Mini Projects
+        project_logo: ""
+        link: "#"
+        tagline: "Small web apps built with Python and Flask to practice backend development."
 
 skills:
     toolset:
       - name: Python & Django
-        level: 0%
-
+        level: 40%
       - name: Javascript & jQuery
-        level: 0%
-
+        level: 30%
       - name: Angular
-        level: 0%
-
-      - name: HTML5 & CSS
         level: 20%
-
+      - name: HTML5 & CSS
+        level: 60%
       - name: Ruby on Rails
-        level: 0%
-
+        level: 10%
       - name: Sketch & Photoshop
-        level: 0%
+        level: 25%
+
