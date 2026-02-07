@@ -1,0 +1,51 @@
+template: "online-cv"
+skin: "blue"
+
+# Información Personal
+basic_info: 
+
+  first_name: Braian 
+  last_name: Dos Santos
+  motto: "Innovating through code"
+  focus: Full Stack Development
+  summary: |
+    Full Stack Developer skilled in Python, Flask, MySQL, ReactJS, Angular, and PostgreSQL. I refined my expertise at the Python Full Stack Bootcamp and JavaScript Full Stack Bootcamp in Coding Dojo and 4Geeks Academy.
+  linkedin: www.linkedin.com/in/braian-dos-santos-b027682a3
+  github: Braianvladzgrid
+
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: F1, Nascar, Coding, History
+
+# Educación
+education:
+  - degree: Bachelor of Desarollo web & Redes in Utu.
+    university: UTU
+    time: 2020 - 2024
+    details: |
+      Project Management, Power Lines, Software Devlopment, Calculus, Network Technician, ect
+
+# Experiencia Laboral
+experiences:
+  - role: Full Stack Developer in proyect for Bachelor
+    time: 2022 - 2024
+    company: UTU
+
+# Habilidades
+skills:
+  toolset:
+    - name: Python
+      level: 98%
+    - name: MySQL
+      level: 95%
+    - name: Javascript
+      level: 90%
+    - name: Angular
+      level: 70%
+    - name: PostgreSQL
+      level: 85%
