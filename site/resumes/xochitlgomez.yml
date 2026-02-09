@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Xochitl
+    last_name: Gomez
+
+    # Define yourself in 4-5 words
+    motto: CEO + Full-Stack en progreso
+
+    # Focus
+    focus: Producto, automatización y e-commerce
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      CEO y emprendedora en México en el sector de movilidad/refacciones.
+      Estoy construyendo y profesionalizando operaciones (ventas, inventario, logística y KPIs)
+      mientras estudio Full-Stack para liderar producto, automatización y una plataforma web/app.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: "" #optional
+    phone: "" #optional
+    website: "" #optional
+    linkedin: "" #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL
+    github: xochitlgomez
+
+    twitter: "" #optional
+    stack-overflow: "" # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness
+      - item: Tecnología
+      - item: Negocios y estrategia
+
+# Your previous education
+education:
+    - degree: Lic. en Mercadotecnia y Ventas
+      university: ""
+      university_logo: "" #optional
+      time: ""
+      details: |
+        Formación enfocada en marketing, ventas y gestión comercial.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: CEO / Founder
+      time: 2020 - Present
+      company: Empresa de movilidad/refacciones
+      company_logo: "" #optional
+      details: |
+        Liderazgo general del negocio (operación, ventas, compras, inventario y logística).
+        Enfoque actual: estandarización de procesos, medición con KPIs y digitalización.
+
+          - Supervisión de sucursales y operación diaria.
+          - Implementación de procesos y control operativo.
+          - Desarrollo de estrategia de crecimiento y canal digital.
+
+    - role: Full-Stack Student
+      time: 2026 - Present
+      company: 4Geeks Academy
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg #optional
+      details: |
+        Formación práctica en desarrollo web (HTML, CSS, JavaScript, Git/GitHub).
+        Objetivo: construir y mantener una plataforma web/app para el negocio.
+
+          - Proyectos y ejercicios de front-end.
+          - Uso de terminal, Git y pull requests.
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos y ejercicios del bootcamp; se irá actualizando conforme avance.
+
+    assignments:
+      - title: Aprende en público utilizando Pull Requests
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg #optional
+        link: ""
+        tagline: "Contribución con YAML + Pull Request a un repositorio de código abierto (4Geeks)."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 30%
+
+      - name: JavaScript
+        level: 25%
+
+      - name: Git & GitHub
+        level: 35%
