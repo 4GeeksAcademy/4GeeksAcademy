@@ -1,0 +1,151 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Ana
+    last_name: Lopez
+    motto: Fullstack developer
+    avatar: https://avatars.githubusercontent.com/u/246854766?s=400&u=17eacb6a23c0069222cbc47cea84ce6a77b7f409&v=4
+    summary: |
+      Digital marketing and web design specialist with an extensive background in marine sciences and a deep understanding of the diving industry. Passionate about technology and social media, with a recently completed Master’s degree in Digital Marketing. Experienced in web design using WordPress and in managing social media strategies to enhance business visibility within the aquatics sector. Currently training as a Full-Stack Developer, expanding technical skills in both front-end and back-end web development.
+
+    # Sidebar links
+    email: avantadesignlab@gmail.com
+    phone: +1 786 868 8151
+    website:  #do not add http://
+    linkedin: https://www.linkedin.com/in/ana-m-lopez-hidalgo/
+    github: Nahyahlop
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    interests:
+      - item: Coding 
+
+      - item: diving
+
+      - item: Cooking
+
+education:
+    - degree: Digital Marketing 
+      university: Marketimg and Web School
+      time: 2023 - 2025
+      details: |
+        Comprehensive training in digital marketing strategy, SEO/SEM, social media marketing, paid advertising, email marketing, web analytics, and content creation.
+
+    - degree: BSc in Marine Science
+      university: Univesidad de Las Palmas de Gran Canaria. Spain
+      time: 2002 - 2010
+      details: |
+        Multidisciplinary training in marine biology, oceanography, marine ecology, environmental science, and data analysis.
+        Strong scientific background with analytical, research, and problem-solving skills.
+    
+    - degree: Master’s Degree in Aquaculture
+      university: Univesidad de Las Palmas de Gran Canaria. Spain
+      time: 2012 - 2014
+      details: |
+        Advanced training in aquaculture systems, marine resource management, sustainability, and aquatic production. Experience in research, data analysis, project development, and technical reporting.
+
+experiences:
+    - role: Digital Marketing and Web Design Specialist
+      time: 2022 - Present
+      company: Aquarium Kingdom. Oakland Park, Florida
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+          - Company’s website design and maintenance, optimizing user experience and accessibility.
+          - Manage the production of all digital visual content, including photography and videography, to enhance social media presence and marketing efforts.
+          - Create engaging content and manage social media, increasing audience engagement and brand recognition.
+
+    - role: Senior Software Engineer
+      time: 2014 - 2015
+      company: Google, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
