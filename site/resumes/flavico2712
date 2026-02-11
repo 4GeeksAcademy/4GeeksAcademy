@@ -1,0 +1,171 @@
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Flavio
+    last_name: Franco Garcia
+    
+    # Define yourself in 4-5 words
+    motto: I am an inventor
+    
+    # Focus
+    focus: Making life simpler
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I love sytems and creation tools. My goal is always to make things a lot simpler, reduce irrelevant time usage!
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: flaviomir2712@gmail.com #optional
+    phone: 692928075 #optional
+    website: not yet #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: flaviomir2712
+    
+    instagram: 'flavinhomir' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Clothing
+
+      - item: Cooking
+
+      - item: Creating
+
+# Your previous education
+education:
+    - degree: Product Design
+      university: Universidade Estadual de Santa Catarina
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBF3w0-Dk5xi8qd2qWwX-j4AEkSgCFZMiCaw&s
+      details: |
+        In here I learned about product development, creativity and user-centered solutions. Worked with both physical and digital products. 
+
+          - Developed a scope for UX/UI design
+          - Higly focused on scalable products
+
+    - degree: Innovation and product enhancement
+      university: Academia Sapientia
+      # optional
+      university_logo: 
+      time: 2019 - 2019
+      details: |
+        This course was a bussiness focused project which teams of 5 needed to 
+        enhance a product of the companies that founded the studies. Here I 
+        develop a personality based system to approach middle-schoolers profiles 
+        towards innovation. We also had another challenge, to reduce waste in 
+        the company that the group was assigned.
+
+          - Team leader 
+          - Group that reduced the most amount of waste
+          - Enhanced a product
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: General Manager 
+      time: 2023 - 2024
+      company: El Gordito
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Manager of a brunch cafe in Madrid. Worked in P&D and graphic design but also as a barista
+
+          - Fast paced environment
+
+    
+
+    - role: System Designer
+      time: 2020 - 2021
+      company: CERTI
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Designed innovation systems for companies in the Amazon Forest with the intention
+        to maintaining the forest alive and using it's vegetation to the fullest. My work
+        also consisted in asking for funding and selecting startups to invest. 
+
+          - Higly innovative company
+          - Website creation
+
+    - role: Manager and Graphic Designer
+      time: 2018 - 2019
+      company: Inventorio
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Graphic designer and manager of a design studio for fashion and graphic design.
+
+          - Website design
+          - Fashion collection
+
+# Your project portfolio
+projects: 
+
+    intro: >
+      I create to make things clearer. From all my projects, and I won't list all of them,
+      the only intention is to show what I believe is not working in their industry. Both
+      anger and passion moved me to start them, the anger of not finding what I needed and
+      the passion of adding to something that I dearly love. 
+      
+    assignments:
+      - title: Cream
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A clothing brand based off philosophy and product design."
+
+      - title: Sidequest
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A social media made for the physical world-"
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A barista life simulator."
+      
+skills:
+    toolset:
+      - name: Html & Css
+        level: 98%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: Adobe Illustrator
+        level: 98%
+
+      - name: Adobe Photoshop
+        level: 70%
+
+      - name: SolidWorks
+        level: 85%
+
+      - name: Figma
+        level: 82%
