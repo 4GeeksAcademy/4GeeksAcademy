@@ -1,0 +1,133 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Enzo
+    last_name: Soto
+    
+    # Define yourself in 4-5 words
+    motto: Analítico, creativo, estratégico, detallista, emprendedor.
+    
+    # Focus
+    focus: Construir y hacer crecer mi marca
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Ingeniero Informático con más de 8 años liderando integraciones empresariales sobre tecnologías IBM (API Connect, DataPower, MQ), especializado en seguridad, arquitectura de APIs y automatización. Combina una base técnica sólida con visión estratégica de negocio y evolución hacia Full Stack y DevOps, impulsando además proyectos propios donde une ingeniería, branding digital y crecimiento comercial.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/51.jpg
+
+    # Contact Information
+    email: enz.soto@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/enzo-fabian-soto-soto/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: enzsoto
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Emprendedor
+
+      - item: Treking
+
+      - item: Jugar
+
+# Your previous education
+education:
+    - degree: Ingeniero Informatico
+      university: Duoc UC
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2017 - 2019
+      details: ''
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Freelance
+      time: 2025 - 2026
+      company: Socius
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Durante mi colaboración con el equipo de SPIN participé en iniciativas de integración y modernización de APIs, trabajando sobre plataformas IBM como API Connect y DataPower Gateway para fortalecer la seguridad, gobernanza y escalabilidad de los servicios. Mi rol se enfocó en el diseño e implementación de flujos seguros, automatización de despliegues y mejoras en prácticas DevOps, contribuyendo a optimizar la exposición de APIs y la estabilidad operativa en entornos empresariales críticos. Además, colaboré estrechamente con equipos multidisciplinarios para alinear arquitectura técnica, estándares de seguridad y necesidades del negocio, aportando una visión orientada tanto a la ingeniería como a la eficiencia estratégica.
+
+    - role: Ingeniero en Integraciones
+      time: 2020 - 2025
+      company: FemsaSalud
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Durante mi participación con el equipo de FemsaSalud contribuí en el diseño, implementación y operación de soluciones de integración basadas en tecnologías IBM, principalmente API Connect y DataPower Gateway, enfocadas en asegurar la exposición confiable y segura de servicios críticos. Mi trabajo estuvo orientado a fortalecer la gobernanza de APIs, optimizar flujos de seguridad (mTLS, autenticación y control de acceso) y apoyar procesos de automatización y despliegue continuo, colaborando con equipos técnicos y de negocio para alinear estándares de arquitectura con requerimientos operacionales del ecosistema de salud digital.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 10%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 75%
