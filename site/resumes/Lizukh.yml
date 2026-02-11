@@ -1,0 +1,199 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Thiago
+    last_name: Lacoste
+    
+    # Define yourself in 4-5 words
+    motto: Always happy to help!
+    
+    # Focus
+    focus: In my present
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Full Stack development student at 4Geeks Academy, passionate about creating functional and visually appealing websites. I enjoy combining creativity and logic in my work. I focus on improving my programming skills, writing clean code, and strengthening my problem-solving abilities. I aim to grow as a developer and become better every day. My goal is to contribute to high-quality projects while continuing to develop my technical and creative skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: tilmlizukh@gmail.com #optional
+    phone: +59897477048 #optional
+    website: #optional
+    linkedin: https://www.linkedin.com/in/thiago-lacoste-634a2b3a4/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Lizukh
+    
+    twitter: 'scribbleslizukh' #optional
+    stack-overflow: 32352179/thiago-lacoste # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: A2
+
+    #  - idiom: French
+    #    level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Draw & Write
+
+      - item: MMA & Gym
+
+      - item: Astronomy & History
+
+# Your previous education
+education:
+    - degree: Approved school
+      university: School
+      # optional
+    #  university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2019
+    #  details: |
+    #    Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #    adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #    sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #    ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #    pretium quis, sem.
+
+      
+    #      - Bullet point
+
+    - degree: Approved High School
+      university: Highscool
+      # optional
+    #  university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - 2025
+      details: |
+        In my first year, I studied at an institute focused on programming. From second to fourth year, I completed the basic. In fifth year, I pursued the Scientific Baccalaureate, and in sixth year, I completed the Architecture Baccalaureate.
+
+     
+    #      - Bullet point
+      
+
+# Your previous job experiences or volunteer
+#experiences:
+#    - role: Lead Developer
+#      time: 2015 - Present
+#      company: Startup Hubs, San Francisco
+#      # optional
+#      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#      details: |
+#        Describe your role here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#        Cum sociis natoque penatibus et magnis dis parturient montes,
+#        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#        error sit voluptatem accusantium doloremque laudantium, totam rem
+#        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#        architecto beatae vitae dicta sunt explicabo.
+#
+#          - Bullet point
+#          - Bullet point
+#
+#    - role: Senior Software Engineer
+#      time: 2014 - 2015
+#      company: Google, London
+#      # optional
+#      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#      details: |
+#        Describe your role here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#        Cum sociis natoque penatibus et magnis dis parturient montes,
+#        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#        pellentesque eu, pretium quis, sem.
+#
+#          - Bullet point
+#          - Bullet point
+#
+#    - role: UI Developer
+#      time: 2012 - 2014
+#      company: Amazon, London
+#      # optional
+#      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+#      details: |
+#        Describe your role here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#        Cum sociis natoque penatibus et magnis dis parturient montes,
+#        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#        pellentesque eu, pretium quis, sem.
+#
+#          - Bullet point
+#          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      I have few, but these are the ones I dedicated the most time to.
+
+    assignments:
+      - title: instagram
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Lizukh/instagram"
+        tagline: "Responsive Instagram-style layout built with HTML and CSS."
+
+      - title: Login1
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Lizukh/Login1"
+        tagline: "Clean and modern login interface using HTML and Bootstrap."
+
+      - title: Form
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/Lizukh/Form"
+        tagline: "Styled form layout focused on structure"
+
+      #- title: Atom
+        # optional
+      #  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #  link: "#"
+      #  tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      #- title: Delta
+        # optional
+      #  project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      #  link: "#"
+      #  tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+    #  - name: Python & Django
+    #    level: 98%
+
+      - name: JavaScript & jQuery
+        level: 10%
+
+    #  - name: Angular
+    #    level: 98%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Bootstrap
+        level: 55%
+
+    #  - name: Ruby on Rails
+    #    level: 85%
+
+    #  - name: Sketch & Photoshop
+    #    level: 60%
