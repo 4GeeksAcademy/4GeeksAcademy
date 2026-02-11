@@ -1,0 +1,34 @@
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+  # Full name
+  first_name: Marveen
+  last_name: Riskwait
+  motto: Full-stack Developer
+  
+      
+  email: radiostation87.7.7@gmail.com
+  github: Marvin-Martin
+
+  languages:
+    - idiom: Spanish
+      level: Advence
+      
+    - idiom: English
+      level: Intermediate/Advance
+
+    - idiom: French 
+      level: Native
+
+  interests:
+    - item: Coding
+
+    - item: Music
+
+    - item: Circus
+
+    - item: Arts
+
