@@ -1,0 +1,85 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  # Profile information
+  first_name: Angelica
+  last_name: Ibarra
+  motto: I learn, I try, I grow.
+  avatar: https://github.com/4GeeksAcademy/4GeeksAcademy-Ange-ibarra/raw/master/Dise%C3%B1o%20sin%20t%C3%ADtulo%20(5).png
+  summary: |
+    I've been working on costumer service for around 2 years, and i'm looking 
+    for a growth opportunity as a Developer.
+
+  # Sidebar links
+  email: angelicaavy12@gmail.com
+  phone: +33 6 56 89 52 44
+  #website: alesanchezr.com
+  github: Ange-ibarra
+  linkedin: Angelica Ibarra
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+    - idiom: French
+      level: Intermediate
+
+  interests:
+    - item: Gym
+
+    - item: Cooking
+
+    - item: Paint
+
+education:
+  - degree: Full Stack Develpor
+    university: 4 Geeks Academy
+    time: 2026 -
+    details: |
+      Front end coding Java Script
+      back end coding python
+
+        - FlaskSQL
+        - REST APIs
+
+experiences: []
+
+projects:
+  assignments:
+    - title: Postcard
+      link: "https://github.com/Ange-ibarra/exercise-postcard"
+      tagline: "A simple postcard project using HTML and CSS"
+
+    # - title: DevStudio
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help web developers/designers market their services."
+
+    # - title: Tempo
+    #   link: "#"
+    #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+    # - title: Atom
+    #   link: "#"
+    #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+    # - title: Delta
+    #   link: "#"
+    #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+  toolset:
+    - name: Javascript
+      level: 50%
+
+    - name: React.js
+      level: -%
+
+    - name: HTML5 & CSS
+      level: 60%
+
+    - name: Bootstrap
+      level: 50%
