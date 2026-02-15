@@ -1,0 +1,54 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Steffano
+  last_name: Ganahl
+  motto: Cars, music, cats, food and computers.
+  focus: Study
+  summary: Im a programming university student and 4Geeks student, electronic
+    musician and driver. Fast learning person, loyal worker, proactive. Nowdays
+    learning and getting immersed into the coding world, specifically in Machine
+    learning and Data Science. Looking forward to advance and work in those
+    areas.
+  
+  email: steffanoganahlg@gmail.com
+  instagram: steffano_music
+  github: steffanoganahl
+  
+  
+  languages:
+    - idiom: English
+      level: Advanced
+    - idiom: German
+      level: Basic
+    - idiom: Spanish
+      level: Native
+    - idiom: Portuguese
+      level: Basic
+  interests:
+    - item: Video Games
+    - item: Making and Listen to Music
+    - item: Cooking
+education:
+  - degree: Psicology
+    university: Universidad San Sebastian, Chile
+    time: 2020-2022
+    details: 
+      2,5 / 5 Years completed, quit due to unforseen circumstances issues. 
+
+        
+experiences:
+  - role: Cabify Driver
+    time: 2024 - Present
+    company: Cabify
+skills:
+  toolset:
+    - name: Python
+      level: 70%
+    - name: SQL
+      level: 50%
+    - name: HTML5 & CSS
+      level: 60%
+    - name: Linux Commands ( Red Hat Admin. )
+      level: 85%
