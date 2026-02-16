@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Jose Daniel
+  last_name: Tauil Wozniak
+  motto: Desarrollador de software encargado de diseñar, escribir y mantener código para la creación de aplicaciones y sistemas informáticos eficientes.
+  focus: Killing Bad Boys
+
+  summary:
+    Desarrollador junior con bases en frontend y backend, capaz de participar en la construcción de aplicaciones completas mientras fortalece habilidades técnicas y buenas prácticas de desarrollo.
+
+    Second paragraph if required.
+
+  avatar: "https://www.freepik.es/foto-gratis/hombre-guapo-joven-cuadernos-concepto-e-learning-cursos_11651776.htm#fromView=keyword&page=1&position=0&uuid=3fac94d1-e7fa-4644-aa8a-835fafbac03f&from_element=categories_trends&query=Profesor"
+
+  email: danieltauil@hotmail.com
+  phone:
+  website:
+  linkedin:
+  github: danieltauil20
+  twitter:
+  stack-overflow:
+
+  languages:
+    - idiom: Español
+      level: Native
+
+  interests:
+    - item: Futbol
+    - item: Gym
+    - item: Cooking
+
+education:
+  - degree: Tecnico Superior Higiene y Seguridad Industrial
+    university: IUTA
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2011 - 2012
+    details: |
+      Técnico Superior en Higiene y Seguridad Industrial.
+      Profesional capacitado en la prevención de riesgos laborales, implementación de normas de seguridad y control de condiciones de trabajo, orientado a proteger la salud del personal y garantizar ambientes laborales seguros.
+
+projects:
+  intro: >
+    Algunos de los proyectos que he realizado actualmente
+
+  assignments:
+    - title: Post-de-Instagram
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/danieltauil20/Post-de-Instagram
+      tagline: Post-de-Instagram
+
+    - title: Generador-de-excusas
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/danieltauil20/Generador-de-excusas
+      tagline: Generador-de-excusas
+
+    - title: Feed de fotos de Instagram con HTML y CSS
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/danieltauil20/Instagram-Photo-Feed-con-HTML-CSS
+      tagline: Feed de fotos de Instagram con HTML y CSS
+
+    - title: postal de ejercicios
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/danieltauil20/exercise-postcard
+      tagline: postal de ejercicios
+
+skills:
+  toolset:
+    - name: Python & Django
+      level: 98%
+
+    - name: JavaScript & jQuery
+      level: 98%
+
+    - name: Angular
+      level: 98%
+
+    - name: HTML5 & CSS
+      level: 95%
+
+    - name: Ruby on Rails
+      level: 85%
+
+    - name: Sketch & Photoshop
+      level: 60%
