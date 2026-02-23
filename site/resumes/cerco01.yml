@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Axel
+    last_name: Amador
+    
+    # Define yourself in 4-5 words
+    motto: Disciplined, passionate, meticulous, and resolute.
+    
+    # Focus
+    focus: Learning Data Science.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Junior Developer focused on Automation and Workflow Design.
+      My journey started with a childhood passion for "tinkering" with hardware, which evolved into a professional obsession with making systems work efficiently.
+      Currently, I am specializing in Python with a strong focus on Defensive Programming, Clean Architecture (OOP), and Strict Typing (MyPy/Ruff).
+      I believe in a rigorous workflow: meticulous planning, functional validation with Pytest, and consistent documentation to build modular and scalable code.
+
+      Outside of pure development, I am a Simracing enthusiast, which drives my interest in the intersection of AI, automation, and high-performance simulation.
+      I am currently looking for my first professional opportunity to apply my technical discipline and continue growing in the tech industry.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/235183139?s=400&u=eb266042d67107e596956413d89de74ad7b15817&v=4
+
+    # Contact Information
+    email: axelinvest@icloud.com
+    phone: +34 611 184 565
+    website: https://github.com/Cerco01
+    linkedin: https://www.linkedin.com/in/axel-amador-lopez-074694300/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Cerco01
+    
+    twitter: 'sim_Cerco01'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Elementary
+
+    # Interests or hobbies
+    interests:
+      - item: Simracing
+
+      - item: Code
+
+      - item: Learning
+
+# Your previous education
+education:
+
+    - degree: Data Science & AI
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://media.licdn.com/dms/image/v2/D4E0BAQEcO3fgdcSiEg/company-logo_200_200/company-logo_200_200/0/1688681342958/4geeksacademyes_logo?e=1773273600&v=beta&t=oR0VA7xHP3-AYnAbiZZiLWn4TleyEJigfvcaMt_0SiE
+      time: 2026 - Present
+      details: |
+        Specialization in data analysis, predictive modeling, and neural networks.
+        
+        - Development of machine learning models and deep learning architectures.
+        - Advanced data processing and statistical analysis using Python.
+        - Applied projects involving data-driven decision making and automation.
+
+    - degree: Foundation in Python Programming
+      university: Mastermind Academy
+      # optional
+      university_logo: https://media.licdn.com/dms/image/v2/D4D0BAQG-EnFtBsP6Aw/company-logo_200_200/company-logo_200_200/0/1732350671105/mastermindac_logo?e=1773273600&v=beta&t=n5FVpEYgED5gdgGL4uGYdBzTO9zcVeKZTk7pWn3X8Pk
+      time: 2025 - 2026
+      details: |
+        Intensive program focused on mastering Python fundamentals, software architecture, and automated testing.
+        
+          - Implementation of Clean Architecture and Object-Oriented Programming (OOP).
+          - Development of unit and integration tests using Pytest.
+          - Strict code quality management using Ruff and MyPy.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Specialized Technician / Welder
+      time: 2024 - 2025
+      company: Metálicas Criado S.L.
+      # optional
+      company_logo: https://www.metalicascriado.com/wp-content/uploads/go-x/u/7983a886-87ed-45f5-bddf-5797bbafeaf5/image-640x60.png
+      details: |
+        Specialized in the fabrication and welding of doors and metallic structures, ensuring high-quality standards and technical precision.
+        
+        - Performed professional welding on custom structures and high-end doors, following technical specifications.
+        - Managed logistics and delivery operations using trucks, ensuring safe and timely transport of materials.
+        - Actively supported the production line as a technical assistant, demonstrating strong teamwork and adaptability to different workshop needs.
+        - Maintained and troubleshot industrial machinery to optimize daily production workflows.
+
+# Your project portfolio
+projects:
+    intro: >
+      My actual personal project and technical assignments focused on 
+      automation, clean architecture, and data science. These works demonstrate 
+      my commitment to writing scalable, well-tested code while exploring 
+      cutting-edge AI integration tools.
+
+    assignments:
+      - title: MCP Server for Workflow Automation (In Development)
+        # optional
+        link: "https://github.com/Cerco01"
+        tagline: "Developing a custom Model Context Protocol (MCP) server to integrate local data sources and specialized tools directly into AI workflows."
+
+skills:
+    toolset:
+      - name: Python & Data Science
+        level: 65%
+
+      - name: Machine & Deep Learning
+        level: 20%
+
+      - name: Software Architecture (OOP)
+        level: 60%
+
+      - name: Testing (Pytest)
+        level: 55%
+
+      - name: Docker
+        level: 30%
+
+      - name: Automation & MCP (n8n)
+        level: 40%
