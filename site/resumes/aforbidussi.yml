@@ -1,0 +1,120 @@
+template: online-cv
+skin: blue
+
+# Personal Information
+basic_info:
+    first_name: Álvaro Franco
+    last_name: Abreu Forbidussi
+    motto: Full Stack Developer & Web Architecture Enthusiast
+    focus: Building Scalable Web Solutions
+    
+    summary: |
+      Desarrollador Full-Stack con una sólida base en maquetación web y gestión de contenidos. Mi trayectoria evolucionó desde la edición y personalización de sitios en WordPress y Joomla hasta el desarrollo de aplicaciones complejas con JavaScript (ES6+) y React. 
+      
+      Especializado en transformar diseños complejos en código limpio y eficiente, con un enfoque radical en el rendimiento y la escalabilidad del lado del servidor utilizando Python y Flask. Mi objetivo es aportar soluciones técnicas que equilibren una interfaz de usuario impecable con una arquitectura robusta.
+
+    avatar: https://www.facebook.com/share/1HRDaQBaNW/
+
+    # Contact Information
+    email: alvaroabreu917@gmail.com
+    phone: +34 634 38 81 89
+    linkedin: https://www.linkedin.com/in/alvaro-forbidussi/
+    github: aforbidussi
+    
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: A2 
+      - idiom: Italian
+        level: A2
+
+    interests:
+      - item: Software Architecture
+      - item: UX/UI Design
+      - item: Open Source Contribution
+
+# Your previous education
+education:
+    - degree: Full Stack Software Development
+      university: 4Geeks Academy (España)
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026
+      details: |
+        Programa intensivo de más de 450 horas enfocado en el desarrollo de aplicaciones modernas.
+          - Dominio de JavaScript (ES6+), React.js y gestión de estados complejos.
+          - Desarrollo de APIs RESTful utilizando Python (Flask) y SQLAlchemy.
+          - Implementación de bases de datos relacionales con PostgreSQL.
+          - Metodologías ágiles (SCRUM) y control de versiones con Git/GitHub.
+
+    - degree: Project Management
+      university: Universidad de Oriente (Venezuela)
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/4/41/Logo_UDO.svg
+      time: 2018
+      details: |
+        Enfocado en las competencias para la dirección de proyectos, abarcando planificación, formulación y evaluación.
+          - Gerencia de Proyectos y Visión Estratégica: Definición, ciclo de vida y alineación estratégica.
+          - Planificación y Control de Proyectos: Alcance, tiempo, costo, calidad, recursos y riesgo.
+          - Gestión de Talento y Cierre: Liderazgo, comunicación y finalización del proyecto.
+
+    - degree: Industrial engineer
+      university: Instituto Universitario Santiago Mariño (Venezuela)
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/3/32/LOGO_DE_IUPSM_azul.jpg
+      time: 2011-2017
+      details: |
+        Carrera enfocada en la Gestión de talento humano, materiales, equipos e información para mejorar procesos.
+          - Planificar y dirigir actividades de producción para maximizar la eficiencia.
+          - Analizar métodos de trabajo para mejorar la calidad de los productos finales.
+          - Gestionar talento humano y recursos técnicos en el sector industrial.
+          - Diseñar e implementar nuevos sistemas de producción o mejorar los existentes.
+          - Desempeñarse en consultoría y asesoría de procesos industriales.
+
+# Your previous job experiences
+experiences:
+    - role: Web Editor & Layout Developer
+      time: 2019 - 2025
+      company: https://worldenergywire.com/
+      details: |
+        Especialista en la implementación y mantenimiento de sitios web dinámicos.
+          - Desarrollo y personalización de temas en WordPress y Joomla, optimizando la experiencia del usuario.
+          - Maquetación avanzada utilizando HTML5 y CSS3 siguiendo principios de diseño responsivo.
+          - Optimización de carga de sitios (Lighthouse) y gestión de SEO on-page básico.
+          - Traducción de requerimientos de diseño a estructuras técnicas funcionales.
+
+# Your project portfolio
+projects:
+    intro: >
+      Selección de proyectos desarrollados durante el Bootcamp, enfocados en resolver problemas reales con código escalable.
+
+    assignments:
+      - title: Instagram Photo Feed
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/aforbidussi/Instagram-Photo-Feed-con-Bootstrap-Forbidussi
+        tagline: proyecto de maquetación web utilizando Bootstrap
+
+      - title: Full Stack Web App
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: Próximamente
+        tagline: Aplicación integrada con React, Flask y PostgreSQL con sistema de autenticación JWT.
+
+      - title: React Landing Page
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: Próximamente
+        tagline: Interfaz de usuario reactiva construida con componentes reutilizables y hooks avanzados.
+
+skills:
+    toolset:
+      - name: JavaScript (ES6+)
+        level: 55%
+      - name: React.js
+        level: 50%
+      - name: Python & Flask
+        level: 40%
+      - name: HTML5 & CSS3 (Flexbox/Grid)
+        level: 95%
+      - name: Bootstrap
+        level: 70%
+      - name: SQL & Databases
+        level: 30%
+      - name: WordPress/Joomla
+        level: 85%
