@@ -1,0 +1,169 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alain Enrique
+    last_name: González Jaimes
+    
+    # Define yourself in 4-5 words
+    motto: I like learning new things, that is why I discovered I really like coding
+    
+    # Focus
+    focus: personal growth
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have worked in very different industries. I started as an accounting assistant; I liked working with numbers, but it wasn’t my passion. Later, I worked as a Quality Consultant for a construction and agricultural machinery distributor. In that role, I discovered project management and began a Master’s degree in the field. Then, I moved to Spain with my girlfriend, so I had to leave my job. Currently, I am working as a Sales Representative for a spirits distributor and I really love it. In this role, I get to share part of my Mexican culture, and the salary is great
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: enrique.glez.jai@gmail.com #optional
+    phone: 647313683 #optional
+    website: https://www.linkedin.com/in/alainenriquegonzalezjaimes/ #optional
+    linkedin: https://www.linkedin.com/in/alainenriquegonzalezjaimes/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Enrique0209
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic
+
+      - idiom: German
+        level: Basic
+
+      - idiom: Spanish
+        level: PNative
+
+    # Interests or hobbies
+    interests:
+      - item: Sports, escecially Basketball
+
+      - item: Music
+
+      - item: Agave Spirits 
+
+# Your previous education
+education:
+    - degree: Management and International Business 
+      university: Universidad Panamericana
+      # optional
+      university_logo: https://www.up.edu.mx/wp-content/uploads/2025/07/logo-blanco-edited.jpg
+      time: 2017-2021
+      details: |
+        I have developed a strategic and global mindset focused on driving business growth in multicultural environments. My academic background has equipped me with core competencies in international trade, global logistics, and cross-cultural negotiation. I am trained to design innovative business models and make high-impact decisions with a strong ethical foundation, always prioritizing human-centered strategies to achieve competitive positioning in an ever-changing global market.
+
+    - degree: Master Degree in Project Management
+      university: Universidad Panamericana
+      # optional
+      university_logo: https://www.up.edu.mx/wp-content/uploads/2025/07/logo-blanco-edited.jpg
+      time: 2021-2023
+      details: |
+        Additionally, I hold a Master’s degree in Project Management from Universidad Panamericana, where I specialized in the planning, execution, and monitoring of complex projects. This program enhanced my ability to manage resources effectively, mitigate risks, and lead high-performing teams using agile and waterfall methodologies. My training focused on delivering strategic value to organizations through optimized workflows and clear communication, ensuring that project objectives are met on time and within budget.
+    
+  
+      
+# Your previous job experiences or volunteer
+experiences:
+    - role: Quality Consultant
+      time: 2021-2023
+      company: DIMASUR
+      # optional
+      company_logo: https://media.licdn.com/dms/image/v2/D4E0BAQHF4AC11-uFfg/company-logo_200_200/B4EZWQ5XUOHMAI-/0/1741892712249/dimasurmx_logo?e=2147483647&v=beta&t=vTdpfC_l1Ox3rB9FlnKi4vIc_5jHkNCFFyOxxpgxHMI
+      details: |
+        Led a comprehensive Quality Management project to align the dealership's operations with John Deere’s global standards. I was responsible for the end-to-end process documentation and standardization across all departments, ensuring strict compliance with international quality parameters. My role involved auditing internal workflows, identifying efficiency gaps, and implementing strategic improvements to maintain the brand’s certification and operational excellence
+
+    - role: Accounting Assitant
+      time: 2020-2021
+      company: ATM Aguiñiga y Asociados
+      # optional
+      company_logo: https://bnimexico.com/web/open/appsCmsImageDownload?imageObjectId=5febf0ad0cf2acd5d3469dd3
+      details: |
+        Managed tax filings and compliance for both individuals and corporations (Personas Físicas y Morales), ensuring full adherence to fiscal regulations
+
+    - role: Sales Representative
+      time: 2025-now
+      company: In Vino Veritas
+      # optional
+      company_logo: https://le-cdn.website-editor.net/s/9903eadb8ddd4cb8a811774d00132a71/dms3rep/multi/opt/INVVERITASSINFONDO-640w.png?Expires=1774121527&Signature=FGV0BJ9VBFQhAbsn8S-xxZcDNjEH7iHJblYAH7uMgYsdN9foFvu2FOoi6US9~8CtTMu5ORuYH~I~1wYWmmTKdlDmCSQblwJF20HU6wavpkU4ji2Yn1kkfun63vCeNuTQx5Mhux6UOA4-ICigaUbzf6LeIH~avj1aO2jZEbdVv7W-WRoLMGNiNDyDsIYZi~JCwD2TaCOwO1PA1rjM3lXU4l5jFtVvsiOywHvbNreU9MhcnhilLxFweNF5zfA90YKpcyrIe5FwlEvdUqh1HLzWnj6M5cFo9gw2ikxN1t85m~IILfFIFraa-RMe0Czg2MBfQ7tkb5CokZ1HO2krMkjM-Q__&Key-Pair-Id=K2NXBXLF010TJW
+            details: |
+        "Driving business growth by managing a premium portfolio of Agave spirits and other distillates, focusing on market expansion and brand positioning
+
+  
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
