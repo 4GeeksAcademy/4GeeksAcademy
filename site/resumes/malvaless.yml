@@ -1,0 +1,152 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Maximiliano
+    last_name: Malvarez
+    
+    motto: I like to learn something new every day
+    
+    focus: Full Stack Developer, Networking, Software Engineering
+    
+    summary: |
+      Full Stack Developer with a strong technical background in networking,
+      electro-electronics, and systems engineering. Experienced in designing,
+      deploying, and maintaining software solutions combined with real-world
+      infrastructure such as servers, networks, and electrical systems.
+
+      I have hands-on experience with self-hosted services, Linux servers,
+      Docker-based environments, DNS, firewalls, and local network optimization.
+      My profile blends software development with practical problem-solving,
+      allowing me to work comfortably across both digital and physical systems.
+    
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    email: root@malvaless.com
+    phone: +598 098117297
+    website: "-"
+    linkedin: "-"
+    
+    github: malvaless
+    
+    twitter: '-'
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Native
+
+    interests:
+      - item: Continuous learning
+      - item: Gaming
+      - item: Technology
+      - item: Servers & self-hosting
+      - item: Networking
+
+# Your previous education
+education:
+    - degree: Electro-electronics and Electro-electronic Systems Technician
+      university: ORT University of Uruguay
+      university_logo: https://logoteca.uy/wp-content/uploads/sites/3/2024/09/ORT-Branding-Logo-Principal-1536x1054.png
+      time: 2022 - 2025
+      details: |
+        Technical degree focused on electrical installations, electronics,
+        automation, and system-level problem solving. Strong emphasis on
+        safety regulations, structured wiring, and industrial standards.
+
+          - Electrical installations and maintenance
+          - Industrial electronics and automation
+          - Networking fundamentals and structured cabling
+          - Technical documentation and project planning
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Electrical Installation & Maintenance Technician
+      time: 2022 - 2025
+      company: Independent / Freelance Work
+      details: |
+        Installation, maintenance, and troubleshooting of electrical systems
+        for residential and small commercial clients. Work focused on safety,
+        reliability, and compliance with local regulations.
+
+          - Electrical installations and upgrades
+          - Preventive and corrective maintenance
+          - Lighting systems and power distribution
+          - Technical diagnostics and on-site problem solving
+          - Direct client communication and support
+
+    - role: IT & Networking Enthusiast (Self-Taught)
+      time: 2020 - Present
+      company: Personal Projects
+      details: |
+        Hands-on experience gained through personal and experimental projects,
+        focused on servers, networking, and self-hosted services rather than
+        formal employment.
+
+          - Linux-based home servers and services
+          - Docker containers for self-hosted applications
+          - Local DNS, ad-blocking, and network optimization
+          - Game servers and media services
+          - Practical troubleshooting and system administration
+
+# Your project portfolio
+projects:
+    intro: >
+      A selection of personal, academic, and experimental projects focused on
+      software development, networking, and infrastructure. Many projects are
+      self-hosted and designed to solve real-world problems.
+
+    assignments:
+      - title: Self-Hosted Media & Streaming Stack
+        link: "#"
+        tagline: "Docker-based media and streaming services deployed on a local Linux server."
+
+      - title: Network-Wide Ad Blocking & DNS
+        link: "#"
+        tagline: "Local DNS and ad-blocking solution improving network performance and security."
+
+      - title: Game Server Infrastructure
+        link: "#"
+        tagline: "Deployment and maintenance of modded game servers with optimized networking."
+
+      - title: Electrical & Systems Final Project
+        link: "#"
+        tagline: "Complete electrical and systems design project including budgeting and scheduling."
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 85%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Linux Server Administration
+        level: 85%
+
+      - name: Docker & Containers
+        level: 80%
+
+      - name: Networking (Routing, DNS, Firewalls)
+        level: 85%
+
+      - name: Git & GitHub
+        level: 80%
+
+      - name: Electrical Installations & Maintenance
+        level: 75%
