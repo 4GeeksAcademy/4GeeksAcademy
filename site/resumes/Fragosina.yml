@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+template: "online-cv"
+skin: "blue"
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Fabiola
+    last_name: Fragoso
+    
+    # Define yourself in 4-5 words
+    motto: I love to learn
+    
+    # Focus
+    focus: STEAM Education & Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I build solutions at the intersection of industrial automation, 
+      statistical methods and machine learning. Passionate about process 
+      optimization, digital transformation and applying code to real-world engineering challenges.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/155220759?s=400&u=66ecbaf4a757379a90d438de3838b735a5e00db9&v=4
+    # Contact Information
+    email: fabiola.fragoso@cimat.mx #optional
+    phone: +524891031637 #optional
+    #website:  #optional
+    linkedin: fabiolafragososalas #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fragosina
+    
+    #twitter:  #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional
+      - idiom: Italian
+        level: Basic
+    # Interests or hobbies
+    interests:
+      - item: Astronomy
+      - item: Bird watching
+      - item: Crocheting
+# Your previous education
+education:
+    - degree: MSc in Electronics, Automated Control
+      university: Centro Nacional de Investigación y Desarrollo Tecnológico
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2003 - 2005
+      details: |
+        I completed a Master’s degree in Automatic Control, where I developed strong foundations
+        in classical and multivariable control techniques applied to industrial systems. 
+        My training included system modeling, stability analysis, controller design and 
+        implementation, with a focus on real-world industrial applications and process optimization.
+    - degree: BSc in Electronics
+      university: Universidad Autónoma de Aguascalientes
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 1996 - 2002
+      details: |
+        I earned a Bachelor’s degree in Electronic Engineering, developing solid knowledge in 
+        telecommunications, robotics, control systems and power electronics. My education 
+        emphasized system design, signal analysis, embedded systems and the integration of 
+        hardware and software solutions for real-world engineering challenges.
+# Your previous job experiences or volunteer
+experiences:
+    - role: Teacher, High School
+      time: 2025 - 2026
+      company: CBTIS 279, Aguascalientes
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a high school teacher, I delivered courses on computer maintenance
+        fundamentals and LAN network design, helping students build practical 
+        technical skills. I also led the Robotics Club, where I mentored students
+        in designing and building robotics projects, promoting innovation, 
+        collaboration and interest in STEM fields.
+    - role: Teacher, University
+      time: 2023 - 2025
+      company: Universidad Autónoma de Aguascalientes
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As a university professor, I teach Control Theory, Industrial and Discrete Control Systems,
+        Quality Management Standards and Machine Learning. I combine academic rigor with industry
+        experience, guiding students to apply control strategies, statistical methods and
+        data-driven approaches to solve complex engineering problems.
+    - role: Manufacturing / Automation Engineer
+      time: 2007 - 2023
+      company: Flex, Aguascalientes
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        As an Automation Engineer, I led digital transformation and automation projects
+        within PCBA manufacturing operations. I coordinated cross-functional teams in 
+        the implementation of Digital Lean Factory initiatives, performance monitoring 
+        systems and process optimization strategies. My work focused on integrating automation,
+        data analysis and Lean methodologies to enhance operational efficiency and quality performance.
+# Your project portfolio
+projects: 
+    #title: > Prediction of 30-Day Readmission in Diabetic Patients
+    intro: >
+        Prediction of 30-Day Readmission in Diabetic Patients
+        This project focused on applying Python-based classification algorithms to predict
+        whether diabetic patients would be readmitted to the hospital within 30 days. 
+        The objective was to leverage data-driven techniques to support healthcare
+        decision-making through predictive modeling and improved feature interpretation..
+    assignments:
+      - Conducted research on the clinical and technical aspects of diabetes-related data,
+       including pathology codes and treatment classifications used in the dataset.
+      - Performed data cleaning, filtering and preprocessing to improve dataset quality
+       and relevance.
+      - Analyzed and interpreted medical variables to enhance feature understanding and
+       contextual accuracy.
+      - Contributed to the development and evaluation of classification models for 30-day
+       readmission prediction.
+      - Supported model interpretability by aligning technical data features with real-world 
+       clinical meaning.
+      
+skills:
+    toolset:
+      - name: Python 
+        level: 20%
+      - name: Matlab
+        level: 80%
+      - name: Solid Works
+        level: 80%
