@@ -1,0 +1,103 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yoannis
+    last_name: Ramos Pérez
+    
+    # Define yourself in 4-5 words
+    motto: Amo a mi familia
+    
+    # Focus
+    focus: Mi meta es ser Full Stack 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Tengo como meta poder compartir mas tiempo con mi familia. Actualmente
+      me encuentro realizando un trabajo que me demanda mucho tiempo fuera de casa
+      y lleva muchisimo esfuerzo fisico, quiero que eso cambie.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/248748391?s=400&u=cb0a406c16ddc31136f666ce943479e7468909e5&v=4
+
+    # Contact Information
+    email: dafneangel3008@gmail.com
+    phone:  6549.9678
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: YoannisRP
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    
+    languages:
+      - idiom: English
+        level: Medio
+
+      - idiom: Spanish
+        level: Nativo
+
+    
+
+# Your previous education
+education:
+    - degree: Bachiller en Informática
+      time: enero 2005 - junio 2008
+      university: University of London
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Formación técnica en informática con bases en programación, sistemas y herramientas digitales.
+        
+          
+
+    
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Gerente de tienda
+      time: 2017-2021
+      company: PapaJonhs
+      details: |
+          Desenpeñe el cargo de gerente de tiends donde mis principales funciones
+          eran llevar inventarios y costes de tienda asi como la contratacion del 
+          personal.
+
+    - role: Trabajador por cuenta propia
+      time: 2021 - 2024
+      company: Transportista
+     
+      details: |
+        Me dedique durante este tiempo al transporte de mercancias
+        donde transportaba casi tod tipo de mercancias para diferentes empresas.
+
+    - role: Trasportista
+      time: 2024 - Actualmente
+      company: Carnicas Pardo Andres S.L
+      
+      details: |
+       Me dedico actualmente al transporte de gandado y su distribucion.
+
+          
+
+# Your project portfolio
+projects:
+    intro: >
+      Actualmente me encuentro formando parte de un curso de  desarrollo Full estack
+      
+
+   
