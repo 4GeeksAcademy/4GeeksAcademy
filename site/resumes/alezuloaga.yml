@@ -1,0 +1,68 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alejandro 
+    last_name: Zuloaga
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+    Ingeniero Mecánico enfocado en la optimización de procesos operativos y la eficiencia técnica. Especialista en el abordaje meticuloso de proyectos complejos, con una alta capacidad para la asimilación de nuevos conocimientos y la adaptación a entornos dinámicos. Mi gestión profesional se centra en la organización estratégica y la perseverancia para garantizar resultados de alta calidad, fundamentados en una sólida formación académica y la excelencia en la ejecución.
+      
+    
+
+
+    # Contact Information
+    email: alezuloagaeliaz@gmail.com #optional
+    linkedin: https://www.linkedin.com/in/alejandro-zuloaga-69684b210/
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github:alezuloaga
+    
+  
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Deportes 
+
+      - item: Peliculas 
+
+      - item: Podcasts
+
+# Your previous education
+education:
+    - degree: Ingeniero Mecánico
+      university: Universidad Metropolitana
+     
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Rider Service Agent
+      time: 2025 - Present
+      company: PedidosYa, Venezuela
+      # optional
+  
+      details: |
+        Lidero la gestión de la flota de repartidores a nivel nacional, asegurando el cumplimiento y la eficiencia en la operación diaria de órdenes. 
+        Superviso continuamente indicadores clave de rendimiento (KPIs) de los repartidores, identificando áreas de mejora e implementando estrategias para optimizar la productividad y eficiencia.
+        Mantengo el control y manejo de archivos y dashboards para obtener un entendimiento profundo de la operación, enfocado en el mejoramiento continuo y la garantía de una experiencia de usuario final satisfactoria.
+
