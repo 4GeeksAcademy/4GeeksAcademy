@@ -1,0 +1,140 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Marcos
+  last_name: Tapia
+  motto: Passion for software development
+  focus: Backend and multiplatform development
+  summary: >
+    Junior software developer specialized in Multiplatform Application
+    Development (DAM).
+
+    I have experience developing applications using Java, SQL databases and web technologies.
+
+
+    During my studies I worked on several projects including desktop applications,
+
+    REST APIs and database-driven systems. I enjoy solving problems, learning new
+
+    technologies and building efficient and scalable software.
+  avatar: 
+  email: marcoslucia555777@gmail.com
+  phone: 600263417
+  website: 
+  linkedin: Marcos Tapia
+  github: Marcos0416
+  twitter: null
+  stack-overflow: null
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: medium
+  interests:
+    - item: Programming
+    - item: Technology
+    - item: Learning new frameworks
+education:
+  - degree: CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)
+    university: IES San Juan de la Cruz
+    university_logo: 
+    time: 2023 - 2025
+    details: |
+      Higher vocational training focused on software development, databases
+      and multiplatform applications.
+
+        - Java programming and object oriented design
+        - SQL and relational databases (MySQL)
+        - Desktop and backend development
+        - Web technologies (HTML, CSS)
+        - Version control with Git
+        - Python,Android studio,Kotlin
+  - degree: CFGS Sistemas microinformaticos y redes (SMR)
+    university: IES San Juan de la Cruz
+    university_logo: 
+    time: 2021 - 2023
+    details: |
+      Higher vocational training focused on software development, databases
+      and multiplatform applications.
+
+        - Installation and configuration of Windows and Linux operating systems
+        - Computer hardware assembly, repair and diagnostics
+        - Local network configuration (LAN), routers and switches
+        - Network services configuration (DHCP, DNS, file servers)
+        - Basic cybersecurity and system protection
+        - Technical support and troubleshooting for users
+        - Virtualization with tools such as VirtualBox or VMware
+        - Backup systems and system maintenance
+experiences:
+  - role: Junior Developer (Internship)
+    time: 2025
+    company: Correcta digital
+    company_logo: https://media.licdn.com/dms/image/v2/C560BAQGjrXld3BsdRg/company-logo_200_200/company-logo_200_200/0/1644830341749/correcta_safely_growing_digital_logo?e=2147483647&v=beta&t=gINBlQzQnHpE9GatWsiTceJlG9xwZ27aHtyG8HKxHTY
+    details: >
+       Worked as part of the QA and design team collaborating in the development
+       and improvement of digital products.
+
+        - Performed Quality Assurance (QA) testing to identify bugs and usability issues
+        - Created and executed test cases to ensure application functionality
+        - Reported issues and collaborated with developers to improve product quality
+        - Assisted in basic UI/UX design tasks for web interfaces
+        - Reviewed layouts and design consistency across different devices
+        - Participated in testing new features before release
+  - role: IT Support Technician
+  time: 2023
+  company: Alten
+  company_logo: https://upload.wikimedia.org/wikipedia/commons/3/3e/ALTEN_logo.svg
+  details: |
+    Provided technical support through a ticketing system resolving user
+    incidents and technical issues.
+
+      - Managed and resolved support tickets related to software and system issues
+      - Diagnosed and troubleshooted hardware and software problems
+      - Assisted users with system access, configuration and technical errors
+      - Escalated complex incidents to specialized teams when necessary
+      - Documented solutions and updated ticket status in the support system
+      - Ensured timely resolution of incidents following company procedures
+projects:
+  intro: >
+    Here are some of the projects developed during my studies and personal
+    learning.
+  assignments:
+    - title: Aplicacion mus TFG
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: https://github.com/Marcos0416/ProyectoMus
+      tagline: Application to play the traditional Spanish card game Mus with score tracking.
+    
+skills:
+    toolset:
+      - name: Java
+        level: 85%
+
+      - name: SQL / MySQL
+        level: 80%
+
+      - name: Git & GitHub
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: Software Testing / QA
+        level: 75%
+
+      - name: IT Support & Ticketing Systems
+        level: 70%
+
+      - name: Windows & Linux Administration
+        level: 70%
+
+      - name: kotlin
+        level: 70%
+
+      - name: Python
+        level: 50%
+
+      
