@@ -1,0 +1,158 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Joane   
+    last_name: Aristilde
+    
+    # Define yourself in 4-5 words
+    motto: I love biking on ocean drive miami beach
+    
+    # Focus
+    focus: Learn DataSceience and ML  by july 2024
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      As a season Technical Program Manager and Certified Scrum Master, I bring over a decade of experience in tech transformation and mastery in Agile methodologies.
+      My career is marked by successfully leading cross-functional teams, managing large-scale technical projects, and spearheading initiatives that align with corporate goals. 
+      My proficiency spans Cyber Security, AI, and infrastructure projects, emphasizing PI planning and release management.
+      Now, I'm expanding my expertise by learning data science to further enhance my program management skills, 
+      ensuring I stay at the forefront of technological advancement and add more value to the businesses I work with.
+      
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: joanearistilde@gmail.com #optional
+    phone: 305 332 5401 2 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JoaneAristilde
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Learner
+
+    # Interests or hobbies
+    interests:
+      - item: Biking
+
+      - item: Crossfit
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: BS Information System
+      university: Florida International University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2024
+      details: |
+       
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Technical Program Manager
+      time: 2022 - Present
+      company: New York, NY
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        At McGraw-Hill, in my role as Senior Technical Program Manager & Scrum Master since 2022, 
+        I've collaborated with multiple cross-functional teams, both onshore and offshore, to build applications and platforms,
+        including working closely with Site Reliability Engineering (SRE) teams. 
+        I've leveraged tools like Jira, Confluence, and Rally to efficiently manage and track project progress.
+        My understanding of the software development life cycle, combined with strong problem-solving and analytical skills,
+        has been instrumental in my work. I've taken the lead on AI-based initiatives, 
+        focusing on developing and enhancing autonomous learning platforms. In this dual role,
+        I've managed 3 to 5 concurrent projects, steering cross-functional Agile teams through various stages,
+        from story grooming and sprint planning to demos and retrospectives. 
+        My efforts have been key in integrating work from different subsystems into cohesive, high-quality software solutions,
+        making a significant impact on the global learning experience.
+
+          - Bullet point
+          - Bullet point
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
