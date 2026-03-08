@@ -1,0 +1,34 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # profile information
+    name: Moises Aguirre
+    tagline: Full Stack Developer
+    avatar: profile.png
+    
+    # Sidebar links
+    email: moisesaguirre22@gmail.com
+    phone: 09 4664 3233
+    website: blog.moisesaguirre22.com #do not add http://
+    linkedin: moisesaguirre22
+    github: moisesaguirre
+    twitter: '@moisesaguirre'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+
+    Languages :
+    - idiom: Español
+    level: Native
+    - idiom: Ingles
+    level: Intermedio
+    - idiom: frances
+    level: principiante
+
+
