@@ -1,0 +1,109 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Melissa
+    last_name: Huamán
+    
+    motto: Datos, análisis y aprendizaje continuo
+    
+    focus: Data Analysis / Data Science
+    
+    summary: |
+      Profesional orientada al análisis de datos con experiencia trabajando como Data Information Executive en Madrid. 
+      Mi trabajo se centra en la gestión, análisis e interpretación de datos para generar información útil para la toma de decisiones.
+
+      Actualmente estoy especializándome en ciencia de datos a través de un bootcamp de Data Science, donde estoy desarrollando habilidades en Python, análisis de datos, sql y demás herramientas. visualización y herramientas modernas del ecosistema de datos.
+    
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    email: melissa17huaman@gmail.com
+    phone: +34 643192724 
+    website: ""
+    linkedin: https://www.linkedin.com/in/melissa-huam%C3%A1n-39890a120/
+    
+    github: ""
+    
+    twitter: ""
+    stack-overflow: ""
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Data Analysis
+      - item: Data Science
+      - item: Python
+      - item: Tecnología
+      - item: Aprendizaje continuo
+
+# Education
+education:
+    - degree: Bootcamp Data Science
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026
+      details: |
+        Formación intensiva enfocada en ciencia de datos y programación.
+
+          - Python para análisis de datos
+          - Manipulación de datos
+          - Visualización de datos
+          - Fundamentos de machine learning
+
+# Experience
+experiences:
+    - role: Data Information Executive
+      time: Actualidad
+      company: REFRIVAL
+      company_logo: ""
+      details: |
+        Trabajo enfocado en el manejo y análisis de datos para apoyar la toma de decisiones dentro de la organización.
+
+          - Gestión y análisis de datos operativos
+          - Elaboración de reportes y seguimiento de indicadores
+          - Apoyo en análisis de información para distintas áreas
+
+# Projects
+projects:
+    intro: >
+      Algunos proyectos relacionados con aprendizaje y práctica en análisis de datos.
+
+    assignments:
+      - title: Análisis de datos con Python
+        project_logo: ""
+        link: "#"
+        tagline: "Exploración y análisis de datasets utilizando Python."
+
+      - title: Visualización de datos
+        project_logo: ""
+        link: "#"
+        tagline: "Creación de gráficos y visualizaciones para interpretar datos."
+
+      - title: Proyectos del bootcamp
+        project_logo: ""
+        link: "#"
+        tagline: "Proyectos prácticos enfocados en análisis y ciencia de datos."
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: Data Analysis
+        level: 75%
+
+      - name: Data Visualization
+        level: 70%
+
+      - name: Excel
+        level: 85%
+
+      - name: SQL
+        level: 60%
