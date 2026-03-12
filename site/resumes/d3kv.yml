@@ -1,0 +1,161 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adiel
+    last_name: Roca Flores
+    
+    # Define yourself in 4-5 words
+    motto: Mejorando día a día.
+    
+    # Focus
+    focus: Desarrollar mi propia app.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      He hecho 2 años de el grado universitario de Derecho y planeo terminarlo pero para ello estoy buscando mejores oportunidades laborales.
+      Siento que la informática y la programación son cosas que se me pueden dar bien desde que di clases con Python y tenía mucha facilidad.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: d3kv
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Português
+        level: A2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Gym
+
+      - item: Hacer rutas
+
+# Your previous education
+education:
+    - degree: Derecho 
+      university: Universidad Internacional de la Rioja
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022-2024
+      details: |
+        Grado de Derecho
+
+          - Bullet point
+          - Bullet point
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Teleoperador 
+      time: 2018-2020
+      company: Cortefiel - Covisian
+      # optional
+      company_logo: https://covisian.com/wp-content/uploads/2024/06/ACCELERATING_INNOVATION_LOGO.png
+      details: |
+        Atención al cliente, gestión de correos y RRSS. 
+
+          - Bullet point
+          - Bullet point
+
+    - role: Teleoperador Especialista
+      time: 2021-2026
+      company: Guuk - Covisian
+      # optional
+      company_logo: https://covisian.com/wp-content/uploads/2024/06/ACCELERATING_INNOVATION_LOGO.png
+      details: |
+        BackOffice técnico, resolución de incidencias y seguimiento personalizado de averías complejas. Emisión de llamadas.
+
+          - Bullet point
+          - Bullet point
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
