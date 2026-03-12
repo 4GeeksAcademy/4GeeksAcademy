@@ -1,0 +1,51 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Julio Eugenio
+  last_name: Lapuente
+  motto: Padel Coach & Future Full Stack Developer
+  focus: Learning programming and building digital products
+  summary: 
+    International padel coach currently based in Jeddah.
+    Now transitioning into software development while building projects and learning full stack technologies.
+
+  avatar: https://github.com/julitolapuente.png
+
+  email: jlapujun@gmail.com
+  github: Julitoo01
+  linkedin: https://linkedin.com/in/julitolapuente
+
+education:
+  - degree: Full Stack Developer Bootcamp
+    institution: 4Geeks Academy
+    time: 2026
+    to: Present
+
+education university:
+ - degree: Phsiotherapist
+   institution: Uax
+   time: 2018
+   to: 2024
+
+experience:
+  - role: Head Padel Coach
+    company: Padel Club
+    from: 2024
+    to: Present
+    description: Coaching players and organizing tournaments.
+
+projects:
+  - name: Random Card Generator
+    description: JavaScript app that generates random poker cards.
+    repository: https://github.com/julitolapuente/random-card
+
+skills:
+  - name: HTML
+    level: 70
+  - name: CSS
+    level: 65
+  - name: JavaScript
+    level: 60
+  - name: Git
+    level: 70
