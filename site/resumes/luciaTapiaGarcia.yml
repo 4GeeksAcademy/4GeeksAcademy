@@ -1,0 +1,101 @@
+template: "online-cv"
+skin: "pink"
+
+# Personal Information
+basic_info:
+    first_name: Lucia
+    last_name: Tapia
+    motto: Loves Travel & Animals
+    focus: Learning Python
+    summary: |
+      I am an enthusiastic developer with a passion for programming, AI, and technology. 
+      I have completed DAM and SMR, gaining practical experience during internships at SopraStera and Alten.
+      I have worked both in ticket support and development, including creating Java and Kotlin applications, and integrating APIs for educational projects like Kizunat. 
+      Always eager to learn and improve my skills.
+
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    email: luuciatapiaa22@gmail.com
+    phone: 684288446
+    website: https://github.com/luciaTapiaGarccia
+    linkedin: lucia-tapia
+    github: luciaTapiaGarccia
+    twitter: 'luciaTapia'
+    stack-overflow: ''
+    languages:
+      - idiom: English
+        level: B2
+      - idiom: Spanish
+        level: Native
+    interests:
+      - Animals
+      - Artificial Intelligence
+      - Programming
+
+# Your previous education
+education:
+    - degree: Development of Multiplatform Applications (DAM)
+      university: IES San Juan de la Cruz
+      time: 2023 - 2025
+      details: |
+        Focused on Java and Kotlin programming, databases, web and mobile app development.
+          - Java and Android application projects (TFG in Kotlin)
+          - MySQL and PostgreSQL database management
+
+    - degree: Microcomputer Systems and Networks (SMR)
+      university: IES San Juan de la Cruz
+      time: 2022 - 2024
+      details: |
+        Training in operating systems, networks, and system administration.
+          - Server installation and configuration
+          - Maintenance of computers and networks
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Junior Developer Intern
+      time: March - June
+      company: SopraStera
+      details: |
+        Worked as a developer during final year of DAM. Developed Java/Kotlin applications and integrated APIs.
+          - Kizunat project: integrated a menu API for dietary tracking
+          - Android app interface development using Kotlin
+          - Internal development projects
+
+    - role: Ticket Support Intern
+      time: March - June
+      company: Alten
+      details: |
+        Provided ticket support during final year of SMR. Managed user requests and solved technical issues.
+          - Ticket management and issue resolution
+          - Support for internal users
+          - Documentation of support procedures
+
+# Your project portfolio
+projects:
+    intro: >
+      Projects developed during DAM and SMR studies, and practical experience at SopraStera and Alten.
+    assignments:
+      - title: Kizunat Menu App
+        link: "#"
+        tagline: "Educational project integrating a menu API for dietary recommendations using Kotlin and Android.
+
+      - title: Personal Portfolio Website
+        link: "#"
+        tagline: "Web portfolio showcasing projects, skills, and learning journey."
+
+# Your skills
+skills:
+    toolset:
+      - name: Java
+        level: 60%
+      - name: Python
+        level: 40%
+      - name: Kotlin
+        level: 60%
+      - name: HTML5 & CSS
+        level: 70%
+      - name: Android Studio
+        level: 70%
+      - name: Git & GitHub
+        level: 75%
+      - name: SQL (MySQL/PostgreSQL)
+        level: 70%
