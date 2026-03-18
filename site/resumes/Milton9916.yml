@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Milton Esneider
+    last_name: Useche Zarate
+    
+    # Define yourself in 4-5 words
+    motto: Resolviendo problemas reales con lógica y código
+    
+    # Focus
+    focus: Full Stack Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante de Desarrollo de Software en 4Geeks Academy España, con formación previa en Análisis y Desarrollo de Sistemas de Información en Colombia y experiencia en soporte técnico TI.
+      Actualmente estoy fortaleciendo mis bases en programación y desarrollo web, trabajando con tecnologías como HTML, CSS, JavaScript, React, Python y SQL.
+      Mi objetivo es crecer profesionalmente en el sector tecnológico desarrollando aplicaciones web y soluciones útiles mediante código.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/216090327?s=400&u=a0aadd76c2fbd0d4c3b3969febc84af4b92bf9e0&v=4
+
+    # Contact Information
+    email: miltonusechez@gmail.com #optional
+    linkedin: www.linkedin.com/in/milton-useche-b9636a1b2 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Milton9916
+    
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Desarrollo Web Full Stack
+
+      - item: Creación de APIs y backend
+
+      - item: Backend y APIs
+
+# Your previous education
+education:
+    - degree: Desarrollo de Software Full Stack
+      university: 4Geeks Academy España
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026 - Presente
+      details: |
+        Formación intensiva en desarrollo web Full Stack, trabajando con tecnologías como HTML, CSS, JavaScript, React, Python y SQL.
+        Enfoque en la creación de aplicaciones web, consumo de APIs, desarrollo de backend y sistemas de autenticación.
+          - Desarrollo de proyectos reales
+          - Trabajo con frontend y backend
+          - Uso de buenas prácticas de programación
+    - degree: Análisis y Desarrollo de Sistemas de Información
+      university: Colombia
+      # optional
+      time: Finalizado
+      details: |
+        Formación en análisis, diseño y desarrollo de sistemas de información, con bases en programación, lógica y gestión de proyectos tecnológicos.
+          - Fundamentos de programación
+          - Análisis de sistemas
+          - Bases de datos
+
+# Your previous job experiences or volunteer
+experiences:
+  - role: Estudiante de Desarrollo de Software
+    company: 4Geeks Academy España
+    time: 2026 - Presente
+    details: |
+      Actualmente en formación como desarrollador Full Stack, adquiriendo conocimientos en programación, lógica y desarrollo de aplicaciones web.
+      Trabajo con tecnologías como HTML, CSS, JavaScript, React, Python y SQL, desarrollando proyectos prácticos y fortaleciendo habilidades técnicas.
+        - Desarrollo de proyectos web
+        - Aprendizaje de frontend y backend
+        - Consumo de APIs y lógica de programación
+
+  - role: IT Support Technician
+    company: SONDA
+    time: 2018 - 2019
+    details: |
+      Formé parte del área de soporte técnico, realizando la preparación, configuración y mantenimiento de equipos informáticos para diferentes sedes y usuarios corporativos.
+      Brindé soporte técnico y aseguré el correcto funcionamiento de los sistemas y equipos.
+        - Configuración y mantenimiento de equipos
+        - Soporte técnico a usuarios
+        - Gestión de incidencias tecnológicas
