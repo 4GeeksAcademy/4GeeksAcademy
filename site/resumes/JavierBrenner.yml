@@ -1,0 +1,160 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Javier
+    last_name: Brenner
+    
+    # Define yourself in 4-5 words
+    motto: Nomada digital en proceso
+    
+    # Focus
+    focus: Aprender siempre aprender
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Como desarrollador Full Stack y nómada digital, combino la solidez técnica 
+      en todo el ciclo de vida de una aplicación con una mentalidad adaptable 
+      y en constante evolución. Mi carrera se define por la curiosidad de aprender 
+      nuevas tecnologías mientras recorro el mundo, lo que me permite aportar una 
+      visión global y fresca a cada proyecto. 
+      Me especializo en construir soluciones eficientes y escalables, 
+      integrando lógica robusta con interfaces modernas para transformar 
+      ideas en productos digitales de alto impacto.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/JavierBrenner.png
+
+    # Contact Information
+    email: javibrenner18@gmail.com #optional
+    phone: +61 415 657 632 #optional
+    website:  #optional
+    linkedin: javier-brenner #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JavierBrenner
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Futbol
+
+      - item: Snowboarding
+
+      - item: Surf
+
+# Your previous education
+education:
+    - degree: Full-Stack Developer
+      university: 4GeeksAcademy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026
+      details: |
+        I am a Full Stack Developer in training with a focus on building functional, 
+        responsive web applications and automating business processes. 
+        My approach combines clean frontend design with efficient JavaScript logic 
+        to create seamless user experiences.
+
+          - Frontend Development: Experienced in crafting responsive layouts using Bootstrap, 
+          implementing complex grid systems, and managing interactive UI components 
+          like payment forms and dynamic feeds.
+
+          - E-commerce & Automation: Interested in the technical integration of online 
+          storefronts (Shopify, Amazon Seller) and the automation of supply chain workflows 
+          to maximize operational efficiency.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Help Desk Technician
+      time: 2021 - 2022
+      company: Aktios
+      # optional
+      company_logo: data:image/jpeg;base64,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
+      details: |
+        Técnico de Help Desk enfocado en la resolución eficiente de incidencias técnicas 
+        y soporte al usuario final. Especialista en diagnóstico de hardware y software, 
+        mantenimiento de sistemas y optimización de flujos de trabajo tecnológicos. 
+         con brindar soluciones rápidas que garanticen la continuidad operativa de la empresa.
+
+    - role: Técnico informático
+      time: 2020 - 2021
+      company: Ricoh España
+      # optional
+      company_logo: data:image/jpeg;base64,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
+      details: |
+        Técnico Informático con sólida capacidad de respuesta en entornos 
+        corporativos de alto nivel. Especializado en el despliegue de soluciones d
+        e infraestructura, mantenimiento preventivo y correctivo, y soporte técnico 
+        integral. Enfocado en garantizar la eficiencia operativa y la transformación 
+        digital a través de la tecnología.
+
+    - role: Técnico informático
+      time: 2018 - 2020
+      company: J P C INFORMATICA Y COMUNICACIONES SL
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoZl2r-dJ-SqTE6H4CKGN-vzyhKQsXhUHJw&s
+      details: |
+        Técnico Informático con sólida capacidad de respuesta en entornos 
+        corporativos de alto nivel. Especializado en el despliegue de soluciones d
+        e infraestructura, mantenimiento preventivo y correctivo, y soporte técnico 
+        integral. Enfocado en garantizar la eficiencia operativa y la transformación 
+        digital a través de la tecnología.
+
+# Your project portfolio
+projects:
+    intro: >
+      Aqui estan listados mis proyectos actuales.
+
+    assignments:
+      - title: YML-JavierBrenner
+
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/4GeeksAcademyYML-JavierBrenner
+        tagline: "Un proyecto para subir mi CV dentro de github."
+
+      - title: FormularioHTML-JavierBrenner
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/FormularioHTML-JavierBrenner
+        tagline: "Formulario HTML responsive generado con Bootstrap."
+
+      - title: FeedInstagramBoostrap-JavierBrenner
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/FeedInstagramBoostrap-JavierBrenner
+        tagline: "Feed Instagram responsive generado con Bootstrap."
+
+      - title: PostInstagram-JavierBrenner
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/PostInstagram-JavierBrenner
+        tagline: "Creando una card como post de Instagram para hacer pruebas de flexbox."
+
+      - title: JavierBrenner-GeneradorDeExcusas
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/JavierBrenner/JavierBrenner-GeneradorDeExcusas
+        tagline: "Creacion de un generador de excusas para probar loops y DOM"
+
+skills:
+    toolset:
+      - name: JavaScript & github
+        level: 98%
