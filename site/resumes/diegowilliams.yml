@@ -1,0 +1,63 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Diego
+    last_name: Williams
+    motto: Student
+    avatar: ~
+    summary: |
+        Tengo 21 años y estoy comenzando una carrera universitaria en Datos y Analítica de Negocios.
+        Me apasionan el análisis de datos, la inteligencia artificial y los negocios.
+
+    # Sidebar links
+    email: diegowp310@gmail.com
+    phone: +52 55 4635 4753
+    website: ~
+    linkedin: linkedin.com/in/diego-williams-8645163b8
+    github: diegowilliams
+    twitter: ~
+    stack-overflow: ~
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    interests:
+      - item: Data Analysis
+      - item: Machine Learning
+      - item: Artificial Intelligence
+      - item: Business Analytics
+
+education:
+    - degree: Grado en Datos y Analítica de Negocios
+      university: ESIC
+      time: En curso
+
+experiences:
+    - role: Atención al Cliente
+      time: ~
+      company: Notaría
+      details: |
+          Trabajo en el área de trato al cliente en una Notaría.
+
+    - role: Ventas
+      time: ~
+      company: Ventas puerta en puerta
+      details: |
+          Experiencia en ventas directas puerta en puerta.
+
+projects:
+
+skills:
+    toolset:
+      - name: Python
+        level: ~
