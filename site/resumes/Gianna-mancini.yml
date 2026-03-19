@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gianna
+    last_name: Mancini
+    
+    # Define yourself in 4-5 words
+    motto: Tranquila, Responsable, Inteligente, Amable
+    
+    # Focus
+    focus: Aprender cosas nuevas cada dia
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Soy una persona con una dualidad fascinante: combino una naturaleza reservada y tranquila con una determinación interna muy clara. Aunque pueda identificarme con la timidez, no permito que eso me detenga, al contrario, demuestro una disposición constante para salir de mi zona de confort y enfrentar nuevos retos con valentía. 
+
+      Tengo esa mezcla poco común de introspección y coraje que me permite avanzar con paso firme, incluso cuando el camino parece intimidante.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: giannamancini41@gmail.com #optional
+    phone: 0426-1435026 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Gianna-mancini
+    
+    twitter: 'Gia_24' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B2
+
+    # Interests or hobbies
+    interests:
+      - item: Jugar video-juegos
+
+      - item: Ver peliculas/series
+
+      - item: Dibujar
+
+# Your previous education
+education:
+    - degree: Administracion
+      university: Universidad Nacional Experimental Simon Rodriguez
+      # optional 
+      university_logo: https://www.unesrmaracay.org/public/assets/logomenu.png
+      time: 2024 - 2025
+      details: |
+        Formación en gestión empresarial y administración de recursos
+
+        Conocimientos en contabilidad básica y finanzas
+
+        Desarrollo de habilidades organizativas y de planificación
+
+        Trabajo en equipo y resolución de problemas
+
+        Análisis de procesos y toma de decisiones
+
+    - degree: Bachiller
+      university: Colegio S.S Juan Pablo II
+      # optional
+      university_logo: https://juanpabloii.edu.co/wp-content/uploads/2024/06/logoCJP.png
+      time: 2018 - 2023
+      details: |
+        Conocimientos en contabilidad básica y finanzas
+        Desarrollo de habilidades organizativas y de planificación
+        Trabajo en equipo y resolución de problemas
+        Análisis de procesos y toma de decisiones 
+        Formación en ciencias naturales y matemáticas, con énfasis en el desarrollo del pensamiento lógico, analítico y crítico. Adquisición de conocimientos en biología, química y física, junto con habilidades para la resolución de problemas, organización del estudio y aprendizaje autónomo. Capacidad para interpretar información, trabajar de forma estructurada y adaptarse a distintos entornos académicos
+
+# Your previous job experiences or volunteer
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Post de Instagram
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Gianna-mancini-PostDeInstagram.git"
+        tagline: "Proyecto que simula un post de Instragram, hecho con HTML y CSS."
+
+      - title: Instagram Photo Feed
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/Gianna-mancini-Instagram-Photo-Feed.git"
+        tagline: "Proyecto que simula un Feed de Instagram, hecho con HTML5 y Bootstrap."
+
+      - title: Form HTML5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/html-forms-tutorial-exercises.git"
+        tagline: "Proyecto que simula un formulario, hecho con HTML5,Bootstrap y CSS"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0%
+
+      - name: JavaScript & jQuery
+        level: 60%
+
+      - name: Angular
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Ruby on Rails
+        level: 0%
+
+      - name: Sketch & Photoshop
+        level: 0%
