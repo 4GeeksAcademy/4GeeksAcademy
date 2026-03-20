@@ -1,0 +1,152 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Michelle 
+    last_name: Sirvent
+    
+    # Define yourself in 4-5 words
+    motto: Driven, creative, disciplined, evolving, ambitious
+    
+    # Focus
+    focus: To become an independent web developer and build my own projects
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Aspiring web developer building real-world applications and working towards becoming an independent creator. I enjoy turning ideas into functional products, learning by doing, and improving every day. Focused on clean UI, practical solutions, and creating projects that can grow into something meaningful.
+
+      Currently working on personal projects with the goal of turning them into real digital products. Motivated by growth, independence, and the challenge of building things from scratch, I’m constantly pushing myself to learn, create, and evolve as a developer.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/Michelle_Sirvent.jpg
+    # Contact Information
+    email: sirvent.kaufmann@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: https://www.linkedin.com/in/Michelle-Sirvent/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: 
+    github: Sweetaxonomy
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: design
+
+      - item: climb mountains
+
+      - item: Draw
+
+# Your previous education
+education:
+    - degree: Ing. Civil
+      university: Central University of Venezuela
+      # optional
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Logo_Universidad_Central_de_Venezuela.svg/960px-Logo_Universidad_Central_de_Venezuela.svg.png
+      time: 2015 - 2019
+      details: |
+        Civil Engineering focused on the design, planning, and construction of infrastructure projects, including structural analysis, materials, and project management. Developed problem-solving skills and technical knowledge to ensure safety, efficiency, and sustainability in engineering solutions.
+
+          - focused on the design, planning, and construction
+          - Emphasis on developing analytical thinking.
+
+    - degree: Bachelor of Science
+      university: UE Luisa Amalia Vegas
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2012
+      details: |
+        High School Diploma in Science, with a focus on mathematics, physics, and chemistry. Developed analytical thinking, problem-solving skills, and a strong academic foundation.
+
+          - Focused on mathematics, physics, and chemistry, building a strong scientific foundation.
+          - Developed analytical thinking, problem-solving skills, and attention to detail.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: CAD Designer
+      time: 2015 - 2019
+      company: Schneider Electric, ccs - Venezuela
+      # optional
+      company_logo: https://www.logo.wine/a/logo/Schneider_Electric/Schneider_Electric-Logo.wine.svg
+      details: |
+        Created and modified technical drawings using AutoCAD for industrial and energy projects, collaborating with engineering teams to ensure accuracy and compliance with technical specifications for clients such as Schneider Electric and PDVSA.
+          - Created and updated technical drawings
+          - Collaborated with engineering teams to ensure accuracy and compliance with standards for clients such as Schneider Electric and PDVSA.
+
+    - role: App Designer
+      time: 2024 - 2025
+      company: Fataexpress, Spain
+      # optional
+      company_logo: https://fataexpress.com/wp-content/uploads/2023/09/LOGO-PERFIL-1.png
+      details: |
+        Designed and prototyped user interfaces using Figma, creating wireframes, interactive prototypes, and responsive layouts with a focus on usability, visual consistency, and user experience. Collaborated on UI/UX design by organizing components and maintaining design systems to support efficient web application development.
+
+          - Created UI designs and prototypes using Figma.
+          - Responsive design
+
+   
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Formulary
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/sweetanomy-formulario"
+        tagline: "A form built with Bootstrap uses a responsive grid system and pre-designed components to create structured and visually consistent input fields. It includes elements such as text inputs, labels, buttons, and validation styles, allowing for a user-friendly interface that adapts to different screen sizes."
+
+      - title: Instagram Post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/sweetaxonomy-instagram-bootstrap"
+        tagline: "An Instagram-style post built with Bootstrap uses a responsive layout and predefined components to recreate the structure of a social media post. It includes elements such as images, icons, text sections, and interactive buttons, organized using the grid system and utility classes to ensure a clean, adaptable, and visually consistent design across different devices."
+
+      - title: Terminal challenge
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/breatheco-de/exercise-terminal-challenge"
+        tagline: "A project using terminal commands involves working with files and directories through the command line, improving efficiency and understanding of system operations."
+
+skills:
+    toolset:
+      - name: HTML5
+        level: 98%
+
+      - name: CSS
+        level: 70%
+
+      - name: JavaScript
+        level: 66%
+
+      - name: Java
+        level: 72%
+
+      - name: React
+        level: 60%
+
+      - name: Figma
+        level: 80%
