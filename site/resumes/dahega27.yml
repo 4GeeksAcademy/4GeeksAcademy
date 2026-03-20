@@ -1,0 +1,54 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Damian
+    last_name: Herrera
+    
+    # Define yourself in 4-5 words
+    motto: En constante crecimiento.
+    
+    # Focus
+    focus: Mejorar cada día en todos los aspectos.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      He estudiado Administración en México. 
+      Cuento con experiencia como encargado de fábrica, donde fui responsable de la gestión integral, 
+      incluyendo el control de personal e inventario. 
+      También he trabajado como auxiliar administrativo en España, 
+      colaborando en la gestión documental y en la tramitación de contratos para distintas empresas eléctricas.
+      Actualmente, me encuentro formándome en programación con el objetivo de ampliar mis habilidades y seguir desarrollándome profesionalmente.
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: dahegu@gmail.com #optional
+    phone: 620 03 94 83 #optional
+    website: #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dahega27
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Espanol
+        level: Nativo
+
+      - idiom: Ingles
+        level: Basico
+
