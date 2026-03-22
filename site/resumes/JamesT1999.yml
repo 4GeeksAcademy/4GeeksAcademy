@@ -1,0 +1,39 @@
+template: online-cv
+skin: blue
+
+basic_info:
+  first_name: Jaime
+  last_name: Torres
+  github: JamesT1999
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Basic
+  interests:
+    - item: Data Analysis
+    - item: Programming
+    - item: Technology
+
+education:
+  - degree: Ciencia de Datos
+    university: 4Geeks Academy
+    time: "2026"
+    details: |
+      Formación enfocada en análisis de datos, programación en Python
+      y uso de herramientas para ciencia de datos.
+
+experiences:
+  - role: Estudiante de Ciencia de Datos
+    time: "2026"
+    company: 4Geeks Academy
+    details: |
+      Aprendizaje de programación en Python, análisis de datos
+      y desarrollo de proyectos prácticos.
+
+skills:
+  toolset:
+    - name: Python
+      level: 70%
+
+
