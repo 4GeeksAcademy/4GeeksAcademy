@@ -1,0 +1,140 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Lorena Estefania
+    last_name: Garza Hernandez
+    
+    # Define yourself in 4-5 words
+    motto: Live and learn
+    
+    # Focus
+    focus: I focus on game design and interactive experiences.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Digital Arts graduate with a concentration in game development, experienced in Unity and interactive design. 
+      Currently expanding my skills through a Fullstack Web Development bootcamp at 4Geeks Academy. 
+      Passionate about creating engaging and user-focused digital experiences.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: loregh910@gmail.com #optional
+    phone: 8713913189 #optional
+    linkedin: https://www.linkedin.com/in/estefanía-garza-254a21227 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Stef-10
+    
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Gaming
+
+      - item: Drawing
+
+      - item: Reading
+
+# Your previous education
+education:
+    - degree: Digital Arts
+      university: University of Tec de Monterrey
+      # optional
+      university_logo: https://gershenson.mx/wp-content/uploads/2020/08/logo-tec-de-monterrey-e1484853084274.png
+      time: 2020 - 2024
+      details: |
+        Bachelor’s degree in Digital Arts with a concentration in Game Development. 
+        Developed skills in Unity, C#, 3D modeling, and game design, with experience creating 
+        interactive projects including gameplay systems, user interfaces, and AI behaviors.
+
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Programming Instructor – Coding Giants
+      time: 2025 - Present
+      company: Coding Giants
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJOKzfkuxtrdCodZLR84RiIIMX1RXsYgMHhg&s
+      details: |
+        Delivered programming lessons to young students, introducing concepts such as logic, algorithms, and 
+        basic coding. Assisted in developing interactive projects, encouraged creativity, and helped students 
+        build confidence in technology.
+
+  
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
