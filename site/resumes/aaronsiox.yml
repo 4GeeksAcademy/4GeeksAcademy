@@ -1,0 +1,76 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Aaron
+    last_name: Morales
+    
+    motto: Graphic Designer and Aspiring FullStack Developer.
+    
+    focus: Graphic Design and Developing
+    
+    summary: 10 years of experience in graphic design, specializing in packaging, branding, and motion graphics.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/156683_10151111618207688_4664346_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=b96e43b37337ba0dca05f2aec8a7f31d&oe=5D40C10E
+
+    email: jhoyamp@gmail.com 
+    phone: +584123631008
+    website: 
+    linkedin: https://www.linkedin.com/in/aaron-morales-858626150/
+    
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: aaronsiox    
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    interests:
+      - item: Videogames
+
+      - item: Cinema
+
+      - item: Coding
+
+education:
+    - degree: Graphic Designer (freeze)
+      university: Universidad Antonio José de Sucre
+      time: 2020-2020
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Senior Graphic Designer and Creative Leader
+      time: 2020-Present
+      company: Si Digital
+      # optional
+      details: |
+        Senior Graphic Designer with over a decade of experience specializing in branding, packaging, and motion graphics. During my tenure at Si Digital, I have led the creative direction and visual execution of complex projects, transforming brand identities into dynamic multi-platform experiences. My expertise lies in blending strategic design thinking with high-end motion content to deliver impactful solutions that resonate with diverse audiences.
+
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 100%
+
+      - name: Illustrator
+        level: 100%
+
+      - name: Premier
+        level: 100%
+
+      - name: After Effects
+        level: 100%
+
+      - name: Blender
+        level: 50%
+
+      - name: Da Vinci Resolve
+        level: 50%
