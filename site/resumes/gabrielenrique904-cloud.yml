@@ -1,0 +1,143 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Gabriel
+    last_name: Enrique
+    
+    motto: Resultados, eficiencia y mejora continua
+    
+    focus: Marketing, analítica y gestión de clientes
+    
+    summary: |
+      Profesional en marketing y negocios internacionales con experiencia en gestión de clientes, optimización de procesos y analítica digital. Especializado en mejorar la eficiencia operativa y la experiencia del cliente mediante soluciones digitales.
+
+      Experiencia en entornos internacionales con nivel avanzado de inglés (C2) y aprendizaje activo de alemán (A1), con interés en desarrollarse en áreas de analítica digital y gestión empresarial.
+    
+    avatar: https://randomuser.me/api/portraits/men/32.jpg
+
+    email: gabrielenrique904@gmail.com
+    phone: "+34 673176160"
+    website: 
+    linkedin: gabrielmendez24
+    
+    github: gabrielenrique904-cloud
+    
+    twitter: 
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Basic
+
+    interests:
+      - item: Analítica digital
+      - item: Optimización de procesos
+      - item: Negocios internacionales
+
+# Your previous education
+education:
+    - degree: Máster en Dirección Empresarial desde la Innovación y la Internacionalización
+      university: Universidad del País Vasco
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2024
+      details: |
+        Formación enfocada en innovación empresarial, internacionalización y desarrollo estratégico de negocios.
+
+          - Enfoque en entornos globales
+          - Desarrollo de pensamiento estratégico
+
+    - degree: Ingeniería en Marketing y Negocios Internacionales
+      university: Universidad José Cecilio del Valle
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2016 - 2021
+      details: |
+        Formación en marketing, gestión empresarial y desarrollo de negocios internacionales.
+
+          - Fundamentos de marketing
+          - Estrategias comerciales internacionales
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Gestor de Cuentas y Optimización de Procesos
+      time: 2024 - 2025
+      company: Reclama por mí
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Gestión de cartera de clientes y mejora de procesos internos mediante automatización.
+
+          - Reducción del tiempo de atención de 48h a 24h
+          - Aumento de productividad del 50% al 75%
+          - Atención a clientes en inglés
+
+    - role: Gestor de Clientes y Soporte B2C
+      time: 2021 - 2022
+      company: Results CX
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Atención al cliente en entorno internacional y resolución de incidencias mediante CRM.
+
+          - Gestión de alto volumen de clientes
+          - Resolución eficiente de problemas
+          - Trabajo en inglés
+
+    - role: Especialista en Atención al Cliente y Soporte Técnico
+      time: 2020 - 2021
+      company: Google Nest
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Soporte técnico y atención al cliente en productos tecnológicos.
+
+          - Resolución de incidencias técnicas
+          - Productividad superior al 80%
+          - Atención a clientes internacionales
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyecto enfocado en la optimización de procesos y mejora de la eficiencia en atención al cliente.
+
+    assignments:
+      - title: Automatización de procesos de atención al cliente
+        tagline: "Implementación de soluciones automatizadas para mejorar tiempos de respuesta y eficiencia operativa."
+
+skills:
+    toolset:
+      - name: Excel Avanzado
+        level: 85%
+
+      - name: Google Analytics 4
+        level: 70%
+
+      - name: CRM y gestión de clientes
+        level: 90%
+
+      - name: Google Workspace
+        level: 85%
+
+      - name: Microsoft Office
+        level: 85%
+
+      - name: Inglés
+        level: 95%
+
+      - name: Alemán
+        level: 30%
+
+      - name: Optimización de procesos
+        level: 90%
+
+      - name: Atención al cliente
+        level: 95%
