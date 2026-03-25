@@ -1,0 +1,141 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    first_name: Ádrian
+    last_name: Sánchez Sánchez
+    
+    motto: Responsable, preciso, orientado a resultados
+    
+    focus: IT & Transporte profesional
+    
+    summary: |
+      Profesional con experiencia en el sector sanitario, transporte y actualmente en formación como desarrollador web full‑stack. Destaco por mi responsabilidad, precisión y capacidad para aprender rápidamente nuevos procesos técnicos.  
+      Vivo en Suiza y estoy orientado a construir una carrera estable en el ámbito tecnológico y operativo, aportando organización, fiabilidad y un fuerte compromiso laboral.
+    
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    email: adrian@example.com
+    phone: +41 000 000 000
+    website: aedrianodinsson
+    linkedin: https://www.linkedin.com/in/adrian-sanchez92/
+    github: aedrianodinsson
+    twitter: ''
+    stack-overflow: ''
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: German
+        level: Professional
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Fitness
+      - item: Videogames
+      - item: Tecnología
+      - item: Sistemas y redes
+
+# Education
+education:
+    - degree: Full‑Stack Web Development Bootcamp
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - Presente
+      details: |
+        Formación intensiva en desarrollo web moderno: HTML, CSS, JavaScript, React, Node.js, APIs y bases de datos.
+          - Desarrollo de proyectos reales
+          - Trabajo con Git/GitHub
+
+    - degree: Pflegefachhelfer (Auxiliar de enfermería)
+      university: Alemania
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2019 - 2020
+      details: |
+        Formación profesional en asistencia sanitaria, documentación, trato al paciente y trabajo en equipo.
+          - Prácticas clínicas
+          - Atención directa y soporte operativo
+
+    - degree: Educación Secundaria Obligatoria (ESO)
+      university: España
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Finalizado
+      details: |
+        Formación general básica con orientación práctica.
+
+# Experience
+experiences:
+    - role: Transporte y logística (Categoría B)
+      time: 2021 - 2024
+      company: Varias empresas (Suiza)
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Transporte seguro y puntual de mercancías y clientes.  
+        Atención al cliente, responsabilidad operativa y cumplimiento de rutas.
+          - Conducción segura
+          - Gestión eficiente del tiempo
+
+    - role: Auxiliar de enfermería
+      time: 2019 - 2021
+      company: Centros sanitarios en Alemania
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Soporte en cuidados básicos, documentación, higiene y asistencia directa.
+          - Trabajo en equipo
+          - Alta responsabilidad y precisión
+
+# Projects
+projects:
+    intro: >
+      Proyectos desarrollados durante mi formación en desarrollo web y práctica personal.
+
+    assignments:
+      - title: Personal Portfolio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Sitio web personal desarrollado con HTML, CSS y JavaScript."
+
+      - title: React Task Manager
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Aplicación de gestión de tareas con React y estado global."
+
+      - title: Node.js API
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "API REST construida con Node.js y Express."
+
+      - title: CSS Components Library
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Colección de componentes reutilizables en CSS."
+
+      - title: JavaScript Mini‑Games
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Pequeños juegos interactivos creados con JavaScript."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: JavaScript
+        level: 70%
+
+      - name: React
+        level: 60%
+
+      - name: Node.js
+        level: 55%
+
+      - name: Git & GitHub
+        level: 85%
+
+      - name: Atención al cliente / Transporte
+        level: 95%
