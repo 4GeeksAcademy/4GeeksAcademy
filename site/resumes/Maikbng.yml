@@ -1,0 +1,92 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+   
+    first_name: Miquel
+    last_name: Arnaiz Fayos
+    
+   
+    motto: Full Stack Developer
+    
+    
+
+    
+    
+   
+    summary: Siempre me ha gutado mucho la informatica y decidi estudiarla de mayor, lo beno es que soy curioso y me guta mucho aprender cosas nuevas
+     
+    
+ 
+    avatar: tbd
+
+ 
+    email: arnaizmiquel@gmail.com
+    phone: 656-843-456
+    linkedin: tbd
+  
+  
+    github: Maikbng
+    
+   
+    languages:
+      - idiom: Inglés
+        level: Fluido
+
+
+      - idiom: Español
+        level: Nativo
+
+ 
+    interests:
+      - item: Deporte
+
+      - item: Musica
+
+      - item: Cine
+
+
+education:
+    - degree: Fp superior DAW
+      university: MEDAC Davante
+      time: 2011 - 2017
+      
+experiences:
+    - role: Impresor
+      time: 2020-2022
+      company: Gaviplas
+      details: |
+        Impresion en plastico
+   
+          
+assignments:
+- title: Generador de excusas
+  link: "https://github.com/4GeeksAcademy/generador-excusas2.0-Miquel-arnaiz"
+  tagline: "Generador de excusas aleatorio."
+
+- title: Proyecto colaborativo de diseño de pagina web
+  link: "https://github.com/4GeeksAcademy/exercicio-colaborativo"
+  tagline: "Primer proyecto colaborativo usando Github y Gitpod. Para realizar el template se han utilizado CSS, HTML y Bootstrap"
+
+- title: Instagram Feed - Bootstrap
+  link: "https://github.com/4GeeksAcademy/ig-feed-bootstrap-Miquel-Arnaiz"
+  tagline: "Website template realizado usando Bootstrap"
+
+skills:
+    toolset:
+      - name: HTML
+        level: 20%
+
+      - name: CSS
+        level: 20%
+
+      - name: Bootstrap
+        level: 30%
+
+      - name: Git
+        level: 10%
+
+      - name: Github
+        level: 20%
