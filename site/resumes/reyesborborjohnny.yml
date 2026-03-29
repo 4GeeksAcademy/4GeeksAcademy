@@ -1,0 +1,92 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Johnny Xavier
+    last_name: Reyes Borbor
+    
+    # Define yourself in 4-5 words
+    motto: I like numbers
+    
+    # Focus
+    focus: Learning new things
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I'm passionate about problem-solving and analytical thinking. Alongside my degree, I’ve gained experience tutoring 
+      high school students in mathematics and physics, which has strengthened my communication and teaching skills. 
+      My academic journey has included a focus on number theory—currently working on a thesis about elliptic curves.
+      I’m eager to keep growing professionally in roles where I can contribute both technical precision and creative insight.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: .
+    # Contact Information
+    email: reyesborborjohnny@gmail.com #optional
+    phone: +34 684 366 014 #optional
+    website: #optional
+    linkedin: www.linkedin.com/in/johnny-xavier-reyes-borbor-b787b6356 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: reyesborborjohnny
+    
+    twitter:  #optional
+    stack-overflow: idk # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Listening to music
+
+      - item: Learning
+
+      - item: Meeting new people
+
+# Your previous education
+education:
+    - degree: Bachelor Degree in Mathematics
+      university: Autonomous University of Madrid
+      # optional
+      university_logo: 
+      time: 2021 - 2024
+# Your previous job experiences or volunteer
+experiences:
+    - role: .
+      time: .
+      company: .
+      # optional
+      company_logo: .
+      details: |
+        .
+# Your project portfolio
+projects:
+    intro: >
+
+    assignments:
+      - title: .
+        # optional
+        project_logo: .
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+skills:
+    toolset:
+      - name: 
+        level:
+
+      
