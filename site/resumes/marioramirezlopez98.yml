@@ -1,0 +1,68 @@
+---
+template: online-cv
+skin: red
+basic_info:
+  first_name: Mario
+  last_name: Ramirez
+  motto: Soy ingeniero de sistemas nacido en Pereira, Colombia
+  focus: Aprendo algo nuevo cada día
+  summary: >
+
+    Profesional con capacidad de diseñar, desarrollar e implementar la gestión de proyectos en el área de ingeniería de sistemas y computación, formulando propuestas para la correcta administración de los sistemas de información
+
+  avatar: https://randomuser.me/api/portraits/women/24.jpg
+  email: marioramirez.lopez98@gmail.com
+  phone: 321 872 8923
+  linkedin: www.linkedin.com/in/mario-ramírez-2a034920a
+  github: https://github.com/marioramirezlopez98-del
+  languages:
+    - idiom: Inglés
+      level: Nativo
+    - idiom: Spanish
+      level: Professional
+  interests:
+    - item: Ver fútbol
+    - item: Entrenar en el ginmasio
+    - item: Jugar videojuegos
+education:
+  - degree: Ingeniería de Sistemas y Computación 
+    university: University Tecnológica de Pereira
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2016 - 2024
+    details: |
+      Describe your study here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      sociis natoque penatibus et magnis dis parturient montes, nascetur
+      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      pretium quis, sem.
+
+        - Bullet point
+        - Bullet point
+  
+experiences:
+  - role: Analísta de Soporte de Aplicaciones
+    time: 2023 - 2026
+    company: Grupo UMA S.A.S, Colombia
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: |
+      Dentro de la empresa desempeñé las labores de dar soporte al aplicativo UMAONE ante cualquier novedad que se presente y brindé solución efectiva, realicé consultas en base de datos en el aplicativo SQL server para validar el estado de los registros de vehículos en tiendas propias de la empresa y distribuidores autorizados.
+
+        - Brindar soporte técnico de segundo nivel para aplicaciones de software y plataformas tecnológicas de la empresa.
+        - Gestionar y resolver incidentes técnicos relacionados con aplicaciones, servidores y redes.
+        - Documentar soluciones y crear manuales técnicos para facilitar el uso de las plataformas.
+        - Colaborar con los equipos de desarrollo y operaciones para mejorar continuamente los procesos de soporte.
+        - Monitorear sistemas y aplicaciones para detectar y prevenir posibles fallas o interrupciones del servicio.
+        - Coordinar con proveedores externos para la resolución de problemas técnicos escalados.
+        - Realizar análisis de causa raíz para resolver problemas recurrentes.
+skills:
+  toolset:
+    - name: Python
+      level: 70%
+    - name: SQL
+      level: 60%
+    - name: C++
+      level: 60%
+    - name: HTML5 & CSS
+      level: 80%
+    - name: Java
+      level: 40%
