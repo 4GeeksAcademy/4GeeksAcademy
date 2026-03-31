@@ -1,0 +1,198 @@
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Francisco Javier
+    last_name: González García
+    
+    # Define yourself in 4-5 words
+    motto: Desarrollador Full Stack apasionado
+    
+    # Focus
+    focus: Crear soluciones web innovadoras
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador Full Stack con pasión por crear aplicaciones web modernas y escalables.
+      Con experiencia en tecnologías frontend y backend, me destaco por mi capacidad para 
+      resolver problemas complejos y aprender nuevas tecnologías rápidamente. Comprometido
+      con la calidad del código y la mejora continua.
+
+      Proactivo, colaborativo y con fuerte orientación al resultado. Busco contribuir a 
+      proyectos desafiantes donde pueda aplicar y expandir mis conocimientos técnicos.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://github.com/fran81caco.png
+
+    # Contact Information
+    email: cacodreamer81@gmail.com #optional
+    phone: +34 XXX XXX XXX #optional
+    website: # optional
+    linkedin: francisco-javier #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: francisco
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: French
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Pesca
+
+      - item: Cine
+
+      - item: Restaurantes
+
+      - item: Viajar
+
+      - item: Pasar tiempo en familia
+
+      - item: Gimnasio
+
+# Your previous education
+education:
+    - degree: Full Stack Developer Bootcamp
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2025
+      details: |
+        Programa intensivo de desarrollo Full Stack con enfoque en tecnologías modernas.
+        Aprendizaje basado en proyectos reales con metodología ágil.
+
+          - Frontend: HTML5, CSS3, JavaScript, React
+          - Backend: Python, Django, APIs RESTful
+          - Bases de datos: SQL, PostgreSQL
+          - Control de versiones: Git, GitHub
+          - Herramientas: Docker, Linux, Postman
+
+    - degree: Cursos y Certificaciones en Línea
+      university: Plataformas diversas (Udemy, Coursera, FreeCodeCamp)
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - Presente
+      details: |
+        Formación continua en desarrollo web y tecnologías relacionadas.
+
+          - JavaScript Avanzado y ES6+
+          - Responsive Design y Mobile First
+          - Desarrollo de APIs con Node.js y Express
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Desarrollador Full Stack (Practicas/Proyecto)
+      time: 2024 - Presente
+      company: Proyectos Personales y 4Geeks Academy
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Desarrollo de aplicaciones web full stack utilizando tecnologías modernas.
+        Creación de proyectos desde cero con enfoque en arquitectura escalable y código limpio.
+
+          - Desarrollo de interfaces responsivas con React y CSS
+          - Implementación de backends RESTful con Django y Python
+          - Integración de bases de datos SQL (PostgreSQL)
+          - Versionado de código y colaboración en equipo con Git
+
+    - role: Preparación y Especializaciones Técnicas
+      time: 2023 - 2024
+      company: Autoformación y Cursos en Línea
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Período dedicado a la formación intensiva y actualización de habilidades técnicas.
+        Estudio de conceptos fundamentales de programación y desarrollo web.
+
+          - Fundamentos de programación con JavaScript y Python
+          - Principios de diseño web y UX/UI
+          - Buenas prácticas de desarrollo y clean code
+
+    - role: Otros Proyectos de Interés
+      time: 2024 - Presente
+      company: Comunidad de Desarrolladores
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Participación en comunidades de desarrollo, aprendizaje colaborativo y networking.
+        Exploración de nuevas tecnologías y mejores prácticas en la industria.
+
+          - Contribuciones a proyectos open source
+          - Participación en grupos de estudio y hackathons
+          - Seguimiento de tendencias tecnológicas actuales
+
+# Your project portfolio
+projects:
+    intro: >
+      Aquí muestro algunos de mis proyectos desarrollados durante mi formación en 4Geeks 
+      Academy y en mi tiempo libre. Cada proyecto refleja mi aprendizaje en tecnologías 
+      web modernas y mi pasión por crear soluciones útiles e innovadoras.
+
+    assignments:
+      - title: Aplicación de Tareas (Todo App)
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Aplicación interactiva de gestión de tareas con React y una API REST en Django."
+
+      - title: E-commerce Básico
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Plataforma de compra online con carrito, filtros de productos y procesamiento de pedidos."
+
+      - title: Galería de Personajes
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Aplicación que consume una API REST para mostrar personajes con detalles dinámicos."
+
+      - title: Sistema de Blog
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Plataforma de blog con autenticación de usuarios, creación y edición de posts."
+
+      - title: Aplicación del Clima
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "App que consulta una API de clima en tiempo real y muestra pronóstico detallado."
+
+skills:
+    toolset:
+      - name: JavaScript & React
+        level: 90%
+
+      - name: Python & Django
+        level: 85%
+
+      - name: HTML5 & CSS3
+        level: 90%
+
+      - name: PostgreSQL & SQL
+        level: 80%
+
+      - name: Git & GitHub
+        level: 85%
+
+      - name: Node.js & Express
+        level: 75%
