@@ -1,0 +1,95 @@
+---
+template: online-cv
+skin: black
+basic_info:
+  first_name: Yeison Leandro
+  last_name: Rendón García
+  motto: Full Stack Developer
+  avatar: null
+  summary: >
+    I am passionate about new technologies and I am always willing to learn
+    something new every single day.
+
+    Currently I am studying a Full Stack Web Developer bootcamp during which I am learning to improve my logical thinking and develop several programming projects.
+  email: jeison.rendon@gmail.com
+  phone: +34 614658233
+  linkedin: null
+  github: jrendongarcia
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Convertational (B2)
+  interests:
+    - item: Coding
+    - item: Reading
+    - item: Playing Futbol
+    - item: swimming
+    - item: Dancing
+education:
+  - degree: Full Stack Web Developer
+    university: 4Geeks Academy
+    time: 2026 - present
+    details: >
+      Full Stack Web Developer four intensive months bootcamp during which I
+      am learning to improve my logical thinking and develop a wide range of
+      programming projects with HTML5, CSS, Bootstrap,Java Script, React JS,
+      Python, Flask, MySQL Alchemy and more.
+  - degree: Financial Management
+    university: Gran Colombia University from Colombia
+    time: 2013 - 2018
+    details: >
+      In this professional career I deepened my financial and tax planning
+      skills, acquiring basic knowledge that allowed me to become the financial
+      director of one of the large companies in the construction sector.
+  - degree: Systems Engineering
+    university: CUN University From colombia
+    time: 2023 - Present
+    details: >
+      Third-year Systems Engineering student with a strong background in
+      software development and database management. Focused on problem-solving
+      and continuous learning of new technologies.
+experiences:
+  - role: Legal Advisor
+    time: July 2025 - Present
+    company: Deudafix
+    details: >
+      My main responsabilities are:
+        - Specialized advice on the Second Chance Law, analyzing the legal viability of debt relief applications according to current regulations (Law 16/2022) for client applicants.
+        - Managing and monitoring insolvency proceedings for individuals and the self-employed from the initial phase until obtaining the EPI (Exoneration of Unsatisfied Liabilities).
+        - Drafting insolvency applications, payment plans, lawsuits, and appeals before the firm's lawyers and solicitors, using the Idex CRM system.
+  - role: Accounting Coordinator and Customer Service and Sales Support
+    time: Febrary 2025 - December 2025
+    company: Bipi Rent a Car
+    details: >
+      My main responsability are: 
+        - Advise customers via phone on vehicle subscription plans tailored to their needs.
+        - Manage the 100% digital sales process, from vehicle selection to delivery.
+        - Conduct post-sales follow-up calls to ensure customer satisfaction and loyalty.
+        - Resolve sales and administrative issues related to contracts and documentation.
+        - Meet monthly sales and service quality targets.
+  - role: Finance & Sales Director
+    time: Febrary 2020 - Febrary 2025
+    company: Materiales Em
+    details: >
+      My main responsability are: 
+        - I led the digital transformation of all areas of the company, implementing Microsoft 365, Power BI, SharePoint, and advanced Excel to automate reports and improve traceability.
+        - I applied artificial intelligence for predictive analytics, using Excel with statistical models and Power BI, anticipating cash flow trends and business behavior.
+        - I verified and reconciled accounting transactions, ensuring compliance with IFRS standards and accounting principles across all group companies.
+        - I consolidated the group's financial statements using Google Sheets and AI, generating dynamic quarterly and annual reports for the board of directors and regulatory bodies.
+Skills:
+  toolset:
+    - name: Flux/Context
+      level: 70%
+    - name: Git
+      level: 70%
+    - name: Javascript
+      level: 70%
+    - name: ReactJS
+      level: 80%
+    - name: Python/Flask
+      level: 50%
+    - HTML5: HTML5
+      level: 98%
+    - name: CSS3
+      level: 60%
