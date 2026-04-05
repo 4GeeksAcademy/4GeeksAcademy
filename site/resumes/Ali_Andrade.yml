@@ -1,0 +1,71 @@
+personal:
+  nombre: Alejandro Andrade Godoy
+  telefono: 642-83-47-42
+  email: andradegali1503@gmail.com
+  web: https://andradegali1503-droid
+competencias:
+  - Gestión de sistemas ERP
+  - Monitoreo de redes industriales
+  - Optimización de rutas de distribución
+  - Gestión de almacenes y logística
+  - Coordinación de equipos
+  - Soporte técnico de sistemas informáticos
+  - Gestión de calidad
+  - Manejo de herramientas de carpintería
+  - Ensamblaje de muebles
+  - Acabado de madera
+  - Tapizado de muebles
+habilidades:
+  - Trabajo en equipo
+  - Comunicación efectiva
+  - Gestión del tiempo
+  - Adaptación al cambio
+experiencia:
+  - puesto: Operario de corte de cristales
+    empresa: Cristalería F. Sola
+    periodo: 02-2025 - 09-2025
+    funciones:
+      - Manejo de máquina Bottero para corte de cristales en 2 ejes
+      - Manipulación segura de cristales de distintas dimensiones y espesores
+      - Uso de puente grúa para traslado de materiales
+      - Uso de transpaleta manual
+      - Organización del área de trabajo
+      - Uso de herramientas eléctricas para corrección de piezas
+  - puesto: Auxiliar de sistema informático
+    empresa: Mega Frío
+    periodo: 2022 - 2024 (Chile)
+    funciones:
+      - Mantenimiento y soporte de sistemas informáticos
+      - Resolución de problemas técnicos en tiempo real
+      - Actualización de infraestructura tecnológica
+      - Gestión de hardware, software y redes
+  - puesto: Ayudante de cristalería
+    empresa: La Fortaleza
+    periodo: 2021 - 2022 (Chile)
+    funciones:
+      - Corte, manipulación e instalación de vidrio
+      - Montaje de marcos de aluminio
+      - Uso de herramientas especializadas (cortavidrios, ventosas, taladros)
+      - Trabajo con vidrio templado, laminado y doble acristalamiento
+  - puesto: Encargado de almacén
+    empresa: Sociedad Bravo y Hermanos
+    periodo: 2019 - 2021 (Chile)
+    funciones:
+      - Gestión de operaciones logísticas
+      - Recepción y verificación de albaranes
+      - Control de inventarios
+      - Optimización de procesos de almacén
+      - Coordinación con otros departamentos
+formacion:
+  - curso: Programación de páginas web Javascript y PHP
+    codigo: IFCT091PO
+    institucion: SEPE
+    año: 2024
+  - curso: Cloud computing (Azure-Linux)
+    codigo: IFCT026PO
+    institucion: SEPE
+    año: 2024
+  - curso: Gestión de la seguridad informática en la empresa
+    codigo: IFCT050PO
+    institucion: SEPE
+    año: 2024
