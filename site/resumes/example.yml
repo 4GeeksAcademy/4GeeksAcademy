@@ -9,32 +9,29 @@ skin: "blue"
 basic_info:
 
     # Your full name
-    first_name: Wonder
-    last_name: Woman
+    first_name: Bat
+    last_name: Man
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Me gustaría tener padres xD
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Quebrar huesos, pero nunca matar
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
+    summary: «No es quién soy... sino qué hago... eso es lo que me define».
+    «Nuestra mayor gloria no está en no caer nunca, sino en levantarnos cada vez que caemos».
+    «Todos los hombres tienen límites. Aprenden lo que son y aprenden a no superarlos. Yo ignoro los míos».
 
-      Second paragraph if required.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
     avatar: https://randomuser.me/api/portraits/women/24.jpg
 
     # Contact Information
-    email: a@a.com #optional
+    email: batmanpro@baticueva.com #optional
     phone: 234 2342 342 #optional
-    website: asd.com #optional
+    website: batman.com #optional
     linkedin: alandoe #optional
     
     #
@@ -42,7 +39,7 @@ basic_info:
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: example
     
-    twitter: 'webjeda' #optional
+    twitter: 'batpro' #optional
     stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
