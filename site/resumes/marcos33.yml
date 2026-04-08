@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info: 
+
+    # Your full name
+    first_name: Marcos
+    last_name: Rodriguez
+    
+    # Define yourself in 4-5 words
+    motto: Estudiante
+    
+    # Focus
+    focus: Estudiar
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      no tengo 
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: marcos33
+    
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+      -
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education: 
+    - degree:
+      university: 
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026-2026
+      details: Fullstack Developer
+       
+          - Bullet point
+          - Bullet point
+
+    
+
+
+
+# Your project portfolio
+projects:
+    intro: >
+     proyecto
+
+    assignments:
+      - title: post
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/4GeeksAcademy/post-de-instagram-con-bootstrap-marcos"
+        tagline: "Post de instagram."
+
+    
+
+skills:
+      - name: HTML5 & CSS
+        level: 15%
+
+      
+
+    
