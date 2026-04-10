@@ -1,0 +1,111 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Luis
+    last_name: Timaure
+    
+    motto: Desarrollador web en formación
+    
+    focus: Junior Full Stack Developer
+    
+    summary: |
+      Desarrollador web en formación con conocimientos básicos en HTML, CSS, JavaScript y Bootstrap.
+      Actualmente cursando el bootcamp de desarrollo de software Full Stack en 4GeeksAcademy desde marzo de 2026.
+
+      Me encuentro en etapa inicial de aprendizaje, desarrollando proyectos prácticos para fortalecer mis habilidades técnicas.
+      Cuento con experiencia en el área comercial, lo que me permite tener enfoque en el usuario y la resolución de problemas.
+
+    avatar: https://randomuser.me/api/portraits/men/1.jpg
+
+    email: luistimaure1204@gmail.com
+    phone: +58 424-534361744
+    github: luistimaure1204-lab
+
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Basic
+
+    interests:
+      - item: Aprender desarrollo web
+      - item: Tecnología
+      - item: Negocios digitales
+
+
+education:
+    - degree: Bootcamp Full Stack Developer (en curso)
+      university: 4GeeksAcademy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Marzo 2026 - Presente
+      details: |
+        Formación inicial en desarrollo web Full Stack.
+
+          - Fundamentos de HTML, CSS y JavaScript
+          - Introducción a Bootstrap
+          - Uso básico de Git y control de versiones
+
+    - degree: Administración mención Mercadeo (3 semestres cursados)
+      university: Universidad Fermín Toro
+      time: Estudios incompletos
+      details: |
+        Formación en fundamentos de marketing, ventas y gestión empresarial.
+
+
+experiences:
+    - role: Comerciante
+      time: Actualidad
+      company: Emprendimiento
+      details: |
+        Experiencia en atención al cliente y gestión de ventas.
+
+          - Atención directa a clientes
+          - Ventas y negociación
+          - Organización básica del negocio
+
+
+projects:
+    intro: >
+      Proyectos realizados durante mi proceso de aprendizaje en desarrollo web.
+
+    assignments:
+      - title: Postcard con HTML y CSS
+        link: "https://github.com/luistimaure1204-lab/exercise-postcard"
+        tagline: "Ejercicio práctico de maquetación usando HTML y CSS."
+
+      - title: Proyecto inicial con JavaScript
+        link: "https://github.com/luistimaure1204-lab/vanillajs-hello"
+        tagline: "Introducción al uso de JavaScript y estructura de proyectos web."
+
+      - title: Diseño tipo Instagram
+        link: "https://github.com/luistimaure1204-lab/FotosdeInstagram"
+        tagline: "Práctica de diseño de interfaces con HTML y CSS."
+
+      - title: Layout con Bootstrap
+        link: "https://github.com/luistimaure1204-lab/InstagramBootstrapLuis"
+        tagline: "Uso básico de Bootstrap para diseño responsive."
+
+      - title: Prácticas de HTML5
+        link: "https://github.com/luistimaure1204-lab/html5Luis"
+        tagline: "Ejercicios para reforzar la estructura y buenas prácticas en HTML."
+
+
+skills:
+    toolset:
+      - name: HTML
+        level: Básico - Intermedio
+
+      - name: CSS
+        level: Básico
+
+      - name: Bootstrap
+        level: Básico
+
+      - name: JavaScript
+        level: Básico
+
+      - name: Git
+        level: Básico
