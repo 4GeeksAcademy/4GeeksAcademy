@@ -1,0 +1,153 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Olvin
+    last_name: Villalobos
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      As a Business Coach in Consulting, with over three years of experience, I collaborate with companies to design strategies based on data analysis and digital business. Our approach focuses on enabling innovative solutions that optimize processes and strengthen key competencies, adapting to the evolving needs of multiple sectors.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: olvinvillalobos25@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: Olvin Villalobos #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: olvinvillalobos25-prog
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Intermediate level
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Business
+
+      - item: Reading
+
+      - item: Technology
+
+# Your previous education
+education:
+    - degree: PdD. Business Administration
+      university: Catholic University of Honduras
+      # optional
+      university_logo: https://scontent.fsig5-1.fna.fbcdn.net/v/t39.30808-6/573602093_847441184476657_2609541382798137177_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=53a332&_nc_ohc=XmVzCtROWxsQ7kNvwFr09Gx&_nc_oc=AdoRjKKufBXHIJ4GbiMFfV2gGPI_mKa9-Qc-chNn9pTuNyAmbth4uzh1c5fYFAAnxKQ&_nc_zt=23&_nc_ht=scontent.fsig5-1.fna&_nc_gid=GlF1l2LuNdn02T9MXrF1Bg&_nc_ss=7a389&oh=00_Af3EWsxjBxTZqSX8j54zhneouWvPv4XpxkD3AZtxrHPJWg&oe=69E0D365
+      time: 2010 - 2014
+      details: |
+        Experience in business strategy with a foundation for business success
+
+
+    - degree: BSc in Business Analytics
+      university: INCAE Business School
+      # optional
+      university_logo: https://moria.aurens.com/organizations/be941267-eb6e-43b0-8115-e9e5b7e6b691/logos/9e3dbc-logo-1633655943.jpg
+      time: 2023 - 2025
+      details: |
+        The power of data and the ability to make intelligent decisions through information analysis.
+        
+# Your previous job experiences or volunteer
+experiences:
+    - role: Strategic Business Advisor
+      time: 2022 - Present
+      company: Startup Hubs, San Francisco
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Establishment of strategic plans to be implemented at the senior management level
+
+
+    - role: Secretary of State of Labor
+      time: 2018 - 2022
+      company: Government of Honduras
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGf4k84rQjDG3aLX4-VR3oFkCslG9jcseuw&s
+      details: |
+        I was responsible for the strategic, managerial, administrative and operational leadership of the entire Secretariat that operates in the country.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
