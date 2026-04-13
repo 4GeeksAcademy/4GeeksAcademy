@@ -1,0 +1,106 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: David
+    last_name: Cedeño
+    
+    # Define yourself in 4-5 words
+    motto: Fixes bugs, creates others
+    
+    # Focus
+    focus: Focused on building great apps, learning every day, and maybe eating some pizza
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Junior full-stack developer with a background in energy sales, combining strong communication and problem-solving skills with technical expertise in modern web development. Trained at 4Geeks Academy, I have hands-on experience building responsive applications using JavaScript, React, Python, and RESTful APIs. I bring a results-driven mindset, adaptability, and a passion for continuous learning, with a focus on creating efficient, user-friendly solutions and growing as a developer in dynamic environments.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/yBNqg47Y/image.jpg
+
+    # Contact Information
+    email: davidcedtan@gmail.com #optional
+    phone: +34 690924869 #optional
+    linkedin: https://www.linkedin.com/in/davidcedenotandazo/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DaviidCT
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Japanese
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Traveling
+
+      - item: Photography
+
+# Your previous education
+education:
+    - degree: Full Stack Web development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026
+      details: |
+        Completed an intensive, project-based coding bootcamp focused on modern web development technologies and agile methodologies.
+
+          - Frontend: HTML5, CSS3, JavaScript (ES6+), React.js
+          - Backend: Python, Flask / Node.js
+          - Databases: SQL, PostgreSQL
+          - Version Control: Git & GitHub
+
+    - degree: Full Stack Web development
+      university: Hack a Boss
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIHxwbZt6gx_QIAs9TH0X90jjK--ImHXaS6Q&s
+      time: 2024
+      details: |
+        Completed an intensive, project-based coding bootcamp focused on modern web development technologies and agile methodologies.
+
+          - Frontend: HTML5, CSS3, JavaScript (ES6+), React.js
+          - Backend: Python, Flask / Node.js
+          - Databases: SQL, PostgreSQL
+          - Version Control: Git & GitHub
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Sales
+      time: 2025
+      company: Silvanergia
+      # optional
+      company_logo: https://de.cdn-website.com/449884a470e14cbcab0c944bad46af17/dms3rep/multi/Silvanergia-_Mesa-de-trabajo-1--281-29-bc17edce.png
+      details: |
+        Results-driven sales professional with experience in the energy sector, specializing in customer acquisition and contract negotiation. Proven ability to identify client needs, present tailored energy solutions, and close deals effectively. Strong communication and interpersonal skills, with a focus on building long-term customer relationships and achieving sales targets. Experienced in working in fast-paced environments and adapting to market changes.
+
+
+skills:
+    toolset:
+      - name: JavaScript & jQuery
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: mysql
+        level: 30%
+
+      - name: Adobe
+        level: 60%
