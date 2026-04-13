@@ -1,0 +1,40 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Fabelo
+    
+    # Define yourself in 4-5 words
+    motto: Get on your feet and walk ahead
+    
+    # focus
+    focus: Coding
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be https://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: #optional
+    website: #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    github: DannyCanario
+    
+    twitter: #optional
+    stack-overflow: # Number/Username
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: B1
