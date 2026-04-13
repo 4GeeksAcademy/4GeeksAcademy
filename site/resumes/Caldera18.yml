@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Mauricio
+    last_name: Caldera
+    
+    # Define yourself in 4-5 words
+    motto: Soluciones full-stack con visión de ingeniería.
+    
+    # Focus
+    focus: Desarrollador Full Stack | Estudiante Ingeniería Informática
+    
+    # Resumen profesional
+    summary: |
+      Desarrollador Full Stack y estudiante avanzado de Ingeniería Informática con sólida formación en el ciclo de vida del software, desde el diseño (UML) hasta la implementación (React, Python, Java). 
+      Destaco por mi capacidad para resolver problemas complejos y adaptarme a nuevos retos. 
+      Cuento con experiencia en desarrollo colaborativo internacional y poseo excelentes habilidades de comunicación y oratoria.
+    
+    # Foto de perfil (usa tu usuario de GitHub para que jale tu foto automáticamente)
+    avatar: https://github.com/Caldera18.png 
+
+    # Contact Information
+    email: Caldera18.mj@gmail.com
+    phone: "+58 412 9220813"
+    website: 
+    linkedin: mauricio-caldera
+    
+    # Tu usuario de GitHub
+    github: Caldera18
+    
+    twitter: 
+    stack-overflow: 
+
+    # Idiomas
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: B1 - Intermedio
+
+    # Intereses y habilidades blandas
+    interests:
+      - item: Oratoria y Comunicación Efectiva
+      - item: Resolución de problemas
+      - item: Trabajo colaborativo
+      - item: Adaptabilidad a la adversidad
+
+# Educación
+education:
+    - degree: Ingeniería Informática
+      university: Universidad Católica Andrés Bello (UCAB)
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2020 - Actualidad
+      details: |
+        Estudiante avanzado enfocado en el ciclo de vida del software y arquitectura.
+
+    - degree: Desarrollador Full Stack
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Diciembre 2025 - Actualidad
+
+# Experiencia
+experiences:
+    - role: Desarrollador (Proyecto Internacional)
+      time: 2025 - 2026
+      company: Módulo SUNY COIL (ITESO México & UCAB Venezuela)
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Colaboración internacional para el desarrollo de una aplicación interactiva enfocada en el aprendizaje matemático.
+        - Implementación de flujos de trabajo coordinando el desarrollo a través de repositorios compartidos.
+        - Superación de barreras geográficas en equipos multidisciplinarios.
+
+# Proyectos
+projects:
+    intro: >
+      Proyectos destacados en desarrollo de software y aplicaciones interactivas.
+
+    assignments:
+      - title: Aplicación de Aprendizaje Matemático
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "Desarrollo conjunto internacional SUNY COIL para educación interactiva."
+
+# Habilidades Técnicas
+skills:
+    toolset:
+      - name: React & JavaScript
+        level: 90%
+
+      - name: Python & Java
+        level: 85%
+
+      - name: HTML5, CSS & Bootstrap
+        level: 90%
+
+      - name: Git & GitHub
+        level: 95%
+
+      - name: UML & Patrones de Diseño
+        level: 80%
