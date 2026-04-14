@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+#---------------------------------------------------------------------------------#
+
+
+basic_info:
+    # Your full name
+    first_name: Pablo
+    last_name: Martín de Hervás Izard
+    
+    # Define yourself in 4-5 words
+    motto: Siempre aprendiendo!
+    
+    # focus
+    focus: Desarrollo profesional y personal
+
+    #resumen
+    summary: |
+      Soy graduado en Diseño y Desarrollo de Videojuegos y he trabajado profesionalmente en la industria de los videojuegos durante casi 
+      2 años. Ahora quiero transicionar a nuevas industrias como científico de datos.
+
+
+    #picture URL
+    avatar: https://avatars.githubusercontent.com/u/25805198?s=400&u=4efd8dbb95e205901ac0d44420974e41ca7f191c&v=4
+
+    # Contact Information
+    email: msp997@gmail.com #optional
+    phone: +34 683 475 912 #optional
+    linkedin: Pablo Martín de Hervás Izard #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: yensuo
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+     # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Inglés
+        level: Advanced
+    # Interests or hobies
+    interests:
+      - item: Videojuegos
+      - item: Gastronomía
+      - item: Voley
+
+
+# Your previous education
+education:
+    - degree: Grado en Diseño y Desarrollo de Videojuegos
+      university: UDIT
+      # optional
+      university_logo: 
+      time: 2019-2023
+      details: 
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Desarrollador de videojuegos
+      time: 2024
+      company: Blackmouth Games
+      # optional
+      company_logo: 
+      details: |
+          Desarrollo de un videojuego battle royale con integración de NFTs.
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: C# 
+        level: 80%
+
+      - name: C++
+        level: 50%
+
+      - name: Python
+        level: 80%
+
+      - name: Unity
+        level: 80%
+
+      - name: Unreal Engine
+        level: 80%
