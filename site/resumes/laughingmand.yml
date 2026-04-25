@@ -1,0 +1,87 @@
+template: "online-cv"
+skin: "black"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adrian
+    last_name: Castro
+    
+    # Define yourself in 4-5 words
+    motto: Quite an experience to live in fear, isn't it? That's what it is to be a slave
+    
+    # Focus
+    focus: Develop
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.imgur.com/eLpPdGY.png
+
+    # Contact Information
+    email: laughingmandev@gmail.com #optional
+    phone: 55 6930 6212 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/laughingmand
+    
+    twitter: '@LaughingManDev' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Basic
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Coding
+
+      - item: Cooking
+
+      - item: Father
+
+# Your previous education
+education:
+    - degree: Visual Arts
+      university: Universidad Nacional Autonoma de Mexico
+      # optional
+      university_logo: https://yt3.googleusercontent.com/ipnaWHAI9NsZ-yXxdpMrDCnuHe8-4japzRcumR89UgPTDYQmFrKX4l9SHYFlPSn38Dgdc2SehA=s900-c-k-c0x00ffffff-no-rj
+      time: 2011 - 2015
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Project Manager
+      time: 2018 - Present
+      company: IZZI Telecom
+      # optional
+      company_logo: https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/082025/01_izzi_0.png?Kvns2z.4sta023OgulXfNy1DQlis5YTg&itok=RjW8Uo6i
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 1%
+
+      - name: JavaScript & jQuery
+        level: 1%
+
+      - name: Angular
+        level: 1%
+
+      - name: HTML5 & CSS
+        level: 1%
+
+      - name: Ruby on Rails
+        level: 1%
+
+      - name: Sketch & Photoshop
+        level: 1%
