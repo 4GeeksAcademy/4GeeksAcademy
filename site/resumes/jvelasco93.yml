@@ -1,0 +1,204 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Julio Cesar
+    last_name: Velasco Marin
+    
+    # Define yourself in 4-5 words
+    motto: Backend Developer Python / .NET
+    
+    # Focus
+    focus: Desarrollo backend, ETL y datos
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador Backend Python / .NET con experiencia en aplicaciones internas,
+      automatización de procesos, lógica de negocio y modernización de sistemas legacy.
+      Experiencia en pipelines ETL, migración de bases de datos SQL Server, MySQL,
+      SQLite, DBF y Access, y refactorización de aplicaciones .NET hacia Entity Framework
+      y .NET Core.
+
+      Enfocado en crear soluciones mantenibles, confiables y seguras, aplicando buenas
+      prácticas de validación de datos, prevención de SQL injection, automatización y
+      mejora continua de sistemas internos.
+    
+    # Your profile picture URL
+    avatar: 
+
+    # Contact Information
+    email: velascojuliocv@gmail.com
+    phone: "+34 608 453 959"
+    website:
+    linkedin:
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jvelasco93
+    
+    twitter:
+    stack-overflow:
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    # Interests or hobbies
+    interests:
+      - item: Backend development
+
+      - item: Data automation
+
+      - item: Cloud technologies
+
+# Your previous education
+education:
+    - degree: Full Stack Developer Bootcamp
+      university: 4Geeks Academy Spain
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: En curso, finalización estimada 08/2026
+      details: |
+        Formación intensiva en desarrollo full stack, orientada a la creación de
+        aplicaciones web modernas y al fortalecimiento de competencias en programación,
+        bases de datos, backend y frontend.
+
+    - degree: CS50P - Introduction to Programming with Python
+      university: Harvard University / edX
+      university_logo:
+      time: 2024
+      details: |
+        Curso enfocado en fundamentos de programación con Python, resolución de problemas,
+        estructuras de datos, automatización y buenas prácticas de desarrollo.
+
+    - degree: CS50's Introduction to Databases with SQL
+      university: Harvard University / edX
+      university_logo:
+      time: 2024
+      details: |
+        Formación en bases de datos relacionales, consultas SQL, modelado de datos,
+        normalización y manipulación de información estructurada.
+
+    - degree: Ingeniería Eléctrica
+      university: Universidad Simón Bolívar, Caracas
+      university_logo:
+      time: Estudios no finalizados
+      details: |
+        Estudios universitarios en Ingeniería Eléctrica.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Desarrollador Python / .NET
+      time: 09/2024 - 12/2025
+      company: TECH ID SOLUTIONS INTERNATIONAL GROUP S.L., L'Eliana, Valencia
+      company_logo:
+      details: |
+        Desarrollé y mantuve aplicaciones internas en Python y .NET para automatizar
+        procesos operativos, implementar lógica de negocio y mejorar la gestión de datos.
+
+          - Migré el motor ETL y la base de datos principal desde Microsoft SQL Server hacia MySQL Cloud.
+          - Construí pipelines ETL con Python, SQLAlchemy y DuckDB para procesar, transformar y validar información.
+          - Migré bases legacy en DBF y Access hacia SQLite y MySQL, preservando estructuras críticas.
+          - Refactoricé aplicaciones .NET Framework y WinForms hacia Entity Framework.
+          - Reduje código repetitivo en más del 70% y disminuí riesgos de SQL injection.
+
+    - role: Colaborador Técnico
+      time: 01/2022 - Actualidad
+      company: Foro Penal, Remoto - Caracas, Venezuela
+      company_logo:
+      details: |
+        Colaboro en tareas técnicas relacionadas con limpieza, organización, validación
+        y mantenimiento de bases de datos para mejorar la consistencia y confiabilidad
+        de la información.
+
+          - Limpié, organicé y validé bases de datos con SQL, Python y Pandas.
+          - Mantuve flujos de datos orientados a actualización, curación y control de calidad de registros.
+          - Participé en procesos de migración y actualización de bases de datos.
+          - Aseguré integridad y continuidad operativa en procesos de datos.
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos y trabajos enfocados en desarrollo backend, automatización de procesos,
+      pipelines ETL, migración de bases de datos y modernización de sistemas internos.
+
+    assignments:
+      - title: Migración ETL a MySQL Cloud
+        project_logo:
+        link:
+        tagline: "Migración del motor ETL y la base de datos principal desde Microsoft SQL Server hacia MySQL Cloud."
+
+      - title: Pipelines ETL con Python
+        project_logo:
+        link:
+        tagline: "Construcción de pipelines ETL usando Python, SQLAlchemy y DuckDB para procesar, transformar y validar datos."
+
+      - title: Migración de bases legacy
+        project_logo:
+        link:
+        tagline: "Migración de bases DBF y Access hacia SQLite y MySQL, preservando estructuras críticas."
+
+      - title: Refactorización .NET con Entity Framework
+        project_logo:
+        link:
+        tagline: "Modernización de aplicaciones .NET Framework y WinForms hacia Entity Framework, reduciendo código repetitivo y riesgos de SQL injection."
+
+      - title: Validación y limpieza de datos
+        project_logo:
+        link:
+        tagline: "Limpieza, organización y validación de bases de datos con SQL, Python y Pandas."
+
+skills:
+    toolset:
+      - name: Python
+        level: 95%
+
+      - name: C# / .NET
+        level: 90%
+
+      - name: SQL
+        level: 90%
+
+      - name: ETL
+        level: 90%
+
+      - name: MySQL
+        level: 85%
+
+      - name: SQL Server
+        level: 85%
+
+      - name: SQLite
+        level: 85%
+
+      - name: Pandas
+        level: 85%
+
+      - name: SQLAlchemy
+        level: 85%
+
+      - name: DuckDB
+        level: 80%
+
+      - name: Entity Framework
+        level: 80%
+
+      - name: Google Cloud Storage
+        level: 75%
+
+      - name: Git
+        level: 80%
+
+      - name: Linux
+        level: 75%
