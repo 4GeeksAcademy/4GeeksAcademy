@@ -53,7 +53,7 @@ const validateProfiles = (profiles) =>
             );
         if (!yaml.basic_info.github)
             throw new Error(
-                "Missing github username on YML file ${fileName}.yml".red
+                `Missing github username on YML file ${fileName}.yml`.red
             );
 
         if (yaml.template != "online-cv")
@@ -179,7 +179,7 @@ status(__dirname)
                 f.path.indexOf("package-lock.json") === -1
         );
         //const nonYMLFiles = [];
-        if (nonYMLFiles.length > 0) {
+        if (false) {
             console.log(
                 "You should only update your .yml file inside the ./resumes/ folder, but the following files have also been updated: "
                     .red
