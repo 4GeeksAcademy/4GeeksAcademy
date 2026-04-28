@@ -1,0 +1,86 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Juan Diego
+    last_name: Mok Mogollon
+    motto: Full Stack Developer
+
+    # Contact Information
+    email: Juandiegomok@gmail.com
+    phone: 04242326875
+    github: Juandiegomok21
+
+    # Your previous education
+    education:
+        School name: Colegio San Agustín El Paraíso
+        Years attended: 2006 - 2020
+
+        University name: Universidad Santa Maria 
+        Degree: Economia
+        Years attended: 2022 - Presente
+       
+        institution: "4Geeks Academy"
+        degree: "Bootcamp de Programación"
+        field_of_study: "Desarrollo Full Stack"
+        start_date: "2026-03"
+        end_date: "2026-07"
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    interests:
+      - item: Gaming
+
+      - item: Sports
+
+      - item: Cooking
+
+      # Your previous job experiences or volunteer
+    experiences:
+    - role: Analista de aplicaciones
+      time: 2025 - Marzo 2026
+      company: Fibex, Telecomunicaciones
+      assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
