@@ -1,0 +1,68 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Julyanna
+  last_name: Jaramillo Beiner
+  motto: As curious as a cat
+  focus: Full Stack Development
+
+  summary: |
+    I am a curious and driven person who loves learning new things. I am especially passionate about artificial intelligence and technology, and I am currently focused on building a strong foundation in programming and development from the ground up.
+
+  email: julysdatalab@gmail.com
+  linkedin: ""
+  github: JulyBeiner
+
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: Portuguese
+      level: Advanced
+    - idiom: French
+      level: B1
+
+education:
+  - degree: Data Analytics Bootcamp
+    university: Ironhack
+    time: ""
+    details: |
+      Intensive training in data analysis, tools and fundamentals.
+
+  - degree: Full Stack Development Program
+    university: 4Geeks Academy
+    time: ""
+    details: |
+      Learning programming, software development and modern technologies.
+
+experiences:
+  - role: Sales Assistant
+    company: Tous Jewelry
+    time: ""
+    details: |
+      Customer service and sales in a retail environment.
+
+  - role: Property Management
+    company: Airbnb
+    time: Present
+    details: |
+      Managing short-term rental properties and guest experience.
+
+projects:
+  - name: Student Profile
+    description: My first public profile on GitHub as part of my learning journey.
+    link: ""
+
+skills:
+  - name: HTML
+    level: 30
+  - name: CSS
+    level: 30
+  - name: Git & GitHub
+    level: 40
+  - name: Python
+    level: 25
+  - name: JavaScript
+    level: 20
