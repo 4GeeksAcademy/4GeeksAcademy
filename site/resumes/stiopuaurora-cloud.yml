@@ -1,0 +1,148 @@
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+
+    first_name: Natalia
+    last_name: Stiopu
+    
+    motto: Creative, curious, and always learning new things.
+    
+    focus: Focused on creative projects and personal growth
+    
+    
+    summary: 
+      I am a creative and curious person with a strong passion for continuous learning and personal growth. I have explored different fields throughout my journey, which has helped me develop adaptability, discipline, and a broad perspective. I enjoy music, writing, and expressing ideas in creative ways, always looking for opportunities to learn, evolve, and take on new challenges.
+      
+    avatar: https://i.imgur.com/5LKjZAU.jpg
+
+    
+    email: stiopuaurora@gmail.com
+    phone: +34 661 783 948
+    linkedin:  https://www.linkedin.com/in/natalia-stiopu-027978247
+    
+   
+    github: stiopuaurora-cloud
+  
+    stack-overflow: 32667699/natalia-stiopu
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Rumanian
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    
+    interests:
+      - item: Dancing
+
+      - item: Music
+
+      - item: Cooking
+
+      - item: Learning
+
+education:
+  - degree: Bachillerato
+    university: INS Ramon Berenguer IV
+    time: completed in 2023
+    details: |
+      General education with a broad academic foundation.
+
+        - Developed adaptability and learning skills
+        - Built a strong base for further studies
+
+  - degree: Online Cooking Course
+    university: Escuela Superior de Hostelería
+    time: completed in 2024
+    details: |
+      Introduction to culinary techniques and gastronomy.
+
+        - Learned basic cooking methods
+        - Explored food preparation and presentation
+
+  - degree: Cabin Crew Course
+    university: Certified Training Program
+    time: completed in 2025
+    details: |
+      Training focused on communication, safety, and customer care.
+
+        - Developed interpersonal and communication skills
+        - Learned safety procedures and teamwork
+
+  - degree: Programming Course
+    university: Current Studies
+    time: Present
+    details: |
+      Learning programming fundamentals and modern technologies.
+
+        - Developing problem-solving skills
+        - Building projects and technical knowledge
+
+experience:
+  - role: Waitress Assistant & Leisure Monitor
+    company: Masia Pla dels Catalans
+    time: 2021 - 2023
+    details: |
+      Worked in a dynamic environment combining restaurant service and children's activities.
+
+        - Assisted in customer service and daily restaurant operations
+        - Supervised and organized activities for children
+        - Developed teamwork and communication skills
+
+  - role: Waitress
+    company: Kintsugi Japanese Restaurant (Barcelona)
+    time: 6 months in 2023
+    details: |
+      Experience in a fast-paced restaurant environment with focus on quality service.
+
+        - Provided attentive customer service
+        - Worked efficiently under pressure
+        - Collaborated with team to ensure smooth service
+
+  - role: Event Catering Staff
+    company: Catering Group (Barcelona & surroundings)
+    time: 2023 - Present
+    details: |
+      Working in different events, adapting to diverse environments and client needs.
+
+        - Delivered service in a variety of events and settings
+        - Adapted quickly to new teams and situations
+        - Maintained high standards of service and professionalism
+
+projects:
+    intro: 
+        These are some of the first projects I built while learning programming. They represent my first steps in understanding how to create and develop ideas through code.
+
+    assignments:
+
+      - title: instagram post with Bootstrap
+
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/NataliaStiopu-instagramBootstrapfeed.git
+        tagline: An Instagram-style page built with Bootstrap, focusing on responsive design, layout structure, and the use of prebuilt components to create a clean and adaptable interface. 
+
+      - title: Form HTML5
+
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/4GeeksAcademy/NataliaStiopu.Form-Html5.git
+        tagline: A responsive form built with HTML5 and Bootstrap, focusing on structured input fields, validation basics, and clean, user-friendly design using Bootstrap components.
+
+ 
+
+skills:
+    toolset:
+      - name: Python 
+        level: 10%
+
+      - name: JavaScript 
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 40%
+
