@@ -1,0 +1,78 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Paula Nataly
+    last_name: Zuluaga Sanchez
+    motto: Full-Stack Developer
+    focus: Aspiring to be a great software developer
+
+# sidebar links and info
+    email: pau_nata14@htomail.com
+    phone: 614 12 17 05
+    website: 
+    linkedin: 
+    github: Nataly-04
+
+ # languages:
+    idiom: Spanish
+    level: Native
+
+    interests:
+      - item: Coding
+
+      - item: Photography
+
+      - item: Traveling
+
+education:
+    - degree: Forensic technology
+      university: Universidad Sergio Arboleda
+      time: 2017-2022
+
+
+experiences:
+    - role: Student
+      time: Currently
+      company: 4Geeks Academy
+      details: Learning Full-Stack Development with Javascript!
+
+projects:
+    intro: >
+      Here are some of my github projects for the 4GeeksAcademy course!
+    assignments:
+      - title: Postcard
+        link: https://github.com/Nataly-04/Nataly-04-Exercise-postcard-PRE1.git
+        tagline: "A responsive website template designed to input information on a postcard."
+
+      - title: Instagram Bootstrap
+        link: https://github.com/Nataly-04/Nataly-04-Instagram-Photo-Feed-Nataly-PROY2.git
+        tagline: "A responsive Bootstrap website template created to display posts and switch from grid to list view."
+
+      - title: form
+        link: https://github.com/Nataly-04/Nataly-04-formHTML5-PROY3.git
+        tagline: "A responsive website template designed to input user information through a form."
+
+      - title: Excuses Generator
+        link: https://github.com/Nataly-04/Nataly-04-Excusas-PRE3.git
+        tagline: "A web application that generates random excuses using JavaScript."
+
+skills: 
+    - name: HTML5
+      level: 30%
+
+    - name: CSS3
+      level: 30%
+
+    - name: JavaScript
+      level: 20%
+
+    - name: Bootstrap
+      level: 50%
