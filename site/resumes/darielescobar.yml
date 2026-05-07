@@ -1,0 +1,121 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    first_name: Dariel
+    last_name: Escobar
+    
+    motto: Growth, discipline and results
+    
+    focus: Property Management & Software Development
+    
+    summary: |
+      Experienced professional in the property management industry with a strong
+      background in leasing, resident relations, and operations. Proven ability
+      to increase occupancy, manage tenant relationships, and support daily
+      property performance.
+
+      Currently expanding into software development, building web applications
+      using HTML, CSS, JavaScript, React and Phyton. Combines technical skills with real-world
+      business experience to create efficient and user-focused solutions.
+    
+    avatar: https://randomuser.me/api/portraits/men/75.jpg
+
+    email: escobardariel5@gmail.com
+    phone: 512-379-9584
+    website: ""
+    linkedin: ""
+    
+    github: Darielescobar
+    
+    twitter: ''
+    stack-overflow: 
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Fitness
+
+      - item: Technology
+
+      - item: Personal Growth
+
+education:
+    - degree: Full Stack Software Developer
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026 - Present
+      details: |
+        Learning modern web development technologies including JavaScript,
+        React, APIs, and version control with Git and GitHub.
+
+experiences:
+    - role: Leasing Agent
+      time: 2020 - 2024
+      company: Residential Properties, Austin TX
+      details: |
+        Assisted prospects through the full leasing cycle including tours,
+        applications, and lease execution. Maintained strong customer service
+        and contributed to high occupancy rates.
+
+          - Conducted property tours and closed leases
+          - Managed resident inquiries and follow-ups
+          - Supported marketing and leasing strategies
+
+    - role: Assistant Property Manager
+      time: 2024 - Present
+      company: Residential Properties, Austin TX
+      details: |
+        Support daily operations of the property including rent collections,
+        resident relations, and administrative management. Work closely with
+        leasing and maintenance teams to ensure smooth operations.
+
+          - Managed rent collections and reports
+          - Coordinated maintenance and service requests
+          - Assisted with occupancy and financial performance
+
+projects:
+    intro: >
+      Web development projects focused on building real-world applications
+      using modern technologies.
+
+    assignments:
+      - title: Todo usando React y Fetch
+        link: https://github.com/4GeeksAcademy/Todolist-usando-React-y-Fetch-Dariel-Escobar
+        tagline: "A dynamic React application that fetches and displays real-time data from external APIs."
+
+      - title: Contact List App
+        link: https://github.com/Darielescobar
+        tagline: "CRUD application for managing contacts using React and REST APIs."
+
+skills:
+    toolset:
+      - name: Customer Service
+        level: ""
+
+      - name: Leasing & Sales
+        level: ""
+
+      - name: Property Management
+        level: ""
+
+      - name: Communication
+        level: ""
+
+      - name: HTML & CSS
+        level: ""
+
+      - name: JavaScript
+        level: ""
+
+      - name: React
+        level: ""
+
+      - name: Git & GitHub
+        level: ""
