@@ -1,0 +1,107 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Alba
+    last_name: Hidalgo
+    
+    # Define yourself in 4-5 words
+    motto: Learning web development every day
+    
+    # Focus
+    focus: Becoming a Full Stack Developer
+    
+    # Summary
+    summary: |
+      I am a programming student currently learning Full Stack Development
+      at 4Geeks Academy. I enjoy building websites, learning new technologies,
+      and improving my problem-solving skills every day.
+    
+    # Your profile picture URL
+    avatar: https://github.com/Alba2308.png
+
+    # Contact Information
+    email: your_email@example.com #optional
+    phone: 0000-0000 #optional
+    website: https://github.com/Alba2308 #optional
+    linkedin: #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL
+    github: Alba2308
+    
+    twitter: #optional
+    stack-overflow: 
+
+    # Languages you speak
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Medium
+
+    # Interests or hobbies
+    interests:
+      - item: Technology
+
+      - item: Web Development
+
+      - item: Learning New Skills
+
+# Your education
+education:
+    - degree: Full Stack Development
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026
+      details: |
+        Learning web development, JavaScript, Python, React,
+        HTML, CSS, Git and GitHub.
+
+# Your experiences
+experiences:
+    - role: Programming Student
+      time: 2026 - Present
+      company: 4Geeks Academy
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Working on web development projects and learning
+        modern programming technologies.
+
+# Your project portfolio
+projects:
+    intro: >
+      Beginner projects created while learning programming.
+
+    assignments:
+      - title: Personal Portfolio
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: https://github.com/Alba2308
+        tagline: "My first portfolio project using HTML and CSS."
+
+# Your skills
+skills:
+    toolset:
+      - name: HTML
+        level: 70%
+
+      - name: CSS
+        level: 65%
+
+      - name: JavaScript
+        level: 50%
+
+      - name: Git & GitHub
+        level: 60%
+
+      - name: Python
+        level: 40%
