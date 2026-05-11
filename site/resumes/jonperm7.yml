@@ -1,0 +1,145 @@
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jonathan Josué
+    last_name: Pérez Manzo
+    
+    # Define yourself in 4-5 words
+    motto: Bridging Business and Technology
+    
+    # Focus
+    focus: Full Stack & AI Enthusiast
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+        IT professional with a robust background in technical operations and critical infrastructure, 
+        currently evolving into a Full-Stack Software Developer. I combine years of experience in 
+        high-pressure environments (Airport IT & Logistics) with a deep dive into modern web 
+        technologies like React, Node.js, and Python. My goal is to leverage my analytical 
+        problem-solving skills and coordination expertise to build efficient, AI-driven solutions 
+        that solve real-world business challenges.
+
+    # Your profile picture URL
+    avatar: https://www.linkedin.com/in/jonperm7/overlay/photo/
+
+    # Contact Information
+    email: j2pm.v2.0@gmail.com
+    phone: +34 614 065 504
+    website: "" 
+    linkedin: https://www.linkedin.com/in/jonperm7/
+    
+    # Github username
+    github: jonperm7
+    
+    twitter: '-' 
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Basic (Learning)
+
+    # Interests or hobbies
+    interests:
+      - item: Artificial Intelligence
+      - item: Technology
+      - item: Team Leadership
+
+# Your previous education
+education:
+  - degree: Full-time Bootcamp Software Developer Full Stack
+    university: 4Geeks Academy España
+    university_logo: "" 
+    time: 2025 - 2026
+    details: |
+      Intensive training focused on modern full-stack development. 
+      Technologies: JavaScript (ES6+), React, Node.js, Python, SQL, and REST APIs. 
+      Focusing on building scalable web applications and AI integrations.
+
+  - degree: Team Management and Coaching
+    university: Adams
+    university_logo: "" 
+    time: 2025 - 2026
+    details: |
+      Advanced training in leadership, team coordination, and conflict resolution 
+      within corporate environments.
+
+  - degree: Public Leadership and Innovation
+    university: Universidad Hemisferios
+    university_logo: "" 
+    time: 2020
+    details: |
+      Focused on strategic management and innovative leadership within public 
+      and private sectors.
+
+  - degree: Cisco Networking Academy (Cybersecurity & IoT)
+    university: Cisco
+    university_logo: "" 
+    time: 2020
+    details: |
+      Foundational knowledge in network security, infrastructure protection, 
+      and Internet of Things (IoT) protocols.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Technical Operations & Incident Coordinator
+      time: 2024 - 2026
+      company: Felix Lozano, S.A., Madrid
+      company_logo: ""
+      details: |
+          Managing technical incidents and operational deployments in real-time. 
+          Ensuring quality standards and coordinating technical resources for 
+          large-scale maintenance projects.
+          - Optimized reporting workflows and controlled service overlaps.
+          - Acted as a bridge between technical field teams and project stakeholders.
+
+    - role: B2B Success & CRM Specialist
+      time: 2022 - 2024
+      company: Decameron, Madrid
+      company_logo: ""
+      details: |
+          High-level B2B client management and negotiation. Used CRM tools 
+          to track complex sales cycles and technical requirements.
+          - Translated business needs into functional solutions.
+          - Managed high-ticket accounts and resolved strategic conflicts.
+
+    - role: IT Support Specialist (Infrastructure)
+      time: 2017
+      company: Swissport, Guayaquil Airport
+      company_logo: ""
+      details: |
+          L1/L2 Technical support for critical airport infrastructure. 
+          Maintained hardware, networking, and software systems in a 24/7 
+          zero-error environment.
+          - Managed Active Directory, peripherals, and network connectivity.
+          - Maintained corporate portals and internal databases.
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 85%
+
+      - name: JavaScript & React
+        level: 75%
+
+      - name: Node.js & Python
+        level: 65%
+
+      - name: Networking & Cisco
+        level: 80%
+
+      - name: SQL & Databases
+        level: 70%
