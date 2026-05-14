@@ -1,0 +1,79 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+  first_name: "Carlos"
+  last_name: "Colmenares"
+  motto: "I like saving the world"
+  focus: "Full Stack Developer"
+  summary: |
+    Summarize your career here lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+    Second paragraph if required.
+  
+  avatar: "https://randomuser.me/api/portraits/men/24.jpg"
+  email: "karlon37@hotmail.com"
+  phone: "234 2342 342"
+  website: "asd.com"
+  linkedin: "karlon37"
+  github: "karlon2022"
+  twitter: "karlon37"
+  stack-overflow: "karlon2022"
+
+  languages:
+    - idiom: "English"
+      level: "Native"
+    - idiom: "French"
+      level: "Professional"
+    - idiom: "Spanish"
+      level: "Professional"
+
+  interests:
+    - item: "Climbing"
+    - item: "Snowboarding"
+    - item: "Cooking"
+
+# Your previous education
+education:
+  - degree: "MSc in Computer Science"
+    university: "University of London"
+    university_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    time: "2011 - 2012"
+    details: |
+      Describe your study here.
+      - Bullet point
+      - Bullet point
+
+# Your previous job experiences
+experiences:
+  - role: "Lead Developer"
+    time: "2015 - Present"
+    company: "Startup Hubs, San Francisco"
+    company_logo: "https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg"
+    details: |
+      Describe your role here.
+      - Bullet point
+      - Bullet point
+
+# Your project portfolio
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this
+    section.
+  assignments:
+    - title: "Velocity"
+      link: "#"
+      tagline: "A responsive website template designed to help startups promote."
+    - title: "DevStudio"
+      link: "#"
+      tagline: "A responsive website template designed to help web developers."
+
+skills:
+  toolset:
+    - name: "JavaScript & jQuery"
+      level: "98%"
+    - name: "HTML5 & CSS"
+      level: "95%"
