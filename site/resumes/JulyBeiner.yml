@@ -1,0 +1,74 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Julyanna
+    last_name: J. Beiner
+
+    motto: Curious mind with a passion for building things that matter
+
+    focus: Web Development
+
+    summary: |
+      I'm a tech enthusiast with a background in data analytics and a growing
+      passion for web development. I love understanding how things work under
+      the hood — whether it's a dataset or a user interface. Currently leveling
+      up my front-end skills at 4Geeks Academy, where I'm combining my
+      analytical mindset with the creativity of building for the web.
+
+    github: JulyBeiner
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+education:
+    - degree: Full Stack Web Development
+      university: 4Geeks Academy
+      time: 2025 - Present
+      details: |
+        Bootcamp focused on modern web development, covering both
+        front-end and back-end technologies.
+
+    - degree: Data Analytics Bootcamp
+      university: Ironhack
+      time: 2024
+      details: |
+        Intensive program focused on data analysis, visualization
+        and storytelling with data.
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 65%
+
+      - name: JavaScript
+        level: 45%
+
+      - name: Python
+        level: 70%
+
+      - name: SQL
+        level: 75%
+
+      - name: Pandas & NumPy
+        level: 65%
+
+      - name: Tableau
+        level: 60%
+
+      - name: Git & GitHub
+        level: 55%
+
+      - name: Excel & Google Sheets
+        level: 80%
