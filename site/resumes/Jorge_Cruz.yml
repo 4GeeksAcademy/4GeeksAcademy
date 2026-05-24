@@ -1,0 +1,113 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Jorge
+  last_name: Cruz
+  motto: Architect Building Digital Solutions
+  focus: Full Stack Development
+  summary: >
+    Full Stack Developer con una formación única en Arquitectura y más de 4
+    años de
+
+    experiencia profesional en diseño y gestión de proyectos. Actualmente en transición
+
+    hacia el desarrollo de software a través del bootcamp de 4Geeks Academy, combinando
+
+    pensamiento visual, liderazgo de equipos y tecnologías web modernas.
+
+
+    Founder de Terraview, una plataforma web de visualización de lotes inmobiliarios
+
+    para la industria de la construcción — disponibilidad en tiempo real, ficha técnica
+
+    por unidad, sin instalación. Apasionado por usar la tecnología para transformar
+
+    sectores tradicionales como la construcción y el real estate.
+  avatar: https://randomuser.me/api/portraits/men/32.jpg
+  email: jrge.crz@gmail.com
+  phone: 4423439402
+  github: Shadiest4
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional
+  interests:
+    - item: Architecture & Design
+    - item: Real Estate Technology
+    - item: Web Development
+education:
+  - degree: Full Stack Development Bootcamp
+    university: 4Geeks Academy
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2026
+    details: >
+      Programa intensivo de desarrollo web full stack con enfoque en Python,
+      JavaScript,
+
+      React, Flask, SQL y buenas prácticas de ingeniería de software.
+
+        - Desarrollo de Terraview: visualizador de lotes 100% web para el sector inmobiliario
+        - APIs REST, bases de datos relacionales y frontend con React
+  - degree: Licenciatura en Arquitectura
+    university: Universidad del Valle de México
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: 2018 - 2024
+    details: >
+      Carrera en Arquitectura con énfasis en diseño técnico, documentación
+      constructiva
+
+      y gestión de proyectos de construcción e inmobiliarios.
+
+        - Pensamiento espacial, modelado técnico y coordinación multidisciplinaria
+        - Desarrollo de habilidades de liderazgo y comunicación con clientes
+experiences:
+  - role: Project Manager
+    time: 2024 - Presente
+    company: PLAAN Arquitectura
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Liderazgo de proyectos arquitect y constructivos, coordinando equipos
+
+      multidisciplinarios y entregando proyectos alineados a los alcanzables establecidos.
+
+        - Gestión de equipos y timelines para proyectos arquitectónicos
+        - Dirección del desarrollo de Terraview, plataforma web de visualización inmobiliaria
+  - role: Arquitecto Jr
+    time: 2022 - 2024
+    company: PLAAN Arquitectura
+    company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    details: >
+      Contribución en diseño arquitectónico, planos técnicos y coordinación
+
+      con clientes y contratistas en proyectos residenciales y comerciales.
+
+        - Elaboración de planos constructivos y documentación técnica de proyectos
+        - Colaboración con arquitectos senior e ingenieros a lo largo del ciclo completo de obra
+projects:
+  intro: >
+    Proyectos que combinan mi formación en arquitectura con desarrollo de
+    software, enfocados en resolver problemas reales de la industria de la
+    construcción y el sector inmobiliario.
+  assignments:
+    - title: Terraview
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "#"
+      tagline: Visualizador de lotes 100% web para la industria inmobiliaria y de
+        construcción — disponibilidad en tiempo real, ficha técnica por unidad,
+        sin instalación.
+skills:
+  toolset:
+    - name: HTML5 & CSS
+      level: 80%
+    - name: JavaScript & React
+      level: 70%
+    - name: Python
+      level: 65%
+    - name: SQL & Databases
+      level: 65%
+    - name: Project Management
+      level: 92%
+    - name: ArchiCad & Diseño Técnico
+      level: 95%
