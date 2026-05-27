@@ -1,0 +1,106 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Nemes
+    
+    # Define yourself in 4-5 words
+    motto: I love to learn.
+    
+    # Focus
+    focus: Data Science
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a Yale PhD graduate who studied particle jets in heavy-ion collions using the STAR detector at Brookhaven National Lab. My work included using C++ to analyze
+      billions of heavy-ion collision events to search for jet substructure modification due to a Quark-Gluon Plasma medium. Looking to leverage my expertise in working 
+      with complex data to transition to a data science career.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    #avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    #email: a@a.com #optional
+    #phone: 234 2342 342 #optional
+    #website: asd.com #optional
+    #linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: dbnemes2
+    
+    #twitter: #'webjeda' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+
+    # Interests or hobbies
+    interests:
+      - item: Retrogames
+
+
+# Your previous education
+education:
+    - degree: PhD in Experimental Physics
+      university: Yale University
+      # optional
+      time: 2015 - 2023
+
+    - degree: BSc in Physics
+      university: The College of New Jersey
+      # optional
+      time: 2011 - 2015
+         
+# Your previous job experiences or volunteer
+experiences:
+    - role: Graduate Researcher
+      time: 2015 - 2023
+      company: Yale University / STAR Collaboration
+      # optional
+
+    - role: Undergraduate Researcher
+      time: 2014 - 2015
+      company: The College of New Jersey / QWEAK Collaboration
+      # optional
+
+
+# Your project portfolio
+projects:
+    intro: >
+      More projects to come...
+
+    assignments:
+      - title: Jet Substructure Measurement in Au-Au Collions at STAR
+        # optional
+        #project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        #link: "#hook"
+        tagline: "PhD dissertation"
+
+skills:
+    toolset:
+      - name: Research
+        level: 100%
+
+      - name: C++
+        level: 90%
+
+      - name: Python
+        level: 70%
+
+      - name: PHP
+        level: 20%
+
