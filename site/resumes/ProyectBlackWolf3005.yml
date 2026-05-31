@@ -1,0 +1,71 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Joalexis
+    last_name: Pinto
+
+    motto: Learning Full Stack Development
+
+    focus: Full Stack Student
+
+    summary: |
+      Full Stack Development student at 4Geeks Academy.
+
+      Interested in web development, React, Python, APIs and continuous learning.
+
+    github: ProyectBlackWolf3005
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+education:
+    - degree: Full Stack Development
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2026
+
+projects:
+    intro: >
+      Projects completed during my learning journey at 4Geeks Academy.
+
+    assignments:
+      - title: Todo List React
+        link: "https://github.com/ProyectBlackWolf3005/JoalexisPinto-Aplicacion-de-Todolist-usando-React-y-Fetch"
+        tagline: "Task management application built with React and API integration."
+
+      - title: Contact List React
+        link: "https://github.com/ProyectBlackWolf3005/JoalexisPinto-Lista-de-Contactos-usando-React-Context"
+        tagline: "Contact management application using React Context and routing."
+
+      - title: Star Wars Blog
+        link: "https://github.com/ProyectBlackWolf3005/JoalexisPinto-Blog-de-Starwars"
+        tagline: "Frontend application consuming Star Wars data from an external API."
+
+      - title: TriviaQuest Final Project
+        link: "https://github.com/ProyectBlackWolf3005/JoalexisPinto-TriviaQuest-FinalProject"
+        tagline: "Full Stack project built with React, Flask and JWT authentication."
+
+skills:
+    toolset:
+      - name: HTML & CSS
+        level: 60%
+
+      - name: JavaScript
+        level: 60%
+
+      - name: React
+        level: 55%
+
+      - name: Python
+        level: 55%
+
+      - name: Flask
+        level: 50%
+
+      - name: Git & GitHub
+        level: 65%
