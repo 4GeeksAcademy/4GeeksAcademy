@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Adrian
+    last_name: Aranda
+    
+    # Define yourself in 4-5 words
+    motto: I love the curiosity
+    
+    # Focus
+    focus: Trying to be myself!
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have ADHD, and it's a double-edged sword; 
+      it all depends on the approach, the environment, and a good balance.  
+      But it helps me solve problems much more easily. Overthinking, if 
+      properly channeled, can even be a great skill, under pressure,
+      it's even better.
+      
+    
+    
+      
+
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://i.ibb.co/MxpCDyQF/Captura-de-pantalla-2026-05-31-191020.png
+
+    # Contact Information
+    email: AdriAM44@4geeks.com #optional
+    phone: 666 777 698 #optional
+    website: adriam01.com #optional
+    linkedin: adrian-aranda-martinez #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: AdriAM44
+    
+    
+    
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Medium-Advanced
+
+      - idiom: Català
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Driving simulators also driving IRL
+
+      - item: Read & Learn
+
+# Your previous education
+education:
+    - degree: ESO 
+      university: IES Vicenç Plantada
+      # optional
+    
+      time: 2013-2018
+      details: |
+        
+        High-School times, went fast and I miss that times.
+        
+
+    - degree: FP Electromechanicals
+      university: IES Mollet
+      
+      time: 2020-2021
+      details: |
+        Electromechanicals studies.
+
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Delivery
+      time: 2019 - 2023
+      company: Bodega Segalès, Mollet
+      # optional
+      details: |
+        Just delivery and logistics.
+
+    - role: Laboratory sterilization technician
+      time: 2023 - 2024
+      company: GRIFOLS ISS, Parets
+      # optional
+      details: |
+        My role was to sterilize laboratories, sterile rooms, 
+        experiment rooms, processing rooms, etc. 
+        Basically, my role consisted of completely disinfecting and sterilizing these rooms,
+        so that everything could be carried out with the necessary safety measures.
+
+    - 
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 5%
+
+      - name: JavaScript & jQuery
+        level: 20%
+
+      - name: Angular
+        level: 1%
+
+      - name: HTML5 & CSS
+        level: 95%
