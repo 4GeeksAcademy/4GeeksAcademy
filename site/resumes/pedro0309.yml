@@ -1,0 +1,59 @@
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+  first_name: Pedro
+  last_name: Chavez
+  github: pedro0309
+
+  motto: Full-Stack Developer
+
+  summary: >
+    Full-Stack Developer and Computer Systems Engineer with experience in web
+    development, desktop applications, databases, and video game development.
+    Passionate about software engineering, problem solving, and continuous
+    learning. Skilled in JavaScript, React, Python, C#, PHP, SQL, Git, and
+    modern web technologies. Currently expanding my knowledge through intensive
+    software development training while building personal and collaborative
+    projects.
+
+  languages:
+    - idiom: Spanish
+      level: Native
+
+    - idiom: English
+      level: Intermediate
+
+  interests:
+    - item: Software Development
+    - item: Video Game Development
+    - item: Technology
+    - item: Reading
+    - item: Gaming
+    - item: Hiking
+
+education:
+  - degree: Ingeniería en Sistemas Computacionales
+    university: Instituto Tecnológico de Linares
+    time: 2013 - 2017
+    details: >
+      Linares, Nuevo León, México.
+
+experiences:
+  - role: Full-Stack Development Student
+    company: 4Geeks Academy
+    time: 2025 - Present
+    details: >
+      Intensive Full-Stack Development Bootcamp focused on modern web
+      technologies including HTML5, CSS3, JavaScript, React, Python,
+      SQL, Git, GitHub, APIs, and collaborative software development
+      practices.
+
+  - role: Software Developer (Personal Projects)
+    company: Independent
+    time: 2020 - Present
+    details: >
+      Development of web applications, desktop software, database systems,
+      and video games using Unity and C#. Experience working with PHP,
+      MySQL, JavaScript, and object-oriented programming.
