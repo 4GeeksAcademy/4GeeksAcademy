@@ -1,0 +1,78 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Jose Luis
+    last_name: Rodriguez
+    motto: apasionado del motor
+    avatar: https://avatars.githubusercontent.com/u/278720576?v=4
+    summary: |
+        Joven apasinado del motor, con interes en el mundo de la programacion y la ia
+
+    email: joselus@gm-com
+    phone: 648 558 558
+    website: none
+    linkedin: joselurr
+    github: joselujr
+    twitter: none
+    stack-overflow: none
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: nou
+
+    interests:
+      - item: Coding
+
+      - item: motos
+
+      - item: aviones
+
+education:
+    - degree: bachillerato
+      university: virgen de fatima
+      time: 2015
+      details: bachiller
+
+    - degree: Full-Stack Web Developer
+      university: 4Geeks Academy
+      time: Currently
+      details: Here I learned how to make web pages from the Front to the Back-end.
+      
+      
+experiences:
+    - role: Coordinador
+      time: 2018-2020
+      company: Amazon
+      details: jefe de trafico
+      
+projects:
+    intro: >
+      Here are some of the projects I made at the 4Geeks Academy, as well as a project I added to my webpage porftfolio (Super Merch).
+    
+    assignments:
+      - title: PostCard
+        link: none
+        tagline: none
+
+     
+
+     
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 70%
+
+      - name: Javascript
+        level: 5%
+
+      - name: HTML5 & CSS
+        level: 65%
+
+      - name: React
+        level: 0%
