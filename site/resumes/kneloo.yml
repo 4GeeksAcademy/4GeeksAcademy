@@ -1,0 +1,76 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+
+    # Profile information
+    first_name: Juan Pablo
+    last_name: Ortiz
+    motto:  money and work at home
+    avatar: https://www.instagram.com/p/CXPlzvyITOLVkydWnMspaCk9NaLFvNaAdgZZ9A0/
+    summary: Motivated Full Stack Developer trainee currently enrolled at 4Geeks Academy.
+             Skilled in front-end and back-end development, with experience working on practical 
+             projects using React, JavaScript, Python, and database technologies.
+             Eager to apply technical knowledge, learn from experienced professionals,
+             and contribute to real-world software development projects.
+      
+
+    # Sidebar links
+    email: kanelin@gmail.com
+    phone: (506) 88641289
+    github: kneloo
+
+    languages:
+      - idiom: English
+        level: Intermediate
+      - idiom: Spanish
+        level: Native
+
+
+    interests:
+      - item: Video Games
+
+      - item: TCG's
+
+      - item: Coding
+
+      - item: Anime and movies
+
+
+education:
+    - degree: Full Stack developer junior
+      academy: 4Geeks academy
+      
+
+experiences:
+    - none: none
+
+
+projects:
+    intro: >
+      I am new in github
+
+skills:
+    toolset:
+
+      - name: C
+        level: 0%
+
+      - name: C++
+        level: 0%
+
+      - name: Python
+        level: 0%
+
+      - name: HTML5
+        level: 20%
+
+      - name: CSS
+        level: 20%
+
+      - name: Javascript
+        level: -5%
+
