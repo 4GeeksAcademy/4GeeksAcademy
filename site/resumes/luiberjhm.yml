@@ -1,0 +1,88 @@
+
+template: "online-cv"
+skin: "ceramic"
+
+basic_info:
+
+    first_name: Luiber  
+    last_name: Hernandez
+    motto: Ser mejor cada dia.
+    avatar: https://avatars.githubusercontent.com/u/200481968?s=400&u=7434a520c2e3ab762a8a3f7ec6212123d951f7d1&v=4
+    summary: |
+        Amor por Dios y la familia principalmente, me gustan los deportes en especial el futbol. Me gusta aprender cosas
+        nuevas por eso entre a este maravilloso munbdo de la programacion.
+
+    email: luiberjhm@gmail.com
+    phone: 683 14 92 98
+    website: none
+    linkedin: none
+    github: luiberjhm
+    twitter: none
+    stack-overflow: none
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English 
+        level: basico
+    interests:
+      - item: Coding
+
+      - item: Gaming
+
+      - item: futbol
+
+education:
+    - degree: Bachiller en ciencias
+      university: none
+      time: 2004-2008
+      details: estudios superados en Bachiller en ciencias
+
+    - degree: Full-Stack Web Developer
+      university: 4Geeks Academy
+      time: Estudiando actualmente
+      details: Aprendiendo paso a paso del full Stack. 
+      
+      
+experiences:
+    - role: Comerciante
+      time: 2018-2023
+      company: Quimicos OLH
+      details: Empresa de fabricacion de productos de limpieza, ventas al por mayor y detal. 
+      
+projects:
+    intro: >
+      Estos son algunos de los proyectos que hice en 4Geeks Academy, así como un proyecto que agregué a mi portafolio de páginas web (Super Merch).
+    
+    assignments:
+      - title: PostdeInstagram
+        link: https://github.com/Luiberjhm/fspt139-luiber-PostdeInstagram
+        tagline: A postcard made with HTML and CSS
+
+      - title: HTML5 form
+        link: https://github.com/4GeeksAcademy/fspt139-luiber-HTML5form
+        tagline: HTML5
+        
+      - title: Product Page
+        link: https://github.com/luigiRP/4Geeks-5.Product-
+        tagline: FA product page I made using HTML and CSS
+
+      - title: Excuse Generator
+        link: https://github.com/4GeeksAcademy/fspt139-luiber-generadordeexcusas
+        tagline: Un programa generador de excusas aleatorias que utiliza JavaScript
+             
+
+skills:
+    toolset:
+      - name: Bootstrap
+        level: 70%
+
+      - name: Javascript
+        level: 50%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: React
+        level: 0%
