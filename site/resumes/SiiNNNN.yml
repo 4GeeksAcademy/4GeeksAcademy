@@ -1,0 +1,95 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+  # Profile information
+  first_name: Eudald
+  last_name: Pou Lozano 
+  motto: El saber no ocupa lugar
+  avatar: https://avatars.githubusercontent.com/u/278380530?s=400&v=4
+  summary: |
+    He trabajado toda la vida de cocinero, pero siempre me ha gustado la informática y el desarrollo de aplicaciones.
+    Por eso decidí formarme en el desarrollo de aplicaciones multiplataforma, y actualmente estoy planeando hacer un juego pixel art.
+
+  # Sidebar links
+  email: eudaldpoulozano@gmail.com
+  phone: 691 28 45 88 
+  website: eudaldpoulozano.com #do not add http://
+  github: SiiNNNN 
+  twitter: SiiNNNN
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+  languages:
+    - idiom: Spanish
+      level: Nativo
+
+    - idiom: English
+      level: Medio
+
+  interests:
+    - item: videojuegos y anime
+    - item: astronomía y física
+    - item: programación y desarrollo de videojuegos
+
+education:
+  - degree: grado medio de hosteleria
+    university: x
+    time: x
+
+  - degree: x
+    university: x
+    time: x
+
+experiences:
+  - role: Technical Commercial and Mobile Developer Manager
+    time: 2017 - Present
+    company: EdasNet, Mostoles, Madrid, Spain
+    details: |
+      Design, development and testing of native Android applications for aviation schools.
+      Currently I perform the same functions but using Xamarim Forms for multiplatform applications.
+       
+  - role: Salesman
+    time: 2005 - 2017
+    company: x Madrid, Spain
+    details: |
+      Advice and sale of different products in relation to the department I belonged to.
+      Computers and peripherals in the computer section. Comics, graphic novels, figures
+      collection, video games, consoles and peripherals in the comics and video games section.
+        
+        
+projects:
+  intro: >
+   
+  assignments:
+    - title: Instagram Photo Feed Boostrap
+      link: "#https://github.com/4GeeksAcademy/post-instagram-SiiNNN"
+      tagline: "Version de prueba del feed de instagram usando "
+
+    - title: Excuse Generator
+      link: x
+      tagline: x
+
+    - title: Conditional Profile Card
+      link: x
+      tagline: x
+
+
+skills:
+  toolset:
+    - name: x
+      level: x
+
+    - name: x
+      level: x
+
+    - name: x
+      level: x
+
+    - name: x
+      level: x
+
+    - name: x
+      level: x
+
+    - name: x
+      level: x
