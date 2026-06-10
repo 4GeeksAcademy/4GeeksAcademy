@@ -1,0 +1,88 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "Green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Arturo
+    last_name: Alvarado
+    
+    # Define yourself in 4-5 words
+    motto: Aficionado de aprender un poco de todo.
+           Intento de escritor.
+           Amante de la historia.
+           El dinero SI da la felicidad.
+           Thanos was right.
+    
+    # Focus
+    focus: Busqueda de la independencia económica. Nada de pasiones romanticas, mi pasión es la plata.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      La Dicotomía del Control: Enfoca tu energía solo en tus pensamientos, acciones y respuestas. Despreocúpate de los resultados externos, el clima, o las opiniones de los demás.
+      Vivir con Virtud: La sabiduría, el coraje, la justicia y la templanza son los únicos bienes verdaderos. El éxito o el dinero son indiferentes.
+      Amor Fati (Amar tu Destino): No te limites a tolerar los obstáculos de la vida, míralos como oportunidades para crecer y acéptalos con gratitud.
+      Incomodidad Voluntaria: Prepárate para la adversidad practicando la escasez temporal para no temerle a la pérdida.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmad10-2.fna.fbcdn.net/v/t39.30808-6/700369963_4546346808931617_1298512163669615115_n.jpg?stp=dst-jpg_tt6&cstp=mx896x897&ctp=s896x897&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2Uvowifxk6sQ7kNvwFECv-i&_nc_oc=Adqw8ClPtaGd8eO0KnQs0jbfmMn-aOrPSfbMdY_tCHZwAJj8RDnGV1ecwOYmuz4t7QA&_nc_zt=23&_nc_ht=scontent.fmad10-2.fna&_nc_gid=XGRdegurxGtVepO9EbIvXw&_nc_ss=7b2a8&oh=00_Af8t7dD_Rg6A54Ob81Q4FOE3NRfSJj5z_vGo_ctw1pzqIQ&oe=6A2EF5B6
+
+    # Contact Information
+    email: a@a.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: reiss4rth-netizen
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Nativo
+
+      - idiom: Ingles
+        level: B2
+
+      - idiom: Italiano
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Idiomas
+
+      - item: Programar
+
+      - item: Gaming
+
+# Your previous education
+education:
+    Soy muy educado :D
+  
+Experiences:
+    Muy poco experimentado xd.
+    
+skills:
+    toolset:
+      - name: Python & Django
+        level: 1%
+
+      - name: JavaScript & jQuery
+        level: 2%
+
+      - name: HTML5 & CSS
+        level: 8%
+
+      - name: Sketch & Photoshop
+        level: 12%
