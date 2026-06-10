@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jesus
+    last_name: Echenagucia
+    
+    # Define yourself in 4-5 words
+    motto: Proactivo, analitico, resposable y honesto
+    
+    # Focus
+    focus: Desarrollo full stack
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Estudiante de programación con mentalidad orientada a la resolución de problemas y al 
+      aprendizaje continuo. Especializado en el ecosistema de HTMML5 / CSS / JavaScript / React / Node.js] a 
+      través de proyectos personales. Busco integrarme como Desarrollador Junior / Trainee para aplicar 
+      mis habilidades técnicas, colaborar en equipo y acelerar mi desarrollo profesional 
+
+      Busco integrarme como Desarrollador Junior / Trainee para aplicar 
+      mis habilidades técnicas, colaborar en equipo y acelerar mi desarrollo profesional
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/243744307?s=400&u=b06d6a0ba587916e54b114102d0b2fc929ccf8d4&v=4
+
+    # Contact Information
+    email: jaem0699@gmail.com
+    phone: +34605898478
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jaem0699
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Ingles
+        level: Avanzado
+
+      - idiom: Spanish
+        level: Nativo
+
+    # Interests or hobbies
+    interests:
+      - item: Produccion musical
+
+      - item: Futbol
+
+      - item: Gym
+
+# Your previous education
+education:
+    - degree: Bachiller
+      university: Colegio San Agustin El Marques
+      # optional
+      university_logo: https://4.bp.blogspot.com/-eN-LyJuFyEY/V2Fft7IBAZI/AAAAAAAAAOM/9lMsRC6SThgMgZJE8Khte5CC9PUKyPfuQCK4B/s1600/0descarga.jpg
+      time: 2003 - 2017
+      details: |
+        Tuve una estancia academmica tranquila y exitosa
+
+    - degree: Administracion de empresas (sin terminar)
+      university: Universidad Santa Maria
+      # optional
+      university_logo: https://seeklogo.com/images/U/universidad-santa-maria-logo-10A1B12E6D-seeklogo.com.png
+      time: 2022 - 2024
+      details: |
+        Estuve 2 años, cocretando la mitad de la carrera, congelando y posponiendolo por emigrar a España debido a la situacion pais en Venezuela
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Vendedor / Expendedor
+      time: 2025 - Present
+      company: E.S. Repsol
+      # optional
+      company_logo: https://logos-world.net/wp-content/uploads/2020/03/Repsol-Logo-2012-present.jpg
+      details: |
+        Actualmente trabajo para esta empresa como vendedor / expendedor mientras estudio en 4geeks academy
+
+# Your project portfolio
+
+skills:
+    toolset:
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: JavaScript
+        level: 30%
+
+      - name: FL studio
+        level: 100%
