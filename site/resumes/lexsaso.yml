@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: online-cv
+skin: blue
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jhon Alexander
+    last_name: Sandoval
+    
+    # Define yourself in 4-5 words
+    motto: Desarrollador Full-Stack & AI Engineer
+    
+    # Focus
+    focus: Web Development & Artificial Intelligence
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador apasionado por el desarrollo web y la ingeniería de inteligencia
+      artificial. Especializado en construir interfaces modernas, responsivas y
+      eficientes, así como en la implementación de arquitecturas basadas en modelos de
+      lenguaje (LLMs) y sistemas RAG. Con un fuerte enfoque en la optimización de código,
+      diseño UI/UX y metodologías ágiles.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: tu.email@example.com
+    phone: "+34 600 000 000"
+    website: tu-portfolio.dev
+    linkedin: tu-usuario
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: lexsaso
+    
+    twitter: ''
+    stack-overflow: 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: tecnico
+
+    # Interests or hobbies
+    interests:
+      - item: Programming
+      - item: UI/UX Design
+      - item: AI Agents
+
+# Your previous education
+education:
+    - degree: AI Engineering & Full-Stack Developer Program
+      university: 4Geeks Academy
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2026 - Presente
+      details: |
+        Formación intensiva orientada a proyectos prácticos de arquitectura de software,
+        desarrollo web avanzado y automatización con IA.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Junior Full-Stack & AI Developer
+      time: 2026 - Presente
+      company: Freelance / Proyectos Independientes
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Desarrollo autónomo de aplicaciones web modernas e integración de herramientas de
+        inteligencia artificial para optimización de datos.
+
+# Your project portfolio
+projects:
+    intro: >
+      A continuación se listan los proyectos clave desarrollados durante mi formación,
+      abarcando desde maquetación avanzada hasta ingeniería de prompts y arquitecturas RAG.
+
+    assignments:
+      - title: HealthCore AI
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lexsaso"
+        tagline: "Diseño e implementación de un sistema RAG para el procesamiento y consulta eficiente de datos médicos utilizando TypeScript."
+
+      - title: Clone de Airbnb
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lexsaso"
+        tagline: "Réplica de la interfaz de Airbnb con un enfoque de diseño responsive Mobile-First y arquitectura de componentes reutilizables en Next.js."
+
+      - title: E-Commerce Clothing Prototype
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lexsaso"
+        tagline: "Prototipo completo de una tienda de ropa en línea que abarca 5 vistas clave (Home, Catálogo, Producto, Carrito y Checkout) con Tailwind CSS."
+
+      - title: Fintech Digital Wallet Model
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/lexsaso"
+        tagline: "Diseño conceptual y diagramación de clases UML enfocado en la gestión de billeteras digitales y transacciones financieras."
+
+skills:
+    toolset:
+      - name: JavaScript & TypeScript
+        level: 95%
+
+      - name: React & Next.js
+        level: 90%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: Tailwind CSS & Bootstrap 5
+        level: 90%
+
+      - name: Prompt Engineering (3-Layer Context)
+        level: 95%
+
+      - name: Git, Codespaces & Vim
+        level: 85%
