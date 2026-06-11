@@ -1,0 +1,142 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Gonçalo
+    last_name: Ferreira
+
+    # Define yourself in 4-5 words
+    motto: student, ambitious, dark humourous and clean
+
+    # focus
+    focus: web developers
+
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Im a hard worker student, i have my objectives defined and i will do everything in my power to achieve them. Im a good group member and i try always to help.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D4D03AQEDKvP4S2ElsA/profile-displayphoto-crop_800_800/B4DZm2kyEmH0AM-/0/1759704720919?e=1782950400&v=beta&t=LiOq-0Uofxw8OPkRmOf7BvUBjgopzLsuXjR3cmFe1Hg
+
+    # Contact Information
+    email: goncaloandresferreira@gmail.com
+    phone: #optional
+    website:  https://www.linkedin.com/feed/
+    linkedin: https://www.linkedin.com/feed/
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: goncaloandresferreira-star
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: C2
+
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Traveling
+
+      - item: Archaeology
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: African Studies
+      university: Universidade de Lisboa
+      # optional
+      university_logo: http://users.cs.fiu.edu/~mullerk/logo/fiuhorizontaltrans.png
+      time: 2023-2026
+      details: |
+        
+    - degree: 
+      university: 
+      # optional
+      university_logo:
+      time: 
+      details: |
+        
+# Your previous job experiences or voluntier
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: |
+    
+# Your project portfolio
+projects:
+    intro: >
+      
+    assignments:
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+      - title: 
+        # optional
+        project_logo: 
+        link: 
+        tagline: 
+
+      - title: Delt
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+skills:
+    toolset:
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
+
+      - name: 
+        level: 
