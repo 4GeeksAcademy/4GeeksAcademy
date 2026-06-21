@@ -1,0 +1,144 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fabrizzio
+    last_name: Rebuffo
+
+    # Define yourself in 4-5 words
+    motto: Full-stack developer with a design eye
+
+    # Focus
+    focus: Full-Stack Web Development
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Full-stack web developer recently graduated from 4Geeks Academy's bootcamp, with a background
+      in industrial design from the Instituto de Diseño de Caracas (IDC). I build with React, Python,
+      Flask and SQL, bringing a strong eye for usability and visual design to every project I work on.
+
+      My final bootcamp project, GymMind, is a fitness tracking web app where I built the Profile and
+      Progress modules end-to-end, including a photo gallery system with filters and upload management.
+      I'm currently looking for opportunities to grow as a full-stack developer.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/0?v=4
+
+    # Contact Information
+    email: tu_email@gmail.com #optional
+    phone: +58 000 0000000 #optional
+    website: #optional
+    linkedin: fabrizziorebuffo12 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: fabrizziorebuffo12
+
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Fitness & strength training
+
+      - item: 3D printing
+
+      - item: Industrial design
+
+# Your previous education
+education:
+    - degree: Full-Stack Web Development Bootcamp
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2025 - 2026
+      details: |
+        Intensive full-stack bootcamp covering React, Python, Flask and SQL. Built GymMind, a
+        fitness tracking web app, as the final project.
+
+          - Front-end with React, Vite and Bootstrap
+          - Back-end with Flask, SQLAlchemy and PostgreSQL
+          - State management with custom hooks and JWT authentication
+
+    - degree: Industrial Design
+      university: Instituto de Diseño de Caracas (IDC)
+      # optional
+      university_logo:
+      time: In progress
+      details: |
+        Studies in industrial design, covering Rhino, KeyShot, Photoshop, Illustrator and color
+        theory. This design background complements my development work, giving me a strong eye
+        for usability and visual polish.
+
+          - 3D modeling and rendering (Rhino, KeyShot)
+          - Visual design and color theory
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Freelance 3D Printing & Design
+      time: Present
+      company: Independent, Caracas
+      # optional
+      company_logo:
+      details: |
+        Run a client-facing 3D printing service in Caracas, handling everything from print
+        calibration and material selection to pricing and client delivery.
+
+          - Print calibration and slicer setup (OrcaSlicer, PrusaSlicer)
+          - Client communication and project pricing
+          - Material selection and quality optimization
+
+# Your project portfolio
+projects:
+    intro: >
+      A selection of projects from my bootcamp training and personal development work.
+
+    assignments:
+      - title: GymMind
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/fabrizziorebuffo12/GymMind-Fabrizzio2"
+        tagline: "Fitness tracking web app built with Flask, React and PostgreSQL. Built the Profile and Progress modules, including a photo gallery system with filters and uploads."
+
+      - title: Personal Fitness PWA
+        # optional
+        project_logo:
+        link: "#"
+        tagline: "A personal progressive web app for tracking a 5-day training split, diet planning, water/sleep logging and a 1RM calculator using the Epley formula."
+
+skills:
+    toolset:
+      - name: React
+        level: 80%
+
+      - name: Python & Flask
+        level: 80%
+
+      - name: SQL & PostgreSQL
+        level: 75%
+
+      - name: JavaScript
+        level: 80%
+
+      - name: HTML5 & CSS / Bootstrap
+        level: 85%
+
+      - name: Industrial Design (Rhino, KeyShot, Photoshop)
+        level: 70%
