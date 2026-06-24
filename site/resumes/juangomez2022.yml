@@ -1,0 +1,126 @@
+template: online-cv
+skin: blue
+
+basic_info:
+  first_name: Juan David
+  last_name: Gómez
+  motto: Aprender, crear y comunicar
+  focus: Full Stack Development
+
+  summary: |
+    Profesional en Comunicación Corporativa y Relaciones Públicas,
+    Técnico en Desarrollo de Software, con experiencia en comunicación
+    estratégica, diseño web, creación de contenido digital y gestión
+    de marca. Actualmente enfocado en fortalecer mis habilidades como
+    desarrollador Full Stack, combinando tecnología, creatividad y
+    resolución de problemas para generar soluciones de valor.
+
+  email: jdge2012@gmail.com
+  phone: "+57 311 619 8369"
+  github: juangomez2022
+  linkedin: juan-david-gomez
+
+  languages:
+    - idiom: Español
+      level: Native
+    - idiom: Inglés
+      level: Professional
+
+  interests:
+    - item: Desarrollo Web
+    - item: Diseño Gráfico
+    - item: Comunicación Digital
+    - item: Tecnología
+    - item: Podcasting
+
+
+education:
+  - degree: Técnico en Desarrollo de Software
+    university: CESDE
+    time: 2024 - Presente
+    details: |
+      Formación en desarrollo de software, programación,
+      desarrollo web y metodologías ágiles.
+
+  - degree: Comunicación Corporativa y Relaciones Públicas
+    university: Universidad de Medellín
+    time: Graduado
+    details: |
+      Formación profesional en comunicación estratégica,
+      relaciones públicas, branding y gestión organizacional.
+
+  - degree: Certificación Scrum Foundation Professional
+    university: CertiProf
+    time: 2024
+
+
+experiences:
+  - role: Analista de Comunicaciones
+    time: 2024 - Presente
+    company: Clínica Ambulatoria Conquistadores
+    details: |
+      Gestión de comunicaciones internas y externas,
+      administración de redes sociales, producción de contenido
+      y actualización del sitio web institucional.
+
+  - role: Editor y Coproductor de Podcast
+    time: 2024
+    company: ENGIM ONG
+    details: |
+      Participación en la producción del podcast
+      "Generación Café", enfocado en memoria histórica
+      y procesos de reintegración social.
+
+  - role: Diseñador Web y Community Manager Freelance
+    time: 2023 - Presente
+    company: Independiente
+    details: |
+      Desarrollo de sitios web, gestión de redes sociales,
+      estrategias de comunicación digital y fortalecimiento
+      de marca para clientes independientes.
+
+
+projects:
+  intro: >
+    Algunos de los proyectos realizados durante mi proceso de
+    aprendizaje y experiencia profesional.
+
+  assignments:
+    - title: Sitio Web para Guía Turística
+      link: "https://github.com/juangomez2022"
+      tagline: "Diseño y desarrollo de una página web para promoción de servicios turísticos."
+
+    - title: Generación Café Podcast
+      link: "https://github.com/juangomez2022"
+      tagline: "Producción y edición de contenido audiovisual para proyecto comunitario."
+
+    - title: Portafolio Full Stack
+      link: "https://github.com/juangomez2022"
+      tagline: "Repositorio con ejercicios y proyectos desarrollados durante el bootcamp."
+
+
+skills:
+  toolset:
+    - name: HTML5
+      level: 80%
+
+    - name: CSS3
+      level: 75%
+
+    - name: JavaScript
+      level: 70%
+
+    - name: Python
+      level: 60%
+
+    - name: Git & GitHub
+      level: 70%
+
+    - name: Diseño Gráfico
+      level: 85%
+
+    - name: Comunicación Corporativa
+      level: 95%
+
+    - name: Scrum
+      level: 75%
