@@ -1,0 +1,171 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marcos
+    last_name: Rodríguez
+
+    # Define yourself in 4-5 words
+    motto: De la cocina al código
+
+    # Focus
+    focus: Desarrollo Web FullStack
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Desarrollador FullStack Jr. con stack en React, Python, Flask y SQL,
+      formado en 4Geeks Academy (actualmente desarrollando el proyecto final).
+      Aporto más de 5 años de experiencia en cocina profesional, donde construí
+      disciplina, trabajo bajo presión, atención al detalle y trabajo en equipo.
+
+      Busco mi primera oportunidad como desarrollador, con la responsabilidad y
+      orientación a resultados de quien viene de entornos operativos exigentes.
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/profile-images/marcos-rodriguez.jpg
+
+    # Contact Information
+    email: marcosrp2001@gmail.com #optional
+    phone: +598 96 273 043 #optional
+    website: #optional
+    linkedin: marcos-rodriguez-164259132 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Marcos33330
+
+    twitter: #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Inglés
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Desarrollo web
+
+      - item: Cocina y panadería artesanal
+
+      - item: Tecnología
+
+# Your previous education
+education:
+    - degree: FullStack Developer
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: Mar. 2026 - Jul. 2026
+      details: |
+        Formación intensiva en desarrollo web FullStack con enfoque práctico,
+        desarrollando proyectos individuales y colaborativos con buenas
+        prácticas y metodologías ágiles.
+
+          - HTML, CSS, JavaScript, React
+          - Python, Flask, SQL, Git y consumo de APIs REST
+
+    - degree: Profesional de Artes Culinarias
+      university: Escuela Profesional Gastronómica, Caracas, Venezuela
+      time: 2019 - 2020
+      details: |
+        Formación técnica en artes culinarias.
+
+          - Técnicas de cocina profesional
+          - Seguridad e higiene alimentaria
+
+    - degree: Bachiller en Ciencias
+      university: Nuestra Señora del Rosario, Caracas, Venezuela
+      time: 2013 - 2018
+      details: |
+        Educación secundaria completa.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cocinero
+      time: 2022 - Actualidad
+      company: Fusión con Sazón, Montevideo
+      details: |
+        Trabajo estacional durante la temporada de zafra.
+
+          - Cocina caliente y montaje de platos
+          - Apoyo en la preparación y organización del servicio en temporada de alta demanda
+
+    - role: Panadero
+      time: Oct. 2023 - Oct. 2024
+      company: Morelia, Montevideo
+      details: |
+        Elaboración de panes artesanales y entradas para el servicio diario.
+
+          - Apoyo en cocina caliente, postres y pizzas
+          - Coordinación con el equipo de cocina durante los servicios de mayor demanda
+
+    - role: Auxiliar de cocina
+      time: Jun. 2022 - Set. 2022
+      company: Burger King, Montevideo
+      details: |
+        Preparación de alimentos y montaje de pedidos según estándares de la cadena.
+
+          - Cumplimiento de protocolos de seguridad e higiene alimentaria
+
+    - role: Encargado de inventario y reposición
+      time: Ene. 2020 - Mar. 2021
+      company: Grill Market, Caracas, Venezuela
+      details: |
+        Control de inventario de la tienda y su sucursal.
+
+          - Reposición de mercancía en la tienda principal
+          - Elaboración del listado de compras para el servicio de cocina
+
+    - role: Ayudante de cocina
+      time: 2016 - Mar. 2021
+      company: Catering Grill Market & Gerardo Parrillero, Caracas, Venezuela
+      details: |
+        Preparación de carnes y mariscos para servicios de catering.
+
+          - Grillado, frituras y plancha
+          - Registro y organización de suministros de cocina
+          - Gestión de compras para el servicio
+
+# Your project portfolio
+projects:
+    intro: >
+      Proyectos desarrollados durante mi formación en 4Geeks Academy.
+      Podés ver el código completo en mi perfil de GitHub.
+
+    assignments:
+      - title: Proyecto Final (en desarrollo)
+        link: "https://github.com/Marcos33330"
+        tagline: "Proyecto final del bootcamp FullStack de 4Geeks Academy, desarrollado con React, Python, Flask y SQL. Próximamente con demo y repositorio propio."
+
+skills:
+    toolset:
+      - name: HTML5 & CSS3
+        level: 85%
+
+      - name: JavaScript & React
+        level: 75%
+
+      - name: Python & Flask
+        level: 75%
+
+      - name: SQL
+        level: 70%
+
+      - name: Git & GitHub
+        level: 80%
+
+      - name: APIs REST
+        level: 75%
