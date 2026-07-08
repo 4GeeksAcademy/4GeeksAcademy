@@ -13,194 +13,131 @@ basic_info:
     last_name: Berneri
     
     # Define yourself in 4-5 words
-    motto: I like saving the world
+    motto: Go slowly but surely
     
     # Focus
-    focus: Killing Bad Boys
+    focus: Front and learning Back 
     
     # You have 1 paragraph to make a great impression, summarize your career
-    summary: |
-      Summarize your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+    summary: 
+      I worked and lived at different countries, which has allowed me to develop 
+      a multicultural perspective, communication skills, and adaptability to dynamic environments. 
+      My career focuses on the graphic optimization of projects, achieving improvements in their visibility 
+      and positioning, providing creative solutions aligned with brand objectives.
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://randomuser.me/api/portraits/women/24.jpg
+    avatar: http://sep.breatheco.de/static/gringue.jpg
 
     # Contact Information
-    email: a@a.com #optional
-    phone: 234 2342 342 #optional
-    website: asd.com #optional
-    linkedin: alandoe #optional
+    email: berneri.carmela@gmail.com #optional
+    phone: +34 641 277 983 #optional
+    website: https://www.behance.net/gringa #optional
+    linkedin: https://www.linkedin.com/in/carmela-berneri/ #optional
     
     #
     # ******** IMPORTANT *******
     # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
     github: gringue
     
-    twitter: 'webjeda' #optional
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
 
     # Languages you speak, levels include: Native, Professional
     languages:
-      - idiom: English
+      - idiom: Spanish
         level: Native
 
-      - idiom: French
+      - idiom: English
         level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Italian
+        level: Intermediate
 
     # Interests or hobbies
     interests:
-      - item: Climbing
+      - item: Draw, Jewlery
 
-      - item: Snowboarding
+      - item: Music
 
-      - item: Cooking
+      - item: Plants
 
 # Your previous education
 education:
-    - degree: MSc in Computer Science
-      university: University of London
+    - degree: Bachelor Degree in Graphic Design
+      university: University of Buenos Aires
       # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+      university_logo: https://upload.wikimedia.org/wikipedia/commons/1/14/Logo_de_la_Universidad_de_Buenos_Aires.jpg
+      time: 2010 - 2018
+      details: 
+         Completed studies and graduated in GRAPHIC DESIGN. We had subjets like Typography, Design, Morphology 
+         and others more specifics like History of Arts, Prints, Semiotics, web design.
+         I learn how to manage time to deliver a work and make a teamwork whit my colleages
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      # optional
-      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your previous job experiences or volunteer
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Graphic Designer
+      time: Jan 2020 - Dec 2022
+      company: Ministerio de Medios y Comunicación Pública, Buenos Aires, Argentina
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://www.argentina.gob.ar/profiles/argentinagobar/themes/argentinagobar/argentinagobar_theme/logo_argentina-azul.svg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+       Report writing, data merging, content creation for social media, identity, 
+       content editing in the Wordpress project of Radio Nacional and Palacio Libertad (formerly CCK)
 
-          - Bullet point
-          - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Freelance Graphic Designer
+      time: Jan 2018 - Dec 2019
+      company: Cabernica, online
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://mir-s3-cdn-cf.behance.net/projects/max_808/c76930165940773.Y3JvcCw5NDUsNzM5LDI3NiwxMTQ.jpg
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+       Worked independently providing design services for companies and entrepreneurs: logo design, brochures, 
+       institutional cards, leaflets, covers, labels, posters, packaging, and websites.
 
-          - Bullet point
-          - Bullet point
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Content Manager & Content Editor
+      time: Jan 2016 - Dec 2016
+      company: Wunderman Thompson, Buenos Aires, Argentina
       # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      company_logo: https://upload.wikimedia.org/wikipedia/commons/0/0d/Wunderman_Logo_2015.png
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+        Management and coordination of Ford's web migration project.
+          - Web design and development, layout, and content
+          - Audience strategy for topics to be addressed, keywords, styles, and appropriate formats
 
 # Your project portfolio
 projects:
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
+      - title: Kaotek
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        project_logo: https://www.behance.net/gallery/230666591/Tek-Fest-social-media/modules/1328761071
+        link: "https://www.behance.net/gallery/230666591/Tek-Fest-social-media"
+        tagline: "Irish Rave Movement-Underground Poster Collective festival in Ireland, Dublin"
 
-      - title: DevStudio
+      - title: Pulpito
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        project_logo: https://mir-s3-cdn-cf.behance.net/projects/max_808/402015132577561.Y3JvcCw3OTk0LDYyNTIsMCw1OQ.jpg
+        link: "https://v3.globalgamejam.org/2017/games/pulpito"
+        tagline: "Our game for GGJ, concept: “WAVES”"
 
-      - title: Tempo
+      - title: Characters Design
         # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        project_logo: https://mir-s3-cdn-cf.behance.net/projects/404/c76930165940773.Y3JvcCw5NDUsNzM5LDI3NiwxMTQ.jpg
+        link: "https://www.behance.net/gallery/165940773/Our-City-character-design"
+        tagline: "characters to represent parts of our city for a language NGO (Turin, Italy)"
 
-      - title: Atom
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        # optional
-        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Photoshop & Illustrator
+        level: 90%
 
-      - name: JavaScript & jQuery
-        level: 98%
+      - name: Premiere, After Effects & InDesign
+        level: 50%
 
-      - name: Angular
-        level: 98%
+      - name: Figma, Whimsical, Miro, interface design & wireframes
+        level: 40%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: HTML5, CSS, Wordpress & Trello
+        level: 30%
