@@ -1,0 +1,36 @@
+---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Juan
+  last_name: Pérez
+  motto: Estudiante Full Stack
+  summary: |
+    Apasionado por el desarrollo web y en constante aprendizaje.
+  email: juan@email.com
+  github: juanperez123
+  linkedin: juanperez
+education:
+  - degree: Full Stack Developer
+    university: 4Geeks Academy
+    time: 2025-2026
+experiences:
+  - role: Estudiante
+    time: 2025-Presente
+    company: 4Geeks Academy
+    details: |
+      Aprendiendo HTML, CSS, JavaScript y React.
+projects:
+  - title: Mi primer sitio web
+    link: https://github.com/juanperez123
+    tagline: Proyecto desarrollado durante el curso.
+skills:
+  toolset:
+    - name: HTML
+      level: 70
+    - name: CSS
+      level: 65
+    - name: JavaScript
+      level: 50
+    - name: Git
+      level: 40
