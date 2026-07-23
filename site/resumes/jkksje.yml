@@ -1,0 +1,118 @@
+template: "online-cv"
+skin: "orange"
+
+basic_info:
+
+    # Profile information
+    first_name: Roberto
+    last_name: Gonzales
+    motto: Creative Animator & Motion Graphics Designer
+    avatar: profile.png
+    summary: 
+      Creative animator passionate about bringing ideas to life through
+      2D and 3D animation, motion graphics, and digital design. I enjoy
+      creating visually engaging content for advertising, social media,
+      entertainment, and multimedia projects.
+
+      I am constantly improving my creative and technical skills while
+      learning new animation techniques and industry-standard software
+      to produce high-quality visual content.
+
+    # Sidebar links
+    email: roberto.gonzales@email.com
+    phone: +507 6000-0000
+    website:
+    linkedin: roberto-gonzales
+    github: jkksje
+    twitter:
+    stack-overflow:
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Intermediate
+
+    interests:
+      - item: Animation
+
+      - item: Motion Graphics
+
+      - item: Digital Illustration
+
+      - item: Video Editing
+
+      - item: Graphic Design
+
+education:
+    - degree: Animation and Digital Design
+      university: University
+      time: 2026 - Present
+      details: 
+        Studying animation, digital design, visual storytelling,
+        character design, motion graphics, and multimedia production.
+        Developing creative and technical skills using professional
+        animation software.
+
+experiences:
+    - role: Freelance Animator
+      time: 2024 - Present
+      company: Self-Employed
+      details: 
+        Creating animated content for personal and academic projects.
+        Designing motion graphics, animated advertisements, and visual
+        content for social media.
+
+          - Animated promotional videos.
+          - Created digital illustrations and motion graphics.
+
+projects:
+    intro: 
+      Personal and academic projects focused on animation, digital
+      design, and multimedia content creation.
+
+    assignments:
+      - title: Animated Advertisement
+        link: "#"
+        tagline: "Created a promotional animation for a product using motion graphics."
+
+      - title: Character Animation
+        link: "#"
+        tagline: "Designed and animated an original 2D character."
+
+      - title: Social Media Motion Graphics
+        link: "#"
+        tagline: "Developed short animated content optimized for social media."
+
+skills:
+    toolset:
+      - name: Adobe After Effects
+        level: 90%
+
+      - name: Adobe Illustrator
+        level: 85%
+
+      - name: Adobe Photoshop
+        level: 85%
+
+      - name: Adobe Premiere Pro
+        level: 80%
+
+      - name: Blender
+        level: 75%
+
+      - name: Autodesk Maya
+        level: 70%
+
+      - name: Toon Boom Harmony
+        level: 70%
+
+      - name: Motion Graphics
+        level: 90%
+
+      - name: 2D Animation
+        level: 90%
+
+      - name: 3D Animation
+        level: 75%
