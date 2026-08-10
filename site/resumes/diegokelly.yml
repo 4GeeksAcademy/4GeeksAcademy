@@ -1,0 +1,71 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+    first_name: Diego
+    last_name: Kelly
+    motto: "Me encanta ayudar a los demás"
+    focus: "Resolver problemas con tecnología"
+    summary: |
+      Actualmente estoy formándome en desarrollo de software en 4Geeks Academy.
+      Me interesa aprender a utilizar la tecnología para resolver problemas y
+      crear soluciones útiles. Estoy desarrollando mis conocimientos de
+      programación, desarrollo web, Git y GitHub, y me gusta aprender de forma
+      práctica y compartir mis avances.
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+    email: kellydiego927@gmail.com
+    github: diegokelly
+    twitter: "diegokelly"
+    stack-overflow:
+    languages:
+      - idiom: Español
+        level: Nativo
+      - idiom: Inglés
+        level: Profesional
+    interests:
+      - item: Tecnología
+      - item: Aprender
+      - item: Ayudar a los demás
+
+education:
+    - degree: Desarrollo de Software
+      university: 4Geeks Academy
+      time: 2026 - Presente
+      details: |
+        Formación en desarrollo de software y programación.
+        Actualmente estoy aprendiendo fundamentos de programación,
+        desarrollo web, Git y GitHub.
+
+experiences:
+    - role: Estudiante de Desarrollo de Software
+      time: 2026 - Presente
+      company: 4Geeks Academy
+      details: |
+        Actualmente estoy formándome en desarrollo de software,
+        aprendiendo programación, Git, GitHub y desarrollo web.
+
+projects:
+    intro: >
+      Proyectos y ejercicios realizados durante mi formación como
+      desarrollador de software, aplicando los conocimientos adquiridos
+      y aprendiendo nuevas tecnologías.
+    assignments:
+      - title: Aprende en Público
+        link: "#"
+        tagline: "Mi primer proyecto de aprendizaje utilizando Git, GitHub y Pull Requests."
+      - title: Proyectos de aprendizaje
+        link: "#"
+        tagline: "Ejercicios y proyectos realizados durante mi formación en desarrollo de software."
+
+skills:
+    toolset:
+      - name: Git y GitHub
+        level: 50%
+      - name: HTML
+        level: 40%
+      - name: CSS
+        level: 30%
+      - name: JavaScript
+        level: 20%
+      - name: Python
+        level: 20%
