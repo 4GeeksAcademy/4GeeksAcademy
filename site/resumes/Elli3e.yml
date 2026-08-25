@@ -1,0 +1,112 @@
+#---
+template: online-cv
+skin: blue
+basic_info:
+  first_name: Ellie
+  last_name: Babaie
+  motto: I like saving the world
+  focus: coding
+  summary: >
+    Drug delivery and formulation scientist with 7+ years of experience
+    developing lipid-, polymer-, and nanoparticle-based therapeutics 
+
+    for parental and nucleic acid delivery applications. Expertise in long-acting injectable (LAI) formulations, microfluidic nanoparticle 
+
+    manufacturing, analytical characterization, and preclinical formulation development. Proven track record supporting cross-functional 
+
+    pharmaceutical R&D programs through formulation optimization, physicochemical characterization, process development, and translational
+     evaluation. Strong background in biomaterials, controlled-release systems, and advanced analytical techniques relevant to innovative 
+     drug delivery platforms.
+  email: e_babaie@yahoo.com
+  linkedin: https://www.linkedin.com/in/ellie-babaie-37484638/
+  github: Elli3e
+  twitter: https://x.com/Ellie_phx
+  stack-overflow: null
+  languages:
+    - idiom: Farsi
+      level: Native
+    - idiom: English
+      level: Professional
+    - idiom: Spanish
+      level: Beginner
+  interests:
+    - item: hiking
+    - item: sking
+    - item: Cooking
+education:
+  - degree: PhD in Biomedical Engineering
+    university: University of Toledo
+    university_logo: https://www.utoledo.edu/
+    time: 2012 - 2016
+    details: >
+      
+
+      - Developed and evaluated various bone graft substitutes based on biopolymer and bioceramics
+
+      - Investigated biomaterial structure-property relationships using FTIR, XRD, SEM, and mechanical characterization techniques.
+  - degree: B.Sc. , M.Sc. in Biomedical Engineering
+    university: Amirkabir University of Technology
+    time: 2008 - 2011
+    details: |
+      
+      - Nano particle based drug delivery
+experiences:
+  - role: Scientist II
+    time: 2023 - 2025
+    company: Foresee pharmaceutical
+    details: >
+      -	Developed and characterized long-acting injectable (LAI) formulations
+      enabling controlled-release delivery and preclinical candidate evaluation.
+
+      -	Designed and executed analytical methods for API stability, in vitro release, particle size analysis, injection force testing, polymer degradation, and molecular weight characterization.
+
+      - Performed formulation screening, forced degradation testing, and stability assessments resulting in optimized candidate selection and formulation.
+
+      - Hands-on experience with lipid-, polymeric-, and oil-based depot formulations for parenteral delivery applications.
+
+      - Collaborated cross-functionally with analytical and clinical teams to support translation drug delivery programs.
+
+      -	Supported preclinical PK studies through formulation selection, study coordination, and PK data interpretation.
+
+      -	Optimized sterile filtration processes for viscous polymer- and lipid-based injectable formulations, improving manufacturability and process robustness.
+  - role: Application scientist
+    time: 2012 - 2023
+    company: Unchained labs
+    details: >
+      -	Developed lipid nanoparticles (LNPs), liposomes, and PLGA
+      nanoparticles using microfluidic technologies for siRNA, mRNA, and
+      oligonucleotide delivery  contributing to technology evaluation and
+      customer applications.
+
+      - Performed nanoparticle purification workflows including UF/DF, ethanol removal, and buffer exchange supporting formulation development and instrument validation.
+
+      - Characterized nanoparticle systems using DLS, zeta potential, encapsulation efficiency, and microscopy techniques.
+
+      - Collaborated with commercial and technical teams to generate validation data, troubleshoot workflows, and support customer applications.
+  - role: Scientist
+    time: 2021 - 2022
+    company: >-
+      Aziyo biologics
+
+
+      - Processed biologic materials using lyophilization, homogenization, and cryogenic grinding for development of regenerative biologic products. -	Developed cell-based assays to evaluate biologic activity, release kinetics, and material performance enabling candidate evaluation. -	Established protocols for cell isolation, cryopreservation, differentiation, and tissue viability assessment.
+projects:
+  intro: >
+    You can list your side projects or open source libraries in this section.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+    ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: python - the-misspell-chalenge
+      project_logo: null
+      link: "#hook"
+      tagline: finding misspelling
+skills:
+  toolset:
+    - name: Python
+      level: 98%
+    - name: JPM
+      level: 95%
+    - name: Origin lab
+      level: 95%
+    - name: Aviso
+      level: 60%
