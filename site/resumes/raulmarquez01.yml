@@ -1,0 +1,112 @@
+template: "online-cv"
+skin: "blue"
+
+basic_info:
+  first_name: Raúl
+  last_name: Márquez
+  motto: "Passionate about economics, data analytics and finance"
+  focus: "Economics, Data Analytics and Finance"
+  summary: "Experiencia diversa en áreas como comercial, finanzas e investigación de mercado, con paso por empresas como PwC, ImpactHub, Mondelēz International y Grupo Solfín. Actualmente combinando ese background con el aprendizaje de Data Science en 4Geeks Academy."
+  email: raulmarquezmata@gmail.com
+  github: raulmarquez01
+  languages:
+    - idiom: Spanish
+      level: Native
+    - idiom: English
+      level: Professional (C2)
+  interests:
+    - item: Fútbol
+    - item: Ejercicio
+    - item: Tiempo con amigos
+
+education:
+  - degree: Economista
+    university: Universidad Metropolitana (Caracas, Venezuela)
+    time: "Fechas por confirmar"
+    details: ""
+  - degree: Bachiller en Ciencias
+    university: I.E. Henry Clay
+    time: "Fechas por confirmar"
+    details: ""
+
+experiences:
+  - role: Research Analyst
+    time: "mar. 2026 - actualidad"
+    company: Grupo Solfín
+    details: |
+      Elaboración y publicación de informes de análisis financiero y sectorial (energía, sector bancario, petróleo y gas) para Grupo Solfín.
+  - role: Controlador Financiero
+    time: "oct. 2021 - actualidad"
+    company: MT Bakery
+    details: |
+      - Gestión integral del área administrativa, incluyendo la creación de precios finales, precios sugeridos y márgenes de ganancia, asegurando la rentabilidad del negocio.
+      - Evaluación de costos fijos y variables, cálculo de depreciación de activos y estimación de pagos de préstamos para una correcta planificación financiera.
+      - Negociación con clientes y elaboración de propuestas comerciales personalizadas para impulsar ventas y fortalecer relaciones comerciales.
+      - Análisis de cuotas y ventas, monitoreo de rendimiento de clientes y evaluación de sensibilidad de precios para optimizar estrategias comerciales.
+      - Toma de decisiones estratégicas sobre volúmenes de producción y políticas de precios, alineando los objetivos financieros con la capacidad operativa de la empresa.
+  - role: Financial Planning & Performance Analyst
+    time: "mar. 2025 - mar. 2026"
+    company: Mondelēz International
+    details: |
+      - Gestión y optimización de esquemas de descuento (pronto pago, volumen, acuerdos comerciales y trade incentives) para maximizar sell-in y sell-out por canal y categoría.
+      - Seguimiento y control financiero de descuentos comerciales, asegurando consistencia entre lo planificado y lo ejecutado.
+      - Construcción de dashboards en Power BI para monitoreo de KPIs comerciales y toma de decisiones en tiempo real.
+      - Soporte estratégico a equipos de Ventas y Trade Marketing mediante análisis de rentabilidad por cliente, canal y producto.
+      - Interacción constante con el equipo comercial para levantar feedback de campo y ajustar estrategias de descuentos e incentivos.
+      - Evaluación continua de la efectividad de promociones y acuerdos comerciales, identificando oportunidades de optimización.
+  - role: Sales Intern
+    time: "may. 2024 - dic. 2024"
+    company: Mondelēz International
+    details: |
+      - Apoyo en la gerencia de volumen y ejecución y consolidación de descuentos por pronto pago, volumen y acuerdos comerciales.
+      - Apoyo en la gestión y consolidación de acuerdos comerciales.
+      - Análisis de ventas en las regiones de Centro y Occidente para sus diferentes canales, así como apoyo en la asignación de cuotas.
+  - role: Risk Assurance Services Assistant
+    time: "abr. 2023 - abr. 2024"
+    company: PwC
+    details: |
+      - Asistencia en la supervisión y gestión de los procesos de Aseguramiento Limitado (NAAE) en el área de Gobierno, Riesgo y Cumplimiento (GRC) para clientes del sector financiero, específicamente en la Prevención y Control de Legitimación de Capitales y otros Ilícitos.
+      - Responsable de garantizar el cumplimiento de las normativas emitidas por la Superintendencia de las Instituciones del Sector Bancario (SUDEBAN) y la Superintendencia del Sector Valores (SUNAVAL).
+      - Participación en el desarrollo de proyectos en Risk Assurance Services (RAS), incluyendo la concepción de nuevos servicios y análisis de datos.
+  - role: Guía de Campamento
+    time: "jul. 2022 - sept. 2023"
+    company: La Llanada
+    details: |
+      - Supervisión y cuidado integral de niños de 11 a 12 años durante una experiencia de campamento de tres semanas, fomentando su desarrollo personal y social en un entorno seguro y dinámico.
+      - Liderazgo de actividades recreativas, deportivas y educativas, promoviendo el trabajo en equipo, la creatividad y el desarrollo de habilidades sociales.
+      - Diseño y ejecución de juegos y dinámicas adaptadas a las necesidades y preferencias del grupo, asegurando una experiencia divertida y enriquecedora.
+      - Manejo de situaciones de convivencia y resolución de conflictos, fortaleciendo la comunicación y el entendimiento mutuo entre los participantes.
+      - Coordinación y trabajo en equipo con otros guías para garantizar una programación efectiva y el cumplimiento de los objetivos del campamento.
+  - role: Host
+    time: "nov. 2021 - abr. 2023"
+    company: Impact Hub Caracas
+    details: |
+      - Atención al público en las instalaciones de Impact Hub Caracas.
+      - Asistencia de producción y logística en eventos internos y de terceros.
+      - Asistencia de producción y logística en programas sociales y de apoyo a emprendedores.
+
+projects:
+  intro: "Informes de análisis financiero y sectorial publicados para Grupo Solfín."
+  assignments:
+    - title: "Venezuela–EE. UU.: un nuevo marco para el petróleo"
+      link: "https://www.linkedin.com/posts/raulmarquezmata_petr%C3%B3leo-activity-7501251439248248832-19qm"
+      tagline: "Análisis de la estructura del acuerdo, las nuevas licencias OFAC, la reacción de la deuda venezolana y las implicaciones fiscales y crediticias para Venezuela."
+    - title: "Informe del Sector Bancario – Julio 2026"
+      link: "https://www.linkedin.com/posts/raulmarquezmata_bancario-julio-ugcPost-7498031462139490304-DCE3/"
+      tagline: "Evolución de balances, crédito, depósitos, liquidez, entorno cambiario y valoración bursátil del sector bancario venezolano."
+    - title: "Petróleo & Gas – Agosto 2026"
+      link: "https://www.linkedin.com/in/raulmarquezmata/recent-activity/all/"
+      tagline: "Producción, exportaciones, nuevos proyectos, cambios regulatorios y perspectivas de inversión en el sector petróleo y gas de Venezuela."
+
+skills:
+  toolset:
+    - name: Python
+      level: 40
+    - name: Power BI
+      level: 70
+    - name: Financial & Cost Planning
+      level: 85
+    - name: Customer Service & Customer Experience
+      level: 80
+    - name: Problem Solving & Creative Strategy
+      level: 80
