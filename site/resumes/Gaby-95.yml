@@ -1,0 +1,151 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "turquoise"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María Gabriela
+    last_name: Esculpi
+
+    # Define yourself in 4-5 words
+    motto: Comunicación, SEO y desarrollo web
+
+    # Focus
+    focus: SEO y desarrollo web
+
+    # A short paragraph to make a great impression
+    summary: |
+       Me interesa crear experiencias digitales útiles, claras y orientadas a las necesidades de los usuarios.
+    # Your profile picture URL
+    # If you don't have one, you can leave this field empty for now.
+    avatar: ""
+
+    # Contact Information
+    email: ""
+    phone: ""
+    website: ""
+    linkedin: "https://www.linkedin.com/in/mar%C3%ADa-gabriela-e-16b582186/"
+
+    # IMPORTANT:
+    # This GitHub username will be used to generate your public profile URL.
+    github: Gaby-95
+
+    twitter: ""
+    stack-overflow:
+
+    # Languages you speak
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: SEO
+
+      - item: Web development
+
+      - item: Digital communication
+
+      - item: Content creation
+
+
+# Your previous education
+education:
+
+    - degree: Licenciatura en Comunicación Social
+      university: Universidad Monteávila
+      time: 2016 - 2021
+      details: |
+        Formación en comunicación social de forma integral.
+
+    - degree: Especialista SEO
+      university: Aprendo Club.
+      time: 2025 - 2026
+      details: |
+        Formación teórica y práctica en todas las áreas del SEO.
+
+        -SEO on page
+        -SEO off page
+        -SEO técnico
+        -Redacción SEO
+           
+    - degree: Full Stack Web Development
+      university: 4Geeks Academy
+      time: 2026 
+      details: |
+        Formación práctica en desarrollo web Full Stack, con énfasis en tecnologías frontend y backend.
+
+        - HTML, CSS y JavaScript
+        - React y Bootstrap
+        - Python y Flask
+        - SQLAlchemy y bases de datos
+        - APIs REST
+        - Git y GitHub
+
+
+# Your previous job experiences
+experiences:
+
+    - role: Analista de Comunicaciones Corporativas
+      time: 2023 - Actualidad
+      company: Hospital de Clínicas Caracas
+      details: |
+        Desarrollo y gestión de contenidos y comunicaciones corporativas para diferentes canales digitales y físicos.
+
+        - Creación de contenidos y redacción de comunicaciones.
+        - Desarrollo de campañas digitales y materiales de comunicación.
+        - Gestión de contenidos para canales digitales.
+        - Coordinación con proveedores y agencias.
+        - Seguimiento de tendencias y análisis de la competencia.
+        - Elaboración de boletines, comunicados y artículos.
+
+
+# Your project portfolio
+projects:
+
+    intro: >
+      Proyectos desarrollados durante mi formación en desarrollo web y mi proceso
+      de especialización en SEO y productos digitales.
+
+    assignments:
+
+      - title: LocalVibes
+        link: "#"
+        tagline: "Aplicación web desarrollada con React, Flask y Bootstrap para descubrir eventos y actividades en la ciudad de Caracas."
+
+      - title: Sitio web del Hospital de Clínicas Caracas
+        link: "#"
+        tagline: "Diseño UX/UI del sitio web del Hospital de Clínicas Caracas"
+
+      
+# Your skills
+skills:
+
+    toolset:
+
+      - name: HTML & CSS
+        level: 30%
+
+      - name: Git & GitHub
+        level: 50%
+
+      - name: SEO
+        level: 70%
+
+      - name: UI/UX
+        level: 40%
+
+      - name: WordPress
+        level: 50%
+
+      - name: Canva
+        level: 85%
+
