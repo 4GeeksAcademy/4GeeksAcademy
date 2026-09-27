@@ -1,0 +1,70 @@
+
+template: "online-cv"
+skin: "blue"
+
+
+basic_info:
+  first_name: Cristian
+  last_name: González
+
+  
+  motto: Aprendiendo cada día para construir software útil
+
+  
+  focus: Desarrollo de Software
+
+  
+  summary: |
+    Tecnólogo en Desarrollo de Software graduado de la Universidad de
+    Cundinamarca. Actualmente construyendo mi perfil profesional como
+    desarrollador junior, con experiencia en Python y Java a través de
+    proyectos académicos. Colaboré en Alerta Roja, una aplicación de
+    gestión de emergencias construida con Flutter y Node.js.
+
+  
+  avatar: https://github.com/cristiangonzalesdev.png
+
+  
+  email: leonardogonzales0525@gmail.com 
+  linkedin: cristiangonzalezdev 
+
+
+  github: cristiangonzalesdev
+
+  
+  languages:
+    - idiom: Español
+      level: Native
+
+  
+  interests:
+    - item: Programación
+    - item: Ejercicio
+    - item: Apender cosas nuevas
+
+
+education:
+  - degree: Tecnólogo en Desarrollo de Software
+    university: Universidad de Cundinamarca
+    university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    time: "2022-2026" 
+    details: |
+      Formación técnica en desarrollo de software, con enfoque en
+      programación, bases de datos y buenas prácticas de ingeniería.
+
+projects:
+  intro: >
+    Estos son algunos de los proyectos en los que he trabajado durante
+    mi formación como desarrollador.
+  assignments:
+    - title: Alerta Roja
+      project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      link: "https://github.com/cristiangonzalesdev/Alerta_roja_app" 
+      tagline: "Aplicación colaborativa de gestión de emergencias construida con Flutter y Node.js."
+
+skills:
+  toolset:
+    - name: Python
+      level: 70%
+    - name: Java
+      level: 60%
