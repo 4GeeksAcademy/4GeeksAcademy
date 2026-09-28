@@ -77,3 +77,7 @@ A) If you have python:
 ```py
 $ npm run build
 ```
+
+---
+
+Nota: perfil mantenido por [@mkcodev](https://github.com/mkcodev).
