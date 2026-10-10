@@ -1,0 +1,258 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Emanuel
+    last_name: Mejía
+    
+    # Define yourself in 4-5 words
+    motto: Legends Never Die
+    
+    # Focus
+    focus: Applied research and business development in cutting-edge innovations. 
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary:
+      Data scientist, MBA and actuary with experience as executive in technology-based companies, with a strong focus on social impact, 
+      sustainability, and strategic decision-making. 
+      
+      Passionate, commited and reliable, always eager to learn new skills.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/v2/D5603AQH19Dm7Z9QwiA/profile-displayphoto-shrink_800_800/B56Zdmei5.HUAg-/0/1749770973930?e=1772668800&v=beta&t=fSoz6kunjsZuN_JQsEWx2CRyhZrh7cCdwtZyTgNQdk8
+
+    # Contact Information
+    email: emanuel@firedrop.mx #optional
+    # website: asd.com #optional
+    linkedin: www.linkedin.com/in/emanuel-mejia-firedrop #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: emanuelmejia
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Reading Comprehension
+
+    # Interests or hobbies
+    interests:
+      - item: Developing Startups
+
+      - item: Statistics and Machine Learning
+
+      - item: Reading Research Articles
+
+      - item: Playing Videogames
+
+      - item: Playing Guitar
+
+# Your previous education
+education:
+    - degree: MSc in Data Science
+      university: UC Berkeley
+      # optional
+      university_logo: https://brand.berkeley.edu/wp-content/uploads/2024/08/logo-variations-thumbnail-gold-blue-1-1024x656.png
+      time: 2021 - 2024
+      details: |
+        The multidisciplinary online data science master’s curriculum draws upon computer science artificial intelligence (AI), 
+        machine learning, social sciences, statistics, management, and law. Students use the latest tools and analytical methods 
+        to work with data at scale, derive insights from complex and unstructured data, and solve real-world problems. Coursework:
+
+          - Research Design for Data and Analysis
+          - Statistics for Data Science
+          - Data Engineering
+          - Applied Machine Learning
+          - Data Visualization
+          - Time Series and Panel Data
+          - Experiments and Causal Inference
+
+    - degree: MBA
+      university: IPADE Business School
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM4BRCU_GqmAXgSUnrUwwE82o7Qtnqxmbl5Q&s
+      time: 2018 - 2020
+      details: |
+        This Executive MBA is a graduate degree program aimed at boosting a management career and sharpening the skills 
+        to take on senior positions. Coursework:
+
+          - Decision Analysis
+          - Financial Accounting
+          - Operations Management 
+          - Risk and Crisis Management
+          - Marketing
+          - Technology Management
+          - Enterprise Politics
+          - Human Factor
+          - Entrepreneurship
+          - Ethics and Social Responsibility
+          - Negotiation
+
+    - degree: BSc in Actuarial Science
+      university: UNAM Mexico
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zy69rzQbX2DEHxmLy7O41bkHHMCP4-3C7w&s
+      time: 2008 - 2012
+      details: |
+        This program aims to develop analytical reasoning through the creative application of scientific principles, 
+        being able to study, pose, formulate, and apply models with mathematical content in order to provide information 
+        for planning, forecasting, and decision-making; as well as develop and apply mathematical knowledge and tools to 
+        analyze, evaluate, and solve economic and social problems involving risk. Coursework:
+
+          - Probability
+          - Statistics
+          - Stochastic Processes
+          - Bayesian Statistics
+          - Risk Theory
+          - Financial Mathematics
+          - Mathematical Economy
+          - Actuarial Mathematics
+          - Operations Research
+          - Superior Algebra
+          - Calculus
+          - Mathematical Analysis
+          - Analytical Geometry
+          - Differential Equations
+          - Numerical Methods
+          - Computer Science
+    
+
+# Your previous job experiences or volunteer
+experiences:
+
+    - role: Instructor
+      time: 2025 - Present
+      company: Applied Mathematics and Actuary Training, Mexico City
+      # optional
+      company_logo: https://static.wixstatic.com/media/023128_7f3a63a28eab4d0a91712a6fe8319981~mv2.png/v1/crop/x_0,y_852,w_7987,h_2729/fill/w_255,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo-NEW-AMATFONDO-BLANCO.png
+      details: |
+        I provide training to institutions and professionals on theoretical concepts in statistics and mathematics, applying them through different programming languages.  
+
+          - I delivered a Python programming and statistics course to the Mexican Institute of Social Security (IMSS).
+          - I taught a forecasting course focused on time series and R programming to actuaries and mathematicians.
+          - I gave a course on Visualization and interactive charts using python.
+          - I instructed a course on inferential statistics for an insurance company in Mexico City.
+
+    - role: Chairman
+      time: 2021 - Present
+      company: FireDrop, Mexico City
+      # optional
+      company_logo: https://firedrop.mx/wp-content/uploads/2020/07/logo_.png
+      details: |
+        I preside board meetings to decide topics on company growth and capitalization, corporate philosophy and structure, investments 
+        and strategic partnerships ensuring the organization’s long-term health and sustainability. 
+
+          - I led the transition from an unstructured start-up to six fully functional departments.
+          - I developed corporate philosophy, as well as the policies and procedures needed for each department to operate efficiently.
+          - I capitalized the company, achieving a growth of over 1,000x. 
+          - I established a partnership with the largest graphics industry association in the country (ANIDIGRAF) and participated as an exhibitor in every national trade show (EXPOGRAFICA) since joining.
+
+    - role: CEO & Founder
+      time: 2015 - 2024
+      company: FireDrop, Mexico City
+      # optional
+      company_logo: https://firedrop.mx/wp-content/uploads/2020/07/logo_.png
+      details: |
+        I oversaw the design, implementation, and execution of a comprehensive corporate strategy, overseeing team performance, resource 
+        management, and key decision-making to ensure the company achieved its established goals.  
+
+          - I implemented an integrated administration system, transitioning from a homemade solution to cutting-edge enterprise platforms. 
+          - I achieved over $1M in annual revenue within five years, starting from $2,500 in seed capital. 
+          - I led the design and integration of secure printing systems for official documents, license plates, lottery tickets, labels, packaging and other special projects with anti-counterfeit features and automated verification.
+          - I oversaw the manufacturing of license plate and card production machines, integrating digital printing, laser engraving, and data encoding.
+          - I supervised the development of fraud-prevention systems for lottery and bingo ticket production. 
+          - I directed the restoration of Mexico City’s subway ticket printing and encoding equipment. 
+
+    - role: Data Analyst
+      time: 2014 - 2015
+      company: Converse, Mexico City
+      # optional
+      company_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwyJ2tYeDx7jsZMeYW-Ka9wDGbEi1laZyDQ&s
+      details: |
+        I oversaw data cleaning and analysis to forecast product demand by point of sale, optimizing inventory distribution to increase sales 
+        and reduce product waste. 
+
+          - I programmed statistical models and functions to automate database cleaning and analysis. 
+          - I advanced from trainee to managing sales analysis and inventory allocation in three major department stores (Liverpool, Palacio de Hierro, and Sears) within two months.
+          - I increased shoe sales by over 10% on average, and up to 50% in specific locations, through optimized inventory distribution based on the developed models.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: ShelterAID Public Health Resources Map
+        link: "https://github.com/emanuelmejia/research_n_projects/tree/main/machine_learning_n_deep_learning/project_shelteraid"
+        tagline: "Computer vision models to detect homeless encampments in aerial imagery, supporting public health 
+                  agencies in their efforts to reach more people in need."
+
+      - title: Effects of Reducing Visible Light on Sleep Quality
+        link: "https://github.com/emanuelmejia/research_n_projects/blob/main/causal_inference/experiment_sleep_study/report/sleep_study_report.pdf"
+        tagline: "experiment to answer the following research question: “Does reducing exposure to visible light one hour 
+                  before bedtime have an impact on sleep quality?” where subjects experienced both control and treatment phases."
+
+      - title: Analysis of Carbon Dioxide
+        link: "https://github.com/emanuelmejia/research_n_projects/blob/main/time_series_n_panel_data/analysis_co2_ts/report/co2_Analysis.pdf"
+        tagline: "Linear trends and ARIMA time series models to forecast the growth of atmospheric CO2."
+
+      - title: Alzheimer’s Progression An Image Classification project using MRI Data
+        link: "https://github.com/emanuelmejia/research_n_projects/blob/0ec1a5683fd55c2a7a40ff26518e97ad32536ab1/machine_learning_n_deep_learning/project_alzheimers_cnn/Alzheimer's_Final_Presentation_with_Notes.pdf"
+        tagline: "Machine learning models to classify brain MRIs into four possible Alzheimer's stages."
+
+      - title: How Post Length Affects Engagement on Facebook
+        link: "https://github.com/emanuelmejia/research_n_projects/blob/main/explanatory_statistics/post_engagement_analysis/reports/post_engagement_report.pdf"
+        tagline: "Multiple linear regression models to address a research question on how user engagement on the Facebook platform is affected by post 
+                  length while controlling for other variables such as post date, post share counts, page category, and page popularity?"
+
+      - title: US Traffic Fatalities
+        link: "https://github.com/emanuelmejia/research_n_projects/blob/main/time_series_n_panel_data/analysis_traffic_fatalities_pd/traffic_fatalities_report.pdf"
+        tagline: "Panel data models to determine whether traffic laws affect traffic fatalities."
+
+skills:
+    software:
+      - name: Python
+        level: 95%
+
+      - name: R
+        level: 95%
+
+      - name: VBA
+        level: 90%
+
+      - name: SQL
+        level: 80%
+
+      - name: C & C++
+        level: 80%
+
+      - name: HTML, CSS, SVG & BS
+        level: 70%
+      
+      - name: Terminal & Git
+        level: 70%
+
+      - name: Tableau
+        level: 70%
+
+      - name: JS
+
+      - name: Adobe CC
+        level: 60%
